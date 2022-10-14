@@ -1,8 +1,11 @@
 import React from 'react'
+import Inspire from './components/Inspire'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Inspire />
+    </div>
   )
 }
 

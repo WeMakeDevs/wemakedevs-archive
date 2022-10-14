@@ -1,0 +1,30 @@
+:root {
+    /* Font Sizes */
+    --font-size-sm: clamp(0.88rem, 0.53vw + 0.74rem, 1.38rem);
+    /* https://www.fluid-type-scale.com/calculate?minFontSize=14&minWidth=400&minRatio=3&maxFontSize=22&maxWidth=1920&maxRatio=1.38&steps=sm&baseStep=sm&prefix=font-size&decimals=2&useRems=on&previewFont=Inter */
+  
+    --font-size-base: clamp(1rem, 0.53vw + 0.87rem, 1.5rem);
+    /* https://www.fluid-type-scale.com/calculate?minFontSize=16&minWidth=400&minRatio=3&maxFontSize=24&maxWidth=1920&maxRatio=1.38&steps=base&baseStep=base&prefix=font-size&decimals=2&useRems=on&previewFont=Inter */
+  
+    --font-size-md: clamp(1.25rem, 0.76vw + 0.97rem, 1.88rem);
+    /* https://www.fluid-type-scale.com/calculate?minFontSize=20&minWidth=600&minRatio=3&maxFontSize=30&maxWidth=1920&maxRatio=1.38&steps=md&baseStep=md&prefix=font-size&decimals=2&useRems=on&previewFont=Inter */
+  
+    --font-size-lg: clamp(1.88rem, 0.79vw + 1.68rem, 2.63rem);
+    /* https://www.fluid-type-scale.com/calculate?minFontSize=30&minWidth=400&minRatio=3&maxFontSize=42&maxWidth=1920&maxRatio=1.38&steps=lg&baseStep=lg&prefix=font-size&decimals=2&useRems=on&previewFont=Inter */
+  
+    --font-size-xl: clamp(2.25rem, 1.71vw + 1.82rem, 3.88rem);
+    /* https://www.figma.com/exit?url=https%3A%2F%2Fwww.fluid-type-scale.com%2Fcalculate%3FminFontSize%3D36%26minWidth%3D400%26minRatio%3D3%26maxFontSize%3D62%26maxWidth%3D1920%26maxRatio%3D1.38%26steps%3Dxl%26baseStep%3Dxl%26prefix%3Dfont-size%26decimals%3D2%26useRems%3Don%26previewFont%3DInter */
+  
+    --font-size-xxl: clamp(3.25rem, 1.84vw + 2.79rem, 5rem);
+    /* https://www.fluid-type-scale.com/calculate?minFontSize=52&minWidth=400&minRatio=3&maxFontSize=80&maxWidth=1920&maxRatio=1.38&steps=xxl&baseStep=xxl&prefix=font-size&decimals=2&useRems=on&previewFont=Inter */
+  
+  
+    /* Colors */
+    --color-heading: #181E25;
+    --color-paragraph: #5F7086;
+    --color-blue: #4094EC;
+    --color-green: #06D6A0;
+    --color-border: #DEE4ED;
+    --color-gray-bg: #F3F5F7;
+    --color-primary-gradient: linear-gradient(90deg, rgba(64,148,236,1) 0%, rgba(6,214,160,1) 100%);
+  }
