@@ -18,8 +18,8 @@ const Header = () => {
     </p>
     </div>
     <div className="header_cont_2_b">
-      <a href='/'><button className="header_cont_2_b_youtube"> Youtube <img className="header_cont_2_b_img_youtube" src={Youtube} alt="youtube" />  </button></a>
-      <a href='/'><button className="header_cont_2_b_discord"> Discord <img className="header_cont_2_b_img_discord" src={Discord} alt="discord" /></button></a>
+          <a href='https://www.youtube.com/c/KunalKushwaha/' target="_blank"><button className="header_cont_2_b_youtube"> Youtube <img className="header_cont_2_b_img_youtube" src={Youtube} alt="youtube" />  </button></a>
+          <a href='https://discord.io/commclassroom' target="_blank"><button className="header_cont_2_b_discord"> Discord <img className="header_cont_2_b_img_discord" src={Discord} alt="discord" /></button></a>
     </div>
     </section>
     </>

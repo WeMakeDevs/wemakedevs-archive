@@ -16,10 +16,21 @@ const ComingSoon = () => {
         <img src={ Logo } alt="logo" />
       </div>
       <ul className={click ? 'navbar-menu active': 'navbar-menu'}>
-          <li className='navbar-item'><img src={Twitter} alt="twitter" /></li>
-          <li className='navbar-item'><img src={LinkedIn} alt="linkedin" /></li>
-          <li className='navbar-item'><img src={Website} alt="website" /></li>
-          <li className='navbar-item'><img src={Instagram} alt="instagram" /></li>
+          <li className='navbar-item'>
+            <a href="https://twitter.com/commclassroom/" target="_blank">
+              <img src={Twitter} alt="twitter" />
+            </a>
+          </li>
+          <li className='navbar-item'>
+            <a href="https://www.linkedin.com/company/commclassroom/" target="_blank">
+              <img src={LinkedIn} alt="linkedin" />
+            </a>
+          </li>
+          <li className='navbar-item'>
+            <a href="https://www.instagram.com/commclassroom/" target="_blank">
+              <img src={Instagram} alt="instagram" />
+            </a>
+          </li>
       </ul>
     
       <div className="navbar_hamburger" onClick={handleClick}>
