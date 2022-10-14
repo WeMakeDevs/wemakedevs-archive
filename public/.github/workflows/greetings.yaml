@@ -1,0 +1,2 @@
+ - name: First issue greeter
+  uses: JJ/issue-greeting-action@releases/v1
