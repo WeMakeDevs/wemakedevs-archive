@@ -1,0 +1,73 @@
+.header_button{
+    background-color: #4094EC;
+    height: 40px;
+    width: 356px;
+    left: 270px;
+    top: 0px;
+    border-radius: 31px;
+    padding: 8px 16px 8px 16px;
+}
+.header_cont_1_a{
+    text-align: center;
+}
+.header_cont_1{
+    padding-top: 10rem;
+}
+.header_free_community{
+    font-family: 'General Sans', sans-serif;
+    width: 90%;
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 96px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-left: 5%;
+    left: 12px;
+    margin-top: 1rem;
+}
+.header_free{
+    color: linear-gradient(90deg, rgba(64,148,236,1) 0%, rgba(6,214,160,1) 100%);
+}
+.header_para_about{
+    font-family: 'General Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 58px;
+    width: 57%;
+    margin-left: 20%;
+    left: 12px;
+    margin-top: 1rem;
+}
+.header_cont_2_b_courses{
+    height: 53px;
+    width: 197px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    padding: 12px 24px 12px 24px;
+    background: #4094EC;
+    border: none;
+}
+.header_cont_2_b_youtube{
+    height: 53px;
+    width: 197px;
+    margin-left: 1%;
+    border-radius: 4px;
+    padding: 12px 24px 12px 24px;
+    border: 3px gray solid;
+    background: #fff;
+
+}
+.header_cont_2_b{
+    margin-left: 40%;
+    margin-top: 1rem;
+}
+@media screen and (max-width: 500px){
+    .header_cont_1{
+        text-align: center;
+    }
+}
+
