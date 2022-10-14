@@ -14,7 +14,7 @@ const Header = () => {
        We are under  <span className="header_free">major upgrade</span>
     </p>
     <p className="header_para_about">
-    Hey folks! We are currently upgrading the Community Classrom website to make it open source. Till then, you can browse our YouTube Channel and Discord Server.
+    Hey folks! We are currently upgrading the Community Classroom website to make it open source. Till then, you can browse our YouTube Channel and Discord Server.
     </p>
     </div>
     <div className="header_cont_2_b">

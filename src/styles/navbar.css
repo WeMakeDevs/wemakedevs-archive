@@ -57,6 +57,8 @@ a{
 
     .navbar_hamburger{
         display: flex;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .navbar-menu.active{
         left: 0;
