@@ -1,0 +1,30 @@
+.community-partners-section {
+    padding-top: 60px;
+    padding-bottom: 3rem;
+    background-color: var(--color-gray-bg);
+}
+
+.community-partners-section-title {
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: #505F73;
+}
+
+.community-partners-grid-container {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    row-gap: 90px;
+}
+
+.community-partner-logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}

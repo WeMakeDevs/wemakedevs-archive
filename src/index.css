@@ -1,6 +1,7 @@
 
 @import url('./styles/base.css');
 @import url('./styles/inspire.css');
+@import url('./styles/community-partners.css');
 
 * {
     margin: 0;
