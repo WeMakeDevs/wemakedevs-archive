@@ -2,6 +2,7 @@
 @import url('./styles/base.css');
 @import url('./styles/inspire.css');
 @import url('./styles/community-partners.css');
+@import url('./styles/footer.css');
 
 * {
     margin: 0;
