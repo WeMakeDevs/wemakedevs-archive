@@ -17,7 +17,7 @@ const Mentorship = () => {
         <button id="bt_mentor">Explore all Roadmaps</button>
       </a>
     </div>
-    <img className="mentor_img" src={mentor} alt="" />
+    <img className="mentor_img" src={mentor} alt="Mentor" />
    </div>
   )
 }

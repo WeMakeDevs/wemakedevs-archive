@@ -17,7 +17,7 @@ const Blog = () => {
         <button id="bt_blog">Explore Blogs</button>
       </a>
     </div>
-    <img className="blog_img" src={blog} alt="" />
+    <img className="blog_img" src={blog} alt="blog" />
    </div>
   )
 }

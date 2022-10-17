@@ -8,7 +8,7 @@ const Footer = () => {
         <div class="container">
   	 	<div class="row">
        <div class="footer-col1">
-  	 			<img src={CC} alt="" />
+  	 			<img src={CC} alt="CC" />
            <ul>
            <li><br/></li>
   	 				<li><br/></li>
@@ -38,7 +38,7 @@ const Footer = () => {
   	 				<li><a href="#">Telegram</a></li>
   	 				<li><a href="#">Twitter</a></li>
   	 				<li><a href="#">Instagram</a></li>
-             <li><a href="#">GitHub</a></li>
+                    <li><a href="#">GitHub</a></li>
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">

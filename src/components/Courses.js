@@ -17,7 +17,7 @@ const Courses = () => {
         <button id="bt_discord">Explore Courses</button>
       </a>
     </div>
-    <img className="courses_img" src={course} alt="" />
+    <img className="courses_img" src={course} alt="course" />
    </div>
   )
 }
