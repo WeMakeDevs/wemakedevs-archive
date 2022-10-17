@@ -76,19 +76,15 @@
 .header_cont_2_b_youtube{
     height: 53px;
     width: 197px;
-    margin-left: 1%;
+    left: 0px;
+    top: 0px;
     border-radius: 4px;
-    padding: 12px 24px 12px 24px;
-    border: 3px solid #DEE4ED;
-    background: #fff;
-    Gap: 10px;
-    font-family: 'General Sans', sans-serif;;
+    padding: 14px 24px 12px 24px;
     font-size: 1rem;
-    font-weight: 500;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: center;
     cursor: pointer;
+    border: 1px solid #DEE4ED;
+    background-color: white;
+    margin-left: 1%;
 }
 .arrowup{
     height: 12px;
