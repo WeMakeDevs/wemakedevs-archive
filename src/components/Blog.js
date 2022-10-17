@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Blog.css'
-import blog from '../assests/event.png'
+import blog from '../assets/blog.png'
 
 const Blog = () => {
   return (
