@@ -8,12 +8,12 @@ const Courses = () => {
     <div className="courses_text">
       <h2>Boost your career with our <br /> Complete Hands On Courses</h2>
       <ul className="courses_ul">
-        <li>We believe that every student, irrespective of their college or <br/> branch, can make it big. Community Classroom is an <br/> initiative built on this thought.</li>
-        <li>We provide hands-on training, mentorship for FREE and have <br/> an inclusive community.</li>
-        <li>Get expert guidance with career, Open Source, and <br/> internships, jobs around the world.</li>
+        <li>All courses are FREE while never compromising on quality.</li>
+        <li>We cover every topic in detail with a hands-on approach and <br /> mentor you to stand out to get opportunities by breaking all <br /> the barriers.</li>
+        <li>Explore a wide range of courses including Data Structures & <br /> Algorithms, Web Development, DevOps, Machine Learning, <br />  and more!</li>
       </ul>
-      <a href="https://discord.gg/Wydusp72AB" target="_blank" rel="noreferrer">
-        <button id="bt_discord">Join our Discord</button>
+      <a href="" target="_blank" rel="noreferrer">
+        <button id="bt_discord">Explore Courses</button>
       </a>
     </div>
     <img className="courses_img" src={course} alt="" />
