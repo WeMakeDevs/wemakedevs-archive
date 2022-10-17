@@ -2,7 +2,7 @@
     display: flex;
     margin-top: 10%;
     width: 1509px;
-    height: 420px;
+    height: 480px;
     background-color: #F3F5F7;
   }
 
@@ -10,29 +10,29 @@
     margin-left: 10%;
     height: 280px;
     width: 80%;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 .podcast_text{
     margin-left: 15%;
 }
 .podcast_heading_2{
-   margin-top: 4%;
-   margin-left: 2%;
+   margin-top: 3%;
+   margin-left: 4%;
 }
 
 .podcast_heading_6{
-   margin-top: 20%;
-   margin-left: 2%;
+   margin-top: 22%;
+   margin-left: 4%;
    font-size: 18px;
 }
 .podcast_para{
     width: 580px;
-    margin-top: 4%;
-    margin-left: 2%;
+    margin-top: -3%;
+    margin-left: 4%;
 }
 .podcast_para_2{
-    margin-top: 4%;
-    margin-left: 2%;
+    margin-top: 1%;
+    margin-left: 4%;
 }
 .podcast_right{
     padding-left: 1%;

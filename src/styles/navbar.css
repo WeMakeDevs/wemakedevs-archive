@@ -1,11 +1,3 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-body{
-    overflow-x: hidden;
-}
 .navbar_cont{
     width: 100%;
     height: 70px;
@@ -13,12 +5,11 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-left: 2rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 .navbar-menu{
     display: flex;
     list-style-type: none;
-    padding-top:1rem;
 }
 a{
     text-decoration: none;
@@ -40,15 +31,12 @@ a{
     height: 48px;
     border: 1px solid #DEE4ED;
     border-radius: 3px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin-top: -15px;
     margin-right: 70px;
     margin-left: 10px;
     font-size: 1.2rem;
     color: #181E25;
     cursor: pointer;
+    margin-top: 20px;
 }
 .navbar_hamburger{
     display: none;
