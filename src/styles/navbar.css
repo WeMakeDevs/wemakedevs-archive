@@ -70,6 +70,10 @@ a{
         text-align: center;
         transition: .5s;
     }
+    a{
+        text-decoration: none;
+        color: white;
+    }
     .navbar_hamburger{
         display: flex;
         padding-left: 2rem;
@@ -87,8 +91,7 @@ a{
     .navbar_youtube{
         margin: 0.5rem;
         justify-content: center;
-        color: #181E25;
+        margin-left: 40%;
        font-size: 20px;
     }
 }
-
