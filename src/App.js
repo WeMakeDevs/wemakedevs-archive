@@ -15,13 +15,13 @@ const App = () => {
     <div className="main">
     <Navbar />
     <Header />
-    <Podcast />
-    <Founder />
     <About />
     <Courses />
     <Event />
     <Mentorship />
+    <Podcast />
     <Blog />
+    <Founder />
     <Footer />
     </div>
   )

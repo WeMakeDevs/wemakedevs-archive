@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Footer.css'
-import CC from '../assests/community-classroom-logo.png'
+import CC from '../assets/community-classroom-logo.png'
 
 const Footer = () => {
   return (

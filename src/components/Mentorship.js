@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Mentorship.css';
-import mentor from '../assests/mentor.png'
+import mentor from '../assets/mentor.png'
 
 
 const Mentorship = () => {
