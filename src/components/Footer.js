@@ -16,8 +16,6 @@ const Footer = () => {
   	 				<li><br/></li>
             <li><br/></li>
             <li><br/></li>
-            <li><br/></li>
-            <li><br/></li>
             <li>© 2022 Community Classroom · All rights reserved.</li>
             </ul>
   	 		</div>
