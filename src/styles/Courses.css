@@ -1,17 +1,17 @@
-.about{ 
+.courses{ 
     display: flex;
     margin-top: 10%;
   }
   
-  .about_img{ 
-    margin-left: 10%;
+  .courses_img{ 
+    margin-left: 5%;
     width: 584.5px;
     height: 425px;
   
   }
   
-  .about_text{
-    margin-left: 5%;
+  .courses_text{
+    margin-left: 10%;
     width: 584px;
     height: 243px;
     font-size: 20px;
@@ -19,7 +19,7 @@
     color: #5F7086;
   }
   
-  .about_ul{
+  .courses_ul{
     list-style: disc;
   }
 
