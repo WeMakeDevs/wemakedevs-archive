@@ -27,3 +27,12 @@
     width: 584px;
     margin-left: 10%;
 }
+.founder_socials{
+    list-style-type: none;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.founder-item{
+    margin-left: 3px;
+}
