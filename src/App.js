@@ -5,6 +5,7 @@ import About from './components/About.js'
 import Courses from './components/Courses.js'
 import Event from './components/Event.js'
 import Mentorship from './components/Mentorship.js'
+import Blog from './components/Blog.js'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
     <Courses />
     <Event />
     <Mentorship />
+    <Blog />
     <Footer />
     </div>
   )
