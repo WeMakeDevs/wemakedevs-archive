@@ -5,7 +5,7 @@ import About_us from '../assests/about-us.png'
 const About = () => {
   return (
     <div className="about">
-      <img className="about_img" src={About_us} alt="" />
+      <img className="about_img" src={About_us} alt="About" />
       <div className="about_text">
         <h2>About Us</h2>
         <ul className="about_ul">
