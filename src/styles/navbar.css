@@ -1,9 +1,7 @@
-
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
- 
 }
 body{
     overflow-x: hidden;
@@ -15,32 +13,50 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-left: 2rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 .navbar-menu{
     display: flex;
     list-style-type: none;
     padding-top:1rem;
 }
-
 a{
     text-decoration: none;
     color: #181E25;
-    
-    
 }
-
 .navbar-item{
     padding-right: 2rem;
     font-size: 22px;
     font-weight: 400;
-    
 }
-
+.navbar_youtube{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 24px;
+    gap: 5px;
+    background-color: white;
+    width: 140px;
+    height: 48px;
+    border: 1px solid #DEE4ED;
+    border-radius: 3px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: -15px;
+    margin-right: 70px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: #181E25;
+    cursor: pointer;
+}
 .navbar_hamburger{
     display: none;
 }
-
+.chevronright{
+    padding-left: 10px;
+    padding-top: 3px;
+}
 @media screen and (max-width: 940px){
     .navbar-menu{
         position: fixed;
@@ -54,9 +70,10 @@ a{
         text-align: center;
         transition: .5s;
     }
-
     .navbar_hamburger{
         display: flex;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .navbar-menu.active{
         left: 0;
@@ -67,4 +84,11 @@ a{
         color: #181E25;
        font-size: 20px;
     }
+    .navbar_youtube{
+        margin: 0.5rem;
+        justify-content: center;
+        color: #181E25;
+       font-size: 20px;
+    }
 }
+
