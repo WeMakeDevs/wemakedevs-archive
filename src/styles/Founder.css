@@ -1,0 +1,29 @@
+.founder{
+    display:flex;
+    margin-top: 10%;
+    margin-left: 12%;
+}
+.founder_img{
+    position: absolute;
+    margin-top: 23px;
+}
+.founder_assets_green{
+    width: 250px;
+    height: 250px;
+    margin-top: 190px;
+}
+.founder_assets_blue{
+    width: 250px;
+    height: 320px;
+    margin-top: 120px;
+}
+.founder_para{
+    margin-top: 2%;
+    width: 584px;
+    margin-left: 10%;
+}
+.founder_heading{
+    margin-top: 35%;
+    width: 584px;
+    margin-left: 10%;
+}
