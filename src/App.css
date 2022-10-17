@@ -1,8 +1,7 @@
-.root{ 
-    font-family: 'General Sans Variable';
-  }
+
   body{
       line-height: 1.5;	
+      font-family: 'General Sans';
   }
   *{
       margin:0;

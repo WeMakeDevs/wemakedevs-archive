@@ -1,5 +1,5 @@
   .container{
-      max-width: 1170px;
+      max-width: 1140px;
       margin:auto;
   }
   .row{
@@ -7,14 +7,14 @@
       flex-wrap: wrap;
   }
   ul{
-      list-style: none;
+    list-style: none;
     color: #5F7086;
   }
   .footer{
       padding: 70px 0;
   }
   .footer-col1{
-    margin-right: 250px;
+    margin-right: 210px;
     font-size: 18px;
   }
   .footer-col{
