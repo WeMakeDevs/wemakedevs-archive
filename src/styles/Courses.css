@@ -1,0 +1,47 @@
+.courses{ 
+    display: flex;
+    margin-top: 10%;
+  }
+  
+  .courses_img{ 
+    margin-left: 5%;
+    width: 584.5px;
+    height: 425px;
+  }
+  
+  .courses_text{
+    margin-left: 10%;
+    width: 584px;
+    height: 243px;
+    font-size: 20px;
+    line-height: 145%;
+    color: #5F7086;
+  }
+  
+  .courses_ul{
+    list-style: disc;
+  }
+
+  li{
+    padding-top: 3.5%;
+  }
+  
+  h2{
+    color: #181E25;
+    font-size: 36px;
+    padding-bottom:5%;
+  }
+  
+  #bt_discord{
+    margin-top: 8%;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 233px;
+    height: 53px;
+    background: #4094EC;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 145%;
+    border: none;
+    color:  #FFFFFF;
+  }

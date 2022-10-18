@@ -1,11 +1,12 @@
-.root{ 
-    font-family: 'General Sans Variable';
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+body{
+    line-height: 1.5;	
+    font-family: 'General Sans';
+    overflow-x: hidden;
   }
-  body{
-      line-height: 1.5;	
-  }
-  *{
-      margin:0;
-      padding:0;
-      box-sizing: border-box;
-  }
+
+ 
