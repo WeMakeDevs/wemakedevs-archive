@@ -1,7 +1,8 @@
 name: Greetings
 
-on: [pull_request
-    types: [openedp], issues]
+on: 
+  pull_request:
+    types: [opened]
 
 jobs:
   greeting:
