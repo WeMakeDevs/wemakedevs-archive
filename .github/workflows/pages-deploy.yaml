@@ -1,16 +1,23 @@
+---
 name: GitHub Pages Deploy
-on: [push]
-permissions:
-  contents: write
+on:
+  push:
+    branches: [ main ]
 jobs:
   build-and-deploy:
+    name: Build and Deploy
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v2
 
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
-        run: npm run build
+    - name: Build
+      run: npm install
 
-      - name: Deploy 🚀
-        run: npm run deploy
+    - name: Deploy
+      run: |
+        git config --global user.name 'commclassroom'
+        git config --global user.email 'kunal@commclassroom.org'
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}    
+        npm run deploy
