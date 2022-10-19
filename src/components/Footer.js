@@ -33,12 +33,12 @@ const Footer = () => {
   	 		<div class="footer-col">
   	 			<h4>Community</h4>
   	 			<ul>
-  	 				<li><a href="#">YouTube</a></li>
-  	 				<li><a href="#">Discord</a></li>
+  	 				<li><a href="https://www.youtube.com/c/KunalKushwaha">YouTube</a></li>
+  	 				<li><a href="https://discord.gg/RqyM53dP">Discord</a></li>
   	 				<li><a href="#">Telegram</a></li>
-  	 				<li><a href="#">Twitter</a></li>
-  	 				<li><a href="#">Instagram</a></li>
-                    <li><a href="#">GitHub</a></li>
+  	 				<li><a href="https://twitter.com/commclassroom">Twitter</a></li>
+  	 				<li><a href="https://www.instagram.com/commclassroom/">Instagram</a></li>
+                    <li><a href="https://github.com/commclassroom">GitHub</a></li>
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
