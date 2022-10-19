@@ -34,7 +34,7 @@ const Footer = () => {
   	 			<h4>Community</h4>
   	 			<ul>
   	 				<li><a href="https://www.youtube.com/c/KunalKushwaha">YouTube</a></li>
-  	 				<li><a href="https://discord.gg/RqyM53dP">Discord</a></li>
+  	 				<li><a href="https://discord.io/commclassroom">Discord</a></li>
   	 				<li><a href="#">Telegram</a></li>
   	 				<li><a href="https://twitter.com/commclassroom">Twitter</a></li>
   	 				<li><a href="https://www.instagram.com/commclassroom/">Instagram</a></li>
