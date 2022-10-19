@@ -1,1 +1,12 @@
-Website
+- [] Tilte
+- <br>
+- [] About
+- <br>
+- [] Hyperlinks to the essential docs
+-        [] License
+-        <br>
+-        [] Code of Conduct
+-        <br>
+-        [] Contributing
+-        <br>
+- [] Socials
