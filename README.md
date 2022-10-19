@@ -1,12 +1,7 @@
 - [ ] Tilte
-- <br>
-- [] About
-- <br>
-- [] Hyperlinks to the essential docs
--        [] License
--        <br>
--        [] Code of Conduct
--        <br>
--        [] Contributing
--        <br>
-- [] Socials
+- [ ] About
+- [ ] Hyperlinks to the essential docs
+-        [ ] License
+-        [ ] Code of Conduct
+-        [ ] Contributing
+- [ ] Socials
