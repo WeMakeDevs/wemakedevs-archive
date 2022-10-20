@@ -27,12 +27,16 @@
     margin-top: 120px;
 }
 .founder_para{
-    margin-top: 2%;
+    
     width: 584px;
     margin-left: 10%;
+    font-size: 20px;
+    line-height: 145%;
+    color: #5F7086;
 }
+
 .founder_heading{
-    margin-top: 35%;
+    margin-top: 19%;
     width: 584px;
     margin-left: 10%;
 }
