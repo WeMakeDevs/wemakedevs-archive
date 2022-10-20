@@ -14,7 +14,7 @@ const Mentorship = () => {
         <li>Roadmaps to help you stay on track, including those for <br /> open-source, full-stack, devrel, and more.</li>
       </ul>
       <a href="" target="_blank" rel="noreferrer">
-        <button id="bt_mentor">Explore all Roadmaps</button>
+        <button id="bt_mentor"><a href="https://github.com/commclassroom/roadmaps"></a>Explore all Roadmaps</button>
       </a>
     </div>
     <img className="mentor_img" src={mentor} alt="Mentor" />
