@@ -45,10 +45,7 @@ const Navbar = () => {
         <div className="navbar_hamburger" onClick={handleClick}>
             {click ? (<FaTimes size={30} style={{color: "black"}} />) : (<FaBars size={30} style={{color: "black"}} />)
             }
-        </div>
-
-        <courseList/>
-     </div>
+     
   )
 }
 
