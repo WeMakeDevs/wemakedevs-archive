@@ -19,7 +19,7 @@ const Event = () => {
       </div>
       <div className="podcast_img_cont">
       <img className="podcast_img" src={Podcast} alt="Podcast" />
-       <a href='https://www.youtube.com/watch?v=cl0zMen43E4&list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr'><button className="podcast_redirect"> See all episodes </button></a>
+       <a href='https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr'><button className="podcast_redirect"> See all episodes </button></a>
       </div>
      </div>
   )

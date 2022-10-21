@@ -13,7 +13,7 @@ const Blog = () => {
         <li>Read the blogs written or curated specially by the <br /> Community Classroom team.</li>
         <li>These blogs are written with the present in mind, <br /> all of these blogs are up to date.</li>
       </ul>
-      <a href="" target="_blank" rel="noreferrer">
+      <a href="" target="https://blog.commclassroom.org/" rel="noreferrer">
         <button id="bt_blog">Explore Blogs</button>
       </a>
     </div>
