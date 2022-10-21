@@ -41,15 +41,6 @@ const Footer = () => {
                     <li><a href="#">GitHub</a></li>
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
-  	 			<h4>Company</h4>
-  	 			<ul>
-  	 				<li><a href="#">Privacy Policy</a></li>
-  	 				<li><a href="#">Terms Of Use</a></li>
-  	 				<li><a href="#">Contact Us</a></li>
-  	 				<li><a href="#">Legal</a></li>
-  	 			</ul>
-  	 		</div>
   	 	</div>
   	 </div>
     </div>
