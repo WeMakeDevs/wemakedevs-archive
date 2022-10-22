@@ -31,7 +31,7 @@ const Navbar = () => {
               
 
               <Dropdown.Menu>
-                <Dropdown.Item href="https://www.youtube.com/watch?v=rZ41y93P2Qo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ">DSA + JAVA + Interview Preparation</Dropdown.Item> 
+                <Dropdown.Item href="https://www.youtube.com/watch?v=rZ41y93P2Qo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ">Java + DSA</Dropdown.Item> 
                 <br/>
                 <Dropdown.Item href="https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak"> DevOps</Dropdown.Item>
 
