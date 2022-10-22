@@ -13,7 +13,7 @@ const About = () => {
           <li>We provide hands-on training, mentorship for FREE and have <br/> an inclusive community.</li>
           <li>Get expert guidance with career, Open Source, and <br/> internships, jobs around the world.</li>
         </ul>
-        <a href="https://discord.gg/Wydusp72AB" target="_blank" rel="noreferrer">
+        <a href="https://discord.io/commclassroom" target="_blank" rel="noreferrer">
           <button id="bt_discord">Join our Discord</button>
         </a>
       </div>
