@@ -1,4 +1,4 @@
-.navbar_cont{
+.navbar_cont {
     width: 100%;
     height: 70px;
     display: flex;
@@ -7,20 +7,45 @@
     padding-left: 2rem;
     padding-top: 1rem;
 }
-.navbar-menu{
+
+.navbar-menu {
     display: flex;
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: #181E25;
+    position: relative;
 }
-.navbar-item{
+
+.item {
+    position: relative;
+}
+
+.item::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    border-radius: 10px;
+    background: #4094EC;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.5s;
+}
+
+.item:hover::after {
+    width: 70%;
+}
+
+.navbar-item {
     padding-right: 2rem;
     font-size: 22px;
     font-weight: 400;
 }
-.navbar_youtube{
+
+.navbar_youtube {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -38,15 +63,18 @@ a{
     cursor: pointer;
     margin-top: 20px;
 }
-.navbar_hamburger{
+
+.navbar_hamburger {
     display: none;
 }
-.chevronright{
+
+.chevronright {
     padding-left: 10px;
     padding-top: 3px;
 }
-@media screen and (max-width: 940px){
-    .navbar-menu{
+
+@media screen and (max-width: 940px) {
+    .navbar-menu {
         position: fixed;
         left: -100%;
         top: 70px;
@@ -58,28 +86,33 @@ a{
         text-align: center;
         transition: .5s;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: white;
     }
-    .navbar_hamburger{
+
+    .navbar_hamburger {
         display: flex;
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    .navbar-menu.active{
+
+    .navbar-menu.active {
         left: 0;
     }
-    .navbar-item{
+
+    .navbar-item {
         margin: 0.5rem;
         justify-content: center;
         color: #181E25;
-       font-size: 20px;
+        font-size: 20px;
     }
-    .navbar_youtube{
+
+    .navbar_youtube {
         margin: 0.5rem;
         justify-content: center;
         margin-left: 40%;
-       font-size: 20px;
+        font-size: 20px;
     }
 }
