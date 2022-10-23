@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Mentorship.css';
+import '../styles/Mentorship.css'
 import mentor from '../assets/mentor.png'
 
 

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import Logo from "../../assets/logo.png";
-import Youtube from "../../assets/youtube.png";
-import "../../styles/navbar.css";
+import React, { useState } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa'
+import Logo from  '../../assets/logo.png'
+import Youtube from '../../assets/youtube.png'
+import '../../styles/navbar.css'
 
 const Navbar = () => {
   const [click, setClick] = useState(false);

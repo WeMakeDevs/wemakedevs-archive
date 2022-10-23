@@ -1,8 +1,8 @@
-import React from "react";
-import "../styles/Header.css";
-import ChevronRight from "../assets/Chevron_right.png";
-import ArrowUp from "../assets/ArrowUp.png";
-import Arrowright from "../assets/Arrowright.png";
+import React from 'react'
+import '../styles/Header.css'
+import ChevronRight from '../assets/Chevron_right.png'
+import ArrowUp from '../assets/ArrowUp.png'
+import Arrowright from '../assets/Arrowright.png'
 
 const Header = () => {
   return (

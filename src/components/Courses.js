@@ -1,6 +1,6 @@
-import React from "react";
-import "../styles/Courses.css";
-import course from "../assets/course.png";
+import React from 'react'
+import '../styles/Courses.css'
+import course from '../assets/course.png'
 
 const Courses = () => {
   return (
