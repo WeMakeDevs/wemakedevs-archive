@@ -15,9 +15,9 @@ import Course from '../components/Course/Course.js'
 const HomePage = () => {
   return (
     <div>
-        <Navbar />
-        <Header />
-     <About />
+    <Navbar />
+    <Header />
+    <About />
     <Courses />
     <Event />
     <Mentorship />
