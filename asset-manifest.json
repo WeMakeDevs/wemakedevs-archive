@@ -1,9 +1,9 @@
 {
-  "main.css": "/commclassroom/static/css/main.55293b35.chunk.css",
-  "main.js": "/commclassroom/static/js/main.6ef68e94.chunk.js",
-  "main.js.map": "/commclassroom/static/js/main.6ef68e94.chunk.js.map",
-  "static/js/1.b5e4af83.chunk.js": "/commclassroom/static/js/1.b5e4af83.chunk.js",
-  "static/js/1.b5e4af83.chunk.js.map": "/commclassroom/static/js/1.b5e4af83.chunk.js.map",
+  "main.css": "/commclassroom/static/css/main.272631dc.chunk.css",
+  "main.js": "/commclassroom/static/js/main.eef7d5d6.chunk.js",
+  "main.js.map": "/commclassroom/static/js/main.eef7d5d6.chunk.js.map",
+  "static/js/1.b3ec1c22.chunk.js": "/commclassroom/static/js/1.b3ec1c22.chunk.js",
+  "static/js/1.b3ec1c22.chunk.js.map": "/commclassroom/static/js/1.b3ec1c22.chunk.js.map",
   "runtime~main.js": "/commclassroom/static/js/runtime~main.3cf512bc.js",
   "runtime~main.js.map": "/commclassroom/static/js/runtime~main.3cf512bc.js.map",
   "static/media/podcast.png": "/commclassroom/static/media/podcast.452dbcc4.png",
@@ -13,8 +13,8 @@
   "static/media/event.png": "/commclassroom/static/media/event.60b5eb7f.png",
   "static/media/mentor.png": "/commclassroom/static/media/mentor.8dde36c6.png",
   "static/media/blog.png": "/commclassroom/static/media/blog.77fed353.png",
-  "static/css/main.55293b35.chunk.css.map": "/commclassroom/static/css/main.55293b35.chunk.css.map",
+  "static/css/main.272631dc.chunk.css.map": "/commclassroom/static/css/main.272631dc.chunk.css.map",
   "index.html": "/commclassroom/index.html",
-  "precache-manifest.235ca08447b3eeff1d6d8892c976ecb0.js": "/commclassroom/precache-manifest.235ca08447b3eeff1d6d8892c976ecb0.js",
+  "precache-manifest.678b53b2c9401556b2630fa6f4969385.js": "/commclassroom/precache-manifest.678b53b2c9401556b2630fa6f4969385.js",
   "service-worker.js": "/commclassroom/service-worker.js"
 }
