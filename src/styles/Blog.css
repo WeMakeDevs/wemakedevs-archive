@@ -1,17 +1,19 @@
 .blog{ 
     display: flex;
-    margin-top: 10%;
+    margin-top: 150px;
   }
   
   .blog_img{ 
-    margin-left: 5%;
+    margin-left:auto;
+    margin-right:auto;
     width: 584.5px;
     height: 425px;
   
   }
   
   .blog_text{
-    margin-left: 10%;
+    margin-left:auto;
+    margin-right:auto;
     width: 584px;
     height: 243px;
     font-size: 20px;
@@ -23,10 +25,6 @@
     list-style: disc;
   }
 
-  li{
-    padding-top: 3.5%;
-  }
-  
   h2{
     color: #181E25;
     font-size: 36px;
