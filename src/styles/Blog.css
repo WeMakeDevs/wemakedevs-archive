@@ -45,3 +45,46 @@
     border: none;
     color:  #FFFFFF;
   }
+
+
+  @media only screen and (max-width: 1300px) {
+
+    .blog {
+      flex-direction:column;
+  }
+
+  .blog_img{ 
+    width: 750px;
+    height: 600px;
+    margin-top:-1050px;
+  }
+
+  .blog_text{ 
+    margin-top:650px;
+    width: 750px;
+    height: 400px; 
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .blog_img{ 
+    width: 450px;
+    height: 300px;
+    margin-top:-450px;
+  }
+
+  .blog_text{ 
+    margin-top:300px;
+    width: 450px;
+    height: 100px; 
+    letter-spacing:2px;
+    word-spacing: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .blog_text{ 
+    width: 90%;
+  }
+}

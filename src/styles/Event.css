@@ -43,3 +43,44 @@
     border: none;
     color:  #FFFFFF;
   }
+
+  @media only screen and (max-width: 1300px) {
+
+    .event{
+      flex-direction:column;
+    }
+
+    .event_img{ 
+      width: 750px;
+      height: 600px;
+     margin-top:500px;
+    }
+
+    .event_text{ 
+      margin-top: 50px;
+      width: 750px;
+      height: 400px; 
+    }
+
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .event_img{ 
+      margin-top:550px;
+      width: 450px;
+      height: 300px;
+    }
+
+    .event_text{ 
+      width: 450px;
+      height: 100px; 
+      letter-spacing:2px;
+      word-spacing: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .event_text{ 
+      width: 90%;
+    }
+  }

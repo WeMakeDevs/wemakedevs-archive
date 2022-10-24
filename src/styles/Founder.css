@@ -45,3 +45,7 @@
 .founder-item{
     margin-left: 3px;
 }
+
+@media screen and (max-width: 1285px) {
+    .founder{margin-top: 600px;}
+}

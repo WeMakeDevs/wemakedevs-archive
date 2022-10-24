@@ -45,3 +45,45 @@
     border: none;
     color:  #FFFFFF;
   }
+
+  @media only screen and (max-width: 1300px) {
+
+    .mentor {
+      flex-direction:column;
+  }
+
+  .mentor_img{ 
+    width: 750px;
+    height: 600px;
+    margin-top:-1050px;
+  }
+
+  .mentor_text{ 
+    margin-top:650px;
+    width: 750px;
+    height: 400px; 
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .mentor_img{ 
+    width: 450px;
+    height: 300px;
+    margin-top:-450px;
+  }
+
+  .mentor_text{ 
+    margin-top:700px;
+    width: 450px;
+    height: 100px; 
+    letter-spacing:2px;
+      word-spacing: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mentor_text{ 
+    width: 90%;
+  }
+}

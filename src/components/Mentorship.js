@@ -7,7 +7,7 @@ const Mentorship = () => {
   return (
     <div id="roadmap" className="mentor">
     <div className="mentor_text">
-      <h2><span className="header_free">Roadmaps & Mentorship</span> made </h2>
+      <h2><span className="header_free">Mentorship</span></h2>
       <h2>by best in the industry</h2>
       <ul className="mentor_ul">
         <li>A comprehensive answer to all of your mentoring needs, <br /> including educational materials, communities to join, <br /> opportunities, and much more.</li>

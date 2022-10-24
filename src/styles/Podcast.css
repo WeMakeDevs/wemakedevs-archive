@@ -53,6 +53,10 @@
     margin-top: 1%;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1285px) {
+    .podcast{margin-top: 600px;}
+}
 @media screen and (max-width: 1285px) {
     .podcast_img{ 
         margin-left: 10%;
