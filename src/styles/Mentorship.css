@@ -1,17 +1,19 @@
 .mentor{ 
     display: flex;
-    margin-top: 10%;
+    margin-top: 150px;
   }
   
   .mentor_img{ 
-    margin-left: 5%;
+    margin-left:auto;
+    margin-right:auto;
     width: 584.5px;
     height: 425px;
   
   }
   
   .mentor_text{
-    margin-left: 10%;
+    margin-left:auto;
+    margin-right:auto;
     width: 584px;
     height: 243px;
     font-size: 20px;
@@ -21,10 +23,6 @@
   
   .mentor_ul{
     list-style: disc;
-  }
-
-  li{
-    padding-top: 3.5%;
   }
   
   h2{
@@ -38,7 +36,7 @@
     align-items: center;
     padding: 12px 24px;
     gap: 10px;
-    width: 275px;
+    width: 285px;
     height: 53px;
     background: #4094EC;
     border-radius: 4px;
@@ -47,3 +45,45 @@
     border: none;
     color:  #FFFFFF;
   }
+
+  @media only screen and (max-width: 1300px) {
+
+    .mentor {
+      flex-direction:column;
+  }
+
+  .mentor_img{ 
+    width: 750px;
+    height: 600px;
+    margin-top:-1050px;
+  }
+
+  .mentor_text{ 
+    margin-top:650px;
+    width: 750px;
+    height: 400px; 
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .mentor_img{ 
+    width: 450px;
+    height: 300px;
+    margin-top:-450px;
+  }
+
+  .mentor_text{ 
+    margin-top:700px;
+    width: 450px;
+    height: 100px; 
+    letter-spacing:2px;
+      word-spacing: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mentor_text{ 
+    width: 90%;
+  }
+}

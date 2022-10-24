@@ -1,6 +1,6 @@
 .podcast{ 
     display: flex;
-    margin-top: 10%;
+    margin-top: 150px;
     width: 1509px;
     height: 480px;
     background-color: #F3F5F7;
@@ -52,6 +52,10 @@
     margin-left: 14%;
     margin-top: 1%;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1285px) {
+    .podcast{margin-top: 600px;}
 }
 @media screen and (max-width: 1285px) {
     .podcast_img{ 

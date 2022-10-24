@@ -1,6 +1,6 @@
 .founder{
     display:flex;
-    margin-top: 10%;
+    margin-top: 150px;
     margin-left: 12%;
 }
 .founder_img{
@@ -44,4 +44,8 @@
 }
 .founder-item{
     margin-left: 3px;
+}
+
+@media screen and (max-width: 1285px) {
+    .founder{margin-top: 600px;}
 }
