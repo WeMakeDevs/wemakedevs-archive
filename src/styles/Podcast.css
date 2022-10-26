@@ -1,77 +1,95 @@
 .podcast{ 
     display: flex;
     margin-top: 150px;
-    width: 1509px;
-    height: 480px;
-    background-color: #F3F5F7;
-  }
+    
+}
 
   .podcast_img{ 
-    margin-left: 10%;
-    height: 280px;
-    width: 80%;
-    margin-top: 6rem;
+   margin-left: auto;
+   margin-right: auto;
+    width: 584.5px;
+    height: 425px;
 }
 .podcast_text{
-    margin-left: 15%;
+    width: 584px;
+    height: 243px;
+    font-size: 20px;
+    line-height: 145%;
+     margin-left: auto;
+     margin-right: auto;
 }
 .podcast_heading_2{
-   margin-top: 3%;
-   margin-left: 4%;
+    color: #181E25;
+    width: 580px;
+    height: 30px;
+    margin-top: 10px;
 }
 
 .podcast_heading_6{
-   margin-top: 22%;
-   margin-left: 4%;
    font-size: 18px;
+   height: 24px;
+   margin-left: 1%;
+   margin-top: 10px;
 }
 .podcast_para{
-    width: 580px;
-    margin-top: -3%;
-    margin-left: 4%;
+    width: 380px;
+    color: #5F7086;
+    margin-top: 10px;
 }
 .podcast_para_2{
-    margin-top: 1%;
-    margin-left: 4%;
-}
-.podcast_right{
-    padding-left: 1%;
+    color: #181E25;
+    font-weight: 600;
+    margin-top:10px;
 }
 .podcast_redirect{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0px;
-    gap: 12px;
-    width: 300px;
-    height: 32px;
     background: #06D6A0;
     border-radius: 48px;
     border: none;
-    margin-left: 14%;
-    margin-top: 1%;
+    font-size: 18px;
     cursor: pointer;
+    margin-top: 10px;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 285px;
+    height: 53px;
+    line-height: 145%;
+    border: none;
+    color:  #FFFFFF;
 }
 
-@media screen and (max-width: 1285px) {
-    .podcast{margin-top: 600px;}
-}
-@media screen and (max-width: 1285px) {
-    .podcast_img{ 
-        margin-left: 10%;
-        height: 280px;
-        width: 340px;
-        margin-top: 3rem;
+
+@media screen and (max-width: 1300px) {
+    .podcast{ 
+      flex-direction: column-reverse;
     }
-}
-@media screen and (max-width: 1200px) {
     .podcast_img{ 
-        margin-left: 10%;
-        height: 280px;
-        width: 280px;
-        margin-top: 3rem;
+        width: 750px;
+        height: 600px;
+        margin-top: 500px;
     }
+    .podcast_text{ 
+        width: 750px;
+        height: 400px; 
+      }
+
+}
+@media screen and (max-width: 1000px) {
+    .podcast_img{ 
+        width: 450px;
+        height: 300px;
+    }
+    .podcast_text{ 
+        width: 450px;
+        height: 100px; 
+        letter-spacing:2px;
+        word-spacing: 12px;
+      }
+  
 }
 
- 
+@media only screen and (max-width: 600px) {
+    .podcast_text{ 
+      width: 90%;
+    }
+  }

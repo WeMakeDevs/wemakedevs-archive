@@ -51,6 +51,7 @@
 
     .blog {
       flex-direction:column;
+      margin-top: 500px;
   }
 
   .blog_img{ 
