@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "36c27594f20f6337d889",
-    "url": "/commclassroom/static/css/main.20d0c0f2.chunk.css"
+    "revision": "7fb9f62842a52cfcb634",
+    "url": "/commclassroom/static/css/main.ece065eb.chunk.css"
   },
   {
-    "revision": "36c27594f20f6337d889",
-    "url": "/commclassroom/static/js/main.36c27594.chunk.js"
+    "revision": "7fb9f62842a52cfcb634",
+    "url": "/commclassroom/static/js/main.7fb9f628.chunk.js"
   },
   {
-    "revision": "9e04f6909baf4a09a4a3",
-    "url": "/commclassroom/static/js/1.9e04f690.chunk.js"
+    "revision": "4bbe012cd82f0d436b86",
+    "url": "/commclassroom/static/js/1.4bbe012c.chunk.js"
   },
   {
     "revision": "3cf512bcf3ae3661f270",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/commclassroom/static/media/blog.77fed353.png"
   },
   {
-    "revision": "186704d1262015cd05eae0416eac39c0",
+    "revision": "594573003ceb661feb6660d4fd0fa76c",
     "url": "/commclassroom/index.html"
   }
 ];
