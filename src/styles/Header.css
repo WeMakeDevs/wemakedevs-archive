@@ -2,13 +2,13 @@
     background-color: #4094EC;
     height: 40px;
     width: 356px;
-    left: 270px;
-    top: 0px;
     border-radius: 31px;
     padding: 8px 16px 8px 16px;
     border: none;
     color: white;
+    font-size: 1.2rem;
 }
+
 .header_cont_1_a{
     text-align: center;
 }
@@ -16,7 +16,6 @@
     padding-top: 10rem;
 }
 .header_free_community{
-    font-family: 'General Sans', sans-serif;
     width: 90%;
     font-size: 76px;
     font-weight: 800;
@@ -40,7 +39,6 @@
     font-weight: 600;
 }
 .header_para_about{
-    font-family: 'General Sans', sans-serif;
     font-size: 20px;
     font-weight: 450;
     line-height: 29px;
@@ -50,14 +48,12 @@
     width: 57%;
     margin-left: 20%;
     left: 12px;
-    margin-top: 1rem;
+    margin-top: 2rem;
     color: #5F7086;
 }
 .header_cont_2_b_courses{
     height: 53px;
     width: 197px;
-    left: 0px;
-    top: 0px;
     border-radius: 4px;
     padding: 14px 24px 12px 24px;
     background: #4094EC;
@@ -94,52 +90,103 @@
     border-radius: 0px;
 }
 .header_cont_2_b{
-    margin-top: 40px;
+    margin-top: 10px;
     text-align: center;
     padding-top: 30px;
 }
 @media screen and (max-width: 500px){
-    .header_cont_1{
-        text-align: center;
+    .header_cont_2_b{
+        margin-top: 10px;
+    }
+    .header_free_community{
+      font-size: 30px;
+      width: 350px;
+      line-height: 40.48px;
+      text-align: left;
+      margin-left: 18%;
+      margin-top: 3rem;
+    }
+    .header_para_about{
+        height: 200px;
+        width:70%;
+        margin-left: 18%;
+        text-align: left;
+    }
+    .header_button{
+        font-size: 1rem;
+        width: 370px;
     }
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 960px ) {
+    .header_cont_2_b{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 780px ) {
+    .header_cont_2_b{
+        margin-top: 4rem;
+    }
+}
+@media screen and (max-width: 440px){
+    .header_cont_2_b{
+        margin-top: 10px;
+    }
+    .header_free_community{
+        font-size: 30px;
+        width: 350px;
+        line-height: 40.48px;
+        text-align: left;
+        margin-left: 13%;
+    }
+    .header_para_about{
+        text-align: left;
+        height: 200px;
+        margin-left: 13%;
+        width:70%;
+    }
+   .header_button{
+        font-size: 1rem;
+        width: 300px;
+    }
+    .header_cont_2_b_youtube{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .header_cont_2_b{
+        margin-top: 40px;
+        text-align: left;
+        margin-left: 4%;
+    }
+    .header_cont_2_b_youtube{
+        margin-top: 20px;
+    }
+    .header_cont_1_a{
+        text-align: left;
+    }
+    .header_button{
+        font-size: 1rem;
+        width: 300px;
+        margin-left: 2%;
+    }
+    .header_free_community{
+        font-size: 30px;
+        width: 200px;
+        line-height: 40.48px;
+        text-align: left;
+        margin-left: 4%;
+    }
+    .header_para_about{
+        text-align: left;
+        margin-left: 4%;
+        width:70%;
+    }
+ }
+ @media screen and (max-width: 292px) {
     .header_cont_2_b{
         margin-top: 80px;
     }
 }
-@media screen and (max-width: 500px) {
-    .header_cont_2_b{
-        margin-top: 120px;
-    }
-    .header_free_community{
-            font-family: 'General Sans', sans-serif;
-            width: 90%;
-            font-size: 50px;
-            font-weight: 800;
-            line-height: 80px;
-            letter-spacing: 0.01em;
-            text-align: center;
-            margin-left: 5%;
-            left: 12px;
-            margin-top: 1rem;
-        }
-    }
-    @media screen and (max-width: 440px) {
-        .header_cont_2_b{
-            margin-top: 180px;
-        }
-        .header_button{
-            background-color: #4094EC;
-            height: 40px;
-            width: 306px;
-            left: 270px;
-            top: 0px;
-            border-radius: 31px;
-            padding: 8px 16px 8px 16px;
-            border: none;
-            color: white;
-        }
-   }
+
 
 

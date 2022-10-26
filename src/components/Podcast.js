@@ -16,11 +16,12 @@ const Event = () => {
           Watch now 
           <img className="podcast_right" src={Right} alt="right" />
          </p>
+         <a href='https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr'><button className="podcast_redirect"> See all episodes </button></a>
       </div>
-      <div className="podcast_img_cont">
+      
       <img className="podcast_img" src={Podcast} alt="Podcast" />
-       <a href='https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr'><button className="podcast_redirect"> See all episodes </button></a>
-      </div>
+      
+      
      </div>
   )
 }

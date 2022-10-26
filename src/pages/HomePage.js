@@ -14,8 +14,8 @@ import Course from '../components/Course/Course.js'
 
 const HomePage = () => {
   return (
-    <div>
-    <Navbar />
+    <div className="homepage_main">
+   <Navbar />
     <Header />
     <About />
     <Courses />
@@ -25,7 +25,7 @@ const HomePage = () => {
     <Blog />
     <Founder />
     <Footer /> 
-    </div>
+  </div>
   )
 }
 
