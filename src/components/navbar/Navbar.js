@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
     <ul className={click ? 'navbar-menu active': 'navbar-menu'}>
         <li className='navbar-item'><a href="/">Home</a></li>
-        <li className='navbar-item'><a href="/">Courses</a></li>
+        <li className='navbar-item'><a href="#course">Courses</a></li>
         <li className='navbar-item'><a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr">Podcasts</a></li>
         <li className='navbar-item'><a href="/">Events</a></li>
         <li className='navbar-item'><a href="https://github.com/commclassroom/roadmaps">Roadmaps</a></li>

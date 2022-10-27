@@ -20,7 +20,7 @@ const Header = () => {
               </p>
           </div>
           <div className="header_cont_2_b">
-              <a href="/">
+              <a href="/course">
               <button className="header_cont_2_b_courses"> See Courses 
                 <img className="arrowright" src={Arrowright} alt="arrowup" /> 
               </button>
