@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dea433251716060f182f",
+    "revision": "c2c39711d54ec0935a36",
     "url": "/commclassroom/static/css/main.1f5a16dc.chunk.css"
   },
   {
-    "revision": "dea433251716060f182f",
-    "url": "/commclassroom/static/js/main.dea43325.chunk.js"
+    "revision": "c2c39711d54ec0935a36",
+    "url": "/commclassroom/static/js/main.c2c39711.chunk.js"
   },
   {
     "revision": "6f93ee857c382240b213",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/commclassroom/static/media/events_kubescape.c17b5837.png"
   },
   {
-    "revision": "2a0ceab7deaeac621f852db20caef995",
+    "revision": "6661c335be01aefef4fbde24603858df",
     "url": "/commclassroom/index.html"
   }
 ];
