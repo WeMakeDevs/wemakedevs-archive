@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "7fb9f62842a52cfcb634",
-    "url": "/commclassroom/static/css/main.ece065eb.chunk.css"
+    "revision": "bb09e7f6cf607a280492",
+    "url": "/commclassroom/static/css/main.1f5a16dc.chunk.css"
   },
   {
-    "revision": "7fb9f62842a52cfcb634",
-    "url": "/commclassroom/static/js/main.7fb9f628.chunk.js"
+    "revision": "bb09e7f6cf607a280492",
+    "url": "/commclassroom/static/js/main.bb09e7f6.chunk.js"
   },
   {
-    "revision": "4bbe012cd82f0d436b86",
-    "url": "/commclassroom/static/js/1.4bbe012c.chunk.js"
+    "revision": "8cea40df2728a13cb946",
+    "url": "/commclassroom/static/js/1.8cea40df.chunk.js"
   },
   {
     "revision": "3cf512bcf3ae3661f270",
@@ -72,7 +72,23 @@ self.__precacheManifest = [
     "url": "/commclassroom/static/media/blog.77fed353.png"
   },
   {
-    "revision": "594573003ceb661feb6660d4fd0fa76c",
+    "revision": "d30f046e7d2c087c15a41c27b957f7e4",
+    "url": "/commclassroom/static/media/events_sema.d30f046e.png"
+  },
+  {
+    "revision": "00a172bee655b4e35e130d1ea36715b3",
+    "url": "/commclassroom/static/media/events_hashnode.00a172be.png"
+  },
+  {
+    "revision": "5c6a47a980c966acd0ced48218e03c27",
+    "url": "/commclassroom/static/media/events_coding.5c6a47a9.png"
+  },
+  {
+    "revision": "c17b58377c1ccfee3e044f5592477da5",
+    "url": "/commclassroom/static/media/events_kubescape.c17b5837.png"
+  },
+  {
+    "revision": "75fb4f725dff7967101e434b17e2f181",
     "url": "/commclassroom/index.html"
   }
 ];
