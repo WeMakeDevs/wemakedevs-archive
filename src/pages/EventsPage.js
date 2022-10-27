@@ -1,16 +1,16 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar.js'
-import Course  from '../components/Course/Course.js'
+import Events  from '../components/Event/Events.js'
 import Footer from '../components/Footer'
 
-const CoursePage = () => {
+const EventsPage = () => {
   return (
     <div>
         <Navbar />
-        <Course />
+        <Events />
         <Footer />
     </div>
   )
 }
 
-export default CoursePage
+export default EventsPage

@@ -23,10 +23,11 @@
     display: flex;
     margin-left:auto;
     margin-right: auto;
-    width:320px;
+    width:350px;
   }
 
   .footer-col2-1{
+    width: 100px;
     margin-left: 10%;
   }
 

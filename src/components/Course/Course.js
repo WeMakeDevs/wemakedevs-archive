@@ -14,7 +14,6 @@ import FullStack from '../../assets/FullStack.png'
 import DevOps from '../../assets/DevOps.png'
 import Python from '../../assets/Python.png'
 
-
 const course = () => {
   return (
     <>
