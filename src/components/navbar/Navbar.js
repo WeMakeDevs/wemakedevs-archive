@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {Link} from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import Logo from '../../assets/logo.png'
 import Youtube from '../../assets/youtube.png'
@@ -14,7 +15,7 @@ const Navbar = () => {
       </div>
     <ul className={click ? 'navbar-menu active': 'navbar-menu'}>
         <li className='navbar-item'><a href="/">Home</a></li>
-        <li className='navbar-item'><a href="#course">Courses</a></li>
+        <li className='navbar-item'><Link to="/commclassroom/course">Courses</Link></li>
         <li className='navbar-item'><a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr">Podcasts</a></li>
         <li className='navbar-item'><a href="/">Events</a></li>
         <li className='navbar-item'><a href="https://github.com/commclassroom/roadmaps">Roadmaps</a></li>
