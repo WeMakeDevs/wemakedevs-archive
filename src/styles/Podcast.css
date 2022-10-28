@@ -1,47 +1,62 @@
-.podcast{ 
+.podcast {
     display: flex;
     margin-top: 150px;
-    
+
 }
 
-  .podcast_img{ 
-   margin-left: auto;
-   margin-right: auto;
+.podcast_img {
+    margin-left: auto;
+    margin-right: auto;
     width: 584.5px;
     height: 425px;
 }
-.podcast_text{
+
+.podcast_text {
     width: 584px;
     height: 243px;
     font-size: 20px;
     line-height: 145%;
-     margin-left: auto;
-     margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.podcast_heading_2{
+
+.podcast_heading_2 {
     color: #181E25;
     width: 580px;
     height: 30px;
     margin-top: 10px;
 }
 
-.podcast_heading_6{
-   font-size: 18px;
-   height: 24px;
-   margin-left: 1%;
-   margin-top: 10px;
+.podcast_heading_6 {
+    font-size: 18px;
+    height: 24px;
+    margin-left: 1%;
+    margin-top: 10px;
 }
-.podcast_para{
+
+.podcast_para {
     width: 380px;
     color: #5F7086;
     margin-top: 10px;
 }
-.podcast_para_2{
+
+.podcast_para_2 {
     color: #181E25;
     font-weight: 600;
-    margin-top:10px;
+    margin-top: 10px;
+    cursor: pointer;
 }
-.podcast_redirect{
+
+.podcast_right {
+    padding-left: 1%;
+    transition: margin-left 0.4s;
+}
+
+.podcast_right:hover {
+    margin-left: 5px;
+}
+
+.podcast_redirect {
     background: #06D6A0;
     border-radius: 48px;
     border: none;
@@ -55,41 +70,51 @@
     height: 53px;
     line-height: 145%;
     border: none;
-    color:  #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.podcast_redirect:hover {
+    background-color: #0dc292;
 }
 
 
 @media screen and (max-width: 1300px) {
-    .podcast{ 
-      flex-direction: column-reverse;
+    .podcast {
+        flex-direction: column-reverse;
     }
-    .podcast_img{ 
+
+    .podcast_img {
         width: 750px;
         height: 600px;
         margin-top: 500px;
     }
-    .podcast_text{ 
+
+    .podcast_text {
         width: 750px;
-        height: 400px; 
-      }
+        height: 400px;
+    }
 
 }
+
 @media screen and (max-width: 1000px) {
-    .podcast_img{ 
+    .podcast_img {
         width: 450px;
         height: 300px;
     }
-    .podcast_text{ 
+
+    .podcast_text {
         width: 450px;
-        height: 100px; 
-        letter-spacing:2px;
+        height: 100px;
+        letter-spacing: 2px;
         word-spacing: 12px;
-      }
-  
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
-    .podcast_text{ 
-      width: 90%;
+    .podcast_text {
+        width: 90%;
     }
-  }
+}

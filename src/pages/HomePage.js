@@ -9,7 +9,7 @@ import Courses from '../components/Courses.js'
 import Event from '../components/Event.js'
 import Mentorship from '../components/Mentorship.js'
 import Blog from '../components/Blog.js'
-import Course from '../components/Course/Course.js'
+//import Course from '../components/Course/Course.js'
 
 const HomePage = () => {
   return (

@@ -1,4 +1,4 @@
-.navbar_cont{
+.navbar_cont {
     width: 100%;
     height: 70px;
     display: flex;
@@ -7,20 +7,41 @@
     padding-left: 2rem;
     padding-top: 1rem;
 }
-.navbar-menu{
+
+.navbar-menu {
     display: flex;
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: #181E25;
+    position: relative;
 }
-.navbar-item{
+
+.item::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    border-radius: 10px;
+    background: #4094EC;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.5s;
+}
+
+.item:hover::after {
+    width: 70%;
+}
+
+.navbar-item {
     padding-right: 2rem;
     font-size: 22px;
     font-weight: 400;
 }
-.navbar_youtube{
+
+.navbar_youtube {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -37,17 +58,25 @@ a{
     color: #181E25;
     cursor: pointer;
     margin-top: 20px;
+    transition: border 0.5s, box-shadow 0.7s;
 }
-.navbar_hamburger{
+
+.navbar_youtube:hover {
+    border: 1px solid #89b4e2;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.navbar_hamburger {
     display: none;
 }
-.chevronright{
+
+.chevronright {
     padding-left: 10px;
     padding-top: 3px;
 }
 
-@media screen and (max-width: 1100px){
-    .navbar-menu{
+@media screen and (max-width: 1100px) {
+    .navbar-menu {
         position: fixed;
         left: -100%;
         top: 70px;
@@ -58,36 +87,42 @@ a{
         height: 100%;
         text-align: center;
         transition: .5s;
-        z-index:3;
+        z-index: 3;
         color: white;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: white;
     }
-    .navbar_hamburger{
+
+    .navbar_hamburger {
         display: flex;
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    .navbar-menu.active{
+
+    .navbar-menu.active {
         left: 0;
     }
-    .navbar-item{
+
+    .navbar-item {
         margin: 0.5rem;
         justify-content: center;
         color: #181E25;
-       font-size: 20px;
+        font-size: 20px;
     }
-    .navbar_youtube{
+
+    .navbar_youtube {
         margin: 0.5rem;
         justify-content: center;
         margin-left: 40%;
-       font-size: 20px;
+        font-size: 20px;
     }
 }
-@media screen and (max-width: 400px){
-    .navbar_hamburger{
+
+@media screen and (max-width: 400px) {
+    .navbar_hamburger {
         display: flex;
         margin-left: 2rem;
     }
