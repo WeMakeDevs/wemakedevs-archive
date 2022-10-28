@@ -8,7 +8,7 @@ import Events from './pages/EventsPage.js'
 const App = () => {
   return (
     <div className="main">
-    <Routes>
+    <Routes basename={"/commclassroom"}>
       <Route exact path="/commclassroom" element={<HomePage/>} />
       <Route path="/commclassroom/course" element={<Course />} />
       <Route path="/commclassroom/event" element={<Events />} />
