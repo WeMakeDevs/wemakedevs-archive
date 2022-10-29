@@ -41,6 +41,7 @@
     font-size: 20px;
     line-height: 145%;
     border: none;
+    cursor: pointer;
     color:  #FFFFFF;
   }
 
@@ -53,7 +54,7 @@
     .event_img{ 
       width: 750px;
       height: 600px;
-     margin-top:500px;
+     margin-top:50px;
     }
 
     .event_text{ 
@@ -65,8 +66,12 @@
   }
 
   @media only screen and (max-width: 1000px) {
+
+    .event{
+      margin-top: 500px;
+    }
+
     .event_img{ 
-      margin-top:550px;
       width: 450px;
       height: 300px;
     }
@@ -79,8 +84,19 @@
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 400px) {
+
+    .event{
+      margin-top: 650px;
+    }
+
     .event_text{ 
       width: 90%;
+    }
+
+    .event_img{ 
+      width: 320px;
+      height: 250px;
+      margin-left: 15px;
     }
   }

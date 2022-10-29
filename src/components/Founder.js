@@ -10,8 +10,10 @@ import '../styles/Founder.css'
 const Event = () => {
   return (
       <div className="founder">
+      <div className="founder_flex">
           <img className="founder_assets_green" src={Green} alt="Green" />
           <img className="founder_assets_blue" src={Blue} alt="Blue" />
+          </div>
           <img className="founder_img" src={Founder} alt="Kunal" />
         <div className="founder_text">
             <h2 className="founder_heading"><span className="founder_span">Founder: </span>Kunal Kushwaha </h2>

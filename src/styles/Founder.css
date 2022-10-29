@@ -1,14 +1,12 @@
 .founder{
     display:flex;
     margin-top: 150px;
-    margin-left: 6%;
+    margin-left: 5%;
 }
 .founder_img{
     position: absolute;
-    margin-top: 115px;
     width: 400px;
     height: 446px;
-    margin-left: auto;
 }
 .founder_span
 {
@@ -21,152 +19,122 @@
 }
 .founder_assets_green{
     width: 250px;
-    height: 280px;
-    margin-top: 280px;
+    height: 250px;
+    margin-top: 195px;
 }
 .founder_assets_blue{
     width: 250px;
-    height: 350px;
-    margin-top: 210px;
+    height: 325px;
+    margin-top: 120px;
 }
 .founder_text{
-    margin-top: 10px;
-    margin-left: 15%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .founder_para{
     width: 500px;
-    margin-left: 10%;
     font-size: 1.2rem;
     margin-top: 25px;
 }
 .founder_heading{
-    margin-top: 190px;
-    height: 45px;
     padding-bottom: 30px;
-    width: 584px;
-    margin-left: 10%;
 }
 .founder_socials{
-    list-style-type: none;
     display: flex;
-    margin-left: 10%;
     margin-top: 40px;
 }
 .founder-item{
-    margin-left: 3px;
+    margin-left: 10px;
 }
 
-@media screen and (max-width: 1300px){
+
+@media screen and (max-width: 1120px){
+
     .founder{
         flex-direction: column;
-        margin-top:550px;
-        margin-left: 20%;
+        margin-top:200px;
+        margin-left: 0;
     }
-    .founder_img{
-        position: absolute;
-        margin-top: 23px;
-        width: 400px;
-        height: 446px;
-    }
-    .founder_assets_green{
-        width: 250px;
-        height: 280px;
-        margin-top: 190px;
-    }
-    .founder_assets_blue{
-        width: 250px;
-        height: 350px;
-        margin-top: 120px;
-        position: absolute;
-        margin-left: 200px;
-    }
+
     .founder_text{
-        margin-top: 10px;
-        margin-left: -1%;
+        margin-top: 100px;
     }
-    .founder_para{
-        margin-top: 10px;
-        margin-left: 1%;
-        text-align: left;
-        font-size:  2rem;
+
+    .founder_flex{
+        margin: auto;
     }
-    .founder_heading{
-        margin-top: 50px;
-        margin-left: 1%;
-        font-size:  2rem;
+
+    .founder_img{
+        margin-left: 32%;
     }
-    .founder-item img{
-        width: 70px;
-    }
-    .founder-item{
-        margin-left: 10px;
-    }
-    .founder_socials{
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-}
-@media screen and (max-width: 1200px){
-    .founder{
-        flex-direction: column;
-        margin-top:550px;
-        margin-left: 17%;
-    }
-   .founder_text{
-        margin-top: 10px;
-        margin-left: -1%;
-    }
-    .founder_para{
-        margin-top: 10px;
-        margin-left: 1%;
-        text-align: left;
-        font-size:  2rem;
-    }
-    .founder_heading{
-        margin-top: 50px;
-        margin-left: 1%;
-        font-size:  2rem;
-    }
-    .founder-item img{
-        width: 70px;
-    }
+
 }
 @media screen and (max-width: 1000px){
     .founder{
-        flex-direction: column;
-        margin-top:550px;
-        margin-left: 27%;
+        margin-top:450px;
     }
-   .founder_text{
-        margin-top: 10px;
-        margin-left: -1%;
-    }
-    .founder_para{
-        margin-top: 10px;
-        margin-left: 1%;
-        text-align: left;
-        font-size:  2rem;
-    }
-    .founder_heading{
-        margin-top: 50px;
-        margin-left: 1%;
-        font-size:  2rem;
-    }
-    .founder-item img{
-        width: 70px;
+
+    .founder_img{
+        margin-left: 30%;
     }
 }
+
 @media screen and (max-width: 900px){
-    .founder{
-        flex-direction: column;
-        margin-top:550px;
-        margin-left: 24%;
+    .founder_img{
+        margin-left: 25%;
     }
 }
+
+@media screen and (max-width: 750px){
+    .founder_img{
+        margin-left: 20%;
+    }
+}
+
 @media screen and (max-width: 600px){
-    .founder{
-        flex-direction: column;
-        margin-top:550px;
+    .founder_img{
         margin-left: 10%;
     }
+
+    .founder_assets_green{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .founder_img{
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .founder{
+        margin-top:500px;
+    }
+
+    .founder_img{
+        width: 300px;
+        height: 346px;
+        margin-top:40px;
+        margin-left: 8%;
+    }
+
+    .founder_assets_blue{
+        width: 150px;
+        height: 250px;
+    } 
+
+    .founder_assets_green{
+        height: 190px;
+    }
+
+    .founder_text{ 
+        width: 90%;
+      }
+
+      .founder_para{
+        width:90%;
+      }
+    
 }

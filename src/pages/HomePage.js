@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/navbar/Navbar.js'
+import Navbar from '../components/Navbar.js'
 import Header from '../components/Header.js'
 import Podcast from '../components/Podcast.js'
 import Founder from '../components/Founder.js'

@@ -43,6 +43,7 @@
     line-height: 145%;
     border: none;
     color:  #FFFFFF;
+    cursor: pointer;
   }
 
   @media only screen and (max-width: 1300px) {
@@ -79,8 +80,20 @@
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 400px) {
+    .about{ 
+      margin-top: 100px;
+    }
+
     .about_text{ 
       width: 90%;
+      letter-spacing:2px;
+      word-spacing: 12px;
+    }
+
+    .about_img{ 
+      width: 320px;
+      height: 250px;
+      margin-left: 15px;
     }
   }

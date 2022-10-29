@@ -105,6 +105,16 @@
   }
   
   
-  
+  @media only screen and (max-width: 950px) {
+    .footer-p{
+      width: 350px;
+    }
+
+    .footer-col1{
+      width:330px;
+      margin-left:15px;
+      margin-left: auto;
+    }
+  }
   
   

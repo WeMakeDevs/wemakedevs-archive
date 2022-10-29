@@ -7,6 +7,8 @@
     border: none;
     color: white;
     font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header_cont_1_a{
@@ -16,14 +18,13 @@
     padding-top: 10rem;
 }
 .header_free_community{
-    width: 90%;
     font-size: 76px;
     font-weight: 800;
     line-height: 96px;
     letter-spacing: 0.01em;
     text-align: center;
-    margin-left: 5%;
-    left: 12px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 1rem;
 }
 .header_free{
@@ -40,14 +41,10 @@
 }
 .header_para_about{
     font-size: 20px;
-    font-weight: 450;
     line-height: 29px;
-    letter-spacing: 0em;
-    text-align: center;
-    height: 58px;
     width: 57%;
-    margin-left: 20%;
-    left: 12px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2rem;
     color: #5F7086;
 }
@@ -94,99 +91,20 @@
     text-align: center;
     padding-top: 30px;
 }
-@media screen and (max-width: 500px){
-    .header_cont_2_b{
-        margin-top: 10px;
-    }
-    .header_free_community{
-      font-size: 30px;
-      width: 350px;
-      line-height: 40.48px;
-      text-align: left;
-      margin-left: 18%;
-      margin-top: 3rem;
-    }
-    .header_para_about{
-        height: 200px;
-        width:70%;
-        margin-left: 18%;
-        text-align: left;
-    }
-    .header_button{
-        font-size: 1rem;
-        width: 370px;
-    }
-}
-@media screen and (max-width: 960px ) {
-    .header_cont_2_b{
-        margin-top: 2rem;
-    }
-}
-@media screen and (max-width: 780px ) {
-    .header_cont_2_b{
-        margin-top: 4rem;
-    }
-}
-@media screen and (max-width: 440px){
-    .header_cont_2_b{
-        margin-top: 10px;
-    }
+
+ @media only screen and (max-width: 400px) {
     .header_free_community{
         font-size: 30px;
-        width: 350px;
-        line-height: 40.48px;
-        text-align: left;
-        margin-left: 13%;
+        width:auto;
+        line-height: normal;
     }
+
     .header_para_about{
-        text-align: left;
-        height: 200px;
-        margin-left: 13%;
-        width:70%;
+        font-size:15px;
+        width:auto;
     }
-   .header_button{
-        font-size: 1rem;
-        width: 300px;
-    }
-    .header_cont_2_b_youtube{
-        margin-top: 20px;
+
+    .header_cont_1{
+        padding-top: 5rem;
     }
 }
-@media screen and (max-width: 350px) {
-    .header_cont_2_b{
-        margin-top: 40px;
-        text-align: left;
-        margin-left: 4%;
-    }
-    .header_cont_2_b_youtube{
-        margin-top: 20px;
-    }
-    .header_cont_1_a{
-        text-align: left;
-    }
-    .header_button{
-        font-size: 1rem;
-        width: 300px;
-        margin-left: 2%;
-    }
-    .header_free_community{
-        font-size: 30px;
-        width: 200px;
-        line-height: 40.48px;
-        text-align: left;
-        margin-left: 4%;
-    }
-    .header_para_about{
-        text-align: left;
-        margin-left: 4%;
-        width:70%;
-    }
- }
- @media screen and (max-width: 292px) {
-    .header_cont_2_b{
-        margin-top: 80px;
-    }
-}
-
-
-
