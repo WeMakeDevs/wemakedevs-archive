@@ -14,9 +14,9 @@ const Event = () => {
           <li>Events conducted will help develop various skills of students <br /> in co-curricular activities and to expose them to the current <br /> trends in the technical and professional fields.</li>
           <li>Explore the plethora of events & have the opportunity to grab <br /> amazing prizes & goodies!</li>
         </ul>
-        <a href="https://commclassroom.github.io/commclassroom/event" target="_blank" rel="noreferrer">
+        <Link to="/commclassroom/course">
           <button id="bt_discord">Explore our Events <img className="arrowright" src={Arrowright} alt="arrowup" /></button>
-        </a>
+        </Link>
       </div>
      </div>
   )
