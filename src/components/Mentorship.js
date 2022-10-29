@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Mentorship.css';
 import mentor from '../assets/mentor.png'
 import Arrowright from "../assets/Arrowright.png";
+import {Link} from 'react-router-dom'
 
 const Mentorship = () => {
   return (
