@@ -5,7 +5,7 @@ import Right from '../assets/Rightarrowblack.png'
 
 const Event = () => {
   return (
-    <div className="podcast">
+    <div id="podcast" className="podcast">
       <div className="podcast_text">
         <h2 className="courses_title"> Open Source Cafe Podcast </h2>
         <p className="podcast_para"> 
