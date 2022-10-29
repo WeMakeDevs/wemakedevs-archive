@@ -29,13 +29,13 @@
 .roadmaps-header a {
     display: inline-block;
     height: 53px;
-    width: 197px;
+    min-width: 197px;
     border-radius: 4px;
-    padding: 14px 24px 12px 24px;
+    padding: 12px 24px;
     background: #4094EC;
     border: none;
     color: white;
-    font-size: 1rem;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -82,22 +82,37 @@
     height: 53px;
     width: 197px;
     border-radius: 4px;
-    padding: 14px 24px 12px 24px;
+    padding: 12px 24px;
     background: #4094EC;
     border: none;
     color: white;
-    font-size: 1rem;
+    font-size: 20px;
     cursor: pointer;
     text-align: center;
 }
 
-.mentorship-section img {
+.mentorship-section .thumbnail {
     display: block;
     order: 1;
     max-width: 580px;
     object-fit: contain;
 }
 
+.roadmaps-header .arrow-down {
+    height: 18px;
+    width: 14px;
+    margin-left: 12px;
+    top: 6px;
+    border-radius: 0px;
+}
+
+.mentorship-section .arrow-right {
+    height: 12px;
+    width: 16px;
+    margin-left: 12px;
+    top: 6px;
+    border-radius: 0px;
+}
 /* 
     Roadmap cards container
 */

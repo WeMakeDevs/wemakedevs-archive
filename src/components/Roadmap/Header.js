@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../../styles/Header.css";
 import { roadmapsData as data } from "./data";
 import "./Roadmap.css";
+import ArrowDown from "../../assets/ArrowDown.png";
 
 const Header = ({ scrollRoadmapRef }) => {
   return (
@@ -17,6 +18,7 @@ const Header = ({ scrollRoadmapRef }) => {
           }
         >
           Explore roadmaps
+          <img src={ArrowDown} alt={"Arrow down"} className="arrow-down"></img>
         </a>
       </div>
     </header>
