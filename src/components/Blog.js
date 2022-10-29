@@ -7,7 +7,7 @@ const Blog = () => {
   return (
     <div id="blog" className="blog">
     <div className="blog_text">
-      <h2>Write <span className="header_free">Blogs</span> to win</h2>
+      <h2 className="courses_title">Write <span className="header_free">Blogs</span> to win</h2>
       <h2>amazing prizes</h2>
       <ul className="blog_ul">
         <li>Participate in monthly blog events and win <br/> exciting swags and prizes.</li>

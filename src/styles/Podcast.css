@@ -1,38 +1,29 @@
 .podcast{ 
     display: flex;
     margin-top: 150px;
-    
+    background: #F3F5F7;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 509.97px;
 }
 
   .podcast_img{ 
-   margin-left: auto;
-   margin-right: auto;
-    width: 584.5px;
-    height: 425px;
+   margin: auto;
+   width: 508.57px;
+   height: 285.97px;
 }
 .podcast_text{
     width: 584px;
     height: 243px;
     font-size: 20px;
     line-height: 145%;
-     margin-left: auto;
-     margin-right: auto;
+    margin: auto;
 }
 .podcast_heading_2{
     color: #181E25;
-    width: 580px;
-    height: 30px;
-    margin-top: 10px;
 }
 
-.podcast_heading_6{
-   font-size: 18px;
-   height: 24px;
-   margin-left: 1%;
-   margin-top: 10px;
-}
 .podcast_para{
-    width: 380px;
     color: #5F7086;
     margin-top: 10px;
 }
@@ -47,34 +38,39 @@
     border: none;
     font-size: 18px;
     cursor: pointer;
-    margin-top: 10px;
-    align-items: center;
-    padding: 12px 24px;
-    gap: 10px;
     width: 285px;
     height: 53px;
-    line-height: 145%;
-    border: none;
     color:  #FFFFFF;
+    margin-top: 20px;
 }
 
 
 @media screen and (max-width: 1300px) {
     .podcast{ 
       flex-direction: column-reverse;
+      margin-top: 150px;
+      height: 800px;
+      margin-left: 0;
+      width:100%;
     }
     .podcast_img{ 
         width: 750px;
         height: 600px;
-        margin-top: 500px;
+        margin-top:50px;
     }
     .podcast_text{ 
+        margin-top: 50px;
         width: 750px;
         height: 400px; 
       }
 
 }
 @media screen and (max-width: 1000px) {
+
+    .podcast{ 
+        margin-top: 500px;
+      }
+
     .podcast_img{ 
         width: 450px;
         height: 300px;
@@ -84,12 +80,28 @@
         height: 100px; 
         letter-spacing:2px;
         word-spacing: 12px;
+        margin-bottom: 380px;
       }
-  
 }
 
-@media only screen and (max-width: 600px) {
-    .podcast_text{ 
-      width: 90%;
+@media screen and (max-width: 400px) {
+
+    .podcast{ 
+        margin-top: 550px;
+        height: 900px;
+        margin-left: 0;
+        width:100%;
+      }
+
+    .podcast_img{ 
+        width: 320px;
+        height: 250px;
     }
-  }
+    .podcast_text{ 
+        width: 350px;
+        height: 100px; 
+        letter-spacing:2px;
+        word-spacing: 12px;
+        margin-bottom: 500px;
+      }
+}
