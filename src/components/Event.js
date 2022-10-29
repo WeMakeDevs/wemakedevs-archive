@@ -2,6 +2,7 @@ import React from 'react'
 import event from '../assets/event.png'
 import '../styles/Event.css'
 import Arrowright from "../assets/Arrowright.png";
+import {Link} from 'react-router-dom'
 
 const Event = () => {
   return (
