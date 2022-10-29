@@ -1,9 +1,9 @@
 {
-  "main.css": "/commclassroom/static/css/main.1f5a16dc.chunk.css",
-  "main.js": "/commclassroom/static/js/main.e713d702.chunk.js",
-  "main.js.map": "/commclassroom/static/js/main.e713d702.chunk.js.map",
-  "static/js/1.6f93ee85.chunk.js": "/commclassroom/static/js/1.6f93ee85.chunk.js",
-  "static/js/1.6f93ee85.chunk.js.map": "/commclassroom/static/js/1.6f93ee85.chunk.js.map",
+  "main.css": "/commclassroom/static/css/main.b8036012.chunk.css",
+  "main.js": "/commclassroom/static/js/main.e14d51ae.chunk.js",
+  "main.js.map": "/commclassroom/static/js/main.e14d51ae.chunk.js.map",
+  "static/js/1.0b73d345.chunk.js": "/commclassroom/static/js/1.0b73d345.chunk.js",
+  "static/js/1.0b73d345.chunk.js.map": "/commclassroom/static/js/1.0b73d345.chunk.js.map",
   "runtime~main.js": "/commclassroom/static/js/runtime~main.3cf512bc.js",
   "runtime~main.js.map": "/commclassroom/static/js/runtime~main.3cf512bc.js.map",
   "static/media/DSA.png": "/commclassroom/static/media/DSA.5171b091.png",
@@ -24,8 +24,8 @@
   "static/media/events_hashnode.png": "/commclassroom/static/media/events_hashnode.00a172be.png",
   "static/media/events_coding.png": "/commclassroom/static/media/events_coding.5c6a47a9.png",
   "static/media/events_kubescape.png": "/commclassroom/static/media/events_kubescape.c17b5837.png",
-  "static/css/main.1f5a16dc.chunk.css.map": "/commclassroom/static/css/main.1f5a16dc.chunk.css.map",
+  "static/css/main.b8036012.chunk.css.map": "/commclassroom/static/css/main.b8036012.chunk.css.map",
   "index.html": "/commclassroom/index.html",
-  "precache-manifest.2b4e2ad0da6bb646c03447837f4961d3.js": "/commclassroom/precache-manifest.2b4e2ad0da6bb646c03447837f4961d3.js",
+  "precache-manifest.650a733e2ea7d8758974d19de405506b.js": "/commclassroom/precache-manifest.650a733e2ea7d8758974d19de405506b.js",
   "service-worker.js": "/commclassroom/service-worker.js"
 }
