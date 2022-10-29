@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Courses.css';
 import course from '../assets/course.png'
 import Arrowright from "../assets/Arrowright.png";
+import {Link} from 'react-router-dom'
 
 const Courses = () => {
   return (
