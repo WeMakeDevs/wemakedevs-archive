@@ -13,7 +13,7 @@
 margin-top:50px;
 text-align: center;
 color: #5F7086;
-
+text-align: center;
 }
 
 .events_cont_2{
@@ -33,6 +33,7 @@ color: #5F7086;
     margin-top: 100px;
 }
 .events_cont_2_card_1{
+    object-fit: fill;
     max-width: 100%;
 }
 
@@ -75,3 +76,15 @@ color: #5F7086;
     padding-top: 10px;
     color: #5F7086;
 }
+ @media screen and (max-width: 949px) {
+    .events_cont_2_card_1{
+        max-width: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+ }
+ @media screen and (max-width: 600px){
+    .events_cont_para1{
+          font-size: 20px;
+  }
+  }
