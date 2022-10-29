@@ -1,19 +1,55 @@
 self.__precacheManifest = [
   {
-    "revision": "558cc85276613590f363",
-    "url": "/commclassroom/static/css/main.67480d1a.chunk.css"
+    "revision": "e5562840763fbc3313a7",
+    "url": "/commclassroom/static/css/main.c7a4c6a1.chunk.css"
   },
   {
-    "revision": "558cc85276613590f363",
-    "url": "/commclassroom/static/js/main.558cc852.chunk.js"
+    "revision": "e5562840763fbc3313a7",
+    "url": "/commclassroom/static/js/main.e5562840.chunk.js"
   },
   {
-    "revision": "0b73d345856730b5516d",
-    "url": "/commclassroom/static/js/1.0b73d345.chunk.js"
+    "revision": "099975a7a2a4eb7b1c1f",
+    "url": "/commclassroom/static/js/1.099975a7.chunk.js"
   },
   {
     "revision": "3cf512bcf3ae3661f270",
     "url": "/commclassroom/static/js/runtime~main.3cf512bc.js"
+  },
+  {
+    "revision": "1be864379164e5d4e1c1d09e89579920",
+    "url": "/commclassroom/static/media/android.1be86437.png"
+  },
+  {
+    "revision": "273e5a44e3d21c76df70f81dd996d6f9",
+    "url": "/commclassroom/static/media/backend.273e5a44.png"
+  },
+  {
+    "revision": "c6edf991f3ee2ba46cd5bb4b22c7a995",
+    "url": "/commclassroom/static/media/blockchain.c6edf991.png"
+  },
+  {
+    "revision": "d63c62ada4bad4199885795c71686d7e",
+    "url": "/commclassroom/static/media/devops.d63c62ad.png"
+  },
+  {
+    "revision": "abeaff093d4e962b110da0caa80de880",
+    "url": "/commclassroom/static/media/devrel.abeaff09.png"
+  },
+  {
+    "revision": "152e4c0b12906481e4b6438ddd1c5841",
+    "url": "/commclassroom/static/media/frontend.152e4c0b.png"
+  },
+  {
+    "revision": "d814f5d2bca84fcb30f54d2c43c48647",
+    "url": "/commclassroom/static/media/fullstack.d814f5d2.png"
+  },
+  {
+    "revision": "0d2144bb4641eface6945d1ca366a589",
+    "url": "/commclassroom/static/media/opensource.0d2144bb.png"
+  },
+  {
+    "revision": "8e6470bcab2ca0a3c895645d35cef56f",
+    "url": "/commclassroom/static/media/mentorship.8e6470bc.png"
   },
   {
     "revision": "5171b091e495aa90ddf820606ac58cfe",
@@ -88,7 +124,7 @@ self.__precacheManifest = [
     "url": "/commclassroom/static/media/events_kubescape.c17b5837.png"
   },
   {
-    "revision": "7e5a8dc56455baff7e66d94b59037638",
+    "revision": "5f9a6f46437e9f260646ac294c074162",
     "url": "/commclassroom/index.html"
   }
 ];
