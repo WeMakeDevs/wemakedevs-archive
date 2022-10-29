@@ -14,7 +14,7 @@ const Navbar = () => {
          <img className='nabar_logo_1' src={ Logo } alt="logo" />
       </div>
     <ul className={click ? 'navbar-menu active': 'navbar-menu'}>
-        <li className='navbar-item'><a href="/">Home</a></li>
+        <li className='navbar-item'><a href="https://commclassroom.github.io/commclassroom/">Home</a></li>
         <li className='navbar-item'><Link to="/commclassroom/course">Courses</Link></li>
         <li className='navbar-item'><a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr">Podcasts</a></li>
         <li className='navbar-item'><a href="/">Events</a></li>
