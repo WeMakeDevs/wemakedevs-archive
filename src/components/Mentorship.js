@@ -13,9 +13,9 @@ const Mentorship = () => {
         <li>A comprehensive answer to all of your mentoring needs, <br /> including educational materials, communities to join, <br /> opportunities, and much more.</li>
         <li>Roadmaps to help you stay on track, including those for <br /> open-source, full-stack, devrel, and more.</li>
       </ul>
-      <a href="https://commclassroom.github.io/commclassroom/roadmaps" target="_blank">
+      <Link to="/commclassroom/course">
         <button id="bt_mentor">Explore all Roadmaps <img className="arrowright" src={Arrowright} alt="arrowup" /></button>
-      </a>
+      </Link>
     </div>
     <img className="mentor_img" src={mentor} alt="Mentor" />
    </div>
