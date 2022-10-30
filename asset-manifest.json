@@ -1,9 +1,9 @@
 {
-  "main.css": "/commclassroom/static/css/main.c7a4c6a1.chunk.css",
-  "main.js": "/commclassroom/static/js/main.be54ae6b.chunk.js",
-  "main.js.map": "/commclassroom/static/js/main.be54ae6b.chunk.js.map",
-  "static/js/1.f687038c.chunk.js": "/commclassroom/static/js/1.f687038c.chunk.js",
-  "static/js/1.f687038c.chunk.js.map": "/commclassroom/static/js/1.f687038c.chunk.js.map",
+  "main.css": "/commclassroom/static/css/main.1f086c63.chunk.css",
+  "main.js": "/commclassroom/static/js/main.62941308.chunk.js",
+  "main.js.map": "/commclassroom/static/js/main.62941308.chunk.js.map",
+  "static/js/1.3a3d770d.chunk.js": "/commclassroom/static/js/1.3a3d770d.chunk.js",
+  "static/js/1.3a3d770d.chunk.js.map": "/commclassroom/static/js/1.3a3d770d.chunk.js.map",
   "runtime~main.js": "/commclassroom/static/js/runtime~main.3cf512bc.js",
   "runtime~main.js.map": "/commclassroom/static/js/runtime~main.3cf512bc.js.map",
   "static/media/android.png": "/commclassroom/static/media/android.1be86437.png",
@@ -33,8 +33,8 @@
   "static/media/events_hashnode.png": "/commclassroom/static/media/events_hashnode.00a172be.png",
   "static/media/events_coding.png": "/commclassroom/static/media/events_coding.5c6a47a9.png",
   "static/media/events_kubescape.png": "/commclassroom/static/media/events_kubescape.c17b5837.png",
-  "static/css/main.c7a4c6a1.chunk.css.map": "/commclassroom/static/css/main.c7a4c6a1.chunk.css.map",
+  "static/css/main.1f086c63.chunk.css.map": "/commclassroom/static/css/main.1f086c63.chunk.css.map",
   "index.html": "/commclassroom/index.html",
-  "precache-manifest.7b8d74ce187fb42793019da1985758d4.js": "/commclassroom/precache-manifest.7b8d74ce187fb42793019da1985758d4.js",
+  "precache-manifest.8d9ce58510834adc791c3d538f769fa2.js": "/commclassroom/precache-manifest.8d9ce58510834adc791c3d538f769fa2.js",
   "service-worker.js": "/commclassroom/service-worker.js"
 }
