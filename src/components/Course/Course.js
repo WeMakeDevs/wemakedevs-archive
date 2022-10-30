@@ -27,29 +27,29 @@ const course = () => {
           <div className="course_cont_b_1">
               <div className="course_cont_b_1_frame_1">
                   <img  src={Learning} alt="Learning" /> 
-                  <p style={{width: "200px"}}> Structured Learning </p>
+                  <p> Structured Learning </p>
               </div>
               <div className="course_cont_b_1_frame_2">
                   <img src={Notes} alt="Learning" /> 
-                  <p style={{width: "190px"}} style={{width: "57px"}}> Notes </p>
+                  <p> Notes </p>
                 </div>
               <div className="course_cont_b_1_frame_3">
                   <img src={Assignment} alt="Learning" /> 
-                  <p style={{width: "126px"}}> Assignments </p>
+                  <p> Assignments </p>
               </div>
            </div>
           <div className="course_cont_b_2">
               <div className="course_cont_b_1_frame_4">
                 <img src={DoubtSupport} alt="Learning" /> 
-                <p style={{width: "200px"}}> Doubt Support </p>
+                <p> Doubt Support </p>
                </div>
               <div className="course_cont_b_1_frame_5">
                 <img  src={Guidance} alt="Learning" /> 
-                <p style={{width: "120px"}} style={{width: "57px"}}> Guidance </p>
+                <p> Guidance </p>
               </div>
               <div className="course_cont_b_1_frame_6">
                 <img  src={Projects} alt="Learning" /> 
-                 <p style={{width: "126px"}}> Projects </p>
+                 <p> Projects </p>
               </div>
           </div>
       </div>
