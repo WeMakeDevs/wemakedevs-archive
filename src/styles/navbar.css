@@ -5,10 +5,10 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 2rem;
-    padding-top: 1rem;
 }
 .navbar-menu{
     display: flex;
+    align-items: center;
     list-style-type: none;
 }
 a{
@@ -16,27 +16,24 @@ a{
     color: #181E25;
 }
 .navbar-item{
-    padding-right: 2rem;
+    padding: 1rem 2rem;
     font-size: 22px;
     font-weight: 400;
 }
 .navbar_youtube{
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    padding: 12px 24px;
-    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 5px;
     background-color: white;
     width: 140px;
     height: 48px;
     border: 1px solid #DEE4ED;
     border-radius: 3px;
-    margin-right: 70px;
-    margin-left: 10px;
     font-size: 1.2rem;
     color: #181E25;
     cursor: pointer;
-    margin-top: 20px;
 }
 .navbar_hamburger{
     display: none;
@@ -82,7 +79,6 @@ a{
     .navbar_youtube{
         margin: 0.5rem;
         justify-content: center;
-        margin-left: 40%;
        font-size: 20px;
     }
 }

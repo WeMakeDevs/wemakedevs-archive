@@ -19,8 +19,8 @@ const Navbar = () => {
         <li className='navbar-item'><a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr">Podcasts</a></li>
         <li className='navbar-item'><Link to="/commclassroom/event">Events</Link></li>
         <li className='navbar-item'><Link to="/commclassroom/roadmaps">Roadmaps</Link></li>
-        <a className="navbar_youtube_1" href="https://www.youtube.com/c/KunalKushwaha"><button className="navbar_youtube"> Youtube <img src={Youtube} alt="youtube" /> </button>
-       </a>
+        <li className='navbar-item'><a className="navbar_youtube_1" href="https://www.youtube.com/c/KunalKushwaha"><button className="navbar_youtube"> Youtube <img src={Youtube} alt="youtube" /> </button>
+       </a></li>
      </ul>
         <div className="navbar_hamburger" onClick={handleClick}>
             {click ? (<FaTimes size={30} style={{color: "black"}} />) : (<FaBars size={30} style={{color: "black"}} />)

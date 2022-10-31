@@ -1,7 +1,12 @@
 .founder{
     display:flex;
     margin-top: 150px;
-    margin-left: 5%;
+    justify-content: space-around;
+}
+.founder_outer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 .founder_img{
     position: absolute;
@@ -27,10 +32,7 @@
     height: 325px;
     margin-top: 120px;
 }
-.founder_text{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .founder_para{
     width: 500px;
     font-size: 1.2rem;
@@ -38,6 +40,11 @@
 }
 .founder_heading{
     padding-bottom: 30px;
+}
+.founder_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .founder_socials{
     display: flex;
@@ -48,12 +55,13 @@
 }
 
 
+
 @media screen and (max-width: 1120px){
 
     .founder{
         flex-direction: column;
         margin-top:200px;
-        margin-left: 0;
+        align-items: center;
     }
 
     .founder_text{
@@ -64,50 +72,25 @@
         margin: auto;
     }
 
-    .founder_img{
-        margin-left: 32%;
-    }
-
 }
 @media screen and (max-width: 1000px){
     .founder{
         margin-top:450px;
     }
 
-    .founder_img{
-        margin-left: 30%;
-    }
 }
 
-@media screen and (max-width: 900px){
-    .founder_img{
-        margin-left: 25%;
-    }
-}
 
-@media screen and (max-width: 750px){
-    .founder_img{
-        margin-left: 20%;
-    }
-}
 
 @media screen and (max-width: 600px){
-    .founder_img{
-        margin-left: 10%;
-    }
-
     .founder_assets_green{
         width: 200px;
     }
 }
 
-@media screen and (max-width: 550px){
-    .founder_img{
-        margin-left: 5%;
-    }
-}
 
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 480px){
 
     .founder{
         margin-top:500px;
@@ -117,7 +100,6 @@
         width: 300px;
         height: 346px;
         margin-top:40px;
-        margin-left: 8%;
     }
 
     .founder_assets_blue{

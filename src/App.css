@@ -1,15 +1,16 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    }
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  }
 body{
-    line-height: 1.5;	
-    font-family: 'General Sans';
-    overflow-x: hidden;
-  }
+  line-height: 1.5;	
+  font-family: 'General Sans';
+  overflow-x: hidden;
+  padding: 10px;
+  min-width: 470px;
+}
 
-  li{
-    padding-top: 3.5%;
-  }
- 
+li{
+  padding-top: 3.5%;
+}
