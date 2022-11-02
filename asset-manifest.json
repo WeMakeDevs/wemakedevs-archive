@@ -1,7 +1,7 @@
 {
   "main.css": "/commclassroom/static/css/main.1f086c63.chunk.css",
-  "main.js": "/commclassroom/static/js/main.6fc1aecc.chunk.js",
-  "main.js.map": "/commclassroom/static/js/main.6fc1aecc.chunk.js.map",
+  "main.js": "/commclassroom/static/js/main.62941308.chunk.js",
+  "main.js.map": "/commclassroom/static/js/main.62941308.chunk.js.map",
   "static/js/1.3a3d770d.chunk.js": "/commclassroom/static/js/1.3a3d770d.chunk.js",
   "static/js/1.3a3d770d.chunk.js.map": "/commclassroom/static/js/1.3a3d770d.chunk.js.map",
   "runtime~main.js": "/commclassroom/static/js/runtime~main.3cf512bc.js",
@@ -35,6 +35,6 @@
   "static/media/events_kubescape.png": "/commclassroom/static/media/events_kubescape.c17b5837.png",
   "static/css/main.1f086c63.chunk.css.map": "/commclassroom/static/css/main.1f086c63.chunk.css.map",
   "index.html": "/commclassroom/index.html",
-  "precache-manifest.37e3f7273fc7f504ae471422622ae73f.js": "/commclassroom/precache-manifest.37e3f7273fc7f504ae471422622ae73f.js",
+  "precache-manifest.8d9ce58510834adc791c3d538f769fa2.js": "/commclassroom/precache-manifest.8d9ce58510834adc791c3d538f769fa2.js",
   "service-worker.js": "/commclassroom/service-worker.js"
 }
