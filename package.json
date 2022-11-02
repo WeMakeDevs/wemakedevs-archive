@@ -1,6 +1,6 @@
 {
   "name": "commclassroom",
-  "private": false,
+  "private": true,
   "homepage": "https://commclassroom.github.io/commclassroom",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
