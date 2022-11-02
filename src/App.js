@@ -9,8 +9,8 @@ import Roadmaps from './pages/RoadmapsPage';
 const App = () => {
   return (
     <div className="main">
-    <Routes basename={"/"}>
-      <Route exact path="/" element={<HomePage/>} />
+    <Routes basename={"/commclassroom"}>
+      <Route exact path="/commclassroom" element={<HomePage/>} />
       <Route path="/commclassroom/course" element={<Course />} />
       <Route path="/commclassroom/event" element={<Events />} />
       <Route path="/commclassroom/roadmaps" element={<Roadmaps />} />
