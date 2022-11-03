@@ -9,7 +9,7 @@ import Roadmaps from './pages/RoadmapsPage';
 const App = () => {
   return (
     <div className="main">
-    <Routes basename={"/commclassroom"}>
+    <Routes>
       <Route exact path="/commclassroom" element={<HomePage/>} />
       <Route path="/commclassroom/course" element={<Course />} />
       <Route path="/commclassroom/event" element={<Events />} />
