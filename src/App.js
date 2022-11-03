@@ -10,10 +10,10 @@ const App = () => {
   return (
     <div className="main">
     <Routes>
-      <Route exact path="/commclassroom" element={<HomePage/>} />
-      <Route path="/commclassroom/course" element={<Course />} />
-      <Route path="/commclassroom/event" element={<Events />} />
-      <Route path="/commclassroom/roadmaps" element={<Roadmaps />} />
+      <Route exact path="/" element={<HomePage/>} />
+      <Route path="/course" element={<Course />} />
+      <Route path="/event" element={<Events />} />
+      <Route path="/roadmaps" element={<Roadmaps />} />
     </Routes>
     </div>
   )
