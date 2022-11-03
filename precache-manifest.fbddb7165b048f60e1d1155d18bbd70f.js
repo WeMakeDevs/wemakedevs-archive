@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "629413080316e6c163e5",
+    "revision": "6149bbee6f4f5740f72e",
     "url": "/static/css/main.1f086c63.chunk.css"
   },
   {
-    "revision": "629413080316e6c163e5",
-    "url": "/static/js/main.62941308.chunk.js"
+    "revision": "6149bbee6f4f5740f72e",
+    "url": "/static/js/main.6149bbee.chunk.js"
   },
   {
     "revision": "3a3d770d2d83e4ae6b75",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/events_kubescape.c17b5837.png"
   },
   {
-    "revision": "77784af3f28fb60370fe041bce2c6d28",
+    "revision": "886c01a3226ae46fbc1154804429cd50",
     "url": "/index.html"
   }
 ];
