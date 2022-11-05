@@ -10,12 +10,11 @@ import Hashnode from './pages/Hashnode.js'
 const App = () => {
   return (
     <div className="main">
-    <Routes basename={"/commclassroom"}>
-      <Route exact path="/co" element={<HomePage/>} />
-      <Route path="/commclassroom/course" element={<Course />} />
-      <Route path="/commclassroom/event" element={<Events />} />
-      <Route path="/commclassroom/roadmaps" element={<Roadmaps />} />
-      <Route path="/commclassroom/Hashnode" element={<Hashnode />} />
+    <Routes>
+      <Route exact path="/" element={<HomePage/>} />
+      <Route path="/course" element={<Course />} />
+      <Route path="/event" element={<Events />} />
+      <Route path="/roadmaps" element={<Roadmaps />} />
     </Routes>
     </div>
   )
