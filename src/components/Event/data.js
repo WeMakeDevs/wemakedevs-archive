@@ -5,18 +5,18 @@ import events_kubescape from '../../assets/events_kubescape.png'
 
 export const events = [
     {
-        title: "Sema mentorship series",
-        description: "Learn how to utilise open source with some of the best practices, networking, resume tips, and more!",
-        ongoing: true,
-        image: events_sema,
-        date: "2022"
-    },
-    {
         title: "Hashnode Blogging Challenges",
         description: "Build your personal brand via theme-based blogging & win amazing prizes every week!",
         ongoing: true,
         image: events_hashnode,
         date: "Monthly",
+    },
+    {
+        title: "Sema mentorship series",
+        description: "Learn how to utilise open source with some of the best practices, networking, resume tips, and more!",
+        ongoing: false,
+        image: events_sema,
+        date: "2022"
     },
     {
         title: "Practice Your Coding Skills with Wilco",
