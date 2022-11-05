@@ -4,6 +4,7 @@ import Cards from '../components/Hashnode/CardsList.js'
 import Participate from '../components/Hashnode/Participate.js'
 import Navbar from '../components/Navbar.js'
 import Footer from '../components/Footer.js'
+import Tracks from '../components/Hashnode/Prize'
 
 const Hashnode = () => {
   return (
@@ -12,6 +13,8 @@ const Hashnode = () => {
       <Header />
       <Participate />
       <Cards />
+      <br />
+      <Tracks />
       <Footer />
       
     </div>

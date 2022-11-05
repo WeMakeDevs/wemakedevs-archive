@@ -3,14 +3,16 @@ import Card from "./Card";
 import {hashnodeData as data } from "./data";
 
 
-const CardsList = ({scrollRoadmapRef}) => {
+
+const CardsList = ({scrollHashnodeRef}) => {
   return (
-    <div className="hashnode-container" id="#roadmaps" ref={scrollRoadmapRef}>
+    <div className="hashnode-container" id="#roadmaps" ref={scrollHashnodeRef}>
       {data.hashnode.map((hashnode) => (
         <Card hashnode={hashnode} />
       ))}
     </div>
   );
 };
+
 
 export default CardsList;

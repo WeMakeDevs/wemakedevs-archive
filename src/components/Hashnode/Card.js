@@ -1,10 +1,10 @@
 import React from "react";
 
-const Card = ({ hashnode }) => {
+
+const Card = ({hashnode}) => {
   return (
     <div
-
-    className="hashnode-card"
+   className="hashnode-card"
   >
       <section>
         <img src={hashnode.image} alt={hashnode.title + "banner"} />
@@ -16,5 +16,6 @@ const Card = ({ hashnode }) => {
     
   );
 };
+
 
 export default Card;

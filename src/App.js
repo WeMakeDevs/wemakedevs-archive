@@ -15,6 +15,7 @@ const App = () => {
       <Route path="/course" element={<Course />} />
       <Route path="/event" element={<Events />} />
       <Route path="/roadmaps" element={<Roadmaps />} />
+      <Route path="/hashnode" element={<Hashnode />} />
     </Routes>
     </div>
   )
