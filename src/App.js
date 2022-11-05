@@ -4,7 +4,8 @@ import './App.css'
 import Course from './pages/CoursePage.js'
 import HomePage from './pages/HomePage.js'
 import Events from './pages/EventsPage.js'
-import Roadmaps from './pages/RoadmapsPage';
+import Roadmaps from './pages/RoadmapsPage'
+import Hashnode from './pages/Hashnode.js'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Route path="/course" element={<Course />} />
       <Route path="/event" element={<Events />} />
       <Route path="/roadmaps" element={<Roadmaps />} />
+      <Route path="/hashnode" element={<Hashnode />} />
     </Routes>
     </div>
   )
