@@ -10,6 +10,7 @@ export const events = [
         ongoing: true,
         image: events_hashnode,
         date: "Monthly",
+        link: "/hashnode",
     },
     {
         title: "Sema mentorship series",
