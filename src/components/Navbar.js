@@ -10,9 +10,9 @@ const Navbar = () => {
     const handleClick = () => setClick(!click);
   return (
     <div className='navbar_cont'>
-      <div className='navbar_logo'>
+      <Link to="/" className='navbar_logo'>
          <img className='nabar_logo_1' src={ Logo } alt="logo" />
-      </div>
+      </Link>
     <ul className={click ? 'navbar-menu active': 'navbar-menu'}>
         <li className='navbar-item'><Link to="/">Home</Link></li>
         <li className='navbar-item'><Link to="/course">Courses</Link></li>

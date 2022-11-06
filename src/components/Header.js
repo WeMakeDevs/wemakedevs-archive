@@ -3,13 +3,14 @@ import "../styles/Header.css"
 import ChevronRight from "../assets/Chevron_right.png";
 import ArrowUp from "../assets/ArrowUp.png";
 import Arrowright from "../assets/Arrowright.png";
+import {Link} from 'react-router-dom'
 
 const Header = () => {
   return (
       <div>
       <section className="header_cont_1">
           <div className="header_cont_1_a">
-                <a href="#podcast"><button className="header_button"> Check out our most recent podcast 
+                <a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr"><button className="header_button"> Check out our most recent podcast 
                   <img className="chevronright" src={ChevronRight} alt="chevron" />
                 </button>
                 </a>
@@ -21,11 +22,11 @@ const Header = () => {
               </p>
           </div>
           <div className="header_cont_2_b">
-              <a href="#course">
+              <Link to="/course">
               <button className="header_cont_2_b_courses"> See Courses 
                 <img className="arrowright" src={Arrowright} alt="arrowup" /> 
               </button>
-              </a>
+              </Link>
               <a href="https://www.youtube.com/c/KunalKushwaha">
               <button className="header_cont_2_b_youtube"> Visit Youtube 
                 <img className="arrowup" src={ ArrowUp} alt="arrowup" />
