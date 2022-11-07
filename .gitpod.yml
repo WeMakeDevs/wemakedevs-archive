@@ -14,5 +14,5 @@ github:
     pullRequests: true
     pullRequestsFromForks: true
     addCheck: true
-    addComment: false
+    addComment: true
     addBadge: true
