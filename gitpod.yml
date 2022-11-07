@@ -1,0 +1,18 @@
+tasks:
+  - name: Community Classroom
+    init: |
+      npm install
+      npm start
+
+image:
+  file: .gitpod/Dockerfile
+
+github:
+  prebuilds:
+    main: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: false
+    addBadge: true
