@@ -16,7 +16,7 @@ const Footer = () => {
   	 			<h4>Sitemap</h4>
   	 			<ul>
   	 				<li><Link to="/">Home</Link></li>
-  	 				<li><a href="/#about">About</a></li>
+  	 				<li><Link to="/#about">About</Link></li>
   	 				<li><Link to="/hashnode">Blog</Link></li>
   	 				<li><Link to="/course">Courses</Link></li>
              		<li><Link to="/roadmaps">Roadmaps</Link></li>
