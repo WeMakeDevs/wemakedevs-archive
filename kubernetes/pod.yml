@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: commclassroom-pod
+  namespace: default
+  labels:
+    env: commclassroom
+spec:
+  restartPolicy: OnFailure
+  containers:
+  - name: commclassroom-ctr
+    imagePullPolicy: Always
+    image: kaiwalyakoparkar/commclassroom:1.0
+    ports:
+    - containerPort: 3000
+    resources:
+      requests:
+        memory: "128Mi"
+        cpu: "500m"
+      limits:
+        memory: "512Mi"
+        cpu: "1000m"
