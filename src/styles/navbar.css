@@ -20,6 +20,9 @@ a{
     font-size: 22px;
     font-weight: 400;
 }
+.navbar-item:hover{
+    transform: translateY(-2px);
+}
 .navbar_youtube{
     box-sizing: border-box;
     display: flex;
