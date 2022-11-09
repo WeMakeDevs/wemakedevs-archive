@@ -134,6 +134,7 @@
 .roadmaps-container .card:hover{
     transform: translateY(-5px) scale(1.005) translateZ(0);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-delay:0.15s;
 }
 
 .roadmaps-container .card .details {
