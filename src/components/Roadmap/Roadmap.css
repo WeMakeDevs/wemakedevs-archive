@@ -131,6 +131,11 @@
     border-radius: 8px 8px 0px 0px;
 }
 
+.roadmaps-container .card:hover{
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .roadmaps-container .card .details {
     padding: 20px;
 }
