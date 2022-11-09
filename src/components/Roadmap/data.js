@@ -74,7 +74,7 @@ export const roadmapsData = {
       description:
         "Android development is evolving and products are improving. Want to get started? This roadmap will get you started with absolute basics to advanced concepts like layout & UI's,  event based programming, networking & api's etc.",
       link:
-        "https://github.com/commclassroom/roadmaps/tree/main/Mobile-Development",
+        "https://github.com/commclassroom/roadmaps/tree/main/Android-Development",
       image: Android,
     },
     {
