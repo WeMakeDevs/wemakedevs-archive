@@ -10,10 +10,10 @@ const Header = () => {
       <div>
       <section className="header_cont_1">
           <div className="header_cont_1_a">
-                <Link to="/#podcast"><button className="header_button"> Check out our most recent podcast 
+                <a href="/#podcast"><button className="header_button"> Check out our most recent podcast 
                   <img className="chevronright" src={ChevronRight} alt="chevron" />
                 </button>
-                </Link>
+                </a>
                 <p className="header_free_community"> 
                   The <span className="header_free">Free</span> Community for <br />Modern Learning.
                 </p>
