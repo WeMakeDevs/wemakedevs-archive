@@ -38,4 +38,5 @@ const Card = ({ event }) => {
   );
 };
 
+
 export default Card;
