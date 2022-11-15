@@ -1,6 +1,4 @@
 .course_cont_para{
-    position: absolute;
-    max-width: 1200px;
     font-style: normal;
     font-weight: 600;
     font-size: 76px;
@@ -8,30 +6,25 @@
     text-align: center;
     letter-spacing: 0.01em;
     color: #181E25;
-     margin-left: 10%;
-     margin-right: 10%;
-    top: 10rem;
+    margin-top: 10rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .course_cont_b{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: absolute;
-    max-width: 80%;
-    width: 1300px;
+    max-width: 1200px;
     height: 232px;
     margin-left: auto;
     top: 30rem;
     background: #FFFFFF;
     box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.12);
     border-radius: 8px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-right: auto;
 }
 
 .course_cont_b_1, .course_cont_b_2{
     display: flex;
-    margin-top: 22px;
+    margin-top: 50px;
     width: 1200px;
     max-width: 70%;
     justify-content: center;
@@ -104,7 +97,7 @@
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
 }
 .course_cont_2{
-    margin-top: 50rem;
+    margin-top: 120px;
 }
 .course_cont_2_card_1{
     max-width: 100%;
@@ -270,20 +263,24 @@
         padding-left: 76px;
     }
     .course_cont_b{
-       top: 30rem;
-       height: 600px;
+        margin-top: 50px;
+       height: 300px;
     }
     .course_cont_2{
-        margin-top: 70rem;
+        margin-top: 120px;
     }
 
 }
 @media  screen and (max-width: 696px){
     .course_cont_b{
-        margin-top: 450px;
-        height: 600px;
+        margin-top: 100px;
+        height: 500px;
+        max-width:400px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
      }
      .course_cont_2{
-        margin-top: 1500px;
+        margin-top: 120px;
     }
 }
