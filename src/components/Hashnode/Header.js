@@ -34,7 +34,7 @@ const Header = () => {
           </h3>
           <p>
           The motivation behind this series is to promote learning in public.
-            Students will get hands on experience with new & interesting tools. Don't worry, we have got your back! We will be provide resources.
+            Students will get hands on experience with new & interesting tools. Don't worry, we have got your back! We will be providing resources.
             Don't know how to create a personal brand? You have come to the right place.
             Get ready to win some swags & grand prizes.
             Four track-based blogging challenges every month. Every track will cover a variety of topics.
