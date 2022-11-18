@@ -24,6 +24,7 @@
     margin-left:auto;
     margin-right: auto;
     width:350px;
+  	justify-content: center;
   }
 
   .footer-col2-1{
