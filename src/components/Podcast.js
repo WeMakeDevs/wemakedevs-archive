@@ -1,7 +1,7 @@
 import React from 'react'
 import Podcast from '../assets/podcast.png'
 import '../styles/Podcast.css'
-import Right from '../assets/Rightarrowblack.png'
+
 
 const Event = () => {
   return (

@@ -1,7 +1,6 @@
 import React from 'react'
 import Hashnode from '../../assets/Hashnode.png'
 import Arrowright from '../../assets/Arrowright.png'
-import SpecialTrack from '../../assets/Special_Track.png'
 import Kubecon from '../../assets/Kubecon.png'
 
 const Participate = () => {
@@ -36,7 +35,7 @@ const Participate = () => {
      <h2> Current Tracks </h2>
      </div>
      <div className="hashnode-participate-track">
-     <img className="hashnode-participate-track-image" src={Kubecon} />
+     <img className="hashnode-participate-track-image" src={Kubecon} alt="kubecon" />
       <div className ="hashnode-participate-special-track">
        <p> Write a blog on your experiences in Kubecon 2022 & win Linux Foundation Training Voucher worth $499 . </p>
       </div>
