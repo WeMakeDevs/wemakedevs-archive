@@ -15,7 +15,7 @@ const Courses = () => {
         <li>We cover every topic in detail with a hands-on approach and <br /> mentor you to stand out to get opportunities by breaking all <br /> the barriers.</li>
         <li>Explore a wide range of courses including Data Structures & <br /> Algorithms, Web Development, DevOps, Machine Learning, <br />  and more!</li>
       </ul>
-      <Link to="/commclassroom/course">
+      <Link to="/course">
         <button id="bt_discord">Explore Courses <img className="arrowright" src={Arrowright} alt="arrowup" /></button>
       </Link>
     </div>
