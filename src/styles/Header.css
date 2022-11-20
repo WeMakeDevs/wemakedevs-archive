@@ -2,13 +2,16 @@
     background-color: #4094EC;
     height: 40px;
     width: 356px;
-    left: 270px;
-    top: 0px;
     border-radius: 31px;
     padding: 8px 16px 8px 16px;
     border: none;
     color: white;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
 }
+
 .header_cont_1_a{
     text-align: center;
 }
@@ -16,15 +19,13 @@
     padding-top: 10rem;
 }
 .header_free_community{
-    font-family: 'General Sans', sans-serif;
-    width: 90%;
     font-size: 76px;
     font-weight: 800;
     line-height: 96px;
     letter-spacing: 0.01em;
     text-align: center;
-    margin-left: 5%;
-    left: 12px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 1rem;
 }
 .header_free{
@@ -40,24 +41,17 @@
     font-weight: 600;
 }
 .header_para_about{
-    font-family: 'General Sans', sans-serif;
     font-size: 20px;
-    font-weight: 450;
     line-height: 29px;
-    letter-spacing: 0em;
-    text-align: center;
-    height: 58px;
     width: 57%;
-    margin-left: 20%;
-    left: 12px;
-    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
     color: #5F7086;
 }
 .header_cont_2_b_courses{
     height: 53px;
     width: 197px;
-    left: 0px;
-    top: 0px;
     border-radius: 4px;
     padding: 14px 24px 12px 24px;
     background: #4094EC;
@@ -94,52 +88,24 @@
     border-radius: 0px;
 }
 .header_cont_2_b{
-    margin-top: 40px;
+    margin-top: 10px;
     text-align: center;
     padding-top: 30px;
 }
-@media screen and (max-width: 500px){
-    .header_cont_1{
-        text-align: center;
-    }
-}
-@media screen and (max-width: 780px) {
-    .header_cont_2_b{
-        margin-top: 80px;
-    }
-}
-@media screen and (max-width: 500px) {
-    .header_cont_2_b{
-        margin-top: 120px;
-    }
+
+ @media only screen and (max-width: 400px) {
     .header_free_community{
-            font-family: 'General Sans', sans-serif;
-            width: 90%;
-            font-size: 50px;
-            font-weight: 800;
-            line-height: 80px;
-            letter-spacing: 0.01em;
-            text-align: center;
-            margin-left: 5%;
-            left: 12px;
-            margin-top: 1rem;
-        }
+        font-size: 30px;
+        width:auto;
+        line-height: normal;
     }
-    @media screen and (max-width: 440px) {
-        .header_cont_2_b{
-            margin-top: 180px;
-        }
-        .header_button{
-            background-color: #4094EC;
-            height: 40px;
-            width: 306px;
-            left: 270px;
-            top: 0px;
-            border-radius: 31px;
-            padding: 8px 16px 8px 16px;
-            border: none;
-            color: white;
-        }
-   }
 
+    .header_para_about{
+        font-size:15px;
+        width:auto;
+    }
 
+    .header_cont_1{
+        padding-top: 5rem;
+    }
+}
