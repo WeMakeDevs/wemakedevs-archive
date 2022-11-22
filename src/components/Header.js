@@ -3,7 +3,6 @@ import "../styles/Header.css"
 import ChevronRight from "../assets/Chevron_right.png";
 import ArrowUp from "../assets/ArrowUp.png";
 import Arrowright from "../assets/Arrowright.png";
-import {Link} from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -22,11 +21,11 @@ const Header = () => {
               </p>
           </div>
           <div className="header_cont_2_b">
-              <Link to="/course">
+              <a href="/#course">
               <button className="header_cont_2_b_courses"> See Courses 
                 <img className="arrowright" src={Arrowright} alt="arrowup" /> 
               </button>
-              </Link>
+              </a>
               <a href="https://www.youtube.com/c/KunalKushwaha">
               <button className="header_cont_2_b_youtube"> Visit Youtube 
                 <img className="arrowup" src={ ArrowUp} alt="arrowup" />
