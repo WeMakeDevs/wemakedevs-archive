@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/Footer.css'
 import CC from '../assets/community-classroom-logo.png'
-import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -15,12 +14,12 @@ const Footer = () => {
   	 		<div className="footer-col2-1">
   	 			<h4>Sitemap</h4>
   	 			<ul>
-  	 				<li><Link to="/">Home</Link></li>
-  	 				<li><Link to="/#about">About</Link></li>
-  	 				<li><Link to="/hashnode">Blog</Link></li>
-  	 				<li><Link to="/course">Courses</Link></li>
-             		<li><Link to="/roadmaps">Roadmaps</Link></li>
-             		<li><Link to="/event">Events</Link></li>
+  	 				<li><a href="/">Home</a></li>
+  	 				<li><a href="/#about">About</a></li>
+  	 				<li><a href="/#blog">Blog</a></li>
+  	 				<li><a href="/#course">Courses</a></li>
+             		<li><a href="/#roadmap">Roadmaps</a></li>
+             		<li><a href="/#event">Events</a></li>
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col2-2">
