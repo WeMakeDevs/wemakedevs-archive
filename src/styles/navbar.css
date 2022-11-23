@@ -45,7 +45,8 @@ a{
     padding-left: 10px;
     padding-top: 3px;
 }
-@media screen and (max-width: 940px){
+
+@media screen and (max-width: 1100px){
     .navbar-menu{
         position: fixed;
         left: -100%;
@@ -57,6 +58,8 @@ a{
         height: 100%;
         text-align: center;
         transition: .5s;
+        z-index:3;
+        color: white;
     }
     a{
         text-decoration: none;
@@ -81,5 +84,11 @@ a{
         justify-content: center;
         margin-left: 40%;
        font-size: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .navbar_hamburger{
+        display: flex;
+        margin-left: 2rem;
     }
 }

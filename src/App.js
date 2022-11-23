@@ -1,31 +1,24 @@
 import React from 'react'
+import {Route, Routes} from 'react-router-dom';
 import './App.css'
-import Header from './components/Header.js'
-import Navbar from './components/navbar/Navbar.js'
-import Podcast from './components/Podcast.js'
-import Founder from './components/Founder.js'
-import Footer from './components/Footer.js'
-import About from './components/About.js'
-import Courses from './components/Courses.js'
-import Event from './components/Event.js'
-import Mentorship from './components/Mentorship.js'
-import Blog from './components/Blog.js'
+import Course from './pages/CoursePage.js'
+import HomePage from './pages/HomePage.js'
+import Events from './pages/EventsPage.js'
+import Roadmaps from './pages/RoadmapsPage'
+import Hashnode from './pages/Hashnode.js'
+
 const App = () => {
   return (
     <div className="main">
-    <Navbar />
-    <Header />
-    <About />
-    <Courses />
-    <Event />
-    <Mentorship />
-    <Podcast />
-    <Blog />
-    <Founder />
-    <Footer />
+    <Routes>
+      <Route exact path="/" element={<HomePage/>} />
+      <Route path="/course" element={<Course />} />
+      <Route path="/event" element={<Events />} />
+      <Route path="/roadmaps" element={<Roadmaps />} />
+      <Route path="/hashnode" element={<Hashnode />} />
+    </Routes>
     </div>
   )
 }
-
 
 export default App

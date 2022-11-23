@@ -1,11 +1,12 @@
 .founder{
     display:flex;
-    margin-top: 10%;
-    margin-left: 12%;
+    margin-top: 150px;
+    margin-left: 5%;
 }
 .founder_img{
     position: absolute;
-    margin-top: 23px;
+    width: 400px;
+    height: 446px;
 }
 .founder_span
 {
@@ -19,29 +20,121 @@
 .founder_assets_green{
     width: 250px;
     height: 250px;
-    margin-top: 190px;
+    margin-top: 195px;
 }
 .founder_assets_blue{
     width: 250px;
-    height: 320px;
+    height: 325px;
     margin-top: 120px;
 }
+.founder_text{
+    margin-left: auto;
+    margin-right: auto;
+}
 .founder_para{
-    margin-top: 2%;
-    width: 584px;
-    margin-left: 10%;
+    width: 500px;
+    font-size: 1.2rem;
+    margin-top: 25px;
 }
 .founder_heading{
-    margin-top: 35%;
-    width: 584px;
-    margin-left: 10%;
+    padding-bottom: 30px;
 }
 .founder_socials{
-    list-style-type: none;
     display: flex;
-    margin-left: 10%;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 .founder-item{
-    margin-left: 3px;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 1120px){
+
+    .founder{
+        flex-direction: column;
+        margin-top:200px;
+        margin-left: 0;
+    }
+
+    .founder_text{
+        margin-top: 100px;
+    }
+
+    .founder_flex{
+        margin: auto;
+    }
+
+    .founder_img{
+        margin-left: 32%;
+    }
+
+}
+@media screen and (max-width: 1000px){
+    .founder{
+        margin-top:450px;
+    }
+
+    .founder_img{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .founder_img{
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .founder_img{
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .founder_img{
+        margin-left: 10%;
+    }
+
+    .founder_assets_green{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .founder_img{
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .founder{
+        margin-top:500px;
+    }
+
+    .founder_img{
+        width: 300px;
+        height: 346px;
+        margin-top:40px;
+        margin-left: 8%;
+    }
+
+    .founder_assets_blue{
+        width: 150px;
+        height: 250px;
+    } 
+
+    .founder_assets_green{
+        height: 190px;
+    }
+
+    .founder_text{ 
+        width: 90%;
+      }
+
+      .founder_para{
+        width:90%;
+      }
+    
 }
