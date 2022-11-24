@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.df9f5423.chunk.css",
-  "main.js": "/static/js/main.9b39858a.chunk.js",
-  "main.js.map": "/static/js/main.9b39858a.chunk.js.map",
-  "static/js/1.8d72061e.chunk.js": "/static/js/1.8d72061e.chunk.js",
-  "static/js/1.8d72061e.chunk.js.map": "/static/js/1.8d72061e.chunk.js.map",
+  "main.css": "/static/css/main.9a63823b.chunk.css",
+  "main.js": "/static/js/main.1eb5e4e4.chunk.js",
+  "main.js.map": "/static/js/main.1eb5e4e4.chunk.js.map",
+  "static/js/1.387a2ce8.chunk.js": "/static/js/1.387a2ce8.chunk.js",
+  "static/js/1.387a2ce8.chunk.js.map": "/static/js/1.387a2ce8.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/Hashnode.png": "/static/media/Hashnode.539c350d.png",
@@ -41,8 +41,9 @@
   "static/media/Kubecon.png": "/static/media/Kubecon.c1f09d51.png",
   "static/media/Grand_Price.png": "/static/media/Grand_Price.fb0005a4.png",
   "static/media/LFX.png": "/static/media/LFX.42503950.png",
-  "static/css/main.df9f5423.chunk.css.map": "/static/css/main.df9f5423.chunk.css.map",
+  "static/media/Comingsoon.css": "/static/media/coming_soon_bg.eb41642b.png",
+  "static/css/main.9a63823b.chunk.css.map": "/static/css/main.9a63823b.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.a5b4bf41f55c00ddeb43fc1e0e5a915a.js": "/precache-manifest.a5b4bf41f55c00ddeb43fc1e0e5a915a.js",
+  "precache-manifest.66742944e2ea12abad12a7d15b6eb7dc.js": "/precache-manifest.66742944e2ea12abad12a7d15b6eb7dc.js",
   "service-worker.js": "/service-worker.js"
 }
