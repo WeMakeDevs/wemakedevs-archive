@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import Logo from '../assets/logo.png'
-import Youtube from '../assets/youtube.png'
+import Youtube from '../assets/Youtube.png'
 import '../styles/navbar.css'
 
 const Navbar = () => {
