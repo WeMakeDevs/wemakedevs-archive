@@ -17,7 +17,7 @@ jobs:
 
     - name: Deploy
       run: |
-        git config --global user.name 'commclassroom'
-        git config --global user.email 'kunal@commclassroom.org'
+        git config --global user.name 'wemakedevs'
+        git config --global user.email 'kunal@wemakedevs.org'
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}    
         CI=false npm run deploy
