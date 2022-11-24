@@ -23,7 +23,7 @@ const Header = () => {
     </div>
     <div className="header_cont_2_b">
           <a href='https://www.youtube.com/c/KunalKushwaha/' target="_blank"> <img className="header_cont_2_b_img_youtube" src={Youtube} alt="youtube" /> </a>
-          <a href='https://discord.io/WeMakeDevs' target="_blank"> <img className="header_cont_2_b_img_discord" src={Discord} alt="discord" /></a>
+          <a href='https://discord.com/invite/wemakedevs' target="_blank"> <img className="header_cont_2_b_img_discord" src={Discord} alt="discord" /></a>
           <a href='https://mobile.twitter.com/WeMakeDevs' target="_blank"> <img className="header_cont_2_b_img_discord" src={  Twitter} alt="discord" /></a>
           <a href='https://www.linkedin.com/company/wemakedevs/' target="_blank"> <img className="header_cont_2_b_img_discord" src={ LinkedIn} alt="discord" /></a>
     </div>
