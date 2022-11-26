@@ -30,7 +30,6 @@
     background: linear-gradient(to right, var(--lightSky), var(--lightGreen), var(--lighterGreen), var(--lightSky));
     background-size: 200%;
     height: 1.5em;
-    /* background-image: ; */
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
