@@ -1,3 +1,19 @@
+:root{
+    --lightSky: rgba(64,148,236,1);
+    --lightGreen: rgb(101, 211, 181);
+    --lighterGreen: rgba(6,214,160,1);
+
+}
+
+@keyframes background-pan {
+    from {
+        background-position: 0% center;
+    }
+    to {
+        background-position: -200% center;
+    }
+}
+
 .founder{
     display:flex;
     margin-top: 150px;
@@ -10,12 +26,14 @@
 }
 .founder_span
 {
-    background: #ee0979;  /* fallback for old browsers */
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(to right, var(--lightSky), var(--lightGreen), var(--lighterGreen), var(--lightSky));
+    background-size: 200%;
     height: 1.5em;
-    background-image: linear-gradient(90deg, rgba(64,148,236,1) 0%, rgba(6,214,160,1) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    white-space: nowrap;
 }
 .founder_assets_green{
     width: 250px;
