@@ -8,6 +8,7 @@ import {Route, Routes} from 'react-router-dom';
 // import Hashnode from './pages/Hashnode.js'
 // import ComingSoon from './pages/Comingsoon.js'
 import Home from './v1/pages/home';
+import './v1/index.css'
 
 const App = () => {
   return (
