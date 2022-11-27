@@ -25,18 +25,24 @@ const Navbar = () => {
             if (link.active) {
               return (
                 <li className={styles["nav-active"]}>
-                  <a href={link.href}>{link.name}</a>
+                  <a href={link.href} target="_blank" rel="noopener noreferrer">
+                    {link.name}
+                  </a>
                 </li>
               );
             }
             return (
               <li>
-                <a href={link.href}>{link.name}</a>
+                <a href={link.href} target="_blank" rel="noopener noreferrer">
+                  {link.name}
+                </a>
               </li>
             );
           })}
           <li>
-            <div className={`${styles["nav-youtube"]} ${styles["nav-youtube-sm"]}`}>
+            <div
+              className={`${styles["nav-youtube"]} ${styles["nav-youtube-sm"]}`}
+            >
               <a
                 href="https://www.youtube.com/c/KunalKushwaha"
                 target="_blank"
