@@ -2,7 +2,6 @@ import React from "react";
 import BannerImage from "../../../assets/home/founder.png";
 import Twitter from "../../../assets/home/twitter.png";
 import Linkedin from "../../../assets/home/linkedin.png";
-import Web from "../../../assets/home/web.png";
 import Instagram from "../../../assets/home/instagram.png";
 import styles from "./index.module.css";
 
