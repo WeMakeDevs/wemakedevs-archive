@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "../../../assets/home/courses.png";
+import BannerImage from "../../../assets/home/courses.png";
 import RightArrow from "../../../assets/arrows/right-arrow.png";
 import styles from "./index.module.css";
 
@@ -36,7 +36,7 @@ const Courses = () => {
             <img src={RightArrow} alt="right arrow" />
           </a>
         </div>
-        <img className={styles["banner"]} src={AboutImage} alt="About us" />
+        <img className={styles["banner"]} src={BannerImage} alt="Banner" />
       </div>
     </section>
   );
