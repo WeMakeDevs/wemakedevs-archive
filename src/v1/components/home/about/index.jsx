@@ -1,13 +1,14 @@
 import React from "react";
 import AboutImage from "../../../assets/home/aboutus.png";
+import RightArrow from "../../../assets/arrows/right-arrow.png";
 import styles from "./index.module.css";
 
 const About = () => {
   return (
     <section>
-      <div className={styles['about-container']}>
-        <img className={styles['banner']} src={AboutImage} alt="About us" />
-        <div className={styles['info-container']}>
+      <div className={styles["about-container"]}>
+        <img className={styles["banner"]} src={AboutImage} alt="About us" />
+        <div className={styles["info-container"]}>
           <h2>About us</h2>
           <p>
             <ul>
@@ -38,6 +39,15 @@ const About = () => {
               </li>
             </ul>
           </p>
+          <a
+            href="https://discord.gg/wemakedevs"
+            className={styles["link-primary"]}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join our Discord
+            <img src={RightArrow} alt="right arrow" />
+          </a>
         </div>
       </div>
     </section>
