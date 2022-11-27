@@ -3,6 +3,7 @@
     margin: 3rem auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
 }
 
