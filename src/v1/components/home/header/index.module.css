@@ -21,27 +21,6 @@
     margin: 1.5rem 0;
 }
 
-@keyframes background-pan {
-    from {
-        background-position: 0% center;
-    }
-
-    to {
-        background-position: -200% center;
-    }
-}
-
-.header-container h1 .highlight {
-    animation: background-pan 3s linear infinite;
-    background: linear-gradient(to right, var(--clr-primary), var(--clr-pink), var(--clr-yellow), var(--clr-primary));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    white-space: nowrap;
-    background-size: 200%;
-    height: 1.5em;
-}
-
 .header-container .tag-line {
     font-style: normal;
     font-weight: 450;

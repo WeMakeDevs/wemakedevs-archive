@@ -18,7 +18,7 @@ const Header = () => {
           <img src={ChevronRight} aria-hidden={true} alt=""></img>
         </a>
         <h1>
-          The <span className={styles["highlight"]}>Free</span> Community for
+          The <span className={`animated-gradient`}>Free</span> Community for
           Modern Learning.
         </h1>
         <p className={styles["tag-line"]}>
