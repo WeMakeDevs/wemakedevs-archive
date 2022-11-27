@@ -29,12 +29,19 @@ const Header = () => {
           <span className={styles["highlight"]}>learn by doing</span> approach.
         </p>
         <div className={styles["links"]}>
-          <a href="/" className={`${styles["link"]} ${styles["link-primary"]}`}>
+          <a
+            href="/"
+            className={`${styles["link"]} ${styles["link-primary"]}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             See courses <img src={RightArrow} aria-hidden={true} alt=""></img>{" "}
           </a>
           <a
             href="/"
             className={`${styles["link"]} ${styles["link-secondary"]}`}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Visit youtube{" "}
             <img src={TopRightArrow} aria-hidden={true} alt=""></img>
