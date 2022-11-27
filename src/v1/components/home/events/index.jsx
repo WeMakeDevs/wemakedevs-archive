@@ -15,8 +15,8 @@ const Events = () => {
         <div className={styles["info-container"]}>
           <h2>
             Join our{" "}
-            <span className={`animated-gradient`}>free and exciting</span>{" "}
-            events
+            free and exciting{" "}
+            <span className={`animated-gradient`}>events</span>
           </h2>
           <p>
             <ul>

@@ -9,7 +9,7 @@ const Mentorship = () => {
       <div className={styles["mentorship-container"]}>
         <div className={styles["info-container"]}>
           <h2>
-            <span className="animated-gradient">Roadmaps & Mentorship </span>
+            <div className="animated-gradient">Roadmaps & Mentorship </div>
             made by best in the industry
           </h2>
           <p>

@@ -138,7 +138,8 @@
         font-size: 15px;
     }
 
-    .podcast-container .category {
+    .podcast-container .category,
+    .podcast-container .link-secondary {
         font-size: 16px;
     }
 

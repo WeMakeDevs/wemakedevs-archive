@@ -131,6 +131,11 @@
 
 @media screen and (max-width: 450px) {
 
+    .header-container {
+        height: 60vh;
+        margin-bottom: 5rem;
+    }
+
     .header-container h1 {
         font-size: 28px;
         line-height: 40px;

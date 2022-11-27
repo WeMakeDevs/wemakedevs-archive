@@ -6,7 +6,7 @@
 }
 
 .footer {
-    padding: 100px 0;
+    padding: 100px 1rem;
     display: flex;
 }
 
@@ -127,9 +127,9 @@
 
 @media only screen and (max-width: 950px) {
     .footer-p {
-        width: 350px;
         margin-top: 2rem;
         font-size: 14px;
+        width: 90%;
     }
 
     .footer-col1 {
@@ -143,5 +143,10 @@
     .footer-col2-1 h4, 
     .footer-col2-2 h4 {
         font-size: 16px;
+    }
+
+    .footer-col2,
+    .footer-col1 {
+        width: 100%;
     }
 }
