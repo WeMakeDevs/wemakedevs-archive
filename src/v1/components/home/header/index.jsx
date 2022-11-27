@@ -30,7 +30,7 @@ const Header = () => {
         </p>
         <div className={styles["links"]}>
           <a
-            href="/"
+            href="https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3"
             className={`${styles["link"]} ${styles["link-primary"]}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -38,7 +38,7 @@ const Header = () => {
             See courses <img src={RightArrow} aria-hidden={true} alt=""></img>{" "}
           </a>
           <a
-            href="/"
+            href="https://www.youtube.com/@WeMakeDevs"
             className={`${styles["link"]} ${styles["link-secondary"]}`}
             target="_blank"
             rel="noopener noreferrer"

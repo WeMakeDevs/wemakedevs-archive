@@ -42,7 +42,11 @@ const Founder = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <a href="https://twitter.com/kunalstwt">
+            <a
+              href="https://twitter.com/kunalstwt"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className={`${styles["pill"]} ${styles["pill-twitter"]}`}>
                 <img src={Twitter} alt="Twitter" />
               </div>
