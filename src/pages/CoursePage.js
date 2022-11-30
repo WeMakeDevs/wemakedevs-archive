@@ -6,9 +6,9 @@ import Footer from '../components/Footer'
 const CoursePage = () => {
   return (
     <div>
-        <Navbar />
+        
         <Course />
-        <Footer />
+       
     </div>
   )
 }

@@ -16,7 +16,7 @@ const Events = () => {
           <h2>
             Join our{" "}
             free and exciting{" "}
-            <span className={`animated-gradient`}>events</span>
+          events
           </h2>
           <p>
             <ul>

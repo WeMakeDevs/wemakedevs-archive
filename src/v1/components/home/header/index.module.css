@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var(--clr-dark);
+    color: var(--clr-white);
     padding: 1rem;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .header-container .tag-line .highlight {
-    color: var(--clr-dark);
+    color: var(--clr-white);
     font-weight: 500;
 }
 
@@ -39,7 +39,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    background: var(--clr-primary);
+    background: var(--clr-blue);
     border-radius: 31px;
     width: fit-content;
     padding: 0.5rem 2rem;
@@ -66,13 +66,15 @@
 }
 
 .link-primary {
-    background-color: var(--clr-primary);
+    background-color: var(--clr-blue);
     color: white;
     margin-right: 2rem;
 }
 
 .link-secondary {
     outline: 1px solid var(--clr-gray-light);
+    background-color: var(--clr-white);
+    color: black;
 }
 
 .link-primary img {

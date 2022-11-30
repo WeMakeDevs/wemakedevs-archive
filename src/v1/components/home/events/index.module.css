@@ -6,7 +6,9 @@
     align-items: center;
     padding: 1rem;
 }
-
+.events-container  h2{
+    color: white;
+}
 .events-container .banner {
     width: 50%;
     height: 100%;
@@ -42,7 +44,7 @@
 }
 
 .events-container ul .highlight {
-    color: var(--clr-dark);
+    color: var(--clr-white);
 }
 
 @media screen and (max-width: 1000px) {

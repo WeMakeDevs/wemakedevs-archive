@@ -6,7 +6,9 @@
     align-items: center;
     padding: 1rem;
 }
-
+.courses-container h2{
+    color: white;
+}
 .courses-container .banner {
     width: 50%;
     height: 100%;
@@ -29,7 +31,7 @@
     font-weight: 450;
     font-size: 20px;
     line-height: 145%;
-    color: var(--clr-dark);
+    color: var(--clr-white);
     padding: 0 1.25rem 1.25rem 1.25rem;
 }
 
@@ -47,7 +49,7 @@
 }
 
 .link-primary {
-    background-color: var(--clr-primary);
+    background-color: var(--clr-blue);
     color: white;
     font-style: normal;
     font-weight: 400;

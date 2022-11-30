@@ -9,6 +9,7 @@ import Founder from "../../components/home/founder";
 import Header from "../../components/home/header";
 import Mentorship from "../../components/home/mentorship";
 import Podcast from "../../components/home/podcast";
+import Course from '../../../pages/CoursePage.js'
 
 const Home = () => {
   return (
@@ -17,12 +18,14 @@ const Home = () => {
       <Header></Header>
       <About></About>
       <Courses></Courses>
+      {/* <Course></Course> */}
       <Events></Events>
       <Mentorship></Mentorship>
-      <Podcast></Podcast>
+      {/* <Podcast></Podcast> */}
       <Blog></Blog>
-      <Founder></Founder>
+      {/* <Founder></Founder> */}
       <Footer></Footer>
+      
     </div>
   );
 };

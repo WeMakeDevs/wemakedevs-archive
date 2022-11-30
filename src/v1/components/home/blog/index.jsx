@@ -9,7 +9,7 @@ const Blog = () => {
       <div className={styles["blog-container"]}>
         <div className={styles["info-container"]}>
           <h2>
-            Read and write <span className="animated-gradient">Blogs</span> to
+            Read and write Blogs  to
             win amazing prizes
           </h2>
           <p>

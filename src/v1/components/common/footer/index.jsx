@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-col1">
           <img className="logo" src={Logo} alt="CC" />
           <p className="footer-p">
-            © 2022 Community Classroom · All rights reserved.
+            © 2022 WeMakeDevs · All rights reserved.
           </p>
         </div>
 

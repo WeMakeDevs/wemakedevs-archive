@@ -6,7 +6,9 @@
     align-items: center;
     padding: 1rem;
 }
-
+.blog-container h2{
+    color: white; 
+}
 .blog-container .banner {
     width: 50%;
     height: 100%;
@@ -29,7 +31,7 @@
     font-weight: 450;
     font-size: 20px;
     line-height: 145%;
-    color: var(--clr-dark);
+    color: var(--clr-white);
     padding: 0 1.25rem 1.25rem 1.25rem;
 }
 
@@ -43,7 +45,7 @@
 }
 
 .blog-container ul .highlight {
-    color: var(--clr-dark);
+    color: var(--clr-white);
 }
 
 @media screen and (max-width: 1000px) {
