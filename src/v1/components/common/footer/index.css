@@ -57,7 +57,7 @@
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: var(--clr-primary);
+    background-color: var(--clr-blue);
     height: 2px;
     box-sizing: border-box;
     width: 50px;

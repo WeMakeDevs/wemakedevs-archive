@@ -10,7 +10,7 @@ const Courses = () => {
         <div className={styles["info-container"]}>
           <h2>
             Boost your career with our{" "}
-            Complete Hands On <span className="animated-gradient">Courses</span>
+            Complete Hands On Courses
           </h2>
           <p>
             <ul>

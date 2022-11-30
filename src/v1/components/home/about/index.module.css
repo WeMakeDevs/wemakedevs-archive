@@ -6,7 +6,9 @@
     align-items: center;
     padding: 1rem;
 }
-
+.about-container h2{
+    color: white;
+}
 .about-container .banner {
     width: 50%;
     height: 100%;
@@ -42,11 +44,11 @@
 }
 
 .about-container ul .highlight {
-    color: var(--clr-dark);
+    color: var(--clr-white);
 }
 
 .link-primary {
-    background-color: var(--clr-primary);
+    background-color: var(--clr-blue);
     color: white;
     font-style: normal;
     font-weight: 400;
