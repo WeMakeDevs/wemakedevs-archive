@@ -1,0 +1,149 @@
+
+.footer-links{
+    max-width: 928px;
+    height: 0px;
+    border: 1px solid #2B2B2B;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-links-1{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+
+}
+.footer {
+    padding: 100px 1rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-buttons{
+    
+    margin-top: 20px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-links-2 h2{
+  color:white;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+
+}
+
+.footer-links p{
+  color:white;
+  text-align: center;
+  margin-top: 10px;
+}
+.footer-p {
+    color: white;
+}
+
+.footer-col2 h1{
+  color:white;
+}
+.footer-col1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-col2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.footer-col2-1 {
+    width: 100px;
+    margin-left: 10%;
+}
+
+.footer-col2-2 {
+    margin-left: 30%;
+}
+
+.footer-links-3 ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.footer-links-3 li {
+  float: left;
+}
+
+.footer-links-3 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 950px) {
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-p {
+        margin-top: 50px;
+    }
+
+    .footer-col2 {
+        margin-top: 50px;
+    }
+
+    .footer-col2-1 {
+        margin-left: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 950px) {
+    .footer-p {
+        margin-top: 2rem;
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .footer-col1 {
+        width: 330px;
+        margin-left: 15px;
+        margin-left: auto;
+    }
+
+    .footer-col2-1 ul li a,
+    .footer-col2-2 ul li a,
+    .footer-col2-1 h4, 
+    .footer-col2-2 h4 {
+        font-size: 16px;
+    }
+
+    .footer-col2,
+    .footer-col1 {
+        width: 100%;
+    }
+}
