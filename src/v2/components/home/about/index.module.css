@@ -1,0 +1,100 @@
+.about-containers h1{
+   color: white;
+   text-align: center;
+   font-size: 2rem;
+}
+.about-container{
+    max-width: 1200px;
+    margin: 3rem auto 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}    
+.about-cont-1{
+    width: 324px;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+}
+.about-cont-1 p {
+    padding: 20px 20px 20px 20px ;
+    color: #FFFFFF;
+    
+}
+.about-cont-2-a, .about-cont-2-b{
+    border-radius: 8px;
+    background-color: #1E1E1E;
+    padding: 25px 52px 25px 28px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 22px;
+
+}
+.about-cont-2-b{
+    margin-top: 50px;
+}
+.about-cont-2-c{
+    border-radius: 8px;
+    background-color: #1E1E1E;
+    padding: 25px 52px 25px 28px;
+    margin-top: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 22px;
+}
+
+.about-discord{
+    margin-top: 30px;
+}
+.about-cont-3{
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px 52px 60px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.about-cont-3 p{
+    margin-top: 20px;
+    color: #000000;
+    font-weight: 600;
+    max-width: 250px;
+}
+.about-cont-2-a p{
+    color: #FFFFFF;
+}
+.about-cont-2-b p{
+    color: #FFFFFF;
+}
+.about-cont-2-c p{
+    color: #FFFFFF;
+}
+@media  screen and (max-width: 600px){
+    .about-container{
+        display: flex;
+       flex-direction: column;
+       max-width: 1000px;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 4rem;
+    } 
+    .about-cont-2-a, .about-cont-2-b{
+       
+    margin-top: 50px;
+        
+    
+    }
+ 
+    .about-cont-2-c{
+       
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .about-cont-3{
+        margin-top: 80px;
+    }
+}

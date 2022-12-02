@@ -1,0 +1,127 @@
+import React from "react";
+import Logo from "../../../assets/common/logo.svg";
+import Youtube from "../../../assets/home/Youtube.png";
+import Discord  from "../../../assets/home/Discord.png";
+import Github from "../../../assets/home/Github.png";
+import Instagram from "../../../assets/home/Instagram.png";
+import Twitter from "../../../assets/home/Twitter.png";
+import LinkedIn from "../../../assets/home/Linkedin.png";
+import Telegram from "../../../assets/home/Telegram.png";
+
+import "./index.css";
+
+const Footer = () => {
+  return (
+    <footer>
+      <div className="footer">
+        <div className="footer-col1">
+        
+          <p className="footer-p">
+          Join our community
+          </p>
+          <div className="footer-buttons">
+          <a
+            href="https://github.com/wemakedevs/events"
+            className={`link-normal`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={ Telegram } alt="telegram" /> Telegram
+            
+          </a>
+          <a
+            href="https://github.com/wemakedevs/events"
+            className={`link-normal`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={ Discord } alt="discord" /> Discord
+            
+          </a>
+          </div>
+        </div>
+          <div className="footer-col2">
+              <h1> Inspire, Educate,
+              Empower.
+              </h1>
+          </div>
+        
+      </div>
+      <div className="footer-links">
+      </div>
+      <div className="footer-links-1">
+      <div className="footer-links-2">
+      <h2> Wemakedevs </h2>
+      </div>
+      
+      <div className="footer-links-3">
+      <ul>
+              <li>
+                <a
+                  href="https://www.youtube.com/@WeMakeDevs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                 <img src={Youtube} alt="youtube" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://discord.gg/wemakedevs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Discord} alt="discord" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://t.me/WeMakeDevs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                 <img src={LinkedIn} alt="linkedin" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/WeMakeDevs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Twitter} alt="twitter" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/wemakedevs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                   <img src={Instagram} alt="twitter" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/WeMakeDevs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                   <img src={Github} alt="twitter" />
+                </a>
+              </li>
+            </ul>
+      </div>
+      </div>
+      <div className="footer-links">
+       <p> kunal@wemakedevs.org </p>
+      </div>
+      <br />
+      <br />
+      
+
+    </footer>
+  );
+};
+
+export default Footer;
