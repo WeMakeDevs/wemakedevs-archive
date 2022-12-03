@@ -48,17 +48,7 @@ const about = () => {
             
           </a>
           </div>
-          <p> Join our Discord Community Server </p>
-           <div className={styles["about-discord"]}>
-           <a
-            href="https://github.com/wemakedevs/events"
-            className={`link-primary`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={ Discord } alt="discord" /> Discord
-          </a>
-          </div>
+         
     </div>
        </div>
     </section>
