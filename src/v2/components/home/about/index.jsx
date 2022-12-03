@@ -4,6 +4,7 @@ import Discord from "../../../assets/home/Discord.png"
 import Handson from "../../../assets/home/Handson.png"
 import Diamond from "../../../assets/home/Diamond.png"
 import Free from "../../../assets/home/free.png"
+import Telegram from "../../../assets/home/Telegram.png"
 
 const about = () => {
   return (
@@ -39,7 +40,7 @@ const about = () => {
            <p> Join our Discord Community Server </p>
            <div className={styles["about-discord"]}>
            <a
-            href="https://github.com/wemakedevs/events"
+            href="https://discord.gg/wemakedevs"
             className={`link-primary`}
             target="_blank"
             rel="noopener noreferrer"
@@ -48,15 +49,15 @@ const about = () => {
             
           </a>
           </div>
-          <p> Join our Discord Community Server </p>
+          <p> Join our Telegram Community </p>
            <div className={styles["about-discord"]}>
            <a
-            href="https://github.com/wemakedevs/events"
+            href="https://t.me/WeMakeDevs"
             className={`link-primary`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={ Discord } alt="discord" /> Discord
+            <img src={ Telegram } alt="discord" /> Telegram
           </a>
           </div>
     </div>

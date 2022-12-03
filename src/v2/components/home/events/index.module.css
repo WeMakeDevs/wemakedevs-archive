@@ -1,9 +1,11 @@
 .events-container {
     max-width: 1200px;
-    margin: 3rem auto;
+    margin: 9rem auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .events-container  h2{
     color: white;
@@ -29,7 +31,8 @@
     font-size: 20px;
     line-height: 145%;
     color: #5F7086;
-    padding: 0 1.25rem 1.25rem 1.25rem;
+    padding: 0 1.25rem 1.25rem 1.25rem ;
+    margin-bottom: 40px;
 }
 
 .events-container li {
@@ -48,9 +51,11 @@
 @media screen and (max-width: 1000px) {
 
     .events-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .events-container .banner {
