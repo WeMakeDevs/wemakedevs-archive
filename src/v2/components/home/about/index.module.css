@@ -72,7 +72,8 @@
 .about-cont-2-c p{
     color: #FFFFFF;
 }
-@media  screen and (max-width: 600px){
+
+@media  screen and (max-width: 1000px){
     .about-container{
         display: flex;
        flex-direction: column;
@@ -82,17 +83,11 @@
        padding: 4rem;
     } 
     .about-cont-2-a, .about-cont-2-b{
-       
-    margin-top: 50px;
-        
-    
+       margin-top: 50px;
     }
- 
     .about-cont-2-c{
-       
-        display: flex;
+       display: flex;
         justify-content: space-evenly;
-        
     }
     .about-cont-3{
         margin-top: 80px;
