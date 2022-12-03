@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "96133f5cf3827cc3f62f",
-    "url": "/static/css/main.33087ffa.chunk.css"
+    "revision": "a054062a180d78023ce1",
+    "url": "/static/css/main.98794af9.chunk.css"
   },
   {
-    "revision": "96133f5cf3827cc3f62f",
-    "url": "/static/js/main.96133f5c.chunk.js"
+    "revision": "a054062a180d78023ce1",
+    "url": "/static/js/main.a054062a.chunk.js"
   },
   {
-    "revision": "e8588b9a2dc31f719dcc",
-    "url": "/static/js/1.e8588b9a.chunk.js"
+    "revision": "747f9130eae48cd8df03",
+    "url": "/static/js/1.747f9130.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/courses.bdcdb8d4.png"
   },
   {
-    "revision": "6aa7773d357245a51a1b5d0818cc118c",
+    "revision": "301fde5b191192b81c00823f9893836f",
     "url": "/index.html"
   }
 ];
