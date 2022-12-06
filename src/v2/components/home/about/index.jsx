@@ -1,69 +1,86 @@
-import React from 'react'
+import React from "react";
+import AboutImage from "../../../assets/home/aboutus.png";
+import RightArrow from "../../../assets/arrows/right-arrow.png";
+import RightSingleArrow from "../../../assets/arrows/right-single-arrow.png";
 import styles from "./index.module.css";
-import Discord from "../../../assets/home/Discord.png"
-import Handson from "../../../assets/home/Handson.png"
-import Diamond from "../../../assets/home/Diamond.png"
-import Free from "../../../assets/home/free.png"
-import Telegram from "../../../assets/home/Telegram.png"
+import Cards from './cards.jsx'
 
-const about = () => {
+const About = () => {
   return (
-    <section className={styles["about-containers"]}>
-          <h1> Our Foundations </h1>
-        <div className={styles["about-container"]}>
-          <div className={styles["about-cont-1"]}>
-             <p> Students & professionals learning 
-                  modern technologies </p>
-            <br />
-            <p> Regardless of Technical & 
-             Non-Technical Backgrounds </p>
-             <br />
-             <p> Irrespective of college, branch.
-             We are here to help you out. </p>
-          </div>
-          <div className={styles["about-cont-2"]}>
-            <div className={styles["about-cont-2-a"]}>
-              <p> Hands-on-training 
-              </p>
-              <img className={styles["about-cont-2-img"]} src={Handson} alt="handson" />
-            </div>
-            <div className={styles["about-cont-2-b"]}>
-              <p> FREE Mentorship </p>
-              <img className={styles["about-cont-2-img"]} src={Free} alt="handson" />
-            </div>
-            <div className={styles["about-cont-2-c"]}>
-              <p> Inclusive Community </p>
-              <img className={styles["about-cont-2-img"]} src={Diamond} alt="handson" />
-            </div>
-          </div>
-         <div className={styles["about-cont-3"]}>
-           <p> Join our Discord Community Server </p>
-           <div className={styles["about-discord"]}>
-           <a
-            href="https://discord.gg/wemakedevs"
-            className={`link-primary`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={ Discord } alt="discord" /> Discord
+    <section>
+      <div className={styles["about-container"]}>
+        <img className={styles["banner"]} src={AboutImage} alt="About us" />
+        <div className={styles["info-container"]}>
+          <h1>ABOUT US</h1>
+          <hr className={styles["about-border"]}></hr>
+          <p>
+            <ul>
             
-          </a>
-          </div>
-          <p> Join our Telegram Community </p>
-           <div className={styles["about-discord"]}>
-           <a
-            href="https://t.me/WeMakeDevs"
-            className={`link-primary`}
+           
+              <li> 
+               <img src={RightSingleArrow} alt="single-arrow" />
+                <p>We believe that everyone, irrespective of their college or
+                branch, technical or non-technical background  can make it big.{" "}
+                <span className={styles["highlight"]}>
+                  {" "}
+                  WeMakeDevs is an initiative built on this thought.{" "}
+                </span>
+                </p>
+              </li>
+              <li>
+              <img src={RightSingleArrow} />
+              <p>
+                We provide{" "}
+                <span className={styles["highlight"]}>
+                  hands-on training, mentorship for FREE
+                </span>{" "}
+                and have an {" "}
+                <span className={styles["highlight"]}>
+                  inclusive community.
+                </span>
+                </p>
+                </li>
+              <li>
+              <img src={RightSingleArrow} />
+              <p>
+                Get{" "}
+                <span className={styles["highlight"]}>
+                  expert guidance with career
+                </span>
+                , Open Source, and internships, jobs around the world.
+                </p>
+              </li>
+              <li>
+              <img src={RightSingleArrow} />
+              <p>
+               We are also having various {" "}
+                <span className={styles["highlight"]}>
+                  events weekly or monthly. {" "}
+                </span>
+                Do participate in those events to make your skills enhance.
+                </p>
+              </li>
+            </ul>
+          </p>
+          <div className={styles["courses-link"]}>
+          <button>
+          <a
+            href="https://discord.gg/wemakedevs"
+            className={styles["link-primary"]}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={ Telegram } alt="discord" /> Telegram
+           Join Discord
+            <img src={RightArrow} alt="right arrow" />
           </a>
+          </button>
+          
           </div>
-    </div>
-       </div>
+        </div>
+      </div>
+      <Cards />
     </section>
-   )
-}
+  );
+};
 
-export default about
+export default About;

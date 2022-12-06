@@ -28,7 +28,7 @@ export const navLinks = [
     external: true,
   },
   {
-    name: "Hackathon",
+    name: "Join",
     href: "https://github.com/wemakedevs/roadmaps",
     external: true,
   },

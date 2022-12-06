@@ -6,6 +6,7 @@
     margin: 1rem auto 1rem auto;
     max-width: 1400px;
     padding: 0 1rem;
+    z-index: 2;
 }
 
 .nav-logo {

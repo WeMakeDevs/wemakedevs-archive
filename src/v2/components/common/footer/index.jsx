@@ -1,12 +1,13 @@
 import React from "react";
 import Logo from "../../../assets/common/logo.svg";
-import Youtube from "../../../assets/home/Youtube.png";
+import Youtube from "../../../assets/home/youtube.png";
 import Discord  from "../../../assets/home/Discord.png";
 import Github from "../../../assets/home/Github.png";
 import Instagram from "../../../assets/home/Instagram.png";
 import Twitter from "../../../assets/home/Twitter.png";
 import LinkedIn from "../../../assets/home/Linkedin.png";
 import Telegram from "../../../assets/home/Telegram.png";
+import Gmail from "../../../assets/home/Gmail.png";
 
 import "./index.css";
 
@@ -110,11 +111,20 @@ const Footer = () => {
                    <img src={Github} alt="twitter" />
                 </a>
               </li>
+              <li>
+                <a
+                    href="mailto:kunal@wemakedevs.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                   <img src={Gmail} alt="twitter" />
+                </a>
+              </li>
             </ul>
       </div>
       </div>
       <div className="footer-links">
-       <p> kunal@wemakedevs.org </p>
+       <p>© Copyrights by <span> WeMakeDevs </span>All Rights Reserved. </p>
       </div>
       <br />
       <br />

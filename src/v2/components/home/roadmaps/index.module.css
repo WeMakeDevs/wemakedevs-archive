@@ -1,13 +1,27 @@
 .mentorship-container {
     max-width: 1200px;
-    margin: 10rem auto;
+    margin: 7rem auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
+}
+.mentorship-container h1{
+    color: white;
+    text-align: center;
+    font-size:40px;
+    font-size: 50px;
+    letter-spacing: 8px;
     
 }
-.mentorship-container h2{
-    color: white;
+.mentorship-container .info-container .mentorship-border{
+    background-color: var(--clr-blue);
+    height:3px;
+    border:none;
+    width: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1rem;
 }
 .mentorship-container .banner {
     width: 50%;
@@ -15,7 +29,7 @@
     object-fit: cover;
 }
 
-.mentorship-container .mentorship-info-container {
+.mentorship-container .info-container {
     width: 50%;
     margin-right: 3rem;
 }
@@ -32,19 +46,57 @@
     font-size: 20px;
     line-height: 145%;
     color: var(--clr-secondary);
-    padding: 0 2rem 1.25rem 1.25rem;
+    padding: 0 1.25rem 1.25rem 1.25rem;
 }
 
 .mentorship-container li{
-    margin: 1.5rem 1.9rem ;
-    list-style-type: none;
+    display: flex;
+    padding: 1.25rem;
+      text-align: start;
 }
-.mentorship-img{
-    padding-right: 10px;
+.mentorship-container li img{
+    width:30px;
+    height: 30px;
 }
 
 .mentorship-container ul .highlight {
     color: var(--clr-white);
+}
+.roadmap-link{
+    background-color: var(--clr-blue);
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    padding: 12px 24px 12px 24px; 
+    border-radius: 30px;
+}
+.courses-link{
+    text-align:center;
+}
+
+.courses-link button{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 3rem;
+    background-color: var(--clr-blue);
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    padding: 12px 24px;
+    border-radius: 30px;
+  margin-left:auto;
+  margin-right: auto;
+  border:none;
+}
+.roadmap-link img{
+    height: 12px;
+    width: 16px;
+    margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -61,7 +113,7 @@
         order: 1;
     }
 
-    .mentorship-container .mentorship-info-container {
+    .mentorship-container .info-container {
         width: 100%;
         margin: 2rem 0;
         order: 2;

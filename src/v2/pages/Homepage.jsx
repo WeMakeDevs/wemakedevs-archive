@@ -11,12 +11,13 @@ import Roadmap from "../components/home/roadmaps";
 import Partner from "../components/home/Partner";
 // import Podcast from "../../components/home/podcast";
 // import Course from '../../../pages/CoursePage.js'
+import './pages.css'
 
 const Home = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <Header></Header>
+      <Header className="header"></Header>
       <About></About>
       <Courses></Courses>
       <Events></Events>
