@@ -1,6 +1,6 @@
 import React from 'react'
 import Discord from '../../assets/Discord.png'
-import  Youtube from '../../assets/ypng'
+import  Youtube from '../../assets/youtube.png'
 import ComingSoonNavbar from './ComingSoonNavbar.js'
 import LinkedIn from '../../assets/Linkedin.png'
 import Twitter from '../../assets/Twitter.png'
