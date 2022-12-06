@@ -37,3 +37,10 @@
 .partner-button a {
   white-space: nowrap;
 }
+@media only screen and (max-width: 600px){
+
+    .partner-button{
+        display: flex;
+        flex-direction: column;
+    }
+}
