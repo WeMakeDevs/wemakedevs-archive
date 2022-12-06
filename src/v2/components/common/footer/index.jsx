@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
       <div className="footer-links-1">
       <div className="footer-links-2">
-      <h2> Wemakedevs </h2>
+      <h2> WeMakeDevs </h2>
       </div>
       
       <div className="footer-links-3">
