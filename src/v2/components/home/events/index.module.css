@@ -7,8 +7,33 @@
     margin-left: auto;
     margin-right: auto;
 }
-.events-container  h2{
+.events-container  h1{
     color: white;
+    text-align: center;
+    font-size:40px;
+    font-size: 50px;
+    letter-spacing: 8px;
+    
+}
+.events-container .info-container .events-border{
+        background-color: var(--clr-blue);
+        height:3px;
+        border:none;
+        width: 85px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:1rem;
+}
+.events-free{
+    margin-top: 2rem;
+    max-width:800px;
+    margin-left:14%;
+    margin-right:14%;
+
+}
+.events-free p{
+    color: #ffffff;
+   
 }
 .events-container .banner {
     width: 50%;
@@ -19,6 +44,40 @@
 .events-container .info-container {
     width: 50%;
 }
+.events-link{
+     
+  
+        background-color: var(--clr-blue);
+        color: white;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 145%;
+        padding: 12px 24px;
+        border-radius: 30px;
+    
+        
+    }
+    
+    .events-link img {
+        height: 12px;
+        width: 16px;
+        margin-left: 0.5rem;
+    }
+    .events-button{
+        display: flex;
+        gap:22px;
+        margin-top:1rem;
+    }
+    
+    @media screen and (max-width: 650px) {
+    
+        .events-link{
+            font-size: 15px;
+            text-align: center;
+        }
+    
+    }
 
 .events-container h2 {
     font-size: 36px;
@@ -31,14 +90,19 @@
     font-size: 20px;
     line-height: 145%;
     color: #5F7086;
-    padding: 0 1.25rem 1.25rem 1.25rem ;
-    margin-bottom: 40px;
+    padding: 0rem 2rem 1.25rem 1.25rem;
+   list-style-type: none;
 }
 
 .events-container li {
-    margin: 1.5rem 0;
+    display: flex;
+    padding: 1.25rem;
+      text-align: start;
 }
-
+.events-container li img{
+    width:30px;
+    height: 30px;
+}
 .events-container li:first-child,
 .events-container li:last-child{
     margin: 0;
@@ -67,6 +131,11 @@
         width: 100%;
         margin: 2rem 0;
     }   
+    .events-button{
+        display: flex;
+        flex-direction: column;
+        gap:22px;
+    }
 }
 
 @media screen and (max-width: 650px) {

@@ -6,17 +6,9 @@ import TopRightArrow from "../../../assets/arrows/top-right-mid-arrow.png";
 
 const Header = () => {
   return (
-    <header className={styles["header-container"]}>
+    <section className={styles["header-container"]}>
       <div>
-        <a
-          href="https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr"
-          className={styles["podcast-pill"]}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check out our most recent podcast{" "}
-          <img src={ChevronRight} aria-hidden={true} alt=""></img>
-        </a>
+  
         <h1>
         Inspire, Educate, Empower.
         </h1>
@@ -47,7 +39,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-    </header>
+    </section>
   );
 };
 

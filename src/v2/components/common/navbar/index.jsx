@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../../assets/common/logo.svg";
 import YoutubeBg from "../../../assets/navbar/youtube-bg.png";
 import YoutubePlay from "../../../assets/navbar/youtube-play.png";
-import MenuIcon from "../../../assets/navbar/menu.png";
+import MenuIcon from "../../../assets/navbar/Menu.png";
 import styles from "./index.module.css";
 import { navLinks } from "./data";
 import { useState } from "react";
@@ -25,7 +25,7 @@ const Navbar = () => {
             if (link.active) {
               return (
                 <li className={styles["nav-active"]}>
-                  <a href={link.href} target="_blank" rel="noopener noreferrer">
+                  <a href={link.href} rel="noopener noreferrer">
                     {link.name}
                   </a>
                 </li>
@@ -40,31 +40,11 @@ const Navbar = () => {
             );
           })}
           <li>
-            <div
-              className={`${styles["nav-youtube"]} ${styles["nav-youtube-sm"]}`}
-            >
-              <a
-                href="https://www.youtube.com/c/KunalKushwaha"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Youtube
-              </a>
-             
-            </div>
+          
           </li>
         </ul>
       </nav>
-      <div className={styles["nav-youtube"]}>
-        <a
-          href="https://www.youtube.com/c/KunalKushwaha"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Youtube
-        </a>
-       
-      </div>
+     
       <img
         className={styles["nav-menu"]}
         src={MenuIcon}

@@ -34,7 +34,9 @@
  margin-top: 20px;
 
 }
-
+.footer-links span{
+    font-weight:600;
+}
 .footer-links p{
   color:white;
   text-align: center;
@@ -87,6 +89,10 @@
   padding: 16px;
   text-decoration: none;
 }
+.footer-links-3 img {
+    width: 30px;
+    height:30px;
+  }
 
 
 

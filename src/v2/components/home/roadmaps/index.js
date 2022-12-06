@@ -1,46 +1,61 @@
 import React from "react";
 import BannerImage from "../../../assets/home/courses.png";
 import RightArrow from "../../../assets/arrows/right-arrow.png";
-import Icon from "../../../assets/home/Icon.png";
 import styles from "./index.module.css";
+import RightSingleArrow from "../../../assets/arrows/right-single-arrow.png";
 
 const Mentorship = () => {
   return (
     <section>
       <div className={styles["mentorship-container"]}>
-        <div className={styles["mentorship-info-container"]}>
-          <h2>
-          Stay on track with the help of our roadmaps.
-          </h2>
+      
+        <div className={styles["info-container"]}>
+          <h1>
+          MENTORSHIP
+          <hr className={styles["mentorship-border"]}></hr>
+          </h1>
           <p>
             <ul>
-           
-            <li>
-            <img className= {styles["mentorship-img"]}src={Icon} alt= "icon" />
-            Made by people best in the industry
-            </li>
-           <li>
-           <img className= {styles["mentorship-img"]} src={Icon} alt= "icon" />
-           Tried and tested roadmaps.
-           </li>
-           <li>
-           <img className= {styles["mentorship-img"]} src={Icon} alt= "icon" /> 
-           Always kept up to date for best result.
-           </li>
+              <li>
+              <img src={RightSingleArrow} />
+              <p>
+                <span className={styles["highlight"]}>
+                  A comprehensive answer to all of your mentoring needs,
+                </span>{" "}
+                including educational materials, communities to join,
+                opportunities, and much more.
+                </p>
+              </li>
+              <li>
+              <img src={RightSingleArrow} />
+              <p>
+                <span className={styles["highlight"]}>
+                  Roadmaps to help you stay on track,
+                </span>{" "}
+                including those for open-source, full-stack, devrel, and more.
+                </p>
+              </li>
             </ul>
           </p>
+          <div className={styles["courses-link"]}>
+          <button>
           <a
-            href="https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3"
-            className={`link-primary`}
+             href="https://github.com/WeMakeDevs/roadmaps"
+            className={styles["roadmap-link"]}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Roadmaps
+           LEARN MORE
             <img src={RightArrow} alt="right arrow" />
           </a>
+          </button>
+          
+          </div>
+        
         </div>
         <img className={styles["banner"]} src={BannerImage} alt="Banner" />
       </div>
+      
     </section>
   );
 };
