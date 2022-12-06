@@ -22,7 +22,7 @@ const Footer = () => {
           </p>
           <div className="footer-buttons">
           <a
-            href="https://github.com/wemakedevs/events"
+            href="https://t.me/WeMakeDevs"
             className={`link-normal`}
             target="_blank"
             rel="noopener noreferrer"
@@ -31,7 +31,7 @@ const Footer = () => {
             
           </a>
           <a
-            href="https://github.com/wemakedevs/events"
+            href="https://discord.gg/wemakedevs"
             className={`link-normal`}
             target="_blank"
             rel="noopener noreferrer"
