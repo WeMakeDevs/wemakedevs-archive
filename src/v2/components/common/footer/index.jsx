@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../../assets/common/logo.svg";
-import Youtube from "../../../assets/home/youtube.png";
+import Youtube from "../../../assets/home/check.png";
 import Discord  from "../../../assets/home/Discord.png";
 import Github from "../../../assets/home/Github.png";
 import Instagram from "../../../assets/home/Instagram.png";
