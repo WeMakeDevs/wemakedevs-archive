@@ -17,10 +17,11 @@
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
 
     .link-normal {
         font-size: 15px;
+        margin-top: 15px;
     }
 
 }
