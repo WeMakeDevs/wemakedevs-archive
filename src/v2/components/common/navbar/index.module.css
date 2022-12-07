@@ -100,7 +100,7 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        background-color: white;
+        background-color: black;
         color: var(--clr-white);
         height: 100%;
         z-index: 5;
@@ -114,7 +114,7 @@
     .nav-links ul {
         display: flex;
         flex-direction: column;
-	color: black;
+	color: white;
     }
 
     .nav-links li {
