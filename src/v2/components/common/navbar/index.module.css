@@ -114,6 +114,7 @@
     .nav-links ul {
         display: flex;
         flex-direction: column;
+	color: black;
     }
 
     .nav-links li {
