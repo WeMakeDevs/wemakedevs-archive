@@ -10,7 +10,7 @@ const Header = () => {
       <div>
   
         <h1>
-        Inspire, Educate, Empower.
+        Inspire, Educate, Empower
         </h1>
         <p className={styles["tag-line"]}>
           This is a community which provides{" "}
