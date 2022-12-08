@@ -141,13 +141,20 @@ margin-top:1rem;
 
 /* About cards */
 
+
+.about-cards {
+    display: flex;
+    padding: 30px;
+}
+
 .main-about{
     display:flex;
     flex-wrap: nowrap;
+    justify-content: space-around;
     gap:30px;
     margin-left:auto;
     margin-right:auto;
-    padding:60px 80px 60px 80px;
+    padding: 10px;
 }
 .main-about h1{
     color:  black;
@@ -156,6 +163,7 @@ margin-top:1rem;
 }
 .main-about p{
     color: black;
+    text-align:center;
     margin-top: Z
 }
 .about-card-1, .about-card-2, .about-card-3{
