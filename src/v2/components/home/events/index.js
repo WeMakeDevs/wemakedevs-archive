@@ -6,7 +6,8 @@ import styles from "./index.module.css";
 
 const Events = () => {
   return (
-    <section>
+    <section className={styles["events-container-main"]}>
+    <section id="events">
       <div className={styles["events-container"]}>
       <img
           className={styles["banner"]}
@@ -21,7 +22,7 @@ const Events = () => {
           <p>
             <ul>
               <li>
-              <img src={RightSingleArrow} />
+              <img src={RightSingleArrow} alt="single-arrow" />
               <p>
                 <span className={styles["highlight"]}>
                   All of our events are completely free and open for everyone.
@@ -30,7 +31,7 @@ const Events = () => {
                 </p>
               </li>
               <li>
-              <img src={RightSingleArrow} />
+              <img src={RightSingleArrow}  alt="single-arrow"/>
               <p>
                 Events conducted will help{" "}
                 <span className={styles["highlight"]}>
@@ -41,7 +42,7 @@ const Events = () => {
                 </p>
               </li>
               <li>
-              <img src={RightSingleArrow} />
+              <img src={RightSingleArrow} alt="single-arrow" />
               <p>
                 Explore the plethora of events & have the opportunity to{" "}
                 <span className={styles["highlight"]}>
@@ -52,9 +53,6 @@ const Events = () => {
             </ul>
           </p>
           <div className={styles["events-free"]}>
-          <p> 
-          100% Free. We will never charge you for anything!
-          </p>
           </div>
           <div className={styles["events-button"]}>
           <a
@@ -63,7 +61,7 @@ const Events = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Write Blogs
+          Blogging Challenges
             <img src={RightArrow} alt="right arrow" />
           </a>
           <a
@@ -88,6 +86,7 @@ const Events = () => {
         </div>
        
       </div>
+    </section>
     </section>
   );
 };

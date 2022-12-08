@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../../assets/common/logo.svg";
+// import Logo from "../../../assets/common/logo.svg";
 import Youtube from "../../../assets/home/check.png";
 import Discord  from "../../../assets/home/Discord.png";
 import Github from "../../../assets/home/Github.png";
@@ -16,37 +16,33 @@ const Footer = () => {
     <footer>
       <div className="footer">
         <div className="footer-col1">
-        
-          <p className="footer-p">
+        <p className="footer-p">
           Join our community
           </p>
-          <div className="footer-buttons">
+        <div className="footer-buttons">
           <a
             href="https://t.me/WeMakeDevs"
-            className={`link-normal`}
+            className="link-normal-1"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={ Telegram } alt="telegram" /> Telegram
-            
           </a>
           <a
             href="https://discord.gg/wemakedevs"
-            className={`link-normal`}
+            className="link-normal-1"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={ Discord } alt="discord" /> Discord
-            
+          <img src={ Discord } alt="discord" /> Discord
           </a>
           </div>
-        </div>
+          </div>
           <div className="footer-col2">
               <h1> Inspire, Educate,
-              Empower.
+              Empower
               </h1>
           </div>
-        
       </div>
       <div className="footer-links">
       </div>
@@ -54,9 +50,8 @@ const Footer = () => {
       <div className="footer-links-2">
       <h2> WeMakeDevs </h2>
       </div>
-      
       <div className="footer-links-3">
-      <ul>
+      <ul className="footer-links-3-1">
               <li>
                 <a
                   href="https://www.youtube.com/@WeMakeDevs"
@@ -128,8 +123,6 @@ const Footer = () => {
       </div>
       <br />
       <br />
-      
-
     </footer>
   );
 };

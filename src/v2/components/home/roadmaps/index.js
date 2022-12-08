@@ -6,7 +6,7 @@ import RightSingleArrow from "../../../assets/arrows/right-single-arrow.png";
 
 const Mentorship = () => {
   return (
-    <section>
+    <section  className={styles["mentorship-container-main"]} id="roadmaps">
       <div className={styles["mentorship-container"]}>
       
         <div className={styles["info-container"]}>
@@ -17,7 +17,7 @@ const Mentorship = () => {
           <p>
             <ul>
               <li>
-              <img src={RightSingleArrow} />
+              <img src={RightSingleArrow} alt="single-arrow" />
               <p>
                 <span className={styles["highlight"]}>
                   A comprehensive answer to all of your mentoring needs,
@@ -27,7 +27,7 @@ const Mentorship = () => {
                 </p>
               </li>
               <li>
-              <img src={RightSingleArrow} />
+              <img src={RightSingleArrow} alt="single-arrow"/>
               <p>
                 <span className={styles["highlight"]}>
                   Roadmaps to help you stay on track,

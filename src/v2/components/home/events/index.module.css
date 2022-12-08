@@ -1,7 +1,15 @@
+.events-container-main{
+   background-color: #15133C;
+   margin-top:10px;
+   width:100%;
+   padding-top: 90px;
+   padding-bottom: 90px;
+}
 .events-container {
     max-width: 1200px;
-    margin: 9rem auto;
+    padding-top: 1rem;
     display: flex;
+    padding-bottom: 3rem;
     justify-content: space-between;
     align-items: center;
     margin-left: auto;
@@ -53,7 +61,7 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 145%;
-        padding: 12px 24px;
+        padding: 12px 24px; 
         border-radius: 30px;
     
         
@@ -68,6 +76,8 @@
         display: flex;
         gap:22px;
         margin-top:1rem;
+        margin-left:auto;
+        margin-right: auto;
     }
     
     @media screen and (max-width: 650px) {

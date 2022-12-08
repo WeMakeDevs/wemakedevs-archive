@@ -7,7 +7,8 @@ import RightSingleArrow from "../../../assets/arrows/right-single-arrow.png";
 
 const Courses = () => {
   return (
-    <section>
+    <section className={styles["courses-container-main"]}>
+    <section id="Courses">
       <div className={styles["courses-container"]}>
         <div className={styles["info-container"]}>
           <h1>
@@ -17,13 +18,13 @@ const Courses = () => {
           <p>
             <ul>
               <li>
-              <img src={RightSingleArrow} />
+              <img src={RightSingleArrow} alt="single-arrow" />
               <p>
               All courses are FREE while never compromising on quality.
               </p>
               </li>
               <li>
-              <img src={RightSingleArrow} />
+              <img src={RightSingleArrow} alt="single-arrow" />
               <p>
                 We cover every topic in detail with a hands-on approach and
                 mentor you to stand out to get opportunities by breaking all the
@@ -31,7 +32,7 @@ const Courses = () => {
                 </p>
               </li>
               <li>
-              <img src={RightSingleArrow} />
+              <img src={RightSingleArrow} alt="single-arrow"/>
               <p>
                 Explore a wide range of courses including Data Structures &
                 Algorithms, Web Development, DevOps, Machine Learning, and more!
@@ -55,13 +56,11 @@ const Courses = () => {
           
           </div>
           <div className={styles["courses-free"]}>
-          <p> 
-          100% Free. We will never charge you for anything!
-          </p>
           </div>
         </div>
         <img className={styles["banner"]} src={BannerImage} alt="Banner" />
       </div>
+    </section>
     </section>
   );
 };
