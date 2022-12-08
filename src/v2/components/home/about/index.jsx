@@ -7,7 +7,7 @@ import Cards from './cards.jsx'
 
 const About = () => {
   return (
-    <section>
+    <section className={styles["about-container-main"]}>
       <div className={styles["about-container"]}>
         <img className={styles["banner"]} src={AboutImage} alt="About us" />
         <div className={styles["info-container"]}>
@@ -28,7 +28,7 @@ const About = () => {
                 </p>
               </li>
               <li>
-              <img src={RightSingleArrow} />
+              <img src={RightSingleArrow} alt="single-arrow"/>
               <p>
                 We provide{" "}
                 <span className={styles["highlight"]}>
@@ -41,7 +41,7 @@ const About = () => {
                 </p>
                 </li>
               <li>
-              <img src={RightSingleArrow} />
+              <img src={RightSingleArrow} alt="single-arrow"/>
               <p>
                 Get{" "}
                 <span className={styles["highlight"]}>
@@ -51,7 +51,7 @@ const About = () => {
                 </p>
               </li>
               <li>
-              <img src={RightSingleArrow} />
+              <img src={RightSingleArrow} alt="single-arrow"/>
               <p>
                We are also having various {" "}
                 <span className={styles["highlight"]}>

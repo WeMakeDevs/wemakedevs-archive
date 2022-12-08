@@ -27,7 +27,7 @@ const Header = () => {
               </button>
               </a>
               <a href="https://www.youtube.com/c/KunalKushwaha">
-              <button className="header_cont_2_b_youtube"> Visit Youtube 
+              <button className="header_cont_2_b_youtube"> Visit YouTube 
                 <img className="arrowup" src={ ArrowUp} alt="arrowup" />
               </button>
               </a>

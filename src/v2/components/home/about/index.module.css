@@ -6,6 +6,15 @@
     align-items: center;
     padding: 1rem;
 }
+.about-container-main{
+    background-image: linear-gradient(
+        to bottom right,
+        #141414,
+        hsla(240, 89%, 51%, 0.424)
+      );
+    padding-top:10px;
+    padding-bottom:10px;
+}
 .about-container h1{
     color: white;
     text-align: center;
@@ -155,21 +164,27 @@ margin-top:1rem;
     margin-left:auto;
     margin-right:auto;
     padding: 10px;
+    max-width: 1200px;
 }
+
 .main-about h1{
     color:  black;
     text-align:center;
     font-size: 2em;
 }
+
 .main-about p{
     color: black;
     text-align:center;
-    margin-top: Z
+    margin-top: 2rem;
+    font-size: 1.2em;
+    font-size: 400;
 }
+
 .about-card-1, .about-card-2, .about-card-3{
     background-color: var(--clr-white);
     padding: 30px 10px 30px 10px;
-
+    border-radius: 20px;
     border: 2px solid black;
 
 }
@@ -187,6 +202,7 @@ margin-top:1rem;
     padding: 12px 24px;
     border-radius: 30px;
     border:none;
+    max-width:300px;
 }
 .link-primary img{
     height: 12px;

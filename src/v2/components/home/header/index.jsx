@@ -10,7 +10,7 @@ const Header = () => {
       <div>
   
         <h1>
-        Inspire, Educate, Empower.
+        Inspire, Educate, Empower
         </h1>
         <p className={styles["tag-line"]}>
           This is a community which provides{" "}
@@ -26,7 +26,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            See courses <img src={RightArrow} aria-hidden={true} alt=""></img>{" "}
+            See Courses <img src={RightArrow} aria-hidden={true} alt=""></img>{" "}
           </a>
           <a
             href="https://www.youtube.com/@WeMakeDevs"
@@ -34,7 +34,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit youtube{" "}
+            Visit YouTube{" "}
             <img src={TopRightArrow} aria-hidden={true} alt=""></img>
           </a>
         </div>

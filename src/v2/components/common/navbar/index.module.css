@@ -100,7 +100,8 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        background-color: white;
+        background-color: black;
+        color:white;
         color: var(--clr-white);
         height: 100%;
         z-index: 5;

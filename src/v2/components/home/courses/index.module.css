@@ -1,6 +1,10 @@
+.courses-container-main{
+  padding-top: 90px;
+  padding-bottom:90px;
+}
 .courses-container {
     max-width: 1200px;
-    margin: 7rem auto;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
