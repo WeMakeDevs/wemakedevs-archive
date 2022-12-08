@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import Logo from "../../../assets/common/logo.svg";
 import YoutubeBg from "../../../assets/navbar/youtube-bg.png";
 import YoutubePlay from "../../../assets/navbar/youtube-play.png";
@@ -33,7 +34,7 @@ const Navbar = () => {
             }
             return (
               <li>
-                <a href={link.href} target="_blank" rel="noopener noreferrer">
+                <a href={link.href} >
                   {link.name}
                 </a>
               </li>

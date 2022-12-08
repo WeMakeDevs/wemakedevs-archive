@@ -4,6 +4,7 @@
     #141414,
     hsla(240, 89%, 51%, 0.424)
   );
+  
 }
 .partner_cont {
   max-width: 1200px;
@@ -36,4 +37,9 @@
 }
 .partner-button a {
   white-space: nowrap;
+}
+@media  screen and (max-width:500px) {
+  .partner{
+  min-width:200px;
+  }
 }

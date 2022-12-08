@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/common/footer";
 import Navbar from "../components/common/navbar";
+import Check from "../components/common/check";
 import About from "../components/home/about";
 // import Blog from "../../components/home/blog";
 import Courses from "../components/home/courses";
@@ -24,6 +25,7 @@ const Home = () => {
       <Roadmap></Roadmap>
       <Partner></Partner>
       <Footer></Footer>
+      <Check />
       
       
     </div>

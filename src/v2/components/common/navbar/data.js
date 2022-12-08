@@ -7,9 +7,8 @@ export const navLinks = [
   },
   {
     name: "Courses",
-    href:
-      "https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3",
-    external: true,
+    href: "#Courses",
+   external: false,
   },
   {
     name: "Podcasts",
@@ -19,12 +18,12 @@ export const navLinks = [
   },
   {
     name: "Events",
-    href: "https://github.com/wemakedevs/events",
-    external: true,
+    href: "#events",
+    external: false,
   },
   {
     name: "Roadmaps",
-    href: "https://github.com/wemakedevs/roadmaps",
+    href: "#roadmaps",
     external: true,
   },
   {
