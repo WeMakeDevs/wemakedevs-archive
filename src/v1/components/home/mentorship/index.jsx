@@ -30,12 +30,12 @@ const Mentorship = () => {
             </ul>
           </p>
           <a
-            href="https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3"
+            href="https://github.com/WeMakeDevs/roadmaps"
             className={`link-primary`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Explore Courses
+            Explore Roadmaps
             <img src={RightArrow} alt="right arrow" />
           </a>
         </div>

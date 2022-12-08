@@ -14,7 +14,7 @@ const cards = () => {
           <button>
           <a
             href="https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3"
-            className={styles["link-primary"]}
+            className={styles["link-primary-2"]}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -33,7 +33,7 @@ const cards = () => {
           <button>
           <a
             href="https://github.com/WeMakeDevs/events"
-            className={styles["link-primary"]}
+            className={styles["link-primary-2"]}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,7 +52,7 @@ const cards = () => {
           <button>
           <a
             href="https://github.com/WeMakeDevs/roadmaps"
-            className={styles["link-primary"]}
+            className={styles["link-primary-2"]}
             target="_blank"
             rel="noopener noreferrer"
           >
