@@ -106,7 +106,6 @@
         height: 100%;
         z-index: 5;
         margin: 0;
-        padding-left: 2rem;
         padding-top: 4rem;
         transform: translateX(-100%);
         transition: transform 500ms ease-in-out;
