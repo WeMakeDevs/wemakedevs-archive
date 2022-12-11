@@ -4,6 +4,7 @@ import Logo from "../../../assets/common/logo.svg";
 import YoutubeBg from "../../../assets/navbar/youtube-bg.png";
 import YoutubePlay from "../../../assets/navbar/youtube-play.png";
 import MenuIcon from "../../../assets/navbar/menu.png";
+import { Link } from "react-router-dom";
 import styles from "./index.module.css";
 import { navLinks } from "./data";
 import { useState } from "react";
@@ -26,9 +27,17 @@ const Navbar = () => {
             if (link.active) {
               return (
                 <li className={styles["nav-active"]}>
-                  <a href={link.href} rel="noopener noreferrer">
-                    {link.name}
-                  </a>
+                  {link?.external ? (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {link.name}
+                    </a>
+                  ) : (
+                    <Link to={link.href}>{link.name}</Link>
+                  )}
                 </li>
               );
             }
@@ -40,12 +49,10 @@ const Navbar = () => {
               </li>
             );
           })}
-          <li>
-          
-          </li>
+          <li></li>
         </ul>
       </nav>
-     
+
       <img
         className={styles["nav-menu"]}
         src={MenuIcon}
