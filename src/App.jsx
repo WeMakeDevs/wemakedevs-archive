@@ -4,6 +4,7 @@ import './index.css';
 import './styles/resets.css';
 import './styles/root.css';
 
+import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <div className='main'>
       <Routes>
         <Route exact path='/' element={<HomePage />} />
+        <Route path='*' element={<ErrorPage />} />
       </Routes>
     </div>
   );
