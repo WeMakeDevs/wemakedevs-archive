@@ -3,7 +3,7 @@
 </p>
 <h1 id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="40" alt="logo"/> We Make Devs</a></h1>
 
-###  A Community that provide Quality education.Free for all.
+### 
 
 
 # Badges
@@ -15,7 +15,7 @@
 
 # About Us
 
-We Make Devs is a community that provides quality and free education for all.We believes every student irrespective of college or branch can make it big.
+We Make Devs is a community .We believes every student irrespective of college or branch can make it big.
 We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free.We provides lots of resources to start your journey like roadmaps,podcasts,blogs,events.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/114678694/197411491-73f21a05-b556-460f-91e7-821dc525a828.jpg" width="360" height="270" >
