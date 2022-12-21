@@ -1,12 +1,12 @@
-import React from 'react'
-import ComingSoon from '../components/Comingsoon/Comingsoon.js'
+import React from 'react';
+import ComingSoon from '../components/Comingsoon/Comingsoon.js';
 
 const Comingsoon = () => {
   return (
     <div>
-        <ComingSoon />
+      <ComingSoon />
     </div>
-  )
-}
+  );
+};
 
-export default Comingsoon
+export default Comingsoon;

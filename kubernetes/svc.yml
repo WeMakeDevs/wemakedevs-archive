@@ -5,7 +5,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-  - port: 9000
-    targetPort: 3000
+    - port: 9000
+      targetPort: 3000
   selector:
     env: commclassroom

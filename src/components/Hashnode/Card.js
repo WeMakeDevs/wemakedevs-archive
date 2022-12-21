@@ -1,21 +1,16 @@
-import React from "react";
+import React from 'react';
 
-
-const Card = ({hashnode}) => {
+const Card = ({ hashnode }) => {
   return (
-    <div
-   className="hashnode-card"
-  >
+    <div className='hashnode-card'>
       <section>
-        <img src={hashnode.image} alt={hashnode.title + "banner"} />
-        <div className="hashnode-details">
+        <img src={hashnode.image} alt={hashnode.title + 'banner'} />
+        <div className='hashnode-details'>
           <p>{hashnode.description}</p>
         </div>
       </section>
-  </div>
-    
+    </div>
   );
 };
-
 
 export default Card;

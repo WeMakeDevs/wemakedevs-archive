@@ -1,34 +1,33 @@
 export const navLinks = [
   {
-    name: "Home",
-    href: "/",
+    name: 'Home',
+    href: '/',
     external: false,
-    active: true,
+    active: true
   },
   {
-    name: "Courses",
-    href: "#Courses",
-   external: false,
+    name: 'Courses',
+    href: '#Courses',
+    external: false
   },
   {
-    name: "Podcasts",
-    href:
-      "https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr",
-    external: true,
+    name: 'Podcasts',
+    href: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr',
+    external: true
   },
   {
-    name: "Events",
-    href: "#events",
-    external: false,
+    name: 'Events',
+    href: '#events',
+    external: false
   },
   {
-    name: "Roadmaps",
-    href: "#roadmaps",
-    external: true,
+    name: 'Roadmaps',
+    href: '#roadmaps',
+    external: true
   },
   {
-    name: "Join",
-    href: "https://github.com/wemakedevs/roadmaps",
-    external: true,
-  },
+    name: 'Join',
+    href: 'https://github.com/wemakedevs/roadmaps',
+    external: true
+  }
 ];

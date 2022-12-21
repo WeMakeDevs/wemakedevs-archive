@@ -1,16 +1,13 @@
 :root {
-    --clr-dark: #181E25;
-    --clr-primary: #a918a0;
-    --clr-secondary: #5F7086;
-    --clr-gray-light: #DEE4ED;
-    --clr-pink: rgba(207, 93, 113, 1);
-    --clr-yellow: rgba(255, 208, 129, 1);
-    --clr-gray: #F3F5F7;
-    --clr-white: #FFFFFF;
-    --clr-blue: #5942E9;
-    
+  --clr-dark: #181e25;
+  --clr-primary: #a918a0;
+  --clr-secondary: #5f7086;
+  --clr-gray-light: #dee4ed;
+  --clr-pink: rgba(207, 93, 113, 1);
+  --clr-yellow: rgba(255, 208, 129, 1);
+  --clr-gray: #f3f5f7;
+  --clr-white: #ffffff;
+  --clr-blue: #5942e9;
 
-
-
-    --ff-primary: 'General Sans';
+  --ff-primary: 'General Sans';
 }

@@ -1,38 +1,31 @@
-import React from "react";
-import {Link} from 'react-router-dom';
-import Logo from "../../../assets/common/logo.svg";
-import YoutubeBg from "../../../assets/navbar/youtube-bg.png";
-import YoutubePlay from "../../../assets/navbar/youtube-play.png";
-import MenuIcon from "../../../assets/navbar/menu.png";
-import { Link } from "react-router-dom";
-import styles from "./index.module.css";
-import { navLinks } from "./data";
-import { useState } from "react";
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
+import styles from './index.module.css';
+
+import { navLinks } from './data';
+import Logo from '../../../assets/common/logo.svg';
+import MenuIcon from '../../../assets/navbar/menu.png';
 
 const Navbar = () => {
   const [navExpanded, setNavExpanded] = useState(false);
 
   return (
-    <div className={styles["nav-container"]}>
-      <img className={styles["nav-logo"]} src={Logo} alt="We make devs logo" />
+    <div className={styles['nav-container']}>
+      <img className={styles['nav-logo']} src={Logo} alt='We make devs logo' />
       <nav
         className={
           navExpanded
-            ? `${styles["nav-links"]} ${styles["nav-links-expanded"]}`
-            : styles["nav-links"]
-        }
-      >
+            ? `${styles['nav-links']} ${styles['nav-links-expanded']}`
+            : styles['nav-links']
+        }>
         <ul>
           {navLinks.map((link) => {
             if (link.active) {
               return (
-                <li className={styles["nav-active"]}>
+                <li className={styles['nav-active']} key={link.name}>
                   {link?.external ? (
-                    <a
-                      href={link.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href={link.href} target='_blank' rel='noopener noreferrer'>
                       {link.name}
                     </a>
                   ) : (
@@ -42,10 +35,8 @@ const Navbar = () => {
               );
             }
             return (
-              <li>
-                <a href={link.href} >
-                  {link.name}
-                </a>
+              <li key={link.name}>
+                <a href={link.href}>{link.name}</a>
               </li>
             );
           })}
@@ -54,9 +45,9 @@ const Navbar = () => {
       </nav>
 
       <img
-        className={styles["nav-menu"]}
+        className={styles['nav-menu']}
         src={MenuIcon}
-        alt="Menu icon"
+        alt='Menu icon'
         onClick={() => setNavExpanded((prev) => !prev)}
       />
     </div>
