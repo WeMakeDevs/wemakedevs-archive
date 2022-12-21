@@ -23,7 +23,7 @@ module.exports = {
     'react/no-unescaped-entities': 'off',
     'react/display-name': 'off',
     'react/jsx-curly-brace-presence': ['warn', { props: 'never', children: 'never' }],
-
+    'react/prop-types': 'off',
     // #region  //*=========== Unused Import ===========
     'unused-imports/no-unused-imports': 'warn',
     'unused-imports/no-unused-vars': [
