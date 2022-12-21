@@ -4,8 +4,6 @@
     "paths": {
       "@/*": ["./src/*"],
       "~/*": ["./public/*"]
-    },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules"]
+    }
   }
 }
