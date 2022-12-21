@@ -1,0 +1,106 @@
+.courses-container {
+    max-width: 1200px;
+    margin: 7rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.courses-container h2{
+    color: white;
+}
+.courses-container .banner {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.courses-container .info-container {
+    width: 50%;
+    margin-right: 3rem;
+}
+
+.courses-container h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 49px;
+}
+
+.courses-container ul {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 145%;
+    color: var(--clr-white);
+    padding: 0 1.25rem 1.25rem 1.25rem;
+}
+
+.courses-container li {
+    margin: 1.5rem 0;
+}
+
+.courses-container li:first-child,
+.courses-container li:last-child{
+    margin: 0;
+}
+
+.courses-container ul .highlight {
+    color: var(--clr-dark);
+}
+
+.link-primary {
+    background-color: var(--clr-blue);
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.link-primary img{
+    height: 12px;
+    width: 16px;
+    margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .courses-container {
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+    }
+
+    .courses-container .banner {
+        width: 100%;
+        height: 30vh;
+        order:1;
+    }
+
+    .courses-container .info-container {
+        width: 100%;
+        margin: 2rem 0;
+        order: 2;
+    }   
+}
+
+@media screen and (max-width: 650px) {
+
+    .courses-container h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .courses-container ul {
+        font-size: 15px;
+        padding: 0 0 1.25rem 1.25rem;
+    }
+
+    .link-primary {
+        font-size: 15px;
+    }
+ 
+}

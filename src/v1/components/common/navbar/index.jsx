@@ -1,11 +1,10 @@
 import React from "react";
-import {Link} from 'react-router-dom';
 import Logo from "../../../assets/common/logo.svg";
 import YoutubeBg from "../../../assets/navbar/youtube-bg.png";
 import YoutubePlay from "../../../assets/navbar/youtube-play.png";
 import MenuIcon from "../../../assets/navbar/menu.png";
-import { Link } from "react-router-dom";
 import styles from "./index.module.css";
+import { Link } from "react-router-dom";
 import { navLinks } from "./data";
 import { useState } from "react";
 
@@ -43,16 +42,64 @@ const Navbar = () => {
             }
             return (
               <li>
-                <a href={link.href} >
+                <a href={link.href} target="_blank" rel="noopener noreferrer">
                   {link.name}
                 </a>
               </li>
             );
           })}
-          <li></li>
+          <li>
+            <div
+              className={`${styles["nav-youtube"]} ${styles["nav-youtube-sm"]}`}
+            >
+              <a
+                href="https://www.youtube.com/c/KunalKushwaha"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Youtube
+              </a>
+              <div className={styles["youtube-icon"]}>
+                <img
+                  className={styles["youtube-bg"]}
+                  src={YoutubeBg}
+                  alt="Youtube icon bg"
+                  aria-hidden={true}
+                />
+                <img
+                  className={styles["youtube-play"]}
+                  src={YoutubePlay}
+                  alt="Youtube icon play"
+                  aria-hidden={true}
+                />
+              </div>
+            </div>
+          </li>
         </ul>
       </nav>
-
+      <div className={styles["nav-youtube"]}>
+        <a
+          href="https://www.youtube.com/c/KunalKushwaha"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Youtube
+        </a>
+        <div className={styles["youtube-icon"]}>
+          <img
+            className={styles["youtube-bg"]}
+            src={YoutubeBg}
+            alt="Youtube icon bg"
+            aria-hidden={true}
+          />
+          <img
+            className={styles["youtube-play"]}
+            src={YoutubePlay}
+            alt="Youtube icon play"
+            aria-hidden={true}
+          />
+        </div>
+      </div>
       <img
         className={styles["nav-menu"]}
         src={MenuIcon}
