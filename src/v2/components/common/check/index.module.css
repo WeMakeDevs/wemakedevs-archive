@@ -1,6 +1,6 @@
 .check-container {
     color: var(--clr-white);
-    background-color: #FFBF00;
+    background: linear-gradient(183deg, #efa113, #b84414);
     width: 100%;
     z-index: 2;
     position: fixed;
@@ -31,11 +31,13 @@
    
 }
 .events-link{
-    padding: 5px 15px 30px 10px;
-    background-color: var(--clr-dark);
+    padding-inline: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(103deg, #2200ff, #ec00ff);
     color: white;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
     margin-left: auto;    
     border-radius: 30px;
