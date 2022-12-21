@@ -70,12 +70,32 @@
     background-color: var(--clr-blue);
     color: white;
     margin-right: 2rem;
+    transition: all 0.4s;
+}
+
+.link-primary:hover {
+    background-color:var(--clr-hover-blue);
+    color: white;
+    transform: translateY(-1px);
+}
+.link-primary:active{
+    transform: translateY(1px);
 }
 
 .link-secondary {
     outline: 1px solid var(--clr-gray-light);
     background-color: var(--clr-white);
     color: black;
+    transition: all 0.4s;
+}
+.link-secondary:hover{
+    outline: 1px solid var(--clr-gray-light);
+    background-color: var(--clr-gray-light);
+    color: black;
+    transform: translateY(-1px);
+}
+.link-secondary:active{
+    transform: translateY(1px);
 }
 
 .link-primary img {

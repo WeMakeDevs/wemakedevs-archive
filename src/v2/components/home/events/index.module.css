@@ -53,8 +53,6 @@
     width: 50%;
 }
 .events-link{
-     
-  
         background-color: var(--clr-blue);
         color: white;
         font-style: normal;
@@ -62,10 +60,22 @@
         font-size: 18px;
         line-height: 145%;
         padding: 12px 24px; 
-        border-radius: 30px;
-    
-        
+        border-radius: 30px; 
+        transition: all 0.3s;
     }
+.events-link:hover{
+        background-color:var(--clr-hover-blue);
+        color: white;
+        transform: translateY(-1px);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 145%;
+        padding: 12px 24px; 
+        border-radius: 30px; 
+}
+.events-link:active{
+    transform: translateY(1px);
+}
     
     .events-link img {
         height: 12px;

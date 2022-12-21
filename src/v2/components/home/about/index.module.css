@@ -82,6 +82,16 @@ margin-top:1rem;
   margin-left:auto;
   margin-right: auto;
   border:none;
+  transition: all 0.3s;
+}
+.courses-link button:hover{
+        background-color:var(--clr-hover-blue);
+        color: white;
+        transform: translateY(-1px);
+        cursor: pointer;
+}
+.courses-link button:active{
+    transform: translateY(1px);
 }
 .courses-link{
     text-align: center;
@@ -104,6 +114,15 @@ margin-top:1rem;
     line-height: 145%;
     padding: 12px 24px;
     border-radius: 4px;
+    transition: all 0.3s;
+}
+.link-primary:hover {
+    background-color:var(--clr-hover-blue);
+    color: white;
+    transform: translateY(-1px);
+}
+.link-primary:active{
+    transform: translateY(1px);
 }
 
 .link-primary img{
@@ -193,6 +212,15 @@ margin-top:1rem;
     border-radius: 30px;
     border:none;
     max-width:300px;
+    transition: all 0.3s;
+}
+.about-link button:hover{
+        background-color:var(--clr-hover-blue);
+        color: white;
+        transform: translateY(-1px);
+}
+.about-link button:active{
+       transform: translateY(1px);
 }
 .link-primary-2 img{
     height: 12px;

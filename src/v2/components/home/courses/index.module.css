@@ -52,6 +52,16 @@
   margin-left:auto;
   margin-right: auto;
   border:none;
+  transition: all 0.5s;
+}
+.courses-link button:hover{
+        background-color:var(--clr-hover-blue);
+        color: white;
+        transform: translateY(-1px);
+        cursor: pointer;
+}
+.courses-link button:active{
+    transform: translateY(1px);
 }
 .courses-container .info-container {
     width: 50%;
@@ -112,6 +122,7 @@
     width: 16px;
     margin-left: 0.5rem;
 }
+
 
 @media screen and (max-width: 1000px) {
 

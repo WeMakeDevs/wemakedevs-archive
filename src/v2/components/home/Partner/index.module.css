@@ -35,6 +35,11 @@
   justify-content: center;
   gap: 0.75rem 0rem;
 }
+.partner-button a:hover{
+  background-color: white;
+  color: black;
+  transition: all 0.4s;
+}
 .partner-button a {
   white-space: nowrap;
 }

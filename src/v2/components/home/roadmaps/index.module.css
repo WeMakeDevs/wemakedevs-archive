@@ -76,6 +76,12 @@
     line-height: 145%;
     padding: 12px 24px 12px 24px; 
     border-radius: 30px;
+    transition: all 0.3s;
+}
+.roadmap-link:hover{
+    background-color:var(--clr-hover-blue);
+    color: white;
+    transform: translateY(-1px);
 }
 .courses-link{
     text-align:center;
@@ -97,7 +103,17 @@
   margin-left:auto;
   margin-right: auto;
   border:none;
+  transition: all 0.3s;
 }
+.courses-link button:hover{
+    background-color:var(--clr-hover-blue);
+    color: white;
+    transform: translateY(-1px);
+}
+.courses-link button:active{
+transform: translateY(1px);
+}
+
 .roadmap-link img{
     height: 12px;
     width: 16px;

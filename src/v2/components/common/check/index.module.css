@@ -31,15 +31,15 @@
    
 }
 .events-link{
-    padding: 5px 15px 30px 10px;
+    padding: 5px 15px 30px 15px;
     background-color: var(--clr-dark);
     color: white;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     margin-left: auto;    
     border-radius: 30px;
-    letter-spacing: 8px;
+    letter-spacing: 1px;
 }
 @media  screen and (max-width:1000px) {
     .check-container{
