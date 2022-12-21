@@ -1,10 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import Logo from "../../../assets/common/logo.svg";
-import YoutubeBg from "../../../assets/navbar/youtube-bg.png";
-import YoutubePlay from "../../../assets/navbar/youtube-play.png";
 import MenuIcon from "../../../assets/navbar/menu.png";
-import { Link } from "react-router-dom";
 import styles from "./index.module.css";
 import { navLinks } from "./data";
 import { useState } from "react";
