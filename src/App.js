@@ -8,7 +8,7 @@ import './App.css'
 // import Hashnode from './pages/Hashnode.js'
 // import ComingSoon from './pages/Comingsoon.js'
 import Home from './v2/pages/Homepage';
-import './v1/index.css'
+import './v2/index.css'
 
 const App = () => {
   return (
