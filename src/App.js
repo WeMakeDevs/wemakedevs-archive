@@ -1,15 +1,16 @@
 import { Route, Routes } from 'react-router-dom';
 
-import './App.css';
-import './v1/index.css';
+import './index.css';
+import './styles/reset.css';
+import './styles/root.css';
 
-import Home from './v2/pages/Homepage';
+import HomePage from './pages/HomePage';
 
 const App = () => {
   return (
     <div className='main'>
       <Routes>
-        <Route exact path='/' element={<Home />} />
+        <Route exact path='/' element={<HomePage />} />
       </Routes>
     </div>
   );
