@@ -36,7 +36,11 @@ const Footer = () => {
           <h3>WeMakeDevs</h3>
           <div className={styles.links}>
             {links.map((link) => (
-              <UnstyledLink key={link.name} href={link.link}>
+              <UnstyledLink
+                openNewTabIcon={false}
+                key={link.name}
+                href={link.link}
+              >
                 {link.icon}
               </UnstyledLink>
             ))}

@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--clr-base-200);
   color: var(--clr-content);
-  padding: 10rem;
+  padding-block: 10rem;
 }
 
 .layout {
@@ -53,10 +53,45 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .copyright {
   font-size: 1.2rem;
   text-align: center;
   margin-block-start: 2rem;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-block: 2rem;
+    text-align: center;
+    padding-block-end: 10rem;
+  }
+  .details {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .details h3 {
+    text-align: center;
+  }
+  .join {
+    display: none;
+  }
+  .details h3 {
+    font-size: 1.3rem;
+  }
+  .socialSection {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .links {
+    width: 100%;
+    justify-content: center;
+  }
+  .copyright {
+    margin-top: 1rem;
+  }
 }
