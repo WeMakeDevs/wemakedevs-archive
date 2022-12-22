@@ -10,6 +10,8 @@
   --base-200: 1, 8, 14; /* #01080E */
   --base-gray: 80, 80, 80; /* #505050 */
   --primary: 89, 66, 233; /* #5942e9 */
+  --primary-hover: 64, 41, 209; /* #4029d1 */
+  --primary-disabled: 119, 101, 237; /* #7765ed */
   --white: 256, 256, 256; /* #ffffff */
   /* #endregion  /**======== Colors use modifiy opacity  =========== */
 
@@ -20,6 +22,8 @@
   --clr-base-200: rgb(var(--base-200));
   --clr-base-gray: rgb(var(--base-gray));
   --clr-primary: rgb(var(--primary));
+  --clr-primary-hover: rgb(var(--primary-hover));
+  --clr-primary-disabled: rgb(var(--primary-disabled));
   /* #endregion  /**======== Colors with opacity 100 =========== */
 }
 
@@ -77,4 +81,9 @@ body::-webkit-scrollbar-thumb {
   .newtab {
     display: none;
   }
+}
+
+.highlight {
+  font-weight: 600;
+  color: var(--clr-primary-hover);
 }
