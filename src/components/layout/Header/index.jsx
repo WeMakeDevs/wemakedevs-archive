@@ -96,7 +96,7 @@ export const links = [
     href: '#events',
   },
   {
-    name: 'Cources',
+    name: 'Courses',
     href: '/#Courses',
   },
   {
