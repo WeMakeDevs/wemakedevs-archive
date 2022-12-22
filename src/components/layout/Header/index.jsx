@@ -88,23 +88,19 @@ export const links = [
     href: '/',
   },
   {
-    name: 'Courses',
-    href: '#Courses',
+    name: 'Cources',
+    href: '/#cources',
   },
   {
-    name: 'Podcasts',
-    href: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr',
+    name: 'About',
+    href: '#about',
   },
   {
-    name: 'Events',
-    href: '#events',
-  },
-  {
-    name: 'Roadmaps',
-    href: '#roadmaps',
+    name: 'Mentorship',
+    href: '/#mentorship',
   },
   {
     name: 'Join',
-    href: 'https://github.com/wemakedevs/roadmaps',
+    href: '/#join',
   },
 ];

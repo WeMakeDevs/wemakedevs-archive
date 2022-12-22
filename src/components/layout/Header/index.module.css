@@ -12,8 +12,19 @@
   transition: all cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
 }
 
+.header svg {
+  aspect-ratio: 331/54;
+  height: 2rem;
+}
+
+@media (min-width: 768px) {
+  .header svg {
+    height: 3rem;
+  }
+}
+
 .header.top {
-  background-color: transparent;
+  background-color: var(--clr-base-100);
 }
 
 .header.scrollUp {
