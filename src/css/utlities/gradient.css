@@ -1,0 +1,26 @@
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
+.animated-gradient {
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--clr-primary),
+    var(--clr-pink),
+    var(--clr-yellow),
+    var(--clr-primary)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  background-size: 200%;
+  height: 1.5em;
+}

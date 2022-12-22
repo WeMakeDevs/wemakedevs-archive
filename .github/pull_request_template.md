@@ -7,6 +7,7 @@ This PR fixes the following issues:
 closes #issue-number
 
 <!-- Write down all the changes made-->
+
 ## Changes proposed
 
 Here comes all the changes proposed through this PR
@@ -26,7 +27,8 @@ Here comes all the changes proposed through this PR
 - [ ] This PR does not contain plagiarized content.
 - [ ] The title of my pull request is a short description of the requested changes.
 
-
 <!--Add screen shots of the changed output-->
-## Screenshots 
+
+## Screenshots
+
 Add all the screenshots which support your changes

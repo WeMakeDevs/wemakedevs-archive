@@ -1,0 +1,57 @@
+.BackDrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(var(--content), 20);
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  transition-property: all;
+  align-items: center;
+}
+
+.BackDrop.isDarkBg {
+  background-color: rgb(var(--content), 0.2);
+}
+
+.BackDrop.isTransparent {
+  background-color: transparent;
+}
+
+@supports (backdrop-filter: blur(10px)) {
+  .BackDrop.isBlur {
+    backdrop-filter: blur(10px);
+  }
+}
+
+.BackDrop.isGradient {
+  background-color: rgb(var(--primary), 0.7);
+  background-image: linear-gradient(
+    180deg,
+    rgb(var(--base-100), 1) 0%,
+    rgb(var(--base-100), 0.5) 100%
+  );
+}
+
+.BackDrop.show {
+  pointer-events: auto;
+  visibility: visible;
+  opacity: 1;
+}
+
+.BackDrop .BackDrop__onclick {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  cursor: pointer;
+}
