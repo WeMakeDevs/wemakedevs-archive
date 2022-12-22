@@ -3,14 +3,17 @@ import * as React from 'react';
 
 import styles from './index.module.css';
 
-import Logo from '../../../Icons/core/Logo';
-import { useStickyHeader } from '../../../lib/useSticyHeader';
-import HeaderLink from '../../links/HeaderLink';
+import { useWindowScrolling } from '@/lib/useWindowScrolling';
+
 import Backdrop from '../Backdrop';
+import HeaderLink from '../../links/HeaderLink';
+import Logo from '../../../Icons/core/Logo';
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
-  const [stickyHeader, direction, scrollTop] = useStickyHeader();
+  const [direction, scrollTop] = useWindowScrolling({
+    active: true
+  });
   return (
     <>
       <header
@@ -19,7 +22,8 @@ const Navbar = () => {
           direction === 'down' && styles.show,
           scrollTop < 20 && styles.top,
           scrollTop > 20 && direction === 'up' && styles.scrollUp
-        )}>
+        )}
+      >
         <div className={clsx('layout', styles.headerContainer)}>
           <Logo />
           <NavigationLinks style={styles.nav} />
@@ -30,7 +34,8 @@ const Navbar = () => {
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
               viewBox='0 0 24 24'
-              stroke='currentColor'>
+              stroke='currentColor'
+            >
               <path
                 strokeLinecap='round'
                 strokeLinejoin='round'
@@ -48,7 +53,8 @@ const Navbar = () => {
         isDarkBg
         show={open}
         onClose={() => setOpen(false)}
-        className={styles.NavBackDrop}>
+        className={styles.NavBackDrop}
+      >
         <NavigationLinks open={open} setOpen={setOpen} style={styles.navMobile} />
       </Backdrop>
     </>
