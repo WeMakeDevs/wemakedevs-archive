@@ -4,6 +4,7 @@ import {
   FaEnvelope,
   FaGithub,
   FaInstagram,
+  FaLinkedin,
   FaTelegram,
   FaTwitter,
   FaYoutube,
@@ -66,14 +67,9 @@ const links = [
     icon: <FaYoutube />,
   },
   {
-    name: 'discord',
-    link: 'https://discord.gg/wemakedevs',
-    icon: <FaDiscord />,
-  },
-  {
-    name: 'telegram',
-    link: 'https://t.me/WeMakeDevs',
-    icon: <FaTelegram />,
+    name: 'LinkedIn',
+    link: 'https://www.linkedin.com/company/wemakedevs/',
+    icon: <FaLinkedin />,
   },
   {
     name: 'twitter',
