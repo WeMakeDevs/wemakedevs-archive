@@ -11,7 +11,7 @@
   --base-gray: 80, 80, 80; /* #505050 */
   --primary: 89, 66, 233; /* #5942e9 */
   --primary-hover: 64, 41, 209; /* #4029d1 */
-  --primary-disabled: 119, 101, 237; /* #7765ed */
+  --primary-disable: 119, 101, 237; /* #7765ed */
   --white: 256, 256, 256; /* #ffffff */
   /* #endregion  /**======== Colors use modifiy opacity  =========== */
 
@@ -23,7 +23,7 @@
   --clr-base-gray: rgb(var(--base-gray));
   --clr-primary: rgb(var(--primary));
   --clr-primary-hover: rgb(var(--primary-hover));
-  --clr-primary-disabled: rgb(var(--primary-disabled));
+  --clr-primary-disable: rgb(var(--primary-disable));
   /* #endregion  /**======== Colors with opacity 100 =========== */
 }
 
@@ -86,4 +86,13 @@ body::-webkit-scrollbar-thumb {
 .highlight {
   font-weight: 600;
   color: var(--clr-primary-hover);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
 }
