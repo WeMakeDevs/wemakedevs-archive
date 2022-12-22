@@ -3,11 +3,10 @@ import * as React from 'react';
 
 import styles from './index.module.css';
 
-import { useWindowScrolling } from '@/lib/useWindowScrolling';
-
 import Backdrop from '../Backdrop';
 import HeaderLink from '../../links/HeaderLink';
 import Logo from '../../../Icons/core/Logo';
+import { useWindowScrolling } from '../../../lib/useWindowScrolling';
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
