@@ -9,8 +9,11 @@ const Banner = () => {
     <section className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
         <p>
-          Check out our <span className='highlight'> upcoming events </span>
-          and <span className='highlight'>win exciting prizes</span>!
+          Check out our{' '}
+          <span className='highlight highlight--dark'> upcoming events </span>
+          and{' '}
+          <span className='highlight highlight--dark'>win exciting prizes</span>
+          !
         </p>
         <Button>Events</Button>
       </div>

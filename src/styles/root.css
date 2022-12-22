@@ -85,6 +85,9 @@ body::-webkit-scrollbar-thumb {
 
 .highlight {
   font-weight: 600;
+  color: var(--clr-primary);
+}
+.highlight.highlight--dark {
   color: var(--clr-primary-hover);
 }
 
