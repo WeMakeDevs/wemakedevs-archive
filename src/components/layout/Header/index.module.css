@@ -101,7 +101,7 @@
 
 @media (min-width: 768px) {
   .menuBtn {
-    display: none;
+    display: none !important;
   }
 }
 
