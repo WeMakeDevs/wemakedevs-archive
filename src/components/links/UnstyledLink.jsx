@@ -5,7 +5,18 @@ import { Link } from 'react-router-dom';
 import NewTab from '../../Icons/core/NewTab';
 
 const UnstyledLink = React.forwardRef(
-  ({ children, href, openNewTab, className, LinkProps, ...rest }, ref) => {
+  (
+    {
+      children,
+      href,
+      openNewTab,
+      openNewTabIcon = true,
+      className,
+      LinkProps,
+      ...rest
+    },
+    ref
+  ) => {
     const isNewTab =
       openNewTab !== undefined
         ? openNewTab
@@ -34,7 +45,8 @@ const UnstyledLink = React.forwardRef(
         {...rest}
         className={clsxm('cursor-newtab', className)}
       >
-        {children} <NewTab />
+        {children}
+        {openNewTabIcon && <NewTab />}
       </a>
     );
   }
