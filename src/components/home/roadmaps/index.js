@@ -6,11 +6,11 @@ import BannerImage from '../../../assets/home/courses.png';
 
 const Mentorship = () => {
   return (
-    <section className={styles['mentorship-container-main']} id='roadmaps'>
+    <section className={styles['mentorship-container-main']} id='mentorship'>
       <div className={styles['mentorship-container']}>
         <div className={styles['info-container']}>
           <h1>
-            MENTOR
+            MENTORSHIP
             <hr className={styles['mentorship-border']}></hr>
           </h1>
           <ul>

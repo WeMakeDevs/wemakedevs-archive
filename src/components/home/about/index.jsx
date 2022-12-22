@@ -7,7 +7,7 @@ import AboutImage from '../../../assets/home/aboutus.png';
 
 const About = () => {
   return (
-    <section className={styles['about-container-main']}>
+    <section id='about' className={styles['about-container-main']}>
       <div className={styles['about-container']}>
         <img className={styles['banner']} src={AboutImage} alt='About us' />
         <div className={styles['info-container']}>
