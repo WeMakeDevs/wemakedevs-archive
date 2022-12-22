@@ -1,12 +1,13 @@
 # Configuration for Label Actions - https://github.com/dessant/label-actions
+
+
+
 # The `feature` label is added to issues
 feature:
   issues:
     # Post a comment, `{issue-author}` is an optional placeholder
-    comment: >
-      :wave: @{issue-author}, please use our idea board to request new features.
-    # Close the issue
-    close: true
+    label:
+      - 'feature'
 
 # The `wip` label is added to pull requests
 wip:
@@ -15,5 +16,3 @@ wip:
     label:
       - 'contributor'
       - 'needs feedback'
-
-
