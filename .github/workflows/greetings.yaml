@@ -6,15 +6,15 @@ permissions:
   contents: read
   issues: write
   pull-requests: write
-  
+
 jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - uses: EddieHubCommunity/gh-action-community/src/welcome@main
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: Hey Hey! 👋🏻 Thank you so much for raising an issue The maintainers will get back to you soon for discussion over the issue!
-        pr-message: Woah! This is your first Pull Request, Congratulations and thank you for your contribution! 🚀 The team will review it on <u>availability</u> 💫.
-        footer: In the meantime join our <a href="https://discord.io/wemakedevs">discord server</a> and checkout our <a href="https://www.youtube.com/c/KunalKushwaha/">YouTube</a> channel
+      - uses: actions/checkout@v1
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: Hey Hey! 👋🏻 Thank you so much for raising an issue The maintainers will get back to you soon for discussion over the issue!
+          pr-message: Woah! This is your first Pull Request, Congratulations and thank you for your contribution! 🚀 The team will review it on <u>availability</u> 💫.
+          footer: In the meantime join our <a href="https://discord.io/wemakedevs">discord server</a> and checkout our <a href="https://www.youtube.com/c/KunalKushwaha/">YouTube</a> channel

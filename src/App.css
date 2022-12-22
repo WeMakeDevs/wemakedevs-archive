@@ -1,17 +1,15 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    }
-body{
-    line-height: 1.5;	
-    font-family: 'General Sans';
-    overflow-x: hidden;
-     background: #141414;
-     
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-family: 'General Sans';
+  overflow-x: hidden;
+  background: #141414;
+}
 
-  li{
-    padding-top: 3.5%;
-  }
- 
+li {
+  padding-top: 3.5%;
+}

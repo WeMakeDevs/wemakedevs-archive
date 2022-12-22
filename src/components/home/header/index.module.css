@@ -1,0 +1,149 @@
+.header-container {
+  max-width: 990px;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--clr-white);
+  padding: 1rem;
+}
+
+.header-container h1 {
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 96px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin: 1.5rem 0;
+}
+
+.header-container .tag-line {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 145%;
+  color: var(--clr-secondary);
+}
+
+.header-container .tag-line .highlight {
+  color: var(--clr-white);
+  font-weight: 500;
+}
+
+.header-container .podcast-pill {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background: var(--clr-blue);
+  border-radius: 31px;
+  width: fit-content;
+  padding: 0.5rem 2rem;
+  color: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.podcast-pill img {
+  margin-left: 1rem;
+}
+
+.links {
+  margin-top: 2rem;
+}
+
+.link {
+  padding: 12px 30px;
+  border-radius: 4px;
+  margin: 1rem;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.link-primary {
+  background-color: var(--clr-blue);
+  color: white;
+  margin-right: 2rem;
+}
+
+.link-secondary {
+  outline: 1px solid var(--clr-gray-light);
+  background-color: var(--clr-white);
+  color: black;
+}
+
+.link-primary img {
+  margin-left: 0.5rem;
+  width: 16px;
+  height: 12px;
+}
+
+.link-secondary img {
+  margin-left: 0.5rem;
+  width: 12px;
+  height: 12px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header-container h1 {
+    font-size: 60px;
+    line-height: 76px;
+  }
+
+  .header-container .tag-line {
+    font-size: 18px;
+    max-width: 70ch;
+    margin: auto;
+    line-height: 145%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header-container h1 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  .header-container .tag-line {
+    font-size: 16px;
+    max-width: 70ch;
+    margin: auto;
+    line-height: 145%;
+  }
+
+  .link {
+    padding: 10px 20px;
+    margin: 0.5rem;
+    font-size: 16px;
+  }
+
+  .header-container .podcast-pill {
+    font-size: 12px;
+    padding: 0.2rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header-container {
+    height: 60vh;
+    margin-bottom: 5rem;
+  }
+
+  .header-container h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .header-container .tag-line {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 14px;
+  }
+}

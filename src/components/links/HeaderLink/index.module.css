@@ -1,0 +1,25 @@
+.link {
+  position: relative;
+  width: max-content;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 200ms;
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: var(--clr-primary);
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 200ms;
+}
+
+.link:hover::after {
+  left: 0;
+  right: auto;
+}
+
+.link.active .link:hover::after,
+.link:hover::after {
+  width: 100%;
+}

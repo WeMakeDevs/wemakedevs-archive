@@ -1,0 +1,101 @@
+:root,
+::after,
+::before {
+  scroll-behavior: smooth;
+
+  /* #region  /**=========== Colors use modifiy opacity  =========== */
+  --content: 222, 227, 234; /* #dee3ea */
+  --divider: 30, 45, 61; /* #1E2D3D */
+  --base-100: 1, 22, 39; /* #011627 */
+  --base-200: 1, 8, 14; /* #01080E */
+  --base-gray: 80, 80, 80; /* #505050 */
+  --primary: 89, 66, 233; /* #5942e9 */
+  --primary-hover: 64, 41, 209; /* #4029d1 */
+  --primary-disable: 119, 101, 237; /* #7765ed */
+  --white: 256, 256, 256; /* #ffffff */
+  /* #endregion  /**======== Colors use modifiy opacity  =========== */
+
+  /* #region  /**=========== Colors with opacity 100 =========== */
+  --clr-content: rgb(var(--content));
+  --clr-divider: rgb(var(--divider));
+  --clr-base-100: rgb(var(--base-100));
+  --clr-base-200: rgb(var(--base-200));
+  --clr-base-gray: rgb(var(--base-gray));
+  --clr-primary: rgb(var(--primary));
+  --clr-primary-hover: rgb(var(--primary-hover));
+  --clr-primary-disable: rgb(var(--primary-disable));
+  /* #endregion  /**======== Colors with opacity 100 =========== */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-family: 'General Sans';
+  overflow-x: hidden;
+  background: #141414;
+}
+
+body::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+  background-color: var(--clr-base-100);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffffff50;
+}
+
+.cursor-newtab {
+  cursor: url('../assets/images/new-tab.png') 10 10, pointer;
+}
+
+.layout {
+  max-width: 68rem;
+  margin-inline: auto;
+  width: 91.666667%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.newtab {
+  width: 20px;
+  aspect-ratio: 1/1;
+  margin-left: 3px;
+}
+
+@media (min-width: 768px) {
+  .newtab {
+    display: none;
+  }
+}
+
+.highlight {
+  font-weight: 600;
+  color: var(--clr-primary);
+}
+.highlight.highlight--dark {
+  color: var(--clr-primary-hover);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
