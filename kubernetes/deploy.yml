@@ -22,7 +22,7 @@ spec:
         env: commclassroom
     spec:
       containers:
-      - name: commclassroom-ctr
-        image: kaiwalyakoparkar/commclassroom:1.0
-        ports:
-        - containerPort: 3000
+        - name: commclassroom-ctr
+          image: kaiwalyakoparkar/commclassroom:1.0
+          ports:
+            - containerPort: 3000

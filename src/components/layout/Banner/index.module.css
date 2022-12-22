@@ -1,0 +1,24 @@
+.section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: var(--clr-content);
+  color: var(--clr-base-100);
+  padding-block: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.section .layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.section .layout p {
+  text-align: center;
+}
