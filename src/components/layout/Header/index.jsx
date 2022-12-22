@@ -88,12 +88,16 @@ export const links = [
     href: '/',
   },
   {
-    name: 'Cources',
-    href: '/#cources',
-  },
-  {
     name: 'About',
     href: '#about',
+  },
+  {
+    name: 'Events',
+    href: '#events',
+  },
+  {
+    name: 'Cources',
+    href: '/#Courses',
   },
   {
     name: 'Mentorship',
