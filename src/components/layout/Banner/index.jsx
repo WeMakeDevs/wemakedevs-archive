@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import styles from './index.module.css';
 
 import Button from '../../Button';
+import UnstyledLink from '../../links/UnstyledLink';
 
 const Banner = () => {
   return (
@@ -15,7 +16,9 @@ const Banner = () => {
           <span className='highlight highlight--dark'>win exciting prizes</span>
           !
         </p>
-        <Button>Events</Button>
+        <Button as={UnstyledLink} href='https://blog.wemakedevs.org/'>
+          Events
+        </Button>
       </div>
     </section>
   );
