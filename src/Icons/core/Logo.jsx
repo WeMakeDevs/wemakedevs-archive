@@ -7,9 +7,19 @@ const Logo = () => {
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
     >
-      <rect y='0.165955' width='145.071' height='42.6681' fill='url(#pattern0)' />
+      <rect
+        y='0.165955'
+        width='145.071'
+        height='42.6681'
+        fill='url(#pattern0)'
+      />
       <defs>
-        <pattern id='pattern0' patternContentUnits='objectBoundingBox' width='1' height='1'>
+        <pattern
+          id='pattern0'
+          patternContentUnits='objectBoundingBox'
+          width='1'
+          height='1'
+        >
           <use
             xlinkHref='#image0_90_10'
             transform='translate(-0.102743 -1.56874) scale(0.000812011 0.00276084)'

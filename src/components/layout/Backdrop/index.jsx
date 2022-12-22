@@ -11,7 +11,7 @@ const Backdrop = ({
   isGradient = false,
   children,
   show = false,
-  onClose
+  onClose,
 }) => {
   useEffect(() => {
     if (show) {
@@ -30,7 +30,7 @@ const Backdrop = ({
           isTransparent && styles.isTransparent,
           isBlur && styles.isBlur,
           isGradient && styles.isGradient,
-          show && styles.show
+          show && styles.show,
         ],
         className
       )}

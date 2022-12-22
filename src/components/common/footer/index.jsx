@@ -21,14 +21,16 @@ const Footer = () => {
               href='https://t.me/WeMakeDevs'
               className='link-normal-1'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               <img src={Telegram} alt='telegram' /> Telegram
             </a>
             <a
               href='https://discord.gg/wemakedevs'
               className='link-normal-1'
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noopener noreferrer'
+            >
               <img src={Discord} alt='discord' /> Discord
             </a>
           </div>
@@ -48,22 +50,35 @@ const Footer = () => {
               <a
                 href='https://www.youtube.com/@WeMakeDevs'
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noopener noreferrer'
+              >
                 <img src={Youtube} alt='youtube' />
               </a>
             </li>
             <li>
-              <a href='https://discord.gg/wemakedevs' target='_blank' rel='noopener noreferrer'>
+              <a
+                href='https://discord.gg/wemakedevs'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <img src={Discord} alt='discord' />
               </a>
             </li>
             <li>
-              <a href='https://t.me/WeMakeDevs' target='_blank' rel='noopener noreferrer'>
+              <a
+                href='https://t.me/WeMakeDevs'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <img src={LinkedIn} alt='linkedin' />
               </a>
             </li>
             <li>
-              <a href='https://twitter.com/WeMakeDevs' target='_blank' rel='noopener noreferrer'>
+              <a
+                href='https://twitter.com/WeMakeDevs'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <img src={Twitter} alt='twitter' />
               </a>
             </li>
@@ -71,17 +86,26 @@ const Footer = () => {
               <a
                 href='https://www.instagram.com/wemakedevs/'
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noopener noreferrer'
+              >
                 <img src={Instagram} alt='twitter' />
               </a>
             </li>
             <li>
-              <a href='https://github.com/WeMakeDevs' target='_blank' rel='noopener noreferrer'>
+              <a
+                href='https://github.com/WeMakeDevs'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <img src={Github} alt='twitter' />
               </a>
             </li>
             <li>
-              <a href='mailto:kunal@wemakedevs.org' target='_blank' rel='noopener noreferrer'>
+              <a
+                href='mailto:kunal@wemakedevs.org'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <img src={Gmail} alt='twitter' />
               </a>
             </li>

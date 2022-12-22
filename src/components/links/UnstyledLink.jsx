@@ -13,7 +13,13 @@ const UnstyledLink = React.forwardRef(
 
     if (!isNewTab) {
       return (
-        <Link to={href} ref={ref} className={className} {...rest} {...LinkProps}>
+        <Link
+          to={href}
+          ref={ref}
+          className={className}
+          {...rest}
+          {...LinkProps}
+        >
           {children}
         </Link>
       );

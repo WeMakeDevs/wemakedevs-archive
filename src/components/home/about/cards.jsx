@@ -13,8 +13,9 @@ const cards = () => {
           </span>
           <p>
             {' '}
-            We provide FREE hands-on training in various fields of computer science and have an
-            inclusive community focussing on a learn by doing approach.
+            We provide FREE hands-on training in various fields of computer
+            science and have an inclusive community focussing on a learn by
+            doing approach.
           </p>
           <div className={styles['about-link']}>
             <button>
@@ -22,7 +23,8 @@ const cards = () => {
                 href='https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3'
                 className={styles['link-primary-2']}
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noopener noreferrer'
+              >
                 Explore Courses
                 <img src={RightArrow} alt='right arrow' />
               </a>
@@ -36,8 +38,9 @@ const cards = () => {
           </span>
           <p>
             {' '}
-            We provide FREE hands-on training in various fields of computer science and have an
-            inclusive community focussing on a learn by doing approach.
+            We provide FREE hands-on training in various fields of computer
+            science and have an inclusive community focussing on a learn by
+            doing approach.
           </p>
           <div className={styles['about-link']}>
             <button>
@@ -45,7 +48,8 @@ const cards = () => {
                 href='https://github.com/WeMakeDevs/events'
                 className={styles['link-primary-2']}
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noopener noreferrer'
+              >
                 Explore our Events
                 <img src={RightArrow} alt='right arrow' />
               </a>
@@ -59,8 +63,9 @@ const cards = () => {
           </span>
           <p>
             {' '}
-            We provide FREE hands-on training in various fields of computer science and have an
-            inclusive community focussing on a learn by doing approach.
+            We provide FREE hands-on training in various fields of computer
+            science and have an inclusive community focussing on a learn by
+            doing approach.
           </p>
           <div className={styles['about-link']}>
             <button>
@@ -68,7 +73,8 @@ const cards = () => {
                 href='https://github.com/WeMakeDevs/roadmaps'
                 className={styles['link-primary-2']}
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noopener noreferrer'
+              >
                 Explore our Roadmaps
                 <img src={RightArrow} alt='right arrow' />
               </a>

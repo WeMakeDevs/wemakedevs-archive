@@ -2,28 +2,40 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true
+    node: true,
   },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
     'plugin:react/jsx-runtime',
-    'plugin:react-hooks/recommended'
+    'plugin:react-hooks/recommended',
   ],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: ['react', 'simple-import-sort', 'unused-imports'],
+  ignorePatterns: ['!.*'],
   rules: {
+    'prettier/prettier': [
+      'warn',
+      {},
+      {
+        usePrettierrc: true,
+      },
+    ],
     'no-unused-vars': 'off',
     'no-console': 'warn',
     'react/no-unescaped-entities': 'off',
     'react/display-name': 'off',
-    'react/jsx-curly-brace-presence': ['warn', { props: 'never', children: 'never' }],
+    'react/jsx-curly-brace-presence': [
+      'warn',
+      { props: 'never', children: 'never' },
+    ],
     'react/prop-types': 'off',
+
     // #region  //*=========== Unused Import ===========
     'unused-imports/no-unused-imports': 'warn',
     'unused-imports/no-unused-vars': [
@@ -32,8 +44,8 @@ module.exports = {
         vars: 'all',
         varsIgnorePattern: '^_',
         args: 'after-used',
-        argsIgnorePattern: '^_'
-      }
+        argsIgnorePattern: '^_',
+      },
     ],
     // #endregion  //*======== Unused Import ===========
 
@@ -66,13 +78,13 @@ module.exports = {
             '^\\.\\./\\.\\./?$',
             '^\\.\\./\\.\\.(?!/?$)',
             '^\\.\\./\\.\\./\\.\\./?$',
-            '^\\.\\./\\.\\./\\.\\.(?!/?$)'
+            '^\\.\\./\\.\\./\\.\\.(?!/?$)',
           ],
           // other that didnt fit in
-          ['^']
-        ]
-      }
-    ]
+          ['^'],
+        ],
+      },
+    ],
     // #endregion  //*======== Import Sort ===========
-  }
+  },
 };

@@ -1,5 +1,9 @@
 .partner {
-  background-image: linear-gradient(to bottom right, #141414, hsla(240, 89%, 51%, 0.424));
+  background-image: linear-gradient(
+    to bottom right,
+    #141414,
+    hsla(240, 89%, 51%, 0.424)
+  );
 }
 .partner_cont {
   max-width: 1200px;

@@ -9,7 +9,11 @@ const Events = () => {
     <section className={styles['events-container-main']}>
       <section id='events'>
         <div className={styles['events-container']}>
-          <img className={styles['banner']} src={BannerImage} alt='Banner events' />
+          <img
+            className={styles['banner']}
+            src={BannerImage}
+            alt='Banner events'
+          />
           <div className={styles['info-container']}>
             <h1>
               EVENTS
@@ -29,16 +33,20 @@ const Events = () => {
                 <img src={RightSingleArrow} alt='single-arrow' />
                 <p>
                   Events conducted will help{' '}
-                  <span className={styles['highlight']}>develop various skills of students </span>
-                  in co-curricular activities and to expose them to the current trends in the
-                  technical and professional fields.
+                  <span className={styles['highlight']}>
+                    develop various skills of students{' '}
+                  </span>
+                  in co-curricular activities and to expose them to the current
+                  trends in the technical and professional fields.
                 </p>
               </li>
               <li>
                 <img src={RightSingleArrow} alt='single-arrow' />
                 <p>
                   Explore the plethora of events & have the opportunity to{' '}
-                  <span className={styles['highlight']}>grab amazing prizes & goodies!</span>
+                  <span className={styles['highlight']}>
+                    grab amazing prizes & goodies!
+                  </span>
                 </p>
               </li>
             </ul>
@@ -48,7 +56,8 @@ const Events = () => {
                 href='https://blog.wemakedevs.org/'
                 className={styles['events-link']}
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noopener noreferrer'
+              >
                 Blogging Challenges
                 <img src={RightArrow} alt='right arrow' />
               </a>
@@ -56,7 +65,8 @@ const Events = () => {
                 href='https://devpost.com/hackathons?search=wemakedevs'
                 className={styles['events-link']}
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noopener noreferrer'
+              >
                 Hackathons
                 <img src={RightArrow} alt='right arrow' />
               </a>
@@ -64,7 +74,8 @@ const Events = () => {
                 href='https://github.com/wemakedevs/events'
                 className={styles['events-link']}
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noopener noreferrer'
+              >
                 Meetups
                 <img src={RightArrow} alt='right arrow' />
               </a>

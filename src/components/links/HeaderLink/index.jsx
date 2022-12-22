@@ -6,7 +6,11 @@ import UnstyledLink from '../UnstyledLink';
 
 function HeaderLink({ className, href, children, ...rest }) {
   return (
-    <UnstyledLink href={href} className={clsx(styles.link, className)} {...rest}>
+    <UnstyledLink
+      href={href}
+      className={clsx(styles.link, className)}
+      {...rest}
+    >
       {children}
     </UnstyledLink>
   );

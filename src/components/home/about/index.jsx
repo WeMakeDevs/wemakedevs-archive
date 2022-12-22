@@ -17,8 +17,8 @@ const About = () => {
             <li>
               <img src={RightSingleArrow} alt='single-arrow' />
               <p>
-                We believe that everyone, irrespective of their college or branch, technical or
-                non-technical background can make it big.{' '}
+                We believe that everyone, irrespective of their college or
+                branch, technical or non-technical background can make it big.{' '}
                 <span className={styles['highlight']}>
                   {' '}
                   WeMakeDevs is an initiative built on this thought.{' '}
@@ -29,22 +29,32 @@ const About = () => {
               <img src={RightSingleArrow} alt='single-arrow' />
               <p>
                 We provide{' '}
-                <span className={styles['highlight']}>hands-on training, mentorship for FREE</span>{' '}
-                and have an <span className={styles['highlight']}>inclusive community.</span>
+                <span className={styles['highlight']}>
+                  hands-on training, mentorship for FREE
+                </span>{' '}
+                and have an{' '}
+                <span className={styles['highlight']}>
+                  inclusive community.
+                </span>
               </p>
             </li>
             <li>
               <img src={RightSingleArrow} alt='single-arrow' />
               <p>
-                Get <span className={styles['highlight']}>expert guidance with career</span>, Open
-                Source, and internships, jobs around the world.
+                Get{' '}
+                <span className={styles['highlight']}>
+                  expert guidance with career
+                </span>
+                , Open Source, and internships, jobs around the world.
               </p>
             </li>
             <li>
               <img src={RightSingleArrow} alt='single-arrow' />
               <p>
                 We are also having various{' '}
-                <span className={styles['highlight']}>events weekly or monthly. </span>
+                <span className={styles['highlight']}>
+                  events weekly or monthly.{' '}
+                </span>
                 Do participate in those events to make your skills enhance.
               </p>
             </li>
@@ -55,7 +65,8 @@ const About = () => {
                 href='https://discord.gg/wemakedevs'
                 className={styles['link-primary']}
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noopener noreferrer'
+              >
                 Join Discord
                 <img src={RightArrow} alt='right arrow' />
               </a>

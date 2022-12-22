@@ -15,16 +15,25 @@ const ComingSoon = () => {
       </div>
       <ul className={click ? 'navbar-menu active' : 'navbar-menu'}>
         <li className='navbar-item'>
-          <a href='https://twitter.com/commclassroom/' target='_blank' rel='noreferrer'></a>
+          <a
+            href='https://twitter.com/commclassroom/'
+            target='_blank'
+            rel='noreferrer'
+          ></a>
         </li>
         <li className='navbar-item'>
           <a
             href='https://www.linkedin.com/company/commclassroom/'
             target='_blank'
-            rel='noreferrer'></a>
+            rel='noreferrer'
+          ></a>
         </li>
         <li className='navbar-item'>
-          <a href='https://www.instagram.com/commclassroom/' target='_blank' rel='noreferrer'></a>
+          <a
+            href='https://www.instagram.com/commclassroom/'
+            target='_blank'
+            rel='noreferrer'
+          ></a>
         </li>
       </ul>
 

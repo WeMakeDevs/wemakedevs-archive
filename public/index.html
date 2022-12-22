@@ -11,7 +11,11 @@
               return s.replace(/~and~/g, '&');
             })
             .join('?');
-          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
         }
       })(window.location);
     </script>
@@ -20,7 +24,10 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="The Free Community for Modern Learning." />
+    <meta
+      name="description"
+      content="The Free Community for Modern Learning."
+    />
     <link
       href="https://api.fontshare.com/v2/css?f[]=general-sans@1,2&display=swap"
       rel="stylesheet"

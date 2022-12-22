@@ -22,15 +22,17 @@ const Courses = () => {
               <li>
                 <img src={RightSingleArrow} alt='single-arrow' />
                 <p>
-                  We cover every topic in detail with a hands-on approach and mentor you to stand
-                  out to get opportunities by breaking all the barriers.
+                  We cover every topic in detail with a hands-on approach and
+                  mentor you to stand out to get opportunities by breaking all
+                  the barriers.
                 </p>
               </li>
               <li>
                 <img src={RightSingleArrow} alt='single-arrow' />
                 <p>
-                  Explore a wide range of courses including Data Structures & Algorithms, Web
-                  Development, DevOps, Machine Learning, and more!
+                  Explore a wide range of courses including Data Structures &
+                  Algorithms, Web Development, DevOps, Machine Learning, and
+                  more!
                 </p>
               </li>
             </ul>
@@ -41,7 +43,8 @@ const Courses = () => {
                   href='https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3'
                   className={styles['link-primary']}
                   target='_blank'
-                  rel='noopener noreferrer'>
+                  rel='noopener noreferrer'
+                >
                   Explore Courses
                   <img src={RightArrow} alt='right arrow' />
                 </a>

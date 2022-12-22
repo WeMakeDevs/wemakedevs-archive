@@ -11,7 +11,7 @@ import { useWindowScrolling } from '../../../lib/useWindowScrolling';
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   const [direction, scrollTop] = useWindowScrolling({
-    active: true
+    active: true,
   });
   return (
     <>
@@ -54,7 +54,11 @@ const Navbar = () => {
         onClose={() => setOpen(false)}
         className={styles.NavBackDrop}
       >
-        <NavigationLinks open={open} setOpen={setOpen} style={styles.navMobile} />
+        <NavigationLinks
+          open={open}
+          setOpen={setOpen}
+          style={styles.navMobile}
+        />
       </Backdrop>
     </>
   );
@@ -66,7 +70,11 @@ const NavigationLinks = ({ style, open, setOpen }) => {
   return (
     <nav className={clsx(style, open && styles.open)}>
       {links.map((link) => (
-        <HeaderLink onClick={() => setOpen(false)} href={link.href} key={link.name}>
+        <HeaderLink
+          onClick={() => setOpen(false)}
+          href={link.href}
+          key={link.name}
+        >
           {link.name}
         </HeaderLink>
       ))}
@@ -77,26 +85,26 @@ const NavigationLinks = ({ style, open, setOpen }) => {
 export const links = [
   {
     name: 'Home',
-    href: '/'
+    href: '/',
   },
   {
     name: 'Courses',
-    href: '#Courses'
+    href: '#Courses',
   },
   {
     name: 'Podcasts',
-    href: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr'
+    href: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr',
   },
   {
     name: 'Events',
-    href: '#events'
+    href: '#events',
   },
   {
     name: 'Roadmaps',
-    href: '#roadmaps'
+    href: '#roadmaps',
   },
   {
     name: 'Join',
-    href: 'https://github.com/wemakedevs/roadmaps'
-  }
+    href: 'https://github.com/wemakedevs/roadmaps',
+  },
 ];

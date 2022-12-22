@@ -3,31 +3,31 @@ export const navLinks = [
     name: 'Home',
     href: '/',
     external: false,
-    active: true
+    active: true,
   },
   {
     name: 'Courses',
     href: '#Courses',
-    external: false
+    external: false,
   },
   {
     name: 'Podcasts',
     href: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr',
-    external: true
+    external: true,
   },
   {
     name: 'Events',
     href: '#events',
-    external: false
+    external: false,
   },
   {
     name: 'Roadmaps',
     href: '#roadmaps',
-    external: true
+    external: true,
   },
   {
     name: 'Join',
     href: 'https://github.com/wemakedevs/roadmaps',
-    external: true
-  }
+    external: true,
+  },
 ];

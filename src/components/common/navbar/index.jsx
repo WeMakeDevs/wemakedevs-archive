@@ -18,14 +18,19 @@ const Navbar = () => {
           navExpanded
             ? `${styles['nav-links']} ${styles['nav-links-expanded']}`
             : styles['nav-links']
-        }>
+        }
+      >
         <ul>
           {navLinks.map((link) => {
             if (link.active) {
               return (
                 <li className={styles['nav-active']} key={link.name}>
                   {link?.external ? (
-                    <a href={link.href} target='_blank' rel='noopener noreferrer'>
+                    <a
+                      href={link.href}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
                       {link.name}
                     </a>
                   ) : (
