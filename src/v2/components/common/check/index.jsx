@@ -17,7 +17,7 @@ const index = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-       CLICK ME
+       Click me
             
           </a>
           </div>

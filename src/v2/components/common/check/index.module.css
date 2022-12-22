@@ -31,7 +31,7 @@
    
 }
 .events-link{
-    padding: 5px 15px 31px 20px;
+    padding: 5px 15px 32px 20px;
     background-color: var(--clr-dark);
     color: white;
     font-style: normal;
@@ -39,7 +39,7 @@
     font-size: 18px;
     margin-left: auto;    
     border-radius: 30px;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
 }
 @media  screen and (max-width:1000px) {
     .check-container{
@@ -58,7 +58,7 @@
         font-size:20px;
         margin-right:auto;
         border-radius: 30px;
-	padding: 7px 15px 10px 20px;
+	    padding: 7px 15px 10px 20px;
     }
     .events-button{
         margin-top: 0px;
