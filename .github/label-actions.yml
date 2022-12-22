@@ -13,6 +13,4 @@ feature:
 wip:
   prs:
     # Add labels
-    label:
-      - 'contributor'
-      - 'needs feedback'
+  
