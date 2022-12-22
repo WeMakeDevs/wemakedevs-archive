@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
 import './index.css';
-import './styles/reset.css';
+import './styles/resets.css';
 import './styles/root.css';
 
 import HomePage from './pages/HomePage';
