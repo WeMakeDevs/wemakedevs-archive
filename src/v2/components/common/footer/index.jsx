@@ -14,7 +14,7 @@ import "./index.css";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer">
+      <div className="footer" id="join">
         <div className="footer-col1">
         <p className="footer-p">
           Join our community

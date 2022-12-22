@@ -23,12 +23,12 @@ export const navLinks = [
   },
   {
     name: "Roadmaps",
-    href: "#roadmaps",
+    href: "https://github.com/wemakedevs/roadmaps",
     external: true,
   },
   {
     name: "Join",
-    href: "https://github.com/wemakedevs/roadmaps",
+    href: "#join",
     external: true,
   },
 ];
