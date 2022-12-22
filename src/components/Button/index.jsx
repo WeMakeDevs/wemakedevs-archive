@@ -13,14 +13,15 @@ const Button = React.forwardRef(
       isLoading,
       variant = 'primary',
       isDarkBg = false,
+      as,
       ...rest
     },
     ref
   ) => {
     const disabled = isLoading || buttonDisabled;
-
+    const Component = as || 'button';
     return (
-      <button
+      <Component
         ref={ref}
         type='button'
         disabled={disabled}
@@ -40,7 +41,7 @@ const Button = React.forwardRef(
           </div>
         )}
         {children}
-      </button>
+      </Component>
     );
   }
 );
