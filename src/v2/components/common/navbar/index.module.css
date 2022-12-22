@@ -3,9 +3,11 @@
     justify-content: space-between;
     align-items: center;
     color: var(--clr-white);
-    margin: 1rem auto 1rem auto;
-    max-width: 1400px;
     padding: 0 1rem;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    background-color: black;
     z-index: 2;
 }
 
@@ -24,6 +26,7 @@
     list-style-type: none;
     padding: 0;
     color: white;
+    margin-bottom: 30px;
 }
 
 .nav-links li {
