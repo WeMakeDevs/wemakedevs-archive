@@ -2,11 +2,12 @@ import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
 import BannerImage from '../../../assets/home/courses.png';
 
-const Mentorship = () => {
+const Mentorship = ({ background = 'static' }) => {
   return (
     <ColumnSection
       imgSrc={BannerImage}
       title='Mentorship'
+      background={background}
       buttonLinks={[
         {
           href: 'https://github.com/WeMakeDevs/roadmaps',

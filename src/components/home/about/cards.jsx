@@ -4,9 +4,14 @@ import styles from './index.module.css';
 
 import RightArrow from '../../../assets/arrows/right-arrow.png';
 
-const cards = () => {
+const cards = ({ background = 'static' }) => {
   return (
-    <section className={styles['about-cards']}>
+    <section
+      className={clsx(
+        styles['about-cards'],
+        background === 'gradient' ? 'gradient' : 'static-bg'
+      )}
+    >
       <div className={clsx('layout', styles['main-about'])}>
         <div className={styles['about-card-1']}>
           <h1> Education </h1>

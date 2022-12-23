@@ -2,12 +2,13 @@ import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
 import BannerImage from '../../../assets/home/events.png';
 
-const Events = () => {
+const Events = ({ background = 'static' }) => {
   return (
     <ColumnSection
       id='about'
       imgSrc={BannerImage}
       title='Events'
+      background={background}
       buttonLinks={[
         { href: 'https://blog.wemakedevs.org/', name: 'Blogging Challenges' },
         {

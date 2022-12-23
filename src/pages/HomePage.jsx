@@ -1,4 +1,5 @@
 import About from '../components/home/about';
+import Cards from '../components/home/about/cards';
 import Courses from '../components/home/courses/index.jsx';
 import Events from '../components/home/events';
 import Header from '../components/home/header';
@@ -8,18 +9,19 @@ import Testimonials from '../components/home/Testimonial';
 import Banner from '../components/layout/Banner';
 import Footer from '../components/layout/Footer';
 import Navbar from '../components/layout/Header';
-
 const HomePage = () => {
   return (
     <>
       <Navbar />
       <Header />
-      <About />
-      <Courses />
+      <About background='gradient' />
+      <Cards />
+      <Courses background='gradient' />
       <Testimonials />
-      <Events />
+      <Events background='gradient' />
       <Mentorship />
-      <Partner />
+      {/* Needs update */}
+      <Partner background='gradient' />
       <Footer />
       <Banner />
     </>

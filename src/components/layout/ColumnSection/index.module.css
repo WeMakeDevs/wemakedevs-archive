@@ -20,17 +20,6 @@
     flex-direction: row-reverse;
   }
 }
-.section {
-  background-image: linear-gradient(
-    to bottom right,
-    #141414,
-    hsla(240, 89%, 51%, 0.424)
-  );
-}
-
-.section.right {
-  background: #141414;
-}
 
 .container .img {
   flex-grow: 1;

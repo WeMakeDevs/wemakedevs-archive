@@ -3,7 +3,6 @@
 }
 
 .layout {
-  padding-inline: 1.25rem;
   padding-block: 6rem;
   margin-inline: auto;
 }
@@ -12,16 +11,24 @@
 }
 .cardWrapper {
   display: flex;
-  margin: -1rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 .card {
   padding: 1rem /* 16px */;
+  padding-block: 2rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(var(--content), 0),
+    rgb(var(--content), 0.1)
+  );
+  border-radius: 0.5rem;
+  border: 1px solid rgb(var(--content), 0.2);
 }
 @media (min-width: 1024px) {
   .card {
     margin-bottom: 0px;
-    width: 33.333333%;
+    flex: 1;
   }
 }
 
@@ -33,6 +40,8 @@
 .hr {
   margin-inline: auto;
   margin-block: 1rem;
+  height: 4px;
+  background: rgb(var(--content), 0.3);
 }
 
 .img {

@@ -2,7 +2,7 @@ import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
 import BannerImage from '../../../assets/home/courses.png';
 
-const Courses = () => {
+const Courses = ({ background = 'static' }) => {
   return (
     <ColumnSection
       id='Courses'
@@ -15,6 +15,7 @@ const Courses = () => {
           href: 'https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3',
         },
       ]}
+      background={background}
     >
       <ListItem>
         All courses are FREE while never compromising on quality.
