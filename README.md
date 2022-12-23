@@ -41,10 +41,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### 🛠️ Installation
 
 1. Fork the repo
-2. Clone the repository git clone
-3. Run npm i to install all dependencies
-4. Run npm run dev to start the application
-5. Visit https://localhost:3000 to view the application
+2. Clone the repository `git clone`
+3. Run `npm i` to install all dependencies
+4. Run `npm run dev` to start the application
+5. Visit `https://localhost:3000` to view the application
 
 ## Thanks to all the contributors ❤️
 <img src="https://contrib.rocks/image?repo=WeMakeDevs/wemakedevs"/>
