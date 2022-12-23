@@ -1,0 +1,65 @@
+.section {
+  color: var(--clr-content);
+}
+
+.layout {
+  padding-inline: 1.25rem;
+  padding-block: 6rem;
+  margin-inline: auto;
+}
+.headingLine {
+  margin-block: 1.5rem;
+}
+.cardWrapper {
+  display: flex;
+  margin: -1rem;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 1rem /* 16px */;
+}
+@media (min-width: 1024px) {
+  .card {
+    margin-bottom: 0px;
+    width: 33.333333%;
+  }
+}
+
+.cardSection {
+  text-align: center;
+  height: 100%;
+}
+
+.hr {
+  margin-inline: auto;
+  margin-block: 1rem;
+}
+
+.img {
+  display: inline-block;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 2rem;
+  background-color: var(--clr-base-100);
+  --bg-opacity: 0.1;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 9999px;
+  border-width: 2px;
+  border-color: var(--clr-base-100);
+}
+
+.description {
+  line-height: 1.625;
+}
+.name {
+  color: var(--clr-white);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.designation {
+  color: rgb(var(--content), 0.8);
+}
