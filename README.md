@@ -5,7 +5,8 @@ This is a community which provides free hands-on training in various fields of c
 ## 👨‍💻 Demo
 
 Visit: https://wemakedevs.org/
-![image](https://user-images.githubusercontent.com/86014533/208913882-a6bbbd0d-2833-464e-895d-788522952c68.png)
+
+[![image](https://user-images.githubusercontent.com/86014533/208913882-a6bbbd0d-2833-464e-895d-788522952c68.png)](https://wemakedevs.org/)
 
 ## What is Wemakedevs?
 
