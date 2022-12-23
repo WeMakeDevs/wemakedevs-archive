@@ -37,11 +37,7 @@ const Footer = () => {
           <h3>WeMakeDevs</h3>
           <div className={styles.links}>
             {links.map((link) => (
-              <UnstyledLink
-                openNewTabIcon={false}
-                key={link.name}
-                href={link.link}
-              >
+              <UnstyledLink key={link.name} href={link.link}>
                 {link.icon}
               </UnstyledLink>
             ))}
@@ -50,7 +46,7 @@ const Footer = () => {
 
         <p className={styles.copyright}>
           © Copyrights by
-          <span className='highlight'> WeMakeDevs </span>
+          <span className='highlight highlight--light'> WeMakeDevs </span>
           All Rights Reserved.
         </p>
       </div>

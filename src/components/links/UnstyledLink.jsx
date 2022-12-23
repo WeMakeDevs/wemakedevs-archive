@@ -10,7 +10,7 @@ const UnstyledLink = React.forwardRef(
       children,
       href,
       openNewTab,
-      openNewTabIcon = true,
+      openNewTabIcon = false,
       className,
       LinkProps,
       ...rest
