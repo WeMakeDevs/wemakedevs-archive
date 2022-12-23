@@ -75,3 +75,18 @@
     padding: 60px 80px 60px 80px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .about-card-1,
+  .about-card-2,
+  .about-card-3 {
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 360px) {
+  .about-card-1,
+  .about-card-2,
+  .about-card-3 {
+    width: 12rem;
+  }
+}
