@@ -35,7 +35,7 @@
   gap: 0.75rem 0rem;
 }
 .partner-button a {
-  white-space: nowrap;
+  white-space: pre-line;
 }
 @media screen and (max-width: 500px) {
   .partner {
