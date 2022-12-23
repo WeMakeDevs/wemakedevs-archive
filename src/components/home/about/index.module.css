@@ -31,7 +31,7 @@
   background-color: var(--clr-blue);
   height: 3px;
   border: none;
-  width: 85px;
+  width: 62%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
@@ -202,10 +202,10 @@
   background-color: var(--clr-blue);
   height: 3px;
   border: none;
-  width: 85px;
+  width: 64%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1rem;
+  margin-top: 3px;
 }
 @media screen and (max-width: 900px) {
   .main-about {
