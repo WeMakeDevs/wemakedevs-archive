@@ -1,0 +1,86 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding-block: 0.75rem;
+  padding-inline: 1.75rem;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-duration: 75ms;
+  font-weight: 500;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.button:focus-visible {
+  outline: 1px solid var(--clr-primary);
+}
+.button:disabled {
+  cursor: not-allowed;
+}
+/* Styles for Loading Button */
+.button.isLoading {
+  position: relative;
+  color: transparent;
+  transition: none;
+}
+.button.isLoading:hover {
+  color: transparent;
+}
+.button.isLoading:disabled {
+  cursor: wait;
+}
+/* Primary Button Styles */
+.primary {
+  background-color: var(--clr-primary);
+  color: rgb(var(--content), 0.9);
+  border: 1px solid var(--clr-primary-hover);
+  outline-color: rgb(var(--primary), 0.3);
+}
+.primary:hover,
+.primary:focus-visible {
+  background-color: var(--clr-primary-hover);
+  color: var(--clr-content);
+  border-color: var(--clr-primary);
+}
+.primary:active {
+  background-color: var(--clr-primary);
+}
+.primary:disabled {
+  background-color: var(--clr-primary-disable);
+}
+.primary:disabled:hover {
+  background-color: var(--clr-primary-disable);
+}
+
+/* Outline Button Styles */
+.outline {
+  color: var(--clr-primary);
+  border: 2px solid var(--clr-primary);
+}
+.outline:hover {
+  background-color: rgb(var(--primary), 0.2);
+}
+.outline:active,
+.outline:disabled {
+  background-color: rgb(var(--primary), 0.3);
+}
+.outline.isDarkBg:hover,
+.outline.isDarkBg:focus-visible {
+  background: var(--clr-base-200);
+}
+.outline.isDarkBg:active,
+.outline.isDarkBg:disabled {
+  background: rgb(var(--base-200), 0.3);
+}
+
+.button .loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.primary .loading {
+  color: var(--clr-white);
+}
+.button.outline .loading {
+  color: var(--clr-primary);
+}
