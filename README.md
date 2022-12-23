@@ -14,6 +14,8 @@ We believe that everyone, irrespective of their college or branch, technical or 
 
 ## What stack is Wemakedevs built on?
 
+REACT
+
 HTML
 
 CSS
@@ -28,10 +30,21 @@ Events
 
 Mentorship
 
-## 🛠️ Installation
+## 🚀 Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### 🧾 Prerequisites
+- [Node.js](https://nodejs.org/en/download/)
+- [Git](https://git-scm.com/downloads)
+- [NPM](https://www.npmjs.com/)
+
+### 🛠️ Installation
 
 1. Fork the repo
 2. Clone the repository git clone
 3. Run npm i to install all dependencies
 4. Run npm run dev to start the application
 5. Visit https://localhost:3000 to view the application
+
+## Thanks to all the contributors ❤️
+<img src="https://contrib.rocks/image?repo=WeMakeDevs/wemakedevs"/>
