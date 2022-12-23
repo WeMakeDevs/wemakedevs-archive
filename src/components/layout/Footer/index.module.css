@@ -72,11 +72,12 @@
     flex-direction: column;
     gap: 1rem;
   }
+  .join {
+    align-items: center;
+    margin-bottom: 0.3rem;
+  }
   .details h3 {
     text-align: center;
-  }
-  .join {
-    display: none;
   }
   .details h3 {
     font-size: 1.3rem;

@@ -1,0 +1,80 @@
+/* #region  /**=========== Typography =========== */
+.h0 {
+  color: var(--clr-content);
+  font-size: 1.875rem /* 30px */;
+  line-height: 2.25rem /* 36px */;
+}
+
+h1,
+.h1 {
+  color: var(--clr-content);
+  font-size: 1.875rem /* 30px */;
+  line-height: 2.25rem /* 36px */;
+}
+
+h2,
+.h2 {
+  color: var(--clr-content);
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+}
+
+h3,
+.h3 {
+  color: var(--clr-content);
+  font-size: 1.125rem /* 18px */;
+  line-height: 1.75rem /* 28px */;
+}
+
+h4,
+.h4 {
+  color: var(--clr-content);
+  font-size: 1rem /* 16px */;
+  line-height: 1.5rem /* 24px */;
+}
+
+body,
+.p {
+  color: var(--clr-content);
+  font-size: 0.875rem /* 14px */;
+}
+
+/* #endregion  /**======== Typography =========== */
+@media (min-width: 768px) {
+  .h0 {
+    font-size: 3rem /* 48px */;
+    line-height: 1;
+  }
+  h1,
+  .h1 {
+    font-size: 2.25rem /* 36px */;
+    line-height: 2.5rem /* 40px */;
+  }
+  h2,
+  .h2 {
+    font-size: 1.875rem /* 30px */;
+    line-height: 2.25rem; /* 36px */
+  }
+  h3,
+  .h3 {
+    font-size: 1.5rem /* 24px */;
+    line-height: 2rem /* 32px */;
+  }
+  h4,
+  .h4 {
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+  }
+  body,
+  .p {
+    font-size: 1rem /* 16px */;
+    line-height: 1.5rem /* 24px */;
+  }
+}
+@media (min-width: 1024px) {
+  h1,
+  .h1 {
+    font-size: 3rem /* 48px */;
+    line-height: 1;
+  }
+}

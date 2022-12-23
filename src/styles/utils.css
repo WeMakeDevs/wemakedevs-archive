@@ -1,0 +1,75 @@
+/* Wrapper Class */
+.layout {
+  max-width: 80rem; /* 1280px */
+  margin-inline: auto;
+  width: 91.666667%;
+}
+
+/* Things that are only for screen reader */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Icon that apears for the link which are going to open in new tab */
+.newtab {
+  width: 20px;
+  aspect-ratio: 1/1;
+  margin-left: 3px;
+}
+
+/* For mobile screen Icon will be not used becuse on laptop when
+ we hover Cursor changes to te new tab icon */
+@media (min-width: 768px) {
+  .newtab {
+    display: none;
+  }
+}
+
+/* Class to highlight the text */
+.highlight {
+  font-weight: 600;
+  color: var(--clr-primary);
+}
+/* Darker highlight can be used on light background */
+.highlight.highlight--dark {
+  color: var(--clr-primary-hover);
+}
+/* Light highlight can be used on Dark background */
+.highlight.highlight--light {
+  color: var(--clr-primary-disable);
+}
+.highlight.highlight--white {
+  color: var(--clr-white);
+}
+
+/* Make text white */
+.text-primary {
+  color: var(--clr-primary);
+}
+
+/* Spin keyframes to rotate  */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* For the hr in every section */
+.styled-hr {
+  background-color: var(--clr-primary);
+  height: 0.6rem;
+  border-radius: 100px;
+  border: none;
+  width: 8rem;
+}
