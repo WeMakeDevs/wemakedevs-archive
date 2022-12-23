@@ -92,12 +92,12 @@ export const links = [
     href: '#about',
   },
   {
-    name: 'Events',
-    href: '#events',
-  },
-  {
     name: 'Courses',
     href: '/#Courses',
+  },
+  {
+    name: 'Events',
+    href: '#events',
   },
   {
     name: 'Mentorship',
