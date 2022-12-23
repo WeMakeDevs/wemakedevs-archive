@@ -5,7 +5,7 @@ import BannerImage from '../../../assets/home/events.png';
 const Events = () => {
   return (
     <ColumnSection
-      id='about'
+      id='events'
       imgSrc={BannerImage}
       title='Events'
       buttonLinks={[
