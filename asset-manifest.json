@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3ded97b6.css",
-    "main.js": "/static/js/main.566ec1da.js",
+    "main.js": "/static/js/main.bc187eed.js",
     "static/media/aboutus.png": "/static/media/aboutus.02f2915b9ae736e9ef8a.png",
     "static/media/events.png": "/static/media/events.dd774e9084b339ee0973.png",
     "static/media/courses.png": "/static/media/courses.f2c1856875197487b345.png",
@@ -10,10 +10,10 @@
     "static/media/rahultest1.jpg": "/static/media/rahultest1.d10edae74b5189c39a1a.jpg",
     "index.html": "/index.html",
     "main.3ded97b6.css.map": "/static/css/main.3ded97b6.css.map",
-    "main.566ec1da.js.map": "/static/js/main.566ec1da.js.map"
+    "main.bc187eed.js.map": "/static/js/main.bc187eed.js.map"
   },
   "entrypoints": [
     "static/css/main.3ded97b6.css",
-    "static/js/main.566ec1da.js"
+    "static/js/main.bc187eed.js"
   ]
 }
