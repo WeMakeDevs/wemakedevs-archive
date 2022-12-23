@@ -1,3 +1,5 @@
+import clsx from 'clsx';
+
 import styles from './index.module.css';
 
 import RightArrow from '../../../assets/arrows/right-arrow.png';
@@ -5,7 +7,7 @@ import RightArrow from '../../../assets/arrows/right-arrow.png';
 const cards = () => {
   return (
     <section className={styles['about-cards']}>
-      <div className={styles['main-about']}>
+      <div className={clsx('layout', styles['main-about'])}>
         <div className={styles['about-card-1']}>
           <h1> Education </h1>
           <span>
