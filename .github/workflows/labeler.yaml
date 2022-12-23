@@ -1,0 +1,30 @@
+name: "Pull Request Labeler"
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  label:
+    permissions:
+      actions: none
+      checks: none
+      contents: none
+      deployments: none
+      id-token: none
+      issues: none
+      discussions: none
+      packages: none
+      pages: none
+      pull-requests: write
+      repository-projects: none
+      security-events: none
+      statuses: none
+      
+    runs-on: ubuntu-latest
+    steps:
+    - uses: AnuragThePathak/labeler@v1.1.0
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        configuration-path: .github/labeler.yaml
+        sync-labels: false
