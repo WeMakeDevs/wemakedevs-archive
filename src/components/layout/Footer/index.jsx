@@ -21,10 +21,10 @@ const Footer = () => {
         <div className={styles.details}>
           <div className={styles.join}>
             <h3>Join our Community</h3>
-            <UnstyledLink>
+            <UnstyledLink href='https://t.me/WeMakeDevs'>
               <FaTelegram /> Telegram
             </UnstyledLink>
-            <UnstyledLink>
+            <UnstyledLink href='https://discord.gg/wemakedevs'>
               <FaDiscord /> Discord
             </UnstyledLink>
           </div>

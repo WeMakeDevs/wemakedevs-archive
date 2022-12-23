@@ -23,7 +23,7 @@ jobs:
       
     runs-on: ubuntu-latest
     steps:
-    - uses: AnuragThePathak/labeler@v1.1.0
+    - uses: WeMakeDevs/labeler-action@v1.3.0
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         configuration-path: .github/labeler.yaml
