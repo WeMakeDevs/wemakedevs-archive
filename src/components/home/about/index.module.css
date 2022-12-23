@@ -26,6 +26,9 @@
   padding: 30px 10px 30px 10px;
   border-radius: 20px;
   border: 2px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .about-link button {
   color: #ffffff;
@@ -42,6 +45,8 @@
   border-radius: 30px;
   border: none;
   max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .link-primary-2 img {
   height: 12px;
