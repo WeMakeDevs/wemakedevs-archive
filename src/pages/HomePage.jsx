@@ -3,6 +3,7 @@ import Cards from '../components/home/about/cards';
 import Courses from '../components/home/courses/index.jsx';
 import Events from '../components/home/events';
 import Header from '../components/home/header';
+import JoinUs from '../components/home/JoinUs';
 import Mentorship from '../components/home/Mentorship';
 import Partner from '../components/home/Partner';
 import Testimonials from '../components/home/Testimonial';
@@ -20,8 +21,8 @@ const HomePage = () => {
       <Testimonials />
       <Events background='gradient' />
       <Mentorship />
-      {/* Needs update */}
       <Partner background='gradient' />
+      <JoinUs />
       <Footer />
       <Banner />
     </>
