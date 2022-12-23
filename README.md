@@ -14,13 +14,12 @@ We believe that everyone, irrespective of their college or branch, technical or 
 
 ## What stack is Wemakedevs built on?
 
-REACT
-
-HTML
-
-CSS
-
-JAVASCRIPT
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## What we provide?
 
@@ -34,9 +33,13 @@ Mentorship
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### 🧾 Prerequisites
-- [Node.js](https://nodejs.org/en/download/)
-- [Git](https://git-scm.com/downloads)
-- [NPM](https://www.npmjs.com/)
+Before starting out, you'll need to install the following on your computer.
+
+[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/download/)
+
+[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/downloads)
+
+[![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
 
 ### 🛠️ Installation
 
