@@ -33,9 +33,10 @@
   box-sizing: border-box;
 }
 body {
-  line-height: 1.5;
+  font-weight: 500;
   font-family: 'General Sans';
   overflow-x: hidden;
+  letter-spacing: 1px;
   background: #141414;
 }
 
@@ -51,51 +52,4 @@ body::-webkit-scrollbar-thumb {
 
 .cursor-newtab {
   cursor: url('../assets/images/new-tab.png') 10 10, pointer;
-}
-
-.layout {
-  max-width: 68rem;
-  margin-inline: auto;
-  width: 91.666667%;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
-.newtab {
-  width: 20px;
-  aspect-ratio: 1/1;
-  margin-left: 3px;
-}
-
-@media (min-width: 768px) {
-  .newtab {
-    display: none;
-  }
-}
-
-.highlight {
-  font-weight: 600;
-  color: var(--clr-primary);
-}
-.highlight.highlight--dark {
-  color: var(--clr-primary-hover);
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-.animate-spin {
-  animation: spin 1s linear infinite;
 }
