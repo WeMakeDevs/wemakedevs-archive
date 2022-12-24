@@ -11,12 +11,17 @@ const ColumnSection = ({
   title,
   buttonLinks,
   direction = 'left',
+  background = 'static',
   children,
 }) => {
   return (
     <section
       id={id}
-      className={clsx(styles.section, direction === 'right' && styles.right)}
+      className={clsx(
+        styles.section,
+        background === 'gradient' ? 'gradient' : 'static-bg',
+        direction === 'right' && styles.right
+      )}
     >
       <div className={clsx('layout', styles.container)}>
         <img className={styles.img} src={imgSrc} alt={title} />

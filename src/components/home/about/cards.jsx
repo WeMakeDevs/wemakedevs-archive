@@ -2,86 +2,21 @@ import clsx from 'clsx';
 
 import styles from './index.module.css';
 
-import RightArrow from '../../../assets/arrows/right-arrow.png';
-
-const cards = () => {
+import ArrowLink from '../../links/ArrowLink';
+import ButtonLink from '../../links/ButtonLink';
+const cards = ({ background = 'static' }) => {
   return (
-    <section className={styles['about-cards']}>
-      <div className={clsx('layout', styles['main-about'])}>
-        <div className={styles['about-card-1']}>
-          <h1> Education </h1>
-          <span>
-            <hr className={styles['about-card-border']}></hr>
-          </span>
-          <p>
-            {' '}
-            We provide FREE hands-on training in various fields of computer
-            science and have an inclusive community focussing on a learn by
-            doing approach.
-          </p>
-          <div className={styles['about-link']}>
-            <button>
-              <a
-                href='https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3'
-                className={styles['link-primary-2']}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Explore Courses
-                <img src={RightArrow} alt='right arrow' />
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className={styles['about-card-2']}>
-          <h1> Events </h1>
-          <span>
-            <hr className={styles['about-card-border']}></hr>
-          </span>
-          <p>
-            {' '}
-            We provide FREE hands-on training in various fields of computer
-            science and have an inclusive community focussing on a learn by
-            doing approach.
-          </p>
-          <div className={styles['about-link']}>
-            <button>
-              <a
-                href='https://github.com/WeMakeDevs/events'
-                className={styles['link-primary-2']}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Explore our Events
-                <img src={RightArrow} alt='right arrow' />
-              </a>
-            </button>
-          </div>
-        </div>
-        <div className={styles['about-card-3']}>
-          <h1> Mentorship </h1>
-          <span>
-            <hr className={styles['about-card-border']}></hr>
-          </span>
-          <p>
-            {' '}
-            We provide FREE hands-on training in various fields of computer
-            science and have an inclusive community focussing on a learn by
-            doing approach.
-          </p>
-          <div className={styles['about-link']}>
-            <button>
-              <a
-                href='https://github.com/WeMakeDevs/roadmaps'
-                className={styles['link-primary-2']}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Explore our Roadmaps
-                <img src={RightArrow} alt='right arrow' />
-              </a>
-            </button>
-          </div>
+    <section
+      className={clsx(
+        styles.section,
+        background === 'gradient' ? 'gradient' : 'static-bg'
+      )}
+    >
+      <div className={clsx('layout', styles.layout)}>
+        <div className={styles.cards}>
+          {data.map((item) => (
+            <Card key={item.title} {...item} />
+          ))}
         </div>
       </div>
     </section>
@@ -89,3 +24,44 @@ const cards = () => {
 };
 
 export default cards;
+
+const Card = ({ title, description, btnText }) => {
+  return (
+    <div className={styles.card} key={title}>
+      <h2 className='h1'> {title} </h2>
+      <hr className='styled-hr styled-hr--dark'></hr>
+      <p>{description}</p>
+      <ArrowLink
+        as={ButtonLink}
+        className={styles.btn}
+        href='https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3'
+      >
+        {btnText}
+      </ArrowLink>
+    </div>
+  );
+};
+
+const data = [
+  {
+    title: 'Education',
+    description:
+      'We provide FREE hands-on training in various fields of computer science and have an inclusive community focussing on a learn by doing approach.',
+    link: 'https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3',
+    btnText: 'View Courses',
+  },
+  {
+    title: 'Events',
+    description:
+      'We provide FREE hands-on training in various fields of computer science and have an inclusive community focussing on a learn by doing approach.',
+    link: '/#events',
+    btnText: 'Check Events',
+  },
+  {
+    title: 'Mentorship',
+    description:
+      'We provide FREE hands-on training in various fields of computer science and have an inclusive community focussing on a learn by doing approach.',
+    link: '/#mentorship',
+    btnText: 'View Roadmaps',
+  },
+];

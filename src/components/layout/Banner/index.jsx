@@ -16,7 +16,11 @@ const Banner = () => {
           <span className='highlight highlight--dark'>win exciting prizes</span>
           !
         </p>
-        <Button as={UnstyledLink} href='https://blog.wemakedevs.org/'>
+        <Button
+          className={styles.btn}
+          as={UnstyledLink}
+          href='https://blog.wemakedevs.org/'
+        >
           Events
         </Button>
       </div>

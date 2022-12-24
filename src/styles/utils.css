@@ -73,3 +73,24 @@
   border: none;
   width: 8rem;
 }
+.styled-hr.styled-hr--light {
+  height: 4px;
+  background: rgb(var(--content), 0.3);
+}
+.styled-hr.styled-hr--dark {
+  height: 4px;
+  background: rgb(var(--base-100), 0.5);
+}
+
+/* Background gradient */
+.gradient {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--clr-base-100),
+    hsla(240, 89%, 51%, 0.424)
+  );
+}
+
+.static-bg {
+  background: var(--clr-base-100);
+}
