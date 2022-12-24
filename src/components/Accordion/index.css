@@ -1,0 +1,30 @@
+.accordion-item .question {
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  transition: 0.5s;
+  color: white;
+  background-color: rgb(66 82 102/1);
+  color: rgb(251 250 255/1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-item .answer {
+  padding: 24px 12px 24px 12px;
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  background-color: rgb(41 51 64/1);
+  color: rgb(251 250 255/1);
+}
+
+.accordion-item .icon {
+  font-size: 12px;
+}
