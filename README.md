@@ -1,4 +1,4 @@
-# Wemakedevs
+# WeMakeDevs
 
 This is a community which provides free hands-on training in various fields of computer science and have an inclusive community focusing on a learn by doing approach.
 
