@@ -72,6 +72,27 @@
   background: rgb(var(--base-200), 0.3);
 }
 
+/* Button Light Outline */
+.lightOutline {
+  color: var(--clr-content);
+  border: 2px solid var(--clr-content);
+}
+.lightOutline:hover {
+  background-color: rgb(var(--content), 0.2);
+}
+.lightOutline:active,
+.lightOutline:disabled {
+  background-color: rgb(var(--content), 0.3);
+}
+.lightOutline.isDarkBg:hover,
+.lightOutline.isDarkBg:focus-visible {
+  background: var(--clr-base-200);
+}
+.lightOutline.isDarkBg:active,
+.lightOutline.isDarkBg:disabled {
+  background: rgb(var(--base-200), 0.3);
+}
+
 .button .loading {
   position: absolute;
   top: 50%;

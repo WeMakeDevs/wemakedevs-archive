@@ -1,11 +1,27 @@
 import clsx from 'clsx';
+import * as React from 'react';
+import { BsClipboard } from 'react-icons/bs';
 
 import styles from './index.module.css';
 
-import ArrowLink from '../../links/ArrowLink';
+import Button from '../../Button';
 import ButtonLink from '../../links/ButtonLink';
-
 const Partner = ({ background = 'static' }) => {
+  const [copied, setCopied] = React.useState(false);
+  const copyEmail = () => {
+    navigator.clipboard.writeText('kunal@wemakedevs.org');
+    setCopied(true);
+  };
+  React.useEffect(() => {
+    const timeout = setTimeout(() => {
+      if (copied) setCopied(false);
+    }, 1000);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [copied]);
+
   return (
     <section
       className={clsx(
@@ -22,17 +38,19 @@ const Partner = ({ background = 'static' }) => {
         </p>
         <div className={styles.btns}>
           <ButtonLink
-            as={ArrowLink}
-            href='https://github.com/wemakedevs/events'
+            variant='light-outline'
+            href='mailto:kunal@wemakedevs.org'
+            className='h3'
+            isDarkBg={true}
           >
-            Contact us
+            kunal@wemakedevs.org
           </ButtonLink>
-          <ButtonLink
-            as={ArrowLink}
-            href='https://github.com/wemakedevs/events'
+          <Button
+            className={clsx('h3', styles.copy, copied && styles.copied)}
+            onClick={copyEmail}
           >
-            See Partner Testimonials
-          </ButtonLink>
+            <BsClipboard />
+          </Button>
         </div>
       </div>
     </section>

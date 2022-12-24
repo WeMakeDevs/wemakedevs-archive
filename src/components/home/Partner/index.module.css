@@ -14,14 +14,35 @@
 }
 .btns {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 1rem;
 }
-.partner-button a {
-  white-space: nowrap;
+.btns .copy {
+  position: relative;
+  padding: 0 1.2rem;
 }
+.copy::after {
+  content: 'Copied';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: scale(0.95) translate(-50%, calc(50% + 5px));
+  background-color: var(--clr-content);
+  color: var(--clr-base-100);
+  border-radius: 0.375rem;
+  padding-inline: 0.5rem;
+  pointer-events: none;
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+  transform-origin: center;
+}
+
+.copy.copied::after {
+  opacity: 1;
+  transform: scale(1) translate(-50%, calc(100% + 5px));
+}
+
 @media screen and (max-width: 500px) {
   .partner {
     min-width: 200px;
