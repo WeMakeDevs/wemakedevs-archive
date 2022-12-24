@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import * as React from 'react';
-import { BiClipboard } from 'react-icons/bi';
+import { BsClipboard } from 'react-icons/bs';
 
 import styles from './index.module.css';
 
@@ -49,7 +49,7 @@ const Partner = ({ background = 'static' }) => {
             className={clsx('h3', styles.copy, copied && styles.copied)}
             onClick={copyEmail}
           >
-            <BiClipboard />
+            <BsClipboard />
           </Button>
         </div>
       </div>
