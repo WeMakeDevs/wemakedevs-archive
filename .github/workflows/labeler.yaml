@@ -1,29 +1,17 @@
 name: "Pull Request Labeler"
 on:
-  pull_request:
+  pull_request_target:
     types:
       - opened
 
 jobs:
   label:
     permissions:
-      actions: none
-      checks: none
-      contents: none
-      deployments: none
-      id-token: none
-      issues: none
-      discussions: none
-      packages: none
-      pages: none
-      pull-requests: write
-      repository-projects: none
-      security-events: none
-      statuses: none
-      
+      contents: read
+      pull-requests: write 
     runs-on: ubuntu-latest
     steps:
-    - uses: WeMakeDevs/labeler-action@v1.3.0
+    - uses: WeMakeDevs/labeler-action@v2.0.0
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         configuration-path: .github/labeler.yaml
