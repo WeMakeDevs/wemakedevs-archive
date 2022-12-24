@@ -26,6 +26,7 @@ const ButtonLink = ({
         styles.button,
         variant === 'primary' && styles.primary,
         variant === 'outline' && styles.outline,
+        variant === 'light-outline' && styles.lightOutline,
         isDarkBg && styles.isDarkBg,
         isLoading && styles.isLoading,
         className
