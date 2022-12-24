@@ -1,77 +1,42 @@
-/* About cards */
-.main-about {
+.layout {
+  padding-block: 6rem;
+  margin-inline: auto;
+}
+.cards {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 60px 80px 60px 80px;
-  /* max-width: 1200px; */
+  gap: 1rem;
+  flex-wrap: wrap;
 }
-.main-about h1 {
-  color: black;
-  text-align: center;
-  font-size: 2em;
-}
-.main-about p {
-  color: black;
-  margin-top: 2rem;
-  font-size: 1.2em;
-  font-size: 400;
-}
-.about-card-1,
-.about-card-2,
-.about-card-3 {
-  background-color: var(--clr-white);
-  padding: 30px 10px 30px 10px;
-  border-radius: 20px;
-  border: 2px solid black;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-.about-link button {
-  color: #ffffff;
-  text-align: center;
-  font-size: 1.5em;
-  margin-top: 3rem;
-  background-color: var(--clr-blue);
-  color: white;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 145%;
-  padding: 12px 24px;
-  border-radius: 30px;
-  border: none;
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.link-primary-2 img {
-  height: 12px;
-  width: 16px;
-  margin-left: 0.5rem;
-}
-.about-link {
+.card {
+  padding: 1rem /* 16px */;
+  padding-block: 2rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(var(--content), 0),
+    rgb(var(--content), 0.1)
+  );
+  border-radius: 0.5rem;
+  border: 1px solid rgb(var(--content), 0.2);
   text-align: center;
 }
-.about-card-border {
-  background-color: var(--clr-blue);
-  height: 3px;
-  border: none;
-  width: 85px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-}
-@media screen and (max-width: 900px) {
-  .main-about {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 60px 80px 60px 80px;
+
+@media (min-width: 1024px) {
+  .card {
+    margin-bottom: 0px;
+    flex: 1;
+    padding: 2rem;
   }
+}
+@media (min-width: 768px) {
+  .card {
+    width: 49%;
+  }
+}
+.card p {
+  margin-block: 1rem;
+}
+.section .btn {
+  border-radius: 10rem;
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
 }

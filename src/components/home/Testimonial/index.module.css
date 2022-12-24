@@ -20,6 +20,7 @@
   );
   border-radius: 0.5rem;
   border: 1px solid rgb(var(--content), 0.2);
+  text-align: center;
 }
 @media (min-width: 1024px) {
   .card {
@@ -32,16 +33,10 @@
     width: 49%;
   }
 }
-.cardSection {
-  text-align: center;
-  height: 100%;
-}
 
 .hr {
   margin-inline: auto;
   margin-block: 1rem;
-  height: 4px;
-  background: rgb(var(--content), 0.3);
 }
 
 .img {
