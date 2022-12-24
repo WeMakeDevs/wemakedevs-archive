@@ -9,6 +9,7 @@ import Mentorship from '../components/home/Mentorship';
 import Partner from '../components/home/Partner';
 import Stats from '../components/home/Stats';
 import Testimonials from '../components/home/Testimonial';
+import Work from '../components/home/Work';
 import Banner from '../components/layout/Banner';
 import Footer from '../components/layout/Footer';
 import Navbar from '../components/layout/Header';
@@ -21,6 +22,7 @@ const HomePage = () => {
       <Cards />
       <Stats />
       <Courses background='gradient' />
+      <Work />
       <Testimonials />
       <Events background='gradient' />
       <Mentorship />
