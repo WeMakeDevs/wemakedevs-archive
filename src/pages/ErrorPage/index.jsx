@@ -2,6 +2,8 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 import styles from './index.module.css';
 
+import Button from '../../components/Button';
+
 const ErrorPage = () => {
   const currLocation = useLocation();
   const navigate = useNavigate();
@@ -13,7 +15,7 @@ const ErrorPage = () => {
   const content = (
     <>
       <h1 className={styles['highHeading']}>404 !</h1>
-      <h1>page not found</h1>
+      <h2>page not found</h2>
       <p>
         Unfortunately, the page you are looking for does not exist. Please
         navigate to Home. Thank You
@@ -25,9 +27,9 @@ const ErrorPage = () => {
     <section className={styles['errorPageSection']}>
       <div className={styles['container']}>
         {content}
-        <button type='button' onClick={backToHome} className={styles['btn']}>
+        <Button type='button' onClick={backToHome} className={styles['btn']}>
           Back to Home
-        </button>
+        </Button>
       </div>
     </section>
   );
