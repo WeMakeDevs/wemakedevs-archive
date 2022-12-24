@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e78af82.css",
-    "main.js": "/static/js/main.a995b0aa.js",
+    "main.css": "/static/css/main.177eff4a.css",
+    "main.js": "/static/js/main.1bc7d9f4.js",
     "static/media/aboutus.png": "/static/media/aboutus.02f2915b9ae736e9ef8a.png",
     "static/media/events.png": "/static/media/events.dd774e9084b339ee0973.png",
     "static/media/courses.png": "/static/media/courses.f2c1856875197487b345.png",
     "static/media/ekjottest2.jpg": "/static/media/ekjottest2.6c4241c6a4e1ee7b463d.jpg",
     "static/media/sajjantest3.jpg": "/static/media/sajjantest3.319bdebf69df904b9dfc.jpg",
     "static/media/rahultest1.jpg": "/static/media/rahultest1.d10edae74b5189c39a1a.jpg",
+    "static/media/amazon.svg": "/static/media/amazon.b3e597f8e825c42f9bf57f5c1a2dd4e8.svg",
+    "static/media/microsoft.svg": "/static/media/microsoft.c0e9a2da37c9b60b2e114e10f191373b.svg",
+    "static/media/adobe.svg": "/static/media/adobe.7aabbe72ed947197364b0a61e0c93117.svg",
+    "static/media/google.svg": "/static/media/google.f3ca4546b32b606c6ea54e4b01471a13.svg",
     "index.html": "/index.html",
-    "main.6e78af82.css.map": "/static/css/main.6e78af82.css.map",
-    "main.a995b0aa.js.map": "/static/js/main.a995b0aa.js.map"
+    "main.177eff4a.css.map": "/static/css/main.177eff4a.css.map",
+    "main.1bc7d9f4.js.map": "/static/js/main.1bc7d9f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e78af82.css",
-    "static/js/main.a995b0aa.js"
+    "static/css/main.177eff4a.css",
+    "static/js/main.1bc7d9f4.js"
   ]
 }
