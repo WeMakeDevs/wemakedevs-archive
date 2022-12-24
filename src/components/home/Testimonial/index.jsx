@@ -29,7 +29,7 @@ const TestimonialCard = ({ src, description, from, designation }) => {
       <img alt='testimonial' className={styles.img} src={src} />
       <p className={styles.description}>{description}</p>
       <hr className={clsx('styled-hr styled-hr--light', styles.hr)} />
-      <h2 className='{styles.name}'>{from}</h2>
+      <h2 className={styles.name}>{from}</h2>
       <p className={styles.designation}>{designation}</p>
     </div>
   );
