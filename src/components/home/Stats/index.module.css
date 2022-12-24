@@ -1,0 +1,86 @@
+.section {
+  color: var(--clr-content);
+}
+
+.layout {
+  padding-inline: 1.25rem;
+  padding-block: 6rem;
+  margin-inline: auto;
+}
+
+.headingLine {
+  margin-block: 1.5rem;
+}
+
+.statsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 8rem;
+}
+
+.statsContainer .card {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.statsContainer .icon {
+  font-size: 3rem;
+  border: 2px solid var(--clr-primary);
+  background-color: var(--clr-primary);
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statsContainer .number {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.statsContainer .title {
+  border-radius: 1rem;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .statsContainer {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .statsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
+  }
+
+  .statsContainer .card {
+    margin-top: 3rem;
+  }
+
+  .statsContainer .number {
+    font-size: 2rem;
+  }
+
+  .statsContainer .title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .statsContainer {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 3rem;
+  }
+
+  .statsContainer .card {
+    gap: 1rem;
+  }
+}
