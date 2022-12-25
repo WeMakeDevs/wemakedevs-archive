@@ -19,21 +19,6 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={clsx('layout', styles.layout)}>
-        {/* <div className={styles.details}>
-          <div className={styles.join}>
-            <h3>Join our Community</h3>
-            <UnstyledLink href='https://t.me/WeMakeDevs'>
-              <FaTelegram /> Telegram
-            </UnstyledLink>
-            <UnstyledLink href='https://discord.gg/wemakedevs'>
-              <FaDiscord /> Discord
-            </UnstyledLink>
-          </div>
-          <h3>
-            Inspire, Educate,
-            <br /> Empower
-          </h3>
-        </div> */}
         <div className={styles.linkGroups}>
           <div className={styles.linkGroup}>
             <p className={styles.linksHeading}>Organization</p>
