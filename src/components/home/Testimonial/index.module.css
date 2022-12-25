@@ -2,14 +2,17 @@
   padding-block: 6rem;
   margin-inline: auto;
 }
+
 .headingLine {
   margin-block: 1.5rem;
 }
+
 .cardWrapper {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
 }
+
 .card {
   padding: 1rem /* 16px */;
   padding-block: 2rem;

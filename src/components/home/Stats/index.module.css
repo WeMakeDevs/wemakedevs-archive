@@ -3,7 +3,6 @@
 }
 
 .layout {
-  padding-inline: 1.25rem;
   padding-block: 6rem;
   margin-inline: auto;
 }
@@ -16,7 +15,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  margin-top: 8rem;
 }
 
 .statsContainer .card {
@@ -26,6 +24,17 @@
   align-items: center;
   flex-direction: column;
   gap: 1.5rem;
+  border: 1px solid rebeccapurple;
+  padding: 1rem /* 16px */;
+  padding-block: 2rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(var(--content), 0),
+    rgb(var(--content), 0.1)
+  );
+  border-radius: 0.5rem;
+  border: 1px solid rgb(var(--content), 0.2);
+  text-align: center;
 }
 
 .statsContainer .icon {
