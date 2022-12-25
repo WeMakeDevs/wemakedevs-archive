@@ -7,7 +7,10 @@ import rahultest1 from './../../../assets/home/rahultest1.jpg';
 import sajjantest3 from './../../../assets/home/sajjantest3.jpg';
 const Testimonials = ({ background = 'static' }) => {
   return (
-    <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
+    <section
+      id='testimonials'
+      className={background === 'gradient' ? 'gradient' : 'static-bg'}
+    >
       <div className={clsx('layout', styles.layout)}>
         <h2 className='h1'>Testimonials</h2>
         <hr className={clsx('styled-hr', styles.headingLine)} />
