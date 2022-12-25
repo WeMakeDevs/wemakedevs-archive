@@ -39,7 +39,7 @@ const data = [
   {
     src: rahultest1,
     description:
-      "The way this guy is teaching me Java is just Mind Blowing and Brilliant.I've never thought that these topics would be that much easier. Kudos to @kunalstwt #DSAwithKunal",
+      "The way this guy is teaching me Java is just Mind Blowing and Brilliant. I've never thought that these topics would be that much easier. Kudos to @kunalstwt #DSAwithKunal",
     from: 'RAHUL KUMAR',
     designation: '@rahulstwt_',
   },
