@@ -6,7 +6,6 @@
   text-align: left;
   border: none;
   outline: none;
-  margin-top: 2rem;
   transition: 0.5s;
   color: white;
   background-color: rgb(66 82 102/1);
@@ -15,7 +14,13 @@
   display: flex;
   justify-content: space-between;
 }
+.accordion-item {
+  margin-top: 1.5rem;
+}
 
+.accordion-item:first-child {
+  margin-top: 0rem;
+}
 .accordion-item .answer {
   padding: 24px 12px 24px 12px;
   background-color: white;
