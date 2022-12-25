@@ -8,6 +8,7 @@ import Accordion from '../../Accordion/Accordion';
 const FAQ = ({ background = 'static' }) => {
   return (
     <section
+      id='faq'
       className={clsx(
         styles.section,
         background === 'gradient' ? 'gradient' : 'static-bg'
