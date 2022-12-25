@@ -53,7 +53,7 @@ const data = [
   {
     src: sajjantest3,
     description:
-      'Done with amazing playlist of Object Oriented Programming by @kunalstwt bhaiya. Every conecpt was explained very well and got to know so many new things. Thanks kunal bhaiya for such an amazing playlist. #DSAwithKunal',
+      'Done with amazing playlist of Object Oriented Programming by @kunalstwt bhaiya. Every concept was explained very well and got to know so many new things. Thanks kunal bhaiya for such an amazing playlist. #DSAwithKunal',
     from: 'SAJJAN YADAV',
     designation: '@SajjanStr',
   },
