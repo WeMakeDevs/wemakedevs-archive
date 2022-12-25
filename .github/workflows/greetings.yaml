@@ -1,6 +1,10 @@
 name: Greetings
 
-on: [pull_request, issues]
+on:
+  pull_request_target:
+    types: [opened]
+  issues:
+    types: [opened]
 
 permissions:
   contents: read
