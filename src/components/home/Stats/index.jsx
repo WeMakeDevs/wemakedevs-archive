@@ -19,7 +19,7 @@ const Stats = ({ background = 'static' }) => {
             <div className={styles.icon}>
               <FaUsers />
             </div>
-            <div className={styles.number}>55,000+</div>
+            <div className={styles.number}>56,000+</div>
             <div className={styles.title}>Members</div>
           </div>
           <div className={styles.card}>
