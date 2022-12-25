@@ -55,6 +55,7 @@
   height: 100%;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 1rem;
 }
 
 @media (min-width: 768px) {
