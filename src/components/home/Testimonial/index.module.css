@@ -31,7 +31,7 @@
     flex: 1;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 861px) {
   .card {
     width: 49%;
   }
