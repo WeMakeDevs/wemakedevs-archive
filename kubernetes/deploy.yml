@@ -15,7 +15,7 @@ spec:
         app: wmd
     spec:
       containers:
-      - name: wmd
+      - name: wmd-ctr
         image: kaiwalyakoparkar/wemakedevs:1.0
         ports:
         - containerPort: 3000
