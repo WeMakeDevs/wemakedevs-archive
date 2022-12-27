@@ -23,7 +23,7 @@ const index = () => {
           <img className={styles.workMicro} src={Microsoft} alt='microsoft' />
           <img className={styles.workAdobe} src={Adobe} alt='adobe' />
         </div>
-        <div className={styles.workImg}>
+        <div className={styles.workImg2}>
           <img src={Samsung} alt='samsung' />
           <img className={styles.virtusa} src={Virtusa} alt='virtusa' />
           <img className={styles.Cisco} src={Cisco} alt='Cisco' />
