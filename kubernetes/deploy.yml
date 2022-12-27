@@ -1,14 +1,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: commclassroom-deploy
+  name: wmd-deploy
   namespace: default
 spec:
-  ## Set to 5 for start of lab
+  ## Set to 5 for start
   replicas: 5
   selector:
     matchLabels:
-      env: commclassroom
+      env: wmd
   progressDeadlineSeconds: 300
   minReadySeconds: 10
   strategy:
@@ -19,10 +19,10 @@ spec:
   template:
     metadata:
       labels:
-        env: commclassroom
+        env: wmd
     spec:
       containers:
-        - name: commclassroom-ctr
-          image: kaiwalyakoparkar/commclassroom:1.0
+        - name: wmd-ctr
+          image: kaiwalyakoparkar/wemakedevs:1.0
           ports:
             - containerPort: 3000
