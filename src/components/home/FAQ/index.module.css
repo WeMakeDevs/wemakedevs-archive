@@ -20,6 +20,5 @@
 @media screen and (max-width: 1050px) {
   .faqContainer {
     grid-template-columns: 1fr;
-    gap: 0rem;
   }
 }
