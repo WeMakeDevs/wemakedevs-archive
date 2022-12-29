@@ -46,7 +46,7 @@ Before starting out, you'll need to install the following on your computer.
 1. Fork the repo
 2. Clone the repository `git clone`
 3. Run `npm i` to install all dependencies
-4. Run `npm run dev` to start the application
+4. Run `npm start` to start the application
 5. Visit `https://localhost:3000` to view the application
 
 ## Thanks to all the contributors ❤️
