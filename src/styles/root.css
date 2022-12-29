@@ -34,7 +34,7 @@
 }
 body {
   font-weight: 500;
-  font-family: 'General Sans';
+  font-family: 'General Sans', sans-serif;
   overflow-x: hidden;
   letter-spacing: 1px;
   background: #141414;
