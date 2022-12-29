@@ -6,12 +6,11 @@
 .workImg {
   display: flex;
   gap: 60px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.workImg2 {
-  max-width: 70%;
-  margin: auto;
-  display: flex;
-  gap: 60px;
+.workImg img {
+  max-width: 250px;
 }
 .workAmazon {
   margin-top: 1rem;
@@ -33,14 +32,12 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .workImg,
-  .workImg2 {
+  .workImg {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
-  .workImg img,
-  .workImg2 img {
+  .workImg img {
     margin-left: auto;
     margin-right: auto;
     height: 210px;

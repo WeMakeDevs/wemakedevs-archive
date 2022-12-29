@@ -8,6 +8,7 @@ import Google from '../../../assets/home/google.svg';
 import Microsoft from '../../../assets/home/microsoft.svg';
 
 import Cisco from '!file-loader!../../../assets/home/Cisco.svg';
+import Razorpay from '!file-loader!../../../assets/home/razorpay.svg';
 import Samsung from '!file-loader!../../../assets/home/Samsung.svg';
 import Virtusa from '!file-loader!../../../assets/home/virtusa.svg';
 
@@ -22,11 +23,10 @@ const index = () => {
           <img className={styles.workAmazon} src={Amazon} alt='amazon' />
           <img className={styles.workMicro} src={Microsoft} alt='microsoft' />
           <img className={styles.workAdobe} src={Adobe} alt='adobe' />
-        </div>
-        <div className={styles.workImg2}>
-          <img src={Samsung} alt='samsung' />
+          <img className={styles.Samsung} src={Samsung} alt='samsung' />
           <img className={styles.virtusa} src={Virtusa} alt='virtusa' />
           <img className={styles.Cisco} src={Cisco} alt='Cisco' />
+          <img className={styles.Razorpay} src={Razorpay} alt='Razorpay' />
         </div>
       </div>
     </div>
