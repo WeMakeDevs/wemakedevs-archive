@@ -11,7 +11,9 @@ const index = () => {
   return (
     <div className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
-        <h2 className='h1'>OUR STUDENTS WORK AT</h2>
+        <h2 className='h1' style={{ marginTop: '30px' }}>
+          OUR STUDENTS WORK AT
+        </h2>
         <hr className={clsx('styled-hr', styles.headingWorkLine)} />
         <div className={styles.workImg}>
           <img className={styles.workGoogle} src={Google} alt='google' />
