@@ -1,5 +1,6 @@
 import About from '../components/home/about';
 import Cards from '../components/home/about/cards';
+import Blogs from '../components/home/Blogs';
 import Courses from '../components/home/courses/index.jsx';
 import Events from '../components/home/events';
 import FAQ from '../components/home/FAQ';
@@ -25,9 +26,10 @@ const HomePage = () => {
       <Work />
       <Testimonials />
       <Events background='gradient' />
+      <Blogs />
       <Mentorship />
-      <FAQ />
-      <Partner background='gradient' />
+      <FAQ background='gradient' />
+      <Partner />
       <JoinUs />
       <Footer />
       <Banner />

@@ -25,14 +25,6 @@
   margin-left: 3px;
 }
 
-/* For mobile screen Icon will be not used becuse on laptop when
- we hover Cursor changes to te new tab icon */
-@media (min-width: 768px) {
-  .newtab {
-    display: none;
-  }
-}
-
 /* Class to highlight the text */
 .highlight {
   font-weight: 600;
