@@ -6,12 +6,20 @@
 .workImg {
   display: flex;
   gap: 60px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.workImg img {
+  max-width: 250px;
 }
 .workAmazon {
   margin-top: 1rem;
 }
 .headingWorkLine {
   margin-block: 2rem;
+}
+.layout {
+  padding-block: 6rem;
 }
 @media screen and (max-width: 1100px) {
   .workSection {
