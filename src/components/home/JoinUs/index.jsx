@@ -45,19 +45,19 @@ const data = [
   {
     title: 'discord',
     href: 'https://discord.gg/wemakedevs',
-    description: 'Join the community of 56+ folks',
+    description: 'Join the community of 56k+ folks',
     icon: <FaDiscord color='white' size='130' />,
   },
   {
     title: 'telegram',
     href: 'https://t.me/WeMakeDevs',
-    description: 'Join the community of 56+ folks',
+    description: 'Join the community of 56k+ folks',
     icon: <FaTelegram color='white' size='130' />,
   },
   {
     title: 'newsletter',
     href: 'https://blog.wemakedevs.org/',
-    description: 'Join the community of 56+ folks',
+    description: 'Join the community of 56k+ folks',
     icon: <FaScroll color='white' size='130' />,
   },
 ];
