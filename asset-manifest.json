@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.67bc50fd.css",
-    "main.js": "/static/js/main.e19d8b9e.js",
+    "main.js": "/static/js/main.abf530ca.js",
     "static/media/blog3.png": "/static/media/blog3.ed69d7b3d0ad0ff6a06c.png",
     "static/media/blog2.png": "/static/media/blog2.44a92f2411dea497a5ea.png",
     "static/media/blog1.png": "/static/media/blog1.63727ddad30b1a533915.png",
@@ -21,10 +21,10 @@
     "virtusa.svg": "/3e74e9eb82b19bf392d374863c01fa6b.svg",
     "index.html": "/index.html",
     "main.67bc50fd.css.map": "/static/css/main.67bc50fd.css.map",
-    "main.e19d8b9e.js.map": "/static/js/main.e19d8b9e.js.map"
+    "main.abf530ca.js.map": "/static/js/main.abf530ca.js.map"
   },
   "entrypoints": [
     "static/css/main.67bc50fd.css",
-    "static/js/main.e19d8b9e.js"
+    "static/js/main.abf530ca.js"
   ]
 }
