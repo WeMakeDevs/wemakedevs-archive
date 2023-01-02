@@ -110,26 +110,27 @@
   aspect-ratio: 1/1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   .menuBtn {
     display: none !important;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   .NavBackDrop {
     display: none;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
+  /* 768  removed this for covering iPad Mini */
   .navMobile {
     position: absolute;
     top: 0;
     right: 1rem /* 16px */;
     margin-top: 5rem /* 80px */;
     display: flex;
-    width: max-content;
+    width: 91%;
     transform: translateY(-100%);
     flex-direction: column;
     align-items: end;
