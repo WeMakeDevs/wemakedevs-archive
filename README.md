@@ -1,12 +1,12 @@
 # WeMakeDevs
 
-This is a community which provides free hands-on training in various fields of computer science and have an inclusive community focusing on a learn by doing approach.
+Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
 
 ## 👨‍💻 Demo
 
 Visit: https://wemakedevs.org/
 
-[![image](https://user-images.githubusercontent.com/104669486/209308275-771c8c22-9038-416e-94ad-162fd073fc2b.png)](https://wemakedevs.org/)
+[![image](https://user-images.githubusercontent.com/76242769/209465951-79f417b3-aa97-414d-a07e-018e56909413.png)](https://wemakedevs.org/)
 
 ## What is Wemakedevs?
 
@@ -30,9 +30,11 @@ Events
 Mentorship
 
 ## 🚀 Getting Started
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### 🧾 Prerequisites
+
 Before starting out, you'll need to install the following on your computer.
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/download/)
@@ -50,4 +52,5 @@ Before starting out, you'll need to install the following on your computer.
 5. Visit `https://localhost:3000` to view the application
 
 ## Thanks to all the contributors ❤️
+
 <img src="https://contrib.rocks/image?repo=WeMakeDevs/wemakedevs"/>
