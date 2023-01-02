@@ -17,9 +17,9 @@
   height: 2rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .header svg {
-    height: 3rem;
+    height: 2.5rem;
   }
 }
 
@@ -110,29 +110,30 @@
   aspect-ratio: 1/1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   .menuBtn {
     display: none !important;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   .NavBackDrop {
     display: none;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .navMobile {
     position: absolute;
     top: 0;
     right: 1rem /* 16px */;
+    left: 1rem;
     margin-top: 5rem /* 80px */;
     display: flex;
-    width: max-content;
+    width: auto;
     transform: translateY(-100%);
     flex-direction: column;
-    align-items: end;
+    align-items: center;
     justify-content: center;
     gap: 1.25rem /* 20px */;
     border-radius: 0.5rem /* 8px */;
