@@ -63,7 +63,10 @@ const NewsLetter = ({ background = 'static' }) => {
           ) : null}
         </p>
       </div>
-      <iframe src='http://localhost:3000/' className={styles.frame}></iframe>
+      <iframe
+        src='https://newsletter-teal.vercel.app/'
+        className={styles.frame}
+      ></iframe>
     </section>
   );
 };
