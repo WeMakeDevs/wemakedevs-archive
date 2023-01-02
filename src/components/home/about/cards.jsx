@@ -25,17 +25,13 @@ const cards = ({ background = 'static' }) => {
 
 export default cards;
 
-const Card = ({ title, description, btnText }) => {
+const Card = ({ title, link, description, btnText }) => {
   return (
     <div className={styles.card} key={title}>
       <h2 className='h1'> {title} </h2>
       <hr className='styled-hr styled-hr--dark'></hr>
       <p>{description}</p>
-      <ArrowLink
-        as={ButtonLink}
-        className={styles.btn}
-        href='https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3'
-      >
+      <ArrowLink as={ButtonLink} className={styles.btn} href={link}>
         {btnText}
       </ArrowLink>
     </div>
@@ -54,14 +50,14 @@ const data = [
     title: 'Events',
     description:
       "Our events include intensive bootcamps, technical workshops, and networking events. Whether you're just starting out or looking to take your skills to the next level, we have something for everyone. Check out our current events and sign up now to reserve your spot. We look forward to seeing you at an event soon!",
-    link: '/#events',
+    link: 'https://github.com/WeMakeDevs/events',
     btnText: 'Check Events',
   },
   {
     title: 'Mentorship',
     description:
       'Welcome to the mentorship program at WeMakeDevs! Are you an aspiring web developer looking for guidance and support on your journey? Our mentorship program is here to help. Our experienced mentors will work with you one-on-one and provide guidance, support, and advice to help you achieve your goals.',
-    link: '/#mentorship',
+    link: 'https://github.com/WeMakeDevs/roadmaps',
     btnText: 'View Roadmaps',
   },
 ];
