@@ -80,7 +80,7 @@
 }
 
 .primary .loading {
-  color: var(--clr-white);
+  color: var(--clr-content);
 }
 .button.outline .loading {
   color: var(--clr-primary);
