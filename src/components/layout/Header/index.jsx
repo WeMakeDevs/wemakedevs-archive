@@ -13,6 +13,10 @@ const Navbar = () => {
   const [direction, scrollTop] = useWindowScrolling({
     active: true,
   });
+
+  const ReRender = () => {
+    React.useEffect(() => {}, [scrollTop]);
+  };
   return (
     <>
       <header
@@ -25,7 +29,7 @@ const Navbar = () => {
       >
         <div className={clsx('layout', styles.headerContainer)}>
           <Logo />
-          <NavigationLinks style={styles.nav} />
+          <NavigationLinks style={styles.nav} reRenderFunc={ReRender} />
           <button className={styles.menuBtn} onClick={() => setOpen((p) => !p)}>
             <span className='sr-only'>Menu</span>
             <svg
@@ -66,12 +70,14 @@ const Navbar = () => {
 
 export default Navbar;
 
-const NavigationLinks = ({ style, open, setOpen }) => {
+const NavigationLinks = ({ style, open, setOpen, reRenderFunc }) => {
   return (
     <nav className={clsx(style, open && styles.open)}>
       {links.map((link) => (
         <HeaderLink
-          onClick={() => setOpen(false)}
+          onClick={() => {
+            setOpen(false), reRenderFunc();
+          }}
           href={link.href}
           key={link.name}
         >
