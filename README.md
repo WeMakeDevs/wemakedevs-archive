@@ -30,9 +30,11 @@ Events
 Mentorship
 
 ## 🚀 Getting Started
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### 🧾 Prerequisites
+
 Before starting out, you'll need to install the following on your computer.
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/download/)
@@ -50,4 +52,5 @@ Before starting out, you'll need to install the following on your computer.
 5. Visit `https://localhost:3000` to view the application
 
 ## Thanks to all the contributors ❤️
+
 <img src="https://contrib.rocks/image?repo=WeMakeDevs/wemakedevs"/>

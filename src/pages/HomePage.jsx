@@ -10,6 +10,7 @@ import {
   Mentorship,
   NewsLetter,
   Partner,
+  Podcast,
   Stats,
   Testimonials,
   Work,
@@ -29,6 +30,7 @@ const HomePage = () => {
       <Work />
       <Testimonials />
       <Mentorship />
+      <Podcast />
       <Events background='gradient' />
       <Blogs />
       <NewsLetter />
