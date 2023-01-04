@@ -7,6 +7,7 @@ import Header from '../components/home/header';
 import JoinUs from '../components/home/JoinUs';
 import Mentorship from '../components/home/Mentorship';
 import Partner from '../components/home/Partner';
+import Podcast from '../components/home/Podcast';
 import Stats from '../components/home/Stats';
 import Testimonials from '../components/home/Testimonial';
 import Work from '../components/home/Work';
@@ -26,6 +27,7 @@ const HomePage = () => {
       <Testimonials />
       <Events background='gradient' />
       <Mentorship />
+      <Podcast background='gradient' />
       <FAQ />
       <Partner background='gradient' />
       <JoinUs />
