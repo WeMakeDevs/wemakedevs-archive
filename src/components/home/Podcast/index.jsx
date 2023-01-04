@@ -17,17 +17,17 @@ const Podcast = ({ background = 'static' }) => {
       ]}
     >
       <ListItem>
-        The Open Source Cafe, Out of Syllabus, KlassTime with Karuna, AMA
-        session on Discord is an initiative to highlight the stories, journeys,
-        tips & tricks of some of the amazing community leaders and members.
+        The Open Source Cafe is an initiative to highlight the stories,
+        journeys, tips & tricks of some of the amazing community leaders and
+        members.
       </ListItem>
       <ListItem>
-        Learn from their experiences and get mentored on your journey by folks
-        from around the world.
+        Learn from the expereinces of industry expert, and get mentored from
+        folks around the globe.
       </ListItem>
       <ListItem>
-        Here is the best chance for you folks to learn from the experience of
-        the industry experts.
+        Grow your skills to the next level by gather tricks and tips from folks
+        who have made it.
       </ListItem>
     </ColumnSection>
   );

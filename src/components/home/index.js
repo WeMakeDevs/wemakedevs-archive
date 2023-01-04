@@ -1,0 +1,15 @@
+export { default as About } from './about';
+export { default as Cards } from './about/cards';
+export { default as Blogs } from './Blogs';
+export { default as Courses } from './courses/index.jsx';
+export { default as Events } from './events';
+export { default as FAQ } from './FAQ';
+export { default as Header } from './header';
+export { default as JoinUs } from './JoinUs';
+export { default as Mentorship } from './Mentorship';
+export { default as NewsLetter } from './NewsLetter';
+export { default as Partner } from './Partner';
+export { default as Podcast } from './Podcast';
+export { default as Stats } from './Stats';
+export { default as Testimonials } from './Testimonial';
+export { default as Work } from './Work';
