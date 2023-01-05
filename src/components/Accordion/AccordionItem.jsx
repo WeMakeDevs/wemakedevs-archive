@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import { FaMinus, FaPlus } from 'react-icons/fa';
 
 import './index.css';
@@ -9,6 +10,8 @@ const AccordionItem = ({
   activeItem,
   setActiveItem,
 }) => {
+  const contentEl = useRef();
+
   return (
     <div className='accordion-item'>
       <button
@@ -22,10 +25,17 @@ const AccordionItem = ({
         </div>
       </button>
       <div
+        ref={contentEl}
         className='answer'
-        style={{ display: index === activeItem ? 'block' : 'none' }}
+        style={
+          index === activeItem
+            ? {
+                maxHeight: contentEl.current.scrollHeight,
+              }
+            : { maxHeight: '0px' }
+        }
       >
-        {answer}
+        <div className='active'>{answer}</div>
       </div>
     </div>
   );

@@ -22,12 +22,16 @@
   margin-top: 0rem;
 }
 .accordion-item .answer {
-  padding: 24px 12px 24px 12px;
-  background-color: white;
   overflow: hidden;
+  max-height: 0;
   transition: max-height 0.5s ease-out;
   background-color: rgb(41 51 64/1);
   color: rgb(251 250 255/1);
+}
+
+.active {
+  max-height: max-content;
+  padding: 24px 12px 24px 12px;
 }
 
 .accordion-item .icon {
