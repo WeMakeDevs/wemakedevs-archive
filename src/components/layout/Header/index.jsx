@@ -5,6 +5,7 @@ import styles from './index.module.css';
 
 import Backdrop from '../Backdrop';
 import HeaderLink from '../../links/HeaderLink';
+import UnstyledLink from '../../links/UnstyledLink';
 import Logo from '../../../Icons/core/Logo';
 import { useWindowScrolling } from '../../../lib/useWindowScrolling';
 
@@ -24,8 +25,10 @@ const Navbar = () => {
         )}
       >
         <div className={clsx('layout', styles.headerContainer)}>
-          <Logo />
-          <NavigationLinks style={styles.nav} />
+          <UnstyledLink href='#'>
+            <Logo />
+          </UnstyledLink>
+          <NavigationLinks style={styles.nav} open={open} setOpen={setOpen} />
           <button className={styles.menuBtn} onClick={() => setOpen((p) => !p)}>
             <span className='sr-only'>Menu</span>
             <svg
@@ -84,27 +87,27 @@ const NavigationLinks = ({ style, open, setOpen }) => {
 
 export const links = [
   {
-    name: 'Home',
-    href: '/',
-  },
-  {
-    name: 'About',
-    href: '#about',
-  },
-  {
     name: 'Courses',
-    href: '/#Courses',
+    href: '#courses',
+  },
+  {
+    name: 'Mentorship',
+    href: '#mentorship',
   },
   {
     name: 'Events',
     href: '#events',
   },
   {
-    name: 'Mentorship',
-    href: '/#mentorship',
+    name: 'Podcast',
+    href: '#podcast',
+  },
+  {
+    name: 'Blogs',
+    href: '#blogs',
   },
   {
     name: 'Join',
-    href: '/#join',
+    href: '#newsletter',
   },
 ];
