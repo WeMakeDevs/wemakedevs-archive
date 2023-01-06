@@ -30,8 +30,8 @@ const HomePage = () => {
       <Work />
       <Testimonials />
       <Mentorship />
-      <Podcast />
       <Events background='gradient' />
+      <Podcast />
       <Blogs />
       <NewsLetter />
       <JoinUs />
