@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import { useEffect } from 'react';
 
 import styles from './index.module.css';
 
@@ -13,14 +12,6 @@ const Backdrop = ({
   show = false,
   onClose,
 }) => {
-  useEffect(() => {
-    if (show) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-  }, [show]);
-
   return (
     <div
       className={clsx(
