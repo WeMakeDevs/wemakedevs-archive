@@ -5,7 +5,7 @@ import BannerImage from '../../../assets/home/courses.png';
 const Courses = ({ background = 'static' }) => {
   return (
     <ColumnSection
-      id='Courses'
+      id='courses'
       imgSrc={BannerImage}
       title='Courses'
       direction='right'

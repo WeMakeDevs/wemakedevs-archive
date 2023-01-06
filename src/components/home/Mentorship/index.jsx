@@ -15,7 +15,6 @@ const Mentorship = ({ background = 'static' }) => {
         },
       ]}
       id='mentorship'
-      direction='right'
     >
       <ListItem>
         <span className='highlight higlight-white'>

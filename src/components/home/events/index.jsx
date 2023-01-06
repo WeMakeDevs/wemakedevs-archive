@@ -20,6 +20,7 @@ const Events = ({ background = 'static' }) => {
           name: 'Meetups',
         },
       ]}
+      direction='right'
     >
       <ListItem>
         <span className='highlight highlight--white'>
