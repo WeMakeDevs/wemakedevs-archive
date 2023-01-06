@@ -1,5 +1,5 @@
 export { default as About } from './about';
-export { default as Cards } from './about/Cards';
+export { default as Cards } from './about/cards';
 export { default as Blogs } from './Blogs';
 export { default as Courses } from './courses/index.jsx';
 export { default as Events } from './events';
@@ -12,4 +12,4 @@ export { default as Partner } from './Partner';
 export { default as Podcast } from './Podcast';
 export { default as Stats } from './Stats';
 export { default as Testimonials } from './Testimonial';
-export { default as Work } from './Work/Index';
+export { default as Work } from './Work/index';
