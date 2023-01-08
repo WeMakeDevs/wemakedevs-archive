@@ -1,7 +1,7 @@
 import {
   About,
   Blogs,
-  Cards,
+  //Cards,
   Courses,
   Events,
   FAQ,
@@ -25,7 +25,6 @@ const HomePage = () => {
       <Header />
       <About background='gradient' />
       <Stats />
-      <Cards />
       <Courses background='gradient' />
       <Work />
       <Testimonials />
