@@ -5,7 +5,7 @@ import BannerImage from '../../../assets/home/events.png';
 const Podcast = ({ background = 'static' }) => {
   return (
     <ColumnSection
-      id='events'
+      id='podcast'
       imgSrc={BannerImage}
       title='Podcasts'
       background={background}

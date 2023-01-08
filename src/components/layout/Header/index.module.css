@@ -112,12 +112,12 @@
 
 @media (min-width: 770px) {
   .menuBtn {
-    display: none !important;
+    display: none;
   }
 }
 
 @media (min-width: 770px) {
-  .NavBackDrop {
+  body .NavBackDrop {
     display: none;
   }
 }
