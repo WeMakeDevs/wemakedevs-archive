@@ -99,13 +99,17 @@ export const links = [
     href: '#events',
   },
   {
-    name: 'Podcast',
+    name: 'Content',
     href: '#podcast',
   },
-  {
-    name: 'Blogs',
-    href: '#blogs',
-  },
+  // {
+  //   name: 'Podcast',
+  //   href: '#podcast',
+  // },
+  // {
+  //   name: 'Blogs',
+  //   href: '#blogs',
+  // },
   {
     name: 'Join',
     href: '#newsletter',
