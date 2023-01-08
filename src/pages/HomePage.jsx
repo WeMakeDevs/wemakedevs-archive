@@ -1,7 +1,6 @@
 import {
   About,
-  Blogs,
-  //Cards,
+  Content,
   Courses,
   Events,
   FAQ,
@@ -10,7 +9,6 @@ import {
   Mentorship,
   NewsLetter,
   Partner,
-  Podcast,
   Stats,
   Testimonials,
   Work,
@@ -30,8 +28,7 @@ const HomePage = () => {
       <Testimonials />
       <Mentorship />
       <Events background='gradient' />
-      <Podcast />
-      <Blogs />
+      <Content />
       <NewsLetter />
       <JoinUs />
       <FAQ background='gradient' />
