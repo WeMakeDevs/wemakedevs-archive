@@ -24,9 +24,9 @@ const HomePage = () => {
       <Navbar />
       <Header />
       <About background='gradient' />
+      <Stats />
       <Cards />
       <Courses background='gradient' />
-      <Stats />
       <Work />
       <Testimonials />
       <Mentorship />

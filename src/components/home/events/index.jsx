@@ -10,14 +10,13 @@ const Events = ({ background = 'static' }) => {
       title='Events'
       background={background}
       buttonLinks={[
-        { href: 'https://blog.wemakedevs.org/', name: 'Blogging Challenges' },
+        {
+          href: 'https://github.com/WeMakeDevs/events',
+          name: 'Ongoing events',
+        },
         {
           href: 'https://devpost.com/hackathons?search=wemakedevs',
           name: 'Hackathons',
-        },
-        {
-          href: 'https://github.com/wemakedevs/events',
-          name: 'Meetups',
         },
       ]}
       direction='right'
