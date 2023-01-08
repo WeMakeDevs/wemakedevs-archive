@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { FaDiscord, FaScroll, FaTelegram } from 'react-icons/fa';
+import { FaDiscord, FaTelegram } from 'react-icons/fa';
 
 import styles from './index.module.css';
 
@@ -9,7 +9,7 @@ function JoinUs() {
   return (
     <section className={styles.section} id='joinus'>
       <div className={clsx(styles.layout, 'layout')}>
-        <h2 className='h1'>Join Us</h2>
+        <h2 className='h1'>Join us</h2>
         <hr className='styled-hr' />
         <div className={styles.wrapperCard}>
           {data.map((item) => (
@@ -26,7 +26,7 @@ export default JoinUs;
 const JoinUsCard = ({ title, href, description, icon }) => {
   return (
     <UnstyledLink href={href} className={styles.container}>
-      <div className={clsx(styles.card, styles[title])}>
+      <div className={styles.card}>
         <div className={clsx(styles.face, styles.face1)}>
           <div className={styles.icon}>{icon}</div>
         </div>
@@ -53,11 +53,5 @@ const data = [
     href: 'https://t.me/WeMakeDevs',
     description: 'Join the community of 56k+ folks',
     icon: <FaTelegram color='white' size='130' />,
-  },
-  {
-    title: 'newsletter',
-    href: 'https://blog.wemakedevs.org/',
-    description: 'Join the community of 56k+ folks',
-    icon: <FaScroll color='white' size='130' />,
   },
 ];

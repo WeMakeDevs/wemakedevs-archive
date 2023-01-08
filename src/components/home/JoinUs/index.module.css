@@ -21,7 +21,6 @@
 
 .container .card {
   position: relative;
-  border-radius: 10px;
 }
 
 .container .card .icon {
@@ -35,26 +34,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.container .newsletter .icon {
-  background: #e07768;
-}
-.container .discord .icon {
-  background: #6896e0;
-}
-.container .telegram .icon {
-  background: #1d9bf0;
+  background-image: linear-gradient(
+    to right,
+    rgb(var(--primary), 0.3),
+    rgb(var(--primary), 1)
+  );
 }
 
 .container .card .face {
   width: 300px;
   height: 200px;
   transition: 0.5s;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .container .card .face.face1 {
   position: relative;
-  background: #333;
+  background: var(--clr-base-100);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,37 +60,34 @@
 
 .container .card:hover .face.face1 {
   transform: translateY(0px);
+  border-radius: 20px 20px 0px 0px;
 }
 
 .container .card .face.face2 {
   position: relative;
-  background: #fff;
+  background: var(--clr-content);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  box-sizing: border-box;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
 
 .container .card:hover .face.face2 {
   transform: translateY(0);
-}
-
-.container .card .face.face2 .content p {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  color: #414141;
+  border-radius: 0px 0px 20px 20px;
 }
 
 .container .card .face.face2 .content h3 {
-  margin: 0 0 10px 0;
+  color: var(--clr-base-100);
   padding: 0;
-  color: #313131;
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
+}
+.container .card .face.face2 .content p {
+  text-align: center;
+  color: var(--clr-base-100);
+  font-weight: 900;
 }
 
 @media (min-width: 1024px) {

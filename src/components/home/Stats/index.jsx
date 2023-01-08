@@ -12,7 +12,7 @@ const Stats = ({ background = 'static' }) => {
       )}
     >
       <div className={clsx('layout', styles.layout)}>
-        <h2 className='h1'>Numbers Say it All</h2>
+        <h2 className='h1'>Numbers say it all</h2>
         <hr className={clsx('styled-hr', styles.headingLine)} />
         <div className={styles.statsContainer}>
           <div className={styles.card}>

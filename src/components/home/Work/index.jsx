@@ -16,7 +16,7 @@ const index = () => {
   return (
     <div className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
-        <h2 className='h1'>Our Students Work at</h2>
+        <h2 className='h1'>Our students work at</h2>
         <hr className={clsx('styled-hr', styles.headingWorkLine)} />
         <div className={styles.workImg}>
           <img className={styles.workGoogle} src={Google} alt='google' />

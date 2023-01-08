@@ -23,7 +23,7 @@ const NewsLetter = ({ background = 'static' }) => {
       )}
     >
       <div className={clsx('layout', styles.layout)}>
-        <h2 className='h1'>Subscribe to NewsLetter</h2>
+        <h2 className='h1'>Subscribe to our newsletter</h2>
         <hr className='styled-hr' />
         <p>
           Subscribe to our newsletter and get every blog direct to your email.
