@@ -7,23 +7,12 @@ import Backdrop from '../Backdrop';
 import HeaderLink from '../../links/HeaderLink';
 import UnstyledLink from '../../links/UnstyledLink';
 import Logo from '../../../Icons/core/Logo';
-import { useWindowScrolling } from '../../../lib/useWindowScrolling';
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
-  const [direction, scrollTop] = useWindowScrolling({
-    active: true,
-  });
   return (
     <>
-      <header
-        className={clsx(
-          styles.header,
-          direction === 'down' && styles.show,
-          scrollTop < 20 && styles.top,
-          scrollTop > 20 && direction === 'up' && styles.scrollUp
-        )}
-      >
+      <header className={styles.header}>
         <div className={clsx('layout', styles.headerContainer)}>
           <UnstyledLink href='#'>
             <Logo />
