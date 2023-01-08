@@ -15,10 +15,6 @@ const Events = ({ background = 'static' }) => {
           href: 'https://devpost.com/hackathons?search=wemakedevs',
           name: 'Hackathons',
         },
-        {
-          href: 'https://github.com/wemakedevs/events',
-          name: 'Meetups',
-        },
       ]}
       direction='right'
     >
