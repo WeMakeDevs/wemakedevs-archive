@@ -102,14 +102,7 @@ export const links = [
     name: 'Content',
     href: '#podcast',
   },
-  // {
-  //   name: 'Podcast',
-  //   href: '#podcast',
-  // },
-  // {
-  //   name: 'Blogs',
-  //   href: '#blogs',
-  // },
+
   {
     name: 'Join',
     href: '#newsletter',
