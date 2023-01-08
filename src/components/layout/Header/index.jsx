@@ -89,7 +89,7 @@ export const links = [
   },
   {
     name: 'Content',
-    href: '#podcast',
+    href: '#content',
   },
 
   {
