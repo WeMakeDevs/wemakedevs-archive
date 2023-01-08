@@ -1,6 +1,4 @@
 export { default as About } from './about';
-export { default as Cards } from './about/cards';
-export { default as Blogs } from './Blogs';
 export { default as Content } from './Content';
 export { default as Courses } from './courses/index.jsx';
 export { default as Events } from './events';
