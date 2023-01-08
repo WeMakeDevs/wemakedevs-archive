@@ -9,6 +9,7 @@
   font-weight: 600;
   color: var(--clr-content);
   height: 4rem /* 64px */;
+  background-color: rgb(var(--base-100), 1);
   transition: all cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
 }
 
@@ -23,24 +24,10 @@
   }
 }
 
-.header.top {
-  background-color: var(--clr-base-100);
-}
-
-.header.scrollUp {
-  background-color: var(--clr-base-100);
-  transition-duration: 300ms;
-}
-
-.header.show {
-  transform: translateY(-100%);
-  background-color: rgb(var(--base-100), 0);
-}
-
 @supports (backdrop-filter: blur(10px)) {
-  .header.scrollUp {
+  .header {
     background-color: rgb(var(--base-100), 0.7);
-    backdrop-filter: blur(20px) saturate(180%);
+    backdrop-filter: blur(10px);
   }
 }
 
