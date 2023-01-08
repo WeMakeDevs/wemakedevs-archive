@@ -23,47 +23,21 @@ const Footer = () => {
           <div className={styles.linkGroup}>
             <p className={styles.linksHeading}>Organization</p>
             <ul>
-              <li>
-                <a href='/#about'>About</a>
-              </li>
-              <li>
-                <a href='/#testimonials'>Testimonials</a>
-              </li>
-              <li>
-                <a href='/#faq'>FAQ</a>
-              </li>
+              {OrganizationLink.map((link) => (
+                <li key={link.name}>
+                  <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
+                </li>
+              ))}
             </ul>
           </div>
           <div className={styles.linkGroup}>
             <p className={styles.linksHeading}>Community</p>
             <ul>
-              <li>
-                <a
-                  href='https://blog.wemakedevs.org/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href='/#events'>Events</a>
-              </li>
-              <li>
-                <a href='/#Courses'>Courses</a>
-              </li>
-              <li>
-                <a href='/#mentorship'>Mentorship</a>
-              </li>
-              <li>
-                <a
-                  href='https://blog.wemakedevs.org/newsletter'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  Newsletter
-                </a>
-              </li>
+              {CommunityLinks.map((link) => (
+                <li key={link.name}>
+                  <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -71,10 +45,8 @@ const Footer = () => {
             <p className={styles.linksHeading}>Socials</p>
             <ul>
               {socialLinks.map((link) => (
-                <li key={Math.random()}>
-                  <a href={link.link} target='_blank' rel='noreferrer'>
-                    {link.name}
-                  </a>
+                <li key={link.name}>
+                  <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
                 </li>
               ))}
             </ul>
@@ -83,10 +55,8 @@ const Footer = () => {
             <p className={styles.linksHeading}>Contact</p>
             <ul>
               {contactLinks.map((link) => (
-                <li key={Math.random()}>
-                  <a href={link.link} target='_blank' rel='noreferrer'>
-                    {link.name}
-                  </a>
+                <li key={link.name}>
+                  <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
                 </li>
               ))}
             </ul>
@@ -114,6 +84,23 @@ const Footer = () => {
 };
 
 export default Footer;
+
+const OrganizationLink = [
+  { link: '#about', name: 'About' },
+  { link: '#testimonials', name: 'Testimonials' },
+  { link: '#faq', name: 'FAQ' },
+];
+
+const CommunityLinks = [
+  {
+    name: 'Blog',
+    link: 'https://blog.wemakedevs.org/',
+  },
+  { link: '#events', name: 'Events' },
+  { link: '#courses', name: 'Courses' },
+  { link: '#mentorship', name: 'Mentorship' },
+  { link: '#newsletter', name: 'Newsletter' },
+];
 
 const socialLinks = [
   {

@@ -16,6 +16,7 @@ const STATUS = {
 const NewsLetter = ({ background = 'static' }) => {
   return (
     <section
+      id='newsletter'
       className={clsx(
         styles.section,
         background === 'gradient' ? 'gradient' : 'static-bg'

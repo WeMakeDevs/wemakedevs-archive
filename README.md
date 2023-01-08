@@ -1,12 +1,12 @@
 # WeMakeDevs
 
-This is a community which provides free hands-on training in various fields of computer science and have an inclusive community focusing on a learn by doing approach.
+Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
 
 ## 👨‍💻 Demo
 
 Visit: https://wemakedevs.org/
 
-[![image](https://user-images.githubusercontent.com/104669486/209308275-771c8c22-9038-416e-94ad-162fd073fc2b.png)](https://wemakedevs.org/)
+[![image](https://user-images.githubusercontent.com/76242769/209465951-79f417b3-aa97-414d-a07e-018e56909413.png)](https://wemakedevs.org/)
 
 ## What is Wemakedevs?
 
