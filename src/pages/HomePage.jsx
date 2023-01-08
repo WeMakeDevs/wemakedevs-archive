@@ -1,7 +1,6 @@
 import {
   About,
-  Blogs,
-  Cards,
+  Content,
   Courses,
   Events,
   FAQ,
@@ -10,7 +9,6 @@ import {
   Mentorship,
   NewsLetter,
   Partner,
-  Podcast,
   Stats,
   Testimonials,
   Work,
@@ -24,15 +22,13 @@ const HomePage = () => {
       <Navbar />
       <Header />
       <About background='gradient' />
-      <Cards />
-      <Courses background='gradient' />
       <Stats />
+      <Courses background='gradient' />
       <Work />
       <Testimonials />
       <Mentorship />
       <Events background='gradient' />
-      <Podcast />
-      <Blogs />
+      <Content />
       <NewsLetter />
       <JoinUs />
       <FAQ background='gradient' />
