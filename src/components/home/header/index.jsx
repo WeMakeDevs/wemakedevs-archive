@@ -29,10 +29,18 @@ const Header = () => {
             Visit YouTube
           </ArrowLink>
           <ArrowLink
+            variant='outline'
             as={ButtonLink}
             href='https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3'
           >
             See Courses
+          </ArrowLink>
+          <ArrowLink
+            variant='outline'
+            as={ButtonLink}
+            href='https://github.com/WeMakeDevs/roadmaps'
+          >
+            Mentorship
           </ArrowLink>
         </div>
       </div>
