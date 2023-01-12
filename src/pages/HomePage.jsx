@@ -8,6 +8,7 @@ import {
   Header,
   JoinUs,
   Mentorship,
+  NewsLetter,
   Partner,
   Stats,
   Testimonials,
@@ -31,6 +32,7 @@ const HomePage = () => {
       <Content />
       <HashnodeNewsletter />
       <JoinUs />
+      <NewsLetter />
       <FAQ background='gradient' />
       <Partner />
       <Footer />
