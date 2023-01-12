@@ -19,7 +19,7 @@ const NewsLetter = ({ background = 'static' }) => {
         <iframe
           src='https://wemakedevs-newsletter.vercel.app/'
           width='100%'
-          height='600'
+          height='650'
           style={{ border: '0' }}
         ></iframe>
       </div>

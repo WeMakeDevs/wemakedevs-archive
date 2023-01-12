@@ -94,6 +94,10 @@ export const links = [
 
   {
     name: 'Join',
+    href: '#join',
+  },
+  {
+    name: 'Newsletter',
     href: '#newsletter',
   },
 ];
