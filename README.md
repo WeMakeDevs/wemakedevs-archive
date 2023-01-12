@@ -8,11 +8,11 @@ Visit: https://wemakedevs.org/
 
 [![image](https://user-images.githubusercontent.com/76242769/209465951-79f417b3-aa97-414d-a07e-018e56909413.png)](https://wemakedevs.org/)
 
-## What is Wemakedevs?
+## What is WeMakeDevs?
 
 We believe that everyone, irrespective of their college or branch, technical or non-technical background can make it big. WeMakeDevs is an initiative built on this thought.
 
-## What stack is Wemakedevs built on?
+## What stack is WeMakeDevs built on?
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
