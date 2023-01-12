@@ -4,10 +4,10 @@ import {
   Courses,
   Events,
   FAQ,
+  HashnodeNewsletter,
   Header,
   JoinUs,
   Mentorship,
-  NewsLetter,
   Partner,
   Stats,
   Testimonials,
@@ -29,7 +29,7 @@ const HomePage = () => {
       <Mentorship />
       <Events background='gradient' />
       <Content />
-      <NewsLetter />
+      <HashnodeNewsletter />
       <JoinUs />
       <FAQ background='gradient' />
       <Partner />

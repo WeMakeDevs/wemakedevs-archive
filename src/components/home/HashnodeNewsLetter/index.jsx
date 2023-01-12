@@ -13,7 +13,7 @@ const STATUS = {
   invalid: 'INVALID',
   null: null,
 };
-const NewsLetter = ({ background = 'static' }) => {
+const HashnodeNewsletter = ({ background = 'static' }) => {
   return (
     <section
       id='newsletter'
@@ -72,4 +72,4 @@ const NewsLetter = ({ background = 'static' }) => {
   );
 };
 
-export default NewsLetter;
+export default HashnodeNewsletter;
