@@ -12,7 +12,7 @@
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
-  transition-property: all;
+  transition: opacity ease-out 200ms;
   align-items: center;
 }
 

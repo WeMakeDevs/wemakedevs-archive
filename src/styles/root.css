@@ -25,6 +25,8 @@
   --clr-primary-hover: rgb(var(--primary-hover));
   --clr-primary-disable: rgb(var(--primary-disable));
   /* #endregion  /**======== Colors with opacity 100 =========== */
+
+  scroll-padding-top: 5rem;
 }
 
 * {

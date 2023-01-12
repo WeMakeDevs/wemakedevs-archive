@@ -4,13 +4,12 @@ import styles from './index.module.css';
 
 import Adobe from '../../../assets/home/adobe.svg';
 import Amazon from '../../../assets/home/amazon.svg';
+import Cisco from '../../../assets/home/Cisco.svg';
 import Google from '../../../assets/home/google.svg';
 import Microsoft from '../../../assets/home/microsoft.svg';
-
-import Cisco from '!file-loader!../../../assets/home/Cisco.svg';
-import Razorpay from '!file-loader!../../../assets/home/razorpay.svg';
-import Samsung from '!file-loader!../../../assets/home/Samsung.svg';
-import Virtusa from '!file-loader!../../../assets/home/virtusa.svg';
+import Razorpay from '../../../assets/home/razorpay.svg';
+import Samsung from '../../../assets/home/Samsung.svg';
+import Virtusa from '../../../assets/home/virtusa.svg';
 
 const index = () => {
   return (
