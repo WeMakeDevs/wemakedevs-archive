@@ -1,6 +1,4 @@
 .workSection {
-  /* margin-right:auto;
-  margin-left:auto; */
   max-width: 1200px;
 }
 .workImg {
@@ -19,7 +17,7 @@
   margin-block: 2rem;
 }
 .layout {
-  padding-block: 6rem;
+  padding-bottom: 6rem;
 }
 @media screen and (max-width: 1100px) {
   .workSection {

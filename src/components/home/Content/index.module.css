@@ -15,7 +15,7 @@
 
 .card {
   overflow: hidden;
-  background-color: rgb(var(--content), 0.1);
+  background-color: rgb(var(--base-100), 0.5);
   border-radius: 0.5rem;
   border: 1px solid rgb(var(--content), 0.2);
 }

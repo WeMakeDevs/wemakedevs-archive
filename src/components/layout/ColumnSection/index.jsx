@@ -9,17 +9,23 @@ const ColumnSection = ({
   id,
   imgSrc,
   title,
+  as,
   buttonLinks,
   direction = 'left',
-  background = 'static',
+  background = 'transparent',
   children,
 }) => {
+  const Component = as || 'section';
   return (
-    <section
+    <Component
       id={id}
       className={clsx(
         styles.section,
-        background === 'gradient' ? 'gradient' : 'static-bg',
+        background === 'gradient'
+          ? 'gradient'
+          : background == 'static-bg'
+          ? 'static-bg'
+          : 'transparent',
         direction === 'right' && styles.right
       )}
     >
@@ -43,7 +49,7 @@ const ColumnSection = ({
           </div>
         </div>
       </div>
-    </section>
+    </Component>
   );
 };
 

@@ -13,7 +13,7 @@ import Virtusa from '../../../assets/home/virtusa.svg';
 
 const index = () => {
   return (
-    <div className={styles.section}>
+    <div>
       <div className={clsx('layout', styles.layout)}>
         <h2 className='h1'>Our students work at</h2>
         <hr className={clsx('styled-hr', styles.headingWorkLine)} />

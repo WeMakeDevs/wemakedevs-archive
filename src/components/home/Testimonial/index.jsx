@@ -5,12 +5,9 @@ import styles from './index.module.css';
 import ekjottest2 from './../../../assets/home/ekjottest2.jpg';
 import rahultest1 from './../../../assets/home/rahultest1.jpg';
 import sajjantest3 from './../../../assets/home/sajjantest3.jpg';
-const Testimonials = ({ background = 'static' }) => {
+const Testimonials = () => {
   return (
-    <section
-      id='testimonials'
-      className={background === 'gradient' ? 'gradient' : 'static-bg'}
-    >
+    <div id='testimonials'>
       <div className={clsx('layout', styles.layout)}>
         <h2 className='h1'>Testimonials</h2>
         <hr className={clsx('styled-hr', styles.headingLine)} />
@@ -20,7 +17,7 @@ const Testimonials = ({ background = 'static' }) => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

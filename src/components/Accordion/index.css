@@ -14,6 +14,10 @@
   display: flex;
   justify-content: space-between;
 }
+.question.active {
+  border-radius: 5px 5px 0px 0px;
+}
+
 .accordion-item {
   margin-top: 1.5rem;
 }
@@ -26,6 +30,7 @@
   max-height: 0;
   transition: max-height 0.5s ease-out;
   background-color: rgb(41 51 64/1);
+  border-radius: 0px 0px 5px 5px;
   color: rgb(251 250 255/1);
 }
 
