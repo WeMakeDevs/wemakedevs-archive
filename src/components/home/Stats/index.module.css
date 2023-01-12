@@ -3,7 +3,7 @@
 }
 
 .layout {
-  padding-block: 6rem;
+  padding-bottom: 6rem;
   margin-inline: auto;
 }
 
@@ -27,6 +27,7 @@
   border: 1px solid rebeccapurple;
   padding: 1rem /* 16px */;
   padding-block: 2rem;
+  background-color: rgb(var(--base-100), 0.5);
   background-image: linear-gradient(
     to right,
     rgb(var(--content), 0),

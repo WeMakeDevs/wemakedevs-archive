@@ -18,22 +18,10 @@
   height: 2rem;
 }
 
-@media (min-width: 900px) {
-  .header svg {
-    height: 2.5rem;
-  }
-}
-
 @supports (backdrop-filter: blur(10px)) {
   .header {
     background-color: rgb(var(--base-100), 0.7);
     backdrop-filter: blur(10px);
-  }
-}
-
-@media (min-width: 768px) {
-  .header {
-    height: 5rem /* 80px */;
   }
 }
 
@@ -44,13 +32,6 @@
   align-items: center;
 }
 
-@media (min-width: 768px) {
-  .headerContainer {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -59,12 +40,6 @@
   gap: 2vw;
   font-size: 1.125rem /* 18px */;
   line-height: 1.75rem /* 28px */;
-}
-
-@media (max-width: 768px) {
-  .nav {
-    display: none;
-  }
 }
 
 .menuBtn {
@@ -97,45 +72,56 @@
   aspect-ratio: 1/1;
 }
 
-@media (min-width: 770px) {
+@media (min-width: 1000px) {
+  .header svg {
+    height: 2.5rem;
+  }
+  .header {
+    height: 5rem;
+  }
+  .headerContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .menuBtn {
     display: none;
   }
-}
-
-@media (min-width: 770px) {
+  .cta {
+    padding-block: 0.4rem;
+  }
   body .NavBackDrop {
     display: none;
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1000px) {
+  .nav {
+    display: none;
+  }
   .navMobile {
     position: absolute;
     top: 0;
-    right: 1rem /* 16px */;
-    left: 1rem;
-    margin-top: 5rem /* 80px */;
+    margin-top: 5rem;
     display: flex;
-    width: auto;
+    width: max-content;
     transform: translateY(-100%);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1.25rem /* 20px */;
-    border-radius: 0.5rem /* 8px */;
+    gap: 1.25rem;
+    border-radius: 0.5rem;
     border: 1px solid rgb(var(--content), 0.2);
     background-color: rgb(var(--base-100), 0.8);
-    padding-block: 1rem /* 16px */;
-    padding-inline: 3rem /* 48px */;
-    font-size: 1.875rem /* 30px */;
-    line-height: 2.25rem /* 36px */;
+    padding-block: 2rem;
+    padding-inline: 3rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
     font-weight: 400;
     color: var(--clr-content);
-    box-shadow: 0 0.25rem /* 4px */ 0.5rem /* 8px */ rgb(var(--base-100), 0.9);
-    transition: transform ease-in 300ms;
+    box-shadow: 0 0.25rem 0.5rem rgb(var(--base-100), 0.9);
+    transition: transform ease-out 100ms 100ms;
   }
-  .navMobile {
+  .navMobile.open {
     transform: translateY(0%);
   }
 }

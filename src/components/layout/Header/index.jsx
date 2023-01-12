@@ -4,6 +4,8 @@ import * as React from 'react';
 import styles from './index.module.css';
 
 import Backdrop from '../Backdrop';
+import ArrowLink from '../../links/ArrowLink';
+import ButtonLink from '../../links/ButtonLink';
 import HeaderLink from '../../links/HeaderLink';
 import UnstyledLink from '../../links/UnstyledLink';
 import Logo from '../../../Icons/core/Logo';
@@ -70,6 +72,9 @@ const NavigationLinks = ({ style, open, setOpen }) => {
           {link.name}
         </HeaderLink>
       ))}
+      <ArrowLink className={styles.cta} as={ButtonLink} href='#newsletter'>
+        Newsletter
+      </ArrowLink>
     </nav>
   );
 };
@@ -95,9 +100,5 @@ export const links = [
   {
     name: 'Join',
     href: '#join',
-  },
-  {
-    name: 'Newsletter',
-    href: '#newsletter',
   },
 ];

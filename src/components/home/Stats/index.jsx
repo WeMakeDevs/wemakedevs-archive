@@ -3,14 +3,9 @@ import { FaGraduationCap, FaMagic, FaUsers, FaYoutube } from 'react-icons/fa';
 
 import styles from './index.module.css';
 
-const Stats = ({ background = 'static' }) => {
+const Stats = () => {
   return (
-    <section
-      className={clsx(
-        styles.section,
-        background === 'gradient' ? 'gradient' : 'static-bg'
-      )}
-    >
+    <div className={clsx(styles.section)}>
       <div className={clsx('layout', styles.layout)}>
         <h2 className='h1'>Numbers say it all</h2>
         <hr className={clsx('styled-hr', styles.headingLine)} />
@@ -45,7 +40,7 @@ const Stats = ({ background = 'static' }) => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
