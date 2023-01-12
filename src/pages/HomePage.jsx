@@ -29,8 +29,8 @@ const HomePage = () => {
       <Mentorship />
       <Events background='gradient' />
       <Content />
-      <NewsLetter />
       <JoinUs />
+      <NewsLetter />
       <FAQ background='gradient' />
       <Partner />
       <Footer />

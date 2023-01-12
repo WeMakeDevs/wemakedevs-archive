@@ -3,6 +3,7 @@ export { default as Content } from './Content';
 export { default as Courses } from './courses/index.jsx';
 export { default as Events } from './events';
 export { default as FAQ } from './FAQ';
+export { default as HashnodeNewsletter } from './HashnodeNewsLetter';
 export { default as Header } from './header';
 export { default as JoinUs } from './JoinUs';
 export { default as Mentorship } from './Mentorship';
