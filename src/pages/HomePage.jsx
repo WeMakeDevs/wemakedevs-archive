@@ -9,9 +9,6 @@ import {
   Mentorship,
   NewsLetter,
   Partner,
-  Stats,
-  Testimonials,
-  Work,
 } from '../components/home';
 import Banner from '../components/layout/Banner';
 import Footer from '../components/layout/Footer';
@@ -22,13 +19,10 @@ const HomePage = () => {
       <Navbar />
       <Header />
       <About background='gradient' />
-      <Stats />
-      <Courses background='gradient' />
-      <Work />
-      <Testimonials />
-      <Mentorship />
-      <Events background='gradient' />
-      <Content />
+      <Courses />
+      <Mentorship background='gradient' />
+      <Events />
+      <Content background='gradient' />
       <JoinUs />
       <NewsLetter />
       <FAQ background='gradient' />
