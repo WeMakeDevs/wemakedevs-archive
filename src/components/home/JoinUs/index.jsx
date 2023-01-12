@@ -7,7 +7,7 @@ import UnstyledLink from '../../links/UnstyledLink';
 
 function JoinUs() {
   return (
-    <section className={styles.section} id='joinus'>
+    <section className={styles.section} id='join'>
       <div className={clsx(styles.layout, 'layout')}>
         <h2 className='h1'>Join us</h2>
         <hr className='styled-hr' />
