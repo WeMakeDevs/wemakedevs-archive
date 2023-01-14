@@ -13,8 +13,8 @@ const Courses = ({ background = 'static' }) => {
         direction='right'
         buttonLinks={[
           {
-            name: 'Explore Courses',
-            href: 'https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3',
+            name: 'Explore courses',
+            href: 'https://github.com/WeMakeDevs/courses',
           },
         ]}
         background={background}

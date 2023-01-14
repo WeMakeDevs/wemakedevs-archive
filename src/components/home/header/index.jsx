@@ -21,20 +21,23 @@ const Header = () => {
           approach.
         </p>
         <div className={styles.links}>
-          <ArrowLink as={ButtonLink} href='https://www.youtube.com/@WeMakeDevs'>
-            Visit YouTube
-          </ArrowLink>
           <ArrowLink
             as={ButtonLink}
-            href='https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3'
+            href='https://github.com/WeMakeDevs/courses'
           >
-            See Courses
+            Courses
           </ArrowLink>
           <ArrowLink
             as={ButtonLink}
             href='https://github.com/WeMakeDevs/roadmaps'
           >
             Mentorship
+          </ArrowLink>
+          <ArrowLink
+            as={ButtonLink}
+            href='https://github.com/WeMakeDevs/events'
+          >
+            Events
           </ArrowLink>
         </div>
       </div>

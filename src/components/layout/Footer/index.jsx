@@ -75,8 +75,8 @@ const Footer = () => {
 
         <p className={styles.copyright}>
           © Copyrights by
-          <span className='highlight highlight--light'> WeMakeDevs </span>
-          All Rights Reserved.
+          <span className='highlight highlight--light'> WeMakeDevs </span>. All
+          rights reserved.
         </p>
       </div>
     </footer>

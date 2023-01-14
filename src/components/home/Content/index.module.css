@@ -44,7 +44,7 @@
     width: 0.5;
   }
   .card .data {
-    padding: 1.4rem;
+    padding: 1.8rem;
   }
   .card .data p {
     font-size: 1.3rem;
@@ -60,5 +60,11 @@
     object-position: center;
     width: 100%;
     height: 20rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .card .data {
+    padding: 2.5rem;
   }
 }

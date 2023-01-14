@@ -24,6 +24,7 @@ const Partner = ({ background = 'static' }) => {
 
   return (
     <section
+      id='partnerwithus'
       className={clsx(
         styles.section,
         background === 'gradient' ? 'gradient' : 'static-bg'
