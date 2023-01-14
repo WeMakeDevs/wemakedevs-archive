@@ -4,7 +4,7 @@ import styles from './index.module.css';
 
 const NewsLetter = ({ background = 'static' }) => {
   return (
-    <section
+    <div
       id='newsletter'
       className={clsx(
         styles.section,
@@ -23,7 +23,7 @@ const NewsLetter = ({ background = 'static' }) => {
           style={{ border: '0' }}
         ></iframe>
       </div>
-    </section>
+    </div>
   );
 };
 
