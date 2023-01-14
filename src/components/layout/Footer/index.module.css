@@ -98,6 +98,11 @@
   font-weight: 400;
 }
 
+.linkGroups li a:hover {
+  /* Add Hover effect on Footer Links rgb(131, 137, 241) */
+  color: #8389f1;
+}
+
 @media (max-width: 900px) {
   .footer {
     padding-block: 2rem;

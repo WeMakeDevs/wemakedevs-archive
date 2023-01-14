@@ -66,7 +66,11 @@ const Footer = () => {
           <h3>WeMakeDevs</h3>
           <div className={styles.links}>
             {links.map((link) => (
-              <UnstyledLink key={link.name} href={link.link}>
+              <UnstyledLink
+                key={link.name}
+                href={link.link}
+                style={{ color: link.color }}
+              >
                 {link.icon}
               </UnstyledLink>
             ))}
@@ -140,50 +144,60 @@ const contactLinks = [
   },
 ];
 
+// All colors are taken according to official color scheme @See{ https://brandpalettes.com/ }
 const links = [
   {
     name: 'youtube',
     link: 'https://www.youtube.com/@WeMakeDevs',
     icon: <FaYoutube />,
+    color: '#FF0000',
   },
   {
     name: 'LinkedIn',
     link: 'https://www.linkedin.com/company/wemakedevs/',
     icon: <FaLinkedin />,
+    color: '#0A66C2',
   },
   {
     name: 'twitter',
     link: 'https://twitter.com/WeMakeDevs',
     icon: <FaTwitter />,
+    color: '#1D9BF0',
   },
   {
     name: 'instagram',
     link: 'https://www.instagram.com/wemakedevs/',
     icon: <FaInstagram />,
+    color: '#E1306C',
   },
   {
     name: 'github',
     link: 'https://github.com/WeMakeDevs',
     icon: <FaGithub />,
+    color: '#ffffff',
   },
   {
     name: 'mail',
     link: 'mailto:kunal@wemakedevs.org',
     icon: <FaEnvelope />,
+    color: '#DB4437',
   },
   {
     name: 'telegram',
     link: 'https://t.me/WeMakeDevs',
     icon: <FaTelegramPlane />,
+    color: '#27A7E7',
   },
   {
     name: 'discord',
     link: 'https://discord.gg/wemakedevs',
     icon: <FaDiscord />,
+    color: '#5865F2',
   },
   {
     name: 'hashnode',
     link: 'https://blog.wemakedevs.org/',
     icon: <SiHashnode />,
+    color: '#2962ff',
   },
 ];
