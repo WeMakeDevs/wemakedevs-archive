@@ -8,7 +8,7 @@ import ArrowLink from '../../links/ArrowLink';
 import ButtonLink from '../../links/ButtonLink';
 import HeaderLink from '../../links/HeaderLink';
 import UnstyledLink from '../../links/UnstyledLink';
-import Logo from '../../../Icons/core/Logo';
+import NewLogo from '../../../Icons/core/NewLogo.jsx';
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
       <header className={styles.header}>
         <div className={clsx('layout', styles.headerContainer)}>
           <UnstyledLink href='#'>
-            <Logo />
+            <NewLogo />
           </UnstyledLink>
           <NavigationLinks style={styles.nav} open={open} setOpen={setOpen} />
           <button className={styles.menuBtn} onClick={() => setOpen((p) => !p)}>
