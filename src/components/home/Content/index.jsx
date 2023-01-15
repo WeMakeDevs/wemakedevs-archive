@@ -2,6 +2,7 @@ import clsx from 'clsx';
 
 import styles from './index.module.css';
 
+import ArrowLink from '../../links/ArrowLink';
 import ButtonLink from '../../links/ButtonLink';
 import ListItem from '../../Listitem';
 import BannerImage from '../../../assets/home/events.png';
@@ -25,7 +26,7 @@ const Content = ({ background = 'static' }) => {
             title='Podcast'
             href='https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr'
             src={BannerImage}
-            btnText='Listen Podcast'
+            btnText='Listen podcast'
           >
             <ListItem as='p'>
               The Open Source Cafe is an initiative to highlight the stories,
@@ -45,7 +46,7 @@ const Content = ({ background = 'static' }) => {
             title='Blogs'
             href='https://blog.wemakedevs.org'
             src={BannerImage}
-            btnText='Read and Learn'
+            btnText='Read and learn'
           >
             <ListItem as='p'>
               <span className='highlight'>KubeLetter</span> - We invite you to
@@ -78,7 +79,9 @@ const Card = ({ src, title, href, btnText, children }) => {
       <div className={styles.data}>
         <h2 className='h3'>{title}</h2>
         {children}
-        <ButtonLink href={href}>{btnText}</ButtonLink>
+        <ArrowLink as={ButtonLink} href={href}>
+          {btnText}
+        </ArrowLink>
       </div>
     </div>
   );

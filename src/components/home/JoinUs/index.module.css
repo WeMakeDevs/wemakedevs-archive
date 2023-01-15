@@ -1,13 +1,25 @@
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
 .layout {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding-block: 6rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
 }
+
+.layout h2 {
+  text-align: center;
+}
+
 .wrapperCard {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
   margin-top: 2rem;
 }
@@ -87,19 +99,28 @@
     overflow: hidden;
   }
   .container .card .face.face1 {
-    transform: translateY(100px);
     border-radius: 20px 20px 20px 20px;
   }
   .container .card .face.face2 {
+    height: 0;
+    padding: 0;
     border-radius: 20px 20px 20px 20px;
-    transform: translateY(-100px);
   }
   .container .card:hover .face.face1 {
-    transform: translateY(0px);
     border-radius: 20px 20px 0px 0px;
   }
   .container .card:hover .face.face2 {
-    transform: translateY(0);
+    height: 200px;
+    padding: 20px;
     border-radius: 0px 0px 20px 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  .section {
+    flex-direction: row;
+  }
+  .layout {
+    padding-botom: 6rem;
   }
 }

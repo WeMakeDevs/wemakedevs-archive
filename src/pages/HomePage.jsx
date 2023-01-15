@@ -7,7 +7,6 @@ import {
   Header,
   JoinUs,
   Mentorship,
-  NewsLetter,
   Partner,
 } from '../components/home';
 import Banner from '../components/layout/Banner';
@@ -24,7 +23,6 @@ const HomePage = () => {
       <Events />
       <Content background='gradient' />
       <JoinUs />
-      <NewsLetter />
       <FAQ background='gradient' />
       <Partner />
       <Footer />

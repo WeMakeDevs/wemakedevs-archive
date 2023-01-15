@@ -11,7 +11,7 @@ const Mentorship = ({ background = 'static' }) => {
       buttonLinks={[
         {
           href: 'https://github.com/WeMakeDevs/roadmaps',
-          name: 'Learn More',
+          name: 'Learn more',
         },
       ]}
       id='mentorship'

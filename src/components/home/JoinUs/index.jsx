@@ -3,20 +3,24 @@ import { FaDiscord, FaTelegram } from 'react-icons/fa';
 
 import styles from './index.module.css';
 
+import NewsLetter from '../NewsLetter';
 import UnstyledLink from '../../links/UnstyledLink';
 
 function JoinUs() {
   return (
-    <section className={styles.section} id='join'>
-      <div className={clsx(styles.layout, 'layout')}>
-        <h2 className='h1'>Join us</h2>
-        <hr className='styled-hr' />
-        <div className={styles.wrapperCard}>
-          {data.map((item) => (
-            <JoinUsCard key={item.title} {...item} />
-          ))}
+    <section className={clsx('layout', styles.section)}>
+      <div id='join' className={styles.join}>
+        <div className={clsx(styles.layout, 'layout')}>
+          <h2 className='h1'>Join us</h2>
+          <hr className='styled-hr' />
+          <div className={styles.wrapperCard}>
+            {data.map((item) => (
+              <JoinUsCard key={item.title} {...item} />
+            ))}
+          </div>
         </div>
       </div>
+      <NewsLetter />
     </section>
   );
 }
@@ -46,12 +50,12 @@ const data = [
     title: 'discord',
     href: 'https://discord.gg/wemakedevs',
     description: 'Join the community of 56k+ folks',
-    icon: <FaDiscord color='white' size='130' />,
+    icon: <FaDiscord color='white' size='100' />,
   },
   {
     title: 'telegram',
     href: 'https://t.me/WeMakeDevs',
-    description: 'Join the community of 56k+ folks',
-    icon: <FaTelegram color='white' size='130' />,
+    description: 'Stay up-to-date with news and announcements',
+    icon: <FaTelegram color='white' size='100' />,
   },
 ];

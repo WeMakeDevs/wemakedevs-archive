@@ -13,8 +13,16 @@ const About = ({ background = 'static' }) => {
         title='About us'
         buttonLinks={[
           {
-            name: 'Join Discord',
+            name: 'Discord',
             href: 'https://discord.gg/wemakedevs',
+          },
+          {
+            name: 'Telegram',
+            href: 'https://t.me/WeMakeDevs',
+          },
+          {
+            name: 'Newsletter',
+            href: '#newsletter',
           },
         ]}
       >

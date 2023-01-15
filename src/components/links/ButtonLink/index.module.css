@@ -7,7 +7,7 @@
   transition-duration: 75ms;
   font-weight: 500;
   align-items: center;
-  border-radius: 0.5rem;
+  border-radius: 10rem;
   width: max-content;
 }
 .button:focus-visible {
