@@ -10,18 +10,17 @@
   font-weight: 500;
 }
 
-.section .layout {
+.layout {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
 }
-
-.section .layout p {
+.layout p {
   text-align: center;
 }
-.section .layout .btn {
+.btn {
   padding: 0.5rem 0.7rem;
   border-radius: 100px;
 }
@@ -30,4 +29,15 @@
   .section {
     font-size: 1.1rem;
   }
+}
+
+.cross {
+  width: 3rem;
+  aspect-ratio: 1/1;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.hide {
+  display: none;
 }
