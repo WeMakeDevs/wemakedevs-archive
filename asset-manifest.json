@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c912ec0.css",
-    "main.js": "/static/js/main.28b6ea90.js",
+    "main.css": "/static/css/main.5fd03f34.css",
+    "main.js": "/static/js/main.b114454a.js",
     "static/media/aboutus.png": "/static/media/aboutus.02f2915b9ae736e9ef8a.png",
     "static/media/events.png": "/static/media/events.dd774e9084b339ee0973.png",
     "static/media/courses.png": "/static/media/courses.f2c1856875197487b345.png",
@@ -17,11 +17,11 @@
     "static/media/Samsung.svg": "/static/media/Samsung.1c9ca4e46c4fc8108bdafbe318e3125f.svg",
     "static/media/virtusa.svg": "/static/media/virtusa.3d2ff420e957c43330c07f5ee6c6e737.svg",
     "index.html": "/index.html",
-    "main.2c912ec0.css.map": "/static/css/main.2c912ec0.css.map",
-    "main.28b6ea90.js.map": "/static/js/main.28b6ea90.js.map"
+    "main.5fd03f34.css.map": "/static/css/main.5fd03f34.css.map",
+    "main.b114454a.js.map": "/static/js/main.b114454a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c912ec0.css",
-    "static/js/main.28b6ea90.js"
+    "static/css/main.5fd03f34.css",
+    "static/js/main.b114454a.js"
   ]
 }
