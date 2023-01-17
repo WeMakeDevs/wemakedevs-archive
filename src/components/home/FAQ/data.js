@@ -2,9 +2,8 @@ const data = {
   faqs: [
     {
       id: 'FAQ1',
-      question: 'Are all of your courses free?',
-      answer:
-        'Yes! All of our courses are and will always be free as well as high quality. You can find those on our YouTube channel.',
+      question: 'How do I stay up-to-date?',
+      answer: 'Please subscribe to our newsletter.',
     },
     {
       id: 'FAQ2',
@@ -20,9 +19,8 @@ const data = {
     },
     {
       id: 'FAQ4',
-      question: 'How do I get my doubts resolved?',
-      answer:
-        'Join our Discord community along with thousands of others and feel free to ask your doubts in the relevant channels.',
+      question: 'What do I take part in events?',
+      answer: 'You can head to the GitHub repository.',
     },
     {
       id: 'FAQ5',
