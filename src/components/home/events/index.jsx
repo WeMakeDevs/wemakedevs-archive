@@ -46,7 +46,12 @@ const Events = ({ background = 'static' }) => {
           </span>
         </ListItem>
       </ColumnSection>
-      <div className='layout'>
+      <div
+        className='layout'
+        style={{
+          paddingBottom: '5rem',
+        }}
+      >
         <Carousel
           cols={3}
           rows={1}
