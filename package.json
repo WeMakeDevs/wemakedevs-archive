@@ -17,6 +17,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "better-react-carousel": "^1.1.1",
     "check-node-version": "^4.2.1",
     "clsx": "^1.2.1",
     "gh-pages": "^4.0.0",
