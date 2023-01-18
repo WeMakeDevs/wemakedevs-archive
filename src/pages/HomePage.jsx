@@ -9,6 +9,7 @@ import {
   Mentorship,
   Partner,
 } from '../components/home';
+import PartnerTestimonials from '../components/home/PartnerTestimonials';
 import Banner from '../components/layout/Banner';
 import Footer from '../components/layout/Footer';
 import Navbar from '../components/layout/Header';
@@ -25,6 +26,7 @@ const HomePage = () => {
       <JoinUs />
       <FAQ background='gradient' />
       <Partner />
+      <PartnerTestimonials />
       <Footer />
       <Banner />
     </>
