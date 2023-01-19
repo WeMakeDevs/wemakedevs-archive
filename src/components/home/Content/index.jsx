@@ -18,7 +18,7 @@ const Content = ({ background = 'static' }) => {
     >
       <div className={clsx('layout', styles.layout)}>
         <div>
-          <h2 className='h1'>Content</h2>
+          <h2 className='h1'>Newsroom</h2>
           <hr className={clsx('styled-hr', styles.headingLine)} />
         </div>
         <div className={styles.cardWrapper}>

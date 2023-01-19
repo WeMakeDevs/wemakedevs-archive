@@ -93,10 +93,9 @@ export const links = [
     href: '#events',
   },
   {
-    name: 'Content',
+    name: 'Newsroom',
     href: '#content',
   },
-
   {
     name: 'Join',
     href: '#join',
