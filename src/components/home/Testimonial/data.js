@@ -32,7 +32,7 @@ export const data = [
     description:
       "Completed @kunalstwt's DevOps bootcamp networking video. Really awesome explanation, got a clear overview of whole networking process. Application layer is perfectly understood. #DevOpswithkunal  #networking",
     from: 'ANURAG PATHAK',
-    designation: '@gramopadhye37',
+    designation: '@AnuragThePathak',
   },
   {
     src: prasanna,
