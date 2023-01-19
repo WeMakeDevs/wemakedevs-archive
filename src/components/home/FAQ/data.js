@@ -2,8 +2,9 @@ const data = {
   faqs: [
     {
       id: 'FAQ1',
-      question: 'How do I stay up-to-date?',
-      answer: 'Please subscribe to our newsletter.',
+      question: 'How do I stay up to date on the latest updates?',
+      answer:
+        'Please subscribe to our newsletter to stay up to date on the latest updates.',
     },
     {
       id: 'FAQ2',
@@ -19,8 +20,9 @@ const data = {
     },
     {
       id: 'FAQ4',
-      question: 'What do I take part in events?',
-      answer: 'You can head to the GitHub repository.',
+      question: 'How do I take part in events hosted?',
+      answer:
+        'You can head to our WeMakeDevs events repository to find information and sign up for upcoming events.',
     },
     {
       id: 'FAQ5',
