@@ -1,8 +1,23 @@
 import clsx from 'clsx';
+import { useEffect, useState } from 'react';
 
 import styles from './index.module.css';
 
 const NewsLetter = ({ background = 'static' }) => {
+  const [iframeHeight, setIframeHeight] = useState(670);
+
+  useEffect(() => {
+    const windowWidth = window.innerWidth;
+
+    if (windowWidth < 900) {
+      setIframeHeight(830);
+    } else if (windowWidth < 1250) {
+      setIframeHeight(700);
+    } else {
+      setIframeHeight(670);
+    }
+  }, []);
+
   return (
     <div
       id='newsletter'
@@ -19,7 +34,7 @@ const NewsLetter = ({ background = 'static' }) => {
         <iframe
           src='https://wemakedevs-newsletter.vercel.app/'
           width='100%'
-          height='650'
+          height={iframeHeight}
           style={{ border: '0' }}
         ></iframe>
       </div>
