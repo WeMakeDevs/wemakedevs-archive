@@ -23,7 +23,7 @@ const Header = () => {
         <div className={styles.links}>
           <ArrowLink
             as={ButtonLink}
-            href='https://github.com/WeMakeDevs/courses'
+            href='https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3'
           >
             Courses
           </ArrowLink>
