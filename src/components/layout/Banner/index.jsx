@@ -1,17 +1,18 @@
 import clsx from 'clsx';
 import { useState } from 'react';
 import { FaTimes } from 'react-icons/fa';
+import { TfiAnnouncement } from 'react-icons/tfi';
 
 import styles from './index.module.css';
 
 import Button from '../../Button';
 import UnstyledLink from '../../links/UnstyledLink';
-
 const Banner = () => {
   const [open, setOpen] = useState(true);
   return (
     <section className={clsx(styles.section, !open && styles.hide)}>
       <div className={clsx('layout', styles.layout)}>
+        <TfiAnnouncement className={clsx('h1', styles.announcement)} />
         <p>
           Check out our{' '}
           <span className='highlight highlight--dark'> upcoming events </span>
@@ -22,17 +23,17 @@ const Banner = () => {
         <Button
           className={styles.btn}
           as={UnstyledLink}
-          href='https://blog.wemakedevs.org/'
+          openNewTabIcon
+          href='https://github.com/WeMakeDevs/events'
         >
           Events
         </Button>
-        <Button
-          variant='outline'
-          className={clsx('h3', styles.btn, styles.cross)}
+        <button
+          className={clsx('h3', styles.cross)}
           onClick={() => setOpen(false)}
         >
           <FaTimes />
-        </Button>
+        </button>
       </div>
     </section>
   );

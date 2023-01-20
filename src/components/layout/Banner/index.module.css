@@ -8,6 +8,12 @@
   color: var(--clr-base-100);
   padding-block: 0.5rem;
   font-weight: 500;
+  transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 300ms;
+}
+.announcement {
+  background-color: rgb(var(--base-100), 0.8);
+  padding: 0.5rem;
+  border-radius: 10px;
 }
 
 .layout {
@@ -22,7 +28,7 @@
 }
 .btn {
   padding: 0.5rem 0.7rem;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 
 @media (min-width: 768px) {
@@ -32,12 +38,14 @@
 }
 
 .cross {
-  width: 3rem;
-  aspect-ratio: 1/1;
-  justify-self: flex-end;
-  align-self: flex-end;
+  margin-left: auto;
+  color: var(--base-100);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hide {
-  display: none;
+  transform: translateY(100%);
 }
