@@ -6,7 +6,7 @@ Our community provides a variety of<b> FREE hands-on computer science training</
 
 Visit: https://wemakedevs.org/
 
-[![image](https://user-images.githubusercontent.com/76242769/209465951-79f417b3-aa97-414d-a07e-018e56909413.png)](https://wemakedevs.org/)
+[![image](https://user-images.githubusercontent.com/84087589/213661023-2ec06785-84ce-4f06-9ae7-c636827cbfbc.png)](https://wemakedevs.org/)
 
 ## What is WeMakeDevs?
 
