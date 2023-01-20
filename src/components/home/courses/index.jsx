@@ -30,14 +30,9 @@ const Courses = ({ background = 'static' }) => {
           Explore a wide range of courses including Data Structures &
           Algorithms, Web Development, DevOps, Machine Learning, and more!
         </ListItem>
-        <h3
-          className='h1'
-          style={{
-            marginTop: '1rem',
-          }}
-        >
+        <li style={{ listStyle: 'none', fontWeight: 'bold' }} className='h1'>
           $0/month
-        </h3>
+        </li>
       </ColumnSection>
       <Work />
       <Testimonials />
