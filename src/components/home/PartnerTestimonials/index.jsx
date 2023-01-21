@@ -9,7 +9,7 @@ const PartnerTestimonials = () => {
   return (
     <div id='testimonials'>
       <div className={clsx('layout', styles.layout)}>
-        <h2 className='h2'>Testimonials</h2>
+        <h2 className='h1'>Testimonials</h2>
         <hr className={clsx('styled-hr', styles.headingLine)} />
         <div className={styles.cardWrapper}>
           <Carousel

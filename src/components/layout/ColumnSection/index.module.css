@@ -41,11 +41,11 @@
 .container ul {
   color: rgb(var(--content), 0.8);
   font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-.container li {
-  margin-top: 1.8rem;
-}
 .container li:first-child {
   margin-top: 0;
 }
