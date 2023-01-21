@@ -5,7 +5,7 @@ import styles from './index.module.css';
 import ArrowLink from '../../links/ArrowLink';
 import ButtonLink from '../../links/ButtonLink';
 import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/events.png';
+import BannerImage from '../../../assets/home/newblogimage.jpg';
 
 const Content = ({ background = 'static' }) => {
   return (
@@ -25,7 +25,8 @@ const Content = ({ background = 'static' }) => {
           <Card
             title='Podcast'
             href='https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr'
-            src={BannerImage}
+            src='https://www.youtube.com/embed/t8w-e7yJgiA'
+            isVideo
             btnText='Listen podcast'
           >
             <ListItem as='p'>
@@ -72,10 +73,20 @@ const Content = ({ background = 'static' }) => {
 
 export default Content;
 
-const Card = ({ src, title, href, btnText, children }) => {
+const Card = ({ src, title, href, btnText, children, isVideo }) => {
   return (
     <div className={styles.card}>
-      <img alt='blog' className={styles.img} src={src} />
+      {isVideo ? (
+        <iframe
+          src={src}
+          title='YouTube video player'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+          allowFullScreen
+          className={styles.img}
+        ></iframe>
+      ) : (
+        <img alt='blog' className={styles.img} src={src} />
+      )}
       <div className={styles.data}>
         <h2 className='h3'>{title}</h2>
         {children}

@@ -1,6 +1,6 @@
 import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/courses.png';
+import BannerImage from '../../../assets/home/mentorship.png';
 
 const Mentorship = ({ background = 'static' }) => {
   return (
