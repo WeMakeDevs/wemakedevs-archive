@@ -5,7 +5,7 @@ import styles from './index.module.css';
 import ArrowLink from '../../links/ArrowLink';
 import ButtonLink from '../../links/ButtonLink';
 import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/events.png';
+import BannerImage from '../../../assets/home/newblogimage.jpg';
 
 const Content = ({ background = 'static' }) => {
   return (

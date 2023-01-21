@@ -3,7 +3,7 @@ import { Tweet } from 'react-twitter-widgets';
 
 import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/events.png';
+import BannerImage from '../../../assets/home/latestevents.png';
 
 const Events = ({ background = 'static' }) => {
   return (
