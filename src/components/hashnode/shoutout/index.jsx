@@ -7,10 +7,10 @@ import BannerImage from '../../../assets/home/events.png';
 
 const Events = ({ background = 'static' }) => {
   return (
-    <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
+    <>
       <ColumnSection
         id='events'
-        as='div'
+        background={background}
         imgSrc={BannerImage}
         title='How to participate'
         direction='right'
@@ -32,32 +32,19 @@ const Events = ({ background = 'static' }) => {
           exclusive swag!
         </ListItem>
       </ColumnSection>
-      <div
+      <section
         className='layout'
         style={{
-          paddingBottom: '5rem',
-          paddingtop: '3rem',
+          paddingBlock: '6rem',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          flexDirection: 'column',
+          gap: '1.5rem',
         }}
       >
-        <h2
-          className='h2'
-          style={{
-            textAlign: 'center',
-          }}
-        >
-          {' '}
-          View past events{' '}
-        </h2>
-        <br />
-        <hr
-          className='styled-hr'
-          style={{
-            textAlign: 'center',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-          }}
-        />
-        <br />
+        <h2 className='h1'>Previous winners</h2>
+        <hr className='styled-hr' />
         <Carousel
           cols={3}
           rows={1}
@@ -67,9 +54,6 @@ const Events = ({ background = 'static' }) => {
           showDots
           hideArrow
           loop
-          style={{
-            margintop: '4rem',
-          }}
         >
           {tweetId.map((id) => (
             <Carousel.Item
@@ -82,8 +66,8 @@ const Events = ({ background = 'static' }) => {
             </Carousel.Item>
           ))}
         </Carousel>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
