@@ -15,6 +15,10 @@ const Events = ({ background = 'static' }) => {
         title='Events'
         buttonLinks={[
           {
+            href: '/hashnode',
+            name: 'Blogging challenge',
+          },
+          {
             href: 'https://github.com/WeMakeDevs/events',
             name: 'Ongoing events',
           },
