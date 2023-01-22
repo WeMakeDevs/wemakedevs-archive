@@ -1,0 +1,21 @@
+.hashnodeMain {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.hashnodeSpecial {
+  width: 500px;
+  height: 500px;
+}
+@media screen and (max-width: 600px) {
+  .hashnodeSpecial {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .hashnodeSpecial {
+    width: 200px;
+    height: 200px;
+  }
+}

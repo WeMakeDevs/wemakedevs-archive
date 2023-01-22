@@ -12,46 +12,52 @@ const Events = ({ background = 'static' }) => {
         id='events'
         as='div'
         imgSrc={BannerImage}
-        title='Events'
-        buttonLinks={[
-          {
-            href: 'https://github.com/WeMakeDevs/events',
-            name: 'Ongoing events',
-          },
-          {
-            href: 'https://devpost.com/hackathons?search=wemakedevs',
-            name: 'Hackathons',
-          },
-        ]}
+        title='How to participate'
         direction='right'
       >
         <ListItem>
+          Write and publish a blog of the given themes on hashnode and
           <span className='highlight highlight--white'>
-            All of our events are completely free and open for everyone.
+            use the hashtag #WeMakeDevs while publishing it.
           </span>{' '}
-          Fun-filled events with no compromise on quality.
         </ListItem>
         <ListItem>
-          Events conducted will help{' '}
+          Share your blogs on Twitter and
           <span className='highlight highlight--white'>
-            develop various skills of students{' '}
+            tag @WeMakeDevs and @hashnode.
           </span>
-          in co-curricular activities and to expose them to the current trends
-          in the technical and professional fields.
         </ListItem>
         <ListItem>
-          Explore the plethora of events & have the opportunity to{' '}
-          <span className='highlight highlight--white'>
-            grab amazing prizes & goodies!
-          </span>
+          We will select monthly winners from each track who will get some
+          exclusive swag!
         </ListItem>
       </ColumnSection>
       <div
         className='layout'
         style={{
           paddingBottom: '5rem',
+          paddingtop: '3rem',
         }}
       >
+        <h2
+          className='h2'
+          style={{
+            textAlign: 'center',
+          }}
+        >
+          {' '}
+          View past events{' '}
+        </h2>
+        <br />
+        <hr
+          className='styled-hr'
+          style={{
+            textAlign: 'center',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+          }}
+        />
+        <br />
         <Carousel
           cols={3}
           rows={1}
@@ -61,6 +67,9 @@ const Events = ({ background = 'static' }) => {
           showDots
           hideArrow
           loop
+          style={{
+            margintop: '4rem',
+          }}
         >
           {tweetId.map((id) => (
             <Carousel.Item
