@@ -16,7 +16,7 @@ const Navbar = () => {
     <>
       <header className={styles.header}>
         <div className={clsx('layout', styles.headerContainer)}>
-          <UnstyledLink href='#'>
+          <UnstyledLink href='/#'>
             <Logo />
           </UnstyledLink>
           <NavigationLinks style={styles.nav} open={open} setOpen={setOpen} />

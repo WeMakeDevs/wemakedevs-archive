@@ -10,28 +10,6 @@
   max-width: 900px;
 }
 
-/* Mobile Screen */
-.h1 {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  text-align: center;
-  font-weight: 600;
-}
-/* Small Tablet */
-@media (min-width: 640px) {
-  .h1 {
-    font-size: 3.75rem /* 60px */;
-    line-height: 1;
-  }
-}
-/* Laptop Size */
-@media (min-width: 1280px) {
-  .h1 {
-    font-size: 6rem /* 96px */;
-    line-height: 1;
-  }
-}
-
 .tagLine {
   font-size: 0.9rem;
   color: var(--clr-content);

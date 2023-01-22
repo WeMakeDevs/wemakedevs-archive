@@ -5,11 +5,11 @@ import styles from './index.module.css';
 import ArrowLink from '../../links/ArrowLink';
 import ButtonLink from '../../links/ButtonLink';
 
-const Header = () => {
+const Hero = () => {
   return (
     <section className={styles['header-container']}>
       <div className={clsx('layout', styles.layout)}>
-        <h1 className={styles.h1}>Inspire. Educate. Empower</h1>
+        <h1 className='heading'>Inspire. Educate. Empower</h1>
         <p className={styles.tagLine}>
           This is a community which provides{' '}
           <span className='highlight highlight--light'>
@@ -45,4 +45,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;

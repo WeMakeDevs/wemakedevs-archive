@@ -1,4 +1,25 @@
 /* #region  /**=========== Typography =========== */
+/* Mobile Screen */
+.heading {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+/* Small Tablet */
+@media (min-width: 640px) {
+  .heading {
+    font-size: 3.75rem /* 60px */;
+    line-height: 1;
+  }
+}
+/* Laptop Size */
+@media (min-width: 1280px) {
+  .heading {
+    font-size: 6rem /* 96px */;
+    line-height: 1;
+  }
+}
 .h0 {
   color: var(--clr-content);
   font-size: 1.875rem /* 30px */;

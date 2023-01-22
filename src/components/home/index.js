@@ -4,7 +4,7 @@ export { default as Courses } from './courses/index.jsx';
 export { default as Events } from './events';
 export { default as FAQ } from './FAQ';
 export { default as HashnodeNewsletter } from './HashnodeNewsLetter';
-export { default as Header } from './header';
+export { default as Hero } from './Hero';
 export { default as JoinUs } from './JoinUs';
 export { default as Mentorship } from './Mentorship';
 export { default as NewsLetter } from './NewsLetter';

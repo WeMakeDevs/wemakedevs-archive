@@ -6,21 +6,25 @@ import styles from './index.module.css';
 import NewsLetter from '../NewsLetter';
 import UnstyledLink from '../../links/UnstyledLink';
 
-function JoinUs() {
+function JoinUs({ background }) {
   return (
-    <section className={clsx('layout', styles.section)}>
-      <div id='join' className={styles.join}>
-        <div className={clsx(styles.layout, 'layout')}>
-          <h2 className='h1'>Join us</h2>
-          <hr className='styled-hr' />
-          <div className={styles.wrapperCard}>
-            {data.map((item) => (
-              <JoinUsCard key={item.title} {...item} />
-            ))}
+    <section
+      className={clsx(background === 'gradient' ? 'gradient' : 'static-bg')}
+    >
+      <div className={clsx('layout', styles.section)}>
+        <div id='join' className={styles.join}>
+          <div className={clsx(styles.layout, 'layout')}>
+            <h2 className='h1'>Join us</h2>
+            <hr className='styled-hr' />
+            <div className={styles.wrapperCard}>
+              {data.map((item) => (
+                <JoinUsCard key={item.title} {...item} />
+              ))}
+            </div>
           </div>
         </div>
+        <NewsLetter />
       </div>
-      <NewsLetter />
     </section>
   );
 }

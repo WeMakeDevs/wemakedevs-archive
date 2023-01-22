@@ -6,6 +6,7 @@ import './styles/typography.css';
 import './styles/utils.css';
 
 import ErrorPage from './pages/ErrorPage';
+import HashnodePage from './pages/Hashnode';
 import HomePage from './pages/HomePage';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
     <div className='main'>
       <Routes>
         <Route exact path='/' element={<HomePage />} />
+        <Route exact path='/hashnode' element={<HashnodePage />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
     </div>

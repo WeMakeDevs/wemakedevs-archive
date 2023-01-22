@@ -41,6 +41,9 @@
 .highlight.highlight--white {
   color: var(--clr-white);
 }
+.highlight.highlight--yelow {
+  color: rgb(241, 196, 15);
+}
 
 /* Make text white */
 .text-primary {

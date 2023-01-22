@@ -3,59 +3,48 @@ import { Tweet } from 'react-twitter-widgets';
 
 import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/latestevents.png';
+import BannerImage from '../../../assets/home/events.png';
 
 const Events = ({ background = 'static' }) => {
   return (
-    <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
+    <>
       <ColumnSection
         id='events'
-        as='div'
+        background={background}
         imgSrc={BannerImage}
-        title='Events'
-        buttonLinks={[
-          {
-            href: '/hashnode',
-            name: 'Blogging challenge',
-          },
-          {
-            href: 'https://github.com/WeMakeDevs/events',
-            name: 'Ongoing events',
-          },
-          {
-            href: 'https://devpost.com/hackathons?search=wemakedevs',
-            name: 'Hackathons',
-          },
-        ]}
+        title='How to participate'
         direction='right'
       >
         <ListItem>
+          Write and publish a blog of the given themes on hashnode and
           <span className='highlight highlight--white'>
-            All of our events are completely free and open for everyone.
+            use the hashtag #WeMakeDevs while publishing it.
           </span>{' '}
-          Fun-filled events with no compromise on quality.
         </ListItem>
         <ListItem>
-          Events conducted will help{' '}
+          Share your blogs on Twitter and
           <span className='highlight highlight--white'>
-            develop various skills of students{' '}
+            tag @WeMakeDevs and @hashnode.
           </span>
-          in co-curricular activities and to expose them to the current trends
-          in the technical and professional fields.
         </ListItem>
         <ListItem>
-          Explore the plethora of events & have the opportunity to{' '}
-          <span className='highlight highlight--white'>
-            grab amazing prizes & goodies!
-          </span>
+          We will select monthly winners from each track who will get some
+          exclusive swag!
         </ListItem>
       </ColumnSection>
-      <div
+      <section
         className='layout'
         style={{
-          paddingBottom: '5rem',
+          paddingBlock: '6rem',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          flexDirection: 'column',
+          gap: '1.5rem',
         }}
       >
+        <h2 className='h1'>Previous winners</h2>
+        <hr className='styled-hr' />
         <Carousel
           cols={3}
           rows={1}
@@ -77,8 +66,8 @@ const Events = ({ background = 'static' }) => {
             </Carousel.Item>
           ))}
         </Carousel>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
