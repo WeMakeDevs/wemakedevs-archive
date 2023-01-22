@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <section className={styles['header-container']}>
       <div className={clsx('layout', styles.layout)}>
-        <h1 className={styles.h1}>Inspire. Educate. Empower</h1>
+        <h1 className='heading'>Inspire. Educate. Empower</h1>
         <p className={styles.tagLine}>
           This is a community which provides{' '}
           <span className='highlight highlight--light'>
