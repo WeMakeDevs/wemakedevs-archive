@@ -1,26 +1,25 @@
-import './Hashnode.css';
+import clsx from 'clsx';
 
-import CardsList from './CardsList.js';
+// import './Hashnode.css';
+import styles from './index.module.css';
 
-const index = () => {
+import Card from './Card';
+import { hashnodeData } from './data';
+
+const Track = () => {
   return (
-    <section className='layout' style={{ marginTop: '9rem' }}>
-      <h1
-        className='h1'
-        // style={{
-        //   maxWidth: '1200px',
-        //   margin: 'auto',
-        // }}
-      >
-        {' '}
-        Current tracks{' '}
-      </h1>
-      <br />
-      <hr className='styled-hr' />
-      <br />
-      <CardsList />
+    <section style={styles.section}>
+      <div className={clsx('layout', styles.layout)}>
+        <h1 className='h1'> Current tracks </h1>
+        <hr className={clsx('styled-hr', styles.hr)} />
+        <div className={styles.cardsContainer} id='#roadmaps'>
+          {hashnodeData.map((hashnode) => (
+            <Card {...hashnode} key={hashnode.image} />
+          ))}
+        </div>
+      </div>
     </section>
   );
 };
 
-export default index;
+export default Track;
