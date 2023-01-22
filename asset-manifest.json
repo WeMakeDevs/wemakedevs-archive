@@ -1,12 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.74c9aa64.css",
-    "main.js": "/static/js/main.a80ecc95.js",
+    "main.css": "/static/css/main.f2d16fa3.css",
+    "main.js": "/static/js/main.c37d4138.js",
     "static/media/newblogimage.jpg": "/static/media/newblogimage.ceedfaf09c808e3d5ff3.jpg",
     "static/media/mentorship.png": "/static/media/mentorship.c52b5a8810eecbce6755.png",
     "static/media/latestevents.png": "/static/media/latestevents.2a57a2ed276da7a2cb31.png",
+    "static/media/Special-Prize.png": "/static/media/Special-Prize.b7ca072ce1e0842fc7c4.png",
     "static/media/aboutus.png": "/static/media/aboutus.02f2915b9ae736e9ef8a.png",
+    "static/media/events.png": "/static/media/events.dd774e9084b339ee0973.png",
     "static/media/courses.png": "/static/media/courses.f2c1856875197487b345.png",
+    "static/media/Special-Track-2022.png": "/static/media/Special-Track-2022.f577119a92167b0ede74.png",
+    "static/media/Track-4.png": "/static/media/Track-4.3c4e466b85b174c54eeb.png",
+    "static/media/Track-2.png": "/static/media/Track-2.3223df417a7c57ccdabd.png",
+    "static/media/Track-1.png": "/static/media/Track-1.4e1d9d45becd7bdf2bab.png",
+    "static/media/Track-3.png": "/static/media/Track-3.45c6ed9f27def5389591.png",
+    "static/media/Hashnode.webp": "/static/media/Hashnode.f0896eac4673665c25a0.webp",
     "static/media/prasanna.jpg": "/static/media/prasanna.3a2e6c84e755b6a7cf93.jpg",
     "static/media/sivanithin.jpg": "/static/media/sivanithin.6b76f56b37a1293f5640.jpg",
     "static/media/ekjottest2.jpg": "/static/media/ekjottest2.6c4241c6a4e1ee7b463d.jpg",
@@ -23,11 +31,11 @@
     "static/media/Samsung.svg": "/static/media/Samsung.1c9ca4e46c4fc8108bdafbe318e3125f.svg",
     "static/media/virtusa.svg": "/static/media/virtusa.3d2ff420e957c43330c07f5ee6c6e737.svg",
     "index.html": "/index.html",
-    "main.74c9aa64.css.map": "/static/css/main.74c9aa64.css.map",
-    "main.a80ecc95.js.map": "/static/js/main.a80ecc95.js.map"
+    "main.f2d16fa3.css.map": "/static/css/main.f2d16fa3.css.map",
+    "main.c37d4138.js.map": "/static/js/main.c37d4138.js.map"
   },
   "entrypoints": [
-    "static/css/main.74c9aa64.css",
-    "static/js/main.a80ecc95.js"
+    "static/css/main.f2d16fa3.css",
+    "static/js/main.c37d4138.js"
   ]
 }
