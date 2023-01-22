@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 import styles from './index.module.css';
 
-const NewsLetter = ({ background = 'static' }) => {
+const NewsLetter = () => {
   const [iframeHeight, setIframeHeight] = useState(670);
 
   useEffect(() => {
@@ -19,13 +19,7 @@ const NewsLetter = ({ background = 'static' }) => {
   }, []);
 
   return (
-    <div
-      id='newsletter'
-      className={clsx(
-        styles.section,
-        background === 'gradient' ? 'gradient' : 'static-bg'
-      )}
-    >
+    <div id='newsletter' className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
         <h2 className='h1'>Subscribe to our newsletter</h2>
         <hr className='styled-hr' />
