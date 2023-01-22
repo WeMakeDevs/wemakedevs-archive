@@ -4,7 +4,7 @@ import {
   Courses,
   Events,
   FAQ,
-  Header,
+  Hero,
   JoinUs,
   Mentorship,
   Partner,
@@ -17,7 +17,7 @@ const HomePage = () => {
   return (
     <>
       <Navbar />
-      <Header />
+      <Hero />
       <About background='gradient' />
       <Courses />
       <Mentorship background='gradient' />

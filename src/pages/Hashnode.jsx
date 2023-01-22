@@ -1,8 +1,4 @@
-import { Header } from '../components/hashnode';
-import { Offer } from '../components/hashnode';
-import { Prize } from '../components/hashnode';
-import { Track } from '../components/hashnode';
-import { Shoutout } from '../components/hashnode';
+import { Hero, Offer, Prize, Shoutout, Track } from '../components/hashnode';
 import { FAQ, JoinUs, Partner } from '../components/home';
 import Footer from '../components/layout/Footer';
 import Navbar from '../components/layout/Header';
@@ -11,14 +7,14 @@ const HashnodePage = () => {
   return (
     <>
       <Navbar />
-      <Header />
+      <Hero />
       <Offer />
-      <Prize />
+      <Prize background='gradient' />
       <Track />
-      <Shoutout />
-      <JoinUs />
+      <Shoutout background='gradient' />
+      <JoinUs background='gradient' />
       <FAQ />
-      <Partner />
+      <Partner background='gradient' />
       <Footer />
     </>
   );

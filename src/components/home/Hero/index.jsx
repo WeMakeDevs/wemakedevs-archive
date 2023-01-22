@@ -5,7 +5,7 @@ import styles from './index.module.css';
 import ArrowLink from '../../links/ArrowLink';
 import ButtonLink from '../../links/ButtonLink';
 
-const Header = () => {
+const Hero = () => {
   return (
     <section className={styles['header-container']}>
       <div className={clsx('layout', styles.layout)}>
@@ -45,4 +45,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;
