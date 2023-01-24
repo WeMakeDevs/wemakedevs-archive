@@ -16,13 +16,13 @@ const Events = ({ background = 'static' }) => {
         direction='right'
       >
         <ListItem>
-          Write and publish a blog of the given themes on hashnode and
+          Write and publish a blog of the given themes on hashnode and{' '}
           <span className='highlight highlight--white'>
             use the hashtag #WeMakeDevs while publishing it.
           </span>{' '}
         </ListItem>
         <ListItem>
-          Share your blogs on Twitter and
+          Share your blogs on Twitter and{' '}
           <span className='highlight highlight--white'>
             tag @WeMakeDevs and @hashnode.
           </span>
