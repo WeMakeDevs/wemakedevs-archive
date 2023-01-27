@@ -15,7 +15,7 @@ const Events = ({ background = 'static' }) => {
         title='Events'
         buttonLinks={[
           {
-            href: '/event',
+            href: '/events',
             name: 'Ongoing events',
           },
           {
