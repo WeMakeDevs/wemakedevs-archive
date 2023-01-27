@@ -20,7 +20,7 @@ const App = () => {
         <Routes>
           <Route exact path='/' element={<HomePage />} />
           <Route exact path='/events' element={<EventsPage />} />
-          <Route exact path='/event/hashnode' element={<HashnodePage />} />
+          <Route exact path='/events/hashnode' element={<HashnodePage />} />
           <Route path='*' element={<ErrorPage />} />
         </Routes>
       </div>

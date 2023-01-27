@@ -1,28 +1,18 @@
-import {
-  About,
-  Hero,
-  Prize,
-  Shoutout,
-  Stats,
-  Track,
-} from '../components/eventspage';
-import { FAQ, JoinUs, Partner } from '../components/home';
-import Footer from '../components/layout/Footer';
-import Navbar from '../components/layout/Header';
+import { EventsPageContent } from './content';
+import { About, Hero, Prize, Track } from '../components/eventspage';
+import { FAQ, Footer, JoinUs, Navbar, Partner } from '../components/layout';
 
 const EventsPage = () => {
   return (
     <>
-      <Navbar />
+      <Navbar links={EventsPageContent.header} />
       <Hero />
       <About background='gradient' />
-      <Stats background='gradient' />
-      <Shoutout background='gradient' />
-      <Prize background='gradient' />
-      <Track />
-      <JoinUs background='gradient' />
-      <FAQ />
-      <Partner background='gradient' />
+      <Prize />
+      <Track background='gradient' />
+      <JoinUs />
+      <FAQ background='gradient' faq={EventsPageContent.faq} />
+      <Partner />
       <Footer />
     </>
   );

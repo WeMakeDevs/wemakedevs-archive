@@ -1,12 +1,9 @@
 .section {
   padding-block: 6rem;
 }
-.layout {
-  text-align: center;
-}
+
 .hr {
   margin-block: 1.5rem;
-  margin-inline: auto;
 }
 .hashnodeSpecial {
   max-width: 650px;
@@ -15,4 +12,22 @@
   border: 2px solid var(--clr-content);
   border-radius: 10px;
   overflow: hidden;
+}
+
+.cardsContainer {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (min-width: 800px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cardsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

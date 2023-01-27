@@ -15,7 +15,7 @@ const Events = ({ background = 'static' }) => {
         title='Events'
         buttonLinks={[
           {
-            href: 'https://github.com/WeMakeDevs/events',
+            href: '/event',
             name: 'Ongoing events',
           },
           {

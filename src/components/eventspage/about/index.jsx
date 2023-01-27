@@ -1,3 +1,4 @@
+import { Shoutout, Stats } from '..';
 import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
 import AboutImage from '../../../assets/home/aboutus.png';
@@ -12,22 +13,19 @@ const About = ({ background = 'static' }) => {
         title='About'
         buttonLinks={[
           {
-            name: 'Events Repo',
+            name: 'Events repo',
             href: 'https://github.com/WeMakeDevs/events',
           },
         ]}
       >
         <ListItem>
           Explore events in various domains to{' '}
-          <span className='highlight highlight--white'>
-            {' '}
-            upskill yourself.{' '}
-          </span>
+          <span className='highlight highlight--white'>upskill yourself. </span>
         </ListItem>
         <ListItem>
           Network with{' '}
-          <span className='highlight highlight--white'>industry experts </span>{' '}
-          , and win amazing prizes by{' '}
+          <span className='highlight highlight--white'>industry experts</span>,
+          and win amazing prizes by{' '}
           <span className='highlight highlight--white'>
             showcasing your knowledge.
           </span>
@@ -40,6 +38,8 @@ const About = ({ background = 'static' }) => {
           </span>
         </ListItem>
       </ColumnSection>
+      <Stats />
+      <Shoutout />
     </section>
   );
 };

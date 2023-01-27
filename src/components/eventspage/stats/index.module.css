@@ -1,10 +1,9 @@
 .section {
   color: var(--clr-content);
-  margin-top: 1.5em;
 }
 
 .layout {
-  padding-bottom: 6rem;
+  padding-top: 6rem;
   margin-inline: auto;
 }
 

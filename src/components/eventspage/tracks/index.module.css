@@ -20,26 +20,26 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
-.cardsContainer .card {
+.card {
   border: 1px solid #dee4ed;
   border-radius: 8px 8px 8px 8px;
   overflow: hidden;
 }
 
-.cardsContainer .card .cardDetails {
+.card .cardDetails {
   padding: 20px;
 }
 
-.cardsContainer h2 {
+.card h2 {
   font-size: 24px;
   padding-bottom: 10px;
 }
 
-.cardsContainer img {
+.card img {
   width: 100%;
 }
 
-.cardsContainer p {
+.card p {
   font-size: 18px;
   color: #ffffff;
   line-height: 145%;
