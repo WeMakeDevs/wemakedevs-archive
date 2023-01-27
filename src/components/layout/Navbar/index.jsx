@@ -10,8 +10,9 @@ import HeaderLink from '../../links/HeaderLink';
 import UnstyledLink from '../../links/UnstyledLink';
 import Logo from '../../../Icons/core/Logo';
 
-const Navbar = () => {
+const Navbar = ({ links }) => {
   const [open, setOpen] = React.useState(false);
+
   return (
     <>
       <header className={styles.header}>
@@ -19,7 +20,12 @@ const Navbar = () => {
           <UnstyledLink href='/#'>
             <Logo />
           </UnstyledLink>
-          <NavigationLinks style={styles.nav} open={open} setOpen={setOpen} />
+          <NavigationLinks
+            style={styles.nav}
+            open={open}
+            setOpen={setOpen}
+            links={links}
+          />
           <button className={styles.menuBtn} onClick={() => setOpen((p) => !p)}>
             <span className='sr-only'>Menu</span>
             <svg
@@ -52,6 +58,7 @@ const Navbar = () => {
           open={open}
           setOpen={setOpen}
           style={styles.navMobile}
+          links={links}
         />
       </Backdrop>
     </>
@@ -60,10 +67,10 @@ const Navbar = () => {
 
 export default Navbar;
 
-const NavigationLinks = ({ style, open, setOpen }) => {
+const NavigationLinks = ({ style, open, setOpen, links }) => {
   return (
     <nav className={clsx(style, open && styles.open)}>
-      {links.map((link) => (
+      {links?.map((link) => (
         <HeaderLink
           onClick={() => setOpen(false)}
           href={link.href}
@@ -78,26 +85,3 @@ const NavigationLinks = ({ style, open, setOpen }) => {
     </nav>
   );
 };
-
-export const links = [
-  {
-    name: 'Courses',
-    href: '#courses',
-  },
-  {
-    name: 'Mentorship',
-    href: '#mentorship',
-  },
-  {
-    name: 'Events',
-    href: '#events',
-  },
-  {
-    name: 'Newsroom',
-    href: '#content',
-  },
-  {
-    name: 'Join',
-    href: '#join',
-  },
-];

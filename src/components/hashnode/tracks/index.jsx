@@ -8,7 +8,7 @@ import { hashnodeData } from './data';
 
 const Track = () => {
   return (
-    <section style={styles.section}>
+    <section style={styles.section} id='sec-tracks'>
       <div className={clsx('layout', styles.layout)}>
         <h1 className='h1'> Current tracks </h1>
         <hr className={clsx('styled-hr', styles.hr)} />

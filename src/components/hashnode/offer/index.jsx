@@ -2,11 +2,11 @@ import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
 import BannerImage from '../../../assets/home/courses.png';
 
-const Courses = ({ background = 'static' }) => {
+const Offer = ({ background = 'static' }) => {
   return (
     <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
       <ColumnSection
-        id='courses'
+        id='sec-offer'
         imgSrc={BannerImage}
         title='What we offer'
         direction='right'
@@ -33,4 +33,4 @@ const Courses = ({ background = 'static' }) => {
   );
 };
 
-export default Courses;
+export default Offer;
