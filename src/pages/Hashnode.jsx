@@ -1,19 +1,18 @@
-import { Hero, Offer, Prize, Shoutout, Track } from '../components/hashnode';
-import { FAQ, JoinUs, Partner } from '../components/home';
-import Footer from '../components/layout/Footer';
-import Navbar from '../components/layout/Header';
+import { HashnodePageContent } from './content';
+import { Hero, HowTakePart, Offer, Prize, Track } from '../components/hashnode';
+import { FAQ, Footer, JoinUs, Navbar, Partner } from '../components/layout';
 
 const HashnodePage = () => {
   return (
     <>
-      <Navbar />
+      <Navbar links={HashnodePageContent.header} />
       <Hero />
       <Offer />
       <Prize background='gradient' />
       <Track />
-      <Shoutout background='gradient' />
+      <HowTakePart background='gradient' />
       <JoinUs background='gradient' />
-      <FAQ />
+      <FAQ faq={HashnodePageContent.faq} />
       <Partner background='gradient' />
       <Footer />
     </>

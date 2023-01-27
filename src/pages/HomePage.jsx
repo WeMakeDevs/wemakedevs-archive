@@ -1,22 +1,26 @@
+import { HomePageContent } from './content';
 import {
   About,
   Content,
   Courses,
   Events,
-  FAQ,
   Hero,
-  JoinUs,
   Mentorship,
-  Partner,
 } from '../components/home';
-import PartnerTestimonials from '../components/home/PartnerTestimonials';
-import Banner from '../components/layout/Banner';
-import Footer from '../components/layout/Footer';
-import Navbar from '../components/layout/Header';
+import {
+  Banner,
+  FAQ,
+  Footer,
+  JoinUs,
+  Navbar,
+  Partner,
+  PartnerTestimonials,
+} from '../components/layout';
+
 const HomePage = () => {
   return (
     <>
-      <Navbar />
+      <Navbar links={HomePageContent.header} />
       <Hero />
       <About background='gradient' />
       <Courses />
@@ -24,7 +28,7 @@ const HomePage = () => {
       <Events />
       <Content background='gradient' />
       <JoinUs />
-      <FAQ background='gradient' />
+      <FAQ background='gradient' faq={HomePageContent.faq} />
       <Partner />
       <PartnerTestimonials />
       <Footer />
