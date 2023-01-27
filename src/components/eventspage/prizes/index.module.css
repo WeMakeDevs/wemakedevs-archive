@@ -1,0 +1,18 @@
+.section {
+  padding-block: 6rem;
+}
+.layout {
+  text-align: center;
+}
+.hr {
+  margin-block: 1.5rem;
+  margin-inline: auto;
+}
+.hashnodeSpecial {
+  max-width: 650px;
+  width: 100%;
+  aspect-ratio: 1562/1207;
+  border: 2px solid var(--clr-content);
+  border-radius: 10px;
+  overflow: hidden;
+}
