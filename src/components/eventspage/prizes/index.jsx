@@ -20,7 +20,7 @@ const Prizes = ({ background }) => {
           <Card
             description='Every month we will be having 4 tracks. You can write one or multiple blogs on the given tracks. The best blogs will receive hashnode swag.'
             image={Hashnode}
-            url='/event/hashnode'
+            url='/events/hashnode'
             btnText='Know more'
           />
         </div>
