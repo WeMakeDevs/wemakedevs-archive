@@ -5,11 +5,11 @@ import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
 import BannerImage from '../../../assets/home/events.png';
 
-const Events = ({ background = 'static' }) => {
+const HowTakePart = ({ background = 'static' }) => {
   return (
     <>
       <ColumnSection
-        id='events'
+        id='sec-take-part'
         background={background}
         imgSrc={BannerImage}
         title='How to participate'
@@ -71,7 +71,7 @@ const Events = ({ background = 'static' }) => {
   );
 };
 
-export default Events;
+export default HowTakePart;
 
 const tweetId = [
   '1559753424681717761',

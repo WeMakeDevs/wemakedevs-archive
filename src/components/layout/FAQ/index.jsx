@@ -2,10 +2,9 @@ import clsx from 'clsx';
 
 import styles from './index.module.css';
 
-import { data } from './data';
 import Accordion from '../../Accordion/Accordion';
 
-const FAQ = ({ background = 'static' }) => {
+const FAQ = ({ background = 'static', faq }) => {
   return (
     <section
       id='faq'
@@ -18,8 +17,8 @@ const FAQ = ({ background = 'static' }) => {
         <h2 className='h1'>FAQs</h2>
         <hr className={clsx('styled-hr', styles.headingLine)} />
         <div className={styles.faqContainer}>
-          <Accordion data={data.faqs.slice(0, 3)}></Accordion>
-          <Accordion data={data.faqs.slice(3, 6)}></Accordion>
+          <Accordion data={faq.slice(0, 3)}></Accordion>
+          <Accordion data={faq.slice(3, 6)}></Accordion>
         </div>
       </div>
     </section>
