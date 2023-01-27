@@ -24,7 +24,7 @@ const Banner = () => {
           className={styles.btn}
           as={UnstyledLink}
           openNewTabIcon
-          href='https://github.com/WeMakeDevs/events'
+          href='/events'
         >
           Events
         </Button>

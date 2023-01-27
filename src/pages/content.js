@@ -122,3 +122,61 @@ export const HashnodePageContent = {
     },
   ],
 };
+
+export const EventsPageContent = {
+  header: [
+    {
+      name: 'Events',
+      href: '#events',
+    },
+    {
+      name: 'Upcoming',
+      href: '#upcoming',
+    },
+    {
+      name: 'Past',
+      href: '#past',
+    },
+    {
+      name: 'Join',
+      href: '#join',
+    },
+  ],
+  faq: [
+    {
+      id: 'FAQ1',
+      question: 'How do I win the grand prize?',
+      answer:
+        'Submit good quality blogs for the tracks. The blogger with best quailiy of blogs will win the grand prize',
+    },
+    {
+      id: 'FAQ2',
+      question: 'How to I join this event?',
+      answer:
+        'Write and publish a blog of the given themes on hashnode and use the hashtag #WeMakeDevs while publishing it.',
+    },
+    {
+      id: 'FAQ3',
+      question: 'How do I join your community?',
+      answer:
+        'Make sure to join our Discord and Telegram channels. You can find us on all socials media platforms as @wemakedevs',
+    },
+    {
+      id: 'FAQ4',
+      question: 'Do you provide learning resources during the contest?',
+      answer:
+        "Learn, we'll be sharing those in out Discord community. Join along with thousands of others and feel free to ask your doubts in the relevant channels.",
+    },
+    {
+      id: 'FAQ5',
+      question: 'Where do we write our blogs?',
+      answer: 'It is mandatory for you to write your blogs on Hashnode.',
+    },
+    {
+      id: 'FAQ6',
+      question: 'Can I take part multiple times?',
+      answer:
+        'Yes! You can write as many blogs as you want on any of the tracks to increase your chances of wining!',
+    },
+  ],
+};
