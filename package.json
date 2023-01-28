@@ -1,7 +1,7 @@
 {
   "name": "wemakedevs",
   "private": false,
-  "homepage": "https://wemakedevs.org",
+  "homepage": "https://www.wemakedevs.org",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
