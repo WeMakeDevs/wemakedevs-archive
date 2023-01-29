@@ -7,7 +7,7 @@ import ButtonLink from '../../links/ButtonLink';
 
 const Hero = () => {
   return (
-    <section className={styles['header-container']}>
+    <section className={styles['header-container']} id='hero'>
       <div className={clsx('layout', styles.layout)}>
         <h1 className='heading'>Inspire. Educate. Empower</h1>
         <p className={styles.tagLine}>
