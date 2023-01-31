@@ -126,12 +126,12 @@ export const HashnodePageContent = {
 export const EventsPageContent = {
   header: [
     {
-      name: 'Events',
-      href: '#events',
+      name: 'About',
+      href: '#about',
     },
     {
-      name: 'Upcoming',
-      href: '#upcoming',
+      name: 'Ongoing',
+      href: '#ongoing',
     },
     {
       name: 'Past',
@@ -140,6 +140,10 @@ export const EventsPageContent = {
     {
       name: 'Join',
       href: '#join',
+    },
+    {
+      name: 'FAQ',
+      href: '#faq',
     },
   ],
   faq: [
