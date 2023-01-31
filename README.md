@@ -46,8 +46,8 @@ Before starting out, you'll need to install the following on your computer.
 ### 🛠️ Installation
 
 1. Fork the repo
-2. Clone the repository `git clone`
-3. Run `npm i` to install all dependencies
+2. Clone the repository `git clone https://github.com/WeMakeDevs/wemakedevs.git `
+3. Run `npm i` Or `npm install`to install all dependencies
 4. Run `npm start` to start the application
 5. Visit `https://localhost:3000` to view the application
 
