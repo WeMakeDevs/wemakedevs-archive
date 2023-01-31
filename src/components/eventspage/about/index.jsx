@@ -6,18 +6,7 @@ import AboutImage from '../../../assets/home/aboutus.png';
 const About = ({ background = 'static' }) => {
   return (
     <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
-      <ColumnSection
-        id='about'
-        as='div'
-        imgSrc={AboutImage}
-        title='About'
-        buttonLinks={[
-          {
-            name: 'Events repo',
-            href: 'https://github.com/WeMakeDevs/events',
-          },
-        ]}
-      >
+      <ColumnSection id='about' as='div' imgSrc={AboutImage} title='About'>
         <ListItem>
           Explore events in various domains to{' '}
           <span className='highlight highlight--white'>upskill yourself. </span>
