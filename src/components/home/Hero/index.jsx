@@ -33,7 +33,7 @@ const Hero = () => {
           >
             Mentorship
           </ArrowLink>
-          <ArrowLink as={ButtonLink} href='/events' target='_blank'>
+          <ArrowLink as={ButtonLink} href='/events' openNewTab>
             Events
           </ArrowLink>
         </div>
