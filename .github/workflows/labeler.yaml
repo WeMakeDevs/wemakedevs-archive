@@ -1,4 +1,4 @@
-name: "Pull Request Labeler"
+name: 'Pull Request Labeler'
 on:
   pull_request_target:
     types:
@@ -8,11 +8,11 @@ jobs:
   label:
     permissions:
       contents: read
-      pull-requests: write 
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
-    - uses: WeMakeDevs/labeler-action@v2.0.0
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        configuration-path: .github/labeler.yaml
-        sync-labels: false
+      - uses: WeMakeDevs/labeler-action@v2.0.0
+        with:
+          repo-token: '${{ secrets.GITHUB_TOKEN }}'
+          configuration-path: .github/labeler.yaml
+          sync-labels: false

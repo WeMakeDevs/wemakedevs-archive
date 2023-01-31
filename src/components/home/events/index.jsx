@@ -17,6 +17,7 @@ const Events = ({ background = 'static' }) => {
           {
             href: '/events',
             name: 'Ongoing events',
+            target: '_blank',
           },
           {
             href: 'https://devpost.com/hackathons?search=wemakedevs',

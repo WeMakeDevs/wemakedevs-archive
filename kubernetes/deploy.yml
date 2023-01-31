@@ -15,10 +15,10 @@ spec:
         app: wmd
     spec:
       containers:
-      - name: wmd-ctr
-        image: kaiwalyakoparkar/wemakedevs:1.0
-        ports:
-        - containerPort: 3000
+        - name: wmd-ctr
+          image: kaiwalyakoparkar/wemakedevs:1.0
+          ports:
+            - containerPort: 3000
 ---
 # Commenting stuff because I have added loadbalancer service
 apiVersion: v1
