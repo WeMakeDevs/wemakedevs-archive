@@ -11,7 +11,7 @@ export const eventsData = [
     description:
       'WeMakeDevs is running a month long Battlesnake Battleground event. The idea is for you to build your snake, use any algorithm that you like, and compete with people around the world. Anyone with beginner-level coding knowledge can have fun with Battlesnake.',
     image: PastEvent1,
-    url: 'https://github.com/WeMakeDevs/events/blob/main/battlesnake/README.md',
+    url: 'https://youtu.be/FG4Ddsayk6A',
     btnText: 'Know more',
   },
   {
