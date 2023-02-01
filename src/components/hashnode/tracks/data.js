@@ -7,17 +7,17 @@ import Track4 from '../../../assets/hashnode/Track-4.png';
 export const hashnodeData = [
   {
     description:
-      'Write a blog on the topic Development, share some good projects, tips and stand a chance to win prize.',
+      'Write a blog on the topic DevOps, share some projects, tips and stand a chance to win prize.',
     image: Track1,
   },
   {
     description:
-      'Write a blog on the topic Productivity, share some good tips and your experience  and definitely stand a chance to win the prize.',
+      'Write a blog on the topic machine Learning, share some good tips and your experience and definitely stand a chance to win the prize.',
     image: Track2,
   },
   {
     description:
-      'Write a blog on the topic IoT and stand a chance to win the prize.',
+      'Write a blog on the topic Problem Solving and stand a chance to win the prize.',
     image: Track3,
   },
   {
@@ -27,7 +27,7 @@ export const hashnodeData = [
   },
   {
     description:
-      'Write a blog on the special topic 2022 wrap up , share what you have learned and achived this year and stand a chance to win the grand prize.',
+      "Write a blog about the best communities you're a part of and your experiences with them. What do you enjoy about them? How did they help you grow? and you can win a gaming monitor!",
     image: Special,
   },
 ];

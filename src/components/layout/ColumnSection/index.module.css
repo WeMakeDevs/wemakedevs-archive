@@ -3,13 +3,7 @@
   justify-content: space-between;
   gap: 3rem;
   flex-direction: column;
-  padding-block: 5rem;
-}
-
-@media (min-width: 768px) {
-  .container {
-    padding-block: 10rem;
-  }
+  padding-block: 6rem;
 }
 
 @media (min-width: 1024px) {

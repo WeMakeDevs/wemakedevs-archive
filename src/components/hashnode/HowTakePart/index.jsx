@@ -35,7 +35,7 @@ const HowTakePart = ({ background = 'static' }) => {
       <section
         className='layout'
         style={{
-          paddingBlock: '6rem',
+          paddingBottom: '6rem',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -79,8 +79,5 @@ const tweetId = [
   '1593969175651053568',
   '1594773169713205249',
   '1613238456729341953',
-  '1609515604033286144',
-  '1609581274985037824',
-  '1596162105971023872',
   '1616586072020111360',
 ];
