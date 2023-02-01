@@ -18,7 +18,7 @@
 We Make Devs is a community .We believes every student irrespective of college or branch can make it big.
 We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free.We provides lots of resources to start your journey like roadmaps,podcasts,blogs,events.
 <p align="center">
-<img src="https://user-images.githubusercontent.com/114678694/197411491-73f21a05-b556-460f-91e7-821dc525a828.jpg" width="360" height="270" >
+<img src="https://user-images.githubusercontent.com/114678694/197411491-73f21a05-b556-460f-91e7-821dc525a828.jpg" width="460" height="390" >
 </p>
 
 # We Make Devs
