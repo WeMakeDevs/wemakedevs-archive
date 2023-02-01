@@ -5,7 +5,10 @@ import AboutImage from '../../../assets/home/aboutus.png';
 
 const About = ({ background = 'static' }) => {
   return (
-    <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
+    <section
+      className={background === 'gradient' ? 'gradient' : 'static-bg'}
+      id='events'
+    >
       <ColumnSection id='about' as='div' imgSrc={AboutImage} title='About'>
         <ListItem>
           Explore events in various domains to{' '}

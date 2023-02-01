@@ -9,6 +9,7 @@ import { eventsData } from './data';
 const Track = ({ background }) => {
   return (
     <section
+      id='past'
       className={clsx(
         styles.section,
         background === 'gradient' ? 'gradient' : 'static-bg'

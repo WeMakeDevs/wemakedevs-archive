@@ -8,6 +8,7 @@ import Hashnode from '../../../assets/hashnode/Special-Prize.png';
 const Prizes = ({ background }) => {
   return (
     <section
+      id='ongoing'
       className={clsx(
         styles.section,
         background === 'gradient' ? 'gradient' : 'static-bg'
