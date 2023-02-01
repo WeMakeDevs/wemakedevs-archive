@@ -1,5 +1,8 @@
 import clsx from 'clsx';
-import { FaGraduationCap, FaMagic, FaUsers, FaYoutube } from 'react-icons/fa';
+import { BsFillTrophyFill } from 'react-icons/bs';
+import { FaFontAwesomeFlag } from 'react-icons/fa';
+import { MdOutlineAttachMoney } from 'react-icons/md';
+import { VscSymbolEvent } from 'react-icons/vsc';
 
 import styles from './index.module.css';
 const Stats = () => {
@@ -11,28 +14,28 @@ const Stats = () => {
         <div className={styles.statsContainer}>
           <div className={styles.card}>
             <div className={styles.icon}>
-              <FaUsers />
+              <MdOutlineAttachMoney />
             </div>
             <div className={styles.number}>$20,000+</div>
             <div className={styles.title}>Prizes</div>
           </div>
           <div className={styles.card}>
             <div className={styles.icon}>
-              <FaMagic />
+              <FaFontAwesomeFlag />
             </div>
             <div className={styles.number}>70+</div>
             <div className={styles.title}>Countries+</div>
           </div>
           <div className={styles.card}>
             <div className={styles.icon}>
-              <FaYoutube />
+              <BsFillTrophyFill />
             </div>
             <div className={styles.number}>100+</div>
             <div className={styles.title}>Winners</div>
           </div>
           <div className={styles.card}>
             <div className={styles.icon}>
-              <FaGraduationCap />
+              <VscSymbolEvent />
             </div>
             <div className={styles.number}>10+</div>
             <div className={styles.title}>Events</div>
