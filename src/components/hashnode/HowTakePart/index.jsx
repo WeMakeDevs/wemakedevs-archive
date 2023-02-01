@@ -35,7 +35,7 @@ const HowTakePart = ({ background = 'static' }) => {
       <section
         className='layout'
         style={{
-          paddingBlock: '6rem',
+          paddingBottom: '6rem',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
