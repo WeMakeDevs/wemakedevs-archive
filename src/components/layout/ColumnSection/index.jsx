@@ -42,6 +42,7 @@ const ColumnSection = ({
                 href={buttonLink.href}
                 className={styles.btn}
                 as={ButtonLink}
+                openNewTab
               >
                 {buttonLink.name}
               </ArrowLink>

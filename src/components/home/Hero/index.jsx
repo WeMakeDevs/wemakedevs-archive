@@ -33,10 +33,7 @@ const Hero = () => {
           >
             Mentorship
           </ArrowLink>
-          <ArrowLink
-            as={ButtonLink}
-            href='https://github.com/WeMakeDevs/events'
-          >
+          <ArrowLink as={ButtonLink} href='/events' openNewTab>
             Events
           </ArrowLink>
         </div>
