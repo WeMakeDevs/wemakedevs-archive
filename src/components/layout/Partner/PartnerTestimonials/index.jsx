@@ -3,7 +3,7 @@ import clsx from 'clsx';
 
 import styles from './index.module.css';
 
-import { data } from './data';
+import data from './data';
 
 const PartnerTestimonials = () => {
   return (
