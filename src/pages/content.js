@@ -258,6 +258,10 @@ export const SingleCoursesPageHeader = [
     href: '#testimonials',
   },
   {
+    name: 'Syllabus',
+    href: '#syllabus',
+  },
+  {
     name: 'Join',
     href: '#join',
   },

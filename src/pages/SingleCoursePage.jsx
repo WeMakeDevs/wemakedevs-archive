@@ -6,7 +6,7 @@ const CoursesPage = ({ content }) => {
     <Layout content={content}>
       <About content={content.content} />
       <Testimonials tweetId={content.content.tweetId} />
-      {content.content.syllabus.lenght > 0 && (
+      {content.content.syllabus.length > 0 && (
         <Syllabus content={content.content} />
       )}
     </Layout>

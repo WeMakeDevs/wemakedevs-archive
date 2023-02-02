@@ -16,7 +16,13 @@ export const GitGithubPageContent = {
         href: 'https://www.youtube.com/watch?v=apGV9Kg7ics',
       },
     ],
-    syllabus: [],
+    syllabus: [
+      {
+        title: 'In development',
+        description:
+          'Syllabus will be available soon. Subscribe to our YouTube channel to get notified.',
+      },
+    ],
     tweetId: [
       '1620824479395090435',
       '1620081639199244288',
