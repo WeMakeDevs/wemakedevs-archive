@@ -17,7 +17,7 @@ const Offer = ({ background = 'static' }) => {
         </ListItem>
         <ListItem>
           Students will get hands on experience with new & interesting tools.
-          Don't worry, we have got your back! We will be provide resources.
+          Don't worry, we have got your back! We will be providing resources.
         </ListItem>
         <ListItem>
           Don't know how to create a personal brand? You have come to the right
