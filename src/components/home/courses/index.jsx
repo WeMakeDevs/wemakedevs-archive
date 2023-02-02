@@ -14,7 +14,7 @@ const Courses = ({ background = 'static' }) => {
         buttonLinks={[
           {
             name: 'Explore courses',
-            href: 'https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3',
+            href: '/courses',
           },
         ]}
         background={background}

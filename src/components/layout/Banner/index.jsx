@@ -23,7 +23,7 @@ const Banner = () => {
         <Button
           className={styles.btn}
           as={UnstyledLink}
-          openNewTabIcon
+          openNewTab
           href='/events'
         >
           Events

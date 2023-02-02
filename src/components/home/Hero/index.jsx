@@ -21,10 +21,7 @@ const Hero = () => {
           approach.
         </p>
         <div className={styles.links}>
-          <ArrowLink
-            as={ButtonLink}
-            href='https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3'
-          >
+          <ArrowLink as={ButtonLink} href='/courses' openNewTab>
             Courses
           </ArrowLink>
           <ArrowLink
