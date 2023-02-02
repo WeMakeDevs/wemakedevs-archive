@@ -13,6 +13,7 @@ const Events = () => {
           alignItems: 'center',
           flexDirection: 'column',
           gap: '1.5rem',
+          background: 'transparent',
         }}
       >
         <h2 className='h1'>Tweet testimonials</h2>

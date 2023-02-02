@@ -7,29 +7,19 @@ import {
   Hero,
   Mentorship,
 } from '../components/home';
-import {
-  Banner,
-  FAQ,
-  Footer,
-  JoinUs,
-  Navbar,
-  Partner,
-} from '../components/layout';
+import Layout, { Banner } from '../components/layout';
 
 const HomePage = () => {
   return (
     <>
-      <Navbar links={HomePageContent.header} />
-      <Hero />
-      <About background='gradient' />
-      <Courses />
-      <Mentorship background='gradient' />
-      <Events />
-      <Content background='gradient' />
-      <JoinUs />
-      <FAQ background='gradient' faq={HomePageContent.faq} />
-      <Partner />
-      <Footer />
+      <Layout content={HomePageContent}>
+        <Hero />
+        <About />
+        <Courses />
+        <Mentorship />
+        <Events />
+        <Content />
+      </Layout>
       <Banner />
     </>
   );

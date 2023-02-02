@@ -1,20 +1,15 @@
 import { CoursesPageContent } from './content';
 import { About, Courses, Hero, Testimonials } from '../components/coursespage';
-import { FAQ, Footer, JoinUs, Navbar, Partner } from '../components/layout';
+import Layout from '../components/layout';
 
 const CoursesPage = () => {
   return (
-    <>
-      <Navbar links={CoursesPageContent.header} />
+    <Layout content={CoursesPageContent}>
       <Hero />
-      <About background='gradient' />
+      <About />
       <Courses />
-      <Testimonials background='gradient' />
-      <JoinUs />
-      <FAQ faq={CoursesPageContent.faq} background='gradient' />
-      <Partner />
-      <Footer />
-    </>
+      <Testimonials />
+    </Layout>
   );
 };
 export default CoursesPage;

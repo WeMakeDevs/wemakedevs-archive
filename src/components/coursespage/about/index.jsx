@@ -2,12 +2,9 @@ import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
 import AboutImage from '../../../assets/home/aboutus.png';
 
-const About = ({ background = 'static' }) => {
+const About = () => {
   return (
-    <section
-      className={background === 'gradient' ? 'gradient' : 'static-bg'}
-      id='events'
-    >
+    <section id='events'>
       <ColumnSection id='about' as='div' src={AboutImage} title='About'>
         <ListItem>
           Explore events in various domains to We believe that every student,

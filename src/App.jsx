@@ -17,7 +17,7 @@ const CoursesPage = lazy(() => import('./pages/CoursesPage'));
 const App = () => {
   return (
     <Suspense fallback={<Loader />}>
-      <div className='main'>
+      <div>
         <Routes>
           <Route exact path='/' element={<HomePage />} />
           <Route exact path='/courses' element={<CoursesPage />} />

@@ -5,7 +5,7 @@ import BannerImage from '../../../assets/home/courses.png';
 
 const Courses = ({ background = 'static' }) => {
   return (
-    <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
+    <section>
       <ColumnSection
         id='courses'
         src={BannerImage}

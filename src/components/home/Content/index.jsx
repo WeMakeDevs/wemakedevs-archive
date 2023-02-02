@@ -7,15 +7,9 @@ import ButtonLink from '../../links/ButtonLink';
 import ListItem from '../../Listitem';
 import BannerImage from '../../../assets/home/newblogimage.jpg';
 
-const Content = ({ background = 'static' }) => {
+const Content = () => {
   return (
-    <section
-      id='content'
-      className={clsx(
-        styles.section,
-        background === 'gradient' ? 'gradient' : 'static-bg'
-      )}
-    >
+    <section id='content' className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
         <div>
           <h2 className='h1'>Newsroom</h2>

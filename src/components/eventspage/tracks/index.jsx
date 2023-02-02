@@ -6,15 +6,9 @@ import styles from './index.module.css';
 import Card from './Card';
 import { eventsData } from './data';
 
-const Track = ({ background }) => {
+const Track = () => {
   return (
-    <section
-      id='past'
-      className={clsx(
-        styles.section,
-        background === 'gradient' ? 'gradient' : 'static-bg'
-      )}
-    >
+    <section id='past' className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
         <h1 className='h1'> Past events </h1>
         <hr className={clsx('styled-hr', styles.hr)} />

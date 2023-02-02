@@ -2,9 +2,9 @@ import Carousel from 'better-react-carousel';
 import clsx from 'clsx';
 import { Tweet } from 'react-twitter-widgets';
 
-const HowTakePart = ({ background = 'static' }) => {
+const HowTakePart = () => {
   return (
-    <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
+    <section>
       <div
         className={clsx('layout')}
         style={{
