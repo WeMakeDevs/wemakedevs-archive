@@ -9,7 +9,7 @@ const About = ({ background = 'static' }) => {
       <ColumnSection
         id='about'
         as='div'
-        imgSrc={AboutImage}
+        src={AboutImage}
         title='About us'
         buttonLinks={[
           {

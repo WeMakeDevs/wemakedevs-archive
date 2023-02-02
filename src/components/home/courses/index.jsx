@@ -8,7 +8,7 @@ const Courses = ({ background = 'static' }) => {
     <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
       <ColumnSection
         id='courses'
-        imgSrc={BannerImage}
+        src={BannerImage}
         title='Courses'
         direction='right'
         buttonLinks={[

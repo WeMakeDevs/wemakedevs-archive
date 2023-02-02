@@ -3,7 +3,6 @@ import { Tweet } from 'react-twitter-widgets';
 
 import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/events.png';
 
 const HowTakePart = ({ background = 'static' }) => {
   return (
@@ -11,7 +10,8 @@ const HowTakePart = ({ background = 'static' }) => {
       <ColumnSection
         id='sec-take-part'
         background={background}
-        imgSrc={BannerImage}
+        src='https://www.youtube.com/embed/fNp3IeB6GD4'
+        isVideo
         title='How to participate'
         direction='right'
       >

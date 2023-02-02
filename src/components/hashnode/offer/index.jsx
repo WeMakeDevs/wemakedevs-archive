@@ -1,13 +1,13 @@
 import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/courses.png';
 
 const Offer = ({ background = 'static' }) => {
   return (
     <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
       <ColumnSection
         id='sec-offer'
-        imgSrc={BannerImage}
+        src='https://www.youtube.com/embed/dYIfGvwa0cU'
+        isVideo
         title='What we offer'
         direction='right'
         background={background}

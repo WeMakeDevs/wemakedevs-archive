@@ -11,7 +11,7 @@ const Events = ({ background = 'static' }) => {
       <ColumnSection
         id='events'
         as='div'
-        imgSrc={BannerImage}
+        src={BannerImage}
         title='Events'
         buttonLinks={[
           {

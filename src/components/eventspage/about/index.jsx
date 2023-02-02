@@ -9,7 +9,7 @@ const About = ({ background = 'static' }) => {
       className={background === 'gradient' ? 'gradient' : 'static-bg'}
       id='events'
     >
-      <ColumnSection id='about' as='div' imgSrc={AboutImage} title='About'>
+      <ColumnSection id='about' as='div' src={AboutImage} title='About'>
         <ListItem>
           Explore events in various domains to{' '}
           <span className='highlight highlight--white'>upskill yourself. </span>
