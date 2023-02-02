@@ -5,9 +5,9 @@ import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
 import BannerImage from '../../../assets/home/latestevents.png';
 
-const Events = ({ background = 'static' }) => {
+const Events = () => {
   return (
-    <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
+    <section>
       <ColumnSection
         id='events'
         as='div'
