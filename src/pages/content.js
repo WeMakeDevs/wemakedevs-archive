@@ -192,12 +192,12 @@ export const CoursesPageContent = {
       href: '#about',
     },
     {
-      name: 'Ongoing',
-      href: '#ongoing',
+      name: 'Courses',
+      href: '#courses',
     },
     {
-      name: 'Past',
-      href: '#past',
+      name: 'Testimonials',
+      href: '#testimonials',
     },
     {
       name: 'Join',

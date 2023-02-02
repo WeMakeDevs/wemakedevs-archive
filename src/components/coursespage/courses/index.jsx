@@ -8,7 +8,7 @@ import { eventsData } from './data';
 
 const Courses = () => {
   return (
-    <section id='past' className={styles.section}>
+    <section id='courses' className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
         <h1 className='h1'> Courses </h1>
         <hr className={clsx('styled-hr', styles.hr)} />

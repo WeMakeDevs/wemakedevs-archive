@@ -2,9 +2,9 @@ import Carousel from 'better-react-carousel';
 import clsx from 'clsx';
 import { Tweet } from 'react-twitter-widgets';
 
-const HowTakePart = () => {
+const Testimonials = () => {
   return (
-    <section>
+    <section id='testimonials'>
       <div
         className={clsx('layout')}
         style={{
@@ -47,7 +47,7 @@ const HowTakePart = () => {
   );
 };
 
-export default HowTakePart;
+export default Testimonials;
 
 const tweetId = [
   '1620824479395090435',

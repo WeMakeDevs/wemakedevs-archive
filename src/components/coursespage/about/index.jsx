@@ -4,7 +4,7 @@ import AboutImage from '../../../assets/home/aboutus.png';
 
 const About = () => {
   return (
-    <section id='events'>
+    <section id='about'>
       <ColumnSection id='about' as='div' src={AboutImage} title='About'>
         <ListItem>
           Explore events in various domains to We believe that every student,
