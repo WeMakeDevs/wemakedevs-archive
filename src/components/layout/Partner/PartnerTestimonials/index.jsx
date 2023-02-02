@@ -7,7 +7,7 @@ import data from './data';
 
 const PartnerTestimonials = () => {
   return (
-    <div id='testimonials'>
+    <div>
       <div className={clsx('layout', styles.layout)}>
         <h2 className='h1'>Testimonials</h2>
         <hr className={clsx('styled-hr', styles.headingLine)} />

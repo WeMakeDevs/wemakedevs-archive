@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import styles from './index.module.css';
 
 import Card from './Card';
-import { eventsData } from './data';
+import { courses } from './data';
 
 const Courses = () => {
   return (
@@ -13,7 +13,7 @@ const Courses = () => {
         <h1 className='h1'> Courses </h1>
         <hr className={clsx('styled-hr', styles.hr)} />
         <div className={styles.cardsContainer}>
-          {eventsData.map((hashnode) => (
+          {courses.map((hashnode) => (
             <Card {...hashnode} key={hashnode.image} />
           ))}
         </div>

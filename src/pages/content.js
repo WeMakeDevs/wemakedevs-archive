@@ -247,3 +247,22 @@ export const CoursesPageContent = {
     },
   ],
 };
+
+export const SingleCoursesPageHeader = [
+  {
+    name: 'About',
+    href: '#about',
+  },
+  {
+    name: 'Testimonials',
+    href: '#testimonials',
+  },
+  {
+    name: 'Join',
+    href: '#join',
+  },
+  {
+    name: 'FAQ',
+    href: '#faq',
+  },
+];

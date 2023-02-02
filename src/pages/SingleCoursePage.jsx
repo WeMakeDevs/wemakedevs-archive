@@ -1,13 +1,14 @@
-import { CoursesPageContent } from './content';
-import { Testimonials } from '../components/coursespage';
-import Layout from '../components/layout';
-import { About } from '../components/SingleCoursePage';
+import Layout, { Testimonials } from '../components/layout';
+import { About, Syllabus } from '../components/SingleCoursePage';
 
-const CoursesPage = () => {
+const CoursesPage = ({ content }) => {
   return (
-    <Layout content={CoursesPageContent}>
-      <About />
-      <Testimonials />
+    <Layout content={content}>
+      <About content={content.content} />
+      <Testimonials tweetId={content.content.tweetId} />
+      {content.content.syllabus.lenght > 0 && (
+        <Syllabus content={content.content} />
+      )}
     </Layout>
   );
 };

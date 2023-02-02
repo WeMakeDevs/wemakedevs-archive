@@ -7,6 +7,7 @@ import JoinUs from './JoinUs';
 import Loader from './Loader';
 import Navbar from './Navbar';
 import Partner from './Partner';
+import Testimonials from './Testimonials';
 import HeaderLink from '../links/HeaderLink';
 
 export {
@@ -20,6 +21,7 @@ export {
   Loader,
   Navbar,
   Partner,
+  Testimonials,
 };
 
 const Layout = ({ content, children }) => {

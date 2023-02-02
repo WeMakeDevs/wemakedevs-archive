@@ -1,13 +1,13 @@
 import Devops from '../../../assets/courses/devops.jpg';
 import DSA from '../../../assets/courses/dsa.jpg';
 import GitGithub from '../../../assets/courses/git-github.jpg';
-export const eventsData = [
+export const courses = [
   {
     title: 'Data Structures & Algorithms in Java',
     description:
       'Get interview-ready with this course that has no prerequisites and is designed to make you an expert in solving easy to hard LeetCode problems with ease.      ',
     image: DSA,
-    url: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ',
+    url: '/courses/dsa',
     btnText: 'Learn more',
   },
   {
@@ -15,7 +15,7 @@ export const eventsData = [
     description:
       'Kick-off your Open Source journey with the complete Git & GitHub tutorial covering all the fundamentals and advance concepts with a hands-on approach.',
     image: GitGithub,
-    url: 'https://www.youtube.com/watch?v=apGV9Kg7ics&t=1117s',
+    url: '/courses/git-github',
     btnText: 'Learn more',
   },
   {
@@ -23,7 +23,7 @@ export const eventsData = [
     description:
       'Without a doubt, DevOps engineer is the most in-demand role in the current market, especially with an increased number of high paying remote opportunities.',
     image: Devops,
-    url: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
+    url: '/courses/devops',
     btnText: 'Learn more',
   },
 ];
