@@ -14,7 +14,6 @@ import {
   JoinUs,
   Navbar,
   Partner,
-  PartnerTestimonials,
 } from '../components/layout';
 
 const HomePage = () => {
@@ -30,7 +29,6 @@ const HomePage = () => {
       <JoinUs />
       <FAQ background='gradient' faq={HomePageContent.faq} />
       <Partner />
-      <PartnerTestimonials />
       <Footer />
       <Banner />
     </>

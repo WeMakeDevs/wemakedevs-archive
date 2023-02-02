@@ -1,12 +1,12 @@
-import BootDotDev from './../../../assets/partner/bootdotdev.jpg';
-import Finout from './../../../assets/partner/finout.jpg';
-import Komodor from './../../../assets/partner/komodor.jpg';
-import Kubesphere from './../../../assets/partner/kubesphere.jpg';
-import Stream from './../../../assets/partner/stream.jpg';
-import Teleport from './../../../assets/partner/teleport.png';
-import Wilco from './../../../assets/partner/wilco.jpg';
+import BootDotDev from './../../../../assets/partner/bootdotdev.jpg';
+import Finout from './../../../../assets/partner/finout.jpg';
+import Komodor from './../../../../assets/partner/komodor.jpg';
+import Kubesphere from './../../../../assets/partner/kubesphere.jpg';
+import Stream from './../../../../assets/partner/stream.jpg';
+import Teleport from './../../../../assets/partner/teleport.png';
+import Wilco from './../../../../assets/partner/wilco.jpg';
 
-export const data = [
+export default [
   {
     src: Kubesphere,
     description:

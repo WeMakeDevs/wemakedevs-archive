@@ -8,4 +8,3 @@ export { default as JoinUs } from './JoinUs';
 export { default as Loader } from './Loader';
 export { default as Navbar } from './Navbar';
 export { default as Partner } from './Partner';
-export { default as PartnerTestimonials } from './PartnerTestimonials';
