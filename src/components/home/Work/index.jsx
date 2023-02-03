@@ -5,6 +5,7 @@ import styles from './index.module.css';
 import Adobe from '../../../assets/home/adobe.svg';
 import Amazon from '../../../assets/home/amazon.svg';
 import Cisco from '../../../assets/home/Cisco.svg';
+import Clicklabs from '../../../assets/home/clicklabs.svg';
 import Google from '../../../assets/home/google.svg';
 import Microsoft from '../../../assets/home/microsoft.svg';
 import Razorpay from '../../../assets/home/razorpay.svg';
@@ -26,6 +27,7 @@ const index = () => {
           <img className={styles.virtusa} src={Virtusa} alt='virtusa' />
           <img className={styles.Cisco} src={Cisco} alt='Cisco' />
           <img className={styles.Razorpay} src={Razorpay} alt='Razorpay' />
+          <img className={styles.Clicklabs} src={Clicklabs} alt='Clicklabs' />
         </div>
       </div>
     </div>
