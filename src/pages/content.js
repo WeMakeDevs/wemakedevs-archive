@@ -149,38 +149,40 @@ export const EventsPageContent = {
   faq: [
     {
       id: 'FAQ1',
-      question: 'How do I win the grand prize?',
+      question: 'What kinds of events do you organzie? ',
       answer:
-        'Submit good quality blogs for the tracks. The blogger with best quailiy of blogs will win the grand prize',
+        'We run tons of events such as hackathons, monthly blogging challenges, open source events, and lots more.',
     },
     {
       id: 'FAQ2',
-      question: 'How to I join this event?',
+      question: 'How do I join a event?',
       answer:
-        'Write and publish a blog of the given themes on hashnode and use the hashtag #WeMakeDevs while publishing it.',
+        'We keep announcing about the events on our socials and discord, and we update it on this website. Click on "Learn More" to know about the event and how to join.',
     },
     {
       id: 'FAQ3',
-      question: 'How do I join your community?',
+      question: 'What benefits can I get from these?',
       answer:
-        'Make sure to join our Discord and Telegram channels. You can find us on all socials media platforms as @wemakedevs',
+        'You can win some cool swags, and amazing prizes such as macbooks, ipads, headphones, and more!',
     },
     {
       id: 'FAQ4',
-      question: 'Do you provide learning resources during the contest?',
+      question: 'How can I partner with WeMakeDevs for my event?',
       answer:
-        "Learn, we'll be sharing those in out Discord community. Join along with thousands of others and feel free to ask your doubts in the relevant channels.",
+        "For partnering with us, please sent a email to 'kunal@wemakedevs.org' for the same.",
     },
     {
       id: 'FAQ5',
-      question: 'Where do we write our blogs?',
-      answer: 'It is mandatory for you to write your blogs on Hashnode.',
+      question: 'Will I get any kind of mentorship from these events?',
+      answer:
+        ' Yes! We give out mentorship sessions with industry experts as a prize for our events. You can ask them all your career and technical questions.',
     },
     {
       id: 'FAQ6',
-      question: 'Can I take part multiple times?',
+      question:
+        'Will there be opportunities for growing my network at the events?',
       answer:
-        'Yes! You can write as many blogs as you want on any of the tracks to increase your chances of wining!',
+        'Yes! We have event specific channels in our discord server where you can network with folks. You can also join the discord channels of our event partners ',
     },
   ],
 };

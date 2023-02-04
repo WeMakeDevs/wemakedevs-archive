@@ -8,7 +8,7 @@ const Offer = ({ background = 'static' }) => {
         id='sec-offer'
         src='https://www.youtube.com/embed/dYIfGvwa0cU'
         isVideo
-        title='What we offer'
+        title='About'
         direction='right'
         background={background}
       >
