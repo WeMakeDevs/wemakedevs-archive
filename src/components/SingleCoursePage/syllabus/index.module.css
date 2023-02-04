@@ -1,0 +1,48 @@
+.section {
+  color: var(--clr-content);
+}
+
+.layout {
+  padding-block: 6rem;
+}
+.layout h2 {
+  text-align: center;
+}
+
+.headingLine {
+  margin: 1.5rem auto;
+}
+
+.syllabus {
+  max-width: 50rem;
+  margin-inline: auto;
+}
+.syllabus .item {
+  padding: 1.5rem;
+  border: 1px solid var(--clr-primary);
+  background-color: rgb(var(--content), 0.05);
+}
+.syllabus .item::before {
+  content: attr(data-index);
+  background-color: var(--clr-primary);
+  color: var(--clr-base-100);
+  font-weight: bolder;
+  display: inline-flex;
+  height: 3rem;
+  aspect-ratio: 1/1;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+.syllabus .item p {
+  margin-top: 0.4rem;
+}
+.syllabus .item:first-child {
+  border-radius: 20px 20px 0 0;
+}
+
+.syllabus .item:last-child {
+  border-radius: 0 0 20px 20px;
+}

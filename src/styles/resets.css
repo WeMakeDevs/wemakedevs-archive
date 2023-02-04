@@ -1,0 +1,105 @@
+/* reset by tailwindcss */
+*,
+*::before,
+*::after {
+  position: relative; /* make absolutely positioned elements relative to their parent by default */
+  margin: 0;
+  min-width: 0; /* prevent flex items from overflowing horizontally */
+  min-height: 0; /* prevent flex items from overflowing vertically */
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+  background-image: none;
+  background-position: center center; /* better default than `0% 0%` */
+  background-repeat: no-repeat; /* better default than `repeat` */
+}
+
+html {
+  text-align: left; /* make `text-align: inherit` work properly in subsequent rules */
+}
+
+button,
+input,
+select,
+textarea {
+  display: block; /* override UA stylesheet’s `display: inline-block` */
+  /* make the inheritable text properties actually inherit */
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'],
+[type='file'],
+[type='file']::-webkit-file-upload-button {
+  appearance: none; /* override Preflight’s `-webkit-appearance: button` */
+  cursor: pointer; /* apply Preflight’s `button { cursor: pointer }` to `input` buttons */
+}
+
+input::placeholder,
+textarea::placeholder {
+  /* override Preflight’s arbitrary placeholder color */
+  color: inherit;
+  opacity: 0.75;
+}
+
+svg {
+  overflow: visible; /* override UA stylesheet’s `overflow: hidden`, to prevent clipping the edges of `svg` elements */
+}
+
+label {
+  display: block; /* override UA stylesheet’s `display: inline` */
+}
+
+summary {
+  display: block; /* override Preflight’s `display: list-item` */
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: inherit; /* override UA stylesheet’s `font-family: monospace` and Preflight’s `theme('fontFamily.mono')` */
+}
+
+address,
+cite,
+dfn,
+var {
+  font-style: inherit; /* override UA stylesheet’s `font-style: italic` */
+}
+
+small {
+  font-size: inherit; /* override UA stylesheet’s `font-size: smaller` and Preflight’s `font-size: 80%` */
+}
+
+mark {
+  color: inherit; /* override UA stylesheet’s `color: black` */
+}
+
+table {
+  border-spacing: 0; /* override UA stylesheet’s `border-spacing: 2px`, if `border-separate` is used */
+}
+
+th {
+  font-weight: inherit; /* override UA stylesheet’s `font-weight: bold` */
+}
+
+th:not([align]),
+caption:not([align]) {
+  text-align: inherit; /* override UA stylesheet’s `text-align: center` */
+}
+
+[hidden] {
+  display: none !important; /* make sure this cannot be overridden by utilities */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,51 @@
+.section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: var(--clr-content);
+  color: var(--clr-base-100);
+  padding-block: 0.5rem;
+  font-weight: 500;
+  transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 300ms;
+}
+.announcement {
+  background-color: rgb(var(--base-100), 0.8);
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.layout p {
+  text-align: center;
+}
+.btn {
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .section {
+    font-size: 1.05rem;
+  }
+}
+
+.cross {
+  margin-left: auto;
+  color: var(--base-100);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  transform: translateY(100%);
+}

@@ -1,0 +1,9 @@
+export { default as About } from './about';
+export { default as Content } from './Content';
+export { default as Courses } from './courses/index.jsx';
+export { default as Events } from './events';
+export { default as Hero } from './Hero';
+export { default as Mentorship } from './Mentorship';
+export { default as Stats } from './Stats';
+export { default as Testimonials } from './Testimonial';
+export { default as Work } from './Work';

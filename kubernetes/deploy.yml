@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wmd-deployment
+  labels:
+    app: wmd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wmd
+  template:
+    metadata:
+      labels:
+        app: wmd
+    spec:
+      containers:
+      - name: wmd-ctr
+        image: kaiwalyakoparkar/wemakedevs:1.0
+        ports:
+        - containerPort: 3000
+---
+# Commenting stuff because I have added loadbalancer service
+apiVersion: v1
+kind: Service
+metadata:
+  name: wmd-service
+spec:
+  selector:
+    app: wmd
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
