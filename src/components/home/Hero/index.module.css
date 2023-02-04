@@ -11,6 +11,7 @@
 }
 
 .tagLine {
+  font-weight: normal;
   font-size: 0.9rem;
   color: var(--clr-content);
   margin-block: 1.5rem;
