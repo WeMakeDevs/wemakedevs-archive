@@ -9,7 +9,7 @@ const Stats = () => {
   return (
     <div className={clsx(styles.section)}>
       <div className={clsx('layout', styles.layout)}>
-        <h2 className='h1'>Stats about prizes</h2>
+        <h2 className='h1'>Our stats</h2>
         <hr className={clsx('styled-hr', styles.headingLine)} />
         <div className={styles.statsContainer}>
           <div className={styles.card}>

@@ -16,7 +16,7 @@ const Events = () => {
           background: 'transparent',
         }}
       >
-        <h2 className='h1'>Tweet testimonials</h2>
+        <h2 className='h1'>Community testimonials</h2>
         <hr className='styled-hr' />
         <Carousel
           cols={3}
