@@ -4,11 +4,11 @@ export const DsaPageContent = {
   header: SingleCoursesPageHeader,
   content: {
     title: {
-      highlight: 'Best Data Structures & Algorithms',
+      highlight: 'Data Structures & Algorithms',
       normal: '(DSA) Course',
     },
     subtitle:
-      'We believe that every student, irrespective of their college or branch, can make it big.',
+      'Master the thought process behind solving problems, and clear interviews of top tier companies......',
     videoLink: 'https://www.youtube.com/embed/rZ41y93P2Qo',
     buttons: [
       {

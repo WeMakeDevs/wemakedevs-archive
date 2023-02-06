@@ -57,8 +57,8 @@ const Partner = ({ background = 'static' }) => {
             </Button>
           </div>
         </div>
+        <PartnerTestimonials />
       </section>
-      <PartnerTestimonials />
     </>
   );
 };

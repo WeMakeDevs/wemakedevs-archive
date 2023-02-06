@@ -5,8 +5,8 @@ import AboutImage from '../../../assets/home/aboutus.png';
 
 const About = () => {
   return (
-    <section id='events'>
-      <ColumnSection id='about' as='div' src={AboutImage} title='About'>
+    <section id='about'>
+      <ColumnSection as='div' src={AboutImage} title='About'>
         <ListItem>
           Explore events in various domains to{' '}
           <span className='highlight highlight--white'>upskill yourself. </span>
