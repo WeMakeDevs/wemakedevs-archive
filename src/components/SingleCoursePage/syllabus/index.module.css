@@ -14,18 +14,28 @@
 }
 
 .syllabus {
-  max-width: 50rem;
   margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 992px) {
+  .syllabus {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .syllabus {
+    grid-template-columns: 1fr;
+  }
 }
 .syllabus .item {
   padding: 1.5rem;
-  border: 1px solid var(--clr-primary);
-  background-color: rgb(var(--content), 0.05);
+  border: 1px solid rgb(var(--primary), 0.3);
 }
 .syllabus .item::before {
   content: attr(data-index);
-  background-color: var(--clr-primary);
-  color: var(--clr-base-100);
+  background-color: rgb(var(--primary), 0.3);
+  color: var(--clr-content);
   font-weight: bolder;
   display: inline-flex;
   height: 3rem;
@@ -38,11 +48,4 @@
 }
 .syllabus .item p {
   margin-top: 0.4rem;
-}
-.syllabus .item:first-child {
-  border-radius: 20px 20px 0 0;
-}
-
-.syllabus .item:last-child {
-  border-radius: 0 0 20px 20px;
 }
