@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import styles from './index.module.css';
 
 const Announcement = ({ background }) => {
-  const progress = 12;
+  const progress = 0;
   const total = 25;
   return (
     <section
@@ -36,7 +36,7 @@ const Announcement = ({ background }) => {
             }}
             className={styles.progress__label}
           >
-            <span className='h1'>{progress}</span>
+            <span className={clsx('h1', styles.progress_data)}>{progress}</span>
             <span>
               Student mentored by
               <br /> Kunal Kushwaha

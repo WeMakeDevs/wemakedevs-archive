@@ -7,8 +7,9 @@ import BannerImage from '../../../assets/home/events.png';
 
 const HowTakePart = ({ background = 'static' }) => {
   return (
-    <>
+    <div>
       <ColumnSection
+        as='div'
         id='sec-take-part'
         background={background}
         imgSrc={BannerImage}
@@ -67,7 +68,7 @@ const HowTakePart = ({ background = 'static' }) => {
           ))}
         </Carousel>
       </section>
-    </>
+    </div>
   );
 };
 

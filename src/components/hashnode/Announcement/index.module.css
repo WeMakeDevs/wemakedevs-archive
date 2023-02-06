@@ -93,7 +93,26 @@
 }
 .progress__label span {
   display: block;
+  position: relative;
 }
-.progress__label span:nth-child(2) {
-  /* margin-left: 0.5rem; */
+.progress__label span:nth-child(1):before {
+  content: 'Number of people mentored';
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%, -50%);
+  background-color: var(--clr-base-100);
+  color: var(--clr-content);
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.progress__label span:nth-child(1):hover:before {
+  opacity: 1;
+  visibility: visible;
 }
