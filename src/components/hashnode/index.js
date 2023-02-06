@@ -1,3 +1,4 @@
+export { default as Announcement } from './Announcement';
 export { default as Hero } from './Hero';
 export { default as HowTakePart } from './HowTakePart';
 export { default as Offer } from './offer';

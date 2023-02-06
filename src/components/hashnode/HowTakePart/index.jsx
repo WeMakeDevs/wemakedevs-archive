@@ -6,8 +6,9 @@ import ListItem from '../../Listitem';
 
 const HowTakePart = ({ background = 'static' }) => {
   return (
-    <>
+    <div>
       <ColumnSection
+        as='div'
         id='sec-take-part'
         background={background}
         src='https://www.youtube.com/embed/fNp3IeB6GD4'
@@ -67,7 +68,7 @@ const HowTakePart = ({ background = 'static' }) => {
           ))}
         </Carousel>
       </section>
-    </>
+    </div>
   );
 };
 

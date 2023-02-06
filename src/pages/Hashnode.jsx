@@ -1,6 +1,12 @@
 import { HashnodePageContent } from './content';
-import { Hero, HowTakePart, Offer, Prize, Track } from '../components/hashnode';
-import Annoucnment from '../components/hashnode/Annoucment';
+import {
+  Announcement,
+  Hero,
+  HowTakePart,
+  Offer,
+  Prize,
+  Track,
+} from '../components/hashnode';
 import Layout from '../components/layout';
 
 const HashnodePage = () => {
@@ -8,9 +14,9 @@ const HashnodePage = () => {
     <Layout content={HashnodePageContent}>
       <Hero />
       <Offer />
+      <Announcement />
       <Prize />
       <Track />
-      <Annoucnment />
       <HowTakePart />
     </Layout>
   );
