@@ -9,11 +9,13 @@
   padding-block: 0.5rem;
   font-weight: 500;
   transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 300ms;
+  padding-inline: 2rem;
 }
 .announcement {
   background-color: rgb(var(--base-100), 0.8);
   padding: 0.5rem;
   border-radius: 10px;
+  margin-left: auto;
 }
 
 .layout {
