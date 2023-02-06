@@ -14,8 +14,8 @@ const HashnodePage = () => {
     <Layout content={HashnodePageContent}>
       <Hero />
       <Offer />
-      <Announcement />
       <Prize />
+      <Announcement />
       <Track />
       <HowTakePart />
     </Layout>
