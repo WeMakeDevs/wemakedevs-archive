@@ -2,6 +2,9 @@ import clsx from 'clsx';
 
 import styles from './index.module.css';
 
+import ArrowLink from '../../links/ArrowLink';
+import ButtonLink from '../../links/ButtonLink';
+
 const Hero = () => {
   return (
     <header className={styles.section}>
@@ -22,7 +25,9 @@ const Hero = () => {
           hosted by the WeMakeDevs community. Check out the following events and
           participate.
         </p>
-        <br />
+        <ArrowLink className={styles.cta} as={ButtonLink} href='#about'>
+          About events
+        </ArrowLink>
       </div>
     </header>
   );

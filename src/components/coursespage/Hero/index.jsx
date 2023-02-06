@@ -2,6 +2,9 @@ import clsx from 'clsx';
 
 import styles from './index.module.css';
 
+import ArrowLink from '../../links/ArrowLink';
+import ButtonLink from '../../links/ButtonLink';
+
 const Hero = () => {
   return (
     <header className={styles.section}>
@@ -14,6 +17,10 @@ const Hero = () => {
           We believe that every student, irrespective of their college or
           branch, can make it big.
         </p>
+        <br />
+        <ArrowLink className={styles.cta} as={ButtonLink} href='#about'>
+          About courses
+        </ArrowLink>
       </div>
     </header>
   );
