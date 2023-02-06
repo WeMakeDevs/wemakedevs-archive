@@ -33,7 +33,7 @@ const HowTakePart = ({ background = 'static' }) => {
           exclusive swag!
         </ListItem>
       </ColumnSection>
-      <section
+      <div
         className='layout'
         style={{
           paddingBottom: '6rem',
@@ -67,7 +67,7 @@ const HowTakePart = ({ background = 'static' }) => {
             </Carousel.Item>
           ))}
         </Carousel>
-      </section>
+      </div>
     </div>
   );
 };
