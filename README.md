@@ -1,11 +1,10 @@
- main
-<p align="center">
-<img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="180" >
-</p>
+
+
+![logo](https://user-images.githubusercontent.com/42698533/213821314-83a4c231-f480-4cac-b24c-452a7fa0dda5.png)
+
 <h1 id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="40" alt="logo"/> We Make Devs</a></h1>
 
 ### 
-
 
 # Badges
 
@@ -16,15 +15,37 @@
 
 # About Us
 
-We Make Devs is a community .We believes every student irrespective of college or branch can make it big.
+Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
+
+## What is WeMakeDevs?
+
+We believe that everyone, irrespective of their college or branch, technical or non-technical background can make it big. WeMakeDevs is an initiative built on this thought.
+
 We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free.We provides lots of resources to start your journey like roadmaps,podcasts,blogs,events.
+
+## What we provide?
+
+Education
+
+Events
+
+Mentorship
 <p align="center">
 <img src="https://user-images.githubusercontent.com/114678694/197411491-73f21a05-b556-460f-91e7-821dc525a828.jpg" width="460" height="390" >
 </p>
 
-# We Make Devs
+## 👨‍💻 We Make Devs
 
 <a href="https://wemakedevs.org/">Click here</a> to visit We Make Devs website.
+
+## What stack is WeMakeDevs built on?
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 # Connect with us
 
@@ -48,51 +69,6 @@ Check out <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/CODE_OF_CO
 # License
 
 This Community is <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/LICENSE">Licensed</a> under MIT license.
-
-# Our Contributors
-
-<a href="https://github.com/commclassroom/commclassroom/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=commclassroom/commclassroom"/>
-</a>
-
-
-
-
-
-
-
-
-
-# WeMakeDevs
-
-Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
-
-## 👨‍💻 Demo
-
-Visit: https://wemakedevs.org/
-
-![logo](https://user-images.githubusercontent.com/42698533/213821314-83a4c231-f480-4cac-b24c-452a7fa0dda5.png)
-
-## What is WeMakeDevs?
-
-We believe that everyone, irrespective of their college or branch, technical or non-technical background can make it big. WeMakeDevs is an initiative built on this thought.
-
-## What stack is WeMakeDevs built on?
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-## What we provide?
-
-Education
-
-Events
-
-Mentorship
 
 ## 🚀 Getting Started
 
@@ -119,4 +95,4 @@ Before starting out, you'll need to install the following on your computer.
 ## Thanks to all the contributors ❤️
 
 <img src="https://contrib.rocks/image?repo=WeMakeDevs/wemakedevs"/>
-main
+
