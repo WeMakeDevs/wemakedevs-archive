@@ -5,7 +5,7 @@ import BannerImage from '../../../assets/home/mentorship.png';
 const Mentorship = ({ background = 'static' }) => {
   return (
     <ColumnSection
-      imgSrc={BannerImage}
+      src={BannerImage}
       title='Mentorship'
       background={background}
       buttonLinks={[

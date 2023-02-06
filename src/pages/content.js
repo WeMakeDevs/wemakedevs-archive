@@ -149,15 +149,79 @@ export const EventsPageContent = {
   faq: [
     {
       id: 'FAQ1',
-      question: 'How do I win the grand prize?',
+      question: 'What kinds of events do you organzie? ',
       answer:
-        'Submit good quality blogs for the tracks. The blogger with best quailiy of blogs will win the grand prize',
+        'We run tons of events such as hackathons, monthly blogging challenges, open source events, and lots more.',
     },
     {
       id: 'FAQ2',
-      question: 'How to I join this event?',
+      question: 'How do I join a event?',
       answer:
-        'Write and publish a blog of the given themes on hashnode and use the hashtag #WeMakeDevs while publishing it.',
+        'We keep announcing about the events on our socials and discord, and we update it on this website. Click on "Learn More" to know about the event and how to join.',
+    },
+    {
+      id: 'FAQ3',
+      question: 'What benefits can I get from these?',
+      answer:
+        'You can win some cool swags, and amazing prizes such as macbooks, ipads, headphones, and more!',
+    },
+    {
+      id: 'FAQ4',
+      question: 'How can I partner with WeMakeDevs for my event?',
+      answer:
+        "For partnering with us, please sent a email to 'kunal@wemakedevs.org' for the same.",
+    },
+    {
+      id: 'FAQ5',
+      question: 'Will I get any kind of mentorship from these events?',
+      answer:
+        ' Yes! We give out mentorship sessions with industry experts as a prize for our events. You can ask them all your career and technical questions.',
+    },
+    {
+      id: 'FAQ6',
+      question:
+        'Will there be opportunities for growing my network at the events?',
+      answer:
+        'Yes! We have event specific channels in our discord server where you can network with folks. You can also join the discord channels of our event partners ',
+    },
+  ],
+};
+
+export const CoursesPageContent = {
+  header: [
+    {
+      name: 'About',
+      href: '#about',
+    },
+    {
+      name: 'Courses',
+      href: '#courses',
+    },
+    {
+      name: 'Testimonials',
+      href: '#testimonials',
+    },
+    {
+      name: 'Join',
+      href: '#join',
+    },
+    {
+      name: 'FAQ',
+      href: '#faq',
+    },
+  ],
+  faq: [
+    {
+      id: 'FAQ1',
+      question: 'Are all of your courses free?',
+      answer:
+        'Yes! All of our courses are and will always be free as well as high quality. You can find those on our YouTube channel.',
+    },
+    {
+      id: 'FAQ2',
+      question: 'Is your community beginner friendly?',
+      answer:
+        'Yes! Even non-coders are welcome. Our courses are designed in such a way that anyone can get started with it. Even people who have never programmed before!',
     },
     {
       id: 'FAQ3',
@@ -167,20 +231,44 @@ export const EventsPageContent = {
     },
     {
       id: 'FAQ4',
-      question: 'Do you provide learning resources during the contest?',
+      question: 'How do I get my doubts resolved?',
       answer:
-        "Learn, we'll be sharing those in out Discord community. Join along with thousands of others and feel free to ask your doubts in the relevant channels.",
+        'Join our Discord community along with thousands of others and feel free to ask your doubts in the relevant channels.',
     },
     {
       id: 'FAQ5',
-      question: 'Where do we write our blogs?',
-      answer: 'It is mandatory for you to write your blogs on Hashnode.',
+      question: 'Do you provide notes and assignments?',
+      answer:
+        "Yes. It's crucial to revise the topics and self practice after watching the tutorials and we provide materials for the same.",
     },
     {
       id: 'FAQ6',
-      question: 'Can I take part multiple times?',
+      question: 'Do you provide mentorship and guidance?',
       answer:
-        'Yes! You can write as many blogs as you want on any of the tracks to increase your chances of wining!',
+        'Yes. That is the highlight of our community. Get expert guidance from industry experts from around the world. You can learn more and get inspired by their stories and roadmaps via the podcast Open Source Cafe.',
     },
   ],
 };
+
+export const SingleCoursesPageHeader = [
+  {
+    name: 'About',
+    href: '#about',
+  },
+  {
+    name: 'Testimonials',
+    href: '#testimonials',
+  },
+  {
+    name: 'Syllabus',
+    href: '#syllabus',
+  },
+  {
+    name: 'Join',
+    href: '#join',
+  },
+  {
+    name: 'FAQ',
+    href: '#faq',
+  },
+];

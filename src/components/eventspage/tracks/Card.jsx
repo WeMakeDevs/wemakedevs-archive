@@ -10,7 +10,12 @@ const Card = ({ image, title, description, url, btnText }) => {
         <img src={image} alt={title + 'banner'} />
         <div className={styles.cardDetails}>
           <p>{description}</p>
-          <ArrowLink as={ButtonLink} className={styles.btn1} href={url}>
+          <ArrowLink
+            as={ButtonLink}
+            className={styles.btn1}
+            href={url}
+            openNewTab
+          >
             {btnText}
           </ArrowLink>
         </div>

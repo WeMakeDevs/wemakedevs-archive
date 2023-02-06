@@ -5,15 +5,9 @@ import styles from './index.module.css';
 import Card from '../tracks/Card';
 import Hashnode from '../../../assets/hashnode/Special-Prize.png';
 
-const Prizes = ({ background }) => {
+const Prizes = () => {
   return (
-    <section
-      id='ongoing'
-      className={clsx(
-        styles.section,
-        background === 'gradient' ? 'gradient' : 'static-bg'
-      )}
-    >
+    <section id='ongoing' className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
         <h1 className='h1'> Ongoing events </h1>
         <hr className={clsx('styled-hr', styles.hr)} />

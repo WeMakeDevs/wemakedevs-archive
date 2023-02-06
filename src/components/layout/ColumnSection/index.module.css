@@ -13,11 +13,19 @@
   .section.right .container {
     flex-direction: row-reverse;
   }
+
+  .container.video .img {
+    align-self: center;
+  }
 }
 
 .container .img {
   flex-grow: 1;
+  display: inline-block;
   object-fit: cover;
+  object-position: center;
+  border: none;
+  aspect-ratio: 560/315;
 }
 
 .container .infoContainer {
@@ -30,6 +38,9 @@
 @media (min-width: 1024px) {
   .container .infoContainer {
     width: 60%;
+  }
+  .container.video .infoContainer {
+    width: 50%;
   }
 }
 .container ul {

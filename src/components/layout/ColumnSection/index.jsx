@@ -7,7 +7,8 @@ import ButtonLink from '../../links/ButtonLink';
 
 const ColumnSection = ({
   id,
-  imgSrc,
+  src,
+  isVideo,
   title,
   as,
   buttonLinks,
@@ -29,8 +30,20 @@ const ColumnSection = ({
         direction === 'right' && styles.right
       )}
     >
-      <div className={clsx('layout', styles.container)}>
-        <img className={styles.img} src={imgSrc} alt={title} />
+      <div
+        className={clsx('layout', styles.container, isVideo && styles.video)}
+      >
+        {isVideo ? (
+          <iframe
+            src={src}
+            title='YouTube video player'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            allowFullScreen
+            className={clsx(styles.img)}
+          ></iframe>
+        ) : (
+          <img className={styles.img} src={src} alt={title} />
+        )}
         <div className={styles.infoContainer}>
           <h2 className='h1'>{title}</h2>
           <hr className='styled-hr' />

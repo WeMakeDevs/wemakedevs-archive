@@ -11,7 +11,7 @@ const Banner = () => {
   const [open, setOpen] = useState(true);
   return (
     <section className={clsx(styles.section, !open && styles.hide)}>
-      <div className={clsx('layout', styles.layout)}>
+      <div className={clsx(styles.layout)}>
         <TfiAnnouncement className={clsx('h1', styles.announcement)} />
         <p>
           Check out our{' '}
@@ -23,7 +23,7 @@ const Banner = () => {
         <Button
           className={styles.btn}
           as={UnstyledLink}
-          openNewTabIcon
+          openNewTab
           href='/events'
         >
           Events

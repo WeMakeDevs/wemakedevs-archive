@@ -1,14 +1,14 @@
 import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/courses.png';
 
 const Offer = ({ background = 'static' }) => {
   return (
     <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
       <ColumnSection
         id='sec-offer'
-        imgSrc={BannerImage}
-        title='What we offer'
+        src='https://www.youtube.com/embed/dYIfGvwa0cU'
+        isVideo
+        title='About'
         direction='right'
         background={background}
       >
@@ -17,7 +17,7 @@ const Offer = ({ background = 'static' }) => {
         </ListItem>
         <ListItem>
           Students will get hands on experience with new & interesting tools.
-          Don't worry, we have got your back! We will be provide resources.
+          Don't worry, we have got your back! We will be providing resources.
         </ListItem>
         <ListItem>
           Don't know how to create a personal brand? You have come to the right

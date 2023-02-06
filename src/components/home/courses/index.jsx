@@ -5,16 +5,16 @@ import BannerImage from '../../../assets/home/courses.png';
 
 const Courses = ({ background = 'static' }) => {
   return (
-    <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
+    <section>
       <ColumnSection
         id='courses'
-        imgSrc={BannerImage}
+        src={BannerImage}
         title='Courses'
         direction='right'
         buttonLinks={[
           {
             name: 'Explore courses',
-            href: 'https://www.youtube.com/@KunalKushwaha/playlists?view=50&sort=dd&shelf_id=3',
+            href: '/courses',
           },
         ]}
         background={background}

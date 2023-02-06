@@ -3,13 +3,13 @@ import ColumnSection from '../../layout/ColumnSection';
 import ListItem from '../../Listitem';
 import AboutImage from '../../../assets/home/aboutus.png';
 
-const About = ({ background = 'static' }) => {
+const About = () => {
   return (
-    <section className={background === 'gradient' ? 'gradient' : 'static-bg'}>
+    <section>
       <ColumnSection
         id='about'
         as='div'
-        imgSrc={AboutImage}
+        src={AboutImage}
         title='About us'
         buttonLinks={[
           {

@@ -99,3 +99,17 @@
     transform: rotate(360deg);
   }
 }
+
+.main section:nth-child(odd) {
+  background: var(--clr-base-100);
+}
+.main section:nth-child(even) {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--clr-base-100),
+    hsla(240, 89%, 51%, 0.424)
+  );
+}
+.main section:first-child {
+  background: transparent;
+}

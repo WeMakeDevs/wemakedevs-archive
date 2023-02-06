@@ -1,20 +1,15 @@
 import { EventsPageContent } from './content';
 import { About, Hero, Prize, Track } from '../components/eventspage';
-import { FAQ, Footer, JoinUs, Navbar, Partner } from '../components/layout';
+import Layout from '../components/layout';
 
 const EventsPage = () => {
   return (
-    <>
-      <Navbar links={EventsPageContent.header} />
+    <Layout content={EventsPageContent}>
       <Hero />
-      <About background='gradient' />
+      <About />
       <Prize />
-      <Track background='gradient' />
-      <JoinUs />
-      <FAQ background='gradient' faq={EventsPageContent.faq} />
-      <Partner />
-      <Footer />
-    </>
+      <Track />
+    </Layout>
   );
 };
 export default EventsPage;
