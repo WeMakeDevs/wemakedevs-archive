@@ -16,13 +16,9 @@
 .syllabus {
   margin-inline: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
-@media (max-width: 992px) {
-  .syllabus {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+
 @media (max-width: 576px) {
   .syllabus {
     grid-template-columns: 1fr;
