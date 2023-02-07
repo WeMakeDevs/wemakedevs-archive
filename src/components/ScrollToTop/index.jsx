@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 import styles from './index.module.css';
-import scrllBtn from './scrllBtn.png';
+import { IoIosArrowDropupCircle } from 'react-icons/io';
 export default function ScrollToTop() {
   const toTop = () => {
     window.scroll({
@@ -12,7 +12,7 @@ export default function ScrollToTop() {
   return (
     <div className={styles['scroll--to--top--button']}>
       <button onClick={toTop} className={styles['scroll--btn']}>
-        <img src={scrllBtn} className={styles['btn--image']} />
+        <IoIosArrowDropupCircle className={styles['btn--image']} />
       </button>
     </div>
   );
