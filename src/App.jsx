@@ -7,6 +7,7 @@ import './styles/typography.css';
 import './styles/utils.css';
 
 import { Loader } from './components/layout';
+import ScrollToTop from './components/ScrollToTop';
 import { DevopsPageContent } from './content/devops';
 import { DsaPageContent } from './content/dsa';
 import { GitGithubPageContent } from './content/gitGithub';
@@ -43,6 +44,7 @@ const App = () => {
           <Route exact path='/events/hashnode' element={<HashnodePage />} />
           <Route path='*' element={<ErrorPage />} />
         </Routes>
+        <ScrollToTop />
       </div>
     </Suspense>
   );
