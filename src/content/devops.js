@@ -8,7 +8,7 @@ export const DevopsPageContent = {
       normal: 'Bootcamp',
     },
     subtitle:
-      'We believe that every student, irrespective of their college or branch, can make it big.',
+      'Learn about DevOps, starting from the basics, going in depth into every topic, mastering multiple in-demand tools, and become a DevOps engineer',
     videoLink: 'https://www.youtube.com/embed/ZbG0c87wcM8',
     buttons: [
       {

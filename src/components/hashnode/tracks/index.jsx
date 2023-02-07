@@ -6,9 +6,12 @@ import styles from './index.module.css';
 import Card from './Card';
 import { hashnodeData } from './data';
 
-const Track = () => {
+const Track = ({ background }) => {
   return (
-    <section style={styles.section} id='sec-tracks'>
+    <section
+      className={clsx(background === 'gradient' ? 'gradient' : 'static-bg')}
+      id='sec-tracks'
+    >
       <div className={clsx('layout', styles.layout)}>
         <h1 className='h1'> Current tracks </h1>
         <hr className={clsx('styled-hr', styles.hr)} />
