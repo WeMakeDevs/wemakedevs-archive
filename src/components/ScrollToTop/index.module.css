@@ -3,10 +3,12 @@
 }
 
 .btn--image {
-  position: fixed;
-  bottom: 50px;
-  right: 0px;
+  display: block;
   width: 7vw;
+  height: 4vw;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -15,5 +17,6 @@
     bottom: 30px;
     right: 0px;
     width: 20%;
+    height: 5%;
   }
 }
