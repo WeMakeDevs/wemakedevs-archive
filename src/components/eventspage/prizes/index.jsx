@@ -1,9 +1,9 @@
+import Hashnode from 'assets/hashnode/Special-Prize.png';
 import clsx from 'clsx';
 
 import styles from './index.module.css';
 
 import Card from '../tracks/Card';
-import Hashnode from '../../../assets/hashnode/Special-Prize.png';
 
 const Prizes = () => {
   return (

@@ -1,6 +1,6 @@
-import Devops from '../../../assets/courses/devops.jpg';
-import DSA from '../../../assets/courses/dsa.jpg';
-import GitGithub from '../../../assets/courses/git-github.jpg';
+import Devops from 'assets/courses/devops.jpg';
+import DSA from 'assets/courses/dsa.jpg';
+import GitGithub from 'assets/courses/git-github.jpg';
 export const courses = [
   {
     title: 'Data Structures & Algorithms in Java',

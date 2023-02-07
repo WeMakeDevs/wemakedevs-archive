@@ -1,8 +1,8 @@
-import Special from '../../../assets/hashnode/Special-Track-2022.png';
-import Track1 from '../../../assets/hashnode/Track-1.png';
-import Track2 from '../../../assets/hashnode/Track-2.png';
-import Track3 from '../../../assets/hashnode/Track-3.png';
-import Track4 from '../../../assets/hashnode/Track-4.png';
+import Special from 'assets/hashnode/Special-Track-2022.png';
+import Track1 from 'assets/hashnode/Track-1.png';
+import Track2 from 'assets/hashnode/Track-2.png';
+import Track3 from 'assets/hashnode/Track-3.png';
+import Track4 from 'assets/hashnode/Track-4.png';
 
 export const hashnodeData = [
   {

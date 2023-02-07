@@ -1,8 +1,7 @@
 import clsxm from 'clsx';
+import NewTab from 'Icons/core/NewTab';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-
-import NewTab from '../../Icons/core/NewTab';
 
 const UnstyledLink = React.forwardRef(
   (

@@ -1,10 +1,10 @@
 import clsx from 'clsx';
+import ArrowLink from 'components/links/ArrowLink';
+import ButtonLink from 'components/links/ButtonLink';
 
 import styles from './index.module.css';
 
-import Button from '../../Button';
-import ArrowLink from '../../links/ArrowLink';
-import ButtonLink from '../../links/ButtonLink';
+import Button from '.Button';
 
 const STATUS = {
   loading: 'LOADING',

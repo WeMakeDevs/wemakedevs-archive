@@ -1,12 +1,11 @@
 import clsx from 'clsx';
+import Button from 'components/Button';
+import UnstyledLink from 'components/links/UnstyledLink';
 import { useState } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { TfiAnnouncement } from 'react-icons/tfi';
 
 import styles from './index.module.css';
-
-import Button from '../../Button';
-import UnstyledLink from '../../links/UnstyledLink';
 const Banner = () => {
   const [open, setOpen] = useState(true);
   return (

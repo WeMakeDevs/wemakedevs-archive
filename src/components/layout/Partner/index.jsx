@@ -1,12 +1,12 @@
 import clsx from 'clsx';
+import Button from 'components/Button';
+import ButtonLink from 'components/links/ButtonLink';
 import * as React from 'react';
 import { BsClipboard } from 'react-icons/bs';
 
 import styles from './index.module.css';
 
 import PartnerTestimonials from './PartnerTestimonials';
-import Button from '../../Button';
-import ButtonLink from '../../links/ButtonLink';
 
 const Partner = ({ background = 'static' }) => {
   const [copied, setCopied] = React.useState(false);

@@ -1,9 +1,8 @@
+import Logo from 'assets/logo.png';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
-import '../../styles/navbar.css';
-
-import Logo from '../../assets/logo.png';
+import './styles/navbar.css';
 
 const ComingSoon = () => {
   const [click, setClick] = useState(false);

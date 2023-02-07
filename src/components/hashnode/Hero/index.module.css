@@ -5,7 +5,7 @@
       rgb(var(--base-100), 0.9),
       rgb(var(--primary), 0.9)
     ),
-    url('../../../assets/hashnode/Hashnode.webp');
+    url('assets/hashnode/Hashnode.webp');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

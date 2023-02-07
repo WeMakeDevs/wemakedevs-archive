@@ -1,4 +1,3 @@
-import { HashnodePageContent } from './content';
 import {
   Announcement,
   Hero,
@@ -6,8 +5,10 @@ import {
   Offer,
   Prize,
   Track,
-} from '../components/hashnode';
-import Layout from '../components/layout';
+} from 'components/hashnode';
+import Layout from 'components/layout';
+
+import { HashnodePageContent } from './content';
 
 const HashnodePage = () => {
   return (

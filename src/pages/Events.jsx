@@ -1,6 +1,7 @@
+import { About, Hero, Prize, Track } from 'components/eventspage';
+import Layout from 'components/layout';
+
 import { EventsPageContent } from './content';
-import { About, Hero, Prize, Track } from '../components/eventspage';
-import Layout from '../components/layout';
 
 const EventsPage = () => {
   return (

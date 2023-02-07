@@ -1,11 +1,10 @@
+import BannerImage from 'assets/home/newblogimage.jpg';
 import clsx from 'clsx';
+import ArrowLink from 'components/links/ArrowLink';
+import ButtonLink from 'components/links/ButtonLink';
+import ListItem from 'components/Listitem';
 
 import styles from './index.module.css';
-
-import ArrowLink from '../../links/ArrowLink';
-import ButtonLink from '../../links/ButtonLink';
-import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/newblogimage.jpg';
 
 const Content = () => {
   return (

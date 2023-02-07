@@ -1,5 +1,5 @@
-import DevOps from '../../../assets/home/DevOps.png';
-import Dsa from '../../../assets/home/DSA.png';
+import DevOps from 'assets/home/DevOps.png';
+import Dsa from 'assets/home/DSA.png';
 
 export const courses = [
   {

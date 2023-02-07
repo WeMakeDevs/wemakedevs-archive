@@ -1,6 +1,6 @@
-import ColumnSection from '../../layout/ColumnSection';
-import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/mentorship.png';
+import BannerImage from 'assets/home/mentorship.png';
+import ColumnSection from 'components/layout/ColumnSection';
+import ListItem from 'components/Listitem';
 
 const Mentorship = ({ background = 'static' }) => {
   return (
