@@ -8,7 +8,6 @@ import {
   Track,
 } from '../components/hashnode';
 import Layout from '../components/layout';
-import ScrollToTop from '../components/ScrollToTop';
 
 const HashnodePage = () => {
   return (
@@ -21,7 +20,6 @@ const HashnodePage = () => {
         <Track />
         <HowTakePart />
       </Layout>
-      <ScrollToTop />
     </>
   );
 };
