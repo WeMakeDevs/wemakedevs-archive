@@ -2,6 +2,7 @@ import Layout, { Testimonials } from '../components/layout';
 import ScrollToTop from '../components/ScrollToTop';
 import { About, Syllabus } from '../components/SingleCoursePage';
 
+
 const CoursesPage = ({ content }) => {
   return (
     <>

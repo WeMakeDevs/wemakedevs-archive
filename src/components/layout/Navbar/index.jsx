@@ -1,14 +1,14 @@
 import clsx from 'clsx';
+import ArrowLink from 'components/links/ArrowLink';
+import ButtonLink from 'components/links/ButtonLink';
+import HeaderLink from 'components/links/HeaderLink';
+import UnstyledLink from 'components/links/UnstyledLink';
+import Logo from 'Icons/core/Logo';
 import * as React from 'react';
 
 import styles from './index.module.css';
 
 import Backdrop from '../Backdrop';
-import ArrowLink from '../../links/ArrowLink';
-import ButtonLink from '../../links/ButtonLink';
-import HeaderLink from '../../links/HeaderLink';
-import UnstyledLink from '../../links/UnstyledLink';
-import Logo from '../../../Icons/core/Logo';
 
 const Navbar = ({ links }) => {
   const [open, setOpen] = React.useState(false);

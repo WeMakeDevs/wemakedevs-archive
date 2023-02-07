@@ -1,10 +1,10 @@
 import clsx from 'clsx';
+import UnstyledLink from 'components/links/UnstyledLink';
 import { FaDiscord, FaTelegram } from 'react-icons/fa';
 
 import styles from './index.module.css';
 
 import NewsLetter from '../NewsLetter';
-import UnstyledLink from '../../links/UnstyledLink';
 
 function JoinUs({ background }) {
   return (

@@ -1,10 +1,11 @@
+import Discord from 'assets/Discord.png';
+import LinkedIn from 'assets/Linkedin.png';
+import Twitter from 'assets/Twitter.png';
+import Youtube from 'assets/youtube.png';
+
 import './Comingsoon.css';
 
 import ComingSoonNavbar from './ComingSoonNavbar.js';
-import Discord from '../../assets/Discord.png';
-import LinkedIn from '../../assets/Linkedin.png';
-import Twitter from '../../assets/Twitter.png';
-import Youtube from '../../assets/youtube.png';
 
 const Header = () => {
   return (

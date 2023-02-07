@@ -18,6 +18,16 @@ module.exports = {
   },
   plugins: ['react', 'simple-import-sort', 'unused-imports'],
   ignorePatterns: ['!.*'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+    'import/resolver': {
+      node: {
+        paths: ['src'],
+      },
+    },
+  },
   rules: {
     'prettier/prettier': [
       'warn',

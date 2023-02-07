@@ -1,16 +1,15 @@
+import Adobe from 'assets/home/adobe.svg';
+import Amazon from 'assets/home/amazon.svg';
+import Cisco from 'assets/home/Cisco.svg';
+import Clicklabs from 'assets/home/clicklabs.svg';
+import Google from 'assets/home/google.svg';
+import Microsoft from 'assets/home/microsoft.svg';
+import Razorpay from 'assets/home/razorpay.svg';
+import Samsung from 'assets/home/Samsung.svg';
+import Virtusa from 'assets/home/virtusa.svg';
 import clsx from 'clsx';
 
 import styles from './index.module.css';
-
-import Adobe from '../../../assets/home/adobe.svg';
-import Amazon from '../../../assets/home/amazon.svg';
-import Cisco from '../../../assets/home/Cisco.svg';
-import Clicklabs from '../../../assets/home/clicklabs.svg';
-import Google from '../../../assets/home/google.svg';
-import Microsoft from '../../../assets/home/microsoft.svg';
-import Razorpay from '../../../assets/home/razorpay.svg';
-import Samsung from '../../../assets/home/Samsung.svg';
-import Virtusa from '../../../assets/home/virtusa.svg';
 
 const index = () => {
   return (

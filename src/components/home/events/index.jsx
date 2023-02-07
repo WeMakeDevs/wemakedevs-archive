@@ -1,9 +1,8 @@
+import BannerImage from 'assets/home/latestevents.png';
 import Carousel from 'better-react-carousel';
+import ColumnSection from 'components/layout/ColumnSection';
+import ListItem from 'components/Listitem';
 import { Tweet } from 'react-twitter-widgets';
-
-import ColumnSection from '../../layout/ColumnSection';
-import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/latestevents.png';
 
 const Events = () => {
   return (

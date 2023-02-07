@@ -1,11 +1,11 @@
-import PastEvent1 from '../../../assets/events/past-event-1.jpeg';
-import PastEvent2 from '../../../assets/events/past-event-2.jpeg';
-import PastEvent3 from '../../../assets/events/past-event-3.jpeg';
-import PastEvent4 from '../../../assets/events/past-event-4.jpeg';
-import PastEvent5 from '../../../assets/events/past-event-5.jpeg';
-import PastEvent6 from '../../../assets/events/past-event-6.jpeg';
-import PastEvent7 from '../../../assets/events/past-event-7.jpeg';
-import PastEvent8 from '../../../assets/events/past-event-8.jpeg';
+import PastEvent1 from 'assets/events/past-event-1.jpeg';
+import PastEvent2 from 'assets/events/past-event-2.jpeg';
+import PastEvent3 from 'assets/events/past-event-3.jpeg';
+import PastEvent4 from 'assets/events/past-event-4.jpeg';
+import PastEvent5 from 'assets/events/past-event-5.jpeg';
+import PastEvent6 from 'assets/events/past-event-6.jpeg';
+import PastEvent7 from 'assets/events/past-event-7.jpeg';
+import PastEvent8 from 'assets/events/past-event-8.jpeg';
 export const eventsData = [
   {
     description:

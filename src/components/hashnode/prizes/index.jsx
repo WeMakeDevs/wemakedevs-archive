@@ -1,8 +1,7 @@
+import Hashnode from 'assets/hashnode/Special-Prize.png';
 import clsx from 'clsx';
 
 import styles from './index.module.css';
-
-import Hashnode from '../../../assets/hashnode/Special-Prize.png';
 
 const Prizes = ({ background }) => {
   return (

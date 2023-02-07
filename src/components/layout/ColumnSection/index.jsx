@@ -1,9 +1,8 @@
 import clsx from 'clsx';
+import ArrowLink from 'components/links/ArrowLink';
+import ButtonLink from 'components/links/ButtonLink';
 
 import styles from './index.module.css';
-
-import ArrowLink from '../../links/ArrowLink';
-import ButtonLink from '../../links/ButtonLink';
 
 const ColumnSection = ({
   id,

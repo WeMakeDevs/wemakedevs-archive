@@ -1,7 +1,8 @@
+import BannerImage from 'assets/home/courses.png';
+import ColumnSection from 'components/layout/ColumnSection';
+import ListItem from 'components/Listitem';
+
 import { Testimonials, Work } from '..';
-import ColumnSection from '../../layout/ColumnSection';
-import ListItem from '../../Listitem';
-import BannerImage from '../../../assets/home/courses.png';
 
 const Courses = ({ background = 'static' }) => {
   return (

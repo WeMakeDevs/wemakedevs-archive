@@ -1,9 +1,9 @@
-import ekjottest2 from './../../../assets/home/ekjottest2.jpg';
-import rahultest1 from './../../../assets/home/rahultest1.jpg';
-import sajjantest3 from './../../../assets/home/sajjantest3.jpg';
-import anurag from './../../../assets/testimonials/anurag.jpg';
-import prasanna from './../../../assets/testimonials/prasanna.jpg';
-import siva from './../../../assets/testimonials/sivanithin.jpg';
+import ekjottest2 from 'assets/home/ekjottest2.jpg';
+import rahultest1 from 'assets/home/rahultest1.jpg';
+import sajjantest3 from 'assets/home/sajjantest3.jpg';
+import anurag from 'assets/testimonials/anurag.jpg';
+import prasanna from 'assets/testimonials/prasanna.jpg';
+import siva from 'assets/testimonials/sivanithin.jpg';
 
 export const data = [
   {
