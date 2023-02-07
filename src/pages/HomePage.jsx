@@ -8,7 +8,6 @@ import {
   Mentorship,
 } from '../components/home';
 import Layout, { Banner } from '../components/layout';
-import ScrollToTop from '../components/ScrollToTop';
 
 const HomePage = () => {
   return (
@@ -22,7 +21,6 @@ const HomePage = () => {
         <Content />
       </Layout>
       <Banner />
-      <ScrollToTop />
     </>
   );
 };
