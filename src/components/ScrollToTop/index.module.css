@@ -1,0 +1,19 @@
+.scroll--btn {
+  border: none;
+}
+
+.btn--image {
+  position: fixed;
+  bottom: 50px;
+  right: 0px;
+  width: 7vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .btn--image {
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+    width: 20%;
+  }
+}
