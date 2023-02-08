@@ -11,16 +11,14 @@ import Layout from '../components/layout';
 
 const HashnodePage = () => {
   return (
-    <>
-      <Layout content={HashnodePageContent}>
-        <Hero />
-        <Offer />
-        <Prize />
-        <Announcement />
-        <Track />
-        <HowTakePart />
-      </Layout>
-    </>
+    <Layout content={HashnodePageContent}>
+      <Hero />
+      <Offer />
+      <Prize />
+      <Announcement />
+      <Track />
+      <HowTakePart />
+    </Layout>
   );
 };
 export default HashnodePage;
