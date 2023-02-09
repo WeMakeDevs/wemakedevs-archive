@@ -4,19 +4,19 @@
 
 .btn--image {
   display: block;
-  width: 7vw;
-  height: 4vw;
+  font-size: 4em;
   position: fixed;
-  bottom: 20px;
-  right: 0px;
+  color: var(--clr-primary-disable);
+  bottom: 40px;
+  right: 10px;
+  z-index: 10;
 }
 
 @media only screen and (max-width: 480px) {
   .btn--image {
     position: fixed;
     bottom: 30px;
-    right: 0px;
-    width: 20%;
-    height: 5%;
+    right: 10px;
+    font-size: 3em;
   }
 }
