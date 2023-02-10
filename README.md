@@ -1,6 +1,7 @@
 
-
-![logo](https://user-images.githubusercontent.com/42698533/213821314-83a4c231-f480-4cac-b24c-452a7fa0dda5.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="180" >
+</p>
 
 <h1 id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="40" alt="logo"/> We Make Devs</a></h1>
 
