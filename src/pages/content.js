@@ -107,7 +107,7 @@ export const HashnodePageContent = {
       id: 'FAQ4',
       question: 'Do you provide learning resources during the contest?',
       answer:
-        "Learn, we'll be sharing those in out Discord community. Join along with thousands of others and feel free to ask your doubts in the relevant channels.",
+        "Yes, we'll be sharing those in out Discord community. Join along with thousands of others and feel free to ask your doubts in the relevant channels.",
     },
     {
       id: 'FAQ5',
