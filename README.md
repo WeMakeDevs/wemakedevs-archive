@@ -32,7 +32,7 @@ We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free
 
 ## 👨‍💻 We Make Devs
 
-<a href="https://wemakedevs.org/">Click here</a> to visit We Make Devs website.
+<a href="https://wemakedevs.org/">Visit</a> our website.
 
 ## What stack is WeMakeDevs built on?
 
