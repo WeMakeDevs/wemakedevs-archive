@@ -2,6 +2,26 @@
 
 Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
 
+<b>Follow us and be a part of this amazing community.</b> <br><br>
+  <a href="https://www.youtube.com/c/KunalKushwaha">
+    <img width="30px" src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg" />
+  </a>&ensp;
+  <a href="https://twitter.com/WeMakeDevs">
+    <img width="30px" src="https://www.vectorlogo.zone/logos/twitter/twitter-official.svg" />
+  </a>&ensp;
+  <a href="https://www.linkedin.com/company/wemakedevs/">
+    <img width="30px" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" />
+  </a>&ensp;
+  <a href="https://www.instagram.com/wemakedevs/">
+    <img width="30px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
+  </a>&ensp;
+  <a href="https://discord.gg/wemakedevs">
+    <img width="30px" src="https://discord.com/assets/3437c10597c1526c3dbd98c737c2bcae.svg" />
+  </a>&ensp;
+  <a href="https://t.me/WeMakeDevs">
+    <img width="30px" src="https://www.vectorlogo.zone/logos/telegram/telegram-icon.svg" />
+  </a><br>
+
 ## 👨‍💻 Demo
 
 Visit: https://wemakedevs.org/
@@ -31,7 +51,13 @@ Mentorship
 
 ## 🚀 Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+We Thank you for putting your time to contribute and helping others out!\
+Before contributing do kindly read and follow
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
+- [Contributing](./CONTRIBUTING.md)
+- [License](./LICENSE)
+
+To get started with contributing, go through the following steps.
 
 ### 🧾 Prerequisites
 
