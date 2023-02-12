@@ -4,6 +4,10 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-image: url('../../../assets/images/chaos.svg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
 }
 
 .layout {
