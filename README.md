@@ -3,17 +3,21 @@
 <img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="180" >
 </p>
 
+<div align="center">
 <h1 id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="40" alt="logo"/> We Make Devs</a></h1>
+
 
 ### 
 
-
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/WeMakeDevs/wemakedevs)](https://github.com/WeMakeDevs/wemakedevs/pulls)
 <a href="https://github.com/commclassroom/commclassroom/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/commclassroom/commclassroom"></a>
 <a href="https://github.com/commclassroom/commclassroom/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/commclassroom/commclassroom"></a>
 <a href="https://github.com/commclassroom/commclassroom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/commclassroom/commclassroom"></a>
 <a href="https://github.com/commclassroom/commclassroom/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/commclassroom/commclassroom"></a>
 
-# About Us
+</div>
+
+## About Us
 
 Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
 
@@ -86,13 +90,13 @@ Before starting out, you'll need to install the following on your computer.
 
 ### 🛠️ Installation
 
-1. Fork the repo
-2. Clone the repository `git clone https://github.com/WeMakeDevs/wemakedevs.git `
-3. Run `npm i` Or `npm install`to install all dependencies
-4. Run `npm start` to start the application
-5. Visit `https://localhost:3000` to view the application
+1. Fork the repo.
+2. Clone the repository `git clone https://github.com/WeMakeDevs/wemakedevs.git `.
+3. Run `npm i` Or `npm install`to install all dependencies.
+4. Run `npm start` to start the application.
+5. Visit `https://localhost:3000` to view the application.
+
 
 ## Thanks to all the contributors ❤️
 
 <img src="https://contrib.rocks/image?repo=WeMakeDevs/wemakedevs"/>
-
