@@ -26,7 +26,7 @@ We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free
 ## What we provide?
 
 
-<p align="center">
+<p align="left">
 <img src="SkewdImage/wemakedevs.drawio.png" width="520" height="390" >
 </p>
 
