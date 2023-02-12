@@ -16,7 +16,7 @@ const Testimonials = () => {
           gap: '1.5rem',
         }}
       >
-        <h2 className='h1'>Testimonial</h2>
+        <h2 className='h1'>Testimonials</h2>
         <hr className='styled-hr' />
         <Carousel
           cols={3}

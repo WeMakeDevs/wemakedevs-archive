@@ -18,9 +18,54 @@ export const GitGithubPageContent = {
     ],
     syllabus: [
       {
-        title: 'In development',
+        title: 'Introduction to version control and Git',
         description:
-          'Syllabus will be available soon. Subscribe to our YouTube channel to get notified.',
+          "Explain what version control is and why it's important. Introduce Git as a version control system and its basic concepts such as commits, branches, and pull requests.",
+      },
+      {
+        title: 'Setting up a GitHub account',
+        description:
+          'Explain how to sign up for a GitHub account and configure your profile.',
+      },
+      {
+        title: 'Creating a repository',
+        description:
+          'Demonstrate how to create a repository on GitHub, including adding a README file and choosing a license.',
+      },
+      {
+        title: 'Making changes to a repository',
+        description:
+          'Show how to make changes to a repository, including adding, editing, and deleting files. Explain the use of the Git command line interface to stage, commit, and push changes.',
+      },
+      {
+        title: 'Branching and merging',
+        description:
+          'Explain the concept of branching in Git and demonstrate how to create, switch between, and merge branches.',
+      },
+      {
+        title: 'Pull requests',
+        description:
+          'Explain what pull requests are and how they can be used to collaborate with others on a repository. Show how to create a pull request, review changes, and merge the changes into the master branch.',
+      },
+      {
+        title: 'Issues and project management',
+        description:
+          'Demonstrate how to use the issue tracker and project management features in GitHub to track bugs, tasks, and progress.',
+      },
+      {
+        title: 'GitHub Pages',
+        description:
+          'Explain what GitHub Pages are and how to use them to create a static website for your repository',
+      },
+      {
+        title: 'GitHub Actions',
+        description:
+          'Introduce GitHub Actions, a powerful CI/CD tool, and demonstrate how to use it to automate tasks and deploy applications.',
+      },
+      {
+        title: 'Collaborating on a repository',
+        description:
+          'Show how to collaborate with others on a repository, including forking a repository, contributing changes, and resolving merge conflicts.',
       },
     ],
     tweetId: [
