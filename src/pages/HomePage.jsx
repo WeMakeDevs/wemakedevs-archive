@@ -1,4 +1,3 @@
-import { HomePageContent } from './content';
 import {
   About,
   Content,
@@ -6,8 +5,10 @@ import {
   Events,
   Hero,
   Mentorship,
-} from '../components/home';
-import Layout, { Banner } from '../components/layout';
+} from 'components/home';
+import Layout, { Banner } from 'components/layout';
+
+import { HomePageContent } from './content';
 
 const HomePage = () => {
   return (
