@@ -2,7 +2,7 @@ import Carousel from 'better-react-carousel';
 import clsx from 'clsx';
 import { Tweet } from 'react-twitter-widgets';
 
-const Testimonials = ({ title = 'Testimonial', tweetId }) => {
+const Testimonials = ({ title = 'Testimonials', tweetId }) => {
   return (
     <section id='testimonials'>
       <div
