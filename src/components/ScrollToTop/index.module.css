@@ -1,0 +1,22 @@
+.scroll--btn {
+  border: none;
+}
+
+.btn--image {
+  display: block;
+  font-size: 4em;
+  position: fixed;
+  color: var(--clr-primary-disable);
+  bottom: 40px;
+  right: 10px;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 480px) {
+  .btn--image {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    font-size: 3em;
+  }
+}
