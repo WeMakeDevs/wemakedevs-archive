@@ -3,15 +3,16 @@
 <img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="180" >
 </p>
 
-<h1 id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="40" alt="logo"/> We Make Devs</a></h1>
+<h1  align= "center" id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="40" alt="logo"/> We Make Devs</a></h1>
 
 ### 
 
-
+<div align="center">
 <a href="https://github.com/commclassroom/commclassroom/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/commclassroom/commclassroom"></a>
 <a href="https://github.com/commclassroom/commclassroom/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/commclassroom/commclassroom"></a>
 <a href="https://github.com/commclassroom/commclassroom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/commclassroom/commclassroom"></a>
 <a href="https://github.com/commclassroom/commclassroom/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/commclassroom/commclassroom"></a>
+</div>
 
 # About Us
 
