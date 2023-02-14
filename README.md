@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="180" >
 </p>
 
-<h1  align= "center" id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="40" style="vertical-align:middle;margin:0px 14px" alt="logo" />We Make Devs</a></h1>
+<h1  align= "center" id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="42" style="vertical-align:middle;margin:0px 14px" alt="logo" />We Make Devs</a></h1>
 
 ### 
 
