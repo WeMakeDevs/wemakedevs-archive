@@ -5,6 +5,7 @@ import './styles/resets.css';
 import './styles/root.css';
 import './styles/typography.css';
 import './styles/utils.css';
+import 'react-loading-skeleton/dist/skeleton.css';
 
 import { Loader } from './components/layout';
 import ScrollToTop from './components/ScrollToTop';
