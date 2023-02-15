@@ -26,11 +26,11 @@ We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free
 
 ## What we provide?
 
-Education
+- Education
 
-Events
+- Events
 
-Mentorship
+- Mentorship
 <p align="center">
 <img src="https://user-images.githubusercontent.com/114678694/197411491-73f21a05-b556-460f-91e7-821dc525a828.jpg" width="460" height="390" >
 </p>
