@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import clsx from 'clsx';
 import ArrowLink from 'components/links/ArrowLink';
 import ButtonLink from 'components/links/ButtonLink';
@@ -12,9 +11,8 @@ import styles from './index.module.css';
 import Backdrop from '../Backdrop';
 
 const Navbar = ({ links }) => {
-  
   const [open, setOpen] = React.useState(false);
-  
+
   // Go to top
   const toTop = () => {
     window.scroll({
@@ -31,6 +29,7 @@ const Navbar = ({ links }) => {
           <UnstyledLink href='/' onClick={toTop}>
             <Logo />
           </UnstyledLink>
+
           <NavigationLinks
             style={styles.nav}
             open={open}
