@@ -26,18 +26,14 @@ We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free
 
 ## What we provide?
 
-Education
 
-Events
-
-Mentorship
 <p align="center">
-<img src="https://user-images.githubusercontent.com/114678694/197411491-73f21a05-b556-460f-91e7-821dc525a828.jpg" width="460" height="390" >
+<img src="SkewdImage/wemakedevs.drawio.png" width="520" height="390" >
 </p>
 
 ## 👨‍💻 We Make Devs
 
-<a href="https://wemakedevs.org/">Click here</a> to visit We Make Devs website.
+<a href="https://wemakedevs.org/">Visit</a> our website.
 
 ## What stack is WeMakeDevs built on?
 
