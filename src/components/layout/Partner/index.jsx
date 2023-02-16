@@ -52,6 +52,7 @@ const Partner = ({ background = 'static' }) => {
             <Button
               className={clsx('h3', styles.copy, copied && styles.copied)}
               onClick={copyEmail}
+              aria-label="copy email to clipboard"
             >
               <BsClipboard />
             </Button>
