@@ -17,7 +17,7 @@ const Navbar = ({ links }) => {
     <>
       <header className={styles.header}>
         <div className={clsx('layout', styles.headerContainer)}>
-          <UnstyledLink href='/#'>
+          <UnstyledLink href='/#' aria-label="Logo">
             <Logo />
           </UnstyledLink>
           <NavigationLinks

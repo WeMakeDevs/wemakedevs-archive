@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const UnstyledLink = React.forwardRef(
   (
-    { children, href, openNewTab, openNewTabIcon = false, className, ...rest },
+    { children, href, openNewTab, openNewTabIcon = false, className, ariaLabel, ...rest },
     ref
   ) => {
     // If href start with `#` then it will render Link Component from `react-router-dom`
@@ -28,6 +28,7 @@ const UnstyledLink = React.forwardRef(
         {...(!href.startsWith('#') && {
           target: '_blank',
           rel: 'noopener noreferrer',
+          'aria-label': ariaLabel,
         })}
         href={href}
         {...rest}
