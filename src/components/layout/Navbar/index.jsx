@@ -16,7 +16,6 @@ const Navbar = ({ links }) => {
   const [open, setOpen] = React.useState(false);
   
   // Go to top
-  const [goToTop, setgoToTop] = useState(true);
   const toTop = () => {
     window.scroll({
       top: 0,
@@ -29,11 +28,9 @@ const Navbar = ({ links }) => {
     <>
       <header className={styles.header}>
         <div className={clsx('layout', styles.headerContainer)}>
-          {goToTop && (
-            <UnstyledLink href='/#' onClick={toTop}>
-              <Logo />
-            </UnstyledLink>
-          )}
+          <UnstyledLink href='' onClick={toTop}>
+            <Logo />
+          </UnstyledLink>
           <NavigationLinks
             style={styles.nav}
             open={open}
