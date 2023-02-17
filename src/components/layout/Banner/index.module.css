@@ -16,6 +16,7 @@
   padding: 0.5rem;
   border-radius: 10px;
   margin-left: auto;
+  flex-shrink: 0;
 }
 
 .layout {
@@ -23,7 +24,6 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  flex-wrap: wrap;
 }
 .layout p {
   text-align: center;
@@ -31,6 +31,7 @@
 .btn {
   padding: 0.5rem 0.7rem;
   border-radius: 10px;
+  flex-shrink: 0;
 }
 
 @media (min-width: 768px) {
