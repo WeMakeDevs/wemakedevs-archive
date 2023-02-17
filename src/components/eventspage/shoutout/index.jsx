@@ -1,5 +1,4 @@
-import Carousel from 'better-react-carousel';
-import { Tweet } from 'react-twitter-widgets';
+import SkeletonCard from 'components/SkeletonCard';
 
 const Events = () => {
   return (
@@ -18,28 +17,8 @@ const Events = () => {
       >
         <h2 className='h1'>Community testimonials</h2>
         <hr className='styled-hr' />
-        <Carousel
-          cols={3}
-          rows={1}
-          gap={20}
-          autoplay={2500}
-          dotColorActive='rgb(89,66,233)'
-          showDots
-          hideArrow
-          loop
-        >
-          {tweetId.map((id) => (
-            <Carousel.Item
-              style={{
-                width: '99%',
-              }}
-              key={id}
-            >
-              <Tweet tweetId={id} options={{ theme: 'dark' }} />
-            </Carousel.Item>
-          ))}
-        </Carousel>
       </section>
+      <SkeletonCard tweetId={tweetId} options={{ theme: 'dark' }} />
     </>
   );
 };
