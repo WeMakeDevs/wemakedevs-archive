@@ -13,13 +13,23 @@ import Backdrop from '../Backdrop';
 const Navbar = ({ links }) => {
   const [open, setOpen] = React.useState(false);
 
+  // Go to top
+  const toTop = () => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <>
       <header className={styles.header}>
         <div className={clsx('layout', styles.headerContainer)}>
-          <UnstyledLink href='/#' aria-label="Logo">
+          <UnstyledLink href='/' onClick={toTop} aria-label='Logo'>
             <Logo />
           </UnstyledLink>
+
           <NavigationLinks
             style={styles.nav}
             open={open}
