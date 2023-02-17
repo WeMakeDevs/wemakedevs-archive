@@ -26,7 +26,7 @@ const Navbar = ({ links }) => {
     <>
       <header className={styles.header}>
         <div className={clsx('layout', styles.headerContainer)}>
-          <UnstyledLink href='/' onClick={toTop} aria-label='Logo'>
+          <UnstyledLink href='/' onClick={toTop} aria-label='We make devs logo'>
             <Logo />
           </UnstyledLink>
 
