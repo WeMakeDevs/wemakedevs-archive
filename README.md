@@ -14,8 +14,8 @@
 <a href="https://github.com/commclassroom/commclassroom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/commclassroom/commclassroom"></a>
 <a href="https://github.com/commclassroom/commclassroom/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/commclassroom/commclassroom"></a>
 </div>
-
-# About Us
+ 
+    ->About us:
 
 Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
 
