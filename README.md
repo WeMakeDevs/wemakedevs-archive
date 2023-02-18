@@ -6,7 +6,8 @@
 <h1  align= "center" id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="40" style="vertical-align:middle;padding:0px 8px 10px 0px" alt="logo" />We Make Devs</a></h1>
 
 ### 
-
+<h1>
+  <h1>
 <div align="center">
 <a href="https://github.com/commclassroom/commclassroom/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/commclassroom/commclassroom"></a>
 <a href="https://github.com/commclassroom/commclassroom/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/commclassroom/commclassroom"></a>
