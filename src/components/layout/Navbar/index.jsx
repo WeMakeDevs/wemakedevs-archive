@@ -89,7 +89,12 @@ const NavigationLinks = ({ style, open, setOpen, links }) => {
           {link.name}
         </HeaderLink>
       ))}
-      <ArrowLink className={styles.cta} as={ButtonLink} href='#partnerwithus'>
+      <ArrowLink
+        className={styles.cta}
+        as={ButtonLink}
+        href='#partnerwithus'
+        onClick={() => setOpen(false)}
+      >
         Partner
       </ArrowLink>
     </nav>
