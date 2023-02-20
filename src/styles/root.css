@@ -4,14 +4,12 @@
   scroll-behavior: smooth;
 
   /* #region  /**=========== Colors use modifiy opacity  =========== */
-  /* --content: 222, 227, 234; #dee3ea */
-  --content: 230, 235, 239; /* #E6EBEF */
+  --content: 222, 227, 234; /* #dee3ea */
   --divider: 30, 45, 61; /* #1E2D3D */
   --base-100: 20, 20, 20; /* #141414 */
   --base-200: 1, 8, 14; /* #01080E */
   --base-gray: 80, 80, 80; /* #505050 */
-  /* --primary: 89, 66, 233; #5942e9 */
-  --primary: 69, 57, 172; /* #4539AC */
+  --primary: 89, 66, 233; /* #5942e9 */
   --primary-hover: 64, 41, 209; /* #4029d1 */
   --primary-disable: 119, 101, 237; /* #7765ed */
   --white: 256, 256, 256; /* #ffffff */
