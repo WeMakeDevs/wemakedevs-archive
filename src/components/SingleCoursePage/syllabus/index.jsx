@@ -4,7 +4,7 @@ import styles from './index.module.css';
 const Syllabus = ({ content }) => {
   return (
     <div>
-      <div className={clsx('layout', styles.layout)}>
+      <div id='syllabus' className={clsx('layout', styles.layout)}>
         <h2 className='h1'>Syllabus</h2>
         <hr className={clsx('styled-hr', styles.headingLine)} />
         <div className={styles.syllabus}>
