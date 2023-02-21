@@ -65,8 +65,12 @@ const Footer = () => {
           <h3>WeMakeDevs</h3>
           <div className={styles.links}>
             {links.map((link) => (
-              <UnstyledLink key={link.name} href={link.link} ariaLabel = {link.ariaLabel}>
-                {link.icon} 
+              <UnstyledLink
+                key={link.name}
+                href={link.link}
+                aria-label={link.ariaLabel}
+              >
+                {link.icon}
               </UnstyledLink>
             ))}
           </div>
