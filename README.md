@@ -88,7 +88,7 @@ Before starting out, you'll need to install the following on your computer.
 3. Run `cd wemakedevs` to change the working directory
 4. Run `npm ci` Or `npm clean-install` to install all dependencies
 5. Run `npm start` to start the application
-6. Visit [http://localhost:3000](http://localhost:3000) to view the app
+6. Visit [http://localhost:3000](http://localhost:3000) to view the application
 
 ## Thanks to all the contributors ❤️
 
