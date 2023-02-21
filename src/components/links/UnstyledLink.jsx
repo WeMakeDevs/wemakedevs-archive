@@ -30,6 +30,7 @@ const UnstyledLink = React.forwardRef(
         })}
         href={href}
         {...rest}
+        className={className}
       >
         {children}
         {openNewTabIcon && <NewTab />}
