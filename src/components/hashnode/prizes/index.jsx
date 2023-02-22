@@ -15,7 +15,11 @@ const Prizes = ({ background }) => {
       <div className={clsx('layout', styles.layout)}>
         <h1 className='h1'> Current event & prize </h1>
         <hr className={clsx('styled-hr', styles.hr)} />
-        <img className={styles.hashnodeSpecial} src={Hashnode} />
+        <img
+          className={styles.hashnodeSpecial}
+          src={Hashnode}
+          alt='Hashnode blogging challenge special prize'
+        />
       </div>
     </section>
   );

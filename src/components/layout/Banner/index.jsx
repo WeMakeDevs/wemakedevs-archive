@@ -30,6 +30,7 @@ const Banner = () => {
         <button
           className={clsx('h3', styles.cross)}
           onClick={() => setOpen(false)}
+          aria-label='close button'
         >
           <FaTimes />
         </button>

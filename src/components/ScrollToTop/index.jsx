@@ -28,7 +28,11 @@ export default function ScrollToTop() {
   return (
     <div className={styles['scroll--to--top--button']}>
       {goToTop && (
-        <button onClick={toTop} className={styles['scroll--btn']}>
+        <button
+          onClick={toTop}
+          className={styles['scroll--btn']}
+          aria-label='Click here to scroll to top'
+        >
           <IoIosArrowDropupCircle className={styles['btn--image']} />
         </button>
       )}
