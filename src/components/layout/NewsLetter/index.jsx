@@ -30,6 +30,7 @@ const NewsLetter = () => {
           width='100%'
           height={iframeHeight}
           style={{ border: '0' }}
+          title='Subscribe to our newsletter by entering your details below'
         ></iframe>
       </div>
     </div>

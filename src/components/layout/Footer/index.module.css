@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--clr-base-200);
   color: var(--clr-content);
-  padding-block: 10rem;
+  padding-block: 6rem;
 }
 
 .layout {
@@ -102,7 +102,7 @@
   .footer {
     padding-block: 2rem;
     text-align: center;
-    padding-block-end: 10rem;
+    padding-block-end: 6rem;
   }
 
   .details {
