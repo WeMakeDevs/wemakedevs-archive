@@ -1,12 +1,13 @@
 import clsx from 'clsx';
-import ArrowLink from 'components/links/ArrowLink';
-import ButtonLink from 'components/links/ButtonLink';
-import HeaderLink from 'components/links/HeaderLink';
-import UnstyledLink from 'components/links/UnstyledLink';
 import Logo from 'Icons/core/Logo';
 import * as React from 'react';
 
 import styles from './index.module.css';
+
+import ArrowLink from '@/components/links/ArrowLink';
+import ButtonLink from '@/components/links/ButtonLink';
+import HeaderLink from '@/components/links/HeaderLink';
+import UnstyledLink from '@/components/links/UnstyledLink';
 
 import Backdrop from '../Backdrop';
 

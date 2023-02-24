@@ -36,3 +36,10 @@ yarn-error.log*
 
 # changelog
 CHANGELOG.md
+
+# git
+.git
+.github
+
+# Deploy
+kubernetes

@@ -1,6 +1,7 @@
 import BannerImage from 'assets/home/courses.png';
-import ColumnSection from 'components/layout/ColumnSection';
-import ListItem from 'components/Listitem';
+
+import ColumnSection from '@/components/layout/ColumnSection';
+import ListItem from '@/components/Listitem';
 
 import { Testimonials, Work } from '..';
 

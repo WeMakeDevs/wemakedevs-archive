@@ -1,8 +1,9 @@
 import clsx from 'clsx';
-import UnstyledLink from 'components/links/UnstyledLink';
 import { FaDiscord, FaTelegram } from 'react-icons/fa';
 
 import styles from './index.module.css';
+
+import UnstyledLink from '@/components/links/UnstyledLink';
 
 import NewsLetter from '../NewsLetter';
 

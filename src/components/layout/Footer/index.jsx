@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import UnstyledLink from 'components/links/UnstyledLink';
 import {
   FaDiscord,
   FaEnvelope,
@@ -13,6 +12,8 @@ import {
 import { SiHashnode } from 'react-icons/si';
 
 import styles from './index.module.css';
+
+import UnstyledLink from '@/components/links/UnstyledLink';
 
 const Footer = () => {
   return (

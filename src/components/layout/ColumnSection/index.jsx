@@ -1,13 +1,14 @@
 import clsx from 'clsx';
-import ArrowLink from 'components/links/ArrowLink';
-import ButtonLink from 'components/links/ButtonLink';
 
 import styles from './index.module.css';
+
+import ArrowLink from '@/components/links/ArrowLink';
+import ButtonLink from '@/components/links/ButtonLink';
 
 const ColumnSection = ({
   id,
   src,
-  isVideo,
+  isVideo = false,
   title,
   as,
   buttonLinks,

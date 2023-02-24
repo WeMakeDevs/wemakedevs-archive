@@ -1,7 +1,7 @@
-import ArrowLink from 'components/links/ArrowLink';
-import ButtonLink from 'components/links/ButtonLink';
-
 import styles from './index.module.css';
+
+import ArrowLink from '@/components/links/ArrowLink';
+import ButtonLink from '@/components/links/ButtonLink';
 
 const Card = ({ image, title, description, url, btnText }) => {
   return (

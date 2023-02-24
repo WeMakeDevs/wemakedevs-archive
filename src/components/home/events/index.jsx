@@ -2,10 +2,10 @@ import BannerImage from 'assets/home/latestevents.png';
 import Carousel from 'better-react-carousel';
 import { Tweet } from 'react-twitter-widgets';
 
+import prizetweetid from '@/content/prizetweetid';
+
 import ColumnSection from '@/components/layout/ColumnSection';
 import ListItem from '@/components/Listitem';
-
-import prizetweetid from '@/content/prizetweetid';
 
 const Events = () => {
   return (

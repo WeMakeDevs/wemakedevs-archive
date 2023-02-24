@@ -1,7 +1,8 @@
 import clsx from 'clsx';
-import Accordion from 'components/Accordion/Accordion';
 
 import styles from './index.module.css';
+
+import Accordion from '@/components/Accordion/Accordion';
 
 const FAQ = ({ background = 'static', faq }) => {
   return (
