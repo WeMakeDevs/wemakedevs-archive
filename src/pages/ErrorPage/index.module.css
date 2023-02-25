@@ -17,17 +17,3 @@
 .description {
   padding-bottom: 1rem;
 }
-
-.btn {
-  outline: none;
-  font-weight: 500;
-  font-size: large;
-  color: white;
-  /* background: transparent; */
-  border: transparent;
-  margin-top: 1rem;
-  cursor: pointer;
-}
-.btn:hover {
-  border-bottom: 2px solid;
-}
