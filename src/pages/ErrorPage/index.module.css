@@ -14,6 +14,9 @@
   line-height: 1;
   font-size: 4rem;
 }
+.description {
+  padding-bottom: 1rem;
+}
 
 .btn {
   outline: none;
