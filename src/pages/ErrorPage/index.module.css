@@ -3,7 +3,6 @@
   display: grid;
   place-items: center;
   color: white;
-  text-transform: capitalize;
 }
 .errorPageSection .container {
   padding: 1rem;
@@ -15,5 +14,6 @@
   font-size: 4rem;
 }
 .description {
+  text-transform: capitalize;
   padding-bottom: 1rem;
 }

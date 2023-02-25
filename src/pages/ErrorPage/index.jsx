@@ -7,7 +7,7 @@ const ErrorPage = () => {
   const content = (
     <>
       <h1 className={styles['highHeading']}>404 !</h1>
-      <h2>page not found</h2>
+      <h2>Page Not Found</h2>
       <p className={styles['description']}>
         Unfortunately, the page you are looking for does not exist. Please
         navigate to Home. Thank You
@@ -20,7 +20,7 @@ const ErrorPage = () => {
       <div className={styles['container']}>
         {content}
         <ArrowLink as={ButtonLink} href='/'>
-          Back To Home
+          Back to home
         </ArrowLink>
       </div>
     </section>
