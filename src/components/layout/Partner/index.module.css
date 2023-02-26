@@ -12,8 +12,11 @@
   text-align: center;
 }
 .btns {
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-wrap: wrap;
+  place-content: center;
+  flex-wrap: no-wrap;
   gap: 1rem;
 }
 .btns .copy {
@@ -41,6 +44,12 @@
 .copy.copied::after {
   opacity: 1;
   transform: scale(1) translate(-50%, calc(100% + 5px));
+}
+
+@media screen and (max-width: 400px) {
+  .btns a{
+    font-size: min(1.125rem, 4vw) 
+  }
 }
 
 @media screen and (max-width: 500px) {
