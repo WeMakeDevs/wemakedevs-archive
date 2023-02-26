@@ -7,10 +7,10 @@
 ###
 
 <div align="center">
-<a href="https://github.com/commclassroom/commclassroom/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/commclassroom/commclassroom"></a>
-<a href="https://github.com/commclassroom/commclassroom/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/commclassroom/commclassroom"></a>
-<a href="https://github.com/commclassroom/commclassroom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/commclassroom/commclassroom"></a>
-<a href="https://github.com/commclassroom/commclassroom/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/commclassroom/commclassroom"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/wemakedevs/wemakedevs"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/wemakedevs/wemakedevs"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/wemakedevs/wemakedevs"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/wemakedevs/wemakedevs"></a>
 </div>
 
 # About Us
@@ -19,9 +19,9 @@ Our community provides a variety of<b> FREE hands-on computer science training</
 
 ## What is WeMakeDevs?
 
-We believe that everyone, irrespective of their college or branch, technical or non-technical background can make it big. WeMakeDevs is an initiative built on this thought.
+We believe that every individual, regardless of their educational background and technical knowledge, possesses the potential to achieve great heights. Our initiative is founded on this very belief.
 
-We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free.We provides lots of resources to start your journey like roadmaps,podcasts,blogs,events.
+WeMakeDevs provides hands-on training courses and mentorship for free, along with a wealth of resources to help you start your journey, including <b>roadmaps, podcasts, blogs, and events.</b>
 
 ## What we provide?
 
@@ -55,7 +55,7 @@ We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free
 # Contribute
 
 We welcome contributions in our community.<br>
-Before contributing,see <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/CONTRIBUTING.md">Contribution guide</a> for more information.
+Before making a contribution, check the <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/CONTRIBUTING.md">Contribution guide.</a>
 
 # Code of Conduct
 
