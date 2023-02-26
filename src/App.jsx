@@ -1,22 +1,24 @@
 import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import './styles/resets.css';
-import './styles/root.css';
-import './styles/typography.css';
-import './styles/utils.css';
+import '@/styles/resets.css';
+import '@/styles/root.css';
+import '@/styles/typography.css';
+import '@/styles/utils.css';
 
-import { Loader } from './components/layout';
-import ScrollToTop from './components/ScrollToTop';
-import { DevopsPageContent } from './content/devops';
-import { DsaPageContent } from './content/dsa';
-import { GitGithubPageContent } from './content/gitGithub';
-const ErrorPage = lazy(() => import('./pages/ErrorPage'));
-const HashnodePage = lazy(() => import('./pages/Hashnode'));
-const HomePage = lazy(() => import('./pages/HomePage'));
-const EventsPage = lazy(() => import('./pages/Events'));
-const CoursesPage = lazy(() => import('./pages/CoursesPage'));
-const SingleCoursePage = lazy(() => import('./pages/SingleCoursePage'));
+import { DevopsPageContent } from '@/content/devops';
+import { DsaPageContent } from '@/content/dsa';
+import { GitGithubPageContent } from '@/content/gitGithub';
+
+import { Loader } from '@/components/layout';
+import ScrollToTop from '@/components/ScrollToTop';
+
+const ErrorPage = lazy(() => import('@/pages/ErrorPage'));
+const HashnodePage = lazy(() => import('@/pages/Hashnode'));
+const HomePage = lazy(() => import('@/pages/HomePage'));
+const EventsPage = lazy(() => import('@/pages/Events'));
+const CoursesPage = lazy(() => import('@/pages/CoursesPage'));
+const SingleCoursePage = lazy(() => import('@/pages/SingleCoursePage'));
 
 const App = () => {
   return (

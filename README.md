@@ -1,18 +1,15 @@
-
 <p align="center">
-<img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="180" >
+  <img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="250">
 </p>
 
-<h1  align= "center" id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="40" style="vertical-align:middle;padding:0px 8px 10px 0px" alt="logo" />We Make Devs</a></h1>
+<p align="center">We Make Devs - Empowering developers to achieve their potential.</p>
 
-### 
-
-<div align="center">
-<a href="https://github.com/commclassroom/commclassroom/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/commclassroom/commclassroom"></a>
-<a href="https://github.com/commclassroom/commclassroom/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/commclassroom/commclassroom"></a>
-<a href="https://github.com/commclassroom/commclassroom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/commclassroom/commclassroom"></a>
-<a href="https://github.com/commclassroom/commclassroom/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/commclassroom/commclassroom"></a>
-</div>
+<p align="center">
+  <a href="https://github.com/commclassroom/commclassroom/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/commclassroom/commclassroom"></a>
+  <a href="https://github.com/commclassroom/commclassroom/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/commclassroom/commclassroom"></a>
+  <a href="https://github.com/commclassroom/commclassroom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/commclassroom/commclassroom"></a>
+  <a href="https://github.com/commclassroom/commclassroom/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/commclassroom/commclassroom"></a>
+</p>
 
 # About Us
 
@@ -25,7 +22,6 @@ We believe that everyone, irrespective of their college or branch, technical or 
 We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free.We provides lots of resources to start your journey like roadmaps,podcasts,blogs,events.
 
 ## What we provide?
-
 
 <p align="center">
 <img src="SkewdImage/wemakedevs.drawio.png" width="520" height="390" >
@@ -84,12 +80,12 @@ Before starting out, you'll need to install the following on your computer.
 ### 🛠️ Installation
 
 1. Fork the repo
-2. Clone the repository `git clone https://github.com/WeMakeDevs/wemakedevs.git `
-3. Run `npm i` Or `npm install`to install all dependencies
-4. Run `npm start` to start the application
-5. Visit `https://localhost:3000` to view the application
+2. Clone the repository `git clone https://github.com/WeMakeDevs/wemakedevs.git`
+3. Run `cd wemakedevs` to change the working directory
+4. Run `npm ci` Or `npm clean-install` to install all dependencies
+5. Run `npm start` to start the application
+6. Visit [http://localhost:3000](http://localhost:3000) to view the application
 
 ## Thanks to all the contributors ❤️
 
 <img src="https://contrib.rocks/image?repo=WeMakeDevs/wemakedevs"/>
-

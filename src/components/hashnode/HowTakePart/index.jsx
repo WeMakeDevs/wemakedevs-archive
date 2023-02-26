@@ -1,7 +1,10 @@
 import Carousel from 'better-react-carousel';
-import ColumnSection from 'components/layout/ColumnSection';
-import ListItem from 'components/Listitem';
 import { Tweet } from 'react-twitter-widgets';
+
+import prizetweetid from '@/content/prizetweetid';
+
+import ColumnSection from '@/components/layout/ColumnSection';
+import ListItem from '@/components/Listitem';
 
 const HowTakePart = ({ background = 'static' }) => {
   return (
@@ -55,7 +58,7 @@ const HowTakePart = ({ background = 'static' }) => {
           hideArrow
           loop
         >
-          {tweetId.map((id) => (
+          {prizetweetid.map((id) => (
             <Carousel.Item
               style={{
                 width: '99%',
@@ -72,12 +75,3 @@ const HowTakePart = ({ background = 'static' }) => {
 };
 
 export default HowTakePart;
-
-const tweetId = [
-  '1559753424681717761',
-  '1602588263415431170',
-  '1593969175651053568',
-  '1594773169713205249',
-  '1613238456729341953',
-  '1616586072020111360',
-];

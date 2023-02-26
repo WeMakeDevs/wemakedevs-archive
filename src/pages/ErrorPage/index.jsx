@@ -1,7 +1,8 @@
-import Button from 'components/Button';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import styles from './index.module.css';
+
+import Button from '@/components/Button';
 
 const ErrorPage = () => {
   const currLocation = useLocation();

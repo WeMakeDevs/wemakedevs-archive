@@ -1,4 +1,3 @@
-import clsxm from 'clsx';
 import NewTab from 'Icons/core/NewTab';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
@@ -31,8 +30,7 @@ const UnstyledLink = React.forwardRef(
         })}
         href={href}
         {...rest}
-        // Cursor will be normal for the link with #
-        className={clsxm(!href.startsWith('#') && 'cursor-newtab', className)}
+        className={className}
       >
         {children}
         {openNewTabIcon && <NewTab />}
