@@ -11,15 +11,16 @@
   <a href="https://github.com/commclassroom/commclassroom/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/commclassroom/commclassroom"></a>
 </p>
 
+
 # About Us
 
 Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
 
 ## What is WeMakeDevs?
 
-We believe that everyone, irrespective of their college or branch, technical or non-technical background can make it big. WeMakeDevs is an initiative built on this thought.
+We believe that every individual, regardless of their educational background and technical knowledge, possesses the potential to achieve great heights. Our initiative is founded on this very belief.
 
-We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free.We provides lots of resources to start your journey like roadmaps,podcasts,blogs,events.
+WeMakeDevs provides hands-on training courses and mentorship for free, along with a wealth of resources to help you start your journey, including <b>roadmaps, podcasts, blogs, and events.</b>
 
 ## What we provide?
 
@@ -53,7 +54,7 @@ We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free
 # Contribute
 
 We welcome contributions in our community.<br>
-Before contributing,see <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/CONTRIBUTING.md">Contribution guide</a> for more information.
+Before making a contribution, check the <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/CONTRIBUTING.md">Contribution guide.</a>
 
 # Code of Conduct
 
