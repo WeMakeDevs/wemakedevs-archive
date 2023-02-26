@@ -17,5 +17,6 @@
     position: fixed;
     right: 10px;
     font-size: 3em;
+    translate: 0 -3rem;
   }
 }
