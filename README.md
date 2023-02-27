@@ -1,17 +1,16 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="180" >
+  <img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="250">
 </p>
 
-<h1  align= "center" id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="40" style="vertical-align:middle;padding:0px 8px 10px 0px" alt="logo" />We Make Devs</a></h1>
+<p align="center">We Make Devs - Empowering developers to achieve their potential.</p>
 
-###
-
-<div align="center">
+<p align="center">
 <a href="https://github.com/wemakedevs/wemakedevs/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/wemakedevs/wemakedevs"></a>
 <a href="https://github.com/wemakedevs/wemakedevs/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/wemakedevs/wemakedevs"></a>
 <a href="https://github.com/wemakedevs/wemakedevs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/wemakedevs/wemakedevs"></a>
 <a href="https://github.com/wemakedevs/wemakedevs/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/wemakedevs/wemakedevs"></a>
-</div>
+</p>
+
 
 # About Us
 
