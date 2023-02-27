@@ -3,7 +3,6 @@
   display: grid;
   place-items: center;
   color: white;
-  text-transform: capitalize;
 }
 .errorPageSection .container {
   padding: 1rem;
@@ -11,19 +10,10 @@
   max-width: 30rem;
 }
 .errorPageSection .container .highHeading {
+  line-height: 1;
   font-size: 4rem;
 }
-
-.btn {
-  outline: none;
-  font-weight: 500;
-  font-size: large;
-  color: white;
-  background: transparent;
-  border: transparent;
-  margin-top: 1rem;
-  cursor: pointer;
-}
-.btn:hover {
-  border-bottom: 2px solid;
+.description {
+  text-transform: capitalize;
+  padding-bottom: 1rem;
 }
