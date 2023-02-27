@@ -5,11 +5,12 @@
 <p align="center">We Make Devs - Empowering developers to achieve their potential.</p>
 
 <p align="center">
-  <a href="https://github.com/commclassroom/commclassroom/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/commclassroom/commclassroom"></a>
-  <a href="https://github.com/commclassroom/commclassroom/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/commclassroom/commclassroom"></a>
-  <a href="https://github.com/commclassroom/commclassroom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/commclassroom/commclassroom"></a>
-  <a href="https://github.com/commclassroom/commclassroom/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/commclassroom/commclassroom"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/wemakedevs/wemakedevs"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/wemakedevs/wemakedevs"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/wemakedevs/wemakedevs"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/wemakedevs/wemakedevs"></a>
 </p>
+
 
 # About Us
 
