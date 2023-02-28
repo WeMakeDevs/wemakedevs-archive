@@ -51,7 +51,3 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: #ffffff50;
 }
-
-.cursor-newtab {
-  cursor: url('../assets/images/new-tab.png') 10 10, pointer;
-}

@@ -1,6 +1,10 @@
+
 import ColumnSection from 'components/layout/ColumnSection';
 import ListItem from 'components/Listitem';
 import TweetCarousael from 'components/TweetCarousael';
+import prizetweetid from '@/content/prizetweetid';
+import ColumnSection from '@/components/layout/ColumnSection';
+import ListItem from '@/components/Listitem';
 
 const HowTakePart = ({ background = 'static' }) => {
   return (
@@ -44,6 +48,7 @@ const HowTakePart = ({ background = 'static' }) => {
       >
         <h2 className='h1'>Previous winners</h2>
         <hr className='styled-hr' />
+
       </div>
       <TweetCarousael tweetId={tweetId} options={{ theme: 'dark' }} />
     </div>
@@ -51,12 +56,3 @@ const HowTakePart = ({ background = 'static' }) => {
 };
 
 export default HowTakePart;
-
-const tweetId = [
-  '1559753424681717761',
-  '1602588263415431170',
-  '1593969175651053568',
-  '1594773169713205249',
-  '1613238456729341953',
-  '1616586072020111360',
-];

@@ -1,18 +1,16 @@
-
 <p align="center">
-<img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="180" >
+  <img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="250">
 </p>
 
-<h1  align= "center" id="logo"><a><img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="40" alt="logo"/> We Make Devs</a></h1>
+<p align="center">We Make Devs - Empowering developers to achieve their potential.</p>
 
-### 
+<p align="center">
+<a href="https://github.com/wemakedevs/wemakedevs/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/wemakedevs/wemakedevs"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/wemakedevs/wemakedevs"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/wemakedevs/wemakedevs"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/wemakedevs/wemakedevs"></a>
+</p>
 
-<div align="center">
-<a href="https://github.com/commclassroom/commclassroom/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/commclassroom/commclassroom"></a>
-<a href="https://github.com/commclassroom/commclassroom/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/commclassroom/commclassroom"></a>
-<a href="https://github.com/commclassroom/commclassroom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/commclassroom/commclassroom"></a>
-<a href="https://github.com/commclassroom/commclassroom/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/commclassroom/commclassroom"></a>
-</div>
 
 # About Us
 
@@ -20,24 +18,19 @@ Our community provides a variety of<b> FREE hands-on computer science training</
 
 ## What is WeMakeDevs?
 
-We believe that everyone, irrespective of their college or branch, technical or non-technical background can make it big. WeMakeDevs is an initiative built on this thought.
+We believe that every individual, regardless of their educational background and technical knowledge, possesses the potential to achieve great heights. Our initiative is founded on this very belief.
 
-We Make Devs provides <b>courses</b> with hands-on-training ,mentorship for free.We provides lots of resources to start your journey like roadmaps,podcasts,blogs,events.
+WeMakeDevs provides hands-on training courses and mentorship for free, along with a wealth of resources to help you start your journey, including <b>roadmaps, podcasts, blogs, and events.</b>
 
 ## What we provide?
 
-Education
-
-Events
-
-Mentorship
 <p align="center">
-<img src="https://user-images.githubusercontent.com/114678694/197411491-73f21a05-b556-460f-91e7-821dc525a828.jpg" width="460" height="390" >
+<img src="SkewdImage/wemakedevs.drawio.png" width="520" height="390" >
 </p>
 
 ## 👨‍💻 We Make Devs
 
-<a href="https://wemakedevs.org/">Click here</a> to visit We Make Devs website.
+<a href="https://wemakedevs.org/">Visit</a> our website.
 
 ## What stack is WeMakeDevs built on?
 
@@ -61,7 +54,7 @@ Mentorship
 # Contribute
 
 We welcome contributions in our community.<br>
-Before contributing,see <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/CONTRIBUTING.md">Contribution guide</a> for more information.
+Before making a contribution, check the <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/CONTRIBUTING.md">Contribution guide.</a>
 
 # Code of Conduct
 
@@ -88,12 +81,12 @@ Before starting out, you'll need to install the following on your computer.
 ### 🛠️ Installation
 
 1. Fork the repo
-2. Clone the repository `git clone https://github.com/WeMakeDevs/wemakedevs.git `
-3. Run `npm i` Or `npm install`to install all dependencies
-4. Run `npm start` to start the application
-5. Visit `https://localhost:3000` to view the application
+2. Clone the repository `git clone https://github.com/WeMakeDevs/wemakedevs.git`
+3. Run `cd wemakedevs` to change the working directory
+4. Run `npm ci` Or `npm clean-install` to install all dependencies
+5. Run `npm start` to start the application
+6. Visit [http://localhost:3000](http://localhost:3000) to view the application
 
 ## Thanks to all the contributors ❤️
 
 <img src="https://contrib.rocks/image?repo=WeMakeDevs/wemakedevs"/>
-

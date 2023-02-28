@@ -1,15 +1,17 @@
-import Adobe from 'assets/home/adobe.svg';
-import Amazon from 'assets/home/amazon.svg';
-import Cisco from 'assets/home/Cisco.svg';
-import Clicklabs from 'assets/home/clicklabs.svg';
-import Google from 'assets/home/google.svg';
-import Microsoft from 'assets/home/microsoft.svg';
-import Razorpay from 'assets/home/razorpay.svg';
-import Samsung from 'assets/home/Samsung.svg';
-import Virtusa from 'assets/home/virtusa.svg';
 import clsx from 'clsx';
 
 import styles from './index.module.css';
+
+import Adobe from '@/assets/home/company/adobe.svg';
+import Amazon from '@/assets/home/company/amazon.svg';
+import Cisco from '@/assets/home/company/cisco.svg';
+import Clicklabs from '@/assets/home/company/clicklabs.svg';
+import Google from '@/assets/home/company/google.svg';
+import Microsoft from '@/assets/home/company/microsoft.svg';
+import Razorpay from '@/assets/home/company/razorpay.svg';
+import Samsung from '@/assets/home/company/samsung.svg';
+import towerResearch from '@/assets/home/company/towerResearch.svg';
+import Virtusa from '@/assets/home/company/virtusa.svg';
 
 const index = () => {
   return (
@@ -18,15 +20,16 @@ const index = () => {
         <h2 className='h1'>Our students work at</h2>
         <hr className={clsx('styled-hr', styles.headingWorkLine)} />
         <div className={styles.workImg}>
-          <img className={styles.workGoogle} src={Google} alt='google' />
-          <img className={styles.workAmazon} src={Amazon} alt='amazon' />
-          <img className={styles.workMicro} src={Microsoft} alt='microsoft' />
-          <img className={styles.workAdobe} src={Adobe} alt='adobe' />
-          <img className={styles.Samsung} src={Samsung} alt='samsung' />
-          <img className={styles.virtusa} src={Virtusa} alt='virtusa' />
-          <img className={styles.Cisco} src={Cisco} alt='Cisco' />
-          <img className={styles.Razorpay} src={Razorpay} alt='Razorpay' />
-          <img className={styles.Clicklabs} src={Clicklabs} alt='Clicklabs' />
+          <img src={Google} alt='google' />
+          <img src={Amazon} alt='amazon' />
+          <img src={Microsoft} alt='microsoft' />
+          <img src={Adobe} alt='adobe' />
+          <img src={Samsung} alt='samsung' />
+          <img src={Virtusa} alt='virtusa' />
+          <img src={Cisco} alt='Cisco' />
+          <img src={Razorpay} alt='Razorpay' />
+          <img src={Clicklabs} alt='Clicklabs' />
+          <img src={towerResearch} alt='Tower Research' />
         </div>
       </div>
     </div>

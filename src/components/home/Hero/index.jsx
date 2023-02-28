@@ -1,8 +1,9 @@
 import clsx from 'clsx';
-import ArrowLink from 'components/links/ArrowLink';
-import ButtonLink from 'components/links/ButtonLink';
 
 import styles from './index.module.css';
+
+import ArrowLink from '@/components/links/ArrowLink';
+import ButtonLink from '@/components/links/ButtonLink';
 
 const Hero = () => {
   return (
@@ -11,12 +12,12 @@ const Hero = () => {
         <h1 className='heading'>Inspire. Educate. Empower</h1>
         <p className={styles.tagLine}>
           This is a community which provides{' '}
-          <span className='highlight highlight--light'>
+          <span className='highlight highlight--yellow'>
             free hands-on training
           </span>{' '}
           in various fields of computer science and have an inclusive community
           focusing on a{' '}
-          <span className='highlight highlight--light'>learn by doing</span>{' '}
+          <span className='highlight highlight--yellow'>learn by doing</span>{' '}
           approach.
         </p>
         <div className={styles.links}>

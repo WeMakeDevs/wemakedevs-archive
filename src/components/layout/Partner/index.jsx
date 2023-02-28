@@ -1,10 +1,11 @@
 import clsx from 'clsx';
-import Button from 'components/Button';
-import ButtonLink from 'components/links/ButtonLink';
 import * as React from 'react';
 import { BsClipboard } from 'react-icons/bs';
 
 import styles from './index.module.css';
+
+import Button from '@/components/Button';
+import ButtonLink from '@/components/links/ButtonLink';
 
 import PartnerTestimonials from './PartnerTestimonials';
 
@@ -52,6 +53,7 @@ const Partner = ({ background = 'static' }) => {
             <Button
               className={clsx('h3', styles.copy, copied && styles.copied)}
               onClick={copyEmail}
+              aria-label='copy email to clipboard'
             >
               <BsClipboard />
             </Button>

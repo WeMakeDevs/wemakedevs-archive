@@ -1,25 +1,36 @@
 import clsx from 'clsx';
-import ArrowLink from 'components/links/ArrowLink';
-import ButtonLink from 'components/links/ButtonLink';
-import HeaderLink from 'components/links/HeaderLink';
-import UnstyledLink from 'components/links/UnstyledLink';
 import Logo from 'Icons/core/Logo';
 import * as React from 'react';
 
 import styles from './index.module.css';
+
+import ArrowLink from '@/components/links/ArrowLink';
+import ButtonLink from '@/components/links/ButtonLink';
+import HeaderLink from '@/components/links/HeaderLink';
+import UnstyledLink from '@/components/links/UnstyledLink';
 
 import Backdrop from '../Backdrop';
 
 const Navbar = ({ links }) => {
   const [open, setOpen] = React.useState(false);
 
+  // Go to top
+  const toTop = () => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <>
       <header className={styles.header}>
         <div className={clsx('layout', styles.headerContainer)}>
-          <UnstyledLink href='/#'>
+          <UnstyledLink href='/' onClick={toTop} aria-label='We make devs logo'>
             <Logo />
           </UnstyledLink>
+
           <NavigationLinks
             style={styles.nav}
             open={open}
@@ -79,7 +90,12 @@ const NavigationLinks = ({ style, open, setOpen, links }) => {
           {link.name}
         </HeaderLink>
       ))}
-      <ArrowLink className={styles.cta} as={ButtonLink} href='#partnerwithus'>
+      <ArrowLink
+        className={styles.cta}
+        as={ButtonLink}
+        href='#partnerwithus'
+        onClick={() => setOpen(false)}
+      >
         Partner
       </ArrowLink>
     </nav>

@@ -2,6 +2,9 @@ import BannerImage from 'assets/home/latestevents.png';
 import ColumnSection from 'components/layout/ColumnSection';
 import ListItem from 'components/Listitem';
 import TweetCarousael from 'components/TweetCarousael';
+import prizetweetid from '@/content/prizetweetid';
+import ColumnSection from '@/components/layout/ColumnSection';
+import ListItem from '@/components/Listitem';
 
 const Events = () => {
   return (
@@ -53,15 +56,3 @@ const Events = () => {
 };
 
 export default Events;
-
-const tweetId = [
-  '1559753424681717761',
-  '1602588263415431170',
-  '1593969175651053568',
-  '1594773169713205249',
-  '1613238456729341953',
-  '1609515604033286144',
-  '1609581274985037824',
-  '1596162105971023872',
-  '1616586072020111360',
-];

@@ -1,5 +1,5 @@
-import { About, Courses, Hero, Testimonials } from 'components/coursespage';
-import Layout from 'components/layout';
+import { About, Courses, Hero, Testimonials } from '@/components/coursespage';
+import Layout from '@/components/layout';
 
 import { CoursesPageContent } from './content';
 

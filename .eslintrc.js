@@ -72,7 +72,7 @@ module.exports = {
           // Lib and hooks
           ['^@/lib', '^@/hooks'],
           // static data
-          ['^@/data'],
+          ['^@/content'],
           // components
           ['^@/components', '^@/container'],
           // zustand store

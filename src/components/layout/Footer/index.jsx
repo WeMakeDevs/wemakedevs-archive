@@ -1,5 +1,4 @@
 import clsx from 'clsx';
-import UnstyledLink from 'components/links/UnstyledLink';
 import {
   FaDiscord,
   FaEnvelope,
@@ -13,6 +12,8 @@ import {
 import { SiHashnode } from 'react-icons/si';
 
 import styles from './index.module.css';
+
+import UnstyledLink from '@/components/links/UnstyledLink';
 
 const Footer = () => {
   return (
@@ -65,7 +66,11 @@ const Footer = () => {
           <h3>WeMakeDevs</h3>
           <div className={styles.links}>
             {links.map((link) => (
-              <UnstyledLink key={link.name} href={link.link}>
+              <UnstyledLink
+                key={link.name}
+                href={link.link}
+                aria-label={link.ariaLabel}
+              >
                 {link.icon}
               </UnstyledLink>
             ))}
@@ -144,45 +149,54 @@ const links = [
     name: 'youtube',
     link: 'https://www.youtube.com/@WeMakeDevs',
     icon: <FaYoutube />,
+    ariaLabel: 'Visit WeMakeDevs on YouTube',
   },
   {
     name: 'LinkedIn',
     link: 'https://www.linkedin.com/company/wemakedevs/',
     icon: <FaLinkedin />,
+    ariaLabel: 'Visit WeMakeDevs on LinkedIn',
   },
   {
     name: 'twitter',
     link: 'https://twitter.com/WeMakeDevs',
     icon: <FaTwitter />,
+    ariaLabel: 'Visit WeMakeDevs on Twitter',
   },
   {
     name: 'instagram',
     link: 'https://www.instagram.com/wemakedevs/',
     icon: <FaInstagram />,
+    ariaLabel: 'Visit WeMakeDevs on Instagram',
   },
   {
     name: 'github',
     link: 'https://github.com/WeMakeDevs',
     icon: <FaGithub />,
+    ariaLabel: 'Visit WeMakeDevs on Github',
   },
   {
     name: 'mail',
     link: 'mailto:kunal@wemakedevs.org',
     icon: <FaEnvelope />,
+    ariaLabel: 'Send a mail to WeMakeDevs',
   },
   {
     name: 'telegram',
     link: 'https://t.me/WeMakeDevs',
     icon: <FaTelegramPlane />,
+    ariaLabel: 'Visit WeMakeDevs on Telegram',
   },
   {
     name: 'discord',
     link: 'https://discord.gg/wemakedevs',
     icon: <FaDiscord />,
+    ariaLabel: 'Visit WeMakeDevs on Discord',
   },
   {
     name: 'hashnode',
     link: 'https://blog.wemakedevs.org/',
     icon: <SiHashnode />,
+    ariaLabel: 'Visit WeMakeDevs on hashnode',
   },
 ];

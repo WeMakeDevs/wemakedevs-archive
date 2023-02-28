@@ -1,17 +1,12 @@
-.workSection {
-  max-width: 1200px;
-}
 .workImg {
   display: flex;
-  gap: 60px;
-  justify-content: space-around;
+  column-gap: 3rem;
+  row-gap: 1.3rem;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .workImg img {
   max-width: 250px;
-}
-.workAmazon {
-  margin-top: 1rem;
 }
 .headingWorkLine {
   margin-block: 2rem;
@@ -19,25 +14,9 @@
 .layout {
   padding-bottom: 6rem;
 }
-@media screen and (max-width: 1100px) {
-  .workSection {
-    max-width: 900px;
-  }
-}
 @media screen and (max-width: 900px) {
-  .workSection {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .workImg {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
   .workImg img {
     margin-left: auto;
     margin-right: auto;
-    height: 210px;
   }
 }

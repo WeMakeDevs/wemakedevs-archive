@@ -8,7 +8,7 @@ const Hero = () => {
     <header className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
         <h1 className='heading'>
-          <span className='highlight highlight--yelow'>WeMakeDevs </span>{' '}
+          <span className='highlight highlight--yellow'>WeMakeDevs </span>{' '}
           Blogging Challenge
         </h1>
         <p className={clsx('h2', styles.hashnode)}>
@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
         <br />
         <p className='h3'>
-          <span className='highlight highlight--yelow'>Blogging</span> is about
+          <span className='highlight highlight--yellow'>Blogging</span> is about
           being yourself and putting what you have into it.
         </p>
       </div>

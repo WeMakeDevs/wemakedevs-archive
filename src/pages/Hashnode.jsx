@@ -5,8 +5,8 @@ import {
   Offer,
   Prize,
   Track,
-} from 'components/hashnode';
-import Layout from 'components/layout';
+} from '@/components/hashnode';
+import Layout from '@/components/layout';
 
 import { HashnodePageContent } from './content';
 
