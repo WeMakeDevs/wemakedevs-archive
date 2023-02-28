@@ -1,7 +1,7 @@
 import BannerImage from 'assets/home/latestevents.png';
 import ColumnSection from 'components/layout/ColumnSection';
 import ListItem from 'components/Listitem';
-import SkeletonCard from 'components/SkeletonCard';
+import TweetCarousael from 'components/TweetCarousael';
 
 const Events = () => {
   return (
@@ -44,7 +44,7 @@ const Events = () => {
           </span>
         </ListItem>
       </ColumnSection>
-      <SkeletonCard
+      <TweetCarousael
         tweetId={tweetId}
         options={{ theme: 'dark', conversation: 'none' }}
       />

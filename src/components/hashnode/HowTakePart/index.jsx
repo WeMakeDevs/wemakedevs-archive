@@ -1,6 +1,6 @@
 import ColumnSection from 'components/layout/ColumnSection';
 import ListItem from 'components/Listitem';
-import SkeletonCard from 'components/SkeletonCard';
+import TweetCarousael from 'components/TweetCarousael';
 
 const HowTakePart = ({ background = 'static' }) => {
   return (
@@ -45,7 +45,7 @@ const HowTakePart = ({ background = 'static' }) => {
         <h2 className='h1'>Previous winners</h2>
         <hr className='styled-hr' />
       </div>
-      <SkeletonCard tweetId={tweetId} options={{ theme: 'dark' }} />
+      <TweetCarousael tweetId={tweetId} options={{ theme: 'dark' }} />
     </div>
   );
 };

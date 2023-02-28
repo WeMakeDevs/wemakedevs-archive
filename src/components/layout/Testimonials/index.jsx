@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import SkeletonCard from 'components/SkeletonCard';
+import TweetCarousael from 'components/TweetCarousael';
 
 const Testimonials = ({ title = 'Testimonials', tweetId }) => {
   return (
@@ -18,7 +18,7 @@ const Testimonials = ({ title = 'Testimonials', tweetId }) => {
         <h2 className='h1'>{title}</h2>
         <hr className='styled-hr' />
       </div>
-      <SkeletonCard
+      <TweetCarousael
         tweetId={tweetId}
         options={{ theme: 'dark', conversation: 'none' }}
       />

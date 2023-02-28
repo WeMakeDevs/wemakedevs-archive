@@ -1,4 +1,4 @@
-import SkeletonCard from 'components/SkeletonCard';
+import TweetCarousael from 'components/TweetCarousael';
 
 const Events = () => {
   return (
@@ -18,7 +18,7 @@ const Events = () => {
         <h2 className='h1'>Community testimonials</h2>
         <hr className='styled-hr' />
       </section>
-      <SkeletonCard tweetId={tweetId} options={{ theme: 'dark' }} />
+      <TweetCarousael tweetId={tweetId} options={{ theme: 'dark' }} />
     </>
   );
 };
