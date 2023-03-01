@@ -1,9 +1,8 @@
 import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import '@/styles/resets.css';
 import '@/styles/root.css';
-import '@/styles/typography.css';
+import '@/styles/tailwind.css';
 import '@/styles/utils.css';
 
 import { DevopsPageContent } from '@/content/devops';
