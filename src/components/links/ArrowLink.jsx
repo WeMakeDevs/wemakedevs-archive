@@ -1,8 +1,7 @@
-import clsx from 'clsx';
+import clsxm from '@/lib/utils';
 
-import styles from './index.module.css';
+import UnstyledLink from './UnstyledLink';
 
-import UnstyledLink from '../UnstyledLink';
 export default function ArrowLink({
   children,
   className,
@@ -17,9 +16,9 @@ export default function ArrowLink({
     <Component
       {...rest}
       href={href}
-      className={clsx(
-        styles.link,
-        direction === 'left' && styles.left,
+      className={clsxm(
+        'group flex flex-row gap-1',
+        direction === 'left' && 'flex-row-reverse',
         className
       )}
     >
@@ -30,6 +29,13 @@ export default function ArrowLink({
         width='1em'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
+        className={clsxm(
+          'relative',
+          'transition-transform duration-200 motion-reduce:-translate-x-1',
+          'group-hover:translate-x-0',
+          direction === 'left' &&
+            'transform motion-reduce:translate-x-1 motion-reduce:rotate-180'
+        )}
       >
         <path
           fill='currentColor'
@@ -40,7 +46,11 @@ export default function ArrowLink({
           d='M1.75 8H11'
           strokeWidth='1.5'
           strokeLinecap='round'
-          className={styles.arrow}
+          className={clsxm(
+            'origin-left opacity-0 transition-all duration-200',
+            'motion-reduce:-translate-x-1',
+            'group-hover:translate-x-0 group-hover:opacity-100'
+          )}
         />
       </svg>
     </Component>

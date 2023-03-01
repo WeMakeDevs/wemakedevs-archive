@@ -8,7 +8,6 @@ import Loader from './Loader';
 import Navbar from './Navbar';
 import Partner from './Partner';
 import Testimonials from './Testimonials';
-import HeaderLink from '../links/HeaderLink';
 
 export {
   Backdrop,
@@ -16,7 +15,6 @@ export {
   ColumnSection,
   FAQ,
   Footer,
-  HeaderLink,
   JoinUs,
   Loader,
   Navbar,
