@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import styles from './index.module.css';
 
 const Announcement = ({ background }) => {
-  const progress = 0;
+  const progress = 4;
   const total = 25;
   return (
     <section
