@@ -3,8 +3,8 @@ import clsx from 'clsx';
 import styles from './index.module.css';
 
 const Announcement = ({ background }) => {
-  const progress = 4;
-  const total = 25;
+  const progress = 1;
+  const total = 4;
   return (
     <section
       className={clsx(background === 'gradient' ? 'gradient' : 'static-bg')}
@@ -37,10 +37,7 @@ const Announcement = ({ background }) => {
             className={styles.progress__label}
           >
             <span className={clsx('h1', styles.progress_data)}>{progress}</span>
-            <span>
-              Student mentored by
-              <br /> Kunal Kushwaha
-            </span>
+            <span>of {total} months completed</span>
           </div>
         </div>
       </div>
