@@ -7,27 +7,27 @@ import Track4 from 'assets/hashnode/Track-4.png';
 export const hashnodeData = [
   {
     description:
-      'Write a blog on the topic DevOps, share some projects, tips and stand a chance to win prize.',
+      'Write a blog on the topic DSA and stand a chance to win the prize.',
     image: Track1,
   },
   {
     description:
-      'Write a blog on the topic machine Learning, share some good tips and your experience and definitely stand a chance to win the prize.',
+      'Write a blog on the topic Development, share some projects, tips and stand a chance to win prize.',
     image: Track2,
   },
   {
     description:
-      'Write a blog on the topic Problem Solving and stand a chance to win the prize.',
+      'Write a blog on the topic Dev-tools and stand a chance to win the prize.',
     image: Track3,
   },
   {
     description:
-      'Write a blog on the topic Open source and stand a chance to win the grand prize.',
+      'Write a blog on the topic Linux, share some good tips and your experience and definitely stand a chance to win the grand prize.',
     image: Track4,
   },
   {
     description:
-      "Write a blog about the best communities you're a part of and your experiences with them. What do you enjoy about them? How did they help you grow? and you can win a gaming monitor!",
+      'Write a blog sharing about how you recovered from burnout, or what are some methods you use to deal with it and you can win a JBL Wireless Speaker!',
     image: Special,
   },
 ];
