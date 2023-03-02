@@ -1,4 +1,3 @@
-import clsx from 'clsx';
 import {
   FaDiscord,
   FaEnvelope,
@@ -11,18 +10,18 @@ import {
 } from 'react-icons/fa';
 import { SiHashnode } from 'react-icons/si';
 
-import styles from './index.module.css';
-
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      <div className={clsx('layout', styles.layout)}>
-        <div className={styles.linkGroups}>
-          <div className={styles.linkGroup}>
-            <p className={styles.linksHeading}>Organization</p>
-            <ul>
+    <footer className='bg-base-200 py-24 text-content'>
+      <div className='layout flex flex-col gap-4'>
+        <div className='mx-auto grid w-full grid-cols-2 justify-between gap-4 py-4 md:grid-cols-4'>
+          <div>
+            <p className='h4 w-fit border-b-4 border-primary pb-1 text-gray-50'>
+              Organization
+            </p>
+            <ul className='mt-3 space-y-4'>
               {OrganizationLink.map((link) => (
                 <li key={link.name}>
                   <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
@@ -30,9 +29,11 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className={styles.linkGroup}>
-            <p className={styles.linksHeading}>Community</p>
-            <ul>
+          <div>
+            <p className='h4 w-fit border-b-4 border-primary pb-1 text-gray-50'>
+              Community
+            </p>
+            <ul className='mt-3 space-y-4'>
               {CommunityLinks.map((link) => (
                 <li key={link.name}>
                   <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
@@ -41,9 +42,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className={styles.linkGroup}>
-            <p className={styles.linksHeading}>Socials</p>
-            <ul>
+          <div>
+            <p className='h4 w-fit border-b-4 border-primary pb-1 text-gray-50'>
+              Socials
+            </p>
+            <ul className='mt-3 space-y-4'>
               {socialLinks.map((link) => (
                 <li key={link.name}>
                   <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
@@ -51,9 +54,12 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className={styles.linkGroup}>
-            <p className={styles.linksHeading}>Contact</p>
-            <ul>
+
+          <div>
+            <p className='h4 w-fit border-b-4 border-primary pb-1 text-gray-50'>
+              Contact
+            </p>
+            <ul className='mt-3 space-y-4'>
               {contactLinks.map((link) => (
                 <li key={link.name}>
                   <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
@@ -62,14 +68,17 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className={styles.socialSection}>
-          <h3>WeMakeDevs</h3>
-          <div className={styles.links}>
+        <div className='mt-6 grid grid-cols-1 justify-between gap-6 border-y-2 border-content py-4 text-center lg:grid-cols-2 lg:text-left'>
+          <UnstyledLink href='/#' className='h3 font-black'>
+            WeMakeDevs
+          </UnstyledLink>
+          <div className='mx-auto flex flex-wrap items-center gap-4 lg:mr-0'>
             {links.map((link) => (
               <UnstyledLink
                 key={link.name}
                 href={link.link}
                 aria-label={link.ariaLabel}
+                className='text-2xl'
               >
                 {link.icon}
               </UnstyledLink>
@@ -77,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className={styles.copyright}>
+        <p className='h4 mt-8 text-center font-medium'>
           © Copyrights by
           <span className='highlight highlight--light'> WeMakeDevs </span>. All
           rights reserved.
