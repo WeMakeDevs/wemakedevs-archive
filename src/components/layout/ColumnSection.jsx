@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import styles from './index.module.css';
+import clsxm from '@/lib/utils';
 
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
@@ -13,25 +13,17 @@ const ColumnSection = ({
   as,
   buttonLinks,
   direction = 'left',
-  background = 'transparent',
   children,
 }) => {
   const Component = as || 'section';
   return (
-    <Component
-      id={id}
-      className={clsx(
-        styles.section,
-        background === 'gradient'
-          ? 'gradient'
-          : background == 'static-bg'
-          ? 'static-bg'
-          : 'transparent',
-        direction === 'right' && styles.right
-      )}
-    >
+    <Component id={id}>
       <div
-        className={clsx('layout', styles.container, isVideo && styles.video)}
+        className={clsx(
+          'layout',
+          'flex flex-col justify-between gap-12 py-20 lg:flex-row',
+          direction === 'right' && 'lg:flex-row-reverse'
+        )}
       >
         {isVideo ? (
           <iframe
@@ -39,21 +31,31 @@ const ColumnSection = ({
             title='YouTube video player'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
             allowFullScreen
-            className={clsx(styles.img)}
+            className='inline-block aspect-[560/315] grow  border-none object-cover lg:self-center'
           ></iframe>
         ) : (
-          <img className={styles.img} src={src} alt={title} />
+          <img
+            className='inline-block aspect-[560/315] grow  border-none object-cover '
+            src={src}
+            alt={title}
+          />
         )}
-        <div className={styles.infoContainer}>
+        <div
+          className={clsxm(
+            'flex w-full shrink-0 flex-col gap-6 lg:w-1/2',
+            isVideo && 'lg:first-letter:w-1/2'
+          )}
+        >
           <h2 className='h1'>{title}</h2>
           <hr className='styled-hr' />
-          <ul>{children}</ul>
-          <div className={styles.btns}>
+          <ul className=' h4 flex flex-col gap-6 font-medium text-content first:mt-0'>
+            {children}
+          </ul>
+          <div className='inline-flex flex-wrap gap-2'>
             {buttonLinks?.map((buttonLink) => (
               <ArrowLink
                 key={buttonLink.name}
                 href={buttonLink.href}
-                className={styles.btn}
                 as={ButtonLink}
                 openNewTab
               >

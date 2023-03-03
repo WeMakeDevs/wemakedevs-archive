@@ -3,7 +3,7 @@ import BannerImage from 'assets/home/courses.png';
 import ColumnSection from '@/components/layout/ColumnSection';
 import ListItem from '@/components/Listitem';
 
-import { Testimonials, Work } from '..';
+import { Testimonials, Work } from '.';
 
 const Courses = ({ background = 'static' }) => {
   return (

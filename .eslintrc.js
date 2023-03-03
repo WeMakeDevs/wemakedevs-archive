@@ -97,5 +97,6 @@ module.exports = {
       },
     ],
     // #endregion  //*======== Import Sort ===========
+    'tailwindcss/no-custom-classname': ['off'],
   },
 };

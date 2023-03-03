@@ -1,3 +1,5 @@
+import Carousel from 'better-react-carousel';
+
 import anurag from '@/assets/home/testimonials/anurag.jpg';
 import ekjottest2 from '@/assets/home/testimonials/ekjottest2.jpg';
 import prasanna from '@/assets/home/testimonials/prasanna.jpg';
@@ -5,7 +7,52 @@ import rahultest1 from '@/assets/home/testimonials/rahultest1.jpg';
 import sajjantest3 from '@/assets/home/testimonials/sajjantest3.jpg';
 import siva from '@/assets/home/testimonials/sivanithin.jpg';
 
-export const data = [
+const Testimonials = () => {
+  return (
+    <div id='testimonials'>
+      <div className='layout mx-auto pb-20'>
+        <h2 className='h1'>Testimonials</h2>
+        <hr className='styled-hr my-6' />
+        <Carousel
+          cols={3}
+          rows={1}
+          gap={20}
+          autoplay={2500}
+          dotColorActive='rgb(89,66,233)'
+          showDots
+          hideArrow
+          loop
+        >
+          {data.map((item) => (
+            <Carousel.Item key={item.from}>
+              <TestimonialCard {...item} />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
+    </div>
+  );
+};
+
+export default Testimonials;
+
+const TestimonialCard = ({ src, description, from, designation }) => {
+  return (
+    <div className='flex h-full w-full flex-col items-center justify-center rounded-lg border border-content/20 bg-gradient-to-br from-content/0 to-content/10 p-4 py-8 text-center lg:flex-1'>
+      <img
+        alt='testimonial'
+        className=' mb-2 inline-block h-12 w-12 rounded-full border-2 border-base-100 bg-base-100/10 object-cover object-center'
+        src={src}
+      />
+      <p>{description}</p>
+      <hr className='styled-hr styled-hr--light mx-auto my-4' />
+      <h2 className='text-sm font-medium text-content '>{from}</h2>
+      <p className='text-content/80'>{designation}</p>
+    </div>
+  );
+};
+
+const data = [
   {
     src: rahultest1,
     description:

@@ -1,16 +1,12 @@
-import clsx from 'clsx';
-
-import styles from './index.module.css';
-
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 
 const Hero = () => {
   return (
-    <section className={styles['header-container']}>
-      <div className={clsx('layout', styles.layout)}>
+    <section className='flex h-screen items-center justify-center text-center'>
+      <div className='layout max-w-4xl'>
         <h1 className='heading'>Inspire. Educate. Empower</h1>
-        <p className={styles.tagLine}>
+        <h2 className='h3 my-5 font-medium text-content'>
           This is a community which provides{' '}
           <span className='highlight highlight--yellow'>
             free hands-on training
@@ -19,8 +15,8 @@ const Hero = () => {
           focusing on a{' '}
           <span className='highlight highlight--yellow'>learn by doing</span>{' '}
           approach.
-        </p>
-        <div className={styles.links}>
+        </h2>
+        <div className='flex flex-wrap justify-center gap-5'>
           <ArrowLink as={ButtonLink} href='/courses' openNewTab>
             Courses
           </ArrowLink>
