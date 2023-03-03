@@ -6,7 +6,7 @@ const Accordion = ({ data }) => {
   const [activeItem, setActiveItem] = useState('-1');
 
   return (
-    <div>
+    <div className='space-y-6'>
       {data.map((item, index) => (
         <AccordionItem
           key={item.id}

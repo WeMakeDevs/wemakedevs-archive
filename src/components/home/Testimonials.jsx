@@ -9,26 +9,27 @@ import siva from '@/assets/home/testimonials/sivanithin.jpg';
 
 const Testimonials = () => {
   return (
-    <div id='testimonials'>
+    <div>
       <div className='layout mx-auto pb-20'>
         <h2 className='h1'>Testimonials</h2>
         <hr className='styled-hr my-6' />
-        <Carousel
-          cols={3}
-          rows={1}
-          gap={20}
-          autoplay={2500}
-          dotColorActive='rgb(89,66,233)'
-          showDots
-          hideArrow
-          loop
-        >
-          {data.map((item) => (
-            <Carousel.Item key={item.from}>
-              <TestimonialCard {...item} />
-            </Carousel.Item>
-          ))}
-        </Carousel>
+        <div className='flex flex-col gap-4'>
+          <Carousel
+            cols={3}
+            rows={1}
+            gap={20}
+            autoplay={2500}
+            dotColorActive='rgb(89,66,233)'
+            showDots
+            loop
+          >
+            {data.map((item) => (
+              <Carousel.Item key={item.from}>
+                <TestimonialCard {...item} />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
       </div>
     </div>
   );
@@ -38,7 +39,7 @@ export default Testimonials;
 
 const TestimonialCard = ({ src, description, from, designation }) => {
   return (
-    <div className='flex h-full w-full flex-col items-center justify-center rounded-lg border border-content/20 bg-gradient-to-br from-content/0 to-content/10 p-4 py-8 text-center lg:flex-1'>
+    <div className='mb-10 flex h-full w-full flex-col items-center justify-center rounded-lg border border-content/20 bg-gradient-to-br from-content/0 to-content/10 p-4 py-8 text-center lg:flex-1'>
       <img
         alt='testimonial'
         className=' mb-2 inline-block h-12 w-12 rounded-full border-2 border-base-100 bg-base-100/10 object-cover object-center'

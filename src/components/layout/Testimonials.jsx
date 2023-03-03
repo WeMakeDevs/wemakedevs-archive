@@ -6,15 +6,9 @@ const Testimonials = ({ title = 'Testimonials', tweetId }) => {
   return (
     <section id='testimonials'>
       <div
-        className={clsx('layout')}
-        style={{
-          paddingBlock: '6rem',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          flexDirection: 'column',
-          gap: '1.5rem',
-        }}
+        className={clsx(
+          'layout flex flex-col items-center justify-center gap-6 py-20'
+        )}
       >
         <h2 className='h1'>{title}</h2>
         <hr className='styled-hr' />

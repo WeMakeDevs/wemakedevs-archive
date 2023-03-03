@@ -1,12 +1,59 @@
-import BootDotDev from 'assets/partner/bootdotdev.jpg';
-import Finout from 'assets/partner/finout.jpg';
-import Komodor from 'assets/partner/komodor.jpg';
-import Kubesphere from 'assets/partner/kubesphere.jpg';
-import Stream from 'assets/partner/stream.jpg';
-import Teleport from 'assets/partner/teleport.png';
-import Wilco from 'assets/partner/wilco.jpg';
+import Carousel from 'better-react-carousel';
 
-export default [
+import BootDotDev from '@/assets/partner/bootdotdev.jpg';
+import Finout from '@/assets/partner/finout.jpg';
+import Komodor from '@/assets/partner/komodor.jpg';
+import Kubesphere from '@/assets/partner/kubesphere.jpg';
+import Stream from '@/assets/partner/stream.jpg';
+import Teleport from '@/assets/partner/teleport.png';
+import Wilco from '@/assets/partner/wilco.jpg';
+
+const PartnerTestimonials = () => {
+  return (
+    <div>
+      <div className='layout mx-auto pb-20'>
+        <h2 className='h1'>Testimonials</h2>
+        <hr className='styled-hr my-6' />
+        <div className='flex flex-col gap-4'>
+          <Carousel
+            cols={3}
+            rows={1}
+            gap={20}
+            autoplay={2500}
+            dotColorActive='rgb(89,66,233)'
+            showDots
+            loop
+          >
+            {data.map((item) => (
+              <Carousel.Item key={item.from}>
+                <TestimonialCard {...item} />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PartnerTestimonials;
+
+const TestimonialCard = ({ src, description, from }) => {
+  return (
+    <div className='mb-10 flex h-full w-full flex-col items-center justify-center rounded-lg border border-content/20 bg-gradient-to-br from-content/0 to-content/10 p-4 py-8 text-center lg:flex-1'>
+      <img
+        alt='testimonial'
+        className=' mb-2 inline-block h-20 w-20 rounded-full border-2 border-base-100 bg-base-100/10 object-cover object-center'
+        src={src}
+      />
+      <h2 className='font-medium text-content '>{from}</h2>
+      <hr className='styled-hr styled-hr--light mx-auto my-4' />
+      <p>{description}</p>
+    </div>
+  );
+};
+
+const data = [
   {
     src: Kubesphere,
     description:
