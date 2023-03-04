@@ -1,8 +1,8 @@
 import BannerImage from 'assets/home/latestevents.png';
-import ColumnSection from 'components/layout/ColumnSection';
-import ListItem from 'components/Listitem';
 import TweetCarousael from 'components/TweetCarousael';
+
 import prizetweetid from '@/content/prizetweetid';
+
 import ColumnSection from '@/components/layout/ColumnSection';
 import ListItem from '@/components/Listitem';
 
@@ -48,7 +48,7 @@ const Events = () => {
         </ListItem>
       </ColumnSection>
       <TweetCarousael
-        tweetId={tweetId}
+        tweetId={prizetweetid}
         options={{ theme: 'dark', conversation: 'none' }}
       />
     </section>

@@ -19,9 +19,8 @@ const Events = () => {
       >
         <h2 className='h1'>Community testimonials</h2>
         <hr className='styled-hr' />
-
+        <TweetCarousael tweetId={prizetweetid} options={{ theme: 'dark' }} />
       </section>
-      <TweetCarousael tweetId={tweetId} options={{ theme: 'dark' }} />
     </>
   );
 };
