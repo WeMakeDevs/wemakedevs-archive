@@ -1,9 +1,8 @@
 import BannerImage from 'assets/home/latestevents.png';
-import Carousel from 'better-react-carousel';
-import { Tweet } from 'react-twitter-widgets';
 
 import prizetweetid from '@/content/prizetweetid';
 
+import { Testimonials } from '@/components/layout';
 import ColumnSection from '@/components/layout/ColumnSection';
 import ListItem from '@/components/Listitem';
 
@@ -48,29 +47,12 @@ const Events = () => {
           </span>
         </ListItem>
       </ColumnSection>
-      <div className='layout pb-20'>
-        <Carousel
-          cols={3}
-          rows={1}
-          gap={20}
-          autoplay={2500}
-          dotColorActive='rgb(89,66,233)'
-          showDots
-          hideArrow
-          loop
-        >
-          {prizetweetid.map((id) => (
-            <Carousel.Item
-              style={{
-                width: '99%',
-              }}
-              key={id}
-            >
-              <Tweet tweetId={id} options={{ theme: 'dark' }} />
-            </Carousel.Item>
-          ))}
-        </Carousel>
-      </div>
+      <Testimonials
+        as='div'
+        tweetId={prizetweetid}
+        title='Testimonials'
+        className='pt-0'
+      />
     </section>
   );
 };

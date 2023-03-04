@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import styles from './index.module.css';
+import clsxm from '@/lib/utils';
 import { useEffect, useState } from 'react';
 import { IoIosArrowDropupCircle } from 'react-icons/io';
 export default function ScrollToTop() {
@@ -26,16 +26,15 @@ export default function ScrollToTop() {
     });
   };
   return (
-    <div className={styles['scroll--to--top--button']}>
-      {goToTop && (
-        <button
-          onClick={toTop}
-          className={styles['scroll--btn']}
-          aria-label='Click here to scroll to top'
-        >
-          <IoIosArrowDropupCircle className={styles['btn--image']} />
-        </button>
+    <button
+      onClick={toTop}
+      aria-label='Click here to scroll to top'
+      className={clsxm(
+        'h1 fixed right-4 bottom-10 z-50 rounded-full bg-base-100 text-primary transition-all duration-300',
+        goToTop ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
       )}
-    </div>
+    >
+      <IoIosArrowDropupCircle />
+    </button>
   );
 }

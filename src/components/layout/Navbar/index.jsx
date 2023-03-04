@@ -12,7 +12,7 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 import Backdrop from '../Backdrop';
 
 const Navbar = ({ links }) => {
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
 
   // Go to top
   const toTop = () => {

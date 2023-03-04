@@ -13,9 +13,11 @@ const DetailCard = ({ image, title, description, url, btnText }) => {
         <div className='p-6'>
           <h3>{title}</h3>
           <p className='mt-2'>{description}</p>
-          <ArrowLink as={ButtonLink} openNewTab className='mt-4' href={url}>
-            {btnText}
-          </ArrowLink>
+          {url && (
+            <ArrowLink as={ButtonLink} openNewTab className='mt-4' href={url}>
+              {btnText}
+            </ArrowLink>
+          )}
         </div>
       </section>
     </div>

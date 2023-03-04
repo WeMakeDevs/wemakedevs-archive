@@ -1,10 +1,10 @@
 import {
+  About,
   Announcement,
+  GrandPrize,
   Hero,
   HowTakePart,
-  Offer,
-  Prize,
-  Track,
+  Tracks,
 } from '@/components/hashnode';
 import Layout from '@/components/layout';
 
@@ -14,10 +14,10 @@ const HashnodePage = () => {
   return (
     <Layout content={HashnodePageContent}>
       <Hero />
-      <Offer />
-      <Prize />
+      <About />
+      <GrandPrize />
       <Announcement />
-      <Track />
+      <Tracks />
       <HowTakePart />
     </Layout>
   );

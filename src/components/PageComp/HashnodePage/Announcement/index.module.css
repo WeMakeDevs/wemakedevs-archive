@@ -1,11 +1,11 @@
 .section {
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 .layout {
   display: flex;
+  position: relative;
   flex-direction: column;
   gap: 1rem;
   justify-content: center;

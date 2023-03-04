@@ -29,40 +29,41 @@
 
 @layer base {
   body {
-    @apply scroll-pt-16 md:scroll-pt-20 scroll-smooth;
+    background: #141414;
+    @apply scroll-pt-16 scroll-smooth md:scroll-pt-20;
   }
   /* #region  /**=========== Typography =========== */
   .heading {
-    @apply text-content text-center font-sans text-4xl font-black leading-relaxed md:text-5xl lg:text-8xl;
+    @apply text-center font-sans text-4xl font-black leading-relaxed text-content md:text-5xl lg:text-8xl;
   }
 
   .h0 {
-    @apply text-content font-sans text-3xl font-bold md:text-5xl;
+    @apply font-sans text-3xl font-bold text-content md:text-5xl;
   }
 
   h1,
   .h1 {
-    @apply text-content font-sans text-4xl leading-relaxed md:text-5xl lg:text-6xl;
+    @apply font-sans text-4xl leading-relaxed text-content md:text-5xl lg:text-6xl;
   }
 
   h2,
   .h2 {
-    @apply text-content font-sans text-xl md:text-3xl;
+    @apply font-sans text-xl text-content md:text-3xl;
   }
 
   h3,
   .h3 {
-    @apply text-content font-sans text-lg md:text-xl;
+    @apply font-sans text-lg text-content md:text-xl;
   }
 
   h4,
   .h4 {
-    @apply text-content font-sans text-base font-bold md:text-lg;
+    @apply font-sans text-base font-bold text-content md:text-lg;
   }
 
   body,
   .p {
-    @apply text-content font-sans text-sm md:text-base;
+    @apply font-sans text-sm text-content md:text-base;
   }
   /* #endregion  /**======== Typography =========== */
 
@@ -80,5 +81,14 @@
   /* Class to adjust with sticky footer */
   .min-h-main {
     @apply min-h-[calc(100vh-56px)];
+  }
+  body::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    background-color: var(--clr-base-100);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #ffffff50;
   }
 }

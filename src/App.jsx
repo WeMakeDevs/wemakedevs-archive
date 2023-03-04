@@ -1,7 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import '@/styles/root.css';
 import '@/styles/tailwind.css';
 import '@/styles/utils.css';
 
