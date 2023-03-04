@@ -14,7 +14,6 @@ const Testimonials = ({ title = 'Testimonials', tweetId }) => {
           autoplay={2500}
           dotColorActive='rgb(89,66,233)'
           showDots
-          hideArrow
           loop
         >
           {tweetId.map((id) => (
