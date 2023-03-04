@@ -44,7 +44,6 @@ function TweetCarousael({ tweetId, options }) {
         <div
           className='layout'
           style={{
-            paddingBottom: '5rem',
             opacity: hideTweetPost ? '0' : '1',
           }}
         >
