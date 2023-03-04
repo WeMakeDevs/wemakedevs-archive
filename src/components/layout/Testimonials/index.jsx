@@ -17,11 +17,11 @@ const Testimonials = ({ title = 'Testimonials', tweetId }) => {
       >
         <h2 className='h1'>{title}</h2>
         <hr className='styled-hr' />
+        <TweetCarousael
+          tweetId={tweetId}
+          options={{ theme: 'dark', conversation: 'none' }}
+        />
       </div>
-      <TweetCarousael
-        tweetId={tweetId}
-        options={{ theme: 'dark', conversation: 'none' }}
-      />
     </section>
   );
 };
