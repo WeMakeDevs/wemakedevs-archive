@@ -1,7 +1,28 @@
 import Devops from 'assets/courses/devops.jpg';
 import DSA from 'assets/courses/dsa.jpg';
 import GitGithub from 'assets/courses/git-github.jpg';
-export const courses = [
+
+import CourseCard from '../../Cards/CourseCard';
+
+const Courses = () => {
+  return (
+    <section id='courses'>
+      <div className='layout py-20'>
+        <h1 className='h1 '> Courses </h1>
+        <hr className='styled-hr my-6' />
+        <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
+          {courses.map((hashnode) => (
+            <CourseCard {...hashnode} key={hashnode.image} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Courses;
+
+const courses = [
   {
     title: 'Data Structures & Algorithms in Java',
     description:

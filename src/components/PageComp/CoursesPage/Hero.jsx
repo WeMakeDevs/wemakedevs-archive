@@ -1,14 +1,10 @@
-import clsx from 'clsx';
-
-import styles from './index.module.css';
-
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 
 const Hero = () => {
   return (
-    <header className={styles.section}>
-      <div className={clsx('layout', styles.layout)}>
+    <header className='bg-base-100 text-center'>
+      <div className='layout flex h-screen flex-col items-center justify-center gap-4'>
         <h1 className='heading'>
           <span className='highlight highlight--light'>Boost your career</span>{' '}
           with our free courses!
@@ -17,8 +13,8 @@ const Hero = () => {
           We believe that every student, irrespective of their college or
           branch, can make it big.
         </p>
-        <br />
-        <ArrowLink className={styles.cta} as={ButtonLink} href='#about'>
+
+        <ArrowLink as={ButtonLink} href='#about'>
           About courses
         </ArrowLink>
       </div>
