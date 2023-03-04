@@ -14,7 +14,7 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 
 const Footer = () => {
   return (
-    <footer className='bg-base-200 py-24 text-content'>
+    <footer className='bg-base-200 py-24 text-content' id='footer'>
       <div className='layout flex flex-col gap-4'>
         <div className='mx-auto grid w-full grid-cols-2 justify-between gap-4 py-4 md:grid-cols-4'>
           <div>

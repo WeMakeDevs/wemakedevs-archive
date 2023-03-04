@@ -15,7 +15,7 @@ import ScrollToTop from '@/components/ScrollToTop';
 const ErrorPage = lazy(() => import('@/pages/ErrorPage'));
 const HashnodePage = lazy(() => import('@/pages/Hashnode'));
 const HomePage = lazy(() => import('@/pages/HomePage'));
-const EventsPage = lazy(() => import('@/pages/Events'));
+const EventsPage = lazy(() => import('@/pages/EventsPage'));
 const CoursesPage = lazy(() => import('@/pages/CoursesPage'));
 const SingleCoursePage = lazy(() => import('@/pages/SingleCoursePage'));
 

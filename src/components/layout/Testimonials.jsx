@@ -1,10 +1,23 @@
 import Carousel from 'better-react-carousel';
 import { Tweet } from 'react-twitter-widgets';
 
-const Testimonials = ({ title = 'Testimonials', tweetId }) => {
+import clsxm from '@/lib/utils';
+
+const Testimonials = ({
+  title = 'Testimonials',
+  tweetId,
+  as = 'section',
+  className,
+}) => {
+  const Compoonent = as || 'section';
   return (
-    <section id='testimonials'>
-      <div className='layout flex flex-col items-center justify-center gap-6 py-20'>
+    <Compoonent id='testimonials'>
+      <div
+        className={clsxm(
+          'layout flex flex-col items-center justify-center gap-6 py-20',
+          className
+        )}
+      >
         <h2 className='h1'>{title}</h2>
         <hr className='styled-hr' />
         <Carousel
@@ -31,7 +44,7 @@ const Testimonials = ({ title = 'Testimonials', tweetId }) => {
           ))}
         </Carousel>
       </div>
-    </section>
+    </Compoonent>
   );
 };
 

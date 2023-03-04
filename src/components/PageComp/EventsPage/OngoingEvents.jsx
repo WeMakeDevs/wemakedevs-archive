@@ -1,18 +1,15 @@
 import Hashnode from 'assets/hashnode/Special-Prize.png';
-import clsx from 'clsx';
 
-import styles from './index.module.css';
+import DetailCard from '@/components/Cards/DetailCard';
 
-import Card from '../tracks/Card';
-
-const Prizes = () => {
+const OngoingEvents = () => {
   return (
-    <section id='ongoing' className={styles.section}>
-      <div className={clsx('layout', styles.layout)}>
+    <section id='ongoing'>
+      <div className='layout py-20'>
         <h1 className='h1'> Ongoing events </h1>
-        <hr className={clsx('styled-hr', styles.hr)} />
-        <div className={styles.cardsContainer}>
-          <Card
+        <hr className='styled-hr my-6' />
+        <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
+          <DetailCard
             description='Every month we will be having 4 tracks. You can write one or multiple blogs on the given tracks. The best blogs will receive hashnode swag.'
             image={Hashnode}
             url='/events/hashnode'
@@ -24,4 +21,4 @@ const Prizes = () => {
   );
 };
 
-export default Prizes;
+export default OngoingEvents;

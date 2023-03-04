@@ -1,9 +1,12 @@
 import AboutImage from 'assets/home/aboutus.png';
 
+import prizetweetid from '@/content/prizetweetid';
+
+import { Testimonials } from '@/components/layout';
 import ColumnSection from '@/components/layout/ColumnSection';
 import ListItem from '@/components/Listitem';
 
-import { Shoutout, Stats } from '..';
+import Stats from './Stats';
 
 const About = () => {
   return (
@@ -30,7 +33,12 @@ const About = () => {
         </ListItem>
       </ColumnSection>
       <Stats />
-      <Shoutout />
+      <Testimonials
+        as='div'
+        tweetId={prizetweetid}
+        title='Community testimonials'
+        className='pt-0'
+      />
     </section>
   );
 };

@@ -1,9 +1,9 @@
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 
-const CourseCard = ({ image, title, description, url, btnText }) => {
+const DetailCard = ({ image, title, description, url, btnText }) => {
   return (
-    <div className='overflow-hidden rounded-lg border border-content/50'>
+    <div className='overflow-hidden rounded-lg border border-content/50 bg-gradient-to-br from-transparent to-base-100/50'>
       <section>
         <img
           src={image}
@@ -22,4 +22,4 @@ const CourseCard = ({ image, title, description, url, btnText }) => {
   );
 };
 
-export default CourseCard;
+export default DetailCard;

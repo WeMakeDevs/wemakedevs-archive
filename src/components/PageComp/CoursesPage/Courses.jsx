@@ -2,7 +2,7 @@ import Devops from 'assets/courses/devops.jpg';
 import DSA from 'assets/courses/dsa.jpg';
 import GitGithub from 'assets/courses/git-github.jpg';
 
-import CourseCard from '../../Cards/CourseCard';
+import DetailCard from '../../Cards/DetailCard';
 
 const Courses = () => {
   return (
@@ -12,7 +12,7 @@ const Courses = () => {
         <hr className='styled-hr my-6' />
         <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
           {courses.map((hashnode) => (
-            <CourseCard {...hashnode} key={hashnode.image} />
+            <DetailCard {...hashnode} key={hashnode.image} />
           ))}
         </div>
       </div>

@@ -1,5 +1,8 @@
 import { useState } from 'react';
-import { FaGraduationCap, FaMagic, FaUsers, FaYoutube } from 'react-icons/fa';
+import { BsFillTrophyFill } from 'react-icons/bs';
+import { FaFontAwesomeFlag } from 'react-icons/fa';
+import { MdOutlineAttachMoney } from 'react-icons/md';
+import { VscSymbolEvent } from 'react-icons/vsc';
 import ScrollTrigger from 'react-scroll-trigger';
 
 import CounterCard from '@/components/Cards/CounterCard';
@@ -18,27 +21,28 @@ const Stats = () => {
         <div className='grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4'>
           <CounterCard
             counterOn={counterOn}
-            icon={FaUsers}
-            number={56000}
-            title='Members'
-          />
-          <CounterCard
-            counterOn={counterOn}
-            icon={FaMagic}
+            icon={MdOutlineAttachMoney}
             number={20000}
-            title='Reviews'
+            prefix='$'
+            title='Prizes'
           />
           <CounterCard
             counterOn={counterOn}
-            icon={FaYoutube}
-            number={350000}
-            title='Reviews'
+            icon={FaFontAwesomeFlag}
+            number={70}
+            title='Countries'
           />
           <CounterCard
             counterOn={counterOn}
-            icon={FaGraduationCap}
-            number={500}
-            title='Colleges'
+            icon={BsFillTrophyFill}
+            number={100}
+            title='Winners'
+          />
+          <CounterCard
+            counterOn={counterOn}
+            icon={VscSymbolEvent}
+            number={10}
+            title='Events'
           />
         </div>
       </div>

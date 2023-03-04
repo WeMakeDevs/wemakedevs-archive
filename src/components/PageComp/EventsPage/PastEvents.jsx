@@ -6,7 +6,30 @@ import PastEvent5 from 'assets/events/past-event-5.jpeg';
 import PastEvent6 from 'assets/events/past-event-6.jpeg';
 import PastEvent7 from 'assets/events/past-event-7.jpeg';
 import PastEvent8 from 'assets/events/past-event-8.jpeg';
-export const eventsData = [
+
+import DetailCard from '@/components/Cards/DetailCard';
+
+const PastEvents = () => {
+  return (
+    <section id='past'>
+      <div className='layout py-20'>
+        <h1 className='h1'> Past events </h1>
+        <hr className='styled-hr my-6' />
+        <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
+          {eventsData.map((event) => (
+            <DetailCard {...event} key={event.image} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default PastEvents;
+
+// Data Section
+
+const eventsData = [
   {
     description:
       'WeMakeDevs is running a month long Battlesnake Battleground event. The idea is for you to build your snake, use any algorithm that you like, and compete with people around the world. Anyone with beginner-level coding knowledge can have fun with Battlesnake.',
