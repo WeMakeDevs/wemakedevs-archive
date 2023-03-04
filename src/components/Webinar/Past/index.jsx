@@ -14,7 +14,9 @@ const Upcoming = () => {
         <hr className={clsx('styled-hr', styles.hr)} />
 
         <div className={styles.cardsContainer}>
-          {webinar.length > 0 ? (
+          {webinar.some(
+            (web) => new Date().getTime() >= new Date(web.time).getTime()
+          ) ? (
             webinar.map((web) => {
               if (new Date().getTime() >= new Date(web.time).getTime())
                 return <Card {...web} key={web.image} />;
