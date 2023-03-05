@@ -47,8 +47,8 @@ const HowTakePart = ({ background = 'static' }) => {
       >
         <h2 className='h1'>Previous winners</h2>
         <hr className='styled-hr' />
+        <TweetCarousael tweetId={prizetweetid} options={{ theme: 'dark' }} />
       </div>
-      <TweetCarousael tweetId={prizetweetid} options={{ theme: 'dark' }} />
     </div>
   );
 };
