@@ -17,7 +17,6 @@ const Hero = () => {
           We believe that every student, irrespective of their college or
           branch, can make it big.
         </p>
-        <br />
         <ArrowLink className={styles.cta} as={ButtonLink} href='#about'>
           About courses
         </ArrowLink>
