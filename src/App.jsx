@@ -5,6 +5,7 @@ import '@/styles/resets.css';
 import '@/styles/root.css';
 import '@/styles/typography.css';
 import '@/styles/utils.css';
+import 'react-loading-skeleton/dist/skeleton.css';
 
 import { DevopsPageContent } from '@/content/devops';
 import { DsaPageContent } from '@/content/dsa';
