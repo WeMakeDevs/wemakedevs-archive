@@ -9,6 +9,7 @@ import '@/styles/utils.css';
 import { DevopsPageContent } from '@/content/devops';
 import { DsaPageContent } from '@/content/dsa';
 import { GitGithubPageContent } from '@/content/gitGithub';
+import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 
 import { Loader } from '@/components/layout';
 import ScrollToTop from '@/components/ScrollToTop';
@@ -19,6 +20,8 @@ const HomePage = lazy(() => import('@/pages/HomePage'));
 const EventsPage = lazy(() => import('@/pages/Events'));
 const CoursesPage = lazy(() => import('@/pages/CoursesPage'));
 const SingleCoursePage = lazy(() => import('@/pages/SingleCoursePage'));
+const WebinarPage = lazy(() => import('@/pages/WebinarPage'));
+const IndividualWebinarPage = lazy(() => import('@/pages/IndividualWebinar'));
 
 const App = () => {
   return (
@@ -44,6 +47,20 @@ const App = () => {
           />
           <Route exact path='/events' element={<EventsPage />} />
           <Route exact path='/events/hashnode' element={<HashnodePage />} />
+          <Route
+            exact
+            path='/webinar'
+            element={<WebinarPage content={WebinarPageContent} />}
+          />
+          {webinar.map((web) => (
+            <Route
+              key={web.img}
+              exact
+              path={`/webinar/${web.title.split(' ').join('-').toLowerCase()}`}
+              element={<IndividualWebinarPage content={web.details} />}
+            />
+          ))}
+
           <Route path='*' element={<ErrorPage />} />
         </Routes>
         <ScrollToTop />
