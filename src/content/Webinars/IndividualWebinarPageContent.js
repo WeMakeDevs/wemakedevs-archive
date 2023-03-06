@@ -23,9 +23,9 @@ export const IndividualWebinarPageHeader = [
 export const IndividualWebinarPageFAQ = [
   {
     id: 'FAQ1',
-    question: 'Are all of your courses free?',
+    question: 'How do I stay up to date on the latest updates?',
     answer:
-      'Yes! All of our courses are and will always be free as well as high quality. You can find those on our YouTube channel.',
+      'Please subscribe to our newsletter to stay up to date on the latest updates.',
   },
   {
     id: 'FAQ2',
@@ -41,9 +41,9 @@ export const IndividualWebinarPageFAQ = [
   },
   {
     id: 'FAQ4',
-    question: 'How do I get my doubts resolved?',
+    question: 'How do I take part in events hosted?',
     answer:
-      'Join our Discord community along with thousands of others and feel free to ask your doubts in the relevant channels.',
+      'You can head to our WeMakeDevs events repository to find information and sign up for upcoming events.',
   },
   {
     id: 'FAQ5',

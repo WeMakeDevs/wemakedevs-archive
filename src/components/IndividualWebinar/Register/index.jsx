@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 import styles from './index.module.css';
 
-const Register = ({ title }) => {
+const Register = () => {
   const [iframeHeight, setIframeHeight] = useState(670);
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const Register = ({ title }) => {
   return (
     <div id='register' className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
-        <h2 className='h1'>Regsiter for the {title}</h2>
+        <h2 className='h1'>Regsiter for the Webinar</h2>
         <hr className='styled-hr' />
         <p>Regsiter and learn </p>
 

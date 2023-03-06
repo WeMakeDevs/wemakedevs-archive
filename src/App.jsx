@@ -56,7 +56,7 @@ const App = () => {
             <Route
               key={web.img}
               exact
-              path={`/webinar/${web.title.split(' ').join('').toLowerCase()}`}
+              path={`/webinar/${web.title.split(' ').join('-').toLowerCase()}`}
               element={<IndividualWebinarPage content={web.details} />}
             />
           ))}

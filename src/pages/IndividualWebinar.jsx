@@ -54,8 +54,7 @@ const IndividualWebinarPage = ({ content }) => {
                 flexDirection: 'row',
               }}
             >
-              <BsCalendar />{' '}
-              <b> {new Date(content.time).toLocaleDateString()}</b>
+              <BsCalendar /> <b> {new Date(content.time).toDateString()}</b>
             </p>
             <p
               style={{
@@ -67,7 +66,7 @@ const IndividualWebinarPage = ({ content }) => {
                 flexDirection: 'row',
               }}
             >
-              <BsClock /> <b> {new Date(content.time).toLocaleTimeString()}</b>
+              <BsClock /> <b> {new Date(content.time).toTimeString()}</b>
             </p>
             <ArrowLink
               as={ButtonLink}
@@ -84,7 +83,7 @@ const IndividualWebinarPage = ({ content }) => {
         </div>
       </section>
       <Speakers speakers={content.speakers} />
-      <Register title={content.name} />
+      <Register />
     </Layout>
   );
 };

@@ -40,7 +40,13 @@ export const Card = ({ img, title, time, description }) => {
         <img src={img} alt={title + 'banner'} />
         <div className={styles.cardDetails}>
           <h3>{title}</h3>
-          <p>{description}</p>
+          <p
+            style={{
+              marginTop: '1rem',
+            }}
+          >
+            {description}
+          </p>
           <p
             style={{
               marginTop: '1rem',
@@ -49,18 +55,18 @@ export const Card = ({ img, title, time, description }) => {
             <span>
               <BsCalendar />{' '}
             </span>{' '}
-            <b> {new Date(time).toLocaleDateString()}</b>
+            <b> {new Date(time).toDateString()}</b>
           </p>
           <p>
             <span>
               <BsClock />{' '}
             </span>{' '}
-            <b> {new Date(time).toLocaleTimeString()}</b>
+            <b> {new Date(time).toTimeString()}</b>
           </p>
           <ArrowLink
             as={ButtonLink}
             className={styles.btn1}
-            href={`/webinar/${title.split(' ').join('').toLowerCase()}`}
+            href={`/webinar/${title.split(' ').join('-').toLowerCase()}`}
             openNewTab
           >
             Know more

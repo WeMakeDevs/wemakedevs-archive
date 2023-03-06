@@ -10,7 +10,7 @@ const Upcoming = () => {
   return (
     <section id='past'>
       <div className={clsx('layout', styles.layout)}>
-        <h2 className='h1'>Past Events</h2>
+        <h2 className='h1'>Past webinar</h2>
         <hr className={clsx('styled-hr', styles.hr)} />
 
         <div className={styles.cardsContainer}>

@@ -24,7 +24,7 @@ const Hero = () => {
           participate.
         </p>
         <ArrowLink className={styles.cta} as={ButtonLink} href='#about'>
-          About events
+          About webinar
         </ArrowLink>
       </div>
     </header>

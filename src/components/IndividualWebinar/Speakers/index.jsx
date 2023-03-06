@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { BsTwitter } from 'react-icons/bs';
+import { BsLinkedin, BsTwitter } from 'react-icons/bs';
 
 import styles from './index.module.css';
 
@@ -23,14 +23,14 @@ const Speakers = ({ speakers }) => {
 };
 export default Speakers;
 
-const SpeakerCard = ({ img, name, description, twitter }) => {
+const SpeakerCard = ({ img, name, description, linkedin, twitter }) => {
   return (
     <div className={styles.card}>
-      <section>
-        <img src={img} alt={name + ' profile'} />
+      <img src={img} alt={name + ' profile'} />
 
-        <h3>{name}</h3>
-        <p>{description}</p>
+      <h3>{name}</h3>
+      <p>{description}</p>
+      {twitter && (
         <UnstyledLink
           className='h3'
           style={{
@@ -45,7 +45,23 @@ const SpeakerCard = ({ img, name, description, twitter }) => {
         >
           <BsTwitter /> @{twitter}
         </UnstyledLink>
-      </section>
+      )}
+      {linkedin && (
+        <UnstyledLink
+          className='h3'
+          style={{
+            marginTop: '1rem',
+            display: 'flex',
+            justifyContent: 'cetner',
+            alignItems: 'center',
+            gap: '1rem',
+            flexDirection: 'row',
+          }}
+          href={`https://www.linkedin.com/in/${linkedin}`}
+        >
+          <BsLinkedin /> @{linkedin}
+        </UnstyledLink>
+      )}
     </div>
   );
 };
