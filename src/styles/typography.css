@@ -16,7 +16,7 @@
 /* Laptop Size */
 @media (min-width: 1280px) {
   .heading {
-    font-size: 6rem /* 96px */;
+    font-size: 4.5rem;
     line-height: 1;
   }
 }

@@ -21,7 +21,7 @@ const Register = () => {
   return (
     <div id='register' className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
-        <h2 className='h1'>Regsiter for the Webinar</h2>
+        <h2 className='h1'>Regsiter for the webinar</h2>
         <hr className='styled-hr' />
         <p>Regsiter and learn </p>
 
