@@ -24,6 +24,7 @@ const finOpsWebinar = {
       name: 'Roi Ravhon',
       description: 'Co-Founder & CEO at Finout',
       linkedin: 'roiravhon',
+      twitter: 'roiravhon',
       img: 'https://github.com/roiravhon.png',
     },
   ],

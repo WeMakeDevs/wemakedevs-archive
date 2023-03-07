@@ -12,6 +12,10 @@ export const IndividualWebinarPageHeader = [
     href: '#past',
   },
   {
+    name: 'Register',
+    href: '#register',
+  },
+  {
     name: 'Join',
     href: '#join',
   },
