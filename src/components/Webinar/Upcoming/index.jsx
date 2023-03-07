@@ -42,26 +42,32 @@ export const Card = ({ img, title, time, description }) => {
           <h3>{title}</h3>
           <p
             style={{
-              marginTop: '1rem',
+              marginTop: '1.3rem',
             }}
           >
             {description}
           </p>
           <p
             style={{
-              marginTop: '1rem',
+              marginTop: '1.3rem',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '.5rem',
             }}
+            className='h2'
           >
-            <span>
-              <BsCalendar />{' '}
-            </span>{' '}
-            <b> {new Date(time).toDateString()}</b>
+            <BsCalendar /> {new Date(time).toDateString()}
           </p>
-          <p>
-            <span>
-              <BsClock />{' '}
-            </span>{' '}
-            <b> {new Date(time).toTimeString()}</b>
+          <p
+            style={{
+              marginTop: '1.3rem',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '.5rem',
+            }}
+            className='h2'
+          >
+            <BsClock /> {new Date(time).toTimeString()}
           </p>
           <ArrowLink
             as={ButtonLink}
@@ -69,7 +75,7 @@ export const Card = ({ img, title, time, description }) => {
             href={`/webinar/${title.split(' ').join('-').toLowerCase()}`}
             openNewTab
           >
-            Know more
+            Register
           </ArrowLink>
         </div>
       </section>

@@ -43,8 +43,9 @@
   font-size: 18px;
   color: #ffffff;
   line-height: 145%;
+  font-weight: normal;
 }
 
 .btn1 {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
