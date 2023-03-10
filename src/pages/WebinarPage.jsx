@@ -1,3 +1,4 @@
+import { Testimonials } from '@/components/home';
 import Layout from '@/components/layout';
 import { Hero, Past } from '@/components/Webinar';
 import Upcoming from '@/components/Webinar/Upcoming';
@@ -8,6 +9,7 @@ const WebinarPage = ({ content }) => {
       <Hero />
       <Upcoming />
       <Past />
+      <Testimonials as='section' />
     </Layout>
   );
 };

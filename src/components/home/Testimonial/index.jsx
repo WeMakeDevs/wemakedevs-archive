@@ -5,9 +5,15 @@ import styles from './index.module.css';
 
 import { data } from './data';
 
-const Testimonials = () => {
+const Testimonials = ({ as }) => {
+  const Component = as || 'div';
   return (
-    <div id='testimonials'>
+    <Component
+      id='testimonials'
+      style={{
+        paddingTop: as === 'section' ? '6rem' : '0',
+      }}
+    >
       <div className={clsx('layout', styles.layout)}>
         <h2 className='h1'>Testimonials</h2>
         <hr className={clsx('styled-hr', styles.headingLine)} />
@@ -30,7 +36,7 @@ const Testimonials = () => {
           </Carousel>
         </div>
       </div>
-    </div>
+    </Component>
   );
 };
 
