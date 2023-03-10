@@ -21,16 +21,13 @@ const Hero = () => {
           approach.
         </p>
         <div className={styles.links}>
-          <ArrowLink as={ButtonLink} href='/courses' openNewTab>
+          <ArrowLink as={ButtonLink} href='#courses'>
             Courses
           </ArrowLink>
-          <ArrowLink
-            as={ButtonLink}
-            href='https://github.com/WeMakeDevs/roadmaps'
-          >
+          <ArrowLink as={ButtonLink} href='#mentorship'>
             Mentorship
           </ArrowLink>
-          <ArrowLink as={ButtonLink} href='/events' openNewTab>
+          <ArrowLink as={ButtonLink} href='#events'>
             Events
           </ArrowLink>
         </div>

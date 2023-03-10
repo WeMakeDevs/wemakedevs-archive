@@ -65,7 +65,15 @@ const IndividualWebinarPage = ({ content }) => {
                 flexDirection: 'row',
               }}
             >
-              <BsClock /> <b> {new Date(content.time).toTimeString()}</b>
+              <BsClock />{' '}
+              <b>
+                {new Date(content.time).toLocaleTimeString()}{' '}
+                {/\((.*)\)/
+                  .exec(new Date(content.time).toString())[1]
+                  .split(' ')
+                  .map((i) => i[0].toUpperCase())
+                  .join('')}
+              </b>
             </p>
             {/* https://calndr.link/events/lPMjHcfoN4?secret=U5bKjEpszjXevgJ212J3t8T8gbfh2ObAcUbZ */}
             {/* Event link generator */}

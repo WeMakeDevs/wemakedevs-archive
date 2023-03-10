@@ -16,6 +16,15 @@ const Speakers = ({ speakers }) => {
           {speakers.map((speaker) => (
             <SpeakerCard {...speaker} key={speaker.image} />
           ))}
+          <SpeakerCard
+            {...{
+              name: 'Kunal Kushawa',
+              description: 'Manger @Civo',
+              twitter: 'kunalstwt',
+              linkedin: 'kunal-kushwaha',
+              img: 'https://github.com/kunal-kushwaha.png',
+            }}
+          />
         </div>
       </div>
     </section>

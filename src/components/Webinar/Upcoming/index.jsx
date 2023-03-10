@@ -12,7 +12,7 @@ const Upcoming = () => {
   return (
     <section id='upcoming'>
       <div className={clsx('layout', styles.layout)}>
-        <h2 className='h1'>Upcoming webinar</h2>
+        <h2 className='h1'>Upcoming webinars</h2>
         <hr className={clsx('styled-hr', styles.hr)} />
 
         <div className={styles.cardsContainer}>
@@ -22,6 +22,7 @@ const Upcoming = () => {
             webinar.map((web) => {
               if (new Date().getTime() < new Date(web.time).getTime())
                 return <Card {...web} key={web.image} />;
+              else return null;
             })
           ) : (
             <p>There no upcoming events right now</p>
@@ -67,7 +68,12 @@ export const Card = ({ img, title, time, description }) => {
             }}
             className='h2'
           >
-            <BsClock /> {new Date(time).toTimeString()}
+            <BsClock /> {new Date(time).toLocaleTimeString()}{' '}
+            {/\((.*)\)/
+              .exec(new Date(time).toString())[1]
+              .split(' ')
+              .map((i) => i[0].toUpperCase())
+              .join('')}
           </p>
           <ArrowLink
             as={ButtonLink}

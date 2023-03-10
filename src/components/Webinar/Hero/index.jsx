@@ -11,16 +11,14 @@ const Hero = () => {
     <header className={styles.section} id='about'>
       <div className={clsx('layout', styles.layout)}>
         <h1 className='heading'>
-          Join us for our free and informative webinars, designed to empower and
-          inspire you!
+          TechTalks: Expert Webinar on the latest technologies
         </h1>
         <p className={styles.tagLine}>
           Expand your knowledge and enhance your skills with our expert-led
-          webinars on a wide range of topics. Register now and join our
-          community of learners!
+          webinars on a wide range of topics.
         </p>
         <ArrowLink className={styles.cta} as={ButtonLink} href='#upcoming'>
-          Upcoming webinar
+          Upcoming webinars
         </ArrowLink>
         <div
           className=''

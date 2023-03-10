@@ -10,7 +10,7 @@ const Hero = () => {
     <header className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
         <h1 className='heading'>
-          Events that <br /> Inspire{' '}
+          Events that <br /> inspire{' '}
         </h1>
         <p className={styles.tagLine}>
           Want to give back to the{' '}
