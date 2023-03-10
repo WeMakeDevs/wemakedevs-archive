@@ -5,13 +5,13 @@ import styles from './index.module.css';
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 
-import HeroImg from '@/assets/webinar/hero.png';
+import HeroImg from '@/assets/webinar/hero.gif';
 const Hero = () => {
   return (
     <header className={styles.section} id='about'>
       <div className={clsx('layout', styles.layout)}>
-        <h1 className='heading'>
-          TechTalks: Expert Webinar on the latest technologies
+        <h1 className='heading highlight highlight--light'>
+          Expert Webinar on the latest technologies
         </h1>
         <p className={styles.tagLine}>
           Expand your knowledge and enhance your skills with our expert-led
@@ -20,17 +20,7 @@ const Hero = () => {
         <ArrowLink className={styles.cta} as={ButtonLink} href='#upcoming'>
           Upcoming webinars
         </ArrowLink>
-        <div
-          className=''
-          style={{
-            width: '100%',
-            paddingBlock: '4rem',
-            paddingInline: '2rem',
-            marginTop: '4rem',
-            backgroundColor: 'var(--clr-primary)',
-            position: 'relative',
-          }}
-        >
+        <div className={styles.webinarGIfContainer}>
           <img
             src={HeroImg}
             style={{
@@ -39,8 +29,6 @@ const Hero = () => {
           />
           <svg
             style={{
-              widthh: '7rem',
-              height: '7rem',
               position: 'absolute',
               top: '0',
               right: '0',
@@ -61,8 +49,6 @@ const Hero = () => {
 
           <svg
             style={{
-              widthh: '10rem',
-              height: '10rem',
               position: 'absolute',
               top: '0',
               left: '0',

@@ -24,6 +24,29 @@
 .tagLine {
   font-size: 1.5rem;
   color: var(--clr-content);
-  margin-block: 1.5rem;
+  margin-block: 2.3rem;
   line-height: 2rem;
+}
+
+.webinarGIfContainer {
+  width: 100%;
+  padding-block: 2rem;
+  margin-top: 4rem;
+  background-color: var(--clr-primary);
+  position: relative;
+}
+.webinarGIfContainer svg {
+  width: 5rem;
+  height: 5rem;
+}
+@media (min-width: 1024px) {
+  .webinarGIfContainer {
+    padding-block: 4rem;
+    padding-inline: 2rem;
+    margin-top: 6rem;
+  }
+  .webinarGIfContainer svg {
+    width: 7rem;
+    height: 7rem;
+  }
 }
