@@ -1,0 +1,29 @@
+node{
+    stage('git checkout'){
+        git branch: 'main', url: 'https://github.com/WeMakeDevs/wemakedevs.git'
+    }
+    stage('docker image'){
+        // building an image
+        sh 'docker image build -t $JOB_NAME:v1.$BUILD_ID . '
+        sh 'docker image tag $JOB_NAME:v1.$BUILD_ID holiodin/$JOB_NAME:v1.$BUILD_ID '
+        // giving the tags as latest
+        sh 'docker image tag $JOB_NAME:v1.$BUILD_ID holiodin/$JOB_NAME:latest'
+    }
+    withCredentials([string(credentialsId: 'paswddocker', variable: 'dockerpswd')]) {
+        sh "docker login -u holiodin -p ${dockerpswd}"
+        // push the image in the dockerhub account
+        sh 'docker image push holiodin/$JOB_NAME:v1.$BUILD_ID'
+        sh 'docker image push holiodin/$JOB_NAME:latest'
+    }
+            
+    // removing images from local node
+    stage('rm image from local node'){
+        sh 'docker image rm $JOB_NAME:v1.$BUILD_ID'
+        sh 'docker image rm holiodin/$JOB_NAME:v1.$BUILD_ID'
+        sh 'docker image rm holiodin/$JOB_NAME:latest'
+    }
+    // stage('deploying to k8s'){
+    //     sh 'cd kubernetes '
+    //     sh 'kubectl apply -f deploy.yaml'
+    // }
+}

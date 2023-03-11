@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: wmd-ctr
-        image: kaiwalyakoparkar/wemakedevs:1.0
+        image: holiodin/wemake_devs_cicd
         ports:
         - containerPort: 3000
 ---
