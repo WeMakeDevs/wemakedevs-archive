@@ -4,7 +4,7 @@ import Track2 from 'assets/hashnode/Track-2.png';
 import Track3 from 'assets/hashnode/Track-3.png';
 import Track4 from 'assets/hashnode/Track-4.png';
 
-import TrackCard from '@/components/Cards/TraxkCard';
+import TrackCard from '@/components/Cards/TrackCard';
 
 const Tracks = () => {
   return (
