@@ -1,25 +1,20 @@
-import clsx from 'clsx';
-
-import styles from './index.module.css';
-
 import { webinar } from '@/content/Webinars/index.content';
 
-import { Card } from '@/components/Webinar/Upcoming';
+import WebinarCard from '@/components/Cards/WebinarCard';
 
 const Upcoming = () => {
   return (
     <section id='past'>
-      <div className={clsx('layout', styles.layout)}>
+      <div className='layout py-20'>
         <h2 className='h1'>Past webinars</h2>
-        <hr className={clsx('styled-hr', styles.hr)} />
-
-        <div className={styles.cardsContainer}>
+        <hr className='styled-hr my-6' />
+        <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
           {webinar.some(
             (web) => new Date().getTime() >= new Date(web.time).getTime()
           ) ? (
             webinar.map((web) => {
               if (new Date().getTime() >= new Date(web.time).getTime())
-                return <Card {...web} key={web.image} />;
+                return <WebinarCard {...web} key={web.image} />;
             })
           ) : (
             <p>There no past events are happend till now</p>

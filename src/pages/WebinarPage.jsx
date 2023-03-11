@@ -1,6 +1,6 @@
 import Layout from '@/components/layout';
 import Testimonials from '@/components/PageComp/HomePage/Testimonials';
-import { Hero, Past, Upcoming } from '@/components/Webinar';
+import { Hero, Past, Upcoming } from '@/components/PageComp/WebinarPage';
 
 const WebinarPage = ({ content }) => {
   return (
