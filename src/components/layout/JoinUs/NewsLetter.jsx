@@ -20,7 +20,7 @@ const NewsLetter = () => {
       <div className='mx-auto flex flex-col items-center justify-center gap-4 text-center'>
         <h2 className='h1'>Subscribe to our newsletter</h2>
         <hr className='styled-hr' />
-        <p>Stay updated and never miss an opportunity.</p>
+        <p className='h3'>Stay updated and never miss an opportunity.</p>
 
         <iframe
           src='https://wemakedevs-newsletter.vercel.app/'

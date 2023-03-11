@@ -12,7 +12,7 @@ const Banner = () => {
     <section
       className={clsxm(
         'fixed inset-x-0 bottom-0 z-10',
-        'bg-content p-2 font-medium text-base-100',
+        'bg-content/90 p-2 font-medium text-base-100 backdrop-blur',
         'transition-transform duration-300',
         !open && 'translate-y-full'
       )}
@@ -38,7 +38,7 @@ const Banner = () => {
           Events
         </ArrowLink>
         <button
-          className='h3 ml-auto flex shrink-0 items-center justify-center border-none text-base-100'
+          className='h3 ml-auto mr-6 flex shrink-0 items-center justify-center border-none text-base-100'
           onClick={() => setOpen(false)}
           aria-label='close button'
         >
