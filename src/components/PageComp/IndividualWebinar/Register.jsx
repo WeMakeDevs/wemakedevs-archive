@@ -1,7 +1,4 @@
-import clsx from 'clsx';
 import { useEffect, useState } from 'react';
-
-import styles from './index.module.css';
 
 const Register = () => {
   const [iframeHeight, setIframeHeight] = useState(670);
@@ -19,11 +16,11 @@ const Register = () => {
   }, []);
 
   return (
-    <div id='register' className={styles.section}>
-      <div className={clsx('layout', styles.layout)}>
+    <div id='register'>
+      <div className='mx-auto flex flex-col items-center justify-center gap-4 py-20 text-center'>
         <h2 className='h1'>Regsiter for the webinar</h2>
         <hr className='styled-hr' />
-        <p>Regsiter and learn </p>
+        <p className='h3'>Regsiter and learn by great developer and creators</p>
 
         <iframe
           src='https://wemakedevs-newsletter.vercel.app/'

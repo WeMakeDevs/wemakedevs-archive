@@ -2,10 +2,15 @@ import BannerImage from 'assets/home/courses.png';
 import { BsApple, BsCalendar, BsClock } from 'react-icons/bs';
 import { SlCalender } from 'react-icons/sl';
 
-import { About, Register, Speakers } from '@/components/IndividualWebinar';
 import Layout, { ColumnSection } from '@/components/layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import ListItem from '@/components/Listitem';
+import {
+  About,
+  Register,
+  Speakers,
+} from '@/components/PageComp/IndividualWebinar';
+
 const IndividualWebinarPage = ({ content }) => {
   return (
     <Layout content={content}>
