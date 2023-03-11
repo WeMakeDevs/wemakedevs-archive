@@ -92,3 +92,46 @@
     background-color: #ffffff50;
   }
 }
+@layer utilities {
+  /* Class to highlight the text */
+  .highlight {
+    @apply text-primary;
+  }
+  /* Darker highlight can be used on light background */
+  .highlight.highlight--dark {
+    @apply text-primary-hover;
+  }
+  /* Light highlight can be used on Dark background */
+  .highlight.highlight--light {
+    @apply text-primary-disable;
+  }
+  .highlight.highlight--white {
+    @apply text-white;
+  }
+  .highlight.highlight--yellow {
+    @apply text-yellow-400;
+  }
+  .styled-hr {
+    @apply h-2 w-32 rounded-full border-none bg-primary;
+  }
+  .styled-hr.styled-hr--light {
+    @apply h-1 bg-content/30;
+  }
+  .styled-hr.styled-hr--dark {
+    @apply h-1 bg-base-100/50;
+  }
+}
+
+.main section:nth-child(odd) {
+  background: var(--clr-base-100);
+}
+.main section:nth-child(even) {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--clr-base-100),
+    hsla(240, 89%, 51%, 0.424)
+  );
+}
+.main section:first-child {
+  background: transparent;
+}

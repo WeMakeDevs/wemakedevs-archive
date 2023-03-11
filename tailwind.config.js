@@ -19,6 +19,16 @@ module.exports = {
         'primary-hover': 'rgb(var(--primary-hover) , <alpha-value>)',
         'primary-disable': 'rgb(var(--primary-disable) , <alpha-value>)',
       },
+      keyframes: {
+        spin: {
+          to: {
+            transform: 'rotate(360deg)',
+          },
+        },
+      },
+      animation: {
+        spin: 'spin 1s linear infinite',
+      },
     },
   },
   plugins: [],

@@ -2,13 +2,11 @@ import clsx from 'clsx';
 
 import styles from './index.module.css';
 
-const Announcement = ({ background }) => {
+const Announcement = () => {
   const progress = 1;
   const total = 4;
   return (
-    <section
-      className={clsx(background === 'gradient' ? 'gradient' : 'static-bg')}
-    >
+    <section>
       <div className={clsx('layout', styles.layout)}>
         <h3 className='heading'>
           INR ₹
