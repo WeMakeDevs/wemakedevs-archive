@@ -1,40 +1,25 @@
-import clsx from 'clsx';
-
-import styles from './index.module.css';
-
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 
 import HeroImg from '@/assets/webinar/hero.gif';
 const Hero = () => {
   return (
-    <header className={styles.section} id='about'>
-      <div className={clsx('layout', styles.layout)}>
+    <header id='about'>
+      <div className='layout  flex flex-col items-center justify-center py-20 pt-28'>
         <h1 className='heading highlight highlight--light'>
           Expert Webinar on the latest technologies
         </h1>
-        <p className={styles.tagLine}>
+        <p className='h3 my-9'>
           Expand your knowledge and enhance your skills with our expert-led
           webinars on a wide range of topics.
         </p>
-        <ArrowLink className={styles.cta} as={ButtonLink} href='#upcoming'>
+        <ArrowLink as={ButtonLink} href='#upcoming'>
           Upcoming webinars
         </ArrowLink>
-        <div className={styles.webinarGIfContainer}>
-          <img
-            src={HeroImg}
-            style={{
-              width: '100%',
-            }}
-          />
+        <div className='relative mt-12 w-full bg-primary py-8 lg:mt-16 lg:py-16 lg:px-8'>
+          <img src={HeroImg} className='w-full' />
           <svg
-            style={{
-              position: 'absolute',
-              top: '0',
-              right: '0',
-              rotate: '180deg',
-              translate: '50% -50%',
-            }}
+            className='absolute top-0 right-0 aspect-square w-20 -translate-x-1/2 -translate-y-1/2 rotate-180 lg:w-28'
             viewBox='0 0 107 62'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
@@ -48,13 +33,7 @@ const Hero = () => {
           </svg>
 
           <svg
-            style={{
-              position: 'absolute',
-              top: '0',
-              left: '0',
-              rotate: '180deg',
-              translate: '-50% -50%',
-            }}
+            className='absolute top-0 left-0 aspect-square w-20 -translate-x-1/2 -translate-y-1/2 rotate-180 lg:w-28'
             viewBox='0 0 77 76'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
