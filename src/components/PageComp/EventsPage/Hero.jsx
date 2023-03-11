@@ -6,7 +6,7 @@ const Hero = () => {
     <section className='flex h-screen items-center justify-center text-center'>
       <div className='layout'>
         <h1 className='heading'>
-          Events that <br /> Inspire{' '}
+          Events that <br /> inspire{' '}
         </h1>
         <h2 className='h3 my-5 font-medium text-content'>
           Want to give back to the{' '}

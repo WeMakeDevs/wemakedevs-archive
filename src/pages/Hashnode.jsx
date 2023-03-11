@@ -1,3 +1,4 @@
+import Layout from '@/components/layout';
 import {
   About,
   Announcement,
@@ -5,8 +6,7 @@ import {
   Hero,
   HowTakePart,
   Tracks,
-} from '@/components/hashnode';
-import Layout from '@/components/layout';
+} from '@/components/PageComp/HashnodePage';
 
 import { HashnodePageContent } from './content';
 

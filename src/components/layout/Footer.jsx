@@ -36,7 +36,9 @@ const Footer = () => {
             <ul className='mt-3 space-y-4'>
               {CommunityLinks.map((link) => (
                 <li key={link.name}>
-                  <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
+                  <UnstyledLink href={link.link} openNewTab>
+                    {link.name}
+                  </UnstyledLink>
                 </li>
               ))}
             </ul>
@@ -100,8 +102,8 @@ export default Footer;
 
 const OrganizationLink = [
   { link: '#about', name: 'About' },
-  { link: '#testimonials', name: 'Testimonials' },
   { link: '#faq', name: 'FAQ' },
+  { link: '#newsletter', name: 'Newsletter' },
 ];
 
 const CommunityLinks = [
@@ -109,10 +111,10 @@ const CommunityLinks = [
     name: 'Blog',
     link: 'https://blog.wemakedevs.org/',
   },
-  { link: '#events', name: 'Events' },
-  { link: '#courses', name: 'Courses' },
-  { link: '#mentorship', name: 'Mentorship' },
-  { link: '#newsletter', name: 'Newsletter' },
+  { link: '/events', name: 'Events' },
+  { link: '/courses', name: 'Courses' },
+  { link: '/webinar', name: 'Webinars' },
+  { link: 'https://github.com/WeMakeDevs/roadmaps', name: 'roadmaps' },
 ];
 
 const socialLinks = [
@@ -129,12 +131,12 @@ const socialLinks = [
     link: 'https://twitter.com/WeMakeDevs',
   },
   {
-    name: 'GitHub',
+    name: 'Github',
     link: 'https://github.com/WeMakeDevs',
   },
   {
     name: 'Youtube',
-    link: 'https://www.youtube.com/@WeMakeDevs',
+    link: 'https://www.youtube.com/@KunalKushwaha',
   },
 ];
 
@@ -156,7 +158,7 @@ const contactLinks = [
 const links = [
   {
     name: 'youtube',
-    link: 'https://www.youtube.com/@WeMakeDevs',
+    link: 'https://www.youtube.com/@KunalKushwaha',
     icon: <FaYoutube />,
     ariaLabel: 'Visit WeMakeDevs on YouTube',
   },

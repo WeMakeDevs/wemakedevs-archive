@@ -1,5 +1,7 @@
 import Carousel from 'better-react-carousel';
 
+import clsxm from '@/lib/utils';
+
 import anurag from '@/assets/home/testimonials/anurag.jpg';
 import ekjottest2 from '@/assets/home/testimonials/ekjottest2.jpg';
 import prasanna from '@/assets/home/testimonials/prasanna.jpg';
@@ -7,9 +9,10 @@ import rahultest1 from '@/assets/home/testimonials/rahultest1.jpg';
 import sajjantest3 from '@/assets/home/testimonials/sajjantest3.jpg';
 import siva from '@/assets/home/testimonials/sivanithin.jpg';
 
-const Testimonials = () => {
+const Testimonials = ({ as }) => {
+  const Component = as || 'div';
   return (
-    <div>
+    <Component className={clsxm(as === 'section' && 'pt-20')}>
       <div className='layout mx-auto pb-20'>
         <h2 className='h1'>Testimonials</h2>
         <hr className='styled-hr my-6' />
@@ -31,7 +34,7 @@ const Testimonials = () => {
           </Carousel>
         </div>
       </div>
-    </div>
+    </Component>
   );
 };
 
@@ -42,10 +45,10 @@ const TestimonialCard = ({ src, description, from, designation }) => {
     <div className='mb-10 flex h-full w-full flex-col items-center justify-center rounded-lg border border-content/20 bg-gradient-to-br from-content/0 to-content/10 p-4 py-8 text-center lg:flex-1'>
       <img
         alt='testimonial'
-        className=' mb-2 inline-block h-12 w-12 rounded-full border-2 border-base-100 bg-base-100/10 object-cover object-center'
+        className=' mb-2 inline-block h-20 w-20 rounded-full border-2 border-base-100 bg-base-100/10 object-cover object-center'
         src={src}
       />
-      <p>{description}</p>
+      <p className='text-lg'>{description}</p>
       <hr className='styled-hr styled-hr--light mx-auto my-4' />
       <h2 className='text-sm font-medium text-content '>{from}</h2>
       <p className='text-content/80'>{designation}</p>

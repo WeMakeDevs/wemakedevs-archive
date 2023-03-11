@@ -20,6 +20,10 @@ const Events = () => {
             name: 'Ongoing events',
           },
           {
+            href: '/webinar',
+            name: 'Webinars',
+          },
+          {
             href: 'https://devpost.com/hackathons?search=wemakedevs',
             name: 'Hackathons',
           },

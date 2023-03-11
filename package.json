@@ -25,6 +25,7 @@
     "react-countup": "^6.4.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
+    "react-loading-skeleton": "^3.1.1",
     "react-router-dom": "^6.4.2",
     "react-scripts": "^5.0.1",
     "react-scroll-trigger": "^0.6.14",

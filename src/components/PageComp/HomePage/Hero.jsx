@@ -17,16 +17,13 @@ const Hero = () => {
           approach.
         </h2>
         <div className='flex flex-wrap justify-center gap-5'>
-          <ArrowLink as={ButtonLink} href='/courses' openNewTab>
+          <ArrowLink as={ButtonLink} href='#courses'>
             Courses
           </ArrowLink>
-          <ArrowLink
-            as={ButtonLink}
-            href='https://github.com/WeMakeDevs/roadmaps'
-          >
+          <ArrowLink as={ButtonLink} href='#mentorship'>
             Mentorship
           </ArrowLink>
-          <ArrowLink as={ButtonLink} href='/events' openNewTab>
+          <ArrowLink as={ButtonLink} href='#events'>
             Events
           </ArrowLink>
         </div>
