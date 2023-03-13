@@ -1,4 +1,4 @@
-import Poster from '@/assets/webinar/ebf.jpg';
+import Poster from '@/assets/webinars/ebf.jpg';
 
 import {
   IndividualWebinarPageFAQ,

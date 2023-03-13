@@ -20,7 +20,7 @@ const Events = () => {
             name: 'Ongoing events',
           },
           {
-            href: '/webinar',
+            href: '/webinars',
             name: 'Webinars',
           },
           {

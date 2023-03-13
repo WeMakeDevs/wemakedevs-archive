@@ -78,7 +78,7 @@ export const Card = ({ img, title, time, description }) => {
           <ArrowLink
             as={ButtonLink}
             className={styles.btn1}
-            href={`/webinar/${title.split(' ').join('-').toLowerCase()}`}
+            href={`/webinars/${title.split(' ').join('-').toLowerCase()}`}
             openNewTab
           >
             Register

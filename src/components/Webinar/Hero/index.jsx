@@ -5,7 +5,7 @@ import styles from './index.module.css';
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 
-import HeroImg from '@/assets/webinar/hero.gif';
+import HeroImg from '@/assets/webinars/hero.gif';
 const Hero = () => {
   return (
     <header className={styles.section} id='about'>
