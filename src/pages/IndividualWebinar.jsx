@@ -1,10 +1,8 @@
 import BannerImage from 'assets/home/courses.png';
-import { BsApple, BsCalendar, BsClock } from 'react-icons/bs';
-import { SlCalender } from 'react-icons/sl';
+import { BsCalendar, BsClock } from 'react-icons/bs';
 
 import { About, Register, Speakers } from '@/components/IndividualWebinar';
 import Layout, { ColumnSection } from '@/components/layout';
-import ButtonLink from '@/components/links/ButtonLink';
 import ListItem from '@/components/Listitem';
 const IndividualWebinarPage = ({ content }) => {
   return (
@@ -77,7 +75,7 @@ const IndividualWebinarPage = ({ content }) => {
             </p>
             {/* https://calndr.link/events/lPMjHcfoN4?secret=U5bKjEpszjXevgJ212J3t8T8gbfh2ObAcUbZ */}
             {/* Event link generator */}
-            <ButtonLink
+            {/* <ButtonLink
               href='https://calndr.link/e/lPMjHcfoN4?s=google'
               className='h4'
               style={{
@@ -96,7 +94,7 @@ const IndividualWebinarPage = ({ content }) => {
               }}
             >
               <BsApple /> Add to Apple Calendar or other
-            </ButtonLink>
+            </ButtonLink> */}
           </div>
         </div>
       </section>

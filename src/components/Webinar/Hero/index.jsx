@@ -11,7 +11,7 @@ const Hero = () => {
     <header className={styles.section} id='about'>
       <div className={clsx('layout', styles.layout)}>
         <h1 className='heading highlight highlight--light'>
-          Expert Webinar on the latest technologies
+          Expert webinars on the latest technologies with exciting giveaways
         </h1>
         <p className={styles.tagLine}>
           Expand your knowledge and enhance your skills with our expert-led
