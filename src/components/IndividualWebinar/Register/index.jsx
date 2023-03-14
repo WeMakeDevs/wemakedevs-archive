@@ -8,7 +8,10 @@ const Register = ({ register }) => {
       <div className={clsx('layout', styles.layout)}>
         <h2 className='h1'>Regsiter for the webinar</h2>
         <hr className='styled-hr' />
-        <p>Regsiter and learn </p>
+        <p>
+          Join our informative webinar and gain valuable insights! Register now
+          to secure your spot.
+        </p>
 
         <iframe
           src={`https://wemakedevs-newsletter.vercel.app/${register}.html`}
