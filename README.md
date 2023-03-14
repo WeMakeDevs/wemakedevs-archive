@@ -6,7 +6,7 @@
 
 <p align="center">
 <a href="https://github.com/wemakedevs/wemakedevs/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/wemakedevs/wemakedevs"></a>
-<a href="https://github.com/wemakedevs/wemakedevs/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/wemakedevs/wemakedevs"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/wemakedevs/wemakedevs"></a>
 <a href="https://github.com/wemakedevs/wemakedevs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/wemakedevs/wemakedevs"></a>
 <a href="https://github.com/wemakedevs/wemakedevs/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/wemakedevs/wemakedevs"></a>
 </p>
