@@ -27,6 +27,7 @@ const NoCodeApproachWebianr = {
     },
   ],
   register: 'NoCodeApproachWebianr',
+  slug: 'internal-dev-portals',
   faq: IndividualWebinarPageFAQ,
 };
 

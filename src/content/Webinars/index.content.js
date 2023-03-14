@@ -37,6 +37,7 @@ export const webinar = [
     title: BPFWebinar.name,
     description: BPFWebinar.description,
     time: BPFWebinar.time,
+    slug: BPFWebinar.slug,
     details: BPFWebinar,
   },
   {
@@ -44,6 +45,7 @@ export const webinar = [
     title: NoCodeApproachWebianr.name,
     description: NoCodeApproachWebianr.description,
     time: NoCodeApproachWebianr.time,
+    slug: NoCodeApproachWebianr.slug,
     details: NoCodeApproachWebianr,
   },
 ];

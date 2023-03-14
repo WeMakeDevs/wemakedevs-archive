@@ -34,6 +34,7 @@ const BPFWebinar = {
     },
   ],
   register: 'BPFWebinar',
+  slug: 'observability-with-ebpf',
   faq: IndividualWebinarPageFAQ,
 };
 
