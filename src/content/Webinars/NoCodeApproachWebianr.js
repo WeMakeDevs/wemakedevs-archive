@@ -16,7 +16,7 @@ const NoCodeApproachWebianr = {
     'How to set them?',
     'How they fit within platform engineering?',
   ],
-  time: '19 March 2023 02:00:00 GMT',
+  time: '19 March 2023 14:00:00 GMT',
   speakers: [
     {
       name: 'Zohar Einy',

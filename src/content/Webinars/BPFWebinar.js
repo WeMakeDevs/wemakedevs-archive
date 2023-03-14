@@ -16,7 +16,7 @@ const BPFWebinar = {
     'How it can be used for practical application monitoring',
     'What is groundcover and how to get started?',
   ],
-  time: '17 March 2023 02:00:00 GMT',
+  time: '17 March 2023 14:00:00 GMT',
   speakers: [
     {
       name: 'Yechezkel Rabinovich',
