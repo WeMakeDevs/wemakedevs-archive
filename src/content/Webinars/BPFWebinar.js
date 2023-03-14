@@ -33,8 +33,7 @@ const BPFWebinar = {
       img: 'https://pbs.twimg.com/profile_images/1558796013548314624/tFEl5CDr_400x400.jpg',
     },
   ],
-  register:
-    'https://bed11154.sibforms.com/serve/MUIEALEWzHiQOF7b_I2j03JiPvaj4J5bGw4Lt5ogjtascL4kDoWTOO-xziThbHNsliTsQRUQK5q_ayoIRl0YtCH3hLcgm81r6X8l9y9jaT5kkQfpPYD9m2iHZQWRFAUH4MnDqGwkwbJOVah3sSAc-kDUHBDI_G2_Qb7FRRvfq_qdOJhcZMfn4B2WYV6XunTJIuD0X8Asjw5mywC2',
+  register: 'BPFWebinar',
   faq: IndividualWebinarPageFAQ,
 };
 

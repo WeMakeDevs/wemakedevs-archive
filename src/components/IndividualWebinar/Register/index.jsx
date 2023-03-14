@@ -11,7 +11,7 @@ const Register = ({ register }) => {
         <p>Regsiter and learn </p>
 
         <iframe
-          src={register}
+          src={`https://wemakedevs-newsletter.vercel.app/${register}.html`}
           width='100%'
           style={{ border: '0' }}
           height='850'

@@ -26,8 +26,7 @@ const NoCodeApproachWebianr = {
       img: 'https://pbs.twimg.com/profile_images/1583140212569505795/4fPTB6oV_400x400.jpg',
     },
   ],
-  register:
-    'https://bed11154.sibforms.com/serve/MUIEAF4yMU2-m68DEZmMh-sR_ZHv7BK3QIoVZI_B5r5D13ZGW-RXotzKgELwCaw0dU6nWlG62cXObpLO9ZayvoRJY2CrcZBXVEZMl9L6-Ed0ApvuIb-KKMtoOClAvWg1XRvp3RrXrJLtZHjU13RWIm5hA32JDnf2JcTClbb0z-tjEpRivbe3nP0ug4dvM-QX4ZDnc-J3w-T3WeZi',
+  register: 'NoCodeApproachWebianr',
   faq: IndividualWebinarPageFAQ,
 };
 
