@@ -19,14 +19,15 @@ const NoCodeApproachWebianr = {
   time: '19 March 2023 02:00:00 GMT',
   speakers: [
     {
-      name: 'Yechezkel Rabinovich',
-      description: 'Co-Founder and CTO at groundcover',
+      name: 'Zohar Einy',
+      description: 'CEO at getport.io',
       linkedin: 'zohar-einy-b6219612a',
       twitter: 'ZoharEiny',
       img: 'https://pbs.twimg.com/profile_images/1583140212569505795/4fPTB6oV_400x400.jpg',
     },
   ],
-  register: 'https://wemakedevs-newsletter.vercel.app/',
+  register:
+    'https://bed11154.sibforms.com/serve/MUIEAF4yMU2-m68DEZmMh-sR_ZHv7BK3QIoVZI_B5r5D13ZGW-RXotzKgELwCaw0dU6nWlG62cXObpLO9ZayvoRJY2CrcZBXVEZMl9L6-Ed0ApvuIb-KKMtoOClAvWg1XRvp3RrXrJLtZHjU13RWIm5hA32JDnf2JcTClbb0z-tjEpRivbe3nP0ug4dvM-QX4ZDnc-J3w-T3WeZi',
   faq: IndividualWebinarPageFAQ,
 };
 

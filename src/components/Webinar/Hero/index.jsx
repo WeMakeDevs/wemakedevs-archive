@@ -5,28 +5,26 @@ import styles from './index.module.css';
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 
-import HeroImg from '@/assets/webinars/hero.gif';
+import HeroImg from '@/assets/webinars/hero.png';
+
 const Hero = () => {
   return (
     <header className={styles.section} id='about'>
       <div className={clsx('layout', styles.layout)}>
-        <h1 className='heading highlight highlight--light'>
-          Expert webinars on the latest technologies with exciting giveaways.
-        </h1>
-        <p className={styles.tagLine}>
-          Expand your knowledge and enhance your skills with our expert-led
-          webinars on a wide range of topics.
-        </p>
-        <ArrowLink className={styles.cta} as={ButtonLink} href='#upcoming'>
-          Upcoming webinars
-        </ArrowLink>
+        <div className={styles.content}>
+          <h1 className='heading highlight highlight--light'>
+            Expert webinars with exciting giveaways
+          </h1>
+          <p className={styles.tagLine}>
+            Expand your knowledge and enhance your skills with our expert-led
+            webinars on a wide range of topics.
+          </p>
+          <ArrowLink className={styles.cta} as={ButtonLink} href='#upcoming'>
+            Upcoming webinars
+          </ArrowLink>
+        </div>
         <div className={styles.webinarGIfContainer}>
-          <img
-            src={HeroImg}
-            style={{
-              width: '100%',
-            }}
-          />
+          <img src={HeroImg} />
           <svg
             style={{
               position: 'absolute',

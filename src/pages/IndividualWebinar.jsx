@@ -11,12 +11,15 @@ const IndividualWebinarPage = ({ content }) => {
       <ColumnSection
         id='takeaways'
         src={BannerImage}
-        title='What you will learn'
+        title='Why should you attend?'
         direction='right'
       >
         {content.takeaways.map((takeaway) => (
           <ListItem key={takeaway}>{takeaway}</ListItem>
         ))}
+        <ListItem>
+          Win exciting gifts and prizes while learning new technology.
+        </ListItem>
       </ColumnSection>
       <section id='time'>
         <div
@@ -99,7 +102,7 @@ const IndividualWebinarPage = ({ content }) => {
         </div>
       </section>
       <Speakers speakers={content.speakers} />
-      <Register />
+      <Register register={content.register} />
     </Layout>
   );
 };
