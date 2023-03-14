@@ -7,15 +7,12 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 
 const Speakers = ({ speakers }) => {
   return (
-    <section id='upcoming'>
+    <section id='speakers'>
       <div className={clsx('layout', styles.layout)}>
         <h2 className='h1'>Speakers</h2>
         <hr className={clsx('styled-hr', styles.hr)} />
 
         <div className={styles.cardsContainer}>
-          {speakers.map((speaker) => (
-            <SpeakerCard {...speaker} key={speaker.image} />
-          ))}
           <SpeakerCard
             {...{
               name: 'Kunal Kushawa',
@@ -25,6 +22,9 @@ const Speakers = ({ speakers }) => {
               img: 'https://github.com/kunal-kushwaha.png',
             }}
           />
+          {speakers.map((speaker) => (
+            <SpeakerCard {...speaker} key={speaker.image} />
+          ))}
         </div>
       </div>
     </section>

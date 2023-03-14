@@ -4,24 +4,20 @@ export const IndividualWebinarPageHeader = [
     href: '#about',
   },
   {
-    name: 'Upcoming',
-    href: '#upcoming',
+    name: 'Take aways',
+    href: '#takeaways',
   },
   {
-    name: 'Past',
-    href: '#past',
+    name: 'Time & Date',
+    href: '#time',
+  },
+  {
+    name: 'Speakers',
+    href: '#speakers',
   },
   {
     name: 'Register',
     href: '#register',
-  },
-  {
-    name: 'Join',
-    href: '#join',
-  },
-  {
-    name: 'FAQ',
-    href: '#faq',
   },
 ];
 export const IndividualWebinarPageFAQ = [

@@ -1,23 +1,8 @@
 import clsx from 'clsx';
-import { useEffect, useState } from 'react';
 
 import styles from './index.module.css';
 
-const Register = () => {
-  const [iframeHeight, setIframeHeight] = useState(670);
-
-  useEffect(() => {
-    const windowWidth = window.innerWidth;
-
-    if (windowWidth < 900) {
-      setIframeHeight(830);
-    } else if (windowWidth < 1250) {
-      setIframeHeight(700);
-    } else {
-      setIframeHeight(670);
-    }
-  }, []);
-
+const Register = ({ register }) => {
   return (
     <div id='register' className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
@@ -26,10 +11,10 @@ const Register = () => {
         <p>Regsiter and learn </p>
 
         <iframe
-          src='https://wemakedevs-newsletter.vercel.app/'
+          src={register}
           width='100%'
-          height={iframeHeight}
           style={{ border: '0' }}
+          height='850'
           title='Subscribe to our newsletter by entering your details below'
         ></iframe>
       </div>
