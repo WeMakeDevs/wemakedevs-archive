@@ -26,7 +26,7 @@
   padding: 3.5rem 1rem;
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
   text-align: center;

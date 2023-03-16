@@ -21,7 +21,6 @@ const NoCodeApproachWebianr = {
     {
       name: 'Zohar Einy',
       description: 'CEO at getport.io',
-      linkedin: 'zohar-einy-b6219612a',
       twitter: 'ZoharEiny',
       img: 'https://pbs.twimg.com/profile_images/1583140212569505795/4fPTB6oV_400x400.jpg',
     },

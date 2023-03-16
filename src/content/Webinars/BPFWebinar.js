@@ -21,14 +21,12 @@ const BPFWebinar = {
     {
       name: 'Yechezkel Rabinovich',
       description: 'Co-Founder and CTO at groundcover',
-      linkedin: 'yechezkel-rabinovich-946794b',
       twitter: 'yechezkel__',
       img: 'https://pbs.twimg.com/profile_images/1564199427002228737/rxDmaeVF_400x400.jpg',
     },
     {
       name: 'Shahar Azulay',
       description: 'Co-Founder and CEO at groundcover',
-      linkedin: 'shahar-azulay-54156bb4',
       twitter: 'shahar__azulay',
       img: 'https://pbs.twimg.com/profile_images/1558796013548314624/tFEl5CDr_400x400.jpg',
     },
