@@ -7,7 +7,7 @@ import {
 
 const BPFWebinar = {
   header: IndividualWebinarPageHeader,
-  name: 'Groundcover demo - cloud-native observability with eBPF',
+  name: 'Cloud-native observability with eBPF',
   description:
     'A walkthrough of groundcover,  a modern approach to a Kubernetes-native APM',
   poster: Poster,
