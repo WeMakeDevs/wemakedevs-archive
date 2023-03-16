@@ -50,14 +50,14 @@ const App = () => {
           <Route exact path='/events/hashnode' element={<HashnodePage />} />
           <Route
             exact
-            path='/webinar'
+            path='/webinars'
             element={<WebinarPage content={WebinarPageContent} />}
           />
           {webinar.map((web) => (
             <Route
               key={web.img}
               exact
-              path={`/webinar/${web.title.split(' ').join('-').toLowerCase()}`}
+              path={`/webinars/${web.slug}`}
               element={<IndividualWebinarPage content={web.details} />}
             />
           ))}

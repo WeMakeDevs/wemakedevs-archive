@@ -23,12 +23,13 @@
 .card {
   border: 1px solid #dee4ed;
   border-radius: 8px 8px 8px 8px;
-  padding: 3.5rem 0;
+  padding: 3.5rem 1rem;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .card h3 {

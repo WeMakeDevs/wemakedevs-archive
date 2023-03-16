@@ -34,7 +34,7 @@ const Upcoming = () => {
 };
 export default Upcoming;
 
-export const Card = ({ img, title, time, description }) => {
+export const Card = ({ img, title, time, description, slug }) => {
   return (
     <div className={styles.card}>
       <section>
@@ -78,7 +78,7 @@ export const Card = ({ img, title, time, description }) => {
           <ArrowLink
             as={ButtonLink}
             className={styles.btn1}
-            href={`/webinar/${title.split(' ').join('-').toLowerCase()}`}
+            href={`/webinars/${slug}`}
             openNewTab
           >
             Register
