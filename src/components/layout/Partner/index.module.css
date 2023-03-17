@@ -14,7 +14,7 @@
 .btns {
   display: flex;
   place-content: center;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   gap: 1rem;
 }
 .btns .copy {
