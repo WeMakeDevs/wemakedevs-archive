@@ -70,7 +70,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### 🧾 Prerequisites
 
-Before starting, you'll need to install the following on your computer.
+Before starting, you need to install the following on your computer.
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/download/)
 
