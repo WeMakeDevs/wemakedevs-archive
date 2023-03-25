@@ -4,6 +4,7 @@ import { BsCalendar, BsClock } from 'react-icons/bs';
 import { About, Register, Speakers } from '@/components/IndividualWebinar';
 import Layout, { ColumnSection } from '@/components/layout';
 import ListItem from '@/components/Listitem';
+
 const IndividualWebinarPage = ({ content }) => {
   return (
     <Layout content={content}>
@@ -101,8 +102,13 @@ const IndividualWebinarPage = ({ content }) => {
           </div>
         </div>
       </section>
+
       <Speakers speakers={content.speakers} />
-      <Register register={content.register} />
+      {new Date().getTime() < new Date(content.time).getTime() ? (
+        <Register register={content.register} />
+      ) : (
+        ''
+      )}
     </Layout>
   );
 };

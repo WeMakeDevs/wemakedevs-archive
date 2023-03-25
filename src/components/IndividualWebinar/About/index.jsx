@@ -10,17 +10,31 @@ const About = ({ content }) => {
       <div className={clsx('layout', styles.layout)}>
         <h1 className='heading highlight highlight--light'>{content.name}</h1>
         <p className='h3'>{content.description}</p>
-
-        <img src={content.poster} className={styles.video} />
-
+        {content.videoUrl ? (
+          <iframe
+            src={content.videoUrl}
+            title='YouTube video player'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            allowfullscreen
+            className={styles.video}
+          ></iframe>
+        ) : (
+          <img src={content.poster} className={styles.video} />
+        )}
         <div className={styles.btn}>
           <ArrowLink
             as={ButtonLink}
             className={styles.btn}
-            href='#register'
+            href={
+              new Date().getTime() < new Date(content.time).getTime()
+                ? '#register'
+                : content.videoUrl
+            }
             openNewTab
           >
-            Register
+            {new Date().getTime() < new Date(content.time).getTime()
+              ? 'Register'
+              : 'Watch recap'}
           </ArrowLink>
         </div>
       </div>

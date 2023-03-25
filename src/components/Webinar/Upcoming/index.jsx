@@ -16,14 +16,14 @@ const Upcoming = () => {
         <hr className={clsx('styled-hr', styles.hr)} />
 
         <div className={styles.cardsContainer}>
-          {webinar.some(
+          {webinar.filter(
             (web) => new Date().getTime() < new Date(web.time).getTime()
-          ) ? (
-            webinar.map((web) => {
-              if (new Date().getTime() < new Date(web.time).getTime())
-                return <Card {...web} key={web.image} />;
-              else return null;
-            })
+          ).length > 0 ? (
+            webinar
+              .filter(
+                (web) => new Date().getTime() < new Date(web.time).getTime()
+              )
+              .map((web) => <Card {...web} key={web.image} />)
           ) : (
             <p>There no upcoming events right now</p>
           )}
@@ -81,7 +81,9 @@ export const Card = ({ img, title, time, description, slug }) => {
             href={`/webinars/${slug}`}
             openNewTab
           >
-            Register
+            {new Date().getTime() < new Date(time).getTime()
+              ? 'Register'
+              : 'Recap'}
           </ArrowLink>
         </div>
       </section>

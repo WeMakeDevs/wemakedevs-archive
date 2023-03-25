@@ -1,16 +1,17 @@
 import Poster from '@/assets/webinars/no-code.jpg';
 
 import {
+  IndividualWebinarCompletedPageHeader,
   IndividualWebinarPageFAQ,
-  IndividualWebinarPageHeader,
 } from './IndividualWebinarPageContent';
 
 const NoCodeApproachWebianr = {
-  header: IndividualWebinarPageHeader,
+  header: IndividualWebinarCompletedPageHeader,
   name: 'The no-code approach to internal developer portals',
   description:
     "Internal developer portals are the core tool in the platform engineering world. We'll talk about data models for internal developer portals, the software catalog, self-service actions and how developer portals use scorecards. We'll then cover advanced use cases, such as using the portal for CI/CD and more.",
   poster: Poster,
+  videoUrl: 'https://www.youtube.com/embed/qqxlN0TJtBc',
   takeaways: [
     'Core elements of the internal developer portals.',
     'How to set them?',

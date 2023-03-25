@@ -1,16 +1,17 @@
 import Poster from '@/assets/webinars/ebf.jpg';
 
 import {
+  IndividualWebinarCompletedPageHeader,
   IndividualWebinarPageFAQ,
-  IndividualWebinarPageHeader,
 } from './IndividualWebinarPageContent';
 
 const BPFWebinar = {
-  header: IndividualWebinarPageHeader,
+  header: IndividualWebinarCompletedPageHeader,
   name: 'Cloud-native observability with eBPF',
   description:
     'A walkthrough of groundcover,  a modern approach to a Kubernetes-native APM',
   poster: Poster,
+  videoUrl: 'https://www.youtube.com/embed/jdQAU4DTsGo',
   takeaways: [
     'What is eBPF?',
     'How it can be used for practical application monitoring',
