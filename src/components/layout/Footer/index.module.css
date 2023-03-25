@@ -65,6 +65,11 @@
   flex-wrap: wrap;
 }
 
+.links a:hover {
+  color: var(--clr-primary);
+  transition: color 0.3s ease-in;
+}
+
 .copyright {
   font-size: 1.2rem;
   text-align: center;
