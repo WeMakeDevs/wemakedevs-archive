@@ -1,22 +1,20 @@
 import Backdrop from './Backdrop';
 import Banner from './Banner';
 import ColumnSection from './ColumnSection';
-import FAQ from './FAQ';
+import Faq from './Faq';
 import Footer from './Footer';
 import JoinUs from './JoinUs';
 import Loader from './Loader';
 import Navbar from './Navbar';
 import Partner from './Partner';
 import Testimonials from './Testimonials';
-import HeaderLink from '../links/HeaderLink';
 
 export {
   Backdrop,
   Banner,
   ColumnSection,
-  FAQ,
+  Faq as FAQ,
   Footer,
-  HeaderLink,
   JoinUs,
   Loader,
   Navbar,
@@ -31,7 +29,7 @@ const Layout = ({ content, children }) => {
       <main className='main'>
         {children}
         <JoinUs />
-        <FAQ faq={content.faq} />
+        <Faq faq={content.faq} />
         <Partner />
       </main>
       <Footer />

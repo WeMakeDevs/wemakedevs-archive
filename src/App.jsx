@@ -1,10 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import '@/styles/resets.css';
-import '@/styles/root.css';
-import '@/styles/typography.css';
-import '@/styles/utils.css';
+import '@/styles/tailwind.css';
 import 'react-loading-skeleton/dist/skeleton.css';
 
 import { DevopsPageContent } from '@/content/devops';
@@ -18,7 +15,7 @@ import ScrollToTop from '@/components/ScrollToTop';
 const ErrorPage = lazy(() => import('@/pages/ErrorPage'));
 const HashnodePage = lazy(() => import('@/pages/Hashnode'));
 const HomePage = lazy(() => import('@/pages/HomePage'));
-const EventsPage = lazy(() => import('@/pages/Events'));
+const EventsPage = lazy(() => import('@/pages/EventsPage'));
 const CoursesPage = lazy(() => import('@/pages/CoursesPage'));
 const SingleCoursePage = lazy(() => import('@/pages/SingleCoursePage'));
 const WebinarPage = lazy(() => import('@/pages/WebinarPage'));
