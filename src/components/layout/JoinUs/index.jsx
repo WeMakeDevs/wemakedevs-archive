@@ -1,24 +1,27 @@
 import clsx from 'clsx';
 import { FaDiscord, FaTelegram } from 'react-icons/fa';
 
-import clsxm from '@/lib/utils';
+import styles from './index.module.css';
 
 import UnstyledLink from '@/components/links/UnstyledLink';
 
-import NewsLetter from './NewsLetter';
+import NewsLetter from '../NewsLetter';
 
-function JoinUs() {
+function JoinUs({ background }) {
   return (
-    <section id='join' className='py-20'>
-      <div className='layout flex flex-col lg:flex-row'>
-        {/* Join section */}
-        <div className='flex flex-col items-center gap-4'>
-          <h2 className='h1'>Join us</h2>
-          <hr className='styled-hr' />
-          <div className='mt-8 flex flex-wrap justify-center gap-6'>
-            {data.map((item) => (
-              <JoinUsCard key={item.title} {...item} />
-            ))}
+    <section
+      className={clsx(background === 'gradient' ? 'gradient' : 'static-bg')}
+    >
+      <div className={clsx('layout', styles.section)}>
+        <div id='join' className={styles.join}>
+          <div className={clsx(styles.layout, 'layout')}>
+            <h2 className='h1'>Join us</h2>
+            <hr className='styled-hr' />
+            <div className={styles.wrapperCard}>
+              {data.map((item) => (
+                <JoinUsCard key={item.title} {...item} />
+              ))}
+            </div>
           </div>
         </div>
         <NewsLetter />
@@ -31,40 +34,16 @@ export default JoinUs;
 
 const JoinUsCard = ({ title, href, description, icon }) => {
   return (
-    <UnstyledLink
-      href={href}
-      className='group relative flex max-w-sm justify-between'
-    >
-      <div className='relative'>
-        {/* Face one */}
-        <div
-          className={clsx(
-            'h-[200px] w-[300px] overflow-hidden transition-all duration-500',
-            'relative z-10 flex items-center justify-center rounded-t-2xl bg-base-100',
-            'lg:rounded-2xl lg:group-hover:rounded-none lg:group-hover:rounded-t-2xl'
-          )}
-        >
-          <div
-            className={clsxm(
-              'absolute top-0 left-0 z-10 flex h-full w-full items-center justify-center',
-              'bg-gradient-to-br from-primary-hover/30 to-primary',
-              'transition-all duration-700'
-            )}
-          >
-            {icon}
-          </div>
+    <UnstyledLink href={href} className={styles.container}>
+      <div className={styles.card}>
+        <div className={clsx(styles.face, styles.face1)}>
+          <div className={styles.icon}>{icon}</div>
         </div>
-        {/* Face two */}
-        <div
-          className={clsx(
-            'h-[200px] w-[300px] overflow-hidden rounded-2xl transition-all duration-500',
-            'relative flex flex-col items-center justify-center rounded-b-2xl bg-content/10 p-5',
-            'text-center text-2xl font-bold capitalize text-white',
-            'lg:h-0 lg:rounded-2xl lg:py-0 lg:group-hover:h-[200px] lg:group-hover:rounded-t-none lg:group-hover:py-5'
-          )}
-        >
-          <h3 className='h2'>{title}</h3>
-          <p className='h4 font-medium'>{description}</p>
+        <div className={clsx(styles.face, styles.face2)}>
+          <div className={styles.content}>
+            <h3>{title}</h3>
+            <p>{description}</p>
+          </div>
         </div>
       </div>
     </UnstyledLink>

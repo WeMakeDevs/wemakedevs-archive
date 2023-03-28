@@ -1,0 +1,19 @@
+.errorPageSection {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+.errorPageSection .container {
+  padding: 1rem;
+  width: 100%;
+  max-width: 30rem;
+}
+.errorPageSection .container .highHeading {
+  line-height: 1;
+  font-size: 4rem;
+}
+.description {
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,18 @@
+.layout {
+  padding-top: 6rem;
+  margin-inline: auto;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layout p {
+  max-width: 600px;
+  text-align: center;
+}
+
+.layout h2 {
+  text-align: center;
+}

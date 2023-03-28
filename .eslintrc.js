@@ -8,7 +8,6 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
-    'plugin:tailwindcss/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
   ],
@@ -97,6 +96,5 @@ module.exports = {
       },
     ],
     // #endregion  //*======== Import Sort ===========
-    'tailwindcss/no-custom-classname': ['off'],
   },
 };

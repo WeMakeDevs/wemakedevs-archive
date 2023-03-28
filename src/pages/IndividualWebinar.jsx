@@ -1,13 +1,9 @@
 import BannerImage from 'assets/home/courses.png';
 import { BsCalendar, BsClock } from 'react-icons/bs';
 
+import { About, Register, Speakers } from '@/components/IndividualWebinar';
 import Layout, { ColumnSection } from '@/components/layout';
 import ListItem from '@/components/Listitem';
-import {
-  About,
-  Register,
-  Speakers,
-} from '@/components/PageComp/IndividualWebinar';
 
 const IndividualWebinarPage = ({ content }) => {
   return (
@@ -59,7 +55,7 @@ const IndividualWebinarPage = ({ content }) => {
                 flexDirection: 'row',
               }}
             >
-              <BsCalendar /> {new Date(content.time).toDateString()}
+              <BsCalendar /> <b> {new Date(content.time).toDateString()}</b>
             </p>
             <p
               style={{
@@ -71,13 +67,38 @@ const IndividualWebinarPage = ({ content }) => {
                 flexDirection: 'row',
               }}
             >
-              <BsClock /> {new Date(content.time).toLocaleTimeString()}{' '}
-              {/\((.*)\)/
-                .exec(new Date(content.time).toString())[1]
-                .split(' ')
-                .map((i) => i[0].toUpperCase())
-                .join('')}
+              <BsClock />{' '}
+              <b>
+                {new Date(content.time).toLocaleTimeString()}{' '}
+                {/\((.*)\)/
+                  .exec(new Date(content.time).toString())[1]
+                  .split(' ')
+                  .map((i) => i[0].toUpperCase())
+                  .join('')}
+              </b>
             </p>
+            {/* https://calndr.link/events/lPMjHcfoN4?secret=U5bKjEpszjXevgJ212J3t8T8gbfh2ObAcUbZ */}
+            {/* Event link generator */}
+            {/* <ButtonLink
+              href='https://calndr.link/e/lPMjHcfoN4?s=google'
+              className='h4'
+              style={{
+                gap: '1rem',
+                marginTop: '1rem',
+              }}
+            >
+              <SlCalender /> Add to google Calendar
+            </ButtonLink>
+            <ButtonLink
+              href='https://calndr.link/e/lPMjHcfoN4?s=apple'
+              className='h4'
+              style={{
+                gap: '1rem',
+                marginTop: '1rem',
+              }}
+            >
+              <BsApple /> Add to Apple Calendar or other
+            </ButtonLink> */}
           </div>
         </div>
       </section>

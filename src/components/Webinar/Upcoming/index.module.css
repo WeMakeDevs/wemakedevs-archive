@@ -1,0 +1,51 @@
+.layout {
+  padding-block: 6rem;
+}
+.hr {
+  margin-block: 1.5rem;
+}
+.cardsContainer {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media screen and (min-width: 800px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cardsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.card {
+  border: 1px solid #dee4ed;
+  border-radius: 8px 8px 8px 8px;
+  overflow: hidden;
+}
+
+.card .cardDetails {
+  padding: 20px;
+}
+
+.card h2 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 145%;
+  font-weight: normal;
+}
+
+.btn1 {
+  margin-top: 2rem;
+}
