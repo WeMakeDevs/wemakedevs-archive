@@ -1,0 +1,80 @@
+.layout {
+  padding-bottom: 6rem;
+  margin-inline: auto;
+}
+
+.headingLine {
+  margin-block: 1.5rem;
+}
+
+.cardWrapper {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 1rem /* 16px */;
+  padding-block: 2rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(var(--content), 0),
+    rgb(var(--content), 0.1)
+  );
+  border-radius: 0.5rem;
+  border: 1px solid rgb(var(--content), 0.2);
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .card {
+    margin-bottom: 0px;
+    flex: 1;
+  }
+}
+
+@media (min-width: 861px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.hr {
+  margin-inline: auto;
+  margin-block: 1rem;
+}
+
+.img {
+  display: inline-block;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 2rem;
+  background-color: var(--clr-base-100);
+  --bg-opacity: 0.1;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 9999px;
+  border-width: 2px;
+  border-color: var(--clr-base-100);
+}
+
+.description {
+  line-height: 1.625;
+}
+
+.name {
+  color: var(--clr-white);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.designation {
+  color: rgb(var(--content), 0.8);
+}

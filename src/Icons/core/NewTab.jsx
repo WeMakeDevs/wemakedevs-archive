@@ -1,10 +1,6 @@
 const NewTab = () => {
   return (
-    <svg
-      viewBox='0 0 17 16'
-      focusable='false'
-      className='ml-1 aspect-square w-5'
-    >
+    <svg viewBox='0 0 17 16' focusable='false' className='newtab'>
       <rect
         x='1'
         y='0.499969'

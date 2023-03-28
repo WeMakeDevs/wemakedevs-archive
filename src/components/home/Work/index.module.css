@@ -1,0 +1,22 @@
+.workImg {
+  display: flex;
+  column-gap: 3rem;
+  row-gap: 1.3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.workImg img {
+  max-width: 250px;
+}
+.headingWorkLine {
+  margin-block: 2rem;
+}
+.layout {
+  padding-bottom: 6rem;
+}
+@media screen and (max-width: 900px) {
+  .workImg img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

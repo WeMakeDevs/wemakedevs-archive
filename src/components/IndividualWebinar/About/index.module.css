@@ -1,0 +1,30 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 6rem;
+  padding-top: 8rem;
+  text-align: center;
+}
+.layout p {
+  margin-top: 1rem;
+}
+
+.video {
+  max-width: 50rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  display: block;
+  border: 2px solid var(--clr-primary);
+  border-radius: 1rem;
+  margin-top: 3rem;
+  box-shadow: 0 1rem 3rem rgb(var(--primary), 0.5);
+}
+.btn {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
