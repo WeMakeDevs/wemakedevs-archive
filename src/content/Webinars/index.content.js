@@ -1,8 +1,7 @@
-import Devops from 'assets/courses/devops.jpg';
-
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 
-import finOpsWebinar from './finOpsWebinar';
+import BPFWebinar from './BPFWebinar';
+import NoCodeApproachWebianr from './NoCodeApproachWebianr';
 
 const WebinarPageContent = {
   header: [
@@ -34,10 +33,19 @@ export default WebinarPageContent;
 
 export const webinar = [
   {
-    img: Devops,
-    title: finOpsWebinar.name,
-    description: finOpsWebinar.description,
-    time: finOpsWebinar.time,
-    details: finOpsWebinar,
+    img: BPFWebinar.poster,
+    title: BPFWebinar.name,
+    description: BPFWebinar.description,
+    time: BPFWebinar.time,
+    slug: BPFWebinar.slug,
+    details: BPFWebinar,
+  },
+  {
+    img: NoCodeApproachWebianr.poster,
+    title: NoCodeApproachWebianr.name,
+    description: NoCodeApproachWebianr.description,
+    time: NoCodeApproachWebianr.time,
+    slug: NoCodeApproachWebianr.slug,
+    details: NoCodeApproachWebianr,
   },
 ];

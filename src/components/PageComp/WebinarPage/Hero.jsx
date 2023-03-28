@@ -1,13 +1,14 @@
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 
-import HeroImg from '@/assets/webinar/hero.gif';
+import HeroImg from '@/assets/webinars/hero.png';
+
 const Hero = () => {
   return (
     <header id='about'>
       <div className='layout  flex flex-col items-center justify-center py-20 pt-28'>
         <h1 className='heading highlight highlight--light'>
-          Expert Webinar on the latest technologies
+          Expert webinars with exciting giveaways
         </h1>
         <p className='h3 my-9'>
           Expand your knowledge and enhance your skills with our expert-led

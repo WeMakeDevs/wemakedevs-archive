@@ -6,11 +6,10 @@
 
 <p align="center">
 <a href="https://github.com/wemakedevs/wemakedevs/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/wemakedevs/wemakedevs"></a>
-<a href="https://github.com/wemakedevs/wemakedevs/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/wemakedevs/wemakedevs"></a>
+<a href="https://github.com/wemakedevs/wemakedevs/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/wemakedevs/wemakedevs"></a>
 <a href="https://github.com/wemakedevs/wemakedevs/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/wemakedevs/wemakedevs"></a>
 <a href="https://github.com/wemakedevs/wemakedevs/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/wemakedevs/wemakedevs"></a>
 </p>
-
 
 # About Us
 
@@ -22,7 +21,7 @@ We believe that every individual, regardless of their educational background and
 
 WeMakeDevs provides hands-on training courses and mentorship for free, along with a wealth of resources to help you start your journey, including <b>roadmaps, podcasts, blogs, and events.</b>
 
-## What we provide?
+## What do we provide?
 
 <p align="center">
 <img src="SkewdImage/wemakedevs.drawio.png" width="520" height="390" >
@@ -58,7 +57,7 @@ Before making a contribution, check the <a href="https://github.com/WeMakeDevs/w
 
 # Code of Conduct
 
-Check out <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a> to know inclusive environment that respects all contributions.
+Check out the <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a> to know an inclusive environment that respects all contributions.
 
 # License
 
@@ -70,7 +69,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### 🧾 Prerequisites
 
-Before starting out, you'll need to install the following on your computer.
+Before starting, you need to install the following on your computer.
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/download/)
 

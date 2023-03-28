@@ -15,7 +15,7 @@ const Content = () => {
         <div className='flex flex-wrap gap-4'>
           <Card
             title='Podcast'
-            href='https://www.youtube.com/playlist?list=PL9gnSGHSqcnqwmKYZ5rHuzqe32Di47KMr'
+            href='https://www.youtube.com/playlist?list=PL9gnSGHSqcnoCAy9zpT24v1N6RzWaR-HK'
             src='https://www.youtube.com/embed/t8w-e7yJgiA'
             isVideo
             btnText='Listen podcast'

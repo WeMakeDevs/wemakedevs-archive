@@ -10,6 +10,7 @@ import {
 } from 'react-icons/fa';
 import { SiHashnode } from 'react-icons/si';
 
+import HeaderLink from '@/components/links/HeaderLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 const Footer = () => {
@@ -24,7 +25,7 @@ const Footer = () => {
             <ul className='mt-3 space-y-4'>
               {OrganizationLink.map((link) => (
                 <li key={link.name}>
-                  <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
+                  <HeaderLink href={link.link}>{link.name}</HeaderLink>
                 </li>
               ))}
             </ul>
@@ -36,9 +37,9 @@ const Footer = () => {
             <ul className='mt-3 space-y-4'>
               {CommunityLinks.map((link) => (
                 <li key={link.name}>
-                  <UnstyledLink href={link.link} openNewTab>
+                  <HeaderLink href={link.link} openNewTab>
                     {link.name}
-                  </UnstyledLink>
+                  </HeaderLink>
                 </li>
               ))}
             </ul>
@@ -51,7 +52,7 @@ const Footer = () => {
             <ul className='mt-3 space-y-4'>
               {socialLinks.map((link) => (
                 <li key={link.name}>
-                  <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
+                  <HeaderLink href={link.link}>{link.name}</HeaderLink>
                 </li>
               ))}
             </ul>
@@ -64,7 +65,7 @@ const Footer = () => {
             <ul className='mt-3 space-y-4'>
               {contactLinks.map((link) => (
                 <li key={link.name}>
-                  <UnstyledLink href={link.link}>{link.name}</UnstyledLink>
+                  <HeaderLink href={link.link}>{link.name}</HeaderLink>
                 </li>
               ))}
             </ul>
@@ -113,8 +114,8 @@ const CommunityLinks = [
   },
   { link: '/events', name: 'Events' },
   { link: '/courses', name: 'Courses' },
-  { link: '/webinar', name: 'Webinars' },
-  { link: 'https://github.com/WeMakeDevs/roadmaps', name: 'roadmaps' },
+  { link: '/webinars', name: 'Webinars' },
+  { link: 'https://github.com/WeMakeDevs/roadmaps', name: 'Roadmaps' },
 ];
 
 const socialLinks = [

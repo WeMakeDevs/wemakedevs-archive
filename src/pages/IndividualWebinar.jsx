@@ -1,9 +1,7 @@
 import BannerImage from 'assets/home/courses.png';
-import { BsApple, BsCalendar, BsClock } from 'react-icons/bs';
-import { SlCalender } from 'react-icons/sl';
+import { BsCalendar, BsClock } from 'react-icons/bs';
 
 import Layout, { ColumnSection } from '@/components/layout';
-import ButtonLink from '@/components/links/ButtonLink';
 import ListItem from '@/components/Listitem';
 import {
   About,
@@ -18,12 +16,15 @@ const IndividualWebinarPage = ({ content }) => {
       <ColumnSection
         id='takeaways'
         src={BannerImage}
-        title='What you will learn'
+        title='Why should you attend?'
         direction='right'
       >
         {content.takeaways.map((takeaway) => (
           <ListItem key={takeaway}>{takeaway}</ListItem>
         ))}
+        <ListItem>
+          Win exciting gifts and prizes while learning new technology.
+        </ListItem>
       </ColumnSection>
       <section id='time'>
         <div
@@ -79,7 +80,7 @@ const IndividualWebinarPage = ({ content }) => {
             </p>
             {/* https://calndr.link/events/lPMjHcfoN4?secret=U5bKjEpszjXevgJ212J3t8T8gbfh2ObAcUbZ */}
             {/* Event link generator */}
-            <ButtonLink
+            {/* <ButtonLink
               href='https://calndr.link/e/lPMjHcfoN4?s=google'
               className='h4'
               style={{
@@ -98,12 +99,17 @@ const IndividualWebinarPage = ({ content }) => {
               }}
             >
               <BsApple /> Add to Apple Calendar or other
-            </ButtonLink>
+            </ButtonLink> */}
           </div>
         </div>
       </section>
+
       <Speakers speakers={content.speakers} />
-      <Register />
+      {new Date().getTime() < new Date(content.time).getTime() ? (
+        <Register register={content.register} />
+      ) : (
+        ''
+      )}
     </Layout>
   );
 };

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const Register = () => {
+const Register = ({ register }) => {
   const [iframeHeight, setIframeHeight] = useState(670);
 
   useEffect(() => {
@@ -21,12 +21,11 @@ const Register = () => {
         <h2 className='h1'>Regsiter for the webinar</h2>
         <hr className='styled-hr' />
         <p className='h3'>Regsiter and learn by great developer and creators</p>
-
         <iframe
-          src='https://wemakedevs-newsletter.vercel.app/'
+          src={`https://wemakedevs-newsletter.vercel.app/${register}.html`}
           width='100%'
-          height={iframeHeight}
           style={{ border: '0' }}
+          height={iframeHeight}
           title='Subscribe to our newsletter by entering your details below'
         ></iframe>
       </div>
