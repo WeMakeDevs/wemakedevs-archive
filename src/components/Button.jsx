@@ -27,7 +27,7 @@ const Button = React.forwardRef(
         className={clsxm(
           'inline-flex w-max items-center rounded-xl py-3 px-7 font-medium transition-all duration-75',
           'focus-visible:outline focus-visible:outline-primary',
-          'disabled:cursor-not-allowed',
+          'disabled:cursor-not-allowed ',
           variant === 'primary' && [
             'bg-primary text-content/90',
             'ring-1 ring-primary-hover',

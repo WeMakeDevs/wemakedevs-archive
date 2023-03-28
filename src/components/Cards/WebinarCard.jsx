@@ -3,7 +3,7 @@ import { BsCalendar, BsClock } from 'react-icons/bs';
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 
-const WebinarCard = ({ img, title, time, description }) => {
+const WebinarCard = ({ img, title, time, description, slug }) => {
   return (
     <div className='overflow-hidden rounded-lg border border-content/50 bg-gradient-to-br from-transparent to-base-100/50'>
       <img src={img} alt={title + 'banner'} />
@@ -46,10 +46,12 @@ const WebinarCard = ({ img, title, time, description }) => {
         <ArrowLink
           as={ButtonLink}
           className='mt-4'
-          href={`/webinar/${title.split(' ').join('-').toLowerCase()}`}
+          href={`/webinars/${slug}`}
           openNewTab
         >
-          Register
+          {new Date().getTime() < new Date(time).getTime()
+            ? 'Register'
+            : 'Recap'}
         </ArrowLink>
       </div>
     </div>

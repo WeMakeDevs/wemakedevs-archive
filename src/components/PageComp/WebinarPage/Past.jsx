@@ -1,6 +1,6 @@
 import { webinar } from '@/content/Webinars/index.content';
 
-import { Card } from '@/components/Webinar/Upcoming';
+import WebinarCard from '@/components/Cards/WebinarCard';
 
 const Upcoming = () => {
   return (
@@ -16,7 +16,7 @@ const Upcoming = () => {
               .filter(
                 (web) => new Date().getTime() >= new Date(web.time).getTime()
               )
-              .map((web) => <Card {...web} key={web.image} />)
+              .map((web) => <WebinarCard {...web} key={web.image} />)
           ) : (
             <p>There no past events are happend till now</p>
           )}

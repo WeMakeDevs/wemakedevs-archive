@@ -38,27 +38,27 @@
   }
 
   .h0 {
-    @apply font-sans text-3xl font-bold text-content md:text-5xl;
+    @apply font-sans text-3xl font-semibold text-content md:text-5xl;
   }
 
   h1,
   .h1 {
-    @apply font-sans text-4xl leading-relaxed text-content md:text-5xl lg:text-6xl;
+    @apply font-sans text-4xl font-semibold leading-relaxed text-content md:text-5xl lg:text-6xl;
   }
 
   h2,
   .h2 {
-    @apply font-sans text-xl text-content md:text-3xl;
+    @apply font-sans text-xl font-semibold text-content md:text-3xl;
   }
 
   h3,
   .h3 {
-    @apply font-sans text-lg text-content md:text-xl;
+    @apply font-sans text-lg font-semibold text-content md:text-xl;
   }
 
   h4,
   .h4 {
-    @apply font-sans text-base font-bold text-content md:text-lg;
+    @apply font-sans text-base font-semibold text-content md:text-lg;
   }
 
   body,

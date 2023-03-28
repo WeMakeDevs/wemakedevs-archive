@@ -6,18 +6,24 @@ import HeroImg from '@/assets/webinars/hero.png';
 const Hero = () => {
   return (
     <header id='about'>
-      <div className='layout  flex flex-col items-center justify-center py-20 pt-28'>
-        <h1 className='heading highlight highlight--light'>
-          Expert webinars with exciting giveaways
-        </h1>
-        <p className='h3 my-9'>
-          Expand your knowledge and enhance your skills with our expert-led
-          webinars on a wide range of topics.
-        </p>
-        <ArrowLink as={ButtonLink} href='#upcoming'>
-          Upcoming webinars
-        </ArrowLink>
-        <div className='relative mt-12 w-full bg-primary py-8 lg:mt-16 lg:py-16 lg:px-8'>
+      <div className='layout flex flex-col items-center justify-center gap-10 py-20 pt-28 text-left md:text-center lg:flex-row lg:text-left'>
+        <div>
+          <h1 className='heading heading-md highlight text-left md:text-center lg:text-left'>
+            Expert webinars with exciting giveaways
+          </h1>
+          <p className='h3 my-9'>
+            Expand your knowledge and enhance your skills with our expert-led
+            webinars on a wide range of topics.
+          </p>
+          <ArrowLink
+            as={ButtonLink}
+            href='#upcoming'
+            className='mx-auto lg:ml-0'
+          >
+            Upcoming webinars
+          </ArrowLink>
+        </div>
+        <div className='relative mt-12 max-w-lg bg-primary py-8 lg:mt-16 lg:py-16 lg:px-8'>
           <img src={HeroImg} className='w-full' />
           <svg
             className='absolute top-0 right-0 aspect-square w-20 -translate-x-1/2 -translate-y-1/2 rotate-180 lg:w-28'
