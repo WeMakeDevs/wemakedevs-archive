@@ -4,7 +4,7 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 
 const SpeakerCard = ({ img, name, description, linkedin, twitter }) => {
   return (
-    <div className='flex flex-col items-center justify-center overflow-hidden rounded-lg border border-content/50 bg-gradient-to-br from-transparent to-base-100/50 py-10'>
+    <div className='flex flex-col items-center justify-center overflow-hidden rounded-lg border border-content/50 bg-base-200 py-10'>
       <img
         src={img}
         alt={name + ' profile'}
@@ -26,7 +26,7 @@ const SpeakerCard = ({ img, name, description, linkedin, twitter }) => {
           className='h3 mt-4 flex items-center justify-center gap-4'
           href={`https://www.linkedin.com/in/${linkedin}`}
         >
-          <BsLinkedin /> @{linkedin}
+          <BsLinkedin /> LinkedIn
         </UnstyledLink>
       )}
     </div>
