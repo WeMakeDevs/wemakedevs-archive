@@ -20,7 +20,7 @@ const Banner = () => {
       <div className='flex items-center justify-center gap-2'>
         {' '}
         <TfiAnnouncement className='h1 ml-auto shrink-0 rounded-lg bg-base-100/80 p-2' />
-        <p className='h3 text-center font-bold text-base-100'>
+        <p className='h3 text-center font-semibold text-base-100'>
           Check out our{' '}
           <span className='highlight highlight--dark'> upcoming events </span>
           and{' '}

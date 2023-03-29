@@ -7,6 +7,7 @@ import 'react-loading-skeleton/dist/skeleton.css';
 import { DevopsPageContent } from '@/content/devops';
 import { DsaPageContent } from '@/content/dsa';
 import { GitGithubPageContent } from '@/content/gitGithub';
+import NapptiveHackathon from '@/content/Hackathons/napptive';
 import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 
 import { Loader } from '@/components/layout';
@@ -20,6 +21,9 @@ const CoursesPage = lazy(() => import('@/pages/CoursesPage'));
 const SingleCoursePage = lazy(() => import('@/pages/SingleCoursePage'));
 const WebinarPage = lazy(() => import('@/pages/WebinarPage'));
 const IndividualWebinarPage = lazy(() => import('@/pages/IndividualWebinar'));
+const PerticularhackathonPage = lazy(() =>
+  import('@/pages/PerticularhackathonPage')
+);
 
 const App = () => {
   return (
@@ -58,6 +62,11 @@ const App = () => {
               element={<IndividualWebinarPage content={web.details} />}
             />
           ))}
+          <Route
+            exact
+            path='/events/hackathons/napptive'
+            element={<PerticularhackathonPage content={NapptiveHackathon} />}
+          />
 
           <Route path='*' element={<ErrorPage />} />
         </Routes>
