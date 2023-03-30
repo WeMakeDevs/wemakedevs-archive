@@ -25,7 +25,7 @@ export {
 const Layout = ({ content, children }) => {
   return (
     <>
-      <Navbar links={content.header} />
+      <Navbar links={content.header} cta={content.CTA} />
       <main className='main'>
         {children}
         <JoinUs />

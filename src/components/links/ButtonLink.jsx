@@ -23,12 +23,13 @@ const ButtonLink = ({
       disabled={disabled}
       className={clsxm(
         'inline-flex w-max items-center rounded-full py-3 px-7 font-medium transition-all duration-75',
-        'focus-visible:outline focus-visible:outline-primary',
+        // before becuse of safari don't suppport rounded outline
+        'focus-visible:before:absolute focus-visible:before:-top-1 focus-visible:before:-left-1 focus-visible:before:-right-1 focus-visible:before:-bottom-1 focus-visible:before:rounded-full focus-visible:before:border focus-visible:before:border-primary',
         'disabled:cursor-not-allowed',
         variant === 'primary' && [
           'bg-primary text-content/90',
           'ring-1 ring-primary-hover',
-          'outline outline-primary/30',
+          'before:border-primary/30',
           'hover:bg-primary-hover hover:text-content hover:ring-primary',
           'active:bg-primary',
           'disabled:bg-primary-disable disabled:hover:bg-primary-disable',

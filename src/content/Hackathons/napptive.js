@@ -4,6 +4,7 @@ import HeroImg from '@/assets/hackathon/napptive/theme.png';
 const NapptiveHackathon = {
   header: HackthonPageContent.header,
   faq: HackthonPageContent.faq,
+  CTA: HackthonPageContent.CTA,
   title: 'Build cloud-native apps',
   description: 'Powered by Napptive',
   hero: HeroImg,
@@ -108,6 +109,36 @@ const NapptiveHackathon = {
       description: 'VP of Revenue at Napptive',
       linkedin: 'steve-galache-50232253',
       img: Steve,
+    },
+  ],
+  takepart: [
+    {
+      title: 'Sign up on the',
+      link: {
+        title: 'Napptive platform',
+        href: 'https://napptive.com',
+      },
+    },
+    {
+      title: 'Join the Slack channel of',
+      link: {
+        title: 'Napptive slack',
+        href: 'https://join.napptive.com/slack',
+      },
+    },
+    {
+      title: 'Checkout the resource to get started',
+      link: {
+        title: 'Napptive docs',
+        href: 'https://docs.napptive.com/',
+      },
+    },
+    {
+      title: 'Submit your project at ',
+      link: {
+        title: 'goggle form',
+        href: '',
+      },
     },
   ],
   from: 'Fri, 14 Apr 2023 02:30:00 GMT',

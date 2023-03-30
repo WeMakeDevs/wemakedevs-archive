@@ -21,7 +21,7 @@ const ColumnSection = ({
       <div
         className={clsx(
           'layout',
-          'flex flex-col justify-between gap-12 py-20 lg:flex-row',
+          'flex flex-col justify-between gap-5 py-20 lg:flex-row lg:gap-12',
           direction === 'right' && 'lg:flex-row-reverse'
         )}
       >
@@ -35,7 +35,7 @@ const ColumnSection = ({
           ></iframe>
         ) : (
           <img
-            className='inline-block aspect-[560/315] grow  border-none object-cover '
+            className='inline-block aspect-square grow  border-none object-cover '
             src={src}
             alt={title}
           />
@@ -48,7 +48,7 @@ const ColumnSection = ({
         >
           <h2 className='h1'>{title}</h2>
           <hr className='styled-hr' />
-          <ul className=' h4 flex flex-col gap-6 font-medium text-content first:mt-0'>
+          <ul className='h4 flex flex-col gap-6 font-medium text-content first:mt-0'>
             {children}
           </ul>
           <div className='inline-flex flex-wrap gap-2'>

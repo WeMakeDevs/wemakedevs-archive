@@ -11,7 +11,7 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 
 import Backdrop from '../Backdrop';
 
-const Navbar = ({ links }) => {
+const Navbar = ({ links, cta }) => {
   const [open, setOpen] = React.useState(false);
 
   // Go to top
@@ -36,6 +36,7 @@ const Navbar = ({ links }) => {
             open={open}
             setOpen={setOpen}
             links={links}
+            cta={cta}
           />
           <button className={styles.menuBtn} onClick={() => setOpen((p) => !p)}>
             <span className='sr-only'>Menu</span>
@@ -69,6 +70,7 @@ const Navbar = ({ links }) => {
           open={open}
           setOpen={setOpen}
           style={styles.navMobile}
+          cta={cta}
           links={links}
         />
       </Backdrop>
@@ -78,7 +80,7 @@ const Navbar = ({ links }) => {
 
 export default Navbar;
 
-const NavigationLinks = ({ style, open, setOpen, links }) => {
+const NavigationLinks = ({ style, open, setOpen, links, cta }) => {
   return (
     <nav className={clsx(style, open && styles.open)}>
       {links?.map((link) => (
@@ -93,10 +95,10 @@ const NavigationLinks = ({ style, open, setOpen, links }) => {
       <ArrowLink
         className={styles.cta}
         as={ButtonLink}
-        href='#partnerwithus'
+        href={cta ? cta.href : '#partnerwithus'}
         onClick={() => setOpen(false)}
       >
-        Partner
+        {cta ? cta.name : 'Partner'}
       </ArrowLink>
     </nav>
   );

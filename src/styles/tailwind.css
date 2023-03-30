@@ -30,7 +30,7 @@
 @layer base {
   body {
     background: #141414;
-    @apply scroll-pt-16 scroll-smooth md:scroll-pt-20;
+    @apply scroll-pt-16 scroll-smooth md:scroll-pt-28;
   }
   /* #region  /**=========== Typography =========== */
   .heading {
@@ -63,7 +63,7 @@
 
   body,
   .p {
-    @apply font-sans text-sm text-content md:text-base;
+    @apply font-sans text-sm font-medium text-content md:text-base;
   }
   /* #endregion  /**======== Typography =========== */
 

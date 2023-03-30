@@ -1,10 +1,12 @@
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import { BsTrophy } from 'react-icons/bs';
+import { HiOutlineArrowRight } from 'react-icons/hi';
+import { MdOutlineLabelImportant } from 'react-icons/md';
 import { VscDebugBreakpointLogUnverified } from 'react-icons/vsc';
 
 import SpeakerCard from '@/components/Cards/SpeakerCard';
-import Layout, { ColumnSection } from '@/components/layout';
-import { ButtonLink, UnstyledLink } from '@/components/links';
+import { ColumnSection, FAQ, Footer, Navbar } from '@/components/layout';
+import { ArrowLink, ButtonLink, UnstyledLink } from '@/components/links';
 import ListItem from '@/components/Listitem';
 
 const PerticularhackathonPage = ({ content }) => {
@@ -17,7 +19,7 @@ const PerticularhackathonPage = ({ content }) => {
         </linearGradient>
       </svg>
       {/* Hero section */}
-      <section id='about'>
+      <section>
         <div className='layout flex flex-col items-center justify-center gap-4 py-32'>
           <h1 className='heading highlight'>{content.title}</h1>
           <h2>{content.description}</h2>
@@ -78,7 +80,7 @@ const PerticularhackathonPage = ({ content }) => {
         </div>
       </section>
       {/* Theme section */}
-      <ColumnSection id='theme' src={content.hero} title='About'>
+      <ColumnSection id='about' src={content.hero} title='About'>
         <ListItem>
           Do you want to learn new skills, discover how to build and deploy
           cloud native apps and meet like-minded people? Find this and much more
@@ -102,7 +104,7 @@ const PerticularhackathonPage = ({ content }) => {
         </ListItem>
       </ColumnSection>
       {/* Prizes section */}
-      <section id='prizes'>
+      <section id='tracks'>
         <div className='layout py-20 text-center'>
           <h2 className='h1'>Hackathon tracks</h2>
           <hr className='styled-hr mx-auto my-6' />
@@ -167,7 +169,7 @@ const PerticularhackathonPage = ({ content }) => {
                     </ul>
                   </>
                 )}
-                <p className='mt-6 mb-3 text-primary-disable'>Gifts</p>
+                <p className='mt-6 mb-3 text-primary-disable'>Prizes</p>
                 <ul className='flex flex-col gap-2'>
                   {item.gift.map((gift) => (
                     <li className='flex items-center gap-2' key={gift}>
@@ -181,14 +183,14 @@ const PerticularhackathonPage = ({ content }) => {
         </div>
       </section>
       {/* Judges */}
-      <section id='speakers'>
+      <section id='judges'>
         <div className='layout py-20'>
           <h2 className='h1'>Judges</h2>
           <hr className='styled-hr my-6' />
           <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
             <SpeakerCard
               {...{
-                name: 'Kunal Kushawa',
+                name: 'Kunal Kushwaha',
                 description: 'DevRel Manger @Civo',
                 twitter: 'kunalstwt',
                 img: 'https://github.com/kunal-kushwaha.png',
@@ -236,13 +238,55 @@ const PerticularhackathonPage = ({ content }) => {
           </p>
           <hr className='styled-hr mx-auto my-6' />
 
-          <div className='relative z-10  mt-20'>
+          <ul className='mx-auto max-w-5xl space-y-5'>
             {content.rules.map((item) => (
-              <ListItem className='mx-20 p-2 text-left' key={item.title}>
-                <h4 className='mt-5 font-normal'>{item}</h4>
-              </ListItem>
+              <li
+                className='h3 flex gap-2 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'
+                key={item.title}
+              >
+                <MdOutlineLabelImportant
+                  style={{ fill: 'url(#blue-gradient)' }}
+                  className='h2 shrink-0 text-primary'
+                />{' '}
+                {item}
+              </li>
             ))}
-          </div>
+          </ul>
+        </div>
+      </section>
+      {/* Register Section */}
+      <section id='register'>
+        <div className='layout py-20 text-center'>
+          <h2 className='h1'>Register</h2>
+          <hr className='styled-hr mx-auto my-6' />
+          <ul className='mx-auto max-w-5xl space-y-5'>
+            {content.takepart.map((item) => (
+              <li
+                className='h3 flex gap-2 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'
+                key={item.title}
+              >
+                <HiOutlineArrowRight
+                  style={{ fill: 'url(#blue-gradient)' }}
+                  className='h2 shrink-0'
+                />{' '}
+                <span>
+                  {item.title}{' '}
+                  {item.link.href !== '' ? (
+                    <ArrowLink
+                      href={item.link.href}
+                      className='inline-flex items-center text-primary'
+                    >
+                      {item.link.title}
+                    </ArrowLink>
+                  ) : (
+                    <span className='inline-flex items-center text-primary'>
+                      soon
+                    </span>
+                  )}
+                </span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
     </Layout>
@@ -250,3 +294,16 @@ const PerticularhackathonPage = ({ content }) => {
 };
 
 export default PerticularhackathonPage;
+
+const Layout = ({ content, children }) => {
+  return (
+    <>
+      <Navbar links={content.header} cta={content.CTA} />
+      <main className='main'>
+        {children}
+        <FAQ faq={content.faq} />
+      </main>
+      <Footer />
+    </>
+  );
+};
