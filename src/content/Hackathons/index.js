@@ -1,39 +1,39 @@
 export const ParticularHackthonPageFAQ = [
   {
     id: 'FAQ1',
-    question: 'What will the webinars be about?',
+    question: 'What is a hackathon?',
     answer:
-      'The webinars will cover a wide range of topics, from trending technology, to less popular technologies as well. All will have some great real world use cases.',
+      'A hackathon is a collaborative coding competition where programmers, designers, and developers compete for monetary bonuses for creating innovative solutions. It is a mix of a celebration and an all-night struggle against the clock and the opposition.',
   },
   {
     id: 'FAQ2',
-    question: 'How can I stay notified for the upcoming webinars?',
+    question: 'Why would someone participate in a hackathon?',
     answer:
-      'We announce about the webinars on our socials, and discord. We will also be updating this webpage with upcoming webinars.',
+      'People take part in hackathons for a variety of reasons, including the challenge, the opportunity for creative expression, the chance to collaboration, networking opportunities, swag, and much more.',
   },
   {
     id: 'FAQ3',
-    question: 'Will these webinars be recorded?',
+    question: 'Is the event open to all ages?',
     answer:
-      "Yes. The webinars will be recorded, and the links to them will be included in the 'Past webinars' section.",
+      'You can participate in this hackathon as long as you are of legal age in your respective country, or have permission for a parent or guardian in case you are a minor.',
   },
   {
     id: 'FAQ4',
-    question: 'Will the webinars be interactive?',
+    question: 'What is the mode of this hackathon?',
     answer:
-      'Yes, the webinars will be live and interactive. We encourage you to join, ask questions and get them cleared',
+      'This is a virtual hackathon, so you can create hacks from the comfort of your home, or anywhere in the world.',
   },
   {
     id: 'FAQ5',
-    question: 'Who will be a part of these webinars?',
+    question: 'Do we sign up as individuals or as a team?',
     answer:
-      'We will be having webinars with industry experts on various technologies. Regardless the topic of discussion, you will learn something new and informative.',
+      'You can either participate as a individual or with a team of 1-4 folks i.e the maximum strength of the team should not exceed 4',
   },
   {
     id: 'FAQ6',
-    question: 'Are these webinars free to attend?',
+    question: 'Is it a paid event?',
     answer:
-      'Yes. The webinars are, and always will be free for anyone to attend. You do not need to pay anything for attending',
+      'This is a completely free-to-join event i.e anyone above the legal age can participate in the event for free.
   },
 ];
 
