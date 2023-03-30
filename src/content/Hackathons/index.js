@@ -33,7 +33,7 @@ export const ParticularHackthonPageFAQ = [
     id: 'FAQ6',
     question: 'Is it a paid event?',
     answer:
-      'This is a completely free-to-join event i.e anyone above the legal age can participate in the event for free.
+      'This is a completely free-to-join event i.e anyone above the legal age can participate in the event for free.',
   },
 ];
 
