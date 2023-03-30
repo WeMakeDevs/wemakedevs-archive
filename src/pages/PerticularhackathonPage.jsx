@@ -1,5 +1,5 @@
 import { AiOutlineArrowRight } from 'react-icons/ai';
-import { BsStars, BsTrophy } from 'react-icons/bs';
+import { BsTrophy } from 'react-icons/bs';
 import { VscDebugBreakpointLogUnverified } from 'react-icons/vsc';
 
 import SpeakerCard from '@/components/Cards/SpeakerCard';
@@ -21,7 +21,7 @@ const PerticularhackathonPage = ({ content }) => {
         <div className='layout flex flex-col items-center justify-center gap-4 py-32'>
           <h1 className='heading highlight'>{content.title}</h1>
           <h2>{content.description}</h2>
-          <div className='h2 mt-10 font-normal'>
+          <div className='h2 mt-10 font-bold'>
             Start:{' '}
             {new Date(content.from).toLocaleDateString('en-US', {
               dateStyle: 'medium',
@@ -35,7 +35,7 @@ const PerticularhackathonPage = ({ content }) => {
               .map((i) => i[0].toUpperCase())
               .join('')}
           </div>
-          <div className='h2 font-normal'>
+          <div className='h2 font-bold'>
             End:{' '}
             {new Date(content.to).toLocaleDateString('en-US', {
               dateStyle: 'medium',
@@ -49,7 +49,7 @@ const PerticularhackathonPage = ({ content }) => {
               .map((i) => i[0].toUpperCase())
               .join('')}
           </div>
-          <div className='h2 font-normal'>
+          <div className='h2 font-bold'>
             Winnner announcement{' '}
             {new Date(content.winnerAnnouc).toLocaleDateString('en-US', {
               dateStyle: 'medium',
@@ -236,18 +236,11 @@ const PerticularhackathonPage = ({ content }) => {
           </p>
           <hr className='styled-hr mx-auto my-6' />
 
-          <div className='relative z-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+          <div className='relative z-10  mt-20'>
             {content.rules.map((item) => (
-              <div
-                className='rounded-xl border-2 border-content/10 bg-base-200/60 p-6 text-left backdrop-blur'
-                key={item.title}
-              >
-                <BsStars
-                  style={{ fill: 'url(#blue-gradient)' }}
-                  className='h2'
-                />
+              <ListItem className='mx-20 p-2 text-left' key={item.title}>
                 <h4 className='mt-5 font-normal'>{item}</h4>
-              </div>
+              </ListItem>
             ))}
           </div>
         </div>
