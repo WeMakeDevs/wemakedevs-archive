@@ -44,22 +44,26 @@ const HackthonPageContent = {
       href: '#about',
     },
     {
-      name: 'Upcoming',
-      href: '#upcoming',
+      name: 'Tracks',
+      href: '#tracks',
     },
     {
-      name: 'Past',
-      href: '#past',
+      name: 'Judges',
+      href: '#judges',
     },
     {
-      name: 'Join',
-      href: '#join',
+      name: 'Criteria',
+      href: '#criteria',
     },
     {
-      name: 'FAQ',
-      href: '#faq',
+      name: 'Rules',
+      href: '#rules',
     },
   ],
+  CTA: {
+    name: 'Register',
+    href: '#register',
+  },
   faq: ParticularHackthonPageFAQ,
 };
 

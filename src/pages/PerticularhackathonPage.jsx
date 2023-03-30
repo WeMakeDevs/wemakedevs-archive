@@ -1,10 +1,12 @@
 import { AiOutlineArrowRight } from 'react-icons/ai';
-import { BsStars, BsTrophy } from 'react-icons/bs';
+import { BsTrophy } from 'react-icons/bs';
+import { HiOutlineArrowRight } from 'react-icons/hi';
+import { MdOutlineLabelImportant } from 'react-icons/md';
 import { VscDebugBreakpointLogUnverified } from 'react-icons/vsc';
 
 import SpeakerCard from '@/components/Cards/SpeakerCard';
-import Layout, { ColumnSection } from '@/components/layout';
-import { ButtonLink, UnstyledLink } from '@/components/links';
+import { ColumnSection, FAQ, Footer, Navbar } from '@/components/layout';
+import { ArrowLink, ButtonLink, UnstyledLink } from '@/components/links';
 import ListItem from '@/components/Listitem';
 
 const PerticularhackathonPage = ({ content }) => {
@@ -17,11 +19,11 @@ const PerticularhackathonPage = ({ content }) => {
         </linearGradient>
       </svg>
       {/* Hero section */}
-      <section id='about'>
+      <section>
         <div className='layout flex flex-col items-center justify-center gap-4 py-32'>
           <h1 className='heading highlight'>{content.title}</h1>
           <h2>{content.description}</h2>
-          <div className='h2 mt-10 font-normal'>
+          <div className='h2 mt-10 font-bold'>
             Start:{' '}
             {new Date(content.from).toLocaleDateString('en-US', {
               dateStyle: 'medium',
@@ -35,7 +37,7 @@ const PerticularhackathonPage = ({ content }) => {
               .map((i) => i[0].toUpperCase())
               .join('')}
           </div>
-          <div className='h2 font-normal'>
+          <div className='h2 font-bold'>
             End:{' '}
             {new Date(content.to).toLocaleDateString('en-US', {
               dateStyle: 'medium',
@@ -49,7 +51,7 @@ const PerticularhackathonPage = ({ content }) => {
               .map((i) => i[0].toUpperCase())
               .join('')}
           </div>
-          <div className='h2 font-normal'>
+          <div className='h2 font-bold'>
             Winnner announcement{' '}
             {new Date(content.winnerAnnouc).toLocaleDateString('en-US', {
               dateStyle: 'medium',
@@ -64,21 +66,13 @@ const PerticularhackathonPage = ({ content }) => {
               .join('')}
           </div>
 
-          <div className='mt-10 flex gap-4'>
-            <ButtonLink href='https://docs.napptive.com'>
-              Napptive docs
-            </ButtonLink>
-            <ButtonLink href='https://napptive.com/?utm_source=Kunal&utm_medium=social&utm_campaign=hackathon&utm_id=wemakedevs'>
-              Register
-            </ButtonLink>
-            <ButtonLink href='https://join.napptive.com/slack'>
-              Join slack
-            </ButtonLink>
-          </div>
+          <ButtonLink className='mt-10 flex gap-4' href='#register'>
+            Register
+          </ButtonLink>
         </div>
       </section>
       {/* Theme section */}
-      <ColumnSection id='theme' src={content.hero} title='About'>
+      <ColumnSection id='about' src={content.hero} title='About'>
         <ListItem>
           Do you want to learn new skills, discover how to build and deploy
           cloud native apps and meet like-minded people? Find this and much more
@@ -102,7 +96,7 @@ const PerticularhackathonPage = ({ content }) => {
         </ListItem>
       </ColumnSection>
       {/* Prizes section */}
-      <section id='prizes'>
+      <section id='tracks'>
         <div className='layout py-20 text-center'>
           <h2 className='h1'>Hackathon tracks</h2>
           <hr className='styled-hr mx-auto my-6' />
@@ -167,7 +161,7 @@ const PerticularhackathonPage = ({ content }) => {
                     </ul>
                   </>
                 )}
-                <p className='mt-6 mb-3 text-primary-disable'>Gifts</p>
+                <p className='mt-6 mb-3 text-primary-disable'>Prizes</p>
                 <ul className='flex flex-col gap-2'>
                   {item.gift.map((gift) => (
                     <li className='flex items-center gap-2' key={gift}>
@@ -181,14 +175,14 @@ const PerticularhackathonPage = ({ content }) => {
         </div>
       </section>
       {/* Judges */}
-      <section id='speakers'>
+      <section id='judges'>
         <div className='layout py-20'>
           <h2 className='h1'>Judges</h2>
           <hr className='styled-hr my-6' />
           <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
             <SpeakerCard
               {...{
-                name: 'Kunal Kushawa',
+                name: 'Kunal Kushwaha',
                 description: 'DevRel Manger @Civo',
                 twitter: 'kunalstwt',
                 img: 'https://github.com/kunal-kushwaha.png',
@@ -236,20 +230,51 @@ const PerticularhackathonPage = ({ content }) => {
           </p>
           <hr className='styled-hr mx-auto my-6' />
 
-          <div className='relative z-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+          <ul className='mx-auto max-w-5xl space-y-5'>
             {content.rules.map((item) => (
-              <div
-                className='rounded-xl border-2 border-content/10 bg-base-200/60 p-6 text-left backdrop-blur'
+              <li
+                className='h3 flex gap-2 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'
                 key={item.title}
               >
-                <BsStars
+                <MdOutlineLabelImportant
                   style={{ fill: 'url(#blue-gradient)' }}
-                  className='h2'
-                />
-                <h4 className='mt-5 font-normal'>{item}</h4>
-              </div>
+                  className='h2 shrink-0 text-primary'
+                />{' '}
+                {item}
+              </li>
             ))}
-          </div>
+          </ul>
+        </div>
+      </section>
+      {/* Register Section */}
+      <section id='register'>
+        <div className='layout py-20 text-center'>
+          <h2 className='h1'>How to take part?</h2>
+          <hr className='styled-hr mx-auto my-6' />
+          <ul className='mx-auto max-w-5xl space-y-5'>
+            {content.takepart.map((item) => (
+              <li
+                className='h3 flex gap-2 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'
+                key={item.title}
+              >
+                <HiOutlineArrowRight
+                  style={{ fill: 'url(#blue-gradient)' }}
+                  className='h2 shrink-0'
+                />{' '}
+                <span>
+                  {item.title}{' '}
+                  {item.link && (
+                    <ArrowLink
+                      href={item.link.href}
+                      className='inline-flex items-center text-primary'
+                    >
+                      {item.link.title}
+                    </ArrowLink>
+                  )}
+                </span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
     </Layout>
@@ -257,3 +282,16 @@ const PerticularhackathonPage = ({ content }) => {
 };
 
 export default PerticularhackathonPage;
+
+const Layout = ({ content, children }) => {
+  return (
+    <>
+      <Navbar links={content.header} cta={content.CTA} />
+      <main className='main'>
+        {children}
+        <FAQ faq={content.faq} />
+      </main>
+      <Footer />
+    </>
+  );
+};
