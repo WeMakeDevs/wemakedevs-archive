@@ -113,32 +113,29 @@ const NapptiveHackathon = {
   ],
   takepart: [
     {
-      title: 'Sign up on the',
+      title: 'Sign up to the ',
       link: {
         title: 'Napptive platform',
         href: 'https://napptive.com',
       },
     },
     {
-      title: 'Join the Slack channel of',
+      title: 'Join the ',
       link: {
-        title: 'Napptive slack',
+        title: 'Napptive slack channel',
         href: 'https://join.napptive.com/slack',
       },
     },
     {
-      title: 'Checkout the resource to get started',
+      title: 'Checkout the ',
       link: {
-        title: 'Napptive docs',
+        title: 'Napptive documentation',
         href: 'https://docs.napptive.com/',
       },
     },
     {
-      title: 'Submit your project at ',
-      link: {
-        title: 'goggle form',
-        href: '',
-      },
+      title: ' Submit your project during the hacking period.',
+      link: null,
     },
   ],
   from: 'Fri, 14 Apr 2023 02:30:00 GMT',

@@ -66,17 +66,9 @@ const PerticularhackathonPage = ({ content }) => {
               .join('')}
           </div>
 
-          <div className='mt-10 flex gap-4'>
-            <ButtonLink href='https://docs.napptive.com'>
-              Napptive docs
-            </ButtonLink>
-            <ButtonLink href='https://napptive.com/?utm_source=Kunal&utm_medium=social&utm_campaign=hackathon&utm_id=wemakedevs'>
-              Register
-            </ButtonLink>
-            <ButtonLink href='https://join.napptive.com/slack'>
-              Join slack
-            </ButtonLink>
-          </div>
+          <ButtonLink className='mt-10 flex gap-4' href='#register'>
+            Register
+          </ButtonLink>
         </div>
       </section>
       {/* Theme section */}
@@ -257,7 +249,7 @@ const PerticularhackathonPage = ({ content }) => {
       {/* Register Section */}
       <section id='register'>
         <div className='layout py-20 text-center'>
-          <h2 className='h1'>Register</h2>
+          <h2 className='h1'>How to take part?</h2>
           <hr className='styled-hr mx-auto my-6' />
           <ul className='mx-auto max-w-5xl space-y-5'>
             {content.takepart.map((item) => (
@@ -271,17 +263,13 @@ const PerticularhackathonPage = ({ content }) => {
                 />{' '}
                 <span>
                   {item.title}{' '}
-                  {item.link.href !== '' ? (
+                  {item.link && (
                     <ArrowLink
                       href={item.link.href}
                       className='inline-flex items-center text-primary'
                     >
                       {item.link.title}
                     </ArrowLink>
-                  ) : (
-                    <span className='inline-flex items-center text-primary'>
-                      soon
-                    </span>
                   )}
                 </span>
               </li>
