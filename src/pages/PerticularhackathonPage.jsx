@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import { BsTrophy } from 'react-icons/bs';
 import { HiOutlineArrowRight } from 'react-icons/hi';
@@ -5,6 +6,7 @@ import { MdOutlineLabelImportant } from 'react-icons/md';
 import { VscDebugBreakpointLogUnverified } from 'react-icons/vsc';
 
 import SpeakerCard from '@/components/Cards/SpeakerCard';
+import TimeLineCard from '@/components/Cards/TimeLineCard';
 import { ColumnSection, FAQ, Footer, Navbar } from '@/components/layout';
 import { ArrowLink, ButtonLink, UnstyledLink } from '@/components/links';
 import ListItem from '@/components/Listitem';
@@ -95,151 +97,33 @@ const PerticularhackathonPage = ({ content }) => {
           limits and learn along the way is all you need to begin!
         </ListItem>
       </ColumnSection>
-      <section id='tracks'>
+      {/* timeline section */}
+      <section id='timeline'>
         <div className='layout py-20'>
           <h2 className='h1 text-center'>Timeline</h2>
-
-          <ol className='mt-9 items-center sm:flex'>
-            <li className='relative mb-6 sm:mb-0'>
-              <div className='flex items-center'>
-                <div className='z-10 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 ring-0 ring-white dark:bg-blue-900 dark:ring-gray-900 sm:ring-8'>
-                  <svg
-                    aria-hidden='true'
-                    className='h-3 w-3 text-blue-800 dark:text-blue-300'
-                    fill='currentColor'
-                    viewBox='0 0 20 20'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <path
-                      fillRule='evenodd'
-                      d='M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z'
-                      clipRule='evenodd'
-                    ></path>
-                  </svg>
-                </div>
-                <div className='hidden h-0.5 w-full bg-gray-200 dark:bg-gray-700 sm:flex'></div>
-              </div>
-              <div className='mt-3 sm:pr-8'>
-                <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
-                  Start
-                </h3>
-                <time className='mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
-                  14th April 8am IST
-                </time>
-              </div>
-            </li>
-            <li className='relative mb-6 sm:mb-0'>
-              <div className='flex items-center'>
-                <div className='z-10 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 ring-0 ring-white dark:bg-blue-900 dark:ring-gray-900 sm:ring-8'>
-                  <svg
-                    aria-hidden='true'
-                    className='h-3 w-3 text-blue-800 dark:text-blue-300'
-                    fill='currentColor'
-                    viewBox='0 0 20 20'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <path
-                      fillRule='evenodd'
-                      d='M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z'
-                      clipRule='evenodd'
-                    ></path>
-                  </svg>
-                </div>
-                <div className='hidden h-0.5 w-full bg-gray-200 dark:bg-gray-700 sm:flex'></div>
-              </div>
-              <div className='mt-3 sm:pr-8'>
-                <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
-                  End of Day 1
-                </h3>
-                <time className='mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
-                  15th April 12 am IST
-                </time>
-              </div>
-            </li>
-            <li className='relative mb-6 sm:mb-0'>
-              <div className='flex items-center'>
-                <div className='z-10 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 ring-0 ring-white dark:bg-blue-900 dark:ring-gray-900 sm:ring-8'>
-                  <svg
-                    aria-hidden='true'
-                    className='h-3 w-3 text-blue-800 dark:text-blue-300'
-                    fill='currentColor'
-                    viewBox='0 0 20 20'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <path
-                      fillRule='evenodd'
-                      d='M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z'
-                      clipRule='evenodd'
-                    ></path>
-                  </svg>
-                </div>
-                <div className='hidden h-0.5 w-full bg-gray-200 dark:bg-gray-700 sm:flex'></div>
-              </div>
-              <div className='mt-3 sm:pr-8'>
-                <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
-                  End of Day 2
-                </h3>
-                <time className='mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
-                  16th April 12am IST
-                </time>
-              </div>
-            </li>
-            <li className='relative mb-6 sm:mb-0'>
-              <div className='flex items-center'>
-                <div className='z-10 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 ring-0 ring-white dark:bg-blue-900 dark:ring-gray-900 sm:ring-8'>
-                  <svg
-                    aria-hidden='true'
-                    className='h-3 w-3 text-blue-800 dark:text-blue-300'
-                    fill='currentColor'
-                    viewBox='0 0 20 20'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <path
-                      fillRule='evenodd'
-                      d='M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z'
-                      clipRule='evenodd'
-                    ></path>
-                  </svg>
-                </div>
-                <div className='hidden h-0.5 w-full bg-gray-200 dark:bg-gray-700 sm:flex'></div>
-              </div>
-              <div className='mt-3 sm:pr-8'>
-                <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
-                  Submissions start
-                </h3>
-                <time className='mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
-                  16th April 11am IST
-                </time>
-              </div>
-            </li>
-            <li className='relative mb-6 sm:mb-0'>
-              <div className='flex items-center'>
-                <div className='z-10 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 ring-0 ring-white dark:bg-blue-900 dark:ring-gray-900 sm:ring-8'>
-                  <svg
-                    aria-hidden='true'
-                    className='h-3 w-3 text-blue-800 dark:text-blue-300'
-                    fill='currentColor'
-                    viewBox='0 0 20 20'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <path
-                      fillRule='evenodd'
-                      d='M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z'
-                      clipRule='evenodd'
-                    ></path>
-                  </svg>
-                </div>
-                <div className='hidden h-0.5 w-full bg-gray-200 dark:bg-gray-700 sm:flex'></div>
-              </div>
-              <div className='mt-3 sm:pr-8'>
-                <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
-                  Submission Deadline
-                </h3>
-                <time className='mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
-                  16th April 8PM IST
-                </time>
-              </div>
-            </li>
+          <hr className='styled-hr mx-auto my-6' />
+          <ol className='mt-9 flex flex-col flex-wrap justify-center gap-y-6 md:flex-row'>
+            <TimeLineCard title='Start' date='Fri, 14 Apr 2023 02:30:00 GMT' />
+            <TimeLineCard
+              title='End of Day 1'
+              date='Sat, 15 Apr 2023 18:30:00 GMT'
+            />
+            <TimeLineCard
+              title='End of Day 2'
+              date='Tue, 15 Apr 20223 18:30:00 GMT'
+            />
+            <TimeLineCard
+              title='Submissions start'
+              date='Wed, 16 Apr 20223 05:30:00 GMT'
+            />
+            <TimeLineCard
+              title='Submission Deadline'
+              date='Wed, 16 Apr 20223 14:30:00 GMT'
+            />
+            <TimeLineCard
+              title='Winner announcement'
+              date='Mon, 17 Apr 2023 11:30:00 GMT'
+            />
           </ol>
         </div>
       </section>
@@ -270,7 +154,7 @@ const PerticularhackathonPage = ({ content }) => {
                         guide
                       </UnstyledLink>
                     </>
-                  )}
+                  )}{' '}
                   {item.description}
                 </p>
                 {item.guide === '' && (
@@ -283,7 +167,7 @@ const PerticularhackathonPage = ({ content }) => {
                         <AiOutlineArrowRight className='shrink-0' />{' '}
                         <span>
                           Write a blog on your learnings on Hashnode following
-                          these
+                          these{' '}
                           <UnstyledLink
                             href='https://wemakedevs.org/events/hashnode'
                             className='text-primary-disable underline underline-offset-2'
@@ -396,8 +280,9 @@ const PerticularhackathonPage = ({ content }) => {
           </ul>
         </div>
       </section>
+      <Register />
       {/* Register Section */}
-      <section id='register'>
+      <section id='resources'>
         <div className='layout py-20 text-center'>
           <h2 className='h1'>Resources</h2>
           <hr className='styled-hr mx-auto my-6' />
@@ -443,5 +328,37 @@ const Layout = ({ content, children }) => {
       </main>
       <Footer />
     </>
+  );
+};
+
+const Register = () => {
+  const [iframeHeight, setIframeHeight] = useState(790);
+
+  useEffect(() => {
+    const windowWidth = window.innerWidth;
+
+    if (windowWidth < 900) {
+      setIframeHeight(890);
+    } else if (windowWidth < 1250) {
+      setIframeHeight(700);
+    } else {
+      setIframeHeight(790);
+    }
+  }, []);
+
+  return (
+    <section id='register'>
+      <div className='mx-auto flex flex-col items-center justify-center gap-4 py-20 text-center'>
+        <h2 className='h1'>Regsiter for the hackthon</h2>
+        <hr className='styled-hr' />
+        <iframe
+          src='https://wemakedevs-newsletter.vercel.app/napptive.html'
+          width='100%'
+          style={{ border: '0' }}
+          height={iframeHeight}
+          title='Subscribe to our newsletter by entering your details below'
+        ></iframe>
+      </div>
+    </section>
   );
 };
