@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import { BsTrophy } from 'react-icons/bs';
 import { HiOutlineArrowRight } from 'react-icons/hi';
@@ -5,6 +6,7 @@ import { MdOutlineLabelImportant } from 'react-icons/md';
 import { VscDebugBreakpointLogUnverified } from 'react-icons/vsc';
 
 import SpeakerCard from '@/components/Cards/SpeakerCard';
+import TimeLineCard from '@/components/Cards/TimeLineCard';
 import { ColumnSection, FAQ, Footer, Navbar } from '@/components/layout';
 import { ArrowLink, ButtonLink, UnstyledLink } from '@/components/links';
 import ListItem from '@/components/Listitem';
@@ -23,8 +25,8 @@ const PerticularhackathonPage = ({ content }) => {
         <div className='layout flex flex-col items-center justify-center gap-4 py-32'>
           <h1 className='heading highlight'>{content.title}</h1>
           <h2>{content.description}</h2>
-          <div className='h2 mt-10 font-bold'>
-            Start:{' '}
+          <div className='h2 mt-10 font-normal'>
+            <span className='font-bold'>Start: </span>
             {new Date(content.from).toLocaleDateString('en-US', {
               dateStyle: 'medium',
             })}{' '}
@@ -37,8 +39,8 @@ const PerticularhackathonPage = ({ content }) => {
               .map((i) => i[0].toUpperCase())
               .join('')}
           </div>
-          <div className='h2 font-bold'>
-            End:{' '}
+          <div className='h2 font-normal'>
+            <span className='font-bold'>End: </span>{' '}
             {new Date(content.to).toLocaleDateString('en-US', {
               dateStyle: 'medium',
             })}{' '}
@@ -95,6 +97,36 @@ const PerticularhackathonPage = ({ content }) => {
           limits and learn along the way is all you need to begin!
         </ListItem>
       </ColumnSection>
+      {/* timeline section */}
+      <section id='timeline'>
+        <div className='layout py-20'>
+          <h2 className='h1 text-center'>Timeline</h2>
+          <hr className='styled-hr mx-auto my-6' />
+          <ol className='mt-9 flex flex-col flex-wrap justify-center gap-y-6 md:flex-row'>
+            <TimeLineCard title='Start' date='Fri, 14 Apr 2023 02:30:00 GMT' />
+            <TimeLineCard
+              title='End of Day 1'
+              date='Sat, 15 Apr 2023 18:30:00 GMT'
+            />
+            <TimeLineCard
+              title='End of Day 2'
+              date='Tue, 15 Apr 20223 18:30:00 GMT'
+            />
+            <TimeLineCard
+              title='Submissions start'
+              date='Wed, 16 Apr 20223 05:30:00 GMT'
+            />
+            <TimeLineCard
+              title='Submission Deadline'
+              date='Wed, 16 Apr 20223 14:30:00 GMT'
+            />
+            <TimeLineCard
+              title='Winner announcement'
+              date='Mon, 17 Apr 2023 11:30:00 GMT'
+            />
+          </ol>
+        </div>
+      </section>
       {/* Prizes section */}
       <section id='tracks'>
         <div className='layout py-20 text-center'>
@@ -122,12 +154,12 @@ const PerticularhackathonPage = ({ content }) => {
                         guide
                       </UnstyledLink>
                     </>
-                  )}
+                  )}{' '}
                   {item.description}
                 </p>
                 {item.guide === '' && (
                   <>
-                    <p className='mt-6 mb-3 text-primary-disable'>
+                    <p className='h2 mt-6 mb-3 text-primary-disable'>
                       Steps to take part:
                     </p>
                     <ul className='flex flex-col gap-2'>
@@ -135,7 +167,7 @@ const PerticularhackathonPage = ({ content }) => {
                         <AiOutlineArrowRight className='shrink-0' />{' '}
                         <span>
                           Write a blog on your learnings on Hashnode following
-                          these
+                          these{' '}
                           <UnstyledLink
                             href='https://wemakedevs.org/events/hashnode'
                             className='text-primary-disable underline underline-offset-2'
@@ -161,7 +193,9 @@ const PerticularhackathonPage = ({ content }) => {
                     </ul>
                   </>
                 )}
-                <p className='mt-6 mb-3 text-primary-disable'>Prizes</p>
+                <p className='h2 mt-6 mb-3 text-primary-disable'>
+                  Prizes worth <span className='font-bold'>$1200</span>
+                </p>
                 <ul className='flex flex-col gap-2'>
                   {item.gift.map((gift) => (
                     <li className='flex items-center gap-2' key={gift}>
@@ -246,10 +280,11 @@ const PerticularhackathonPage = ({ content }) => {
           </ul>
         </div>
       </section>
+      <Register />
       {/* Register Section */}
-      <section id='register'>
+      <section id='resources'>
         <div className='layout py-20 text-center'>
-          <h2 className='h1'>How to take part?</h2>
+          <h2 className='h1'>Resources</h2>
           <hr className='styled-hr mx-auto my-6' />
           <ul className='mx-auto max-w-5xl space-y-5'>
             {content.takepart.map((item) => (
@@ -293,5 +328,37 @@ const Layout = ({ content, children }) => {
       </main>
       <Footer />
     </>
+  );
+};
+
+const Register = () => {
+  const [iframeHeight, setIframeHeight] = useState(790);
+
+  useEffect(() => {
+    const windowWidth = window.innerWidth;
+
+    if (windowWidth < 900) {
+      setIframeHeight(890);
+    } else if (windowWidth < 1250) {
+      setIframeHeight(700);
+    } else {
+      setIframeHeight(790);
+    }
+  }, []);
+
+  return (
+    <section id='register'>
+      <div className='mx-auto flex flex-col items-center justify-center gap-4 py-20 text-center'>
+        <h2 className='h1'>Regsiter for the hackthon</h2>
+        <hr className='styled-hr' />
+        <iframe
+          src='https://wemakedevs-newsletter.vercel.app/napptive.html'
+          width='100%'
+          style={{ border: '0' }}
+          height={iframeHeight}
+          title='Subscribe to our newsletter by entering your details below'
+        ></iframe>
+      </div>
+    </section>
   );
 };

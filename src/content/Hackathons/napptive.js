@@ -116,7 +116,7 @@ const NapptiveHackathon = {
       title: 'Sign up to the ',
       link: {
         title: 'Napptive platform',
-        href: 'https://napptive.com',
+        href: 'https://hackathon.napptive.dev/login?campaign_source=hackathon',
       },
     },
     {
