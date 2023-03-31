@@ -30,8 +30,9 @@ export default function ScrollToTop() {
       onClick={toTop}
       aria-label='Click here to scroll to top'
       className={clsxm(
-        'h1 fixed right-4 bottom-10 z-50 rounded-full bg-base-100 text-primary transition-all duration-300',
-        goToTop ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
+        'h1 fixed right-4 bottom-14 z-50 rounded-full bg-base-100 text-primary transition-all duration-300',
+        goToTop ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0',
+        'scroll-to-top-mobile'
       )}
     >
       <IoIosArrowDropupCircle />
