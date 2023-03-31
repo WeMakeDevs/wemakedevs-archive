@@ -23,8 +23,8 @@ const PerticularhackathonPage = ({ content }) => {
         <div className='layout flex flex-col items-center justify-center gap-4 py-32'>
           <h1 className='heading highlight'>{content.title}</h1>
           <h2>{content.description}</h2>
-          <div className='h2 mt-10 font-bold'>
-            Start:{' '}
+          <div className='h2 mt-10 font-normal'>
+            <span className='font-bold'>Start: </span>
             {new Date(content.from).toLocaleDateString('en-US', {
               dateStyle: 'medium',
             })}{' '}
@@ -37,8 +37,8 @@ const PerticularhackathonPage = ({ content }) => {
               .map((i) => i[0].toUpperCase())
               .join('')}
           </div>
-          <div className='h2 font-bold'>
-            End:{' '}
+          <div className='h2 font-normal'>
+            <span className='font-bold'>End: </span>{' '}
             {new Date(content.to).toLocaleDateString('en-US', {
               dateStyle: 'medium',
             })}{' '}
@@ -95,6 +95,154 @@ const PerticularhackathonPage = ({ content }) => {
           limits and learn along the way is all you need to begin!
         </ListItem>
       </ColumnSection>
+      <section id='tracks'>
+        <div className='layout py-20'>
+          <h2 className='h1 text-center'>Timeline</h2>
+
+          <ol className='mt-9 items-center sm:flex'>
+            <li className='relative mb-6 sm:mb-0'>
+              <div className='flex items-center'>
+                <div className='z-10 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 ring-0 ring-white dark:bg-blue-900 dark:ring-gray-900 sm:ring-8'>
+                  <svg
+                    aria-hidden='true'
+                    className='h-3 w-3 text-blue-800 dark:text-blue-300'
+                    fill='currentColor'
+                    viewBox='0 0 20 20'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      fillRule='evenodd'
+                      d='M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z'
+                      clipRule='evenodd'
+                    ></path>
+                  </svg>
+                </div>
+                <div className='hidden h-0.5 w-full bg-gray-200 dark:bg-gray-700 sm:flex'></div>
+              </div>
+              <div className='mt-3 sm:pr-8'>
+                <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
+                  Start
+                </h3>
+                <time className='mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
+                  14th April 8am IST
+                </time>
+              </div>
+            </li>
+            <li className='relative mb-6 sm:mb-0'>
+              <div className='flex items-center'>
+                <div className='z-10 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 ring-0 ring-white dark:bg-blue-900 dark:ring-gray-900 sm:ring-8'>
+                  <svg
+                    aria-hidden='true'
+                    className='h-3 w-3 text-blue-800 dark:text-blue-300'
+                    fill='currentColor'
+                    viewBox='0 0 20 20'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      fillRule='evenodd'
+                      d='M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z'
+                      clipRule='evenodd'
+                    ></path>
+                  </svg>
+                </div>
+                <div className='hidden h-0.5 w-full bg-gray-200 dark:bg-gray-700 sm:flex'></div>
+              </div>
+              <div className='mt-3 sm:pr-8'>
+                <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
+                  End of Day 1
+                </h3>
+                <time className='mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
+                  15th April 12 am IST
+                </time>
+              </div>
+            </li>
+            <li className='relative mb-6 sm:mb-0'>
+              <div className='flex items-center'>
+                <div className='z-10 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 ring-0 ring-white dark:bg-blue-900 dark:ring-gray-900 sm:ring-8'>
+                  <svg
+                    aria-hidden='true'
+                    className='h-3 w-3 text-blue-800 dark:text-blue-300'
+                    fill='currentColor'
+                    viewBox='0 0 20 20'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      fillRule='evenodd'
+                      d='M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z'
+                      clipRule='evenodd'
+                    ></path>
+                  </svg>
+                </div>
+                <div className='hidden h-0.5 w-full bg-gray-200 dark:bg-gray-700 sm:flex'></div>
+              </div>
+              <div className='mt-3 sm:pr-8'>
+                <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
+                  End of Day 2
+                </h3>
+                <time className='mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
+                  16th April 12am IST
+                </time>
+              </div>
+            </li>
+            <li className='relative mb-6 sm:mb-0'>
+              <div className='flex items-center'>
+                <div className='z-10 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 ring-0 ring-white dark:bg-blue-900 dark:ring-gray-900 sm:ring-8'>
+                  <svg
+                    aria-hidden='true'
+                    className='h-3 w-3 text-blue-800 dark:text-blue-300'
+                    fill='currentColor'
+                    viewBox='0 0 20 20'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      fillRule='evenodd'
+                      d='M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z'
+                      clipRule='evenodd'
+                    ></path>
+                  </svg>
+                </div>
+                <div className='hidden h-0.5 w-full bg-gray-200 dark:bg-gray-700 sm:flex'></div>
+              </div>
+              <div className='mt-3 sm:pr-8'>
+                <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
+                  Submissions start
+                </h3>
+                <time className='mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
+                  16th April 11am IST
+                </time>
+              </div>
+            </li>
+            <li className='relative mb-6 sm:mb-0'>
+              <div className='flex items-center'>
+                <div className='z-10 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 ring-0 ring-white dark:bg-blue-900 dark:ring-gray-900 sm:ring-8'>
+                  <svg
+                    aria-hidden='true'
+                    className='h-3 w-3 text-blue-800 dark:text-blue-300'
+                    fill='currentColor'
+                    viewBox='0 0 20 20'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      fillRule='evenodd'
+                      d='M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z'
+                      clipRule='evenodd'
+                    ></path>
+                  </svg>
+                </div>
+                <div className='hidden h-0.5 w-full bg-gray-200 dark:bg-gray-700 sm:flex'></div>
+              </div>
+              <div className='mt-3 sm:pr-8'>
+                <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
+                  Submission Deadline
+                </h3>
+                <time className='mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500'>
+                  16th April 8PM IST
+                </time>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
       {/* Prizes section */}
       <section id='tracks'>
         <div className='layout py-20 text-center'>
@@ -127,7 +275,7 @@ const PerticularhackathonPage = ({ content }) => {
                 </p>
                 {item.guide === '' && (
                   <>
-                    <p className='mt-6 mb-3 text-primary-disable'>
+                    <p className='h2 mt-6 mb-3 text-primary-disable'>
                       Steps to take part:
                     </p>
                     <ul className='flex flex-col gap-2'>
@@ -161,7 +309,9 @@ const PerticularhackathonPage = ({ content }) => {
                     </ul>
                   </>
                 )}
-                <p className='mt-6 mb-3 text-primary-disable'>Prizes</p>
+                <p className='h2 mt-6 mb-3 text-primary-disable'>
+                  Prizes worth <span className='font-bold'>$1200</span>
+                </p>
                 <ul className='flex flex-col gap-2'>
                   {item.gift.map((gift) => (
                     <li className='flex items-center gap-2' key={gift}>
@@ -249,7 +399,7 @@ const PerticularhackathonPage = ({ content }) => {
       {/* Register Section */}
       <section id='register'>
         <div className='layout py-20 text-center'>
-          <h2 className='h1'>How to take part?</h2>
+          <h2 className='h1'>Resources</h2>
           <hr className='styled-hr mx-auto my-6' />
           <ul className='mx-auto max-w-5xl space-y-5'>
             {content.takepart.map((item) => (
