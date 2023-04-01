@@ -134,8 +134,11 @@ const NapptiveHackathon = {
       },
     },
     {
-      title: ' Submit your project during the hacking period.',
-      link: null,
+      title: ' Submit your project during the hacking period using',
+      link: {
+        title: 'Submission form',
+        href: 'https://forms.gle/3hi2Z2Gm3T7CHoxV9',
+      },
     },
   ],
   from: 'Fri, 14 Apr 2023 02:30:00 GMT',
