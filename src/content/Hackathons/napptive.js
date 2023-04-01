@@ -66,7 +66,7 @@ const NapptiveHackathon = {
     {
       title: 'Migrate an open source application to the Open Application Model',
       guide:
-        'https://docs.napptive.com/tutorials/deploying_a_custom_application.html',
+        'https://docs.napptive.com/getting_started/deploy_first_app_from_catalog.html',
       description:
         ', choose the open source app of your choice (e.g MySQL) and using the OAM standard, make it deployable on the Napptive Platform.',
 
