@@ -110,15 +110,15 @@ const PerticularhackathonPage = ({ content }) => {
             />
             <TimeLineCard
               title='End of Day 2'
-              date='Tue, 15 Apr 20223 18:30:00 GMT'
+              date='Tue, 15 Apr 2023 18:30:00 GMT'
             />
             <TimeLineCard
               title='Submissions start'
-              date='Wed, 16 Apr 20223 05:30:00 GMT'
+              date='Wed, 16 Apr 2023 05:30:00 GMT'
             />
             <TimeLineCard
               title='Submission Deadline'
-              date='Wed, 16 Apr 20223 14:30:00 GMT'
+              date='Wed, 16 Apr 2023 14:30:00 GMT'
             />
             <TimeLineCard
               title='Winner announcement'
