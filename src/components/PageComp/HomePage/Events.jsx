@@ -24,7 +24,7 @@ const Events = () => {
             name: 'Webinars',
           },
           {
-            href: 'https://devpost.com/hackathons?search=wemakedevs',
+            href: 'https://wemakedevs.org/events/hackathons/napptive',
             name: 'Hackathons',
           },
         ]}
