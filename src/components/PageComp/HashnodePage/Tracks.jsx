@@ -8,7 +8,7 @@ import TrackCard from '@/components/Cards/TrackCard';
 
 const Tracks = () => {
   return (
-    <section id='sec-track'>
+    <section id='sec-tracks'>
       <div className='layout py-20'>
         <h1 className='h1'> Current Tracks </h1>
         <hr className='styled-hr my-6' />
