@@ -349,7 +349,7 @@ const Register = () => {
   return (
     <section id='register'>
       <div className='mx-auto flex flex-col items-center justify-center gap-4 py-20 text-center'>
-        <h2 className='h1'>Regsiter for the hackthon</h2>
+        <h2 className='h1'>Regsiter for the hackathon</h2>
         <hr className='styled-hr' />
         <iframe
           src='https://wemakedevs-newsletter.vercel.app/napptive.html'
