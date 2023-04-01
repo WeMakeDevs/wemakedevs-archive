@@ -1,28 +1,34 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: commclassroom-deploy
-  namespace: default
+  name: wmd-deployment
+  labels:
+    app: wmd
 spec:
-  ## Set to 5 for start of lab
-  replicas: 5
+  replicas: 1
   selector:
     matchLabels:
-      env: commclassroom
-  progressDeadlineSeconds: 300
-  minReadySeconds: 10
-  strategy:
-    type: RollingUpdate
-    rollingUpdate:
-      maxUnavailable: 1
-      maxSurge: 1
+      app: wmd
   template:
     metadata:
       labels:
-        env: commclassroom
+        app: wmd
     spec:
       containers:
-      - name: commclassroom-ctr
-        image: kaiwalyakoparkar/commclassroom:1.0
+      - name: wmd-ctr
+        image: kaiwalyakoparkar/wemakedevs:1.0
         ports:
         - containerPort: 3000
+---
+# Commenting stuff because I have added loadbalancer service
+apiVersion: v1
+kind: Service
+metadata:
+  name: wmd-service
+spec:
+  selector:
+    app: wmd
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000

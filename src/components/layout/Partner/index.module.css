@@ -1,0 +1,3 @@
+.copy::after {
+  @apply after:transform-['scale(0.95) translate(-50%,calc(50%+5px))'] bottom-0 left-1/2 after:pointer-events-none after:absolute after:origin-center after:rounded after:bg-content after:px-2 after:text-xs after:text-base-100 after:opacity-0 after:transition-all after:duration-300 after:content-['Copied'];
+}

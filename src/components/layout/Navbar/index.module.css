@@ -1,0 +1,127 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  color: var(--clr-content);
+  height: 4rem /* 64px */;
+  background-color: rgb(var(--base-100), 1);
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 1000ms;
+}
+
+.header svg {
+  aspect-ratio: 331/54;
+  height: 2rem;
+}
+
+@supports (backdrop-filter: blur(10px)) {
+  .header {
+    background-color: rgb(var(--base-100), 0.7);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.headerContainer {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  font-size: 1.125rem /* 18px */;
+  line-height: 1.75rem /* 28px */;
+}
+
+.menuBtn {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+  height: 3rem /* 48px */;
+  border: rgb(var(--content), 50) 1px solid;
+  border-radius: 9999px;
+  color: var(--clr-content);
+}
+
+.menuBtn:hover {
+  border: rgb(var(--content), 100) 1px solid;
+}
+
+.menuBtn:focus {
+  outline: none;
+}
+
+.menuBtn:focus-visible {
+  border: rgb(var(--content), 100) 1px solid;
+}
+
+.menuBtn > svg {
+  width: 1.5rem;
+  aspect-ratio: 1/1;
+}
+
+@media (min-width: 1000px) {
+  .header svg {
+    height: 2.5rem;
+  }
+  .header {
+    height: 5rem;
+  }
+  .headerContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menuBtn {
+    display: none;
+  }
+  .cta {
+    padding-block: 0.4rem;
+  }
+  body .NavBackDrop {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    display: none;
+  }
+  .navMobile {
+    position: absolute;
+    top: 0;
+    margin-top: 5rem;
+    display: flex;
+    width: max-content;
+    transform: translateY(-100%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(var(--content), 0.2);
+    background-color: rgb(var(--base-100), 0.8);
+    padding-block: 2rem;
+    padding-inline: 3rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+    color: var(--clr-content);
+    box-shadow: 0 0.25rem 0.5rem rgb(var(--base-100), 0.9);
+    transition: transform ease-out 100ms 100ms;
+  }
+  .navMobile.open {
+    transform: translateY(0%);
+  }
+}
