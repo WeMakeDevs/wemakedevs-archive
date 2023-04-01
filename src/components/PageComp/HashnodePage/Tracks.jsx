@@ -27,27 +27,27 @@ export default Tracks;
 const hashnodeData = [
   {
     description:
-      'Write a blog on the topic DSA and stand a chance to win the prize.',
+      'Write a blog on the topic Cloud and stand a chance to win the prize.',
     image: Track1,
   },
   {
     description:
-      'Write a blog on the topic Development, share some projects, tips and stand a chance to win prize.',
+      'Write a blog on the topic Community, share some of your best expereinces, tips and stand a chance to win prize.',
     image: Track2,
   },
   {
     description:
-      'Write a blog on the topic Dev-tools and stand a chance to win the prize.',
+      'Write a blog on the topic Artifical Intelligence and stand a chance to win the prize.',
     image: Track3,
   },
   {
     description:
-      'Write a blog on the topic Linux, share some good tips and your experience and definitely stand a chance to win the grand prize.',
+      'Write a blog on the topic Security, share some good tips and your experience and definitely stand a chance to win the grand prize.',
     image: Track4,
   },
   {
     description:
-      'Write a blog sharing about how you recovered from burnout, or what are some methods you use to deal with it and you can win a JBL Wireless Speaker!',
+      'Write a blog sharing about your entire journey though tech, how you get started, what struggles did you overcome, and you can win some amazing techincal books this month!',
     image: Special,
   },
 ];
