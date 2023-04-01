@@ -68,7 +68,7 @@ const PerticularhackathonPage = ({ content }) => {
               .join('')}
           </div>
 
-          <ButtonLink className='mt-10 flex gap-4' href='#register'>
+          <ButtonLink as={ArrowLink} className='mt-10' href='#register'>
             Register
           </ButtonLink>
         </div>
@@ -131,6 +131,10 @@ const PerticularhackathonPage = ({ content }) => {
       <section id='tracks'>
         <div className='layout py-20 text-center'>
           <h2 className='h1'>Hackathon tracks</h2>
+          <p className='h4 mt-2 font-normal'>
+            Choose the track that best suits your skills and interests and won
+            prizes worth of $1200
+          </p>
           <hr className='styled-hr mx-auto my-6' />
           <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
             {content.prizes.map((item) => (
@@ -159,7 +163,7 @@ const PerticularhackathonPage = ({ content }) => {
                 </p>
                 {item.guide === '' && (
                   <>
-                    <p className='h2 mt-6 mb-3 text-primary-disable'>
+                    <p className='mt-6 mb-3 text-primary-disable'>
                       Steps to take part:
                     </p>
                     <ul className='flex flex-col gap-2'>
@@ -193,9 +197,7 @@ const PerticularhackathonPage = ({ content }) => {
                     </ul>
                   </>
                 )}
-                <p className='h2 mt-6 mb-3 text-primary-disable'>
-                  Prizes worth <span className='font-bold'>$1200</span>
-                </p>
+                <p className='mt-6 mb-3 text-primary-disable'>Prizes worth</p>
                 <ul className='flex flex-col gap-2'>
                   {item.gift.map((gift) => (
                     <li className='flex items-center gap-2' key={gift}>
