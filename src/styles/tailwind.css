@@ -135,8 +135,3 @@
 .main section:first-child {
   background: transparent;
 }
-@media (max-width: 394px) {
-  .scroll-to-top-mobile {
-    bottom: 12px;
-  }
-}
