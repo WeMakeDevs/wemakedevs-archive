@@ -132,7 +132,7 @@ const PerticularhackathonPage = ({ content }) => {
         <div className='layout py-20 text-center'>
           <h2 className='h1'>Hackathon tracks</h2>
           <p className='h4 mt-2 font-normal'>
-            Choose the track that best suits your skills and interests and won
+            Choose the track that best suits your skills and interests and win
             prizes worth of $1200
           </p>
           <hr className='styled-hr mx-auto my-6' />
@@ -150,7 +150,7 @@ const PerticularhackathonPage = ({ content }) => {
                 <p className='mt-4 whitespace-pre-line'>
                   {item.guide !== '' && (
                     <>
-                      Unsing the{' '}
+                      Using the{' '}
                       <UnstyledLink
                         href={item.guide}
                         className='text-primary-disable underline underline-offset-2'
