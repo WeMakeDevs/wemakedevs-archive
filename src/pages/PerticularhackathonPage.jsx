@@ -186,11 +186,6 @@ const PerticularhackathonPage = ({ content }) => {
                       </li>
                       <li className='flex items-center gap-2'>
                         <AiOutlineArrowRight className='shrink-0' />
-                        Make sure to add #WeMakeDevs when publishing it on
-                        Hashnode.
-                      </li>
-                      <li className='flex items-center gap-2'>
-                        <AiOutlineArrowRight className='shrink-0' />
                         Share your blog on Twitter and tag @WeMakeDevs @hashnode
                         @napptivecompany
                       </li>
