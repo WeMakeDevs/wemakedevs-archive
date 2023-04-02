@@ -80,7 +80,7 @@ const data = [
   },
   {
     title: 'telegram',
-    href: 'https://t.me/WeMakeDevs',
+    href: 'https://telegram.me/WeMakeDevs',
     description: 'Stay up-to-date with news and announcements',
     icon: <FaTelegram color='white' size='100' />,
   },

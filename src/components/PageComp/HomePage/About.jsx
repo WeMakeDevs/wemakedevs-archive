@@ -20,7 +20,7 @@ const About = () => {
           },
           {
             name: 'Telegram',
-            href: 'https://t.me/WeMakeDevs',
+            href: 'https://telegram.me/WeMakeDevs',
           },
           {
             name: 'Newsletter',

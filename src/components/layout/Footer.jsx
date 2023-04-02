@@ -152,7 +152,7 @@ const contactLinks = [
   },
   {
     name: 'Telegram',
-    link: 'https://t.me/WeMakeDevs',
+    link: 'https://telegram.me/WeMakeDevs',
   },
 ];
 
@@ -195,7 +195,7 @@ const links = [
   },
   {
     name: 'telegram',
-    link: 'https://t.me/WeMakeDevs',
+    link: 'https://telegram.me/WeMakeDevs',
     icon: <FaTelegramPlane />,
     ariaLabel: 'Visit WeMakeDevs on Telegram',
   },
