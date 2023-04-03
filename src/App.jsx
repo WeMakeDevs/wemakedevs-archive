@@ -8,6 +8,7 @@ import { DevopsPageContent } from '@/content/devops';
 import { DsaPageContent } from '@/content/dsa';
 import { GitGithubPageContent } from '@/content/gitGithub';
 import NapptiveHackathon from '@/content/Hackathons/napptive';
+import Delhi2023 from '@/content/Meetup/delhi-2023';
 import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 
 import { Loader } from '@/components/layout';
@@ -24,6 +25,7 @@ const IndividualWebinarPage = lazy(() => import('@/pages/IndividualWebinar'));
 const PerticularhackathonPage = lazy(() =>
   import('@/pages/PerticularhackathonPage')
 );
+const MeetupPage = lazy(() => import('@/pages/MeetupPage'));
 
 const App = () => {
   return (
@@ -66,6 +68,11 @@ const App = () => {
             exact
             path='/events/hackathons/napptive'
             element={<PerticularhackathonPage content={NapptiveHackathon} />}
+          />
+          <Route
+            exact
+            path='/events/meetup/delhi-2023'
+            element={<MeetupPage content={Delhi2023} />}
           />
 
           <Route path='*' element={<ErrorPage />} />
