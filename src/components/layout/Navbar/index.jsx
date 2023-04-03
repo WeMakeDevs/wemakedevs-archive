@@ -31,13 +31,6 @@ const Navbar = ({ links, cta }) => {
             <Logo />
           </UnstyledLink>
 
-          <NavigationLinks
-            style={styles.nav}
-            open={open}
-            setOpen={setOpen}
-            links={links}
-            cta={cta}
-          />
           <button className={styles.menuBtn} onClick={() => setOpen((p) => !p)}>
             <span className='sr-only'>Menu</span>
             <svg
@@ -55,6 +48,14 @@ const Navbar = ({ links, cta }) => {
               />
             </svg>
           </button>
+
+          <NavigationLinks
+            style={styles.nav}
+            open={open}
+            setOpen={setOpen}
+            links={links}
+            cta={cta}
+          />
         </div>
       </header>
 
