@@ -4,11 +4,10 @@ import { getDateTime } from '@/lib/utils';
 
 import AgendaCard from '@/components/Cards/AgendaCard';
 import SpeakerCard from '@/components/Cards/SpeakerCard';
+import SponserCard from '@/components/Cards/SponserCard';
 import { FAQ, Footer, Navbar } from '@/components/layout';
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
-
-import Finout from '@/assets/partner/finout.jpg';
 
 const MeetupPage = ({ content }) => {
   return (
@@ -40,16 +39,8 @@ const MeetupPage = ({ content }) => {
           <h2 className='h1 text-center'>Agenda</h2>
           <hr className='styled-hr mx-auto my-6' />
           <ol className='mx-auto mt-9 grid grid-cols-1 justify-center lg:grid-cols-[repeat(2,_minmax(0,32rem))]'>
-            {Array.from({ length: 5 }, (_, index) => (
-              <AgendaCard
-                key={index}
-                title='Start'
-                start='Fri, 14 Apr 2023 02:30:00 GMT'
-                end='Fri, 14 Apr 2023 02:30:00 GMT'
-                id={index}
-                description='Kunal Kushwaha Introduction talk'
-                speaker={`Kunal Kushwaha ${index}`}
-              />
+            {content.agendas.map((agenda, i) => (
+              <AgendaCard key={`${agenda.title}${i}`} {...agenda} id={i} />
             ))}
           </ol>
         </div>
@@ -59,14 +50,9 @@ const MeetupPage = ({ content }) => {
           <h2 className='h1'>Speakers</h2>
           <hr className='styled-hr my-6' />
           <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
-            <SpeakerCard
-              {...{
-                name: 'Kunal Kushwaha',
-                description: 'DevRel Manger @Civo',
-                twitter: 'kunalstwt',
-                img: 'https://github.com/kunal-kushwaha.png',
-              }}
-            />
+            {content.speakers.map((speaker) => (
+              <SpeakerCard key={speaker.name} {...speaker} />
+            ))}
           </div>
         </div>
       </section>
@@ -74,48 +60,22 @@ const MeetupPage = ({ content }) => {
         <div className='layout py-16 text-center'>
           <h2 className='h1 '>Sponsers</h2>
           <hr className='styled-hr my-6 mx-auto' />
-          <div className='flex flex-wrap items-center justify-center gap-6'>
-            {Array.from({ length: 10 }, () => ({
-              name: 'Finout',
-              src: Finout,
-            })).map((coll) => (
-              <div
-                key={coll.id}
-                className='w-full max-w-[12rem] shrink-0 rounded-lg border-2  border-base-200 bg-content/20 p-3'
-              >
-                <img
-                  className='relative mx-auto aspect-video w-full max-w-[7rem] object-contain'
-                  src={coll.src}
-                  alt={coll.name}
-                />
-                <p className='h3 mt-2'>{coll.name}</p>
-              </div>
+          <ol className='flex flex-wrap items-center justify-center gap-6'>
+            {content.sponsers.map((sponser) => (
+              <SponserCard key={sponser.name} {...sponser} />
             ))}
-          </div>
+          </ol>
         </div>
       </section>
       <section id='com-sponser'>
         <div className='layout py-16 text-center'>
           <h2 className='h1 '>Comunity sponsers</h2>
           <hr className='styled-hr my-6 mx-auto' />
-          <div className='flex flex-wrap items-center justify-center gap-6'>
-            {Array.from({ length: 10 }, () => ({
-              name: 'Finout',
-              src: Finout,
-            })).map((coll) => (
-              <div
-                key={coll.id}
-                className='w-full max-w-[12rem] shrink-0 rounded-lg border-2  border-base-200 bg-content/20 p-3'
-              >
-                <img
-                  className='relative mx-auto aspect-video w-full max-w-[7rem] object-contain'
-                  src={coll.src}
-                  alt={coll.name}
-                />
-                <p className='h3 mt-2'>{coll.name}</p>
-              </div>
+          <ol className='flex flex-wrap items-center justify-center gap-6'>
+            {content.comuSponsers.map((sponser) => (
+              <SponserCard key={sponser.name} {...sponser} />
             ))}
-          </div>
+          </ol>
         </div>
       </section>
       <section id='past-meetup'>
@@ -177,7 +137,7 @@ const Register = () => {
   return (
     <section id='register'>
       <div className='mx-auto flex flex-col items-center justify-center gap-4 py-20 text-center'>
-        <h2 className='h1'>Register for the hackathon</h2>
+        <h2 className='h1'>Register for the meetup</h2>
         <hr className='styled-hr' />
         <iframe
           src='https://wemakedevs-newsletter.vercel.app'
