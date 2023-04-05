@@ -143,7 +143,7 @@ const NapptiveHackathon = {
     },
   ],
   from: 'Fri, 14 Apr 2023 02:30:00 GMT',
-  to: 'Sun, 16 Apr 2023 02:30:00 GMT',
+  to: 'Sun, 16 Apr 2023 14:30:00 GMT',
   winnerAnnouc: 'Mon, 17 Apr 2023 11:30:00 GMT',
 };
 export default NapptiveHackathon;
