@@ -25,6 +25,13 @@ const PerticularhackathonPage = ({ content }) => {
         <div className='layout flex flex-col items-center justify-center gap-4 py-32'>
           <h1 className='heading highlight'>{content.title}</h1>
           <h2>{content.description}</h2>
+          <iframe
+            src={content.videoUrl}
+            title='YouTube video player'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            allowFullScreen
+            className='mt-8 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 object-cover shadow-[0_1rem_3rem] shadow-primary/80'
+          ></iframe>
           <div className='h2 mt-10 font-normal'>
             <span className='font-bold'>Start: </span>
             {new Date(content.from).toLocaleDateString('en-US', {
