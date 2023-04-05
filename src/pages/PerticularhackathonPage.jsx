@@ -287,7 +287,7 @@ const PerticularhackathonPage = ({ content }) => {
           </ul>
         </div>
       </section>
-      <Register />
+      <Register name={content.slug} />
       {/* Register Section */}
       <section id='resources'>
         <div className='layout py-20 text-center'>
@@ -338,7 +338,7 @@ const Layout = ({ content, children }) => {
   );
 };
 
-const Register = () => {
+const Register = ({ name }) => {
   const [iframeHeight, setIframeHeight] = useState(790);
 
   useEffect(() => {
@@ -359,7 +359,7 @@ const Register = () => {
         <h2 className='h1'>Register for the hackathon</h2>
         <hr className='styled-hr' />
         <iframe
-          src='https://wemakedevs-newsletter.vercel.app/napptive.html'
+          src={`https://wemakedevs-newsletter.vercel.app/${name}.html`}
           width='100%'
           style={{ border: '0' }}
           height={iframeHeight}

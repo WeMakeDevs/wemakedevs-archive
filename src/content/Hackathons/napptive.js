@@ -5,6 +5,7 @@ const NapptiveHackathon = {
   header: HackthonPageContent.header,
   faq: HackthonPageContent.faq,
   CTA: HackthonPageContent.CTA,
+  slug: 'napptive',
   title: 'Build cloud-native apps',
   description: 'Powered by Napptive',
   hero: HeroImg,

@@ -6,6 +6,7 @@ const Delhi2023 = {
   header: MeetupPageContent.header,
   faq: MeetupPageContent.faq,
   CTA: MeetupPageContent.CTA,
+  slug: 'delhi-2023',
   title: 'WeMakeDevs Delhi Meetup',
   description: [
     {

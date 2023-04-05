@@ -66,12 +66,12 @@ const App = () => {
           ))}
           <Route
             exact
-            path='/events/hackathons/napptive'
+            path={`/events/hackathons/${NapptiveHackathon.slug}`}
             element={<PerticularhackathonPage content={NapptiveHackathon} />}
           />
           <Route
             exact
-            path='/events/meetup/delhi-2023'
+            path={`/events/meetup/${Delhi2023.slug}`}
             element={<MeetupPage content={Delhi2023} />}
           />
 
