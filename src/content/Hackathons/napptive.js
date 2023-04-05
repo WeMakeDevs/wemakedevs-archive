@@ -123,7 +123,7 @@ const NapptiveHackathon = {
     {
       title: 'Join the ',
       link: {
-        title: 'Napptive slack channel',
+        title: 'Napptive Slack channel',
         href: 'https://slack.napptive.com/',
       },
     },
