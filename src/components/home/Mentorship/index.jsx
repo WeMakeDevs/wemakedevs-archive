@@ -19,14 +19,15 @@ const Mentorship = ({ background = 'static' }) => {
     >
       <ListItem>
         <span className='highlight higlight-white'>
-          A complete solution to address all of your mentoring requirements.
+          A complete solution to address all of your
+          mentoring requirements.
         </span>
         , including educational materials, communities to join, opportunities,
         and much more.
       </ListItem>
       <ListItem>
         <span className='highlight higlight-white'>
-          Roadmaps that will guide you towards a successful career,
+          Roadmaps to guide you towards a successful career,
         </span>
         , including those for open-source, full-stack, devrel, and more.
       </ListItem>
