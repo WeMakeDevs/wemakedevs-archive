@@ -11,7 +11,7 @@ const Delhi2023 = {
       text: 'WeMakeDevs always love the quality and at WeMakeDevs we try to bring the quality content for free.',
     },
     {
-      text: 'We are coming up with the first conference level meetup with more than 450+ attendees and quality speakers.',
+      text: 'We are coming up with a meetup with more than 450+ attendees and quality speakers.',
       type: 'higlight',
     },
     {
