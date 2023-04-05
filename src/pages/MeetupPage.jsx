@@ -58,23 +58,31 @@ const MeetupPage = ({ content }) => {
       </section>
       <section id='sponser'>
         <div className='layout py-16 text-center'>
-          <h2 className='h1 '>Sponsers</h2>
+          <h2 className='h1 '>Sponsors</h2>
           <hr className='styled-hr my-6 mx-auto' />
           <ol className='flex flex-wrap items-center justify-center gap-6'>
-            {content.sponsers.map((sponser) => (
-              <SponserCard key={sponser.name} {...sponser} />
-            ))}
+            {content.sponsors.length > 0 ? (
+              content.sponsors.map((sponser) => (
+                <SponserCard key={sponser.name} {...sponser} />
+              ))
+            ) : (
+              <h3 className='h4'>Sponsor is going to be announced soon...</h3>
+            )}
           </ol>
         </div>
       </section>
       <section id='com-sponser'>
         <div className='layout py-16 text-center'>
-          <h2 className='h1 '>Comunity sponsers</h2>
+          <h2 className='h1 '>Comunity sponsors</h2>
           <hr className='styled-hr my-6 mx-auto' />
           <ol className='flex flex-wrap items-center justify-center gap-6'>
-            {content.comuSponsers.map((sponser) => (
-              <SponserCard key={sponser.name} {...sponser} />
-            ))}
+            {content.comuSponsors.length > 0 ? (
+              content.comuSponsors.map((sponser) => (
+                <SponserCard key={sponser.name} {...sponser} />
+              ))
+            ) : (
+              <h3 className='h4'>Sponsor is going to be announced soon...</h3>
+            )}
           </ol>
         </div>
       </section>

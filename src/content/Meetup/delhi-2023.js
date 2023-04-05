@@ -1,7 +1,5 @@
 import MeetupPageContent from '@/content/Meetup';
 
-import Finout from '@/assets/partner/finout.jpg';
-
 const Delhi2023 = {
   header: MeetupPageContent.header,
   faq: MeetupPageContent.faq,
@@ -21,6 +19,8 @@ const Delhi2023 = {
     },
   ],
   agendas: [
+    // Formate for agenda
+    // Time should be in GMT
     {
       title: 'Start',
       start: 'Fri, 14 Apr 2023 02:30:00 GMT',
@@ -57,86 +57,20 @@ const Delhi2023 = {
       twitter: 'kunalstwt',
       img: 'https://github.com/kunal-kushwaha.png',
     },
-    {
-      name: 'Kunal Kushwaha',
-      description: 'DevRel Manger @Civo',
-      twitter: 'kunalstwt',
-      img: 'https://github.com/kunal-kushwaha.png',
-    },
-    {
-      name: 'Kunal Kushwaha',
-      description: 'DevRel Manger @Civo',
-      twitter: 'kunalstwt',
-      img: 'https://github.com/kunal-kushwaha.png',
-    },
   ],
-  sponsers: [
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
+  sponsors: [
+    // Formate for sponser
+    // {
+    //   name: 'Finout',
+    //   src: Finout,
+    // },
   ],
-  comuSponsers: [
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
-    {
-      name: 'Finout',
-      src: Finout,
-    },
+  comuSponsors: [
+    // Formate for Community sponser
+    // {
+    //   name: 'Finout',
+    //   src: Finout,
+    // },
   ],
   on: 'Sun, 07 May 2023 05:00:00 GMT',
 };
