@@ -66,14 +66,14 @@ const MeetupPage = ({ content }) => {
                 <SponserCard key={sponser.name} {...sponser} />
               ))
             ) : (
-              <h3 className='h4'>Sponsor is going to be announced soon...</h3>
+              <h3 className='h4'>Sponsors are going to be announced soon...</h3>
             )}
           </ol>
         </div>
       </section>
       <section id='com-sponser'>
         <div className='layout py-16 text-center'>
-          <h2 className='h1 '>Comunity sponsors</h2>
+          <h2 className='h1 '>Community partners</h2>
           <hr className='styled-hr my-6 mx-auto' />
           <ol className='flex flex-wrap items-center justify-center gap-6'>
             {content.comuSponsors.length > 0 ? (
@@ -81,7 +81,7 @@ const MeetupPage = ({ content }) => {
                 <SponserCard key={sponser.name} {...sponser} />
               ))
             ) : (
-              <h3 className='h4'>Sponsor is going to be announced soon...</h3>
+              <h3 className='h4'>Sponsors are going to be announced soon...</h3>
             )}
           </ol>
         </div>
