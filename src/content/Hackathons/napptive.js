@@ -8,6 +8,7 @@ const NapptiveHackathon = {
   title: 'Build cloud-native apps',
   description: 'Powered by Napptive',
   hero: HeroImg,
+  videoUrl: 'https://www.youtube.com/embed/DwEXh-wq1TI',
   rules: [
     'The theme is open-ended, but using Napptive is mandatory. Submissions made without using Napptive will NOT be considered.',
     'You can submit to as many prize categories as you want.',
@@ -122,7 +123,7 @@ const NapptiveHackathon = {
     {
       title: 'Join the ',
       link: {
-        title: 'Napptive slack channel',
+        title: 'Napptive Slack channel',
         href: 'https://slack.napptive.com/',
       },
     },
