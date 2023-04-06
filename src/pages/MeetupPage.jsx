@@ -81,7 +81,7 @@ const MeetupPage = ({ content }) => {
               ))
             ) : (
               <h3 className='h4'>
-                Community partners is going to be announced soon...
+                Community partners are going to be announced soon...
               </h3>
             )}
           </ol>
