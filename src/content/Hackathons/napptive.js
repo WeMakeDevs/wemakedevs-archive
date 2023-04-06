@@ -5,9 +5,11 @@ const NapptiveHackathon = {
   header: HackthonPageContent.header,
   faq: HackthonPageContent.faq,
   CTA: HackthonPageContent.CTA,
+  slug: 'napptive',
   title: 'Build cloud-native apps',
   description: 'Powered by Napptive',
   hero: HeroImg,
+  videoUrl: 'https://www.youtube.com/embed/DwEXh-wq1TI',
   rules: [
     'The theme is open-ended, but using Napptive is mandatory. Submissions made without using Napptive will NOT be considered.',
     'You can submit to as many prize categories as you want.',
@@ -66,7 +68,7 @@ const NapptiveHackathon = {
     {
       title: 'Migrate an open source application to the Open Application Model',
       guide:
-        'https://docs.napptive.com/getting_started/deploy_first_app_from_catalog.html',
+        'https://docs.napptive.com/guides/deploying_a_custom_application.html',
       description:
         ', choose the open source app of your choice (e.g MySQL) and using the OAM standard, make it deployable on the Napptive Platform.',
 
@@ -79,7 +81,7 @@ const NapptiveHackathon = {
     },
     {
       title: 'Create application extensions',
-      guide: 'https://docs.napptive.com/oam_definitions/trait_types.html',
+      guide: 'https://docs.napptive.com/guides/Custom_definitions.html',
       description:
         'and get super creative customizing applications making them more extensible',
 
@@ -122,7 +124,7 @@ const NapptiveHackathon = {
     {
       title: 'Join the ',
       link: {
-        title: 'Napptive slack channel',
+        title: 'Napptive Slack channel',
         href: 'https://slack.napptive.com/',
       },
     },
@@ -142,7 +144,7 @@ const NapptiveHackathon = {
     },
   ],
   from: 'Fri, 14 Apr 2023 02:30:00 GMT',
-  to: 'Sun, 16 Apr 2023 02:30:00 GMT',
+  to: 'Sun, 16 Apr 2023 14:30:00 GMT',
   winnerAnnouc: 'Mon, 17 Apr 2023 11:30:00 GMT',
 };
 export default NapptiveHackathon;

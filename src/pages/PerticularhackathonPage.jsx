@@ -25,6 +25,13 @@ const PerticularhackathonPage = ({ content }) => {
         <div className='layout flex flex-col items-center justify-center gap-4 py-32'>
           <h1 className='heading highlight'>{content.title}</h1>
           <h2>{content.description}</h2>
+          <iframe
+            src={content.videoUrl}
+            title='YouTube video player'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            allowFullScreen
+            className='mt-8 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 object-cover shadow-[0_1rem_3rem] shadow-primary/80'
+          ></iframe>
           <div className='h2 mt-10 font-normal'>
             <span className='font-bold'>Start: </span>
             {new Date(content.from).toLocaleDateString('en-US', {
@@ -130,10 +137,13 @@ const PerticularhackathonPage = ({ content }) => {
       {/* Prizes section */}
       <section id='tracks'>
         <div className='layout py-20 text-center'>
-          <h2 className='h1'>Hackathon tracks</h2>
+          <h2 className='h1 mb-4'>Hackathon tracks</h2>
           <p className='h4 mt-2 font-normal'>
             Choose the track that best suits your skills and interests and win
             prizes worth of $1200
+          </p>
+          <p className='h4 mt-2 font-normal text-gray-400'>
+            Potential internship offer to participants who perform well!
           </p>
           <hr className='styled-hr mx-auto my-6' />
           <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
@@ -277,7 +287,7 @@ const PerticularhackathonPage = ({ content }) => {
           </ul>
         </div>
       </section>
-      <Register />
+      <Register name={content.slug} />
       {/* Register Section */}
       <section id='resources'>
         <div className='layout py-20 text-center'>
@@ -328,7 +338,7 @@ const Layout = ({ content, children }) => {
   );
 };
 
-const Register = () => {
+const Register = ({ name }) => {
   const [iframeHeight, setIframeHeight] = useState(790);
 
   useEffect(() => {
@@ -349,7 +359,7 @@ const Register = () => {
         <h2 className='h1'>Register for the hackathon</h2>
         <hr className='styled-hr' />
         <iframe
-          src='https://wemakedevs-newsletter.vercel.app/napptive.html'
+          src={`https://wemakedevs-newsletter.vercel.app/${name}.html`}
           width='100%'
           style={{ border: '0' }}
           height={iframeHeight}
