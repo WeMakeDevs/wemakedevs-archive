@@ -37,7 +37,9 @@ const MeetupPage = ({ content }) => {
         <div className='layout py-20'>
           <h2 className='h1 text-center'>Agenda</h2>
           <hr className='styled-hr mx-auto my-6' />
-          <ol className='mx-auto mt-9 grid grid-cols-1 justify-center lg:grid-cols-[repeat(2,_minmax(0,32rem))]'>
+          <ol className='mx-auto mt-9 grid grid-cols-1'>
+            {/* When we add agenda then uncomment the below code and remove above line */}
+            {/* <ol className='mx-auto mt-9 grid grid-cols-1 justify-center lg:grid-cols-[repeat(2,_minmax(0,32rem))]'> */}
             <h3 className='h4 text-center'>
               Agenda is going to be announced soon...
             </h3>
