@@ -19,14 +19,6 @@ const Events = () => {
             href: '/events',
             name: 'Ongoing events',
           },
-          {
-            href: '/webinars',
-            name: 'Webinars',
-          },
-          {
-            href: 'https://wemakedevs.org/events/hackathons/napptive',
-            name: 'Hackathons',
-          },
         ]}
         direction='right'
       >
