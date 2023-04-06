@@ -1,39 +1,39 @@
 export const MeetupPageFAQ = [
   {
     id: 'FAQ1',
-    question: 'What is a hackathon?',
+    question: 'What is a tech Meetup?',
     answer:
-      'A hackathon is a collaborative coding competition where programmers, designers, and developers compete for monetary bonuses for creating innovative solutions. It is a mix of a celebration and an all-night struggle against the clock and the opposition.',
+      'A tech meetup is an informal gathering of people who are interested in technology and related fields, such as software development, DevOps, AI/ML etc. These meetups typically include presentations, talks, workshops, and networking events where participants can learn from each other, share their knowledge and experiences, and discuss the latest trends and developments in the field. Tech meetups are usually organized by volunteers, enthusiasts, or local tech communities, and they provide a great opportunity to connect with like-minded people and stay up-to-date with the latest advancements in technology.',
   },
   {
     id: 'FAQ2',
-    question: 'Why would someone participate in a hackathon?',
+    question: 'Why would someone attend any tech meetup?',
     answer:
-      'People take part in hackathons for a variety of reasons, including the challenge, the opportunity for creative expression, the chance to collaboration, networking opportunities, swag, and much more.',
+      'People attend tech meetups to learn new skills, network with professionals in the field, stay connected to the community, socialize with like-minded people, and gain inspiration from new technologies and ideas.',
   },
   {
     id: 'FAQ3',
-    question: 'Is the event open to all ages?',
+    question:
+      'I am not from Delhi, Should I get any studnet scholarship if I get selected ?',
     answer:
-      'You can participate in this hackathon as long as you are of legal age in your respective country, or have permission for a parent or guardian in case you are a minor.',
+      'Sorry for this time, you have to cover your travel expense on your own.',
   },
   {
     id: 'FAQ4',
-    question: 'What is the mode of this hackathon?',
+    question: 'What is the mode of this event?',
     answer:
-      'This is a virtual hackathon, so you can create hacks from the comfort of your home, or anywhere in the world.',
+      'You can fill out the registration form for this offline meetup and will be provided the venue address if you are selected.',
   },
   {
     id: 'FAQ5',
-    question: 'Do we sign up as individuals or as a team?',
+    question: 'Is this for both students and professionals?',
     answer:
-      'You can either participate as a individual or with a team of 1-4 folks i.e the maximum strength of the team should not exceed 4',
+      ' Both professionals and students are welcome at this meetup because the talks range in difficulty from beginner to advanced. So, you can complete the registration form regardless of whether you are a student or professional.',
   },
   {
     id: 'FAQ6',
     question: 'Is it a paid event?',
-    answer:
-      'This is a completely free-to-join event i.e anyone above the legal age can participate in the event for free.',
+    answer: 'This is a completely free-to-join and invite-only event .',
   },
 ];
 
