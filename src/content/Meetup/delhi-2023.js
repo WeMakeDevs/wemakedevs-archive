@@ -15,7 +15,7 @@ const Delhi2023 = {
       type: 'higlight',
     },
     {
-      text: 'We will try our level best to continue doing this across cities and would need potential speakers to bring this into reality.',
+      text: 'We will try our level best to continue doing this across cities..',
     },
   ],
   agendas: [

@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 
 import { getDateTime } from '@/lib/utils';
 
-import AgendaCard from '@/components/Cards/AgendaCard';
 import SpeakerCard from '@/components/Cards/SpeakerCard';
 import SponserCard from '@/components/Cards/SponserCard';
 import { FAQ, Footer, Navbar } from '@/components/layout';
@@ -39,9 +38,9 @@ const MeetupPage = ({ content }) => {
           <h2 className='h1 text-center'>Agenda</h2>
           <hr className='styled-hr mx-auto my-6' />
           <ol className='mx-auto mt-9 grid grid-cols-1 justify-center lg:grid-cols-[repeat(2,_minmax(0,32rem))]'>
-            {content.agendas.map((agenda, i) => (
-              <AgendaCard key={`${agenda.title}${i}`} {...agenda} id={i} />
-            ))}
+            <h3 className='h4 text-center'>
+              Agenda is going to be announced soon...
+            </h3>
           </ol>
         </div>
       </section>
@@ -81,7 +80,9 @@ const MeetupPage = ({ content }) => {
                 <SponserCard key={sponser.name} {...sponser} />
               ))
             ) : (
-              <h3 className='h4'>Sponsors are going to be announced soon...</h3>
+              <h3 className='h4'>
+                Community partners is going to be announced soon...
+              </h3>
             )}
           </ol>
         </div>
