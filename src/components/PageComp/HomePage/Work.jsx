@@ -57,10 +57,11 @@ const Work = () => {
     <>
       <section className='mb-10 py-10'>
         <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
-          <div className='mx-auto max-w-2xl text-center'>
-            <h2 className='h1 font-bold text-gray-800 dark:text-gray-300'>
+          <div className='mx-auto max-w-2xl'>
+            <h2 className='h1 text-center font-bold text-gray-800 dark:text-gray-300'>
               Our students work at
             </h2>
+            <hr className='styled-hr mx-auto my-6' />
           </div>
 
           <div className='mx-auto mt-12 flex max-w-4xl flex-wrap items-center justify-center'>
