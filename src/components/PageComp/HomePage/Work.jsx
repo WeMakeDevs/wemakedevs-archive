@@ -12,75 +12,83 @@ import Virtusa from '@/assets/home/company/virtusa.svg';
 const companies = [
   {
     id: 1,
+    name: 'Google',
     img_url: Google,
   },
   {
     id: 2,
+    name: 'Microsoft',
     img_url: Microsoft,
   },
   {
     id: 3,
+    name: 'Amazon',
     img_url: Amazon,
   },
   {
     id: 4,
+    name: 'Adobe',
     img_url: Adobe,
   },
   {
     id: 5,
+    name: 'Razorpay',
     img_url: Razorpay,
   },
   {
     id: 6,
+    name: 'Samsung',
     img_url: Samsung,
   },
   {
     id: 7,
+    name: 'Cisco',
     img_url: Cisco,
   },
   {
     id: 8,
+    name: 'Virtusa',
     img_url: Virtusa,
   },
   {
     id: 9,
+    name: 'Clicklabs',
     img_url: Clicklabs,
   },
   {
     id: 10,
+    name: 'towerResearch',
     img_url: towerResearch,
   },
 ];
 
 const Work = () => {
   return (
-    <>
-      <section className='mb-10 py-10'>
-        <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
-          <div className='mx-auto max-w-2xl'>
-            <h2 className='h1 text-center font-bold text-gray-800 dark:text-gray-300'>
-              Our students work at
-            </h2>
-            <hr className='styled-hr mx-auto my-6' />
-          </div>
-
-          <div className='mx-auto mt-12 flex max-w-4xl flex-wrap items-center justify-center'>
-            {companies.map((company) => (
-              <div
-                key={company.id}
-                className='m-4 h-20 w-48 rounded-md dark:bg-gray-900'
-              >
-                <img
-                  className='mx-auto h-full w-full object-contain'
-                  src={company.img_url}
-                  alt=''
-                />
-              </div>
-            ))}
-          </div>
+    <section className='py-10'>
+      <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
+        <div className='mx-auto max-w-2xl'>
+          <h2 className='h1 text-center font-bold text-gray-800 dark:text-gray-300'>
+            Our students work at
+          </h2>
+          <hr className='styled-hr mx-auto my-6' />
         </div>
-      </section>
-    </>
+
+        <div className='mx-auto mt-12 flex max-w-4xl flex-wrap items-center justify-center'>
+          {companies.map((company) => (
+            <div
+              key={company.id}
+              className='m-4 h-20 w-48 rounded-md dark:bg-gray-900'
+            >
+              <img
+                className='mx-auto h-full w-full object-contain'
+                src={company.img_url}
+                alt=''
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 
