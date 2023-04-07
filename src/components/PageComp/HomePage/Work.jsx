@@ -82,7 +82,7 @@ const Work = () => {
               <img
                 className='mx-auto h-full w-full object-contain'
                 src={company.img_url}
-                alt=''
+                alt={company.name}
               />
             </div>
           ))}
