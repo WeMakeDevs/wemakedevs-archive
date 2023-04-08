@@ -230,7 +230,7 @@ const PerticularhackathonPage = ({ content }) => {
               }}
             />
             {content.judges.map((speaker) => (
-              <SpeakerCard {...speaker} key={speaker.image} />
+              <SpeakerCard {...speaker} key={speaker.id} />
             ))}
           </div>
         </div>
@@ -275,7 +275,7 @@ const PerticularhackathonPage = ({ content }) => {
             {content.rules.map((item) => (
               <li
                 className='h3 flex gap-2 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'
-                key={item.title}
+                key={item}
               >
                 <MdOutlineLabelImportant
                   style={{ fill: 'url(#blue-gradient)' }}
@@ -297,7 +297,7 @@ const PerticularhackathonPage = ({ content }) => {
             {content.takepart.map((item) => (
               <li
                 className='h3 flex gap-2 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'
-                key={item.title}
+                key={item.id}
               >
                 <HiOutlineArrowRight
                   style={{ fill: 'url(#blue-gradient)' }}

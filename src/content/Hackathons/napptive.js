@@ -22,43 +22,56 @@ const NapptiveHackathon = {
     "Please treat our sponsors, organizers, and judges with the utmost respect. Without them, nothing would be possible. Consider taking some time out of your work to go meet and speak with them. If they come over to talk to you, we ask that you give them a bit of your time. They're here for you. Show them you appreciate it!",
   ],
   criteria: [
-    { name: 'Use of Napptive', description: 'Does the project use Napptive?' },
     {
+      id: 1,
+      name: 'Use of Napptive',
+      description: 'Does the project use Napptive?',
+    },
+    {
+      id: 2,
       name: 'Originality',
       description: 'How original and creative is the idea of the project',
     },
     {
+      id: 3,
       name: 'Implementation of the idea',
       description:
         'How well has the project been implemented in the given time frame.',
     },
     {
+      id: 4,
       name: 'Potential impact',
       description: 'What future impact can the project have?',
     },
     {
+      id: 5,
       name: 'Efficient use of resources',
       description: 'How well did you use the provided resources',
     },
     {
+      id: 6,
       name: 'Learning',
       description:
         'How much did the overall team learn while building the project',
     },
     {
+      id: 7,
       name: 'Reusability',
       description:
         'Can the project be re-used for a different use case in the future?',
     },
     {
+      id: 8,
       name: 'Documentation',
       description: 'How well has the project been documented.',
     },
     {
+      id: 9,
       name: 'Content quality',
       description: 'How is the quality of the content created',
     },
     {
+      id: 10,
       name: 'Use-case impact',
       description:
         'What impact does the project have for a particular use case.',
@@ -66,6 +79,7 @@ const NapptiveHackathon = {
   ],
   prizes: [
     {
+      id: 1,
       title: 'Migrate an open source application to the Open Application Model',
       guide:
         'https://docs.napptive.com/guides/deploying_a_custom_application.html',
@@ -80,6 +94,7 @@ const NapptiveHackathon = {
       ],
     },
     {
+      id: 2,
       title: 'Create application extensions',
       guide: 'https://docs.napptive.com/guides/Custom_definitions.html',
       description:
@@ -93,6 +108,7 @@ const NapptiveHackathon = {
       ],
     },
     {
+      id: 3,
       title: 'Best use-case blog post',
       guide: '',
       description:
@@ -107,6 +123,7 @@ const NapptiveHackathon = {
   ],
   judges: [
     {
+      id: 1,
       name: 'Steve Galache',
       description: 'VP of Revenue at Napptive',
       linkedin: 'steve-galache-50232253',
@@ -115,6 +132,7 @@ const NapptiveHackathon = {
   ],
   takepart: [
     {
+      id: 1,
       title: 'Sign up to the ',
       link: {
         title: 'Napptive platform',
@@ -122,6 +140,7 @@ const NapptiveHackathon = {
       },
     },
     {
+      id: 2,
       title: 'Join the ',
       link: {
         title: 'Napptive Slack channel',
@@ -129,6 +148,7 @@ const NapptiveHackathon = {
       },
     },
     {
+      id: 3,
       title: 'Checkout the ',
       link: {
         title: 'Napptive documentation',
@@ -136,6 +156,7 @@ const NapptiveHackathon = {
       },
     },
     {
+      id: 4,
       title: ' Submit your project during the hacking period using',
       link: {
         title: 'Submission form',
