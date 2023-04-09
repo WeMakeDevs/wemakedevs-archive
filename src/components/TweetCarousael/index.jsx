@@ -17,7 +17,7 @@ function InlineWrapperWithMargin({ children }) {
   );
 }
 
-function TweetCarousael({ tweetId, options }) {
+function TweetCarousael({ tweetId }) {
   const [hideTweetPost, setHideTweetPost] = useState(true);
 
   useEffect(() => {
@@ -42,7 +42,7 @@ function TweetCarousael({ tweetId, options }) {
       ) : null}
       {tweetId?.length ? (
         <div
-          className='layout'
+          className='w-full'
           style={{
             opacity: hideTweetPost ? '0' : '1',
           }}
@@ -54,7 +54,6 @@ function TweetCarousael({ tweetId, options }) {
             autoplay={2500}
             dotColorActive='rgb(89,66,233)'
             showDots
-            hideArrow
             loop
           >
             {tweetId.map((id) => (
@@ -66,9 +65,9 @@ function TweetCarousael({ tweetId, options }) {
               >
                 <Tweet
                   tweetId={id}
-                  options={options}
+                  options={{ theme: 'dark', conversation: 'none' }}
                   onLoad={() => setHideTweetPost(false)}
-                  renderError={() => alert('Tweeter info not found!!!')}
+                  renderError={() => setHideTweetPost(false)}
                 />
               </Carousel.Item>
             ))}

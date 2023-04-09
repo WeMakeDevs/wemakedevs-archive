@@ -1,15 +1,14 @@
 import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import '@/styles/resets.css';
-import '@/styles/root.css';
-import '@/styles/typography.css';
-import '@/styles/utils.css';
+import '@/styles/tailwind.css';
 import 'react-loading-skeleton/dist/skeleton.css';
 
 import { DevopsPageContent } from '@/content/devops';
 import { DsaPageContent } from '@/content/dsa';
 import { GitGithubPageContent } from '@/content/gitGithub';
+import NapptiveHackathon from '@/content/Hackathons/napptive';
+import Delhi2023 from '@/content/Meetup/delhi-2023';
 import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 
 import { Loader } from '@/components/layout';
@@ -18,11 +17,15 @@ import ScrollToTop from '@/components/ScrollToTop';
 const ErrorPage = lazy(() => import('@/pages/ErrorPage'));
 const HashnodePage = lazy(() => import('@/pages/Hashnode'));
 const HomePage = lazy(() => import('@/pages/HomePage'));
-const EventsPage = lazy(() => import('@/pages/Events'));
+const EventsPage = lazy(() => import('@/pages/EventsPage'));
 const CoursesPage = lazy(() => import('@/pages/CoursesPage'));
 const SingleCoursePage = lazy(() => import('@/pages/SingleCoursePage'));
 const WebinarPage = lazy(() => import('@/pages/WebinarPage'));
 const IndividualWebinarPage = lazy(() => import('@/pages/IndividualWebinar'));
+const PerticularhackathonPage = lazy(() =>
+  import('@/pages/PerticularhackathonPage')
+);
+const MeetupPage = lazy(() => import('@/pages/MeetupPage'));
 
 const App = () => {
   return (
@@ -61,6 +64,16 @@ const App = () => {
               element={<IndividualWebinarPage content={web.details} />}
             />
           ))}
+          <Route
+            exact
+            path={`/events/hackathons/${NapptiveHackathon.slug}`}
+            element={<PerticularhackathonPage content={NapptiveHackathon} />}
+          />
+          <Route
+            exact
+            path={`/events/meetup/${Delhi2023.slug}`}
+            element={<MeetupPage content={Delhi2023} />}
+          />
 
           <Route path='*' element={<ErrorPage />} />
         </Routes>

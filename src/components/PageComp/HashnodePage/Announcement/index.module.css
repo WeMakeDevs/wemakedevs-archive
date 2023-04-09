@@ -1,0 +1,118 @@
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-block: 6rem;
+}
+
+.layout h2 {
+  text-align: center;
+}
+
+.layout h3 {
+  text-align: left;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.dots {
+  background-image: radial-gradient(
+    rgb(var(--content), 0.5) 3px,
+    #00000000 3px
+  );
+  background-size: 28px 28px;
+  background-repeat: repeat;
+  width: 12rem;
+  aspect-ratio: 1/1;
+  z-index: 0;
+  position: absolute;
+}
+
+.dots.left {
+  left: 0;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.dots.right {
+  right: 0;
+  bottom: 0;
+  transform: translateX(50%);
+}
+
+.progress {
+  width: 100%;
+}
+
+.progress__bar {
+  width: 100%;
+  height: 1rem;
+  background: rgb(var(--content));
+  z-index: 1;
+  border-radius: 999px;
+  margin-top: 2rem;
+  position: relative;
+}
+.progress__bar__inner {
+  border-radius: 999px;
+  display: block;
+  position: absolute;
+  background: rgb(var(--primary));
+  height: 100%;
+  z-index: 10;
+}
+.progress__label {
+  width: max-content;
+  padding: 1rem;
+  background-color: rgb(var(--primary));
+  margin-top: 1.2rem;
+  border-radius: 10px;
+  translate: -50% 0%;
+  text-align: center;
+  position: relative;
+}
+.progress__label::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 1rem solid rgb(var(--primary));
+}
+.progress__label span {
+  display: block;
+  position: relative;
+}
+.progress__label span:nth-child(1):before {
+  content: 'Number of people mentored';
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%, -50%);
+  background-color: var(--clr-base-100);
+  color: var(--clr-content);
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.progress__label span:nth-child(1):hover:before {
+  opacity: 1;
+  visibility: visible;
+}

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="250">
+ <a href="https://wemakedevs.org/" target="_blank"> <img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="250"> </a>
 </p>
 
 <p align="center">We Make Devs - Empowering developers to achieve their potential.</p>
@@ -11,7 +11,6 @@
 <a href="https://github.com/wemakedevs/wemakedevs/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/wemakedevs/wemakedevs"></a>
 </p>
 
-
 # About Us
 
 Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
@@ -22,7 +21,7 @@ We believe that every individual, regardless of their educational background and
 
 WeMakeDevs provides hands-on training courses and mentorship for free, along with a wealth of resources to help you start your journey, including <b>roadmaps, podcasts, blogs, and events.</b>
 
-## What we provide?
+## What do we provide?
 
 <p align="center">
 <img src="SkewdImage/wemakedevs.drawio.png" width="520" height="390" >
@@ -58,7 +57,7 @@ Before making a contribution, check the <a href="https://github.com/WeMakeDevs/w
 
 # Code of Conduct
 
-Check out <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a> to know inclusive environment that respects all contributions.
+Check out the <a href="https://github.com/WeMakeDevs/wemakedevs/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a> to know an inclusive environment that respects all contributions.
 
 # License
 
@@ -70,7 +69,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### 🧾 Prerequisites
 
-Before starting out, you'll need to install the following on your computer.
+Before starting, you need to install the following on your computer.
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/download/)
 

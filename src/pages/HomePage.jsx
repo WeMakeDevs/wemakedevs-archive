@@ -1,3 +1,4 @@
+import Layout, { Banner } from '@/components/layout';
 import {
   About,
   Content,
@@ -5,8 +6,7 @@ import {
   Events,
   Hero,
   Mentorship,
-} from '@/components/home';
-import Layout, { Banner } from '@/components/layout';
+} from '@/components/PageComp/HomePage';
 
 import { HomePageContent } from './content';
 

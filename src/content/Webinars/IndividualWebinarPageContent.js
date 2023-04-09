@@ -20,6 +20,24 @@ export const IndividualWebinarPageHeader = [
     href: '#register',
   },
 ];
+export const IndividualWebinarCompletedPageHeader = [
+  {
+    name: 'About',
+    href: '#about',
+  },
+  {
+    name: 'Take aways',
+    href: '#takeaways',
+  },
+  {
+    name: 'Time & Date',
+    href: '#time',
+  },
+  {
+    name: 'Speakers',
+    href: '#speakers',
+  },
+];
 export const IndividualWebinarPageFAQ = [
   {
     id: 'FAQ1',

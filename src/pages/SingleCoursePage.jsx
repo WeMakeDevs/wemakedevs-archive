@@ -1,5 +1,5 @@
 import Layout, { Testimonials } from '@/components/layout';
-import { About, Syllabus } from '@/components/SingleCoursePage';
+import { About, Syllabus } from '@/components/PageComp/SingleCoursePage';
 
 const CoursesPage = ({ content }) => {
   return (
