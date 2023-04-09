@@ -7,7 +7,7 @@ export const MeetupPageFAQ = [
   },
   {
     id: 'FAQ2',
-    question: 'Why should  I  attend this meetup?',
+    question: 'Why should I attend this meetup?',
     answer:
       'You will learn new skills, network with professionals in the field, stay connected to the community, socialize with like-minded people, and gain inspiration from new technologies and ideas.',
   },
