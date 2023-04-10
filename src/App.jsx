@@ -76,7 +76,7 @@ const App = () => {
           {/* Hackathon */}
           <Route
             exact
-            path={`/hackathons/${NapptiveHackathon.slug}`}
+            path={`/events/hackathons/${NapptiveHackathon.slug}`}
             element={<PerticularhackathonPage content={NapptiveHackathon} />}
           />
 
