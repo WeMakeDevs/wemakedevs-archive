@@ -43,7 +43,7 @@
 
   h1,
   .h1 {
-    @apply font-sans text-4xl font-semibold leading-relaxed text-content md:text-5xl lg:text-6xl;
+    @apply font-sans text-3xl font-semibold leading-relaxed text-content md:text-4xl lg:text-5xl;
   }
 
   h2,
@@ -110,6 +110,9 @@
   }
   .highlight.highlight--yellow {
     @apply text-yellow-400;
+  }
+  .highlight.highlight--gradient {
+    @apply bg-gradient-to-br from-pink-500 to-blue-500 bg-clip-text font-semibold text-transparent;
   }
   .styled-hr {
     @apply h-2 w-32 rounded-full border-none bg-primary;

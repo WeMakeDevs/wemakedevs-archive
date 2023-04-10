@@ -1,6 +1,8 @@
-const { default: HackthonPageContent } = require('@/content/Hackathons');
+import HackthonPageContent from '@/content/Hackathons';
+
 import Steve from '@/assets/hackathon/napptive/Steve.jpeg';
 import HeroImg from '@/assets/hackathon/napptive/theme.png';
+
 const NapptiveHackathon = {
   header: HackthonPageContent.header,
   faq: HackthonPageContent.faq,
@@ -140,6 +142,14 @@ const NapptiveHackathon = {
       link: {
         title: 'Submission form',
         href: 'https://forms.gle/3hi2Z2Gm3T7CHoxV9',
+      },
+    },
+    {
+      title:
+        'Join live stream for folks who wanna ask live questions and check the demo of the platform. ',
+      link: {
+        title: 'Youtube',
+        href: 'https://www.youtube.com/watch?v=sST7JGLq2as',
       },
     },
   ],

@@ -10,14 +10,16 @@ const Upcoming = () => {
         <hr className='styled-hr my-6' />
 
         <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
-          {webinar.some(
+          {webinar.filter(
             (web) => new Date().getTime() < new Date(web.time).getTime()
-          ) ? (
-            webinar.map((web) => {
-              if (new Date().getTime() < new Date(web.time).getTime())
+          ).length > 0 ? (
+            webinar
+              .filter(
+                (web) => new Date().getTime() < new Date(web.time).getTime()
+              )
+              .map((web) => {
                 return <WebinarCard {...web} key={web.image} />;
-              else return null;
-            })
+              })
           ) : (
             <p>There no upcoming events right now</p>
           )}

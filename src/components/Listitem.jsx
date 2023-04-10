@@ -2,8 +2,9 @@ import { AiFillStar } from 'react-icons/ai';
 
 import clsxm from '@/lib/utils';
 
-const ListItem = ({ as, children, className }) => {
+const ListItem = ({ as, children, className, icon, iconClassName }) => {
   const Component = as || 'li';
+  const Icon = icon || AiFillStar;
   return (
     <Component
       style={{
@@ -12,7 +13,10 @@ const ListItem = ({ as, children, className }) => {
       }}
       className={clsxm('tracking-wider', className)}
     >
-      <AiFillStar style={{ flexShrink: 0 }} className='h2 text-primary' />
+      <Icon
+        style={{ flexShrink: 0 }}
+        className={clsxm('h2 text-primary', iconClassName)}
+      />
       <span>{children}</span>
     </Component>
   );

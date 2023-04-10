@@ -1,4 +1,6 @@
-export const MeetupPageFAQ = [
+import Delhi2023 from '@/content/Meetup/delhi-2023';
+
+const MeetupPageFAQ = [
   {
     id: 'FAQ1',
     question: 'How do I join?',
@@ -27,7 +29,7 @@ export const MeetupPageFAQ = [
     id: 'FAQ5',
     question: 'Is it for both students and professionals?',
     answer:
-      ' Both professionals and students are welcome at this meetup because the talks range in difficulty from beginner to advanced. So, you can complete the registration form regardless of whether you are a student or professional.',
+      'Both professionals and students are welcome at this meetup because the talks range in difficulty from beginner to advanced. So, you can complete the registration form regardless of whether you are a student or professional.',
   },
   {
     id: 'FAQ6',
@@ -36,34 +38,38 @@ export const MeetupPageFAQ = [
   },
 ];
 
-const MeetupPageContent = {
+export const MeetupPageContent = {
   header: [
     {
       name: 'About',
       href: '#about',
     },
     {
-      name: 'Agenda',
-      href: '#agenda',
+      name: 'Upcoming',
+      href: '#upcoming',
+    },
+    // {
+    //   name: 'Past',
+    //   href: '#past',
+    // },
+    {
+      name: 'Join',
+      href: '#join',
     },
     {
-      name: 'Speakers',
-      href: '#speakers',
-    },
-    {
-      name: 'Sponser',
-      href: '#sponser',
-    },
-    {
-      name: 'Past Events',
-      href: '#past-meetup',
+      name: 'FAQ',
+      href: '#faq',
     },
   ],
-  CTA: {
-    name: 'Register',
-    href: '#register',
-  },
   faq: MeetupPageFAQ,
 };
 
-export default MeetupPageContent;
+export const meetups = [
+  {
+    img: Delhi2023.poster,
+    title: Delhi2023.title,
+    on: Delhi2023.on,
+    slug: Delhi2023.slug,
+    description: Delhi2023.description.map((item) => item.text).join(' '),
+  },
+];

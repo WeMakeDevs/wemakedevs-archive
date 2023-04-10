@@ -3,10 +3,10 @@ import { BsCalendar, BsClock } from 'react-icons/bs';
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 
-const WebinarCard = ({ img, title, time, description, slug }) => {
+const MeetupCard = ({ img, title, on, description, slug }) => {
   return (
     <div className='overflow-hidden rounded-lg border border-content/50 bg-gradient-to-br from-transparent to-base-100/50'>
-      <img src={img} alt={title + 'banner'} />
+      <img src={img || ''} alt={title + 'banner'} />
       <div className='p-6'>
         <h3>{title}</h3>
         <p
@@ -25,7 +25,7 @@ const WebinarCard = ({ img, title, time, description, slug }) => {
           }}
           className='h3'
         >
-          <BsCalendar /> {new Date(time).toDateString()}
+          <BsCalendar /> {new Date(on).toDateString()}
         </p>
         <p
           style={{
@@ -36,9 +36,9 @@ const WebinarCard = ({ img, title, time, description, slug }) => {
           }}
           className='h3'
         >
-          <BsClock /> {new Date(time).toLocaleTimeString()}{' '}
+          <BsClock /> {new Date(on).toLocaleTimeString()}{' '}
           {/\((.*)\)/
-            .exec(new Date(time).toString())[1]
+            .exec(new Date(on).toString())[1]
             .split(' ')
             .map((i) => i[0].toUpperCase())
             .join('')}
@@ -49,13 +49,11 @@ const WebinarCard = ({ img, title, time, description, slug }) => {
           href={`/events/webinars/${slug}`}
           openNewTab
         >
-          {new Date().getTime() < new Date(time).getTime()
-            ? 'Register'
-            : 'Recap'}
+          {new Date().getTime() < new Date(on).getTime() ? 'Register' : 'Recap'}
         </ArrowLink>
       </div>
     </div>
   );
 };
 
-export default WebinarCard;
+export default MeetupCard;
