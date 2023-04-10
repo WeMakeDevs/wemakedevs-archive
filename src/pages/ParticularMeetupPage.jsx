@@ -64,11 +64,7 @@ const ParticularMeetupPage = ({ content }) => {
             </div>
 
             <div className='relative w-full overflow-hidden lg:order-1 lg:w-1/2'>
-              <img
-                className='w-full'
-                src='/assets/images/meetup/whyjoinHero.png'
-                alt=''
-              />
+              <img className='w-full' src={content.heroImg} alt='Why to join' />
             </div>
           </div>
 

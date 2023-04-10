@@ -1,6 +1,5 @@
 import { ParticularMeetupPageContent } from '@/content/Meetup/ParticularMeetupPageContent';
 
-import Poster from '@/assets/webinars/ebf.jpg';
 const DelhiMeetupFAQ = [
   {
     id: 'FAQ1',
@@ -44,7 +43,8 @@ const Delhi2023 = {
   faq: DelhiMeetupFAQ,
   CTA: ParticularMeetupPageContent.CTA,
   slug: 'delhi-2023',
-  poster: Poster,
+  poster: '/assets/images/meetup/delhi-2023/Poster.jpg',
+  heroImg: '/assets/images/meetup/delhi-2023/hero.png',
   title: 'WeMakeDevs Delhi Meetup',
   description: [
     {
