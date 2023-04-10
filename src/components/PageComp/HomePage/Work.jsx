@@ -64,7 +64,7 @@ const companies = [
 
 const Work = () => {
   return (
-    <section className='py-10'>
+    <div className='pb-20'>
       <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
         <div className='mx-auto max-w-2xl'>
           <h2 className='h1 text-center font-bold text-gray-800 dark:text-gray-300'>
@@ -88,7 +88,7 @@ const Work = () => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
