@@ -46,7 +46,7 @@ const WebinarCard = ({ img, title, time, description, slug }) => {
         <ArrowLink
           as={ButtonLink}
           className='mt-4'
-          href={`/webinars/${slug}`}
+          href={`/events/webinars/${slug}`}
           openNewTab
         >
           {new Date().getTime() < new Date(time).getTime()

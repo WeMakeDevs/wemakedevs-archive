@@ -12,10 +12,10 @@ function JoinUs() {
     <section id='join' className='py-20'>
       <div className='layout flex flex-col lg:flex-row'>
         {/* Join section */}
-        <div className='flex flex-col items-center gap-4'>
+        <div className='flex flex-1 flex-col items-center gap-4'>
           <h2 className='h1'>Join us</h2>
           <hr className='styled-hr' />
-          <div className='mt-8 flex flex-wrap justify-center gap-6'>
+          <div className='mt-8 flex flex-col justify-center gap-6'>
             {data.map((item) => (
               <JoinUsCard key={item.title} {...item} />
             ))}
