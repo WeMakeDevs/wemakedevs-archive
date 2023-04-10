@@ -76,12 +76,12 @@ const ParticularMeetupPage = ({ content }) => {
             {[
               {
                 name: 'Attending',
-                value: 500,
+                value: 450,
                 icon: BsFillPeopleFill,
               },
               {
                 name: 'Talks by Amazing Speakers',
-                value: 10,
+                value: 5,
                 icon: BsFillMicFill,
               },
               {
