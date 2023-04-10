@@ -8,6 +8,7 @@ import { DevopsPageContent } from '@/content/devops';
 import { DsaPageContent } from '@/content/dsa';
 import { GitGithubPageContent } from '@/content/gitGithub';
 import NapptiveHackathon from '@/content/Hackathons/napptive';
+import { MeetupPageContent } from '@/content/Meetup';
 import Delhi2023 from '@/content/Meetup/delhi-2023';
 import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 
@@ -25,6 +26,7 @@ const IndividualWebinarPage = lazy(() => import('@/pages/IndividualWebinar'));
 const PerticularhackathonPage = lazy(() =>
   import('@/pages/PerticularhackathonPage')
 );
+const ParticularMeetupPage = lazy(() => import('@/pages/ParticularMeetupPage'));
 const MeetupPage = lazy(() => import('@/pages/MeetupPage'));
 
 const App = () => {
@@ -33,6 +35,8 @@ const App = () => {
       <div>
         <Routes>
           <Route exact path='/' element={<HomePage />} />
+
+          {/* Coourses */}
           <Route exact path='/courses' element={<CoursesPage />} />
           <Route
             exact
@@ -49,30 +53,43 @@ const App = () => {
             path='/courses/devops'
             element={<SingleCoursePage content={DevopsPageContent} />}
           />
+
+          {/* Events Page */}
           <Route exact path='/events' element={<EventsPage />} />
           <Route exact path='/events/hashnode' element={<HashnodePage />} />
+
+          {/* Webinar */}
           <Route
             exact
-            path='/webinars'
+            path='/events/webinars'
             element={<WebinarPage content={WebinarPageContent} />}
           />
           {webinar.map((web) => (
             <Route
               key={web.img}
               exact
-              path={`/webinars/${web.slug}`}
+              path={`/events/webinars/${web.slug}`}
               element={<IndividualWebinarPage content={web.details} />}
             />
           ))}
+
+          {/* Hackathon */}
           <Route
             exact
-            path={`/events/hackathons/${NapptiveHackathon.slug}`}
+            path={`/hackathons/${NapptiveHackathon.slug}`}
             element={<PerticularhackathonPage content={NapptiveHackathon} />}
+          />
+
+          {/* Meetup */}
+          <Route
+            exact
+            path='/events/meetups'
+            element={<MeetupPage content={MeetupPageContent} />}
           />
           <Route
             exact
-            path={`/events/meetup/${Delhi2023.slug}`}
-            element={<MeetupPage content={Delhi2023} />}
+            path={`/events/meetups/${Delhi2023.slug}`}
+            element={<ParticularMeetupPage content={Delhi2023} />}
           />
 
           <Route path='*' element={<ErrorPage />} />
