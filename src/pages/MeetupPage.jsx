@@ -79,7 +79,7 @@ const MeetupPage = ({ content }) => {
       </section>
 
       {/* Past Meetups */}
-      <section id='past'>
+      {/* <section id='past'>
         <div className='layout py-20'>
           <h2 className='h1'>Past meetups</h2>
           <hr className='styled-hr my-6' />
@@ -101,7 +101,7 @@ const MeetupPage = ({ content }) => {
             )}
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };

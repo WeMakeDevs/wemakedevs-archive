@@ -48,10 +48,10 @@ export const MeetupPageContent = {
       name: 'Upcoming',
       href: '#upcoming',
     },
-    {
-      name: 'Past',
-      href: '#past',
-    },
+    // {
+    //   name: 'Past',
+    //   href: '#past',
+    // },
     {
       name: 'Join',
       href: '#join',
