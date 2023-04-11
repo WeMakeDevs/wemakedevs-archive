@@ -108,6 +108,9 @@ const Delhi2023 = {
       twitter: 'apoorvtwts',
       img: 'https://github.com/apoorv-on-git.png',
     },
+    {
+      description: 'More speakers to be announced soon',
+    },
   ],
   sponsors: [
     // Formate for sponser

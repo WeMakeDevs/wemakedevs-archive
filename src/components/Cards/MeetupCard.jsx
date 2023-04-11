@@ -46,7 +46,7 @@ const MeetupCard = ({ img, title, on, description, slug }) => {
         <ArrowLink
           as={ButtonLink}
           className='mt-4'
-          href={`/events/webinars/${slug}`}
+          href={`/events/meetups/${slug}`}
           openNewTab
         >
           {new Date().getTime() < new Date(on).getTime() ? 'Register' : 'Recap'}
