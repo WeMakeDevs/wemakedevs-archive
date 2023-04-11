@@ -112,6 +112,11 @@ const PerticularhackathonPage = ({ content }) => {
           <ol className='mt-9 flex flex-col flex-wrap justify-center gap-y-6 md:flex-row'>
             <TimeLineCard title='Start' date='Fri, 14 Apr 2023 02:30:00 GMT' />
             <TimeLineCard
+              title='Join live stream to ask live questions'
+              date='https://www.youtube.com/watch?v=sST7JGLq2as'
+              isLink
+            />
+            <TimeLineCard
               title='End of Day 1'
               date='Sat, 14 Apr 2023 18:30:00 GMT'
             />

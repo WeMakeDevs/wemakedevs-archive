@@ -1,6 +1,8 @@
 import { AiOutlineCalendar } from 'react-icons/ai';
 
-const TimeLineCard = ({ title, date }) => {
+import { ArrowLink, ButtonLink } from '@/components/links';
+
+const TimeLineCard = ({ title, date, isLink }) => {
   return (
     <li className='relative flex w-full gap-5 md:max-w-[20rem] md:flex-col'>
       <div className='flex items-center'>
@@ -9,19 +11,29 @@ const TimeLineCard = ({ title, date }) => {
       </div>
       <div className='mt-3 sm:pr-8'>
         <h3 className='font-semibold'>{title}</h3>
-        <time className='h4 mb-2 block leading-none text-white/70'>
-          {new Date(date).toLocaleDateString('en-US', {
-            dateStyle: 'medium',
-          })}{' '}
-          {new Date(date).toLocaleTimeString('en-US', {
-            timeStyle: 'short',
-          })}{' '}
-          {/\((.*)\)/
-            .exec(new Date(date).toString())[1]
-            .split(' ')
-            .map((i) => i[0].toUpperCase())
-            .join('')}
-        </time>
+        {isLink ? (
+          <ArrowLink
+            className='mt-2 rounded-md py-2 px-4 text-sm'
+            as={ButtonLink}
+            href={date}
+          >
+            Youtube
+          </ArrowLink>
+        ) : (
+          <time className='h4 mb-2 block leading-none text-white/70'>
+            {new Date(date).toLocaleDateString('en-US', {
+              dateStyle: 'medium',
+            })}{' '}
+            {new Date(date).toLocaleTimeString('en-US', {
+              timeStyle: 'short',
+            })}{' '}
+            {/\((.*)\)/
+              .exec(new Date(date).toString())[1]
+              .split(' ')
+              .map((i) => i[0].toUpperCase())
+              .join('')}
+          </time>
+        )}
       </div>
     </li>
   );
