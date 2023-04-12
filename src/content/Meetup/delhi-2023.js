@@ -22,8 +22,8 @@ const DelhiMeetupFAQ = [
   },
   {
     id: 'FAQ4',
-    question: 'When and where will the WeMakeDevs Delhi meetup take place? ',
-    answer: 'The event will take place on May 7, 2023, in Delhi NCR.',
+    question: 'What are the precautions to be taken?',
+    answer: 'We are experiencing rise in Covid in NCR region, we advise you to carry mask and sanitizer bottle along with you for the event.',
   },
   {
     id: 'FAQ5',
