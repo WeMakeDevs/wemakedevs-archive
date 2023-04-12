@@ -23,7 +23,7 @@ const DelhiMeetupFAQ = [
   {
     id: 'FAQ4',
     question: 'What are the precautions to be taken?',
-    answer: 
+    answer:
       'We are experiencing rise in Covid in NCR region, we advise you to carry mask and sanitizer bottle along with you for the event.',
   },
   {
