@@ -154,6 +154,9 @@ const Delhi2023 = {
       src: '/assets/images/meetup/delhi-2023/sponsors/nashik.png',
     },
     {
+      src: '/assets/images/meetup/delhi-2023/sponsors/shebuilds.png',
+    },
+    {
       src: '/assets/images/meetup/delhi-2023/sponsors/devs.png',
     },
     {
