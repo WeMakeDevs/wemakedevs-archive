@@ -142,7 +142,22 @@ const Delhi2023 = {
   comuSponsors: [
     // Formate for Community sponser
     {
+      src: '/assets/images/meetup/delhi-2023/sponsors/cncf.jpeg',
+    },
+    {
       src: '/assets/images/meetup/delhi-2023/sponsors/kubesimplify.svg',
+    },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/virtual.svg',
+    },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/nashik.png',
+    },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/devs.png',
+    },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/supercontri.png',
     },
   ],
   on: 'Sun, 07 May 2023 05:00:00 GMT',
