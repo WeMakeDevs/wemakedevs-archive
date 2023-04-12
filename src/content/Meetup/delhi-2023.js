@@ -109,6 +109,12 @@ const Delhi2023 = {
       img: 'https://github.com/apoorv-on-git.png',
     },
     {
+      name: 'Abhinav Dubey',
+      description: 'DevOps Engineer @DevtronL',
+      twitter: 'abhinavd26',
+      img: 'https://github.com/Abhinav-26.png',
+    },
+    {
       description: 'More speakers to be announced soon',
     },
   ],
