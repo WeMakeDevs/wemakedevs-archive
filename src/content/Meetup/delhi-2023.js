@@ -23,7 +23,8 @@ const DelhiMeetupFAQ = [
   {
     id: 'FAQ4',
     question: 'When and where will the WeMakeDevs Delhi meetup take place? ',
-    answer: 'The event will take place on May 7, 2023, in Delhi NCR.',
+    answer: 
+      'The event will take place on May 7, 2023, in Delhi NCR.',
   },
   {
     id: 'FAQ5',
