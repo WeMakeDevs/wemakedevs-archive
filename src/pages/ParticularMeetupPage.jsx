@@ -31,7 +31,7 @@ const ParticularMeetupPage = ({ content }) => {
               </>
             ))}
           </h2>
-          <div className='h2 mt-12 font-normal'>
+          <div className='h2 mt-12 font-semibold'>
             {getDateTime(content.on)} onwards
           </div>
           <ButtonLink as={ArrowLink} href='#register'>
@@ -118,6 +118,7 @@ const ParticularMeetupPage = ({ content }) => {
           </ol>
         </div>
       </section>
+
       <section id='speakers'>
         <div className='layout py-20'>
           <h2 className='h1'>Speakers</h2>
@@ -129,6 +130,7 @@ const ParticularMeetupPage = ({ content }) => {
           </div>
         </div>
       </section>
+
       <section id='sponsors'>
         <div className='layout py-20 text-center'>
           <h2 className='h1 '>Sponsors</h2>
@@ -144,6 +146,7 @@ const ParticularMeetupPage = ({ content }) => {
           </ol>
         </div>
       </section>
+
       <section id='com-sponser'>
         <div className='layout py-20 text-center'>
           <h2 className='h1 '>Community partners</h2>
@@ -161,6 +164,7 @@ const ParticularMeetupPage = ({ content }) => {
           </ol>
         </div>
       </section>
+
       <section id='past-meetup'>
         <div className='py-20 text-center'>
           <h2 className='h1'>Past meetup</h2>
@@ -182,6 +186,21 @@ const ParticularMeetupPage = ({ content }) => {
           </div>
         </div>
       </section>
+
+      <section id='past-meetup'>
+        <div className='py-20 text-center'>
+          <h2 className='h1'>Minutes of past meetups</h2>
+          <hr className='styled-hr my-6 mx-auto' />
+          <iframe
+            src='https://www.youtube.com/embed/6AQ7-LDcStM'
+            title='YouTube video player'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            allowfullscreen
+            className='mx-auto mt-8 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 object-cover shadow-[0_1rem_3rem] shadow-primary/80'
+          ></iframe>
+        </div>
+      </section>
+
       <Register name={content.slug} />
     </Layout>
   );
