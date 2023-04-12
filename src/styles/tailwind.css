@@ -27,6 +27,10 @@
   /* #endregion  /**======== Colors with opacity 100 =========== */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   body {
     background: #141414;
