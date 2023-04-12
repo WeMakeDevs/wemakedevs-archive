@@ -48,11 +48,10 @@ const Delhi2023 = {
   title: 'WeMakeDevs Delhi Meetup',
   description: [
     {
-      text: 'WeMakeDevs always love the quality and at WeMakeDevs we try to bring the quality content for free.',
+      text: 'Join us at our tech meetup, where innovation and collaboration collide. ',
     },
     {
-      text: 'We are coming up with a meetup with more than 450+ attendees and quality speakers.',
-      type: 'higlight',
+      text: 'In our upcoming meetup get a chance to connect with industry experts, expand your knowledge, and discover new opportunities for personal and professional growth.',
     },
   ],
   whyjoin: [
@@ -115,14 +114,33 @@ const Delhi2023 = {
   sponsors: [
     // Formate for sponser
     {
-      name: 'Kubesimplify',
-      src: '/assets/images/meetup/delhi-2023/sponsors/kubesimplify.svg',
+      src: '/assets/images/meetup/delhi-2023/sponsors/hashnode.png',
+      url: 'https://hashnode.com/',
+    },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/civo.png',
+      url: 'https://www.civo.com/',
+    },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/armo.svg',
+      url: 'https://www.armosec.io/',
+    },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/avesha.svg',
+      url: 'https://avesha.io/',
+    },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/boot.png',
+      url: 'https://boot.dev/',
+    },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/rawkode.svg',
+      url: 'https://rawkode.academy/',
     },
   ],
   comuSponsors: [
     // Formate for Community sponser
     {
-      name: 'Kubesimplify',
       src: '/assets/images/meetup/delhi-2023/sponsors/kubesimplify.svg',
     },
   ],

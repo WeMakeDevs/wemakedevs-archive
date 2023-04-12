@@ -133,7 +133,7 @@ const ParticularMeetupPage = ({ content }) => {
         <div className='layout py-20 text-center'>
           <h2 className='h1 '>Sponsors</h2>
           <hr className='styled-hr my-6 mx-auto' />
-          <ol className='flex flex-wrap items-center justify-center gap-6'>
+          <ol className='item-stretch flex flex-wrap justify-center gap-6'>
             {content.sponsors.length > 0 ? (
               content.sponsors.map((sponser) => (
                 <SponserCard key={sponser.name} {...sponser} />
