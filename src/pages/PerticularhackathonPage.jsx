@@ -119,8 +119,16 @@ const PerticularhackathonPage = ({ content }) => {
               date='https://www.youtube.com/watch?v=sST7JGLq2as'
               isLink
             />
-            <TimeLineCard title='Day 2 of hacking' date='Sat, 14 Apr 2023' />
-            <TimeLineCard title='Day 3 of hacking' date='Sun, 15 Apr 2023' />
+            <TimeLineCard
+              title='Day 2 of hacking'
+              date='Sat, 14 Apr 2023'
+              onlyDate
+            />
+            <TimeLineCard
+              title='Day 3 of hacking'
+              date='Sun, 15 Apr 2023'
+              onlyDate
+            />
             <TimeLineCard
               title='Hacking ends'
               date='Sun, 16 Apr 2023 14:30:00 GMT'
@@ -128,10 +136,12 @@ const PerticularhackathonPage = ({ content }) => {
             <TimeLineCard
               title='Submission period'
               date='16 Apr 2023 14:30:00 GMT'
+              end='16 Apr 2023 15:30:00 GMT'
             />
             <TimeLineCard
               title='Winner announcement'
               date='Mon, 17 Apr 2023 11:30:00 GMT'
+              onlyDate
             />
           </ol>
         </div>

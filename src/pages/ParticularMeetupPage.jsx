@@ -31,6 +31,13 @@ const ParticularMeetupPage = ({ content }) => {
               </>
             ))}
           </h2>
+          <iframe
+            src={content.venueVideoLink}
+            title='YouTube video player'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            allowfullscreen
+            className='mt-8 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 object-cover shadow-[0_1rem_3rem] shadow-primary/80'
+          ></iframe>
           <div className='h2 mt-12 font-semibold'>
             {getDateTime(content.on)} onwards
           </div>
@@ -209,7 +216,7 @@ const ParticularMeetupPage = ({ content }) => {
 export default ParticularMeetupPage;
 
 const Register = ({ name }) => {
-  const [iframeHeight, setIframeHeight] = useState(1000);
+  const [iframeHeight, setIframeHeight] = useState(1200);
 
   useEffect(() => {
     const windowWidth = window.innerWidth;
@@ -219,7 +226,7 @@ const Register = ({ name }) => {
     } else if (windowWidth < 1250) {
       setIframeHeight(700);
     } else {
-      setIframeHeight(1000);
+      setIframeHeight(1200);
     }
   }, []);
 
