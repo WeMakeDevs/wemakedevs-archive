@@ -28,7 +28,7 @@ const PerticularhackathonPage = lazy(() =>
 );
 const ParticularMeetupPage = lazy(() => import('@/pages/ParticularMeetupPage'));
 const MeetupPage = lazy(() => import('@/pages/MeetupPage'));
-
+const OpenSource = lazy(() => import('@/pages/OpenSource'));
 const App = () => {
   return (
     <Suspense fallback={<Loader />}>
@@ -90,6 +90,13 @@ const App = () => {
             exact
             path={`/events/meetups/${Delhi2023.slug}`}
             element={<ParticularMeetupPage content={Delhi2023} />}
+          />
+
+          {/* OpenSource */}
+          <Route
+            exact
+            path='/opensource'
+            element={<OpenSource />}
           />
 
           <Route path='*' element={<ErrorPage />} />
