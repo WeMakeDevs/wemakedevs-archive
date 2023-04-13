@@ -47,6 +47,7 @@ const Delhi2023 = {
   poster: '/assets/images/meetup/delhi-2023/Poster.jpg',
   heroImg: '/assets/images/meetup/delhi-2023/hero.png',
   title: 'WeMakeDevs Delhi Meetup',
+  venueVideoLink: 'https://www.youtube.com/embed/MXKjxpDd1ZU',
   description: [
     {
       text: 'Join us at our tech meetup, where innovation and collaboration collide. ',

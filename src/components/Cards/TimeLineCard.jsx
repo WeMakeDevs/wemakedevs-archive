@@ -2,7 +2,7 @@ import { AiOutlineCalendar } from 'react-icons/ai';
 
 import { ArrowLink, ButtonLink } from '@/components/links';
 
-const TimeLineCard = ({ title, date, isLink }) => {
+const TimeLineCard = ({ title, date, isLink, onlyDate, end }) => {
   return (
     <li className='relative flex w-full gap-5 md:max-w-[20rem] md:flex-col'>
       <div className='flex items-center'>
@@ -24,14 +24,26 @@ const TimeLineCard = ({ title, date, isLink }) => {
             {new Date(date).toLocaleDateString('en-US', {
               dateStyle: 'medium',
             })}{' '}
-            {new Date(date).toLocaleTimeString('en-US', {
-              timeStyle: 'short',
-            })}{' '}
+            {!onlyDate && (
+              <>
+                {new Date(date).toLocaleTimeString('en-US', {
+                  timeStyle: 'short',
+                })}{' '}
+                {end && (
+                  <>
+                    {' - '}
+                    {new Date(date).toLocaleTimeString('en-US', {
+                      timeStyle: 'short',
+                    })}{' '}
+                  </>
+                )}
+              </>
+            )}
             {/\((.*)\)/
               .exec(new Date(date).toString())[1]
               .split(' ')
               .map((i) => i[0].toUpperCase())
-              .join('')}
+              .join('')}{' '}
           </time>
         )}
       </div>
