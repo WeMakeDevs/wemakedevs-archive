@@ -77,7 +77,7 @@ const Work = () => {
           {companies.map((company) => (
             <div
               key={company.id}
-              className='m-4 h-20 w-48 rounded-md dark:bg-gray-900'
+              className='m-4 h-20 w-48 rounded-md'
             >
               <img
                 className='mx-auto h-full w-full object-contain'
