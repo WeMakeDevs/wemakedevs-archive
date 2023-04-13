@@ -110,27 +110,24 @@ const PerticularhackathonPage = ({ content }) => {
           <h2 className='h1 text-center'>Timeline</h2>
           <hr className='styled-hr mx-auto my-6' />
           <ol className='mt-9 flex flex-col flex-wrap justify-center gap-y-6 md:flex-row'>
-            <TimeLineCard title='Start' date='Fri, 14 Apr 2023 02:30:00 GMT' />
             <TimeLineCard
-              title='Join live stream to ask live questions'
+              title='Hackathon starts'
+              date='Fri, 14 Apr 2023 02:30:00 GMT'
+            />
+            <TimeLineCard
+              title='Hackathon kick off, join the live stream to ask questions related to hackathon'
               date='https://www.youtube.com/watch?v=sST7JGLq2as'
               isLink
             />
+            <TimeLineCard title='Day 2 of hacking' date='Sat, 14 Apr 2023' />
+            <TimeLineCard title='Day 3 of hacking' date='Sun, 15 Apr 2023' />
             <TimeLineCard
-              title='End of Day 1'
-              date='Sat, 14 Apr 2023 18:30:00 GMT'
+              title='Hacking ends'
+              date='Sun, 16 Apr 2023 14:30:00 GMT'
             />
             <TimeLineCard
-              title='End of Day 2'
-              date='Sun, 15 Apr 2023 18:30:00 GMT'
-            />
-            <TimeLineCard
-              title='Submissions start'
-              date='Sun, 16 Apr 2023 05:30:00 GMT'
-            />
-            <TimeLineCard
-              title='Submission Deadline'
-              date=', 16 Apr 2023 14:30:00 GMT'
+              title='Submission period'
+              date='16 Apr 2023 14:30:00 GMT'
             />
             <TimeLineCard
               title='Winner announcement'

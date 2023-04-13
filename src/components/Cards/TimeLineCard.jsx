@@ -21,17 +21,22 @@ const TimeLineCard = ({ title, date, isLink }) => {
           </ArrowLink>
         ) : (
           <time className='h4 mb-2 block leading-none text-white/70'>
-            {new Date(date).toLocaleDateString('en-US', {
-              dateStyle: 'medium',
-            })}{' '}
-            {new Date(date).toLocaleTimeString('en-US', {
-              timeStyle: 'short',
-            })}{' '}
-            {/\((.*)\)/
-              .exec(new Date(date).toString())[1]
-              .split(' ')
-              .map((i) => i[0].toUpperCase())
-              .join('')}
+            {date && (
+              <>
+                {' '}
+                {new Date(date).toLocaleDateString('en-US', {
+                  dateStyle: 'medium',
+                })}{' '}
+                {new Date(date).toLocaleTimeString('en-US', {
+                  timeStyle: 'short',
+                })}{' '}
+                {/\((.*)\)/
+                  .exec(new Date(date).toString())[1]
+                  .split(' ')
+                  .map((i) => i[0].toUpperCase())
+                  .join('')}{' '}
+              </>
+            )}
           </time>
         )}
       </div>
