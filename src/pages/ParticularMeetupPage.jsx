@@ -83,12 +83,12 @@ const ParticularMeetupPage = ({ content }) => {
                 icon: BsFillPeopleFill,
               },
               {
-                name: 'Talks by Amazing Speakers',
+                name: 'Talks by amazing speakers',
                 value: 5,
                 icon: BsFillMicFill,
               },
               {
-                name: 'Free Pizza',
+                name: 'Free pizza',
                 value: '',
                 suffix: '',
                 icon: CiPizza,

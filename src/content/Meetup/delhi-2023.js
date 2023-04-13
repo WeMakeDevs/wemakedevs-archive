@@ -116,6 +116,30 @@ const Delhi2023 = {
       img: 'https://github.com/Abhinav-26.png',
     },
     {
+      name: 'Aayush Sharma',
+      description: 'Junior Developer Evangelist @Merico',
+      twitter: 'SuperAayush14',
+      img: 'https://github.com/SuperAayush.png',
+    },
+    {
+      name: 'Siddhant Khisty',
+      description: 'Community Manger @Wemakedevs',
+      twitter: 'i_siddhantk',
+      img: 'https://github.com/siddhant-khisty.png',
+    },
+    {
+      name: 'Kaiwalya Koparkar',
+      description: 'CNCF Ambassador & GCE',
+      twitter: 'kaiwalya_',
+      img: 'https://github.com/kaiwalyakoparkar.png',
+    },
+    {
+      name: 'Bhavya Sachdeva',
+      description: 'Junior Developer Evangelist @Merico',
+      twitter: 'bhavya_58',
+      img: 'https://github.com/bhavyastar.png',
+    },
+    {
       description: 'More speakers to be announced soon',
     },
   ],
@@ -144,6 +168,10 @@ const Delhi2023 = {
     {
       src: '/assets/images/meetup/delhi-2023/sponsors/rawkode.svg',
       url: 'https://rawkode.academy/',
+    },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/devtron.png',
+      url: 'https://devtron.ai/',
     },
   ],
   comuSponsors: [
