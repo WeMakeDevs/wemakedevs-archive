@@ -104,6 +104,12 @@ const Delhi2023 = {
       img: 'https://github.com/kunal-kushwaha.png',
     },
     {
+      name: 'Subhasmita Swain',
+      description: 'SRE @Civo',
+      twitter: 'iam_subhasmita',
+      img: 'https://github.com/SubhasmitaSw.png',
+    },
+    {
       name: 'Apoorv Goyal',
       description: 'Remote Engineer & Web Developer',
       twitter: 'apoorvtwts',
