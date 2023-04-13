@@ -82,7 +82,7 @@ Before starting, you need to install the following on your computer.
 1. Fork the repo
 2. Clone the repository `git clone https://github.com/WeMakeDevs/wemakedevs.git`
 3. Run `cd wemakedevs` to change the working directory
-4. Run `npm ci` Or `npm clean-install` to install all dependencies
+4. Run `npm ci` Or `npm clean-install` to install all dependencies (Note: if you already have npm(node package manager) installed in your system run `npm start` directly running `npm ci` Or `npm clean-install` might cause "npm WARN deprecated" error messages)
 5. Run `npm start` to start the application
 6. Visit [http://localhost:3000](http://localhost:3000) to view the application
 
