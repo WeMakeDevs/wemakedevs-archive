@@ -128,6 +128,12 @@ const Delhi2023 = {
       img: 'https://github.com/SuperAayush.png',
     },
     {
+      name: 'Bhavya Sachdeva',
+      description: 'Junior Developer Evangelist @Merico',
+      twitter: 'bhavya_58',
+      img: 'https://github.com/bhavyastar.png',
+    },
+    {
       name: 'Siddhant Khisty',
       description: 'Community Manger @Wemakedevs',
       twitter: 'i_siddhantk',
@@ -138,15 +144,6 @@ const Delhi2023 = {
       description: 'CNCF Ambassador & GCE',
       twitter: 'kaiwalya_',
       img: 'https://github.com/kaiwalyakoparkar.png',
-    },
-    {
-      name: 'Bhavya Sachdeva',
-      description: 'Junior Developer Evangelist @Merico',
-      twitter: 'bhavya_58',
-      img: 'https://github.com/bhavyastar.png',
-    },
-    {
-      description: 'More speakers to be announced soon',
     },
   ],
   sponsors: [
