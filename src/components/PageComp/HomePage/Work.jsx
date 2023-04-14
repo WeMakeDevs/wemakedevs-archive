@@ -65,15 +65,13 @@ const companies = [
 const Work = () => {
   return (
     <div className='pb-20'>
-      <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
-        <div className='mx-auto max-w-2xl'>
-          <h2 className='h1 text-center font-bold text-gray-800 dark:text-gray-300'>
-            Our students work at
-          </h2>
-          <hr className='styled-hr mx-auto my-6' />
-        </div>
+      <div className='layout mx-auto'>
+        <h2 className='h1 text-center font-bold text-gray-800 dark:text-gray-300'>
+          Our students work at
+        </h2>
+        <hr className='styled-hr mx-auto my-6' />
 
-        <div className='mx-auto mt-12 flex flex-wrap items-center justify-center'>
+        <div className='mx-auto flex flex-wrap items-center justify-center'>
           {companies.map((company) => (
             <div
               key={company.id}
