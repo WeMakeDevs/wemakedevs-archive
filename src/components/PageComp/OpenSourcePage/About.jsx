@@ -8,7 +8,7 @@ const About = ({ background = 'static' }) => {
       src='https://www.youtube.com/embed/msyGybzCKRs'
       isVideo
       title='About'
-      direction='right'
+      direction='left'
       background={background}
     >
       <ListItem>
