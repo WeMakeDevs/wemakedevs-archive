@@ -121,12 +121,12 @@ const PerticularhackathonPage = ({ content }) => {
             />
             <TimeLineCard
               title='Day 2 of hacking'
-              date='Sat, 14 Apr 2023'
+              date='Sat, 15 Apr 2023'
               onlyDate
             />
             <TimeLineCard
               title='Day 3 of hacking'
-              date='Sun, 15 Apr 2023'
+              date='Sun, 16 Apr 2023'
               onlyDate
             />
             <TimeLineCard
