@@ -10,6 +10,7 @@ import { GitGithubPageContent } from '@/content/gitGithub';
 import NapptiveHackathon from '@/content/Hackathons/napptive';
 import { MeetupPageContent } from '@/content/Meetup';
 import Delhi2023 from '@/content/Meetup/delhi-2023';
+import { OpensourcePageContent } from '@/content/opensource';
 import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 
 import { Loader } from '@/components/layout';
@@ -28,7 +29,8 @@ const PerticularhackathonPage = lazy(() =>
 );
 const ParticularMeetupPage = lazy(() => import('@/pages/ParticularMeetupPage'));
 const MeetupPage = lazy(() => import('@/pages/MeetupPage'));
-const OpenSource = lazy(() => import('@/pages/OpenSource'));
+const OpenSourcePage = lazy(() => import('@/pages/OpenSourcePage'));
+
 const App = () => {
   return (
     <Suspense fallback={<Loader />}>
@@ -92,13 +94,14 @@ const App = () => {
             element={<ParticularMeetupPage content={Delhi2023} />}
           />
 
-          {/* OpenSource */}
+          {/* Open Source Page */}
           <Route
             exact
             path='/opensource'
-            element={<OpenSource />}
+            element={<OpenSourcePage content={OpensourcePageContent} />}
           />
 
+          {/* Error Page */}
           <Route path='*' element={<ErrorPage />} />
         </Routes>
         <ScrollToTop />
