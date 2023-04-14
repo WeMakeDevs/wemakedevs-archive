@@ -32,7 +32,7 @@ const TimeLineCard = ({ title, date, isLink, onlyDate, end }) => {
                 {end && (
                   <>
                     {' - '}
-                    {new Date(date).toLocaleTimeString('en-US', {
+                    {new Date(end).toLocaleTimeString('en-US', {
                       timeStyle: 'short',
                     })}{' '}
                   </>
