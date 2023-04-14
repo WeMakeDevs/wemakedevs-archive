@@ -75,7 +75,10 @@ const Work = () => {
 
         <div className='mx-auto mt-12 flex flex-wrap items-center justify-center'>
           {companies.map((company) => (
-            <div key={company.id} className='m-4 h-20 w-48 rounded-md'>
+            <div
+              key={company.id}
+              className='m-4 h-28 w-56 rounded-lg border border-white/20  bg-base-200'
+            >
               <img
                 className='mx-auto h-full w-full object-contain'
                 src={company.img_url}
