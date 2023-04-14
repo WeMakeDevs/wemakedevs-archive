@@ -73,7 +73,7 @@ const Work = () => {
           <hr className='styled-hr mx-auto my-6' />
         </div>
 
-        <div className='mx-auto mt-12 flex max-w-4xl flex-wrap items-center justify-center'>
+        <div className='mx-auto mt-12 flex flex-wrap items-center justify-center'>
           {companies.map((company) => (
             <div key={company.id} className='m-4 h-20 w-48 rounded-md'>
               <img
