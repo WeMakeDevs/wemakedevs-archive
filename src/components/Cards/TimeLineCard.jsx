@@ -37,13 +37,13 @@ const TimeLineCard = ({ title, date, isLink, onlyDate, end }) => {
                     })}{' '}
                   </>
                 )}
+                {/\((.*)\)/
+                  .exec(new Date(date).toString())[1]
+                  .split(' ')
+                  .map((i) => i[0].toUpperCase())
+                  .join('')}{' '}
               </>
             )}
-            {/\((.*)\)/
-              .exec(new Date(date).toString())[1]
-              .split(' ')
-              .map((i) => i[0].toUpperCase())
-              .join('')}{' '}
           </time>
         )}
       </div>

@@ -128,9 +128,9 @@ const ParticularMeetupPage = ({ content }) => {
 
       <section id='speakers'>
         <div className='layout py-20'>
-          <h2 className='h1'>Speakers</h2>
-          <hr className='styled-hr my-6' />
-          <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
+          <h2 className='h1 text-center'>Speakers</h2>
+          <hr className='styled-hr my-6 mx-auto' />
+          <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
             {content.speakers.map((speaker) => (
               <SpeakerCard key={speaker.name} {...speaker} />
             ))}
