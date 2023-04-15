@@ -86,6 +86,6 @@ Before starting, you need to install the following on your computer.
 5. Run `npm start` to start the application
 6. Visit [http://localhost:3000](http://localhost:3000) to view the application
 
-## Thanks to all the contributors ❤️
+## Thank you so much to all the contributors ❤️
 
 <img src="https://contrib.rocks/image?repo=WeMakeDevs/wemakedevs"/>
