@@ -1,7 +1,7 @@
 import ColumnSection from '@/components/layout/ColumnSection';
 import ListItem from '@/components/Listitem';
 
-const About = ({ background = 'static' }) => {
+const About = () => {
   return (
     <ColumnSection
       id='sec-offer'
@@ -9,7 +9,6 @@ const About = ({ background = 'static' }) => {
       isVideo
       title='About'
       direction='left'
-      background={background}
     >
       <ListItem>
       Open source software is accessible to the public at no cost, allowing anyone to view, modify, and distribute its source code.

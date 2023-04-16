@@ -15,7 +15,7 @@ const Header = () => {
           </p>
         </div>
         <div className='relative mt-0 max-w-lg  py-8 lg:mt-16 lg:py-16 lg:px-8 '>
-          <img src={HeroImg} className='w-full' />
+          <img src={`/assets/images/OpenSource/collab.svg`} className='w-full' />
         </div>
       </div>
     </header>
