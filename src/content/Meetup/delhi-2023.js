@@ -108,20 +108,23 @@ const Delhi2023 = {
       twitter: 'apoorvtwts',
       img: 'https://github.com/apoorv-on-git.png',
     },
+    {
+      description: 'More speakers to be announced soon',
+    },
   ],
   sponsors: [
     // Formate for sponser
-    // {
-    //   name: 'Finout',
-    //   src: Finout,
-    // },
+    {
+      name: 'Kubesimplify',
+      src: '/assets/images/meetup/delhi-2023/sponsors/kubesimplify.svg',
+    },
   ],
   comuSponsors: [
     // Formate for Community sponser
-    // {
-    //   name: 'Finout',
-    //   src: Finout,
-    // },
+    {
+      name: 'Kubesimplify',
+      src: '/assets/images/meetup/delhi-2023/sponsors/kubesimplify.svg',
+    },
   ],
   on: 'Sun, 07 May 2023 05:00:00 GMT',
 };
