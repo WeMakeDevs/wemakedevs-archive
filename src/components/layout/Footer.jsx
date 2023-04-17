@@ -114,7 +114,7 @@ const CommunityLinks = [
   },
   { link: '/events', name: 'Events' },
   { link: '/courses', name: 'Courses' },
-  { link: '/webinars', name: 'Webinars' },
+  { link: '/events/webinars', name: 'Webinars' },
   { link: 'https://github.com/WeMakeDevs/roadmaps', name: 'Roadmaps' },
 ];
 
