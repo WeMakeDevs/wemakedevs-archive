@@ -27,7 +27,7 @@ WeMakeDevs provides hands-on training courses and mentorship for free, along wit
 <img src="SkewdImage/wemakedevs.drawio.png" width="520" height="390" >
 </p>
 
-## 👨‍💻 We Make Devs
+## 👨‍💻 We Make Devs 
 
 <a href="https://wemakedevs.org/">Visit</a> our website.
 
@@ -86,6 +86,6 @@ Before starting, you need to install the following on your computer.
 5. Run `npm start` to start the application
 6. Visit [http://localhost:3000](http://localhost:3000) to view the application
 
-## Thanks to all the contributors ❤️
+## Thank you so much to all the contributors ❤️
 
 <img src="https://contrib.rocks/image?repo=WeMakeDevs/wemakedevs"/>
