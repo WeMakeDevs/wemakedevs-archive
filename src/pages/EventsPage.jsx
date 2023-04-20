@@ -6,8 +6,6 @@ import {
   PastEvents,
 } from '@/components/PageComp/EventsPage';
 
-import OpenSourcePage from '@/pages/OpenSourcePage';
-
 import { EventsPageContent } from './content';
 
 const EventsPage = () => {
@@ -17,7 +15,6 @@ const EventsPage = () => {
       <About />
       <OngoingEvents />
       <PastEvents />
-      <OpenSourcePage />
     </Layout>
   );
 };
