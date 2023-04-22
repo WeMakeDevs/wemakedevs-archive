@@ -135,7 +135,7 @@ const Delhi2023 = {
     },
     {
       name: 'Siddhant Khisty',
-      description: 'Community Manger @Wemakedevs',
+      description: 'Community Manager @Wemakedevs',
       twitter: 'i_siddhantk',
       img: 'https://github.com/siddhant-khisty.png',
     },
