@@ -46,7 +46,7 @@ const Events = () => {
       <Testimonials
         as='div'
         tweetId={prizetweetid}
-        title='Testimonials'
+        title='Events Winners'
         className='pt-0'
       />
     </section>
