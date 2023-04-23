@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { BiCool } from 'react-icons/bi';
 import { BsFillMicFill, BsFillPeopleFill } from 'react-icons/bs';
 import { CiPizza } from 'react-icons/ci';
@@ -215,33 +215,32 @@ const ParticularMeetupPage = ({ content }) => {
 
 export default ParticularMeetupPage;
 
-const Register = ({ name }) => {
-  const [iframeHeight, setIframeHeight] = useState(1200);
+const Register = () => {
+  // const [iframeHeight, setIframeHeight] = useState(1200);
 
   useEffect(() => {
-    const windowWidth = window.innerWidth;
-
-    if (windowWidth < 900) {
-      setIframeHeight(1200);
-    } else if (windowWidth < 1250) {
-      setIframeHeight(700);
-    } else {
-      setIframeHeight(1200);
-    }
+    // const windowWidth = window.innerWidth;
+    // if (windowWidth < 900) {
+    //   setIframeHeight(1200);
+    // } else if (windowWidth < 1250) {
+    //   setIframeHeight(700);
+    // } else {
+    //   setIframeHeight(1200);
+    // }
   }, []);
 
   return (
     <section id='register'>
       <div className='mx-auto flex flex-col items-center justify-center gap-4 py-20 text-center'>
-        <h2 className='h1'>Register for the meetup</h2>
+        <h2 className='h1'>Registrations have been closed</h2>
         <hr className='styled-hr' />
-        <iframe
+        {/* <iframe
           src={`https://wemakedevs-newsletter.vercel.app/${name}.html`}
           width='100%'
           style={{ border: '0' }}
           height={iframeHeight}
           title='Subscribe to our newsletter by entering your details below'
-        ></iframe>
+        ></iframe> */}
       </div>
     </section>
   );
