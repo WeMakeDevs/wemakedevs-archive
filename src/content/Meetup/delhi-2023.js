@@ -197,6 +197,9 @@ const Delhi2023 = {
     {
       src: '/assets/images/meetup/delhi-2023/sponsors/devs.png',
     },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/dungeon.jpeg',
+    },
   ],
   on: 'Sun, 07 May 2023 05:00:00 GMT',
 };
