@@ -4,12 +4,16 @@ import { Route, Routes } from 'react-router-dom';
 import '@/styles/tailwind.css';
 import 'react-loading-skeleton/dist/skeleton.css';
 
-import { DevopsPageContent } from '@/content/devops';
-import { DsaPageContent } from '@/content/dsa';
-import { GitGithubPageContent } from '@/content/gitGithub';
+import {
+  DevopsPageContent,
+  DsaPageContent,
+  GitGithubPageContent,
+} from '@/content/courses';
+import { CoursesPageContent } from '@/content/courses/CoursesPageContent';
 import NapptiveHackathon from '@/content/Hackathons/napptive';
 import { MeetupPageContent } from '@/content/Meetup';
 import Delhi2023 from '@/content/Meetup/delhi-2023';
+import Supper25Content from '@/content/super25';
 import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 
 import { Loader } from '@/components/layout';
@@ -27,6 +31,7 @@ const PerticularhackathonPage = lazy(() =>
   import('@/pages/PerticularhackathonPage')
 );
 const ParticularMeetupPage = lazy(() => import('@/pages/ParticularMeetupPage'));
+const Super25Page = lazy(() => import('@/pages/Super25Page'));
 const MeetupPage = lazy(() => import('@/pages/MeetupPage'));
 
 const App = () => {
@@ -37,7 +42,11 @@ const App = () => {
           <Route exact path='/' element={<HomePage />} />
 
           {/* Coourses */}
-          <Route exact path='/courses' element={<CoursesPage />} />
+          <Route
+            exact
+            path='/courses'
+            element={<CoursesPage content={CoursesPageContent} />}
+          />
           <Route
             exact
             path='/courses/dsa'
@@ -92,10 +101,24 @@ const App = () => {
             element={<ParticularMeetupPage content={Delhi2023} />}
           />
 
+          {/* Super 25 */}
+          <Route
+            exact
+            path='/events/super25'
+            element={<Super25Page content={Supper25Content} />}
+          />
+
           <Route path='*' element={<ErrorPage />} />
         </Routes>
         <ScrollToTop />
       </div>
+
+      <svg width='0' height='0'>
+        <linearGradient id='blue-gradient' x1='100%' y1='100%' x2='0%' y2='0%'>
+          <stop stopColor='#ef4444' offset='0%' />
+          <stop stopColor='#8b5cf6' offset='100%' />
+        </linearGradient>
+      </svg>
     </Suspense>
   );
 };

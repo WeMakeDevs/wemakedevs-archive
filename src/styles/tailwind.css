@@ -37,9 +37,6 @@ html {
     @apply scroll-pt-16 scroll-smooth md:scroll-pt-28;
   }
   /* #region  /**=========== Typography =========== */
-  .heading {
-    @apply text-center font-sans text-4xl font-black leading-relaxed text-content md:text-5xl lg:text-8xl;
-  }
 
   .h0 {
     @apply font-sans text-3xl font-semibold text-content md:text-5xl;
@@ -69,6 +66,15 @@ html {
   .p {
     @apply font-sans text-sm font-medium text-content md:text-base;
   }
+
+  .heading {
+    @apply text-center font-sans text-4xl font-black leading-relaxed text-content md:text-5xl lg:text-8xl;
+  }
+
+  .heading.heading-md {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
   /* #endregion  /**======== Typography =========== */
 
   img {
