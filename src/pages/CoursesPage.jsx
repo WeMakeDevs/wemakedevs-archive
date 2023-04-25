@@ -1,11 +1,9 @@
 import Layout, { Testimonials } from '@/components/layout';
 import { About, Courses, Hero } from '@/components/PageComp/CoursesPage';
 
-import { CoursesPageContent } from './content';
-
-const CoursesPage = () => {
+const CoursesPage = ({ content }) => {
   return (
-    <Layout content={CoursesPageContent}>
+    <Layout content={content}>
       <Hero />
       <About />
       <Courses />

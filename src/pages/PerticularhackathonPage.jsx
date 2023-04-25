@@ -14,12 +14,6 @@ import ListItem from '@/components/Listitem';
 const PerticularhackathonPage = ({ content }) => {
   return (
     <Layout content={content}>
-      <svg width='0' height='0'>
-        <linearGradient id='blue-gradient' x1='100%' y1='100%' x2='0%' y2='0%'>
-          <stop stopColor='#ef4444' offset='0%' />
-          <stop stopColor='#8b5cf6' offset='100%' />
-        </linearGradient>
-      </svg>
       {/* Hero section */}
       <section>
         <div className='layout flex flex-col items-center justify-center gap-4 py-32'>
