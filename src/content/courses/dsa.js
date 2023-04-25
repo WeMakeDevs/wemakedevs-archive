@@ -1,6 +1,6 @@
-import { SingleCoursesPageHeader } from '../pages/content';
+import { SingleCoursesPageHeader } from '@/content/courses/CoursesPageContent';
 
-export const DsaPageContent = {
+const DsaPageContent = {
   header: SingleCoursesPageHeader,
   content: {
     title: {
@@ -169,3 +169,5 @@ export const DsaPageContent = {
     },
   ],
 };
+
+export default DsaPageContent;
