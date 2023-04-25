@@ -122,10 +122,10 @@ const Delhi2023 = {
       img: 'https://github.com/Abhinav-26.png',
     },
     {
-      name: 'Aayush Sharma',
-      description: 'Junior Developer Evangelist @Merico',
-      twitter: 'SuperAayush14',
-      img: 'https://github.com/SuperAayush.png',
+      name: 'Aakansha Priya',
+      description: 'DevRel @WeMakeDevs',
+      twitter: 'AakanshaPriya_',
+      img: 'https://github.com/priyaaakansha.png',
     },
     {
       name: 'Bhavya Sachdeva',
