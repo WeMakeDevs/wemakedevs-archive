@@ -4,6 +4,7 @@ import { VscDebugBreakpointLog } from 'react-icons/vsc';
 
 import Super25TimeLineCard from '@/components/Cards/Super25TimeLineCard';
 import Layout from '@/components/layout';
+import { ArrowLink, ButtonLink } from '@/components/links';
 import ListItem from '@/components/Listitem';
 
 const Super25Page = ({ content }) => {
@@ -19,6 +20,14 @@ const Super25Page = ({ content }) => {
               Expand your knowledge and enhance your skills with our expert-led
               webinars on a wide range of topics.
             </p>
+            <ButtonLink
+              as={ArrowLink}
+              className='items-center justify-center'
+              href='#register'
+              disabled
+            >
+              Apply Now
+            </ButtonLink>
           </div>
           <div className='relative w-full max-w-lg shrink-0'>
             <img src='/assets/images/super25/hero.svg' className='w-full' />
