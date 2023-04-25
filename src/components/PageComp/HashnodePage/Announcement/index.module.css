@@ -45,7 +45,12 @@
 .dots.right {
   right: 0;
   bottom: 0;
-  transform: translateX(50%);
+}
+
+@media screen and (min-width: 1536px) {
+  .dots.right {
+    transform: translateX(50%);
+  }
 }
 
 .progress {
@@ -100,7 +105,7 @@
   white-space: nowrap;
   position: absolute;
   top: 0;
-  left: 50%;
+  right: 25%;
   transform: translateX(-50%, -50%);
   background-color: var(--clr-base-100);
   color: var(--clr-content);
