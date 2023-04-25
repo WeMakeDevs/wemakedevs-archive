@@ -1,5 +1,5 @@
 import Carousel from 'better-react-carousel';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import Skeleton from 'react-loading-skeleton';
 import { eagerLoadTwitterLibrary, Tweet } from 'react-twitter-widgets';
 
@@ -17,13 +17,18 @@ function InlineWrapperWithMargin({ children }) {
   );
 }
 
-function TweetCarousael({ tweetId }) {
+function TweetCarousael({ tweetId,setTweetId }) {
+  const [hide,setHide] = useState("0");
   const [hideTweetPost, setHideTweetPost] = useState(true);
-
   useEffect(() => {
     //Add the lazy loading in the tweet cards
     eagerLoadTwitterLibrary();
   }, []);
+  useMemo(()=>{
+    if (tweetId.includes(hide)) {
+      setTweetId(tweetId.filter(str => str !== hide));
+    }
+  },[hide])
   return (
     <React.Fragment>
       {hideTweetPost ? (
@@ -40,7 +45,7 @@ function TweetCarousael({ tweetId }) {
           />
         </div>
       ) : null}
-      {tweetId?.length ? (
+      {tweetId?.length!==0 ? (
         <div
           className='w-full'
           style={{
@@ -50,27 +55,29 @@ function TweetCarousael({ tweetId }) {
           <Carousel
             cols={3}
             rows={1}
-            gap={20}
+            gap={10}
             autoplay={2500}
             dotColorActive='rgb(89,66,233)'
             showDots
             loop
           >
-            {tweetId.map((id) => (
+            {tweetId?.map((id) => (
               <Carousel.Item
                 style={{
-                  width: '99%',
+                  width:"99%"
                 }}
                 key={id}
               >
                 <Tweet
                   tweetId={id}
                   options={{ theme: 'dark', conversation: 'none' }}
-                  onLoad={() => setHideTweetPost(false)}
-                  renderError={() => setHideTweetPost(false)}
+                  onLoad={() =>{setHideTweetPost(false)}}
+                  renderError={() => {
+                    setHide(id);
+                    return(<div style={{display:"none"}}></div>)}}
                 />
               </Carousel.Item>
-            ))}
+             ))}
           </Carousel>
         </div>
       ) : null}
