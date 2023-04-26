@@ -20,6 +20,10 @@ export const ParticularMeetupPageContent = {
       name: 'Past Events',
       href: '#past-meetup',
     },
+    {
+      name: 'Conduct',
+      href: 'https://drive.google.com/file/d/14YBxHvfbWnl_FPBns38OJDyzSmfbg5gc/view?usp=sharing',
+    },
   ],
   CTA: {
     name: 'Register',
