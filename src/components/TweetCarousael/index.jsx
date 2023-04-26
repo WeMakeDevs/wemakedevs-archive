@@ -17,18 +17,19 @@ function InlineWrapperWithMargin({ children }) {
   );
 }
 
-function TweetCarousael({ tweetId,setTweetId }) {
-  const [hide,setHide] = useState("0");
+function TweetCarousael({ tweetId, setTweetId }) {
+  const [hide, setHide] = useState('0');
   const [hideTweetPost, setHideTweetPost] = useState(true);
   useEffect(() => {
     //Add the lazy loading in the tweet cards
     eagerLoadTwitterLibrary();
   }, []);
-  useMemo(()=>{
+  useMemo(() => {
     if (tweetId.includes(hide)) {
-      setTweetId(tweetId.filter(str => str !== hide));
+      setTweetId(tweetId.filter((str) => str !== hide));
     }
-  },[hide])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [hide]);
   return (
     <React.Fragment>
       {hideTweetPost ? (
@@ -45,7 +46,7 @@ function TweetCarousael({ tweetId,setTweetId }) {
           />
         </div>
       ) : null}
-      {tweetId?.length!==0 ? (
+      {tweetId?.length !== 0 ? (
         <div
           className='w-full'
           style={{
@@ -64,20 +65,23 @@ function TweetCarousael({ tweetId,setTweetId }) {
             {tweetId?.map((id) => (
               <Carousel.Item
                 style={{
-                  width:"99%"
+                  width: '99%',
                 }}
                 key={id}
               >
                 <Tweet
                   tweetId={id}
                   options={{ theme: 'dark', conversation: 'none' }}
-                  onLoad={() =>{setHideTweetPost(false)}}
+                  onLoad={() => {
+                    setHideTweetPost(false);
+                  }}
                   renderError={() => {
                     setHide(id);
-                    return(<div style={{display:"none"}}></div>)}}
+                    return <div style={{ display: 'none' }}></div>;
+                  }}
                 />
               </Carousel.Item>
-             ))}
+            ))}
           </Carousel>
         </div>
       ) : null}

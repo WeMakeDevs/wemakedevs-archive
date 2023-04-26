@@ -1,9 +1,10 @@
-import Layout, { Testimonials } from '@/components/layout';
-import { About, Courses, Hero } from '@/components/PageComp/CoursesPage';
 import { useState } from 'react';
 
+import Layout, { Testimonials } from '@/components/layout';
+import { About, Courses, Hero } from '@/components/PageComp/CoursesPage';
+
 const CoursesPage = ({ content }) => {
-  const [tweetId,setTweetId] = useState([
+  const [tweetId, setTweetId] = useState([
     '1620824479395090435',
     '1620081639199244288',
     '1620489706994806785',
@@ -17,7 +18,7 @@ const CoursesPage = ({ content }) => {
       <Hero />
       <About />
       <Courses />
-      <Testimonials tweetId={tweetId} setTweetId={setTweetId} className=""/>
+      <Testimonials tweetId={tweetId} setTweetId={setTweetId} className='' />
     </Layout>
   );
 };
