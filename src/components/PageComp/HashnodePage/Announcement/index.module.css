@@ -1,6 +1,7 @@
 .section {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .layout {
@@ -45,12 +46,6 @@
 .dots.right {
   right: 0;
   bottom: 0;
-}
-
-@media screen and (min-width: 1536px) {
-  .dots.right {
-    transform: translateX(50%);
-  }
 }
 
 .progress {
