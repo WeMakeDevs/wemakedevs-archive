@@ -1,4 +1,5 @@
 import AboutImage from 'assets/home/aboutus.png';
+import { useState } from 'react';
 
 import prizetweetid from '@/content/prizetweetid';
 
@@ -9,6 +10,7 @@ import ListItem from '@/components/Listitem';
 import Stats from './Stats';
 
 const About = () => {
+  const [tweetId, setTweetId] = useState(prizetweetid);
   return (
     <section id='about'>
       <ColumnSection as='div' src={AboutImage} title='About'>
@@ -35,7 +37,8 @@ const About = () => {
       <Stats />
       <Testimonials
         as='div'
-        tweetId={prizetweetid}
+        tweetId={tweetId}
+        setTweetId={setTweetId}
         title='Community testimonials'
         className='pt-0'
       />
