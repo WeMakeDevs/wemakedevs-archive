@@ -26,7 +26,7 @@ const Layout = ({ content, children }) => {
   return (
     <>
       <Navbar links={content.header} cta={content.CTA} />
-      <main className='main'>
+      <main className='main overflow-x-hidden'>
         {children}
         <JoinUs />
         <Faq faq={content.faq} />
