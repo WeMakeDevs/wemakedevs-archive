@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import prizetweetid from '@/content/prizetweetid';
 
 import { Testimonials } from '@/components/layout';
@@ -5,6 +7,7 @@ import ColumnSection from '@/components/layout/ColumnSection';
 import ListItem from '@/components/Listitem';
 
 const HowTakePart = ({ background = 'static' }) => {
+  const [tweetId, setTweetId] = useState(prizetweetid);
   return (
     <section>
       <ColumnSection
@@ -35,7 +38,8 @@ const HowTakePart = ({ background = 'static' }) => {
       </ColumnSection>
       <Testimonials
         as='div'
-        tweetId={prizetweetid}
+        tweetId={tweetId}
+        setTweetId={setTweetId}
         title='Previous Winner'
         className='pt-0'
       />
