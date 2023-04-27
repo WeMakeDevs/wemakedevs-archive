@@ -99,7 +99,7 @@ const Delhi2023 = {
   speakers: [
     {
       name: 'Kunal Kushwaha',
-      description: 'DevRel Manger @Civo',
+      description: 'DevRel Manager @Civo',
       twitter: 'kunalstwt',
       img: 'https://github.com/kunal-kushwaha.png',
     },
