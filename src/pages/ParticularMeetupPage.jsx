@@ -41,8 +41,8 @@ const ParticularMeetupPage = ({ content }) => {
           <div className='h2 mt-12 font-semibold'>
             {getDateTime(content.on)} onwards
           </div>
-          <ButtonLink as={ArrowLink} href='#register'>
-            Register
+          <ButtonLink as={ArrowLink} href='/coc'>
+            Code of conduct
           </ButtonLink>
         </div>
       </section>
