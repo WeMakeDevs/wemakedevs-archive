@@ -173,8 +173,8 @@ const Delhi2023 = {
       url: 'https://rawkode.academy/',
     },
     {
-      src: '/assets/images/meetup/delhi-2023/sponsors/devtron.png',
-      url: 'https://devtron.ai/',
+      src: '/assets/images/meetup/delhi-2023/sponsors/metabob.png',
+      url: 'https://metabob.com/',
     },
   ],
   comuSponsors: [
@@ -190,6 +190,10 @@ const Delhi2023 = {
     },
     {
       src: '/assets/images/meetup/delhi-2023/sponsors/nashik.png',
+    },
+    {
+      src: '/assets/images/meetup/delhi-2023/sponsors/devtron.png',
+      url: 'https://devtron.ai/',
     },
     {
       src: '/assets/images/meetup/delhi-2023/sponsors/shebuilds.png',
