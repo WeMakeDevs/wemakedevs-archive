@@ -49,11 +49,11 @@ const CocPage = ({ content }) => {
             appreciate your help in achieving that goal.
           </p>
           <p className='text-center font-bold'>
-            Aayush Sharma: +917011346429
+            Aayush Sharma: +91 7011346429
             <br />
-            Bhavya Sachdeva: +919310611138
+            Bhavya Sachdeva: +91 9310611138
             <br />
-            Siddhant Khisty : +918308351644
+            Siddhant Khisty : +91 8308351644
           </p>
         </div>
       </section>
