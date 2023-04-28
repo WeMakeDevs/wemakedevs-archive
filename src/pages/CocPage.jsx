@@ -37,8 +37,23 @@ const CocPage = ({ content }) => {
             disruptive to the event. Thank you for helping to create a safe and
             welcoming environment for everyone.
           </p>
-          <p className='heading heading-md text-center font-bold md:text-center '>
-            WeMakeDevs
+
+          <p className='text-center'>
+            <span className='text-bold md:text-center'> Special Cases : </span>
+            <br />
+            If you experience or witness any behavior that violates this Code of
+            Conduct, please report it to the moderators immediately. You can
+            contact us via contacts given below. All reports will be kept
+            confidential and will be taken seriously. We are committed to
+            creating a safe and welcoming community for all members, and we
+            appreciate your help in achieving that goal.
+          </p>
+          <p className='text-center font-bold'>
+            Aayush Sharma: +917011346429
+            <br />
+            Bhavya Sachdeva: +919310611138
+            <br />
+            Siddhant Khisty : +918308351644
           </p>
         </div>
       </section>
