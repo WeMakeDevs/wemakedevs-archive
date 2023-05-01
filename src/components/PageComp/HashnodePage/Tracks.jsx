@@ -42,7 +42,7 @@ const hashnodeData = [
   },
   {
     description:
-      'Write a blog on the topic Developer tools, share some good tips and your experience and definitely stand a chance to win the grand prize.',
+      'Write a blog on your KubeCon experience and definitely stand a chance to win the grand prize.',
     image: Track4,
   },
   {
