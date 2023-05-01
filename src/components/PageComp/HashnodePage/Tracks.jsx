@@ -47,7 +47,7 @@ const hashnodeData = [
   },
   {
     description:
-      'Write a blog sharing about your entire journey though tech, how you get started, what struggles did you overcome, and you can win some amazing techincal books this month!',
+      'Write a blog sharing about your experience with the Hashnode AI tools and you can win Nike Air Jordans this month!',
     image: Special,
   },
 ];
