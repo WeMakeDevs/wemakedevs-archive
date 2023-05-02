@@ -6,6 +6,7 @@ import { DiAsterisk } from 'react-icons/di';
 
 import { getDateTime } from '@/lib/utils';
 
+import AgendaCard from '@/components/Cards/AgendaCard';
 import SpeakerCard from '@/components/Cards/SpeakerCard';
 import SponserCard from '@/components/Cards/SponserCard';
 import StatCard from '@/components/Cards/StatCard';
@@ -116,12 +117,11 @@ const ParticularMeetupPage = ({ content }) => {
         <div className='layout py-20'>
           <h2 className='h1 text-center'>Agenda</h2>
           <hr className='styled-hr mx-auto my-6' />
-          <ol className='mx-auto mt-9 grid grid-cols-1'>
-            {/* When we add agenda then uncomment the below code and remove above line */}
-            {/* <ol className='mx-auto mt-9 grid grid-cols-1 justify-center lg:grid-cols-[repeat(2,_minmax(0,32rem))]'> */}
-            <h3 className='h4 text-center'>
-              Agenda is going to be announced soon...
-            </h3>
+
+          <ol className='mx-auto mt-9 grid grid-cols-1 justify-center lg:grid-cols-[repeat(2,_minmax(0,32rem))]'>
+            {content.agendas.map((item, i) => (
+              <AgendaCard key={i} id={i} {...item} />
+            ))}
           </ol>
         </div>
       </section>
