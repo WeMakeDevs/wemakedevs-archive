@@ -63,6 +63,7 @@ const Supper25Content = {
     'Annual subscription to KodeKloud',
     'Travel fund for attending WeMakeDevs events and conferences',
     'Personal mentorship by Kunal Kushwaha',
+    'Referrals to companies by Kunal Kushwaha',
     'Occasional surprise gifts for members',
     'Priority selection for WeMakeDevs events',
     'Many other exciting benefits!',
@@ -106,12 +107,21 @@ const Supper25Content = {
     },
   ],
   eligibile: [
-    'Active open source contributor ⚠️Doesn’t mean you have to have 1000 commits, but active contributions are a plus',
-    'Participation in community events ⚠️Not limited to WeMakeDevs events',
-    'Willingness to learn new technology and work on cool WeMakeDevs open-source projects',
-    'Able to collaborate with other contributors and help others in the community',
-    'We would like to help you grow so let us know anything you are interested in learning',
-    'Enthusiastic about tech and contributing towards it',
+    [
+      'Active open source contributor. ',
+      'Doesn’t mean you have to have 1000 commits, but active contributions are a plus',
+    ],
+    ['Participation in community events. ', 'Not limited to WeMakeDevs events'],
+    [
+      'Willingness to learn new technology and work on cool WeMakeDevs open-source projects',
+    ],
+    [
+      'Able to collaborate with other contributors and help others in the community',
+    ],
+    [
+      'We would like to help you grow so let us know anything you are interested in learning',
+    ],
+    ['Enthusiastic about tech and contributing towards it'],
   ],
   tc: [
     'Follow our community guidelines and rules to maintain a respectful and inclusive environment.',

@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { DiAsterisk } from 'react-icons/di';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 import { VscDebugBreakpointLog } from 'react-icons/vsc';
@@ -99,7 +100,16 @@ const Super25Page = ({ content }) => {
                   style={{ fill: 'url(#blue-gradient)' }}
                   className='h2'
                 />
-                <h3 className='mt-5 font-normal'>{item}</h3>
+                <h3 className='mt-5 font-normal'>
+                  {item.map((i, index) => (
+                    <span
+                      key={i}
+                      className={clsx(index === 1 && 'bg-purple-700/50')}
+                    >
+                      {i}
+                    </span>
+                  ))}
+                </h3>
               </div>
             ))}
           </div>
