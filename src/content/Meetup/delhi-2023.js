@@ -237,7 +237,7 @@ const Delhi2023 = {
     },
     {
       src: '/assets/images/meetup/delhi-2023/sponsors/metabob.png',
-      url: 'https://metabob.com/',
+      url: 'https://bit.ly/3LtjBp9',
     },
   ],
   comuSponsors: [
