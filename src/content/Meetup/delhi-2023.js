@@ -96,7 +96,7 @@ const Delhi2023 = {
       speaker: 'Subhasmita Swain',
     },
     {
-      title: 'Sponsor Video',
+      title: 'Sponsor message',
       start: 'Sun, 7 May 2023 06:30:00 GMT',
       end: 'Sun, 7 May 2023 06:35:00 GMT',
       description: '',
@@ -124,7 +124,7 @@ const Delhi2023 = {
       speaker: '',
     },
     {
-      title: 'Sponsor Video',
+      title: 'Sponsor message',
       start: 'Sun, 7 May 2023 08:30:00 GMT',
       end: 'Sun, 7 May 2023 08:35:00 GMT',
       description: '',
