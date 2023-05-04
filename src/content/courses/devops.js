@@ -13,7 +13,7 @@ const DevopsPageContent = {
     buttons: [
       {
         name: 'Notes & Assigment',
-        href: 'https://github.com/kunal-kushwaha/DevOps-Bootcamp',
+        href: 'https://github.com/WeMakeDevs/roadmaps/tree/main/DevOps',
       },
       {
         name: 'Playlist',
