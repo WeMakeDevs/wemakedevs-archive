@@ -51,8 +51,6 @@ const CocPage = ({ content }) => {
           <p className='text-center font-bold'>
             Aayush Sharma: +91 7011346429
             <br />
-            Bhavya Sachdeva: +91 9310611138
-            <br />
             Siddhant Khisty : +91 8308351644
           </p>
         </div>

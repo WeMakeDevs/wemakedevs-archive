@@ -259,6 +259,9 @@ const Delhi2023 = {
       url: 'https://devtron.ai/',
     },
     {
+      src: '/assets/images/meetup/delhi-2023/sponsors/fluxninja.png',
+    },
+    {
       src: '/assets/images/meetup/delhi-2023/sponsors/shebuilds.png',
     },
     {
