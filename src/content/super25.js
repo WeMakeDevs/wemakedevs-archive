@@ -1,39 +1,40 @@
 const Super25FAQ = [
   {
     id: 'FAQ1',
-    question: 'How do I join?',
+    question:
+      'I am a total beginner in tech and open source. Can I still join?',
     answer:
-      'Submit the registration form, and you will receive an email with venue details if you are selected.',
+      'Yes. The goal of the Super25 program is to help folks build a solid foundation in tech and open source. We will be helping you grow.',
   },
   {
     id: 'FAQ2',
-    question: 'Why should I attend this meetup?',
+    question: 'What will I get out of this program?',
     answer:
-      'You will learn new skills, network with professionals in the field, stay connected to the community, socialize with like-minded people, and gain inspiration from new technologies and ideas.',
+      'Alongside the above listed benefits, we want you to get some exposure to how open source development works, and build some amazing personal projects.',
   },
   {
     id: 'FAQ3',
-    question:
-      'If I am not from Delhi, will I get any student scholarship if I get selected ?',
+    question: 'What if I do not get selected for this program?',
     answer:
-      'Sorry for this time, you have to cover your travel expense on your own.',
+      'If you are not selected for the Super25 this time, there is no need to worry. We will be running these cohorts every 6 months, so you can apply to the next batch.',
   },
   {
     id: 'FAQ4',
-    question: 'What are the precautions to be taken?',
+    question: ' Will I get paid some sitpend during the program period?',
     answer:
-      'We are experiencing rise in Covid in NCR region, we advise you to carry mask and sanitizer bottle along with you for the event.',
+      'It depends on what work you do. We like to give rewards to folks who do some great work.',
   },
   {
     id: 'FAQ5',
-    question: 'Is it for both students and professionals?',
+    question: 'Will I get a referal from Kunal for any company?',
     answer:
-      'Both professionals and students are welcome at this meetup because the talks range in difficulty from beginner to advanced. So, you can complete the registration form regardless of whether you are a student or professional.',
+      'If your profile is suitable, you have the skills, and you have proof of work for a particular role, you will be given referals to companies that are looking for your specific skillset.',
   },
   {
     id: 'FAQ6',
-    question: 'Is it a paid event?',
-    answer: 'This is a completely free-to-join and invite-only event .',
+    question: 'Is this going to be completly DevOps focused?',
+    answer:
+      'It is not going to be focused on devops but open source and skills, but you are encouraged to work on it if you are interested. The program does not focus on any one particular tech.',
   },
 ];
 
@@ -62,10 +63,10 @@ const Supper25Content = {
     'Annual subscription to KodeKloud',
     'Travel fund for attending WeMakeDevs events and conferences',
     'Personal mentorship by Kunal Kushwaha',
-    'Referral to companies by Kunal, if your profile is suitable',
+    'Referrals to companies by Kunal Kushwaha',
     'Occasional surprise gifts for members',
     'Priority selection for WeMakeDevs events',
-    'Plus many other exciting benefits!',
+    'Many other exciting benefits!',
   ],
   agendas: [
     {
@@ -106,12 +107,21 @@ const Supper25Content = {
     },
   ],
   eligibile: [
-    'Active open source contributor (Doesn’t mean you have to have 1000 commits, but active contributions are a plus)',
-    'Participation in community events (Not limited to WeMakeDevs events)',
-    'Willingness to learn new technology and work on cool WeMakeDevs open-source projects',
-    'Able to collaborate with other contributors and help others in the community',
-    'We would like to help you grow so let us know anything you are interested in learning',
-    'Enthusiastic about tech and contributing towards it',
+    [
+      'Active open source contributor. ',
+      'Doesn’t mean you have to have 1000 commits, but active contributions are a plus',
+    ],
+    ['Participation in community events. ', 'Not limited to WeMakeDevs events'],
+    [
+      'Willingness to learn new technology and work on cool WeMakeDevs open-source projects',
+    ],
+    [
+      'Able to collaborate with other contributors and help others in the community',
+    ],
+    [
+      'We would like to help you grow so let us know anything you are interested in learning',
+    ],
+    ['Enthusiastic about tech and contributing towards it'],
   ],
   tc: [
     'Follow our community guidelines and rules to maintain a respectful and inclusive environment.',

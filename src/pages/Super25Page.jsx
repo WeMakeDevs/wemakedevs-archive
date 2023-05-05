@@ -1,9 +1,11 @@
+import clsx from 'clsx';
 import { DiAsterisk } from 'react-icons/di';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 import { VscDebugBreakpointLog } from 'react-icons/vsc';
 
 import Super25TimeLineCard from '@/components/Cards/Super25TimeLineCard';
 import Layout from '@/components/layout';
+import { ArrowLink, ButtonLink } from '@/components/links';
 import ListItem from '@/components/Listitem';
 
 const Super25Page = ({ content }) => {
@@ -19,6 +21,14 @@ const Super25Page = ({ content }) => {
               Expand your knowledge and enhance your skills with our expert-led
               webinars on a wide range of topics.
             </p>
+            <ButtonLink
+              as={ArrowLink}
+              className='items-center justify-center'
+              href='#register'
+              disabled
+            >
+              Apply Now
+            </ButtonLink>
           </div>
           <div className='relative w-full max-w-lg shrink-0'>
             <img src='/assets/images/super25/hero.svg' className='w-full' />
@@ -90,7 +100,16 @@ const Super25Page = ({ content }) => {
                   style={{ fill: 'url(#blue-gradient)' }}
                   className='h2'
                 />
-                <h3 className='mt-5 font-normal'>{item}</h3>
+                <h3 className='mt-5 font-normal'>
+                  {item.map((i, index) => (
+                    <span
+                      key={i}
+                      className={clsx(index === 1 && 'bg-purple-700/50')}
+                    >
+                      {i}
+                    </span>
+                  ))}
+                </h3>
               </div>
             ))}
           </div>

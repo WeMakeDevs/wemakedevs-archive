@@ -7,6 +7,7 @@ const Testimonials = ({
   tweetId,
   as = 'section',
   className,
+  setTweetId,
 }) => {
   const Compoonent = as || 'section';
   return (
@@ -20,7 +21,7 @@ const Testimonials = ({
         <h2 className='h1'>{title}</h2>
         <hr className='styled-hr' />
 
-        <TweetCarousael tweetId={tweetId} />
+        <TweetCarousael tweetId={tweetId} setTweetId={setTweetId} />
       </div>
     </Compoonent>
   );

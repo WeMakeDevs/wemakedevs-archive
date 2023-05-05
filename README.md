@@ -43,12 +43,12 @@ WeMakeDevs provides hands-on training courses and mentorship for free, along wit
 # Connect with us
 
 <a href="https://discord.com/invite/77xJrUBmpp"><img src="https://img.icons8.com/color/2x/discord--v2.png" height="60px"></img></a>
-<a href="https://github.com/WeMakeDevs"><img src="https://img.icons8.com/ios-glyphs/2x/github.png" height="60px"></img></a>
-<a href="https://mobile.twitter.com/WeMakeDevs"><img src="https://img.icons8.com/fluency/2x/twitter.png" height="60px"></img></a>
+<a href="https://github.com/WeMakeDevs"><img src="https://user-images.githubusercontent.com/91791257/235086411-9ec7aa5e-c095-44ce-b9e6-57b3bc3fead2.png" height="60px"></img></a>
+<a href="https://mobile.twitter.com/WeMakeDevs"><img src="https://user-images.githubusercontent.com/91791257/235086530-ee5255ba-6a47-464c-8830-7ca0388b373d.png" height="60px"></img></a>
 <a href="https://www.linkedin.com/company/wemakedevs/?originalSubdomain=in"><img src="https://img.icons8.com/fluency/2x/linkedin.png" height="60px"></img></a>
-<a href="https://hashnode.com/n/wemakedevs"><img src="https://user-images.githubusercontent.com/114678694/208740869-16f68e61-71ad-40fd-9352-9b73b89b8f04.jpg" height="60px"></img></a>
-<a href="https://www.instagram.com/wemakedevs/"><img src="https://img.icons8.com/color/2x/instagram-new.png" height="60px"></img></a>
-<a href="https://t.me/wemakedevs"><img src="https://img.icons8.com/color/2x/telegram-app.png" height="60px"></img></a>
+<a href="https://hashnode.com/n/wemakedevs"><img src="https://user-images.githubusercontent.com/91791257/235087337-b2a7d9c1-d07d-4d07-8f59-51ef37206a62.png" height="55px"></img></a>
+<a href="https://www.instagram.com/wemakedevs/"><img src="https://user-images.githubusercontent.com/91791257/235086447-47658b7b-71fa-4baf-830a-3ba9b3a76a47.png" height="60px"></img></a>
+<a href="https://t.me/wemakedevs"><img src="https://user-images.githubusercontent.com/91791257/235086505-0ec6a969-1a9f-407b-8766-d25cd84a9515.png" height="60px"></img></a>
 
 # Contribute
 

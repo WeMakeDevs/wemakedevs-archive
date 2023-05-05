@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import '@/styles/tailwind.css';
 import 'react-loading-skeleton/dist/skeleton.css';
 
+import CocContent from '@/content/coc';
 import {
   DevopsPageContent,
   DsaPageContent,
@@ -32,6 +33,7 @@ const PerticularhackathonPage = lazy(() =>
 );
 const ParticularMeetupPage = lazy(() => import('@/pages/ParticularMeetupPage'));
 const Super25Page = lazy(() => import('@/pages/Super25Page'));
+const CocPage = lazy(() => import('@/pages/CocPage'));
 const MeetupPage = lazy(() => import('@/pages/MeetupPage'));
 
 const App = () => {
@@ -107,6 +109,9 @@ const App = () => {
             path='/events/super25'
             element={<Super25Page content={Supper25Content} />}
           />
+
+          {/* COC */}
+          <Route exact path='/coc' element={<CocPage content={CocContent} />} />
 
           <Route path='*' element={<ErrorPage />} />
         </Routes>
