@@ -75,19 +75,19 @@ const Delhi2023 = {
       speaker: '',
     },
     {
-      title: ' Code of conduct',
-      start: 'Sun, 7 May 2023 05:30:00 GMT',
-      end: 'Sun, 7 May 2023 05:45:00 GMT',
-      description: '',
-      speaker: 'Aayush Sharma',
-    },
-    {
       title: 'Opening remarks',
-      start: 'Sun, 7 May 2023 05:45:00 GMT',
-      end: 'Sun, 7 May 2023 06:00:00 GMT',
+      start: 'Sun, 7 May 2023 05:30:00 GMT',
+      end: 'Sun, 7 May 2023 05:40:00 GMT',
       description: '',
       speaker: 'Kunal Kushwaha',
     },
+    {
+      title: ' Code of conduct',
+      start: 'Sun, 7 May 2023 05:40:00 GMT',
+      end: 'Sun, 7 May 2023 06:00:00 GMT',
+      description: '',
+      speaker: 'Aayush Sharma',
+    },   
     {
       title: 'Head-to-Head: DevOps vs MLOps – Unraveling the Confusion',
       start: 'Sun, 7 May 2023 06:00:00 GMT',
