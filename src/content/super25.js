@@ -61,14 +61,14 @@ const Supper25Content = {
   faq: Super25FAQ,
   heroImg: '/assets/images/super25/benefits.svg',
   whyjoin: [
-    'Annual subscription to KodeKloud',
-    'Travel fund for attending WeMakeDevs events and conferences',
     'Personal mentorship by Kunal Kushwaha',
+    'Travel fund for attending WeMakeDevs events and conferences',
     'Referrals to companies by Kunal Kushwaha',
     'Occasional surprise gifts for members',
     'Priority selection for WeMakeDevs events',
     'Exclusive swags',
     'Career guidance',
+    'Annual subscription to platforms like KodeKloud',
   ],
   agendas: [
     {
