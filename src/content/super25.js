@@ -32,9 +32,10 @@ const Super25FAQ = [
   },
   {
     id: 'FAQ6',
-    question: 'Is this going to be completly DevOps focused?',
+    question:
+      'Will I be able to get various applications such as my CFPs and resumes reviewed?',
     answer:
-      'It is not going to be focused on devops but open source and skills, but you are encouraged to work on it if you are interested. The program does not focus on any one particular tech.',
+      'Yes. You will be able to get your CFP abstracts, resumes and social profiles reviewed by Kunal and other expert speakers.',
   },
 ];
 
@@ -66,7 +67,8 @@ const Supper25Content = {
     'Referrals to companies by Kunal Kushwaha',
     'Occasional surprise gifts for members',
     'Priority selection for WeMakeDevs events',
-    'Many other exciting benefits!',
+    'Exclusive swags',
+    'Career guidance',
   ],
   agendas: [
     {
@@ -107,10 +109,7 @@ const Supper25Content = {
     },
   ],
   eligibile: [
-    [
-      'Active open source contributor. ',
-      'Doesn’t mean you have to have 1000 commits, but active contributions are a plus',
-    ],
+    ['Passionate about open source and communities'],
     ['Participation in community events. ', 'Not limited to WeMakeDevs events'],
     [
       'Willingness to learn new technology and work on cool WeMakeDevs open-source projects',
