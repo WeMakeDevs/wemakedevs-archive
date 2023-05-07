@@ -24,7 +24,7 @@ const Super25Page = ({ content }) => {
             <ButtonLink
               as={ArrowLink}
               className='items-center justify-center'
-              href='#register'
+              href='https://airtable.com/shrnWLMutGCI0lpln'
               disabled
             >
               Apply Now
