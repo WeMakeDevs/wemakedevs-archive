@@ -48,11 +48,6 @@ const CocPage = ({ content }) => {
             creating a safe and welcoming community for all members, and we
             appreciate your help in achieving that goal.
           </p>
-          <p className='text-center font-bold'>
-            Aayush Sharma: +91 7011346429
-            <br />
-            Siddhant Khisty : +91 8308351644
-          </p>
         </div>
       </section>
     </Layout>
