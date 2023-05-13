@@ -18,9 +18,11 @@ const Register = ({ register }) => {
   return (
     <div id='register'>
       <div className='mx-auto flex flex-col items-center justify-center gap-4 py-20 text-center'>
-        <h2 className='h1'>Regsiter for the webinar</h2>
+        <h2 className='h1'>Register for the webinar</h2>
         <hr className='styled-hr' />
-        <p className='h3'>Regsiter and learn by great developer and creators</p>
+        <p className='h3'>
+          Register and learn by great developers and creators
+        </p>
         <iframe
           src={`https://wemakedevs-newsletter.vercel.app/${register}.html`}
           width='100%'
