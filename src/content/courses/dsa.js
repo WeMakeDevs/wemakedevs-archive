@@ -114,7 +114,7 @@ const DsaPageContent = {
           "Introduction, BFS, DFS, components, minimum spanning trees, Kruskal, Prims, Dijkstra's shortest path, topological sort, Bellman ford, A* pathfinding.",
       },
       {
-        title: 'Additonal topics',
+        title: 'Additional topics',
         description:
           "Greedy algorithms, tries, sliding window, two pointer, kadane's algorithm, and more!",
       },
