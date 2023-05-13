@@ -55,7 +55,7 @@ const PerticularhackathonPage = ({ content }) => {
               .join('')}
           </div>
           <div className='h2 font-bold'>
-            Winnner announcement{' '}
+            Winner announcement{' '}
             {new Date(content.winnerAnnouc).toLocaleDateString('en-US', {
               dateStyle: 'medium',
             })}{' '}
