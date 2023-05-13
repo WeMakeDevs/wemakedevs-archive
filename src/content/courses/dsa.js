@@ -12,7 +12,7 @@ const DsaPageContent = {
     videoLink: 'https://www.youtube.com/embed/rZ41y93P2Qo',
     buttons: [
       {
-        name: 'Notes & Assigment',
+        name: 'Notes & Assignment',
         href: 'https://github.com/kunal-kushwaha/DSA-Bootcamp-Java',
       },
       {
