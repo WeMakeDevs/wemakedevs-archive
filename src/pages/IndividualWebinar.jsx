@@ -53,7 +53,7 @@ const IndividualWebinarPage = ({ content }) => {
               style={{
                 marginTop: '1rem',
                 display: 'flex',
-                justifyContent: 'cetner',
+                justifyContent: 'center',
                 alignItems: 'center',
                 gap: '1rem',
                 flexDirection: 'row',
@@ -65,7 +65,7 @@ const IndividualWebinarPage = ({ content }) => {
               style={{
                 marginTop: '1rem',
                 display: 'flex',
-                justifyContent: 'cetner',
+                justifyContent: 'center',
                 alignItems: 'center',
                 gap: '1rem',
                 flexDirection: 'row',
