@@ -43,7 +43,7 @@ const App = () => {
         <Routes>
           <Route exact path='/' element={<HomePage />} />
 
-          {/* Coourses */}
+          {/* Courses */}
           <Route
             exact
             path='/courses'
