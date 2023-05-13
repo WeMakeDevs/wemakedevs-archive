@@ -83,7 +83,7 @@ const Super25Page = ({ content }) => {
         </div>
       </section>
 
-      {/* Eligibile Section */}
+      {/* Eligible Section */}
       <section id='eligibile'>
         <div className='layout py-20 text-center'>
           <h2 className='h1 mb-4'>Eligibility Criteria for Membership</h2>
