@@ -90,7 +90,7 @@ export const HashnodePageContent = {
       id: 'FAQ1',
       question: 'How do I win the grand prize?',
       answer:
-        'Submit good quality blogs for the tracks. The blogger with best quailiy of blogs will win the grand prize',
+        'Submit good quality blogs for the tracks. The blogger with best quality of blogs will win the grand prize',
     },
     {
       id: 'FAQ2',
