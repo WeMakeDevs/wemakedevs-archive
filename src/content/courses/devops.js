@@ -12,7 +12,7 @@ const DevopsPageContent = {
     videoLink: 'https://www.youtube.com/embed/ZbG0c87wcM8',
     buttons: [
       {
-        name: 'Notes & Assigment',
+        name: 'Notes & Assignment',
         href: 'https://github.com/kunal-kushwaha/DevOps-Bootcamp',
       },
       {
