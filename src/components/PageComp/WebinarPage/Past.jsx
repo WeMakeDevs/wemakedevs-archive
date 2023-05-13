@@ -18,7 +18,7 @@ const Upcoming = () => {
               )
               .map((web) => <WebinarCard {...web} key={web.image} />)
           ) : (
-            <p>There no past events are happend till now</p>
+            <p>There no past events have happened till now</p>
           )}
         </div>
       </div>
