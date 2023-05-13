@@ -87,7 +87,7 @@ const Delhi2023 = {
       end: 'Sun, 7 May 2023 06:00:00 GMT',
       description: '',
       speaker: 'Aayush Sharma',
-    },   
+    },
     {
       title: 'Head-to-Head: DevOps vs MLOps – Unraveling the Confusion',
       start: 'Sun, 7 May 2023 06:00:00 GMT',
