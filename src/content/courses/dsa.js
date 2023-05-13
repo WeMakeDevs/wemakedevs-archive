@@ -63,7 +63,7 @@ const DsaPageContent = {
       {
         title: 'Hashmaps',
         description:
-          'Introduction, theory, comparisions, limitations, map using Linked List, map using Hash, sorting, chaining, probing, huffman-encoder.',
+          'Introduction, theory, comparisons, limitations, map using Linked List, map using Hash, sorting, chaining, probing, huffman-encoder.',
       },
       {
         title: 'Dynamic programming',
