@@ -150,7 +150,7 @@ export const EventsPageContent = {
   faq: [
     {
       id: 'FAQ1',
-      question: 'What kinds of events do you organzie? ',
+      question: 'What kinds of events do you organize? ',
       answer:
         'We run tons of events such as hackathons, monthly blogging challenges, open source events, and lots more.',
     },
