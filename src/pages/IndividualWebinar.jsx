@@ -44,7 +44,7 @@ const IndividualWebinarPage = ({ content }) => {
             className='h2'
             style={{
               display: 'flex',
-              justifyContent: 'cetner',
+              justifyContent: 'center',
               gap: '1rem',
               flexDirection: 'column',
             }}
