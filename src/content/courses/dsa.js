@@ -77,7 +77,7 @@ const DsaPageContent = {
       {
         title: 'Functions / Methods',
         description:
-          'Introductiob to functions, scoping, shadowing, functional arguments, function overloading.',
+          'Introduction to functions, scoping, shadowing, functional arguments, function overloading.',
       },
       {
         title: 'Searching',
