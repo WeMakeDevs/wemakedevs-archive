@@ -66,7 +66,7 @@ const Work = () => {
   return (
     <div className='pb-20'>
       <div className='layout mx-auto'>
-        <h2 className='h1 text-center font-bold text-gray-800 dark:text-gray-300'>
+        <h2 className='h1 text-center font-bold text-gray-300 dark:text-gray-300'>
           Our students work at
         </h2>
         <hr className='styled-hr mx-auto my-6' />
