@@ -20,15 +20,15 @@ const Super25FAQ = [
   },
   {
     id: 'FAQ4',
-    question: ' Will I get paid some sitpend during the program period?',
+    question: ' Will I get paid some stipend during the program period?',
     answer:
       'It depends on what work you do. We like to give rewards to folks who do some great work.',
   },
   {
     id: 'FAQ5',
-    question: 'Will I get a referal from Kunal for any company?',
+    question: 'Will I get a referral from Kunal for any company?',
     answer:
-      'If your profile is suitable, you have the skills, and you have proof of work for a particular role, you will be given referals to companies that are looking for your specific skillset.',
+      'If your profile is suitable, you have the skills, and you have proof of work for a particular role, you will be given referrals to companies that are looking for your specific skillset.',
   },
   {
     id: 'FAQ6',
