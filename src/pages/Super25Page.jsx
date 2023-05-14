@@ -46,7 +46,7 @@ const Super25Page = ({ content }) => {
                 {content.whyjoin.map((item, i) => {
                   return (
                     <ListItem
-                      className='relative z-10 w-full cursor-pointer items-center rounded-md border-none bg-base-200/80 p-5 text-white'
+                      className='relative z-10 w-full items-center rounded-md border-none bg-base-200/80 p-5 text-white'
                       iconClassName='text-white'
                       icon={DiAsterisk}
                       key={`${item}${i}`}
