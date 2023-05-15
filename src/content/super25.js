@@ -20,21 +20,22 @@ const Super25FAQ = [
   },
   {
     id: 'FAQ4',
-    question: ' Will I get paid some sitpend during the program period?',
+    question: ' Will I get paid some stipend during the program period?',
     answer:
       'It depends on what work you do. We like to give rewards to folks who do some great work.',
   },
   {
     id: 'FAQ5',
-    question: 'Will I get a referal from Kunal for any company?',
+    question: 'Will I get a referral from Kunal for any company?',
     answer:
-      'If your profile is suitable, you have the skills, and you have proof of work for a particular role, you will be given referals to companies that are looking for your specific skillset.',
+      'If your profile is suitable, you have the skills, and you have proof of work for a particular role, you will be given referrals to companies that are looking for your specific skillset.',
   },
   {
     id: 'FAQ6',
-    question: 'Is this going to be completly DevOps focused?',
+    question:
+      'Will I be able to get various applications such as my CFPs and resumes reviewed?',
     answer:
-      'It is not going to be focused on devops but open source and skills, but you are encouraged to work on it if you are interested. The program does not focus on any one particular tech.',
+      'Yes. You will be able to get your CFP abstracts, resumes and social profiles reviewed by Kunal and other expert speakers.',
   },
 ];
 
@@ -60,13 +61,14 @@ const Supper25Content = {
   faq: Super25FAQ,
   heroImg: '/assets/images/super25/benefits.svg',
   whyjoin: [
-    'Annual subscription to KodeKloud',
-    'Travel fund for attending WeMakeDevs events and conferences',
     'Personal mentorship by Kunal Kushwaha',
+    'Travel fund for attending WeMakeDevs events and conferences',
     'Referrals to companies by Kunal Kushwaha',
     'Occasional surprise gifts for members',
     'Priority selection for WeMakeDevs events',
-    'Many other exciting benefits!',
+    'Exclusive swags',
+    'Career guidance',
+    'Annual subscription to platforms like KodeKloud',
   ],
   agendas: [
     {
@@ -107,10 +109,7 @@ const Supper25Content = {
     },
   ],
   eligibile: [
-    [
-      'Active open source contributor. ',
-      'Doesn’t mean you have to have 1000 commits, but active contributions are a plus',
-    ],
+    ['Passionate about open source and communities'],
     ['Participation in community events. ', 'Not limited to WeMakeDevs events'],
     [
       'Willingness to learn new technology and work on cool WeMakeDevs open-source projects',
