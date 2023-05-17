@@ -11,16 +11,21 @@ const About = () => {
       direction='left'
     >
       <ListItem>
-      Open source software is accessible to the public at no cost, allowing anyone to view, modify, and distribute its source code.
+        Open source software is accessible to the public at no cost, allowing
+        anyone to view, modify, and distribute its source code.
       </ListItem>
       <ListItem>
-      The open source community is made up of developers and users who work together on software projects through online platforms like GitHub.
+        The open source community is made up of developers and users who work
+        together on software projects through online platforms like GitHub.
       </ListItem>
       <ListItem>
-      Open source software is valued for its transparency, flexibility, and security, as the code can be reviewed and modified by anyone.
+        Open source software is valued for its transparency, flexibility, and
+        security, as the code can be reviewed and modified by anyone.
       </ListItem>
-      <ListItem>Popular examples of open source software include Linux, Apache, Firefox, and WordPress</ListItem>
-      
+      <ListItem>
+        Popular examples of open source software include Linux, Apache, Firefox,
+        and WordPress
+      </ListItem>
     </ColumnSection>
   );
 };
