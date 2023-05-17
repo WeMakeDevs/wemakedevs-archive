@@ -4,13 +4,18 @@ import { Route, Routes } from 'react-router-dom';
 import '@/styles/tailwind.css';
 import 'react-loading-skeleton/dist/skeleton.css';
 
-import { DevopsPageContent } from '@/content/devops';
-import { DsaPageContent } from '@/content/dsa';
-import { GitGithubPageContent } from '@/content/gitGithub';
+import CocContent from '@/content/coc';
+import {
+  DevopsPageContent,
+  DsaPageContent,
+  GitGithubPageContent,
+} from '@/content/courses';
+import { CoursesPageContent } from '@/content/courses/CoursesPageContent';
 import NapptiveHackathon from '@/content/Hackathons/napptive';
 import { MeetupPageContent } from '@/content/Meetup';
 import Delhi2023 from '@/content/Meetup/delhi-2023';
 import { OpensourcePageContent } from '@/content/opensource';
+import Supper25Content from '@/content/super25';
 import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 
 import { Loader } from '@/components/layout';
@@ -28,6 +33,8 @@ const PerticularhackathonPage = lazy(() =>
   import('@/pages/PerticularhackathonPage')
 );
 const ParticularMeetupPage = lazy(() => import('@/pages/ParticularMeetupPage'));
+const Super25Page = lazy(() => import('@/pages/Super25Page'));
+const CocPage = lazy(() => import('@/pages/CocPage'));
 const MeetupPage = lazy(() => import('@/pages/MeetupPage'));
 const OpenSourcePage = lazy(() => import('@/pages/OpenSourcePage'));
 
@@ -39,7 +46,11 @@ const App = () => {
           <Route exact path='/' element={<HomePage />} />
 
           {/* Coourses */}
-          <Route exact path='/courses' element={<CoursesPage />} />
+          <Route
+            exact
+            path='/courses'
+            element={<CoursesPage content={CoursesPageContent} />}
+          />
           <Route
             exact
             path='/courses/dsa'
@@ -101,11 +112,28 @@ const App = () => {
             element={<OpenSourcePage content={OpensourcePageContent} />}
           />
 
+          {/* Super 25 */}
+          <Route
+            exact
+            path='/events/super25'
+            element={<Super25Page content={Supper25Content} />}
+          />
+
+          {/* COC */}
+          <Route exact path='/coc' element={<CocPage content={CocContent} />} />
+
           {/* Error Page */}
           <Route path='*' element={<ErrorPage />} />
         </Routes>
         <ScrollToTop />
       </div>
+
+      <svg width='0' height='0'>
+        <linearGradient id='blue-gradient' x1='100%' y1='100%' x2='0%' y2='0%'>
+          <stop stopColor='#ef4444' offset='0%' />
+          <stop stopColor='#8b5cf6' offset='100%' />
+        </linearGradient>
+      </svg>
     </Suspense>
   );
 };

@@ -6,6 +6,7 @@ import PastEvent5 from 'assets/events/past-event-5.jpeg';
 import PastEvent6 from 'assets/events/past-event-6.jpeg';
 import PastEvent7 from 'assets/events/past-event-7.jpeg';
 import PastEvent8 from 'assets/events/past-event-8.jpeg';
+import NapptiveBanner from 'assets/hackathon/napptive/Banner.jpg';
 
 import DetailCard from '@/components/Cards/DetailCard';
 
@@ -30,6 +31,13 @@ export default PastEvents;
 // Data Section
 
 const eventsData = [
+  {
+    description:
+      'Do you want to learn new skills, discover how to build and deploy cloud native apps and meet like-minded people? Find this and much more by participating in our hackathon!',
+    image: NapptiveBanner,
+    url: '/events/hackathons/napptive',
+    btnText: 'Know more',
+  },
   {
     description:
       'WeMakeDevs is running a month long Battlesnake Battleground event. The idea is for you to build your snake, use any algorithm that you like, and compete with people around the world. Anyone with beginner-level coding knowledge can have fun with Battlesnake.',

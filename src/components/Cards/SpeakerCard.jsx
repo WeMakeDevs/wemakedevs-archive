@@ -4,12 +4,12 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 
 const SpeakerCard = ({ img, name, description, linkedin, twitter }) => {
   return (
-    <div className='flex flex-col items-center justify-center overflow-hidden rounded-lg border border-content/50 bg-base-200 py-10'>
+    <div className='flex flex-col items-center justify-center overflow-hidden rounded-lg border border-content/50 bg-base-200  px-2 py-10 text-center'>
       {img && (
         <img
           src={img}
           alt={name + ' profile'}
-          className='block aspect-square w-60 rounded-full'
+          className='block aspect-square w-60 rounded-full xl:w-52'
         />
       )}
 

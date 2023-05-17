@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { BiCool } from 'react-icons/bi';
 import { BsFillMicFill, BsFillPeopleFill } from 'react-icons/bs';
 import { CiPizza } from 'react-icons/ci';
@@ -6,6 +6,7 @@ import { DiAsterisk } from 'react-icons/di';
 
 import { getDateTime } from '@/lib/utils';
 
+import AgendaCard from '@/components/Cards/AgendaCard';
 import SpeakerCard from '@/components/Cards/SpeakerCard';
 import SponserCard from '@/components/Cards/SponserCard';
 import StatCard from '@/components/Cards/StatCard';
@@ -31,11 +32,18 @@ const ParticularMeetupPage = ({ content }) => {
               </>
             ))}
           </h2>
-          <div className='h2 mt-12 font-normal'>
+          <iframe
+            src={content.venueVideoLink}
+            title='YouTube video player'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            allowfullscreen
+            className='mt-8 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 object-cover shadow-[0_1rem_3rem] shadow-primary/80'
+          ></iframe>
+          <div className='h2 mt-12 font-semibold'>
             {getDateTime(content.on)} onwards
           </div>
-          <ButtonLink as={ArrowLink} href='#register'>
-            Register
+          <ButtonLink as={ArrowLink} href='/coc'>
+            Code of conduct
           </ButtonLink>
         </div>
       </section>
@@ -76,12 +84,12 @@ const ParticularMeetupPage = ({ content }) => {
                 icon: BsFillPeopleFill,
               },
               {
-                name: 'Talks by Amazing Speakers',
+                name: 'Talks by amazing speakers',
                 value: 5,
                 icon: BsFillMicFill,
               },
               {
-                name: 'Free Pizza',
+                name: 'Free pizza',
                 value: '',
                 suffix: '',
                 icon: CiPizza,
@@ -109,31 +117,32 @@ const ParticularMeetupPage = ({ content }) => {
         <div className='layout py-20'>
           <h2 className='h1 text-center'>Agenda</h2>
           <hr className='styled-hr mx-auto my-6' />
-          <ol className='mx-auto mt-9 grid grid-cols-1'>
-            {/* When we add agenda then uncomment the below code and remove above line */}
-            {/* <ol className='mx-auto mt-9 grid grid-cols-1 justify-center lg:grid-cols-[repeat(2,_minmax(0,32rem))]'> */}
-            <h3 className='h4 text-center'>
-              Agenda is going to be announced soon...
-            </h3>
+
+          <ol className='mx-auto mt-9 grid grid-cols-1 justify-center lg:grid-cols-[repeat(2,_minmax(0,32rem))]'>
+            {content.agendas.map((item, i) => (
+              <AgendaCard key={i} id={i} {...item} />
+            ))}
           </ol>
         </div>
       </section>
+
       <section id='speakers'>
         <div className='layout py-20'>
-          <h2 className='h1'>Speakers</h2>
-          <hr className='styled-hr my-6' />
-          <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
+          <h2 className='h1 text-center'>Speakers</h2>
+          <hr className='styled-hr my-6 mx-auto' />
+          <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
             {content.speakers.map((speaker) => (
               <SpeakerCard key={speaker.name} {...speaker} />
             ))}
           </div>
         </div>
       </section>
+
       <section id='sponsors'>
         <div className='layout py-20 text-center'>
           <h2 className='h1 '>Sponsors</h2>
           <hr className='styled-hr my-6 mx-auto' />
-          <ol className='flex flex-wrap items-center justify-center gap-6'>
+          <ol className='item-stretch flex flex-wrap justify-center gap-6'>
             {content.sponsors.length > 0 ? (
               content.sponsors.map((sponser) => (
                 <SponserCard key={sponser.name} {...sponser} />
@@ -144,6 +153,7 @@ const ParticularMeetupPage = ({ content }) => {
           </ol>
         </div>
       </section>
+
       <section id='com-sponser'>
         <div className='layout py-20 text-center'>
           <h2 className='h1 '>Community partners</h2>
@@ -161,6 +171,7 @@ const ParticularMeetupPage = ({ content }) => {
           </ol>
         </div>
       </section>
+
       <section id='past-meetup'>
         <div className='py-20 text-center'>
           <h2 className='h1'>Past meetup</h2>
@@ -182,6 +193,21 @@ const ParticularMeetupPage = ({ content }) => {
           </div>
         </div>
       </section>
+
+      <section id='past-meetup'>
+        <div className='py-20 text-center'>
+          <h2 className='h1'>Minutes of past meetups</h2>
+          <hr className='styled-hr my-6 mx-auto' />
+          <iframe
+            src='https://www.youtube.com/embed/6AQ7-LDcStM'
+            title='YouTube video player'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            allowfullscreen
+            className='mx-auto mt-8 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 object-cover shadow-[0_1rem_3rem] shadow-primary/80'
+          ></iframe>
+        </div>
+      </section>
+
       <Register name={content.slug} />
     </Layout>
   );
@@ -189,33 +215,32 @@ const ParticularMeetupPage = ({ content }) => {
 
 export default ParticularMeetupPage;
 
-const Register = ({ name }) => {
-  const [iframeHeight, setIframeHeight] = useState(1000);
+const Register = () => {
+  // const [iframeHeight, setIframeHeight] = useState(1200);
 
   useEffect(() => {
-    const windowWidth = window.innerWidth;
-
-    if (windowWidth < 900) {
-      setIframeHeight(1200);
-    } else if (windowWidth < 1250) {
-      setIframeHeight(700);
-    } else {
-      setIframeHeight(1000);
-    }
+    // const windowWidth = window.innerWidth;
+    // if (windowWidth < 900) {
+    //   setIframeHeight(1200);
+    // } else if (windowWidth < 1250) {
+    //   setIframeHeight(700);
+    // } else {
+    //   setIframeHeight(1200);
+    // }
   }, []);
 
   return (
     <section id='register'>
       <div className='mx-auto flex flex-col items-center justify-center gap-4 py-20 text-center'>
-        <h2 className='h1'>Register for the meetup</h2>
+        <h2 className='h1'>Registrations have been closed</h2>
         <hr className='styled-hr' />
-        <iframe
+        {/* <iframe
           src={`https://wemakedevs-newsletter.vercel.app/${name}.html`}
           width='100%'
           style={{ border: '0' }}
           height={iframeHeight}
           title='Subscribe to our newsletter by entering your details below'
-        ></iframe>
+        ></iframe> */}
       </div>
     </section>
   );

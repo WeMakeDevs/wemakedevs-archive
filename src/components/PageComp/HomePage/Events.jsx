@@ -1,4 +1,5 @@
 import BannerImage from 'assets/home/latestevents.png';
+import { useState } from 'react';
 
 import prizetweetid from '@/content/prizetweetid';
 
@@ -7,6 +8,7 @@ import ColumnSection from '@/components/layout/ColumnSection';
 import ListItem from '@/components/Listitem';
 
 const Events = () => {
+  const [tweetId, setTweetId] = useState(prizetweetid);
   return (
     <section>
       <ColumnSection
@@ -45,8 +47,9 @@ const Events = () => {
       </ColumnSection>
       <Testimonials
         as='div'
-        tweetId={prizetweetid}
-        title='Testimonials'
+        tweetId={tweetId}
+        setTweetId={setTweetId}
+        title='Events Winners'
         className='pt-0'
       />
     </section>

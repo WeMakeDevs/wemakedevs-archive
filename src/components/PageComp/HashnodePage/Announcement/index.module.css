@@ -1,6 +1,7 @@
 .section {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .layout {
@@ -100,7 +101,6 @@
   white-space: nowrap;
   position: absolute;
   top: 0;
-  left: 50%;
   transform: translateX(-50%, -50%);
   background-color: var(--clr-base-100);
   color: var(--clr-content);

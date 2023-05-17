@@ -1,6 +1,6 @@
-import { SingleCoursesPageHeader } from '../pages/content';
+import { SingleCoursesPageHeader } from '@/content/courses/CoursesPageContent';
 
-export const GitGithubPageContent = {
+const GitGithubPageContent = {
   header: SingleCoursesPageHeader,
   content: {
     title: {
@@ -118,3 +118,5 @@ export const GitGithubPageContent = {
     },
   ],
 };
+
+export default GitGithubPageContent;

@@ -6,7 +6,7 @@ const Announcement = () => {
   const progress = 3;
   const total = 4;
   return (
-    <section>
+    <section className={styles.section}>
       <div className={clsx('layout', styles.layout)}>
         <h3 className='heading'>
           INR ₹

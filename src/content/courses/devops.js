@@ -1,6 +1,6 @@
-import { SingleCoursesPageHeader } from '../pages/content';
+import { SingleCoursesPageHeader } from '@/content/courses/CoursesPageContent';
 
-export const DevopsPageContent = {
+const DevopsPageContent = {
   header: SingleCoursesPageHeader,
   content: {
     title: {
@@ -146,3 +146,5 @@ export const DevopsPageContent = {
     },
   ],
 };
+
+export default DevopsPageContent;

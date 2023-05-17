@@ -10,7 +10,7 @@ const Speakers = ({ speakers }) => {
           <SpeakerCard
             {...{
               name: 'Kunal Kushwaha',
-              description: 'DevRel Manger @Civo',
+              description: 'DevRel Manager @Civo',
               twitter: 'kunalstwt',
               img: 'https://github.com/kunal-kushwaha.png',
             }}

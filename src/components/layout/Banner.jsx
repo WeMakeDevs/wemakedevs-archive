@@ -21,21 +21,16 @@ const Banner = () => {
         {' '}
         <TfiAnnouncement className='h1 ml-auto shrink-0 rounded-lg bg-base-100/80 p-2' />
         <p className='h3 text-center font-semibold text-base-100'>
-          Take part in the{' '}
-          <span className='highlight highlight--dark'>Napptive hackathon </span>
-          and win some exciting prizes{' '}
-          {/* <span className='highlight highlight--dark'>
-            , click on the button to know more
-          </span>{' '} */}
-          !
+          Checkout our upcoming{' '}
+          <span className='highlight highlight--dark'>Super25 program</span>{' '}
         </p>
         <ArrowLink
           className='rounded-md py-2 px-4'
           as={ButtonLink}
-          href='/events/hackathons/napptive'
+          href='/events/super25'
           openNewTab
         >
-          Hackathon
+          Super25
         </ArrowLink>
         <button
           className='h3 ml-auto mr-6 flex shrink-0 items-center justify-center border-none text-base-100'

@@ -9,62 +9,82 @@ import Samsung from '@/assets/home/company/samsung.svg';
 import towerResearch from '@/assets/home/company/towerResearch.svg';
 import Virtusa from '@/assets/home/company/virtusa.svg';
 
+const companies = [
+  {
+    id: 1,
+    name: 'Google',
+    img_url: Google,
+  },
+  {
+    id: 2,
+    name: 'Microsoft',
+    img_url: Microsoft,
+  },
+  {
+    id: 3,
+    name: 'Amazon',
+    img_url: Amazon,
+  },
+  {
+    id: 4,
+    name: 'Adobe',
+    img_url: Adobe,
+  },
+  {
+    id: 5,
+    name: 'Razorpay',
+    img_url: Razorpay,
+  },
+  {
+    id: 6,
+    name: 'Samsung',
+    img_url: Samsung,
+  },
+  {
+    id: 7,
+    name: 'Cisco',
+    img_url: Cisco,
+  },
+  {
+    id: 8,
+    name: 'Virtusa',
+    img_url: Virtusa,
+  },
+  {
+    id: 9,
+    name: 'Clicklabs',
+    img_url: Clicklabs,
+  },
+  {
+    id: 10,
+    name: 'towerResearch',
+    img_url: towerResearch,
+  },
+];
+
 const Work = () => {
   return (
-    <div className='layout pb-20'>
-      <h2 className='h1'>Our students work at</h2>
-      <hr className='styled-hr my-6' />
-      <div className='flex flex-wrap justify-center gap-x-12 gap-y-6'>
-        <img
-          src={Google}
-          alt='google'
-          className='mx-auto max-w-[250px] md:mx-0'
-        />
-        <img
-          src={Amazon}
-          alt='amazon'
-          className='mx-auto max-w-[250px] md:mx-0'
-        />
-        <img
-          src={Microsoft}
-          alt='microsoft'
-          className='mx-auto max-w-[250px] md:mx-0'
-        />
-        <img
-          src={Adobe}
-          alt='adobe'
-          className='mx-auto max-w-[250px] md:mx-0'
-        />
-        <img
-          src={Samsung}
-          alt='samsung'
-          className='mx-auto max-w-[250px] md:mx-0'
-        />
-        <img
-          src={Virtusa}
-          alt='virtusa'
-          className='mx-auto max-w-[250px] md:mx-0'
-        />
-        <img
-          src={Cisco}
-          alt='Cisco'
-          className='mx-auto max-w-[250px] md:mx-0'
-        />
-        <img
-          src={Razorpay}
-          alt='Razorpay'
-          className='mx-auto max-w-[250px] md:mx-0'
-        />
-        <img
-          src={Clicklabs}
-          alt='Clicklabs'
-          className='mx-auto max-w-[250px] md:mx-0'
-        />
-        <img
-          src={towerResearch}
-          alt='Tower Research'
-          className='mx-auto max-w-[250px] md:mx-0'
-        />
+    <div className='pb-20'>
+      <div className='layout mx-auto'>
+        <h2 className='h1 text-center font-bold text-gray-300 dark:text-gray-300'>
+          Our students work at
+        </h2>
+        <hr className='styled-hr mx-auto my-6' />
+
+        <div className='mx-auto flex flex-wrap items-center justify-center'>
+          {companies.map((company) => (
+            <div
+              key={company.id}
+              className='m-4 h-28 w-56 rounded-lg border border-white/20  bg-base-200'
+            >
+              <img
+                className='mx-auto h-full w-full object-contain'
+                src={company.img_url}
+                alt={company.name}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
