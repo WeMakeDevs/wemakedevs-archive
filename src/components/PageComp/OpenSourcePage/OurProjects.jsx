@@ -1,7 +1,3 @@
-import Devops from 'assets/courses/devops.jpg';
-import DSA from 'assets/courses/dsa.jpg';
-import GitGithub from 'assets/courses/git-github.jpg';
-
 import DetailCard from '../../Cards/DetailCard';
 
 const OurProjects = () => {
@@ -24,11 +20,12 @@ export default OurProjects;
 
 const projects = [
   {
-    title: 'WMD website',
+    title: 'WeMakeDevs website',
     description:
       'Our goal is to inspire, educate, and empower the software developer student community to reach their full potential and make a positive impact in the tech industry.      ',
     image: '/assets/ourprojects/wmd.png',
     url: 'https://wemakedevs.org/',
+    git: 'https://github.com/WeMakeDevs/wemakedevs',
     btnText: 'Learn more',
   },
   {
@@ -38,5 +35,6 @@ const projects = [
     image: '/assets/ourprojects/roadmap.png',
     url: 'https://roadmaprunner.vercel.app/',
     btnText: 'Learn more',
-  }
+    git: 'https://github.com/WeMakeDevs/roadmap-runner',
+  },
 ];
