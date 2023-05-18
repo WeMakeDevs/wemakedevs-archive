@@ -1,5 +1,6 @@
 import Carousel from 'better-react-carousel';
 import React, { useEffect, useMemo, useState } from 'react';
+import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
 import Skeleton from 'react-loading-skeleton';
 import { eagerLoadTwitterLibrary, Tweet } from 'react-twitter-widgets';
 
@@ -59,6 +60,18 @@ function TweetCarousael({ tweetId, setTweetId }) {
             gap={10}
             autoplay={2500}
             dotColorActive='rgb(89,66,233)'
+            arrowRight={
+              <AiFillRightCircle
+                size={50}
+                className='absolute top-1/2 right-[-35px] z-10 -translate-y-1/2 cursor-pointer rounded-full bg-black text-2xl text-indigo-600'
+              />
+            }
+            arrowLeft={
+              <AiFillLeftCircle
+                size={50}
+                className='absolute top-1/2 left-[-35px] z-10 -translate-y-1/2 cursor-pointer rounded-full bg-black text-2xl text-indigo-600'
+              />
+            }
             showDots
             loop
           >
