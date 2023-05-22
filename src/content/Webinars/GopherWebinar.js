@@ -7,9 +7,9 @@ import {
 
 const GopherWebinar = {
   header: IndividualWebinarCompletedPageHeader,
-  name: 'Let\'s Talk About the Gopher in the Room',
+  name: "Let's Talk About the Gopher in the Room",
   description:
-    'Why you should use Golang, and how to leverage it to become a better developer',
+    "In this talk I will explain why Golang is my go-to programming language, why you should start using it too (it's easy to learn is reason #1), and how to leverage it to become a better developer. ",
   poster: Poster,
   videoUrl: 'TBD',
   takeaways: [
@@ -18,7 +18,7 @@ const GopherWebinar = {
     'Best practices and pro tips',
     'The Go ecosystem and community',
   ],
-  time: '17 March 2023 14:00:00 GMT',
+  time: '30 May 2023 16:00:00 GMT',
   speakers: [
     {
       name: 'Nir Shtein',
