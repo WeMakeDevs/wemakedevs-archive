@@ -2,6 +2,7 @@ import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPa
 
 import BPFWebinar from './BPFWebinar';
 import NoCodeApproachWebianr from './NoCodeApproachWebianr';
+import GopherWebinar from './GopherWebinar';
 
 const WebinarPageContent = {
   header: [
@@ -47,5 +48,13 @@ export const webinar = [
     time: NoCodeApproachWebianr.time,
     slug: NoCodeApproachWebianr.slug,
     details: NoCodeApproachWebianr,
+  },
+  {
+    img: GopherWebinar.poster,
+    title: GopherWebinar.name,
+    description: GopherWebinar.description,
+    time: GopherWebinar.time,
+    slug: GopherWebinar.slug,
+    details: GopherWebinar,
   },
 ];
