@@ -1,4 +1,4 @@
-import Poster from '@/assets/webinars/ebf.jpg';
+import Poster from '@/assets/webinars/Gopher.png';
 
 import {
   IndividualWebinarCompletedPageHeader,
@@ -11,7 +11,7 @@ const GopherWebinar = {
   description:
     "In this talk I will explain why Golang is my go-to programming language, why you should start using it too (it's easy to learn is reason #1), and how to leverage it to become a better developer. ",
   poster: Poster,
-  videoUrl: 'TBD',
+  videoUrl: 'https://www.youtube.com/embed/6NkICt1U1-o',
   takeaways: [
     'The many benefits of Go',
     'Using Go in real-life applications',
