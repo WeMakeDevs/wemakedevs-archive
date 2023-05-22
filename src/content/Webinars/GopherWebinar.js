@@ -5,7 +5,7 @@ import {
   IndividualWebinarPageFAQ,
 } from './IndividualWebinarPageContent';
 
-const BPFWebinar = {
+const GopherWebinar = {
   header: IndividualWebinarCompletedPageHeader,
   name: 'Let\'s Talk About the Gopher in the Room',
   description:
