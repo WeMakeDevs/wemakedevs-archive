@@ -131,12 +131,8 @@ export const EventsPageContent = {
       href: '#about',
     },
     {
-      name: 'Ongoing',
-      href: '#ongoing',
-    },
-    {
-      name: 'Past',
-      href: '#past',
+      name: 'Events',
+      href: '#events',
     },
     {
       name: 'Join',
