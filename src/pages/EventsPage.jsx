@@ -1,10 +1,5 @@
 import Layout from '@/components/layout';
-import {
-  About,
-  Hero,
-  OngoingEvents,
-  PastEvents,
-} from '@/components/PageComp/EventsPage';
+import { About, EventCategories, Hero } from '@/components/PageComp/EventsPage';
 
 import { EventsPageContent } from './content';
 
@@ -13,8 +8,7 @@ const EventsPage = () => {
     <Layout content={EventsPageContent}>
       <Hero />
       <About />
-      <OngoingEvents />
-      <PastEvents />
+      <EventCategories />
     </Layout>
   );
 };
