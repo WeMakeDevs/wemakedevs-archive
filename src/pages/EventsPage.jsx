@@ -8,8 +8,6 @@ const EventsPage = () => {
     <Layout content={EventsPageContent}>
       <Hero />
       <About />
-      {/* <OngoingEvents /> */}
-      {/* <PastEvents /> */}
       <EventCategories />
     </Layout>
   );
