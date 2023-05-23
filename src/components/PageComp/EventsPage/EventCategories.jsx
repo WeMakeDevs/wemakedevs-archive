@@ -65,6 +65,8 @@ const eventsData2 = [
     description:
       'Level up your tech journey with scholarships for various tech events. Attend top conferences, network, and advance your career in the tech landscape.',
     image: Scholarship,
+    url: '/events/scholarships',
+    btnText: 'Know more',
   },
   {
     title: 'Educational',
