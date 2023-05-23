@@ -22,6 +22,7 @@ import { Loader } from '@/components/layout';
 import ScrollToTop from '@/components/ScrollToTop';
 
 import HackathonsPage from '@/pages/HackathonPage';
+import ScholarshipsPage from '@/pages/ScholarshipsPage';
 
 const ErrorPage = lazy(() => import('@/pages/ErrorPage'));
 const HashnodePage = lazy(() => import('@/pages/Hashnode'));
@@ -113,6 +114,13 @@ const App = () => {
             exact
             path='/opensource'
             element={<OpenSourcePage content={OpensourcePageContent} />}
+          />
+
+          {/* Scholarships */}
+          <Route
+            exact
+            path='/events/scholarships'
+            element={<ScholarshipsPage />}
           />
 
           {/* Super 25 */}
