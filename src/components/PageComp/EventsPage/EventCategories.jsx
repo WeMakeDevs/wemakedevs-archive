@@ -73,5 +73,7 @@ const eventsData2 = [
     description:
       'Embark on transformative learning at our educational events. Explore technologies, gain practical skills, and empower your success in a dynamic environment.',
     image: Educational,
+    url: '/events/educational',
+    btnText: 'Know more',
   },
 ];
