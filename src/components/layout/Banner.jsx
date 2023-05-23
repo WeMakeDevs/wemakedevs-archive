@@ -22,7 +22,7 @@ const Banner = () => {
         <TfiAnnouncement className='h1 ml-auto shrink-0 rounded-lg bg-base-100/80 p-2' />
         <p className='h3 text-center font-semibold text-base-100'>
           Checkout our upcoming{' '}
-          <span className='highlight highlight--dark'>events</span>{' '}
+          <span className='highlight highlight--dark'>Events</span>{' '}
         </p>
         <ArrowLink
           className='rounded-md py-2 px-4'
