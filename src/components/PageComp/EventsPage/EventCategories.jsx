@@ -49,7 +49,7 @@ const eventsData2 = [
     description:
       'Unleash your coding prowess at our exhilarating hackathons. Collaborate, innovate, and showcase your projects!',
     image: Hackathon,
-    url: '/events/hackathons/napptive',
+    url: '/events/hackathons',
     btnText: 'Know more',
   },
   {
