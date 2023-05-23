@@ -21,6 +21,8 @@ import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 import { Loader } from '@/components/layout';
 import ScrollToTop from '@/components/ScrollToTop';
 
+import HackathonsPage from '@/pages/HackathonPage';
+
 const ErrorPage = lazy(() => import('@/pages/ErrorPage'));
 const HashnodePage = lazy(() => import('@/pages/Hashnode'));
 const HomePage = lazy(() => import('@/pages/HomePage'));
@@ -87,6 +89,7 @@ const App = () => {
           ))}
 
           {/* Hackathon */}
+          <Route exact path='/events/hackathons' element={<HackathonsPage />} />
           <Route
             exact
             path={`/events/hackathons/${NapptiveHackathon.slug}`}
