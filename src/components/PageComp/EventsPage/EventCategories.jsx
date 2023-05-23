@@ -49,7 +49,7 @@ const eventsData2 = [
     description:
       'Unleash your coding prowess at our exhilarating hackathons. Collaborate, innovate, and showcase your projects!',
     image: Hackathon,
-    url: '/events/hackathons/napptive',
+    url: '/events/hackathons',
     btnText: 'Know more',
   },
   {
@@ -65,11 +65,15 @@ const eventsData2 = [
     description:
       'Level up your tech journey with scholarships for various tech events. Attend top conferences, network, and advance your career in the tech landscape.',
     image: Scholarship,
+    url: '/events/scholarships',
+    btnText: 'Know more',
   },
   {
     title: 'Educational',
     description:
       'Embark on transformative learning at our educational events. Explore technologies, gain practical skills, and empower your success in a dynamic environment.',
     image: Educational,
+    url: '/events/educational',
+    btnText: 'Know more',
   },
 ];

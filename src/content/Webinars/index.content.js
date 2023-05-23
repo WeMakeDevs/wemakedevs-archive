@@ -1,8 +1,8 @@
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 
 import BPFWebinar from './BPFWebinar';
-import NoCodeApproachWebianr from './NoCodeApproachWebianr';
 import GopherWebinar from './GopherWebinar';
+import NoCodeApproachWebianr from './NoCodeApproachWebianr';
 
 const WebinarPageContent = {
   header: [

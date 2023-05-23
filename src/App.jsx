@@ -21,6 +21,10 @@ import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 import { Loader } from '@/components/layout';
 import ScrollToTop from '@/components/ScrollToTop';
 
+import EducationalEventsPage from '@/pages/EducationalEventsPage';
+import HackathonsPage from '@/pages/HackathonPage';
+import ScholarshipsPage from '@/pages/ScholarshipsPage';
+
 const ErrorPage = lazy(() => import('@/pages/ErrorPage'));
 const HashnodePage = lazy(() => import('@/pages/Hashnode'));
 const HomePage = lazy(() => import('@/pages/HomePage'));
@@ -87,6 +91,7 @@ const App = () => {
           ))}
 
           {/* Hackathon */}
+          <Route exact path='/events/hackathons' element={<HackathonsPage />} />
           <Route
             exact
             path={`/events/hackathons/${NapptiveHackathon.slug}`}
@@ -110,6 +115,20 @@ const App = () => {
             exact
             path='/opensource'
             element={<OpenSourcePage content={OpensourcePageContent} />}
+          />
+
+          {/* Scholarships */}
+          <Route
+            exact
+            path='/events/scholarships'
+            element={<ScholarshipsPage />}
+          />
+
+          {/* Educational events */}
+          <Route
+            exact
+            path='/events/educational'
+            element={<EducationalEventsPage />}
           />
 
           {/* Super 25 */}

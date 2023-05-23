@@ -30,7 +30,7 @@ const Banner = () => {
           href='/events'
           openNewTab
         >
-          Check
+          Events
         </ArrowLink>
         <button
           className='h3 ml-auto mr-6 flex shrink-0 items-center justify-center border-none text-base-100'

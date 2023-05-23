@@ -183,3 +183,187 @@ export const EventsPageContent = {
     },
   ],
 };
+
+export const HackathonsPageContent = {
+  header: [
+    {
+      name: 'About',
+      href: '#about',
+    },
+    {
+      name: 'Ongoing',
+      href: '#ongoing',
+    },
+    {
+      name: 'Past',
+      href: '#past',
+    },
+    {
+      name: 'Join',
+      href: '#join',
+    },
+    {
+      name: 'FAQ',
+      href: '#faq',
+    },
+  ],
+  faq: [
+    {
+      id: 'FAQ1',
+      question: 'What kinds of events do you organzie? ',
+      answer:
+        'We run tons of events such as hackathons, monthly blogging challenges, open source events, and lots more.',
+    },
+    {
+      id: 'FAQ2',
+      question: 'How do I join a event?',
+      answer:
+        'We keep announcing about the events on our socials and discord, and we update it on this website. Click on "Learn More" to know about the event and how to join.',
+    },
+    {
+      id: 'FAQ3',
+      question: 'What benefits can I get from these?',
+      answer:
+        'You can win some cool swags, and amazing prizes such as macbooks, ipads, headphones, and more!',
+    },
+    {
+      id: 'FAQ4',
+      question: 'How can I partner with WeMakeDevs for my event?',
+      answer:
+        "For partnering with us, please sent a email to 'kunal@wemakedevs.org' for the same.",
+    },
+    {
+      id: 'FAQ5',
+      question: 'Will I get any kind of mentorship from these events?',
+      answer:
+        ' Yes! We give out mentorship sessions with industry experts as a prize for our events. You can ask them all your career and technical questions.',
+    },
+    {
+      id: 'FAQ6',
+      question:
+        'Will there be opportunities for growing my network at the events?',
+      answer:
+        'Yes! We have event specific channels in our discord server where you can network with folks. You can also join the discord channels of our event partners ',
+    },
+  ],
+};
+
+export const ScholarshipsPageContent = {
+  header: [
+    {
+      name: 'Ongoing',
+      href: '#ongoing',
+    },
+    {
+      name: 'Past',
+      href: '#past',
+    },
+    {
+      name: 'Join',
+      href: '#join',
+    },
+    {
+      name: 'FAQ',
+      href: '#faq',
+    },
+  ],
+  faq: [
+    {
+      id: 'FAQ1',
+      question: 'What kinds of events do you organzie? ',
+      answer:
+        'We run tons of events such as hackathons, monthly blogging challenges, open source events, and lots more.',
+    },
+    {
+      id: 'FAQ2',
+      question: 'How do I join a event?',
+      answer:
+        'We keep announcing about the events on our socials and discord, and we update it on this website. Click on "Learn More" to know about the event and how to join.',
+    },
+    {
+      id: 'FAQ3',
+      question: 'What benefits can I get from these?',
+      answer:
+        'You can win some cool swags, and amazing prizes such as macbooks, ipads, headphones, and more!',
+    },
+    {
+      id: 'FAQ4',
+      question: 'How can I partner with WeMakeDevs for my event?',
+      answer:
+        "For partnering with us, please sent a email to 'kunal@wemakedevs.org' for the same.",
+    },
+    {
+      id: 'FAQ5',
+      question: 'Will I get any kind of mentorship from these events?',
+      answer:
+        ' Yes! We give out mentorship sessions with industry experts as a prize for our events. You can ask them all your career and technical questions.',
+    },
+    {
+      id: 'FAQ6',
+      question:
+        'Will there be opportunities for growing my network at the events?',
+      answer:
+        'Yes! We have event specific channels in our discord server where you can network with folks. You can also join the discord channels of our event partners ',
+    },
+  ],
+};
+
+export const EducationalEventsPageContent = {
+  header: [
+    {
+      name: 'Ongoing',
+      href: '#ongoing',
+    },
+    {
+      name: 'Past',
+      href: '#past',
+    },
+    {
+      name: 'Join',
+      href: '#join',
+    },
+    {
+      name: 'FAQ',
+      href: '#faq',
+    },
+  ],
+  faq: [
+    {
+      id: 'FAQ1',
+      question: 'What kinds of events do you organzie? ',
+      answer:
+        'We run tons of events such as hackathons, monthly blogging challenges, open source events, and lots more.',
+    },
+    {
+      id: 'FAQ2',
+      question: 'How do I join a event?',
+      answer:
+        'We keep announcing about the events on our socials and discord, and we update it on this website. Click on "Learn More" to know about the event and how to join.',
+    },
+    {
+      id: 'FAQ3',
+      question: 'What benefits can I get from these?',
+      answer:
+        'You can win some cool swags, and amazing prizes such as macbooks, ipads, headphones, and more!',
+    },
+    {
+      id: 'FAQ4',
+      question: 'How can I partner with WeMakeDevs for my event?',
+      answer:
+        "For partnering with us, please sent a email to 'kunal@wemakedevs.org' for the same.",
+    },
+    {
+      id: 'FAQ5',
+      question: 'Will I get any kind of mentorship from these events?',
+      answer:
+        ' Yes! We give out mentorship sessions with industry experts as a prize for our events. You can ask them all your career and technical questions.',
+    },
+    {
+      id: 'FAQ6',
+      question:
+        'Will there be opportunities for growing my network at the events?',
+      answer:
+        'Yes! We have event specific channels in our discord server where you can network with folks. You can also join the discord channels of our event partners ',
+    },
+  ],
+};
