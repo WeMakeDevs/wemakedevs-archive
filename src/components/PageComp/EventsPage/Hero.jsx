@@ -22,7 +22,7 @@ const Hero = () => {
           participate.
         </h2>
         <ArrowLink className='mx-auto' as={ButtonLink} href='#about'>
-          About events
+          Learn more
         </ArrowLink>
       </div>
     </section>
