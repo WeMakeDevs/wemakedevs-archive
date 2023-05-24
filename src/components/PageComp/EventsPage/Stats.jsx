@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { BsFillTrophyFill } from 'react-icons/bs';
 import { FaFontAwesomeFlag } from 'react-icons/fa';
 import { MdOutlineAttachMoney } from 'react-icons/md';
-import { VscSymbolEvent } from 'react-icons/vsc';
+import { IoIosPeople } from 'react-icons/bs';
 import ScrollTrigger from 'react-scroll-trigger';
 
 import CounterCard from '@/components/Cards/CounterCard';
@@ -28,21 +28,22 @@ const Stats = () => {
           />
           <CounterCard
             counterOn={counterOn}
+            icon={bsfilltrophyfill}
+            number={30,000}
+            title='Participants'
+          
+          />
+          <CounterCard
+            counterOn={counterOn}
             icon={FaFontAwesomeFlag}
-            number={70}
+            number={30}
             title='Countries'
           />
           <CounterCard
             counterOn={counterOn}
-            icon={BsFillTrophyFill}
-            number={100}
-            title='Winners'
-          />
-          <CounterCard
-            counterOn={counterOn}
-            icon={VscSymbolEvent}
-            number={10}
-            title='Events'
+            icon={IoIosPeople}
+            number={200,000}
+            title='Empowered'
           />
         </div>
       </div>
