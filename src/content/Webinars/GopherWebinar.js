@@ -15,16 +15,16 @@ const GopherWebinar = {
   // videoUrl: 'https://www.youtube.com/embed/6NkICt1U1-o',
   links: [
     {
-      title: 'To try Komodor for free: ',
+      title: 'To try Komodor for ',
       link: {
-        title: 'https://hubs.li/Q01Q_Df90',
+        title: 'free',
         href: 'https://hubs.li/Q01Q_Df90',
       },
     },
     {
-      title: 'To join the Slack Kommunity: ',
+      title: 'Join the Komodor',
       link: {
-        title: 'https://launchpass.com/komodorkommunity',
+        title: 'Slack Kommunity',
         href: 'https://launchpass.com/komodorkommunity',
       },
     },
