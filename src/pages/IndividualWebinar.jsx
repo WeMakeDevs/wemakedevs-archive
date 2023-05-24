@@ -1,7 +1,9 @@
 import BannerImage from 'assets/home/courses.png';
 import { BsCalendar, BsClock } from 'react-icons/bs';
+import { HiOutlineArrowRight } from 'react-icons/hi';
 
 import Layout, { ColumnSection } from '@/components/layout';
+import { ArrowLink } from '@/components/links';
 import ListItem from '@/components/Listitem';
 import {
   About,
@@ -13,6 +15,7 @@ const IndividualWebinarPage = ({ content }) => {
   return (
     <Layout content={content}>
       <About content={content} />
+      {/* Details */}
       <ColumnSection
         id='takeaways'
         src={BannerImage}
@@ -26,6 +29,7 @@ const IndividualWebinarPage = ({ content }) => {
           Win exciting gifts and prizes while learning new technology.
         </ListItem>
       </ColumnSection>
+      {/* Time */}
       <section id='time'>
         <div
           className='layout'
@@ -82,11 +86,48 @@ const IndividualWebinarPage = ({ content }) => {
         </div>
       </section>
 
+      {/* Speakers */}
       <Speakers speakers={content.speakers} />
+
+      {/* Register */}
       {new Date().getTime() < new Date(content.time).getTime() ? (
         <Register register={content.register} />
       ) : (
         ''
+      )}
+
+      {/* Resources */}
+      {content.links && (
+        <section id='resources'>
+          <div className='layout py-20 text-center'>
+            <h2 className='h1'>Resources</h2>
+            <hr className='styled-hr mx-auto my-6' />
+            <ul className='mx-auto max-w-5xl space-y-5'>
+              {content.links.map((item) => (
+                <li
+                  className='h3 flex gap-2 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'
+                  key={item.title}
+                >
+                  <HiOutlineArrowRight
+                    style={{ fill: 'url(#blue-gradient)' }}
+                    className='h2 shrink-0'
+                  />{' '}
+                  <span>
+                    {item.title}{' '}
+                    {item.link && (
+                      <ArrowLink
+                        href={item.link.href}
+                        className='inline-flex items-center text-primary'
+                      >
+                        {item.link.title}
+                      </ArrowLink>
+                    )}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
       )}
     </Layout>
   );
