@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.88b651f1.css",
-    "main.js": "/static/js/main.75d75779.js",
+    "main.js": "/static/js/main.b2726a9a.js",
     "static/js/430.6d2cf9f7.chunk.js": "/static/js/430.6d2cf9f7.chunk.js",
     "static/css/291.d792bd6b.chunk.css": "/static/css/291.d792bd6b.chunk.css",
     "static/js/291.62c576f1.chunk.js": "/static/js/291.62c576f1.chunk.js",
@@ -28,11 +28,11 @@
     "static/media/latestevents.png": "/static/media/latestevents.2a57a2ed276da7a2cb31.png",
     "static/media/past-event-2.jpeg": "/static/media/past-event-2.2df43bf35395cc779184.jpeg",
     "static/media/aboutus.png": "/static/media/aboutus.02f2915b9ae736e9ef8a.png",
-    "static/media/Gopher.png": "/static/media/Gopher.6ec5212a9141e06d8143.png",
     "static/media/meetup.jpeg": "/static/media/meetup.8f35afbee913787140ff.jpeg",
     "static/media/courses.png": "/static/media/courses.f2c1856875197487b345.png",
     "static/media/devops.jpg": "/static/media/devops.474566e789c81ee67917.jpg",
     "static/media/dsa.jpg": "/static/media/dsa.fb04266f98cdbe36e107.jpg",
+    "static/media/Gopher.png": "/static/media/Gopher.ea906093ad677a6cb53d.png",
     "static/media/theme.png": "/static/media/theme.f4ae7ffdc4ae1d155180.png",
     "static/media/git-github.jpg": "/static/media/git-github.2493fd1fe9229db90017.jpg",
     "static/media/past-event-6.jpeg": "/static/media/past-event-6.b46febb178fb7fc8b4f5.jpeg",
@@ -78,7 +78,7 @@
     "static/media/virtusa.svg": "/static/media/virtusa.b475b27e472c128bc7bca4388039e6bd.svg",
     "index.html": "/index.html",
     "main.88b651f1.css.map": "/static/css/main.88b651f1.css.map",
-    "main.75d75779.js.map": "/static/js/main.75d75779.js.map",
+    "main.b2726a9a.js.map": "/static/js/main.b2726a9a.js.map",
     "430.6d2cf9f7.chunk.js.map": "/static/js/430.6d2cf9f7.chunk.js.map",
     "291.d792bd6b.chunk.css.map": "/static/css/291.d792bd6b.chunk.css.map",
     "291.62c576f1.chunk.js.map": "/static/js/291.62c576f1.chunk.js.map",
@@ -103,6 +103,6 @@
   },
   "entrypoints": [
     "static/css/main.88b651f1.css",
-    "static/js/main.75d75779.js"
+    "static/js/main.b2726a9a.js"
   ]
 }
