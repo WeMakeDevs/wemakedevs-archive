@@ -14,11 +14,16 @@ import { CoursesPageContent } from '@/content/courses/CoursesPageContent';
 import NapptiveHackathon from '@/content/Hackathons/napptive';
 import { MeetupPageContent } from '@/content/Meetup';
 import Delhi2023 from '@/content/Meetup/delhi-2023';
+import { OpensourcePageContent } from '@/content/opensource';
 import Supper25Content from '@/content/super25';
 import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 
 import { Loader } from '@/components/layout';
 import ScrollToTop from '@/components/ScrollToTop';
+
+import EducationalEventsPage from '@/pages/EducationalEventsPage';
+import HackathonsPage from '@/pages/HackathonPage';
+import ScholarshipsPage from '@/pages/ScholarshipsPage';
 
 const ErrorPage = lazy(() => import('@/pages/ErrorPage'));
 const HashnodePage = lazy(() => import('@/pages/Hashnode'));
@@ -35,6 +40,7 @@ const ParticularMeetupPage = lazy(() => import('@/pages/ParticularMeetupPage'));
 const Super25Page = lazy(() => import('@/pages/Super25Page'));
 const CocPage = lazy(() => import('@/pages/CocPage'));
 const MeetupPage = lazy(() => import('@/pages/MeetupPage'));
+const OpenSourcePage = lazy(() => import('@/pages/OpenSourcePage'));
 
 const App = () => {
   return (
@@ -85,6 +91,7 @@ const App = () => {
           ))}
 
           {/* Hackathon */}
+          <Route exact path='/events/hackathons' element={<HackathonsPage />} />
           <Route
             exact
             path={`/events/hackathons/${NapptiveHackathon.slug}`}
@@ -103,6 +110,27 @@ const App = () => {
             element={<ParticularMeetupPage content={Delhi2023} />}
           />
 
+          {/* Open Source Page */}
+          <Route
+            exact
+            path='/opensource'
+            element={<OpenSourcePage content={OpensourcePageContent} />}
+          />
+
+          {/* Scholarships */}
+          <Route
+            exact
+            path='/events/scholarships'
+            element={<ScholarshipsPage />}
+          />
+
+          {/* Educational events */}
+          <Route
+            exact
+            path='/events/educational'
+            element={<EducationalEventsPage />}
+          />
+
           {/* Super 25 */}
           <Route
             exact
@@ -113,6 +141,7 @@ const App = () => {
           {/* COC */}
           <Route exact path='/coc' element={<CocPage content={CocContent} />} />
 
+          {/* Error Page */}
           <Route path='*' element={<ErrorPage />} />
         </Routes>
         <ScrollToTop />

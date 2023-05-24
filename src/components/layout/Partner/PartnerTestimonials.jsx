@@ -1,4 +1,5 @@
 import Carousel from 'better-react-carousel';
+import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
 
 import BootDotDev from '@/assets/partner/bootdotdev.jpg';
 import Finout from '@/assets/partner/finout.jpg';
@@ -21,6 +22,18 @@ const PartnerTestimonials = () => {
             gap={20}
             autoplay={2500}
             dotColorActive='rgb(89,66,233)'
+            arrowRight={
+              <AiFillRightCircle
+                size={50}
+                className='absolute top-1/2 right-[-35px] z-10 -translate-y-1/2 cursor-pointer rounded-full bg-black text-2xl text-indigo-600'
+              />
+            }
+            arrowLeft={
+              <AiFillLeftCircle
+                size={50}
+                className='absolute top-1/2 left-[-35px] z-10 -translate-y-1/2 cursor-pointer rounded-full bg-black text-2xl text-indigo-600'
+              />
+            }
             showDots
             loop
           >

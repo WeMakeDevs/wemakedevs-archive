@@ -1,6 +1,7 @@
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 
 import BPFWebinar from './BPFWebinar';
+import GopherWebinar from './GopherWebinar';
 import NoCodeApproachWebianr from './NoCodeApproachWebianr';
 
 const WebinarPageContent = {
@@ -47,5 +48,13 @@ export const webinar = [
     time: NoCodeApproachWebianr.time,
     slug: NoCodeApproachWebianr.slug,
     details: NoCodeApproachWebianr,
+  },
+  {
+    img: GopherWebinar.poster,
+    title: GopherWebinar.name,
+    description: GopherWebinar.description,
+    time: GopherWebinar.time,
+    slug: GopherWebinar.slug,
+    details: GopherWebinar,
   },
 ];
