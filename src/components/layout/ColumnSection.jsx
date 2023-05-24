@@ -35,7 +35,7 @@ const ColumnSection = ({
           ></iframe>
         ) : (
           <img
-            className='inline-block aspect-square grow  border-none object-cover '
+            className='inline-block grow border-none object-cover '
             src={src}
             alt={title}
           />
