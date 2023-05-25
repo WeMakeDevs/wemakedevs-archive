@@ -9,7 +9,7 @@ const GopherWebinar = {
   header: IndividualWebinarCompletedPageHeader,
   name: "Let's Talk About the Gopher in the Room",
   description:
-    "In this talk I will explain why Golang is my go-to programming language, why you should start using it too (it's easy to learn is reason #1), and how to leverage it to become a better developer. ",
+    "In this talk, the speakers will explain why Golang is their go-to programming language, why individuals should consider adopting it as well (with its ease of learning being the first reason), and how one can harness its power to enhance their skills as a developer.",
   poster: Poster,
   // uncomment to add video
   // videoUrl: 'https://www.youtube.com/embed/6NkICt1U1-o',
