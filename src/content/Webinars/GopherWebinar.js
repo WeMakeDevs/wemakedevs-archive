@@ -11,7 +11,24 @@ const GopherWebinar = {
   description:
     "In this talk I will explain why Golang is my go-to programming language, why you should start using it too (it's easy to learn is reason #1), and how to leverage it to become a better developer. ",
   poster: Poster,
-  videoUrl: 'https://www.youtube.com/embed/6NkICt1U1-o',
+  // uncomment to add video
+  // videoUrl: 'https://www.youtube.com/embed/6NkICt1U1-o',
+  links: [
+    {
+      title: 'To try Komodor for ',
+      link: {
+        title: 'free',
+        href: 'https://hubs.li/Q01Q_Df90',
+      },
+    },
+    {
+      title: 'Join the Komodor',
+      link: {
+        title: 'Slack Kommunity',
+        href: 'https://launchpass.com/komodorkommunity',
+      },
+    },
+  ],
   takeaways: [
     'The many benefits of Go',
     'Using Go in real-life applications',
