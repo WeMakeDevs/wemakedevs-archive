@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaUsers } from 'react-icons/fa';
+import { BsFillTrophyFill } from 'react-icons/bs';
 import { FaFontAwesomeFlag } from 'react-icons/fa';
 import { MdOutlineAttachMoney } from 'react-icons/md';
 import { VscSymbolEvent } from 'react-icons/vsc';
@@ -29,20 +29,20 @@ const Stats = () => {
           <CounterCard
             counterOn={counterOn}
             icon={FaFontAwesomeFlag}
-            number={30}
+            number={70}
             title='Countries'
           />
           <CounterCard
             counterOn={counterOn}
-            icon={FaUsers}
-            number={30000}
-            title='Participants'
+            icon={BsFillTrophyFill}
+            number={100}
+            title='Winners'
           />
           <CounterCard
             counterOn={counterOn}
             icon={VscSymbolEvent}
-            number={200000}
-            title='Empowered'
+            number={10}
+            title='Events'
           />
         </div>
       </div>
