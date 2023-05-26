@@ -8,7 +8,8 @@ import {
 const GopherWebinar = {
   header: IndividualWebinarCompletedPageHeader,
   name: "Let's Talk About the Gopher in the Room",
-  description: `'In·this·talk,·the·speakers·will·explain·why·Golang·is·their·go-to·programming·language,·why·individuals·should·consider·adopting·it·as·well·(with·its·ease·of·learning·being·the·first·reason),·and·how·one·can·harness·its·power·to·enhance·their·skills·as·a·developer.'`,
+  description:
+    'In this talk, the speakers will explain why Golang is their go-to programming language, why individuals should consider adopting it as well (with its ease of learning being the first reason), and how one can harness its power to enhance their skills as a developer.',
   poster: Poster,
   // uncomment to add video
   // videoUrl: 'https://www.youtube.com/embed/6NkICt1U1-o',
