@@ -2,7 +2,6 @@ import prathamesh from '@/assets/hackathon/hackathonpage/prathamesh.jpg';
 import rakesh from '@/assets/hackathon/hackathonpage/rakesh.jpg';
 import samyak from '@/assets/hackathon/hackathonpage/samyak.jpg';
 import shruti from '@/assets/hackathon/hackathonpage/shruti.jpg';
-import steve from '@/assets/hackathon/hackathonpage/steve.jpg';
 import syed from '@/assets/hackathon/hackathonpage/syed.jpg';
 
 const data = [
@@ -18,12 +17,6 @@ const data = [
     `,
     from: 'SHRUTI MISHRA',
     designation: '@shrutimishra2704',
-  },
-  {
-    src: steve,
-    description: `We are currently hosting our first-ever Hackathon. So far we have over 1600 developers showing off their skills using NAPPTIVE 😮. They are all creating kickass apps and sharing their experiences with us, and we expect a lot of fun during the weekend. Many thanks to Kunal Kushwaha and WeMakeDevs for helping us out with this, it has been an absolute rollercoaster couple of weeks!! 🚀🚀🚀 `,
-    from: 'STEVE GALACHE',
-    designation: '@steve-galache',
   },
   {
     src: rakesh,
