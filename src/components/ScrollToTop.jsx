@@ -30,7 +30,7 @@ export default function ScrollToTop() {
       onClick={toTop}
       aria-label='Click here to scroll to top'
       className={clsxm(
-        'h1 fixed right-4 bottom-14 z-50 rounded-full bg-base-100 text-primary transition-all duration-300 max-[394px]:bottom-4  ',
+        'h1 fixed right-4 bottom-20 z-50 rounded-full bg-base-100 text-primary transition-all duration-300 lg:bottom-14',
 
         goToTop
           ? 'translate-y-0 opacity-100'
