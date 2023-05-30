@@ -10,7 +10,7 @@ import NewsLetter from './NewsLetter';
 function JoinUs() {
   return (
     <section id='join' className='py-20'>
-      <div className='layout flex flex-col lg:flex-row'>
+      <div className='layout flex flex-col gap-8 lg:flex-row'>
         {/* Join section */}
         <div className='flex flex-1 flex-col items-center gap-4'>
           <h2 className='h1'>Join us</h2>
@@ -57,7 +57,7 @@ const JoinUsCard = ({ title, href, description, icon }) => {
         {/* Face two */}
         <div
           className={clsx(
-            'h-[200px] w-[300px] overflow-hidden rounded-2xl transition-all duration-500',
+            'h-[200px] w-[300px] overflow-hidden transition-all duration-500',
             'relative flex flex-col items-center justify-center rounded-b-2xl bg-content/10 p-5',
             'text-center text-2xl font-bold capitalize text-white',
             'lg:h-0 lg:rounded-2xl lg:py-0 lg:group-hover:h-[200px] lg:group-hover:rounded-t-none lg:group-hover:py-5'
