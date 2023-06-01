@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0e7667d1.css",
-    "main.js": "/static/js/main.9ab48628.js",
+    "main.js": "/static/js/main.d33ec098.js",
     "static/js/226.3063ea16.chunk.js": "/static/js/226.3063ea16.chunk.js",
-    "static/js/415.001f34bf.chunk.js": "/static/js/415.001f34bf.chunk.js",
+    "static/js/668.5f6bcb64.chunk.js": "/static/js/668.5f6bcb64.chunk.js",
     "static/js/809.f65d6f24.chunk.js": "/static/js/809.f65d6f24.chunk.js",
     "static/js/430.6d2cf9f7.chunk.js": "/static/js/430.6d2cf9f7.chunk.js",
     "static/css/291.d792bd6b.chunk.css": "/static/css/291.d792bd6b.chunk.css",
@@ -81,9 +81,9 @@
     "static/media/virtusa.svg": "/static/media/virtusa.b475b27e472c128bc7bca4388039e6bd.svg",
     "index.html": "/index.html",
     "main.0e7667d1.css.map": "/static/css/main.0e7667d1.css.map",
-    "main.9ab48628.js.map": "/static/js/main.9ab48628.js.map",
+    "main.d33ec098.js.map": "/static/js/main.d33ec098.js.map",
     "226.3063ea16.chunk.js.map": "/static/js/226.3063ea16.chunk.js.map",
-    "415.001f34bf.chunk.js.map": "/static/js/415.001f34bf.chunk.js.map",
+    "668.5f6bcb64.chunk.js.map": "/static/js/668.5f6bcb64.chunk.js.map",
     "809.f65d6f24.chunk.js.map": "/static/js/809.f65d6f24.chunk.js.map",
     "430.6d2cf9f7.chunk.js.map": "/static/js/430.6d2cf9f7.chunk.js.map",
     "291.d792bd6b.chunk.css.map": "/static/css/291.d792bd6b.chunk.css.map",
@@ -109,6 +109,6 @@
   },
   "entrypoints": [
     "static/css/main.0e7667d1.css",
-    "static/js/main.9ab48628.js"
+    "static/js/main.d33ec098.js"
   ]
 }
