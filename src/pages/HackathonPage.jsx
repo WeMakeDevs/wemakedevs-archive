@@ -4,6 +4,7 @@ import {
   Hero,
   OngoingEvents,
   PastEvents,
+  Testimonials,
 } from '@/components/PageComp/HackathonsPage';
 
 import { HackathonsPageContent } from './content';
@@ -15,6 +16,7 @@ const HackathonsPage = () => {
       <About />
       <OngoingEvents />
       <PastEvents />
+      <Testimonials />
     </Layout>
   );
 };
