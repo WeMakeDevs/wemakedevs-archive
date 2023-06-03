@@ -12,6 +12,7 @@ const NapptiveHackathon = {
   description: 'Powered by Napptive',
   hero: HeroImg,
   videoUrl: 'https://www.youtube.com/embed/DwEXh-wq1TI',
+  liveUrl: 'https://www.youtube.com/watch?v=sST7JGLq2as',
   rules: [
     'The theme is open-ended, but using Napptive is mandatory. Submissions made without using Napptive will NOT be considered.',
     'You can submit to as many prize categories as you want.',
@@ -151,6 +152,41 @@ const NapptiveHackathon = {
         title: 'Youtube',
         href: 'https://www.youtube.com/watch?v=sST7JGLq2as',
       },
+    },
+  ],
+  timeline: [
+    { title: 'Hackathon starts', date: 'Fri, 14 Apr 2023 02:30:00 GMT' },
+
+    {
+      title:
+        'Hackathon kick off, join the live stream to ask questions related to hackathon',
+      date: 'https://www.youtube.com/watch?v=sST7JGLq2as',
+      isLink: true,
+    },
+    {
+      title: 'Day 2 of hacking',
+      date: 'Sat, 15 Apr 2023',
+      onlyDate: true,
+    },
+
+    {
+      title: 'Day 3 of hacking',
+      date: 'Sun, 16 Apr 2023',
+      onlyDate: true,
+    },
+    {
+      title: 'Hacking ends',
+      date: 'Sun, 16 Apr 2023 14:30:00 GMT',
+    },
+    {
+      title: 'Submission period',
+      date: '16 Apr 2023 14:30:00 GMT',
+      end: '16 Apr 2023 15:30:00 GMT',
+    },
+    {
+      title: 'Winner announcement',
+      date: 'Mon, 17 Apr 2023 11:30:00 GMT',
+      onlyDate: true,
     },
   ],
   from: 'Fri, 14 Apr 2023 02:30:00 GMT',
