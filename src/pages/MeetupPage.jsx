@@ -1,10 +1,15 @@
+import { useState } from 'react';
+
 import { meetups } from '@/content/Meetup';
+import { meetupTweetId } from '@/content/prizetweetid';
 
 import MeetupCard from '@/components/Cards/MeetupCard';
-import Layout from '@/components/layout';
+import Layout, { Testimonials } from '@/components/layout';
 import { ButtonLink } from '@/components/links';
 
 const MeetupPage = ({ content }) => {
+  const [tweetId, setTweetId] = useState(meetupTweetId);
+
   return (
     <Layout content={content}>
       {/* Hero Section */}
@@ -79,7 +84,7 @@ const MeetupPage = ({ content }) => {
       </section>
 
       {/* Past Meetups */}
-      {/* <section id='past'>
+      <section id='past'>
         <div className='layout py-20'>
           <h2 className='h1'>Past meetups</h2>
           <hr className='styled-hr my-6' />
@@ -101,7 +106,13 @@ const MeetupPage = ({ content }) => {
             )}
           </div>
         </div>
-      </section> */}
+      </section>
+
+      <Testimonials
+        tweetId={tweetId}
+        setTweetId={setTweetId}
+        title='Community testimonials'
+      />
     </Layout>
   );
 };

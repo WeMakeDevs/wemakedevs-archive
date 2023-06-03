@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { BiCool } from 'react-icons/bi';
 import { BsFillMicFill, BsFillPeopleFill } from 'react-icons/bs';
 import { CiPizza } from 'react-icons/ci';
@@ -17,7 +17,16 @@ import ListItem from '@/components/Listitem';
 
 const ParticularMeetupPage = ({ content }) => {
   return (
-    <Layout content={content}>
+    <Layout
+      content={{
+        ...content,
+
+        CTA: {
+          name: 'Partner',
+          href: '#partnerwithus',
+        },
+      }}
+    >
       <section id='about'>
         <div className='layout flex flex-col items-center justify-center gap-4 py-32 text-center'>
           <h1 className='heading highlight'>{content.title}</h1>
@@ -194,7 +203,7 @@ const ParticularMeetupPage = ({ content }) => {
         </div>
       </section>
 
-      <section id='past-meetup'>
+      <section id='past-meetup-pic'>
         <div className='py-20 text-center'>
           <h2 className='h1'>Minutes of past meetups</h2>
           <hr className='styled-hr my-6 mx-auto' />
@@ -208,39 +217,49 @@ const ParticularMeetupPage = ({ content }) => {
         </div>
       </section>
 
-      <Register name={content.slug} />
+      <Register content={content} />
     </Layout>
   );
 };
 
 export default ParticularMeetupPage;
 
-const Register = () => {
-  // const [iframeHeight, setIframeHeight] = useState(1200);
+const Register = ({ content }) => {
+  const [iframeHeight, setIframeHeight] = useState(1200);
 
   useEffect(() => {
-    // const windowWidth = window.innerWidth;
-    // if (windowWidth < 900) {
-    //   setIframeHeight(1200);
-    // } else if (windowWidth < 1250) {
-    //   setIframeHeight(700);
-    // } else {
-    //   setIframeHeight(1200);
-    // }
+    const windowWidth = window.innerWidth;
+    if (windowWidth < 900) {
+      setIframeHeight(1200);
+    } else if (windowWidth < 1250) {
+      setIframeHeight(700);
+    } else {
+      setIframeHeight(1200);
+    }
   }, []);
 
   return (
     <section id='register'>
       <div className='mx-auto flex flex-col items-center justify-center gap-4 py-20 text-center'>
-        <h2 className='h1'>Registrations have been closed</h2>
-        <hr className='styled-hr' />
-        {/* <iframe
-          src={`https://wemakedevs-newsletter.vercel.app/${name}.html`}
-          width='100%'
-          style={{ border: '0' }}
-          height={iframeHeight}
-          title='Subscribe to our newsletter by entering your details below'
-        ></iframe> */}
+        {new Date().getTime() >
+        new Date(content.registerationClose).getTime() ? (
+          <>
+            <h2 className='h1'>Registrations have been closed</h2>
+            <hr className='styled-hr' />
+          </>
+        ) : (
+          <>
+            <h2 className='h1'>Register</h2>
+            <hr className='styled-hr' />
+            <iframe
+              src={`https://wemakedevs-newsletter.vercel.app/${content.slug}.html`}
+              width='100%'
+              style={{ border: '0' }}
+              height={iframeHeight}
+              title='Subscribe to our newsletter by entering your details below'
+            ></iframe>
+          </>
+        )}
       </div>
     </section>
   );

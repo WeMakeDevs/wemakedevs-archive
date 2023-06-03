@@ -13,7 +13,7 @@ import {
 import { CoursesPageContent } from '@/content/courses/CoursesPageContent';
 import NapptiveHackathon from '@/content/Hackathons/napptive';
 import { MeetupPageContent } from '@/content/Meetup';
-import Delhi2023 from '@/content/Meetup/delhi-2023';
+import Delhi2023 from '@/content/Meetup/delhi-may-2023';
 import { OpensourcePageContent } from '@/content/opensource';
 import Supper25Content from '@/content/super25';
 import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';

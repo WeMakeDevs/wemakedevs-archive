@@ -1,4 +1,4 @@
-import Delhi2023 from '@/content/Meetup/delhi-2023';
+import Delhi2023 from '@/content/Meetup/delhi-may-2023';
 
 const MeetupPageFAQ = [
   {
@@ -48,10 +48,10 @@ export const MeetupPageContent = {
       name: 'Upcoming',
       href: '#upcoming',
     },
-    // {
-    //   name: 'Past',
-    //   href: '#past',
-    // },
+    {
+      name: 'Past',
+      href: '#past',
+    },
     {
       name: 'Join',
       href: '#join',
@@ -71,5 +71,13 @@ export const meetups = [
     on: Delhi2023.on,
     slug: Delhi2023.slug,
     description: Delhi2023.description.map((item) => item.text).join(' '),
+  },
+  {
+    img: '/assets/images/meetup/delhi-aug-2022/Poster.jpg',
+    title: 'Delhi Aug Meetup 2022',
+    on: '21 Aug 2022 05:00:00 GMT',
+    link: 'https://www.youtube.com/watch?v=6AQ7-LDcStM',
+    description:
+      'We conducted the first WeMakeDevs meetup on 21st August 2022 and were joined by some amazing attendees across India. Check out the highlights in this video.',
   },
 ];
