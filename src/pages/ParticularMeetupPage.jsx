@@ -6,16 +6,20 @@ import { DiAsterisk } from 'react-icons/di';
 
 import { getDateTime } from '@/lib/utils';
 
+import { meetupTweetId } from '@/content/prizetweetid';
+
 import AgendaCard from '@/components/Cards/AgendaCard';
 import SpeakerCard from '@/components/Cards/SpeakerCard';
 import SponserCard from '@/components/Cards/SponserCard';
 import StatCard from '@/components/Cards/StatCard';
-import Layout from '@/components/layout';
+import Layout, { Testimonials } from '@/components/layout';
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 import ListItem from '@/components/Listitem';
 
 const ParticularMeetupPage = ({ content }) => {
+  const [tweetId, setTweetId] = useState(meetupTweetId);
+
   return (
     <Layout
       content={{
@@ -216,7 +220,11 @@ const ParticularMeetupPage = ({ content }) => {
           ></iframe>
         </div>
       </section>
-
+      <Testimonials
+        tweetId={tweetId}
+        setTweetId={setTweetId}
+        title='Community testimonials'
+      />
       <Register content={content} />
     </Layout>
   );
