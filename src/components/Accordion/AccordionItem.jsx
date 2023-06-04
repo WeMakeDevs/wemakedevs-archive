@@ -11,7 +11,6 @@ const AccordionItem = ({
   setActiveItem,
 }) => {
   const contentEl = useRef();
-
   return (
     <div className='accordion-item overflow-hidden rounded-lg border-2 border-content/30'>
       <button
