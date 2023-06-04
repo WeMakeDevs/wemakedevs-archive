@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import Accordion from '@/components/Accordion';
 import { useState, useEffect } from 'react';
-
+// FAQ Component
 const Faq = ({ faq }) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   useEffect(() => {
