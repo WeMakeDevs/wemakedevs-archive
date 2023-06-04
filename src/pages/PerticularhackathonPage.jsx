@@ -69,9 +69,17 @@ const PerticularhackathonPage = ({ content }) => {
               .join('')}
           </div>
 
-          <ButtonLink as={ArrowLink} className='mt-10' href='#register'>
-            Register
-          </ButtonLink>
+          {new Date().getTime() < new Date(content.from).getTime() ? (
+            <ButtonLink as={ArrowLink} className='mt-10' href='#register'>
+              Register
+            </ButtonLink>
+          ) : (
+            <ButtonLink as={ArrowLink} className='mt-10' href={content.liveUrl}>
+              {new Date().getTime() > new Date(content.to).getTime()
+                ? 'Watch reacording'
+                : 'Join now'}
+            </ButtonLink>
+          )}
         </div>
       </section>
       {/* Theme section */}
@@ -104,39 +112,9 @@ const PerticularhackathonPage = ({ content }) => {
           <h2 className='h1 text-center'>Timeline</h2>
           <hr className='styled-hr mx-auto my-6' />
           <ol className='mt-9 flex flex-col flex-wrap justify-center gap-y-6 md:flex-row'>
-            <TimeLineCard
-              title='Hackathon starts'
-              date='Fri, 14 Apr 2023 02:30:00 GMT'
-            />
-            <TimeLineCard
-              title='Hackathon kick off, join the live stream to ask questions related to hackathon'
-              date='https://www.youtube.com/watch?v=sST7JGLq2as'
-              isLink
-            />
-            <TimeLineCard
-              title='Day 2 of hacking'
-              date='Sat, 15 Apr 2023'
-              onlyDate
-            />
-            <TimeLineCard
-              title='Day 3 of hacking'
-              date='Sun, 16 Apr 2023'
-              onlyDate
-            />
-            <TimeLineCard
-              title='Hacking ends'
-              date='Sun, 16 Apr 2023 14:30:00 GMT'
-            />
-            <TimeLineCard
-              title='Submission period'
-              date='16 Apr 2023 14:30:00 GMT'
-              end='16 Apr 2023 15:30:00 GMT'
-            />
-            <TimeLineCard
-              title='Winner announcement'
-              date='Mon, 17 Apr 2023 11:30:00 GMT'
-              onlyDate
-            />
+            {content.timeline.map((timeline) => {
+              return <TimeLineCard {...timeline} key={timeline.date} />;
+            })}
           </ol>
         </div>
       </section>
@@ -293,7 +271,13 @@ const PerticularhackathonPage = ({ content }) => {
           </ul>
         </div>
       </section>
-      <Register name={content.slug} />
+      {/* Register */}
+      {new Date().getTime() < new Date(content.to).getTime() ? (
+        <Register name={content.slug} />
+      ) : (
+        ''
+      )}
+
       {/* Register Section */}
       <section id='resources'>
         <div className='layout py-20 text-center'>
