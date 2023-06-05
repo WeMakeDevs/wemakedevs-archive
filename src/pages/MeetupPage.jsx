@@ -39,7 +39,7 @@ const MeetupPage = ({ content }) => {
             <div className='relative z-10 rounded-md border border-content/20 bg-base-100/80 p-2'>
               {/* All the Images */}
               <div className='grid grid-cols-1 gap-6 p-2 md:grid-cols-2 lg:grid-cols-3'>
-                {Array.from({ length: 9 }, () => '/assets/images/meetup/').map(
+                {Array.from({ length: 6 }, () => '/assets/images/meetup/').map(
                   (speaker, i) => (
                     <img
                       key={i}
