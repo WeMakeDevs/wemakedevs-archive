@@ -7,7 +7,8 @@ const About = ({ content }) => {
       <div className='layout flex flex-col items-center justify-center py-20 pt-24 text-center'>
         <h1 className='heading highlight highlight--light'>{content.name}</h1>
         <p className='h3 my-8'>{content.description}</p>
-        {content.videoUrl ? (
+        {content.videoUrl &&
+        new Date().getTime() > new Date(content.time).getTime() ? (
           <iframe
             src={content.videoUrl}
             title='YouTube video player'
