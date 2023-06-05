@@ -37,10 +37,6 @@ const MeetupPage = ({ content }) => {
             </div>
             {/* Box For All the images */}
             <div className='relative z-10 rounded-md border border-content/20 bg-base-100/80 p-2'>
-              <div className='flex items-center justify-start gap-2 pl-2 pb-3 pt-1'>
-                <span className='h4 mx-auto'>Past meetup</span>
-              </div>
-              <hr className='border-t-2 border-content/60 bg-transparent pt-2' />
               {/* All the Images */}
               <div className='grid grid-cols-1 gap-6 p-2 md:grid-cols-2 lg:grid-cols-3'>
                 {Array.from({ length: 9 }, () => '/assets/images/meetup/').map(
