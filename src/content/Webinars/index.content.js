@@ -1,3 +1,4 @@
+import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 
 import BPFWebinar from './BPFWebinar';
@@ -56,5 +57,13 @@ export const webinar = [
     time: GopherWebinar.time,
     slug: GopherWebinar.slug,
     details: GopherWebinar,
+  },
+  {
+    img: CostOptimizationWebinar.poster,
+    title: CostOptimizationWebinar.name,
+    description: CostOptimizationWebinar.description,
+    time: CostOptimizationWebinar.time,
+    slug: CostOptimizationWebinar.slug,
+    details: CostOptimizationWebinar,
   },
 ];
