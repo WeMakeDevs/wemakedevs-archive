@@ -17,7 +17,7 @@ const ChatOpsWebinar = {
     'Installing and working with Botkube',
     'Explore the troubleshooting space in K8s',
   ],
-  time: '28 June 2023 16:00:00 GMT',
+  time: '27 June 2023 16:00:00 GMT',
   speakers: [
     {
       name: 'Maria Ashby',
