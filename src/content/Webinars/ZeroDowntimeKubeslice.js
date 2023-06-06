@@ -13,9 +13,9 @@ const ZeroDowmtime = {
   poster: Poster,
   //videoUrl: 'TBD',
   takeaways: [
-    'What is eBPF?',
-    'How it can be used for practical application monitoring',
-    'What is groundcover and how to get started?',
+    'What are some reasons for Kubernetes downtime?',
+    'What is a RTO and why should it matter?',
+    'Ways to reduce RTO to zero during the Kubernetes Disaster recovery process',
   ],
   time: '23 June 2023 15:00:00 GMT',
   speakers: [
