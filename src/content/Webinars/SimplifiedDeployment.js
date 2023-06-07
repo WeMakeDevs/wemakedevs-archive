@@ -17,7 +17,7 @@ const SimplifiedDeploymentWebinar = {
     'How does the OAM model make deployments easier?',
     'Learn how to use the Napptive Playground and Kubevela to simplify cloud-native deployments',
   ],
-  time: '17 March 2023 14:00:00 GMT',
+  time: '21 June 2023 15:00:00 GMT',
   speakers: [
     {
       name: 'Daniel Higuero',
