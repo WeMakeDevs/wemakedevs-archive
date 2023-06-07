@@ -31,7 +31,9 @@ const About = ({ content }) => {
           href={
             new Date().getTime() < new Date(content.time).getTime()
               ? '#register'
-              : content.videoUrl.replace('embed/', 'watch?v=')
+              : content.videoUrl !== undefined
+              ? content.videoUrl.replace('embed/', 'watch?v=')
+              : '#'
           }
           openNewTab
         >
