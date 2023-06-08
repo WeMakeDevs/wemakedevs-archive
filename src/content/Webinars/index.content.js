@@ -1,4 +1,5 @@
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
+import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
 
 import BPFWebinar from './BPFWebinar';
 import GopherWebinar from './GopherWebinar';
@@ -56,5 +57,13 @@ export const webinar = [
     time: GopherWebinar.time,
     slug: GopherWebinar.slug,
     details: GopherWebinar,
+  },
+  {
+    img: ZeroDowmtime.poster,
+    title: ZeroDowmtime.name,
+    description: ZeroDowmtime.description,
+    time: ZeroDowmtime.time,
+    slug: ZeroDowmtime.slug,
+    details: ZeroDowmtime,
   },
 ];
