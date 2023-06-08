@@ -5,7 +5,9 @@ const About = ({ content }) => {
   return (
     <section id='about'>
       <div className='layout flex flex-col items-center justify-center py-20 pt-24 text-center'>
-        <h1 className='heading highlight highlight--light'>{content.name}</h1>
+        <h1 className='heading heading-md highlight highlight--light'>
+          {content.name}
+        </h1>
         <p className='h3 my-8'>{content.description}</p>
         {content.videoUrl &&
         new Date().getTime() > new Date(content.time).getTime() ? (
@@ -29,7 +31,9 @@ const About = ({ content }) => {
           href={
             new Date().getTime() < new Date(content.time).getTime()
               ? '#register'
-              : content.videoUrl.replace('embed/', 'watch?v=')
+              : content.videoUrl !== undefined
+              ? content.videoUrl.replace('embed/', 'watch?v=')
+              : '#'
           }
           openNewTab
         >
