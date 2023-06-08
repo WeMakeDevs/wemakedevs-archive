@@ -1,8 +1,9 @@
 import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
-import AccessControlWebinar from './AccessControlWebinar';
 import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
 import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
+
+import AccessControlWebinar from './AccessControlWebinar';
 import BPFWebinar from './BPFWebinar';
 import ChatOpsWebinar from './ChatOpsWebinar';
 import GopherWebinar from './GopherWebinar';
@@ -62,22 +63,6 @@ export const webinar = [
     details: GopherWebinar,
   },
   {
-    img: AccessControlWebinar.poster,
-    title: AccessControlWebinar.name,
-    description: AccessControlWebinar.description,
-    time: AccessControlWebinar.time,
-    slug: AccessControlWebinar.slug,
-    details: AccessControlWebinar,
-  },
-  {
-    img: CostOptimizationWebinar.poster,
-    title: CostOptimizationWebinar.name,
-    description: CostOptimizationWebinar.description,
-    time: CostOptimizationWebinar.time,
-    slug: CostOptimizationWebinar.slug,
-    details: CostOptimizationWebinar,
-  },  
-  {
     img: SimplifiedDeploymentWebinar.poster,
     title: SimplifiedDeploymentWebinar.name,
     description: SimplifiedDeploymentWebinar.description,
@@ -86,13 +71,13 @@ export const webinar = [
     details: SimplifiedDeploymentWebinar,
   },
   {
-    img: ChatOpsWebinar.poster,
-    title: ChatOpsWebinar.name,
-    description: ChatOpsWebinar.description,
-    time: ChatOpsWebinar.time,
-    slug: ChatOpsWebinar.slug,
-    details: ChatOpsWebinar,
-  },  
+    img: AccessControlWebinar.poster,
+    title: AccessControlWebinar.name,
+    description: AccessControlWebinar.description,
+    time: AccessControlWebinar.time,
+    slug: AccessControlWebinar.slug,
+    details: AccessControlWebinar,
+  },
   {
     img: ZeroDowmtime.poster,
     title: ZeroDowmtime.name,
@@ -100,6 +85,21 @@ export const webinar = [
     time: ZeroDowmtime.time,
     slug: ZeroDowmtime.slug,
     details: ZeroDowmtime,
-
+  },
+  {
+    img: ChatOpsWebinar.poster,
+    title: ChatOpsWebinar.name,
+    description: ChatOpsWebinar.description,
+    time: ChatOpsWebinar.time,
+    slug: ChatOpsWebinar.slug,
+    details: ChatOpsWebinar,
+  },
+  {
+    img: CostOptimizationWebinar.poster,
+    title: CostOptimizationWebinar.name,
+    description: CostOptimizationWebinar.description,
+    time: CostOptimizationWebinar.time,
+    slug: CostOptimizationWebinar.slug,
+    details: CostOptimizationWebinar,
   },
 ];
