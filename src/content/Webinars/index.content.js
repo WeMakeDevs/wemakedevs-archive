@@ -1,7 +1,9 @@
 import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
-
+import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
+import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
 import BPFWebinar from './BPFWebinar';
+import ChatOpsWebinar from './ChatOpsWebinar';
 import GopherWebinar from './GopherWebinar';
 import NoCodeApproachWebianr from './NoCodeApproachWebianr';
 
@@ -58,6 +60,7 @@ export const webinar = [
     slug: GopherWebinar.slug,
     details: GopherWebinar,
   },
+
   {
     img: CostOptimizationWebinar.poster,
     title: CostOptimizationWebinar.name,
@@ -65,5 +68,29 @@ export const webinar = [
     time: CostOptimizationWebinar.time,
     slug: CostOptimizationWebinar.slug,
     details: CostOptimizationWebinar,
+  },  
+  {
+    img: SimplifiedDeploymentWebinar.poster,
+    title: SimplifiedDeploymentWebinar.name,
+    description: SimplifiedDeploymentWebinar.description,
+    time: SimplifiedDeploymentWebinar.time,
+    slug: SimplifiedDeploymentWebinar.slug,
+    details: SimplifiedDeploymentWebinar,
+  },
+  {
+    img: ChatOpsWebinar.poster,
+    title: ChatOpsWebinar.name,
+    description: ChatOpsWebinar.description,
+    time: ChatOpsWebinar.time,
+    slug: ChatOpsWebinar.slug,
+    details: ChatOpsWebinar,
+  },  
+  {
+    img: ZeroDowmtime.poster,
+    title: ZeroDowmtime.name,
+    description: ZeroDowmtime.description,
+    time: ZeroDowmtime.time,
+    slug: ZeroDowmtime.slug,
+    details: ZeroDowmtime,
   },
 ];
