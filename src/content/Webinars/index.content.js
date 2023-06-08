@@ -67,6 +67,7 @@ export const webinar = [
     time: ChatOpsWebinar.time,
     slug: ChatOpsWebinar.slug,
     details: ChatOpsWebinar,
+  },  
   {
     img: ZeroDowmtime.poster,
     title: ZeroDowmtime.name,
