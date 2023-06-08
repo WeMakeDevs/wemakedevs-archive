@@ -1,6 +1,6 @@
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
+import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
 import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
-
 import BPFWebinar from './BPFWebinar';
 import ChatOpsWebinar from './ChatOpsWebinar';
 import GopherWebinar from './GopherWebinar';
@@ -59,6 +59,15 @@ export const webinar = [
     slug: GopherWebinar.slug,
     details: GopherWebinar,
   },
+
+  {
+    img: SimplifiedDeploymentWebinar.poster,
+    title: SimplifiedDeploymentWebinar.name,
+    description: SimplifiedDeploymentWebinar.description,
+    time: SimplifiedDeploymentWebinar.time,
+    slug: SimplifiedDeploymentWebinar.slug,
+    details: SimplifiedDeploymentWebinar,
+  }, 
 
   {
     img: ChatOpsWebinar.poster,
