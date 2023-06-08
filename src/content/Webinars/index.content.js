@@ -1,5 +1,6 @@
 import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
+import AccessControlWebinar from './AccessControlWebinar';
 import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
 import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
 import BPFWebinar from './BPFWebinar';
@@ -60,7 +61,14 @@ export const webinar = [
     slug: GopherWebinar.slug,
     details: GopherWebinar,
   },
-
+  {
+    img: AccessControlWebinar.poster,
+    title: AccessControlWebinar.name,
+    description: AccessControlWebinar.description,
+    time: AccessControlWebinar.time,
+    slug: AccessControlWebinar.slug,
+    details: AccessControlWebinar,
+  },
   {
     img: CostOptimizationWebinar.poster,
     title: CostOptimizationWebinar.name,
@@ -92,5 +100,6 @@ export const webinar = [
     time: ZeroDowmtime.time,
     slug: ZeroDowmtime.slug,
     details: ZeroDowmtime,
+
   },
 ];
