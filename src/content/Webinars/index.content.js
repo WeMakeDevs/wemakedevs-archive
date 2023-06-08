@@ -1,3 +1,4 @@
+import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
 import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
@@ -61,14 +62,21 @@ export const webinar = [
   },
 
   {
+    img: CostOptimizationWebinar.poster,
+    title: CostOptimizationWebinar.name,
+    description: CostOptimizationWebinar.description,
+    time: CostOptimizationWebinar.time,
+    slug: CostOptimizationWebinar.slug,
+    details: CostOptimizationWebinar,
+  },  
+  {
     img: SimplifiedDeploymentWebinar.poster,
     title: SimplifiedDeploymentWebinar.name,
     description: SimplifiedDeploymentWebinar.description,
     time: SimplifiedDeploymentWebinar.time,
     slug: SimplifiedDeploymentWebinar.slug,
     details: SimplifiedDeploymentWebinar,
-  }, 
-
+  },
   {
     img: ChatOpsWebinar.poster,
     title: ChatOpsWebinar.name,
