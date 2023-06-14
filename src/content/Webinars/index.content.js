@@ -1,12 +1,12 @@
-import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
-import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 import AccessControlWebinar from './AccessControlWebinar';
-import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
-import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
 import BPFWebinar from './BPFWebinar';
 import ChatOpsWebinar from './ChatOpsWebinar';
+import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
 import GopherWebinar from './GopherWebinar';
 import NoCodeApproachWebianr from './NoCodeApproachWebianr';
+import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
+import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
+import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 
 const WebinarPageContent = {
   header: [
@@ -76,7 +76,7 @@ export const webinar = [
     time: CostOptimizationWebinar.time,
     slug: CostOptimizationWebinar.slug,
     details: CostOptimizationWebinar,
-  },  
+  },
   {
     img: SimplifiedDeploymentWebinar.poster,
     title: SimplifiedDeploymentWebinar.name,
@@ -92,7 +92,7 @@ export const webinar = [
     time: ChatOpsWebinar.time,
     slug: ChatOpsWebinar.slug,
     details: ChatOpsWebinar,
-  },  
+  },
   {
     img: ZeroDowmtime.poster,
     title: ZeroDowmtime.name,
@@ -100,6 +100,5 @@ export const webinar = [
     time: ZeroDowmtime.time,
     slug: ZeroDowmtime.slug,
     details: ZeroDowmtime,
-
   },
 ];
