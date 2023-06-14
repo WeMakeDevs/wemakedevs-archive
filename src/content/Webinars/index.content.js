@@ -1,12 +1,13 @@
+import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
+import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
+import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
+import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
+
 import AccessControlWebinar from './AccessControlWebinar';
 import BPFWebinar from './BPFWebinar';
 import ChatOpsWebinar from './ChatOpsWebinar';
-import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
 import GopherWebinar from './GopherWebinar';
 import NoCodeApproachWebianr from './NoCodeApproachWebianr';
-import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
-import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
-import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 
 const WebinarPageContent = {
   header: [
