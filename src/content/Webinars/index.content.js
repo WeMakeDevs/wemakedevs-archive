@@ -38,6 +38,7 @@ const WebinarPageContent = {
 export default WebinarPageContent;
 
 export const webinar = [
+  // Past
   {
     img: BPFWebinar.poster,
     title: BPFWebinar.name,
@@ -62,6 +63,15 @@ export const webinar = [
     slug: GopherWebinar.slug,
     details: GopherWebinar,
   },
+  // Upcoming
+  {
+    img: SimplifiedDeploymentWebinar.poster,
+    title: SimplifiedDeploymentWebinar.name,
+    description: SimplifiedDeploymentWebinar.description,
+    time: SimplifiedDeploymentWebinar.time,
+    slug: SimplifiedDeploymentWebinar.slug,
+    details: SimplifiedDeploymentWebinar,
+  },
   {
     img: AccessControlWebinar.poster,
     title: AccessControlWebinar.name,
@@ -71,20 +81,12 @@ export const webinar = [
     details: AccessControlWebinar,
   },
   {
-    img: CostOptimizationWebinar.poster,
-    title: CostOptimizationWebinar.name,
-    description: CostOptimizationWebinar.description,
-    time: CostOptimizationWebinar.time,
-    slug: CostOptimizationWebinar.slug,
-    details: CostOptimizationWebinar,
-  },
-  {
-    img: SimplifiedDeploymentWebinar.poster,
-    title: SimplifiedDeploymentWebinar.name,
-    description: SimplifiedDeploymentWebinar.description,
-    time: SimplifiedDeploymentWebinar.time,
-    slug: SimplifiedDeploymentWebinar.slug,
-    details: SimplifiedDeploymentWebinar,
+    img: ZeroDowmtime.poster,
+    title: ZeroDowmtime.name,
+    description: ZeroDowmtime.description,
+    time: ZeroDowmtime.time,
+    slug: ZeroDowmtime.slug,
+    details: ZeroDowmtime,
   },
   {
     img: ChatOpsWebinar.poster,
@@ -95,11 +97,11 @@ export const webinar = [
     details: ChatOpsWebinar,
   },
   {
-    img: ZeroDowmtime.poster,
-    title: ZeroDowmtime.name,
-    description: ZeroDowmtime.description,
-    time: ZeroDowmtime.time,
-    slug: ZeroDowmtime.slug,
-    details: ZeroDowmtime,
+    img: CostOptimizationWebinar.poster,
+    title: CostOptimizationWebinar.name,
+    description: CostOptimizationWebinar.description,
+    time: CostOptimizationWebinar.time,
+    slug: CostOptimizationWebinar.slug,
+    details: CostOptimizationWebinar,
   },
 ];
