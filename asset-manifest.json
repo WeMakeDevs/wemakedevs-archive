@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.94bdb1dc.css",
-    "main.js": "/static/js/main.234d1776.js",
+    "main.js": "/static/js/main.ba13dbd4.js",
     "static/js/226.3063ea16.chunk.js": "/static/js/226.3063ea16.chunk.js",
     "static/js/668.5f6bcb64.chunk.js": "/static/js/668.5f6bcb64.chunk.js",
     "static/js/809.f65d6f24.chunk.js": "/static/js/809.f65d6f24.chunk.js",
@@ -29,13 +29,13 @@
     "static/media/newblogimage.jpg": "/static/media/newblogimage.ceedfaf09c808e3d5ff3.jpg",
     "static/media/mentorship.png": "/static/media/mentorship.c52b5a8810eecbce6755.png",
     "static/media/latestevents.png": "/static/media/latestevents.2a57a2ed276da7a2cb31.png",
-    "static/media/zero-downtime.png": "/static/media/zero-downtime.0572a0a0f7aed0287c0c.png",
+    "static/media/zero-downtime.png": "/static/media/zero-downtime.b001f0f314f04203b382.png",
     "static/media/past-event-2.jpeg": "/static/media/past-event-2.2df43bf35395cc779184.jpeg",
     "static/media/aboutus.png": "/static/media/aboutus.02f2915b9ae736e9ef8a.png",
     "static/media/Special-Prize.png": "/static/media/Special-Prize.97f0cfecd93c32e507a1.png",
     "static/media/meetup.jpeg": "/static/media/meetup.8f35afbee913787140ff.jpeg",
     "static/media/chatops-for-k8s.png": "/static/media/chatops-for-k8s.a69a5b382504566f5a32.png",
-    "static/media/simplify-deployments.png": "/static/media/simplify-deployments.b432828a62dd36a25167.png",
+    "static/media/simplify-deployments.png": "/static/media/simplify-deployments.79c3ba4a35640ac340bd.png",
     "static/media/cloud-cost.png": "/static/media/cloud-cost.7af71024105713fac4ae.png",
     "static/media/access-control.png": "/static/media/access-control.fec1844dd8529fc1bc9e.png",
     "static/media/courses.png": "/static/media/courses.f2c1856875197487b345.png",
@@ -86,7 +86,7 @@
     "static/media/virtusa.svg": "/static/media/virtusa.b475b27e472c128bc7bca4388039e6bd.svg",
     "index.html": "/index.html",
     "main.94bdb1dc.css.map": "/static/css/main.94bdb1dc.css.map",
-    "main.234d1776.js.map": "/static/js/main.234d1776.js.map",
+    "main.ba13dbd4.js.map": "/static/js/main.ba13dbd4.js.map",
     "226.3063ea16.chunk.js.map": "/static/js/226.3063ea16.chunk.js.map",
     "668.5f6bcb64.chunk.js.map": "/static/js/668.5f6bcb64.chunk.js.map",
     "809.f65d6f24.chunk.js.map": "/static/js/809.f65d6f24.chunk.js.map",
@@ -114,6 +114,6 @@
   },
   "entrypoints": [
     "static/css/main.94bdb1dc.css",
-    "static/js/main.234d1776.js"
+    "static/js/main.ba13dbd4.js"
   ]
 }
