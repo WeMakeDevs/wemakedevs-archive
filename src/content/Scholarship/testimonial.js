@@ -1,29 +1,18 @@
 const data = [
   {
-    src: '/assets/images/hackathonpage/samyak.jpg',
-    description: `We have finished the Napptive hackathon. This was my first hackathon and Afzal and I participated and made such tools like Prometheus, percona influxdb, todo-app, cortex, redis, Jenkins, ArangoDB, Timescaledb Thank you NAPPTIVE WeMakeDevs and Kunal Kushwaha #hackathon2023 `,
-    from: 'SAMYAK SHEOKAR',
+    src: '/assets/images/scholarship/Tarun.jpg',
+    description: `WeMakeDevs made my Kubecon experience unforgettable. I was fortunate enough to receive a scholarship from them, which allowed me to attend this incredible event. The opportunities and knowledge I gained were beyond expectations. I shared my experience in detail on my blog, highlighting the valuable insights I gathered during Kubecon. I'm truly grateful to WeMakeDevs for their support and for making it possible for me to be a part of this enriching conference.`,
+    from: 'TARUN CHAWLA',
   },
   {
-    src: '/assets/images/hackathonpage/shruti.jpg',
-    description: ` I am thrilled to share my experience participating in the recent NAPPTIVE x WeMakeDevs #hackathon along with Shivraj Nakum. Our team NAPP-DEVS specifically focused on the "Migrate an open source application to the Open Application Model" track. A huge shoutout to NAPPTIVE x WeMakeDevs Slack #community for their constant support.
-    `,
-    from: 'SHRUTI MISHRA',
+    src: '/assets/images/scholarship/Diana.jpg',
+    description: `Attending Kubecon was a dream come true, thanks to WeMakeDevs. Their scholarship made it possible for me to immerse myself in the world of Kubernetes and learn from the industry's best. I shared my experience on Instagram, capturing the exciting moments and key takeaways from the event. WeMakeDevs' support has been instrumental in my growth and development as a professional in the tech industry. Thank you for this incredible opportunity!`,
+    from: 'DIANA PHAM',
   },
   {
-    src: '/assets/images/hackathonpage/rakesh.jpg',
-    description: `We(@RamanandSirvi, @MohdZishan2539) won a prize at Cloud Native Hackathon! 🙌 For best use of @getstream_io.Thanks @kunalstwt for the hackathon and introducing amazing tools. Learned a lot. Also thanks to @getstream_io for making things simple. https://dvp.st/3mknxwL`,
-    from: 'RAKESH POTNURU',
-  },
-  {
-    src: '/assets/images/hackathonpage/syed.jpg',
-    description: `Done with my first Cloud Native Hackathon.... I thank my teammates for all the support and help during the hackathon @AdityaN71677515 @Aman81152043 @KaruturiPaavani.I also thank @kunalstwt for the opportunity to learn and grow`,
-    from: 'SYED ATIF',
-  },
-  {
-    src: '/assets/images/hackathonpage/prathamesh.jpg',
-    description: `And it's our second hackathon win this weekend, won the @WeMakeDevs Stream Hackathon. Excited for 1:1 with @kunalstwt🥳🚀It was great hacking with @a_kraken_head @BhawnaC18275984 @ankushKun_`,
-    from: 'PRATHAMESH',
+    src: '/assets/images/scholarship/Ashwin.jpg',
+    description: `I had an amazing time at Kubecon, all thanks to WeMakeDevs and their scholarship program. Being able to attend this event was a game-changer for me. I got to network with experts, learn about the latest trends in Kubernetes, and broaden my knowledge in cloud-native technologies. I expressed my gratitude on Twitter, showcasing how WeMakeDevs' support has been instrumental in my career growth. Thank you for empowering aspiring developers like me!`,
+    from: 'ASHWIN KUMAR UPPALA',
   },
 ];
 
