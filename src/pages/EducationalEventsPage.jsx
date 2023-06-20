@@ -3,6 +3,7 @@ import {
   Hero,
   OngoingEvents,
   PastEvents,
+  Testimonials,
 } from '@/components/PageComp/EducationalEventsPage';
 
 import { EducationalEventsPageContent } from './content';
@@ -13,6 +14,7 @@ const EducationalEventsPage = () => {
       <Hero />
       <OngoingEvents />
       <PastEvents />
+      <Testimonials />
     </Layout>
   );
 };
