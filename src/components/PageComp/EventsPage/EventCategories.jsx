@@ -3,6 +3,7 @@ import Hackathon from 'assets/events/hackathon.jpg';
 import Hashnode from 'assets/events/hashnode.jpg';
 import Meetup from 'assets/events/meetup.jpeg';
 import Scholarship from 'assets/events/scholarship.jpg';
+import Super25 from 'assets/events/super25.jpg';
 import Webinar from 'assets/events/webinar.jpg';
 
 import DetailCard from '@/components/Cards/DetailCard';
@@ -74,6 +75,14 @@ const eventsData2 = [
       'Embark on transformative learning at our educational events. Explore technologies, gain practical skills, and empower your success in a dynamic environment.',
     image: Educational,
     url: '/events/educational',
+    btnText: 'Know more',
+  },
+  {
+    title: 'Super 25 program',
+    description:
+      'Expand your knowledge and enhance your skills with our expert-led webinars on a wide range of topics.',
+    image: Super25,
+    url: '/events/super25',
     btnText: 'Know more',
   },
 ];
