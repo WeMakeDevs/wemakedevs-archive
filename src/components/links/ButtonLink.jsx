@@ -54,6 +54,7 @@ const ButtonLink = ({
         ],
         isLoading &&
           'relative text-transparent transition-none hover:text-transparent disabled:cursor-wait',
+        disabled && 'pointer-events-none',
         className
       )}
       {...rest}

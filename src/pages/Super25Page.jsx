@@ -27,7 +27,7 @@ const Super25Page = ({ content }) => {
               href='https://airtable.com/shrnWLMutGCI0lpln'
               disabled
             >
-              Apply Now
+              Applications Closed
             </ButtonLink>
           </div>
           <div className='relative w-full max-w-lg shrink-0'>
