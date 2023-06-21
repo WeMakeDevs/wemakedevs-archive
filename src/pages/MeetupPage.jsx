@@ -13,7 +13,7 @@ const MeetupPage = ({ content }) => {
   return (
     <Layout content={content}>
       {/* Hero Section */}
-      <section id='hero' className='overflow-x-hidden'>
+      <section id='about' className='overflow-x-hidden'>
         <div className='layout min-h-main flex flex-col pt-24 pb-16'>
           <h1 className='mx-auto mt-6 max-w-4xl text-center font-normal'>
             <span className='highlight highlight--gradient'> Connect</span>,
