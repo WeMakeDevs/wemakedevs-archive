@@ -3,7 +3,7 @@ import { DiAsterisk } from 'react-icons/di';
 import { HiOutlineDocumentText } from 'react-icons/hi';
 import { VscDebugBreakpointLog } from 'react-icons/vsc';
 
-import Super25TimeLineCard from '@/components/Cards/Super25TimeLineCard';
+// import Super25TimeLineCard from '@/components/Cards/Super25TimeLineCard';
 import Layout from '@/components/layout';
 import { ArrowLink, ButtonLink } from '@/components/links';
 import ListItem from '@/components/Listitem';
@@ -27,7 +27,7 @@ const Super25Page = ({ content }) => {
               href='https://airtable.com/shrnWLMutGCI0lpln'
               disabled
             >
-              Apply Now
+              Applications Closed
             </ButtonLink>
           </div>
           <div className='relative w-full max-w-lg shrink-0'>
@@ -66,6 +66,7 @@ const Super25Page = ({ content }) => {
       </section>
 
       {/* Agenda */}
+      {/*
       <section id='timeline'>
         <div className='layout py-20'>
           <h2 className='h1 text-center'>Super 25 timeline</h2>
@@ -82,6 +83,7 @@ const Super25Page = ({ content }) => {
           </ol>
         </div>
       </section>
+            */}
 
       {/* Eligibile Section */}
       <section id='eligibile'>
