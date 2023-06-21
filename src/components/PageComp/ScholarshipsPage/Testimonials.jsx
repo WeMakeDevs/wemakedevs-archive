@@ -5,8 +5,6 @@ import clsxm from '@/lib/utils';
 
 import data from '@/content/Scholarship/testimonial';
 
-import TestimonialCard from '@/components/Cards/TestimonialCard';
-
 const Testimonials = ({ as }) => {
   const Component = as || 'div';
   return (
@@ -38,7 +36,27 @@ const Testimonials = ({ as }) => {
           >
             {data.map((item) => (
               <Carousel.Item key={item.from}>
-                <TestimonialCard {...item} />
+                <div className='mb-10 flex h-full w-full flex-col items-center justify-center rounded-lg border border-content/20 bg-gradient-to-br from-content/0 to-content/10 p-4 py-8 text-center lg:flex-1'>
+                  <img
+                    alt='testimonial'
+                    className=' mb-2 inline-block h-20 w-20 rounded-full border-2 border-base-100 bg-base-100/10 object-cover object-center'
+                    src={item.src}
+                  />
+                  <p className='my-1 text-lg'>{item.desc1}</p>
+                  <p className='my-1 text-lg'>{item.desc2}</p>
+                  <hr className='styled-hr styled-hr--light mx-auto my-4' />
+                  <h2 className='text-base font-medium text-content '>
+                    {item.from}
+                  </h2>
+                  <a
+                    href={item.source}
+                    target='_blank'
+                    rel='noreferrer'
+                    className='text-sm font-medium text-content underline underline-offset-2'
+                  >
+                    Source
+                  </a>
+                </div>
               </Carousel.Item>
             ))}
           </Carousel>
