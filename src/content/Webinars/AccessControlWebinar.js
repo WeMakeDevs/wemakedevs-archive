@@ -18,7 +18,7 @@ const AccessControlWebinar = {
     'Demo Otterize OSS capabilities and Otterize cloud',
     'Real-life examples of problems Otterize can solve for users',
   ],
-  time: '22 June 2023 16:00:00 GMT',
+  time: '06 July 2023 16:00:00 GMT',
   speakers: [
     {
       name: 'Uri Sarid',
