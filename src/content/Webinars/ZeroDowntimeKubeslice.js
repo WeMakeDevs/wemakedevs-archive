@@ -1,4 +1,4 @@
-import Poster from '@/assets/webinars/zero-downtime.png';
+import Poster from '@/assets/webinars/zero-downtime.jpeg';
 
 import {
   IndividualWebinarCompletedPageHeader,
