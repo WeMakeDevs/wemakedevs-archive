@@ -5,7 +5,7 @@ import { VscDebugBreakpointLog } from 'react-icons/vsc';
 
 // import Super25TimeLineCard from '@/components/Cards/Super25TimeLineCard';
 import Layout from '@/components/layout';
-import { ArrowLink, ButtonLink } from '@/components/links';
+import { ButtonLink } from '@/components/links';
 import ListItem from '@/components/Listitem';
 
 const Super25Page = ({ content }) => {
@@ -22,7 +22,7 @@ const Super25Page = ({ content }) => {
               webinars on a wide range of topics.
             </p>
             <ButtonLink
-              as={ArrowLink}
+              // as={ArrowLink}
               className='items-center justify-center'
               href='https://airtable.com/shrnWLMutGCI0lpln'
               disabled
