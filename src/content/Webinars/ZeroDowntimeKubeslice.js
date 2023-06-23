@@ -11,7 +11,7 @@ const ZeroDowmtime = {
   description:
     'When you have an unexpected Kubernetes downtime, you want to keep your Recovery Time Objective (RTO) as low as possible, in order to prevent any major data loss. In this webinar, the speakers will share how you can achieve Zero RTO during the Kubernetes disaster recovery process using Kubeslice, and keep the damage to a minimum.',
   poster: Poster,
-  //videoUrl: 'TBD',
+  videoUrl: 'https://www.youtube.com/embed/O7qSHSQWayg',
   takeaways: [
     'What are some reasons for Kubernetes downtime?',
     'What is a RTO and why should it matter?',
