@@ -11,7 +11,7 @@ const CostOptimizationWebinar = {
   description:
     'Tips and tricks for setting accurate CPU and Memory requests on Kubernetes, to save costs and optimize performance',
   poster: Poster,
-  //videoUrl: 'TBD',
+  videoUrl: 'https://www.youtube.com/embed/GTRBsD2kDlM',
   takeaways: [
     'What causes Kubernetes costs to increase?',
     'What are the guidelines for setting resource request limits?',
