@@ -28,13 +28,79 @@ const OpenSourcePageContent = {
   },
 
   videoLink: 'https://www.youtube.com/embed/rZ41y93P2Qo',
+  whyjoin: [
+    {
+      title: 'Aspiring Developers',
+      description:
+        "Unleash your coding passion and thrive in open source development with our course, whether you're a student exploring career options or transitioning into the tech industry.",
+    },
+    {
+      title: 'Tech Professionals',
+      description:
+        'Expand your skill set, gain valuable insights, and enhance your career prospects in the tech industry by diving into the open source world with our course.',
+    },
+    {
+      title: 'Open Source Enthusiasts',
+      description:
+        'Become a valuable member of the open source community by acquiring the knowledge and practical guidance you need through our course to actively contribute to exciting projects.',
+    },
+    {
+      title: 'Students and Researchers',
+      description:
+        'Apply open source concepts effectively in your academic or research projects by joining our course, which introduces you to open source technologies and equips you with the necessary skills.',
+    },
+    {
+      title: 'Entrepreneurs and Innovators',
+      description:
+        'Empower your ventures with a deeper understanding of open source development, licensing, and collaboration through our course, enabling you to leverage open source resources for your projects and businesses.',
+    },
+    {
+      title: 'Desire to learn',
+      description:
+        'No matter your background or expertise, unlock your potential by joining our course tailored for open source enthusiasts, providing opportunities to contribute to meaningful projects and exciting career opportunities.',
+    },
+  ],
+
   structure: {
     points: [
-      'Regular structured lectures that you can follow along',
-      'Interaction with industry experts to get you started in various domains on tech, learn from the maintainers directly',
-      'Assignments will be updated on the GitHub repo',
-      'We will also share free structured learning resources for various tech stacks, link our roadmaps repo for this.',
-      'Support in applying to open source programs like Google Summer of Code, Outreachy, Major League Hacking Fellowship, LFX, and more.',
+      {
+        title: 'Comprehensive Lectures',
+        points: [
+          'Engage in regular structured lectures that allow you to follow along easily.',
+          'Gain a deep understanding of various tech domains with industry experts leading the sessions.',
+          'Learn directly from maintainers, gaining valuable insights and practical knowledge.',
+        ],
+      },
+      {
+        title: 'Interaction with Industry Experts',
+        points: [
+          'Get the opportunity to interact with industry experts who will guide you in starting your journey in different tech domains.',
+          'Benefit from their expertise, experience, and guidance to accelerate your learning and career growth.',
+        ],
+      },
+      {
+        title: 'Updated Assignments',
+        points: [
+          'Access the GitHub repository regularly for updated assignments.',
+          'Stay engaged and challenge yourself with practical exercises that enhance your skills and understanding.',
+        ],
+      },
+      {
+        title: 'Structured Learning Resources',
+        points: [
+          'Gain access to a curated collection of free, high-quality learning resources for various tech stacks.',
+          'Explore these resources to deepen your knowledge and broaden your skill set.',
+          'Find links to our roadmaps repository, which provides comprehensive guidance for your learning path.',
+        ],
+      },
+      {
+        title: 'Support for Open Source Programs',
+        points: [
+          'Receive dedicated support in applying to prestigious open source programs, such as Google Summer of Code, Outreachy, Major League Hacking Fellowship, LFX, and more.',
+          'Get guidance on application processes, project selection, and mentorship opportunities.',
+          'Increase your chances of being accepted into these programs and kickstart your open source journey.',
+        ],
+      },
     ],
     btns: [
       {

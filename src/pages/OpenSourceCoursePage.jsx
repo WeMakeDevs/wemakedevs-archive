@@ -1,10 +1,15 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { BsAward } from 'react-icons/bs';
 import { MdOutlineLabelImportant } from 'react-icons/md';
-import { VscDebugBreakpointLog } from 'react-icons/vsc';
+import {
+  VscDebugBreakpointFunction,
+  VscDebugBreakpointLog,
+} from 'react-icons/vsc';
 
-import Layout, { ColumnSection, Testimonials } from '@/components/layout';
-import { ArrowLink, ButtonLink } from '@/components/links';
-import ListItem from '@/components/Listitem';
+import clsxm from '@/lib/utils';
+
+import Layout, { Testimonials } from '@/components/layout';
+import { ArrowLink, ButtonLink, HeaderLink } from '@/components/links';
 
 import OpenSourceHeroImg from '@/assets/courses/opensource.avif';
 
@@ -18,6 +23,20 @@ const OpenSourcePage = ({ content }) => {
     '1658437060833968129',
     '1655812888387530753',
   ]);
+  const [copied, setCopied] = useState(false);
+  const copyHashtag = () => {
+    navigator.clipboard.writeText('#OpenSourceWithKunal');
+    setCopied(true);
+  };
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      if (copied) setCopied(false);
+    }, 1000);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [copied]);
 
   return (
     <Layout content={content}>
@@ -41,17 +60,26 @@ const OpenSourcePage = ({ content }) => {
                 </span>
                 <span className='block text-indigo-200'>Open Source</span>
               </h1>
+              <iframe
+                src='https://www.youtube.com/embed/msyGybzCKRs'
+                title='YouTube video player'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                allowfullscreen
+                className='mx-auto mt-8 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 border-content/50 object-cover shadow-[0_1rem_3rem] shadow-content/30'
+              ></iframe>
               <p className='mx-auto mt-6 max-w-lg text-center text-xl text-indigo-200 sm:max-w-3xl'>
-                At Open Source Course, we believe in the power of collaboration
-                and the immense value it brings to the world of technology.
-                <br /> Our mission is to empower developers like you by
-                providing comprehensive open source education, connecting you
-                with industry experts, and guiding you through the exciting
-                journey of contributing to real-world projects.
-                <br /> Whether you're a seasoned developer or just starting out,
-                our course is designed to enhance your skills, boost your
-                confidence, and open doors to endless opportunities in the tech
-                industry.
+                Welcome to the Open Source Course, an immersive and
+                comprehensive course designed to empower individuals with the
+                skills and knowledge necessary to dive into the world of open
+                source and secure rewarding job opportunities. In this dynamic
+                program, we will explore the fundamental principles of open
+                source software, provide practical guidance on contributing to
+                open source projects, and equip you with the tools needed to
+                excel in the fast-paced and ever-evolving tech industry. Whether
+                you are a curious beginner or a seasoned professional looking to
+                expand your horizons, this open source course will guide you on
+                a transformative journey, opening doors to exciting career
+                prospects in the realm of open source development.
               </p>
               <div className='mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center'>
                 <ButtonLink href='#sec-structure' as={ArrowLink}>
@@ -64,43 +92,35 @@ const OpenSourcePage = ({ content }) => {
       </div>
 
       {/* Why Should I Join */}
-      <ColumnSection
-        id='sec-about'
-        src='https://www.youtube.com/embed/msyGybzCKRs'
-        isVideo
-        title='About'
-        direction='left'
-      >
-        <ListItem>
-          Open source is the driving force behind many of the technologies we
-          use today.
-        </ListItem>
-        <ListItem>
-          It fosters collaboration, encourages knowledge sharing, and fuels
-          innovation.
-        </ListItem>
-        <ListItem>
-          By participating in open source projects, you not only gain valuable
-          technical skills but also develop crucial soft skills such as
-          communication, teamwork, and problem-solving.
-        </ListItem>
-        <ListItem>
-          Additionally, contributing to open source can boost your visibility in
-          the developer community, attract potential employers, and create a
-          strong foundation for your future career.
-        </ListItem>
-        <ListItem>
-          Join us to unlock the endless possibilities that open source offers.
-        </ListItem>
-      </ColumnSection>
+      <section id='sec-about'>
+        <div className='layout py-20 text-center'>
+          <h2 className='h1 mb-4'> Who should you join this course? </h2>
+          <hr className='styled-hr mx-auto my-6' />
+          <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+            {content.whyjoin.map((item) => (
+              <div className='pt-6' key={item}>
+                <div className='rounded-xl bg-base-200 p-8 text-left'>
+                  <div className='mx-auto -mt-12 flex max-w-max items-center justify-center rounded-md bg-white p-2'>
+                    <BsAward
+                      style={{ fill: 'url(#blue-gradient)' }}
+                      className='h2'
+                    />
+                  </div>
+                  <h3 className='mt-5 font-normal'>{item.title}</h3>
+                  <p className='mt-4 font-normal'>{item.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Course Strucure */}
       <section id='sec-structure'>
         <div className='layout py-20 text-center'>
-          <h2 className='h1 mb-4'>Comprehensive course structure</h2>
+          <h2 className='h1 mb-4'>Course structure</h2>
           <p className='h4 mx-auto mt-2 max-w-2xl font-normal'>
-            Your potential through structured lectures, expert guidance, and
-            real-world assignments
+            Learn by doing
           </p>
           <hr className='styled-hr mx-auto my-6' />
           <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
@@ -110,7 +130,18 @@ const OpenSourcePage = ({ content }) => {
                   style={{ fill: 'url(#blue-gradient)' }}
                   className='h2'
                 />
-                <h3 className='mt-5 font-normal'>{item}</h3>
+                <h3 className='mt-5 font-normal'>{item.title}</h3>
+                <ul>
+                  {item.points.map((point) => (
+                    <li
+                      className='h4 mt-2 inline-flex items-baseline gap-2  font-normal text-content/90'
+                      key={point}
+                    >
+                      <VscDebugBreakpointFunction className='shrink-0' />{' '}
+                      {point}
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
@@ -128,39 +159,55 @@ const OpenSourcePage = ({ content }) => {
 
       <section id='sec-learninpublic' className='overflow-x-hidden'>
         <div className='layout py-20 text-center'>
-          <h2 className='h1'>
-            Learn in public: Share your journey and grow as a developer
-          </h2>
+          <h2 className='h1'>Learn in public</h2>
           <p className='h4 mt-2 font-normal'>
-            Embrace transparency, build connections, and elevate your skills
-            through #OpenSourceWithKunal
+            Share your journey and grow as a develope
           </p>
           <hr className='styled-hr mx-auto my-6' />
 
           <ul className='mx-auto max-w-5xl space-y-5'>
-            {content.learninpublic.map((item) => (
-              <li
-                className='h3 flex w-full gap-3 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'
-                key={item.title}
-              >
-                <MdOutlineLabelImportant
-                  style={{ fill: 'url(#blue-gradient)' }}
-                  className='h2 inline-block text-primary'
-                />
-                <span>
-                  {' '}
-                  {item.title}{' '}
-                  {item.link && (
-                    <ArrowLink
-                      href={item.link.href}
-                      className='inline-flex items-center text-primary'
-                    >
-                      {item.link.title}
-                    </ArrowLink>
-                  )}
-                </span>
-              </li>
-            ))}
+            <li className='h3 flex w-full gap-3 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'>
+              <MdOutlineLabelImportant
+                style={{ fill: 'url(#blue-gradient)' }}
+                className='h2 inline-block text-primary'
+              />
+              <span>
+                Use{' '}
+                <button
+                  className='relative bg-purple-700/50'
+                  onClick={copyHashtag}
+                >
+                  #OpenSourceWithKunal
+                  <div
+                    className={clsxm(
+                      'pointer-events-none absolute bottom-0 left-1/2 origin-center -translate-x-1/2 -translate-y-[50%] scale-[.85] rounded bg-content px-2 text-xs text-base-100 opacity-0 transition-all duration-300',
+                      copied &&
+                        'translate-y-[50%] -translate-x-1/2 scale-100 opacity-100'
+                    )}
+                  >
+                    Copied Hashtag
+                  </div>
+                </button>{' '}
+                on Twitter and share your journey regularly
+              </span>
+            </li>
+            <li className='h3 flex w-full gap-3 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'>
+              <MdOutlineLabelImportant
+                style={{ fill: 'url(#blue-gradient)' }}
+                className='h2 inline-block text-primary'
+              />
+              <span>
+                There will be a{' '}
+                <HeaderLink
+                  openNewTab
+                  className='text-indigo-300 after:h-[2px] after:bg-white'
+                  href='/events/hashnode'
+                >
+                  blogging challenge
+                </HeaderLink>{' '}
+                will be running along with this and win exciting prices.
+              </span>
+            </li>
           </ul>
         </div>
       </section>
@@ -168,7 +215,7 @@ const OpenSourcePage = ({ content }) => {
       <Testimonials
         tweetId={tweetId}
         setTweetId={setTweetId}
-        title='Open Source Testimonials'
+        title='Testimonials'
       />
 
       <section id='register'>
