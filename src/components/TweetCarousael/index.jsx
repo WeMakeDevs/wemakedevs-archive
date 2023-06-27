@@ -6,16 +6,7 @@ import { eagerLoadTwitterLibrary, Tweet } from 'react-twitter-widgets';
 
 //skeleton component layout wrappers
 function InlineWrapperWithMargin({ children }) {
-  return (
-    <span
-      style={{
-        marginRight: '1.2rem',
-        marginLeft: '1.2rem',
-      }}
-    >
-      {children}
-    </span>
-  );
+  return <span className='mx-3'>{children}</span>;
 }
 
 function TweetCarousael({ tweetId, setTweetId }) {
