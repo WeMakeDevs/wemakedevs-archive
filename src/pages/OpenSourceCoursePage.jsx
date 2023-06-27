@@ -43,14 +43,15 @@ const OpenSourcePage = ({ content }) => {
               </h1>
               <p className='mx-auto mt-6 max-w-lg text-center text-xl text-indigo-200 sm:max-w-3xl'>
                 At Open Source Course, we believe in the power of collaboration
-                and the immense value it brings to the world of technology. Our
-                mission is to empower developers like you by providing
-                comprehensive open source education, connecting you with
-                industry experts, and guiding you through the exciting journey
-                of contributing to real-world projects. Whether you're a
-                seasoned developer or just starting out, our course is designed
-                to enhance your skills, boost your confidence, and open doors to
-                endless opportunities in the tech industry.
+                and the immense value it brings to the world of technology.
+                <br /> Our mission is to empower developers like you by
+                providing comprehensive open source education, connecting you
+                with industry experts, and guiding you through the exciting
+                journey of contributing to real-world projects.
+                <br /> Whether you're a seasoned developer or just starting out,
+                our course is designed to enhance your skills, boost your
+                confidence, and open doors to endless opportunities in the tech
+                industry.
               </p>
               <div className='mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center'>
                 <ButtonLink href='#sec-structure' as={ArrowLink}>
@@ -94,7 +95,7 @@ const OpenSourcePage = ({ content }) => {
       </ColumnSection>
 
       {/* Course Strucure */}
-      <section className='relative isolate overflow-hidden'>
+      <section id='sec-structure'>
         <div className='layout py-20 text-center'>
           <h2 className='h1 mb-4'>Comprehensive course structure</h2>
           <p className='h4 mx-auto mt-2 max-w-2xl font-normal'>
