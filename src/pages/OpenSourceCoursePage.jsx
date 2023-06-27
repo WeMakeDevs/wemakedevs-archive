@@ -45,20 +45,20 @@ const OpenSourcePage = ({ content }) => {
       <div className='mt-24 mb-10'>
         <div className='layout'>
           <div className='relative shadow-xl sm:overflow-hidden sm:rounded-2xl'>
-            <div className='absolute inset-0'>
+            <div className='absolute inset-0 opacity-30'>
               <img
-                className='h-full w-full object-cover opacity-50'
+                className='h-full w-full object-cover'
                 src={OpenSourceHeroImg}
                 alt='People working on laptops'
               />
               <div className='absolute inset-0 bg-primary mix-blend-multiply' />
             </div>
             <div className='relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8'>
-              <h1 className='text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl'>
-                <span className='block text-content'>
-                  Unlocking the Potential of
+              <h1 className='heading heading-md text-center font-extrabold tracking-tight '>
+                <span className='block text-content'>Your guide to</span>
+                <span className='block text-indigo-200'>
+                  Open source contributions
                 </span>
-                <span className='block text-indigo-200'>Open Source</span>
               </h1>
               <iframe
                 src='https://www.youtube.com/embed/msyGybzCKRs'
@@ -67,21 +67,14 @@ const OpenSourcePage = ({ content }) => {
                 allowfullscreen
                 className='mx-auto mt-8 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 border-content/50 object-cover shadow-[0_1rem_3rem] shadow-content/30'
               ></iframe>
-              <p className='mx-auto mt-6 max-w-lg text-center text-xl text-indigo-200 sm:max-w-3xl'>
-                Welcome to the Open Source Course, an immersive and
-                comprehensive course designed to empower individuals with the
-                skills and knowledge necessary to dive into the world of open
-                source and secure rewarding job opportunities. In this dynamic
-                program, we will explore the fundamental principles of open
-                source software, provide practical guidance on contributing to
-                open source projects, and equip you with the tools needed to
-                excel in the fast-paced and ever-evolving tech industry. Whether
-                you are a curious beginner or a seasoned professional looking to
-                expand your horizons, this open source course will guide you on
-                a transformative journey, opening doors to exciting career
-                prospects in the realm of open source development.
+              <p className='mx-auto mt-6 max-w-lg text-center text-xl text-indigo-100 sm:max-w-[50rem]'>
+                Welcome to the immersive Open Source Course, where we empower
+                individuals with skills to thrive in open source. Dive into this
+                comprehensive program to explore open source principles,
+                contribute to projects, and excel in the tech industry. Join us
+                for a transformative journey and exciting career prospects.
               </p>
-              <div className='mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center'>
+              <div className='mx-auto mt-10 flex justify-center'>
                 <ButtonLink href='#sec-structure' as={ArrowLink}>
                   Course structure
                 </ButtonLink>
