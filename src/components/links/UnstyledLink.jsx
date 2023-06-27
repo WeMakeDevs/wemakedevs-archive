@@ -2,6 +2,8 @@ import NewTab from 'Icons/core/NewTab';
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
+import clsxm from '@/lib/utils';
+
 const UnstyledLink = React.forwardRef(
   (
     { children, href, openNewTab, openNewTabIcon = false, className, ...rest },
@@ -30,10 +32,9 @@ const UnstyledLink = React.forwardRef(
         })}
         href={href}
         {...rest}
-        className={className}
+        className={clsxm('inline-flex', className)}
       >
-        {children}
-        {openNewTabIcon && <NewTab />}
+        {children} {openNewTabIcon && <NewTab />}{' '}
       </a>
     );
   }
