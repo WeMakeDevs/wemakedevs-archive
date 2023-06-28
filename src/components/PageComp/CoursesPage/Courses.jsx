@@ -1,6 +1,7 @@
 import Devops from 'assets/courses/devops.jpg';
 import DSA from 'assets/courses/dsa.jpg';
 import GitGithub from 'assets/courses/git-github.jpg';
+import OpenSource from 'assets/courses/opensource.jpeg';
 
 import DetailCard from '../../Cards/DetailCard';
 
@@ -45,6 +46,14 @@ const courses = [
       'Without a doubt, DevOps engineer is the most in-demand role in the current market, especially with an increased number of high paying remote opportunities.',
     image: Devops,
     url: '/courses/devops',
+    btnText: 'Learn more',
+  },
+  {
+    title: 'Open Source',
+    description:
+      'Welcome to the immersive Open Source Course, where we empower individuals with skills to thrive in open source. Dive into this comprehensive program to explore open source principles, contribute to projects, and excel in the tech industry.',
+    image: OpenSource,
+    url: '/courses/opensource',
     btnText: 'Learn more',
   },
 ];
