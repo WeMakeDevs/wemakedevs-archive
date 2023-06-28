@@ -17,7 +17,6 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@craco/craco": "^7.1.0",
     "better-react-carousel": "^1.1.1",
     "check-node-version": "^4.2.1",
     "clsx": "^1.2.1",
