@@ -104,7 +104,7 @@ const OpenSourcePageContent = {
     ],
     btns: [
       {
-        text: 'Playlist',
+        text: 'Lectures',
         link: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnq3Px3IAYF7yxeWGWrSdHK8',
       },
       {
