@@ -11,6 +11,7 @@ import {
   GitGithubPageContent,
 } from '@/content/courses';
 import { CoursesPageContent } from '@/content/courses/CoursesPageContent';
+import OpenSourcePageContent from '@/content/courses/opensource';
 import NapptiveHackathon from '@/content/Hackathons/napptive';
 import { MeetupPageContent } from '@/content/Meetup';
 import Delhi2023 from '@/content/Meetup/delhi-may-2023';
@@ -43,6 +44,7 @@ const Super25Page = lazy(() => import('@/pages/Super25Page'));
 const CocPage = lazy(() => import('@/pages/CocPage'));
 const MeetupPage = lazy(() => import('@/pages/MeetupPage'));
 const OpenSourcePage = lazy(() => import('@/pages/OpenSourcePage'));
+const OpenSourceCoursePage = lazy(() => import('@/pages/OpenSourceCoursePage'));
 
 const App = () => {
   return (
@@ -71,6 +73,11 @@ const App = () => {
             exact
             path='/courses/devops'
             element={<SingleCoursePage content={DevopsPageContent} />}
+          />
+          <Route
+            exact
+            path='/courses/opensource'
+            element={<OpenSourceCoursePage content={OpenSourcePageContent} />}
           />
 
           {/* Events Page */}

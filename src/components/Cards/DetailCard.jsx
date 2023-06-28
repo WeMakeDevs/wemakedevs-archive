@@ -5,18 +5,18 @@ import ButtonLink from '@/components/links/ButtonLink';
 
 const DetailCard = ({ image, title, description, url, btnText, git }) => {
   return (
-    <div className='overflow-hidden rounded-lg border border-content/50 bg-gradient-to-br from-transparent to-base-100/50'>
+    <div className='overflow-hidden rounded-2xl bg-content/5 p-4'>
       <img
         src={image}
-        className='aspect-video w-full object-cover object-center'
+        className='aspect-video w-full rounded-lg object-cover object-center'
         alt={title + 'banner'}
       />
-      <div className='p-6'>
+      <div className='pt-6 pb-3'>
         <h3>{title}</h3>
         <p className='mt-2'>{description}</p>
         <div className='mt-4 flex gap-2'>
           {url && (
-            <ArrowLink as={ButtonLink} href={url}>
+            <ArrowLink openNewTab as={ButtonLink} href={url}>
               {btnText}
             </ArrowLink>
           )}
