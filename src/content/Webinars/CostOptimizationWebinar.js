@@ -17,7 +17,7 @@ const CostOptimizationWebinar = {
     'What are the guidelines for setting resource request limits?',
     'What tools can you use to predict best resource utilization?',
   ],
-  time: '28 June 2023 16:00:00 GMT',
+  time: '3 July 2023 16:00:00 GMT',
   speakers: [
     {
       name: 'Natan Yellin',
