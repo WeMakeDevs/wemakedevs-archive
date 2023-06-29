@@ -165,7 +165,7 @@ const OpenSourcePage = ({ content }) => {
           <div className='layout py-20 text-center'>
             <h2 className='h1'>Learn in public</h2>
             <p className='h4 mt-2 font-normal'>
-              Share your journey and grow as a develope
+              Share your journey and grow as a developer
             </p>
             <hr className='styled-hr mx-auto my-6' />
 
