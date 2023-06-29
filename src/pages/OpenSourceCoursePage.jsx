@@ -24,20 +24,25 @@ import OpenSourceHeroImg from '@/assets/courses/opensource.avif';
 
 const OpenSourcePage = ({ content }) => {
   const [tweetId, setTweetId] = useState(opensourcetweet);
-  const [copied, setCopied] = useState(false);
-  const copyHashtag = () => {
-    navigator.clipboard.writeText('#OpenSourceWithKunal');
-    setCopied(true);
-  };
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      if (copied) setCopied(false);
-    }, 1000);
+  // const [copied, setCopied] = useState(false);
+  // const copyHashtag = () => {
+  //   navigator.clipboard.writeText('#OpenSourceWithKunal');
+  //   setCopied(true);
+  // };
+  // useEffect(() => {
+  //   const timeout = setTimeout(() => {
+  //     if (copied) setCopied(false);
+  //   }, 1000);
 
-    return () => {
-      clearTimeout(timeout);
-    };
-  }, [copied]);
+  //   return () => {
+  //     clearTimeout(timeout);
+  //   };
+  // }, [copied]);
+  
+  const handleClick = () => {
+    const twitterUrl = 'https://twitter.com/intent/tweet?text=%23OpenSourceWithKunal';
+    window.open(twitterUrl, '_blank');
+  };
 
   return (
     <>
@@ -173,7 +178,7 @@ const OpenSourcePage = ({ content }) => {
                   Use{' '}
                   <button
                     className='relative bg-purple-700/50'
-                    onClick={copyHashtag}
+                    onClick={handleClick}
                   >
                     #OpenSourceWithKunal
                     <div
