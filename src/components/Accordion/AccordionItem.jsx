@@ -3,10 +3,13 @@ import { FaMinus, FaPlus } from 'react-icons/fa';
 
 import clsxm from '@/lib/utils';
 
+import { HeaderLink } from '@/components/links';
+
 const AccordionItem = ({
   index,
   question,
   answer,
+  link,
   activeItem,
   setActiveItem,
 }) => {
@@ -39,7 +42,18 @@ const AccordionItem = ({
             : { maxHeight: '0px' }
         }
       >
-        <div className='max-h-max py-6 px-3'>{answer}</div>
+        <div className='max-h-max py-6 px-3'>
+          {answer}{' '}
+          {link && (
+            <HeaderLink
+              openNewTab
+              className='text-indigo-300 after:h-[2px] after:bg-white'
+              href={link.href}
+            >
+              {link.title}
+            </HeaderLink>
+          )}
+        </div>
       </div>
     </div>
   );
