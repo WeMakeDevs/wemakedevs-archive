@@ -121,7 +121,7 @@ const OpenSourcePageContent = {
     },
     {
       title:
-        'There will be a blogging challenge will be running along with this and win exciting prices.',
+        'There will be a blogging challenge along with this where you can win exciting prizes.',
       link: {
         title: 'Blogging challenges',
         href: '/events/hashnode',
