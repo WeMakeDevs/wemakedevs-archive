@@ -95,7 +95,7 @@ const OpenSourcePage = ({ content }) => {
         {/* Why Should I Join */}
         <section id='sec-about'>
           <div className='layout py-20 text-center'>
-            <h2 className='h1 mb-4'> Who should you join this course? </h2>
+            <h2 className='h1 mb-4'> Who should join this course? </h2>
             <hr className='styled-hr mx-auto my-6' />
             <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
               {content.whyjoin.map((item) => (
