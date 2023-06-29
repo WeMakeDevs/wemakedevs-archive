@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b65a4a68.css",
-    "main.js": "/static/js/main.da6b75ad.js",
+    "main.js": "/static/js/main.87eb3bd1.js",
     "static/js/842.b937e159.chunk.js": "/static/js/842.b937e159.chunk.js",
     "static/js/236.76e28fde.chunk.js": "/static/js/236.76e28fde.chunk.js",
     "static/js/240.1a7a77c6.chunk.js": "/static/js/240.1a7a77c6.chunk.js",
@@ -38,7 +38,7 @@
     "static/media/meetup.jpeg": "/static/media/meetup.8f35afbee913787140ff.jpeg",
     "static/media/chatops-for-k8s.png": "/static/media/chatops-for-k8s.a69a5b382504566f5a32.png",
     "static/media/simplify-deployments.png": "/static/media/simplify-deployments.79c3ba4a35640ac340bd.png",
-    "static/media/cloud-cost.png": "/static/media/cloud-cost.7af71024105713fac4ae.png",
+    "static/media/cloud-cost.png": "/static/media/cloud-cost.01ebd9a419ec4d9f05fa.png",
     "static/media/access-control.png": "/static/media/access-control.e45c1abf708bd7015d87.png",
     "static/media/courses.png": "/static/media/courses.f2c1856875197487b345.png",
     "static/media/devops.jpg": "/static/media/devops.474566e789c81ee67917.jpg",
@@ -90,7 +90,7 @@
     "static/media/virtusa.svg": "/static/media/virtusa.b475b27e472c128bc7bca4388039e6bd.svg",
     "index.html": "/index.html",
     "main.b65a4a68.css.map": "/static/css/main.b65a4a68.css.map",
-    "main.da6b75ad.js.map": "/static/js/main.da6b75ad.js.map",
+    "main.87eb3bd1.js.map": "/static/js/main.87eb3bd1.js.map",
     "842.b937e159.chunk.js.map": "/static/js/842.b937e159.chunk.js.map",
     "236.76e28fde.chunk.js.map": "/static/js/236.76e28fde.chunk.js.map",
     "240.1a7a77c6.chunk.js.map": "/static/js/240.1a7a77c6.chunk.js.map",
@@ -119,6 +119,6 @@
   },
   "entrypoints": [
     "static/css/main.b65a4a68.css",
-    "static/js/main.da6b75ad.js"
+    "static/js/main.87eb3bd1.js"
   ]
 }
