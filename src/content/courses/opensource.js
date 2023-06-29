@@ -111,6 +111,10 @@ const OpenSourcePageContent = {
         text: 'Assignments',
         link: 'https://github.com/WeMakeDevs/open-source-course',
       },
+      {
+        text: 'Roadmaps',
+        link: 'https://github.com/WeMakeDevs/roadmaps',
+      },
     ],
   },
   learninpublic: [
