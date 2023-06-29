@@ -9,17 +9,15 @@ const Hero = () => {
           Events that <br /> inspire{' '}
         </h1>
         <h2 className='h3 my-5 font-medium text-content'>
-          Want to give back to the{' '}
-          <span className='highlight highlight--light'> community </span>,
-          compete for awesome{' '}
-          <span className='highlight highlight--light'> rewards </span> network,
-          and gain knowledge? 🎁 <br />
-          If so, you've come to the correct place. Participate in the numerous{' '}
+          Would you like to contribute to the{' '}
+          <span className='highlight highlight--light'> community? </span>,
+          and be{' '}
+          <span className='highlight highlight--light'> rewarded 🎁, </span> Are you eager to participate in a Global-Network that offers valuable incentives and opportunities to expand your knowledge?  <br />
+          If so, you've come to the right place. Join us in engaging with the diverse range of{' '}
           <span className='highlight highlight--light'>
             incredible events{' '}
           </span>{' '}
-          hosted by the WeMakeDevs community. Check out the following events and
-          participate.
+          hosted by the WeMakeDevs community. Take a moment to explore the ongoing events and become an active participant.
         </h2>
         <ArrowLink className='mx-auto' as={ButtonLink} href='#about'>
           Learn more
