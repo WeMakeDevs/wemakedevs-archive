@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <url>    
+  <loc>https://wemakedevs.org/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://wemakedevs.org/courses</loc>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+    </url>
+  <url>
+    <loc>https://wemakedevs.org/events</loc>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url> 
+  <url>
+    <loc>https://wemakedevs.org/events/webinars</loc>
+    <changefreq>always</changefreq>
+    <priority>0.7</priority>
+  <url>
+    <loc>https://wemakedevs.org/events/webinars</loc>
+    <changefreq>always</changefreq>
+  </url> 
+  <url>
+    <loc>http://wemakedevs.org/courses/dsa</loc>
+    <changefreq>weekly</changefreq>
+    </url>
+  <url>
+    <loc>http://wemakedevs.org/courses/git-github</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://wemakedevs.org/courses/devops</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+    <loc>http://wemakedevs.org/courses/opensource</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://blog.wemakedevs.org/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
