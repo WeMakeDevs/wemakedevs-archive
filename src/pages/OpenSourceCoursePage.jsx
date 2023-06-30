@@ -110,7 +110,7 @@ const OpenSourcePage = ({ content }) => {
           </div>
         </section>
 
-        {/* Course Strucure */}
+        {/* Course Structure */}
         <section id='sec-structure'>
           <div className='layout py-20 text-center'>
             <h2 className='h1 mb-4'>Course structure</h2>
@@ -203,7 +203,7 @@ const OpenSourcePage = ({ content }) => {
                   >
                     blogging challenge
                   </HeaderLink>{' '}
-                  running along with this, where you can win exciting prizes.
+                 running along with this, where you can win exciting prizes.              
                 </span>
               </li>
             </ul>
