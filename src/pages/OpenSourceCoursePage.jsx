@@ -203,7 +203,7 @@ const OpenSourcePage = ({ content }) => {
                   >
                     blogging challenge
                   </HeaderLink>{' '}
-                  will be running along with this and win exciting prizes.
+                  running along with this, and you can win exciting prizes.
                 </span>
               </li>
             </ul>
