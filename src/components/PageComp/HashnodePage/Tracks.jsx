@@ -27,27 +27,27 @@ export default Tracks;
 const hashnodeData = [
   {
     description:
-      'Write a blog on the topic DevOps, share some of your learnings, and tools that you use and stand a chance to win the prize.',
+      'Write a blog on the topic Artifial Intelligence, share some of your learnings, and tools that you use and stand a chance to win the prize.',
     image: Track1,
   },
   {
     description:
-      'Write a blog on the topic DSA, share some of your tips, and learnings and stand a chance to win prize.',
+      'Write a blog on the topic Development, share some of your tips, and learnings and stand a chance to win prize.',
     image: Track2,
   },
   {
     description:
-      'Write a blog on the topic Embedded Technologies, and stand a chance to win the prize.',
+      'Write a blog on the topic Open Source, and stand a chance to win the prize.',
     image: Track3,
   },
   {
     description:
-      'Write a blog on the topic Backend Development, share some of your knowledge and learnings, and stand a chance to win the prize.',
+      'Write a blog sharing some of your takeaways from hackathons. If you want to participate in one, check out AWS Amplify by Hashnode',
     image: Track4,
   },
   {
     description:
-      'Record a video, sharing how participating in the blogging challenges and writing on hashnode has helped you in your learnings and brand growth, share it on Twitter, tagging @WeMakeDevs and @hashnode, and get a change to win a StreamDeck and a YouTube mentorship session with Kunal Kushwaha',
+      'It is important to look back at things you have acheived to stay motivated to do even more amazing things. Half of 2023 is over, and now it\'s time to look back at all your acomplishments so far. Write about them and you can win a Mechanical Keyboard.',
     image: Special,
   },
 ];
