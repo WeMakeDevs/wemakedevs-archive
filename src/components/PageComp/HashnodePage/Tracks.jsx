@@ -47,7 +47,7 @@ const hashnodeData = [
   },
   {
     description:
-      'It is important to look back at things you have acheived to stay motivated to do even more amazing things. Half of 2023 is over, and now it\'s time to look back at all your acomplishments so far. Write about them and you can win the special prize.',
+      'It is important to look back at things you have acheived to stay motivated to do even more amazing things. Half of 2023 is over, and now it\'s time to look back at all your acomplishments so far. Write about them and you can win a Mechanical Keyboard.',
     image: Special,
   },
 ];
