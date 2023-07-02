@@ -111,6 +111,10 @@ const OpenSourcePageContent = {
         text: 'Assignments',
         link: 'https://github.com/WeMakeDevs/open-source-course',
       },
+      {
+        text: 'Resources',
+        link: 'https://github.com/WeMakeDevs/roadmaps',
+      },
     ],
   },
   learninpublic: [
@@ -161,9 +165,13 @@ const OpenSourcePageContent = {
     },
     {
       id: 'FAQ6',
-      question: 'Do you provide mentorship and guidance?',
+      question: 'How do I find resources to upskill myself in tech stacks?',
       answer:
-        'Yes. That is the highlight of our community. Get expert guidance from industry experts from around the world. You can learn more and get inspired by their stories and roadmaps via the podcast Open Source Cafe.',
+        'We the roadmaps repository which contains curated resources for various tech stacks. You can find it at',
+      link: {
+        title: ' roadmaps.',
+        href: 'https://github.com/WeMakeDevs/roadmaps',
+      },
     },
   ],
 };

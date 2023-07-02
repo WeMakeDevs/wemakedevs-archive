@@ -8,6 +8,8 @@ import {
 
 import clsxm from '@/lib/utils';
 
+import { opensourcetweet } from '@/content/opensource';
+
 import {
   Footer,
   JoinUs,
@@ -21,15 +23,7 @@ import { ArrowLink, ButtonLink, HeaderLink } from '@/components/links';
 import OpenSourceHeroImg from '@/assets/courses/opensource.avif';
 
 const OpenSourcePage = ({ content }) => {
-  const [tweetId, setTweetId] = useState([
-    '1537416341245681665',
-    '1656911832811184129',
-    '1656561217442562051',
-    '1656959959450394624',
-    '1656141618129547264',
-    '1658437060833968129',
-    '1655812888387530753',
-  ]);
+  const [tweetId, setTweetId] = useState(opensourcetweet);
   const [copied, setCopied] = useState(false);
   const copyHashtag = () => {
     navigator.clipboard.writeText('#OpenSourceWithKunal');
@@ -69,7 +63,7 @@ const OpenSourcePage = ({ content }) => {
                   </span>
                 </h1>
                 <iframe
-                  src='https://www.youtube.com/embed/msyGybzCKRs'
+                  src='https://www.youtube.com/embed/inZUgh8p1d4'
                   title='YouTube video player'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
                   allowfullscreen
@@ -116,7 +110,7 @@ const OpenSourcePage = ({ content }) => {
           </div>
         </section>
 
-        {/* Course Strucure */}
+        {/* Course Structure */}
         <section id='sec-structure'>
           <div className='layout py-20 text-center'>
             <h2 className='h1 mb-4'>Course structure</h2>
@@ -165,7 +159,7 @@ const OpenSourcePage = ({ content }) => {
           <div className='layout py-20 text-center'>
             <h2 className='h1'>Learn in public</h2>
             <p className='h4 mt-2 font-normal'>
-              Share your journey and grow as a develope
+              Share your journey and grow as a developer
             </p>
             <hr className='styled-hr mx-auto my-6' />
 
@@ -209,7 +203,9 @@ const OpenSourcePage = ({ content }) => {
                   >
                     blogging challenge
                   </HeaderLink>{' '}
+
                   along with this where you can win exciting prizes.
+
                 </span>
               </li>
             </ul>
