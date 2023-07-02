@@ -13,7 +13,7 @@
 
 # About Us
 
-Our community provides a variety of<b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
+Our community provides a variety of a <b> FREE hands-on computer science training</b> and <b>workshops</b> designed to help individuals develop practical skills through hands-on learning experiences. We are committed to fostering an inclusive and supportive environment where everyone can learn and grow. Our <b>"Learn by doing"</b> approach means that you will have the opportunity to actively engage with the material and put your newly acquired skills into practice.
 
 ## What is WeMakeDevs?
 
