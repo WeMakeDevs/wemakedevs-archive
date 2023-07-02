@@ -27,7 +27,7 @@ WeMakeDevs provides hands-on training courses and mentorship for free, along wit
 <img src="SkewdImage/wemakedevs.drawio.png" width="520" height="390" >
 </p>
 
-## 👨‍💻 We Make Devs
+## 👨‍💻 Wemakedevs
 
 <a href="https://wemakedevs.org/">Visit</a> our website.
 
