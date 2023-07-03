@@ -3,7 +3,7 @@ import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPa
 import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
 import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
 
-import AccessControlWebinar from './AccessControlWebinar';
+// import AccessControlWebinar from './AccessControlWebinar';
 import BPFWebinar from './BPFWebinar';
 import ChatOpsWebinar from './ChatOpsWebinar';
 import GopherWebinar from './GopherWebinar';
@@ -72,14 +72,14 @@ export const webinar = [
     slug: SimplifiedDeploymentWebinar.slug,
     details: SimplifiedDeploymentWebinar,
   },
-  {
-    img: AccessControlWebinar.poster,
-    title: AccessControlWebinar.name,
-    description: AccessControlWebinar.description,
-    time: AccessControlWebinar.time,
-    slug: AccessControlWebinar.slug,
-    details: AccessControlWebinar,
-  },
+  // {
+  //   img: AccessControlWebinar.poster,
+  //   title: AccessControlWebinar.name,
+  //   description: AccessControlWebinar.description,
+  //   time: AccessControlWebinar.time,
+  //   slug: AccessControlWebinar.slug,
+  //   details: AccessControlWebinar,
+  // },
   {
     img: ZeroDowmtime.poster,
     title: ZeroDowmtime.name,
