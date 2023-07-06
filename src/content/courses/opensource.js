@@ -167,7 +167,7 @@ const OpenSourcePageContent = {
       id: 'FAQ6',
       question: 'How do I find resources to upskill myself in tech stacks?',
       answer:
-        'We the roadmaps repository which contains curated resources for various tech stacks. You can find it at',
+        'We have a roadmaps repository which contains curated resources for various tech stacks. You can find it at',
       link: {
         title: ' roadmaps.',
         href: 'https://github.com/WeMakeDevs/roadmaps',
