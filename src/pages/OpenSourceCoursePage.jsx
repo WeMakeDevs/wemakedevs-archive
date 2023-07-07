@@ -203,9 +203,7 @@ const OpenSourcePage = ({ content }) => {
                   >
                     blogging challenge
                   </HeaderLink>{' '}
-
                   along with this where you can win exciting prizes.
-
                 </span>
               </li>
             </ul>
