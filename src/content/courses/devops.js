@@ -51,12 +51,14 @@ const DevopsPageContent = {
       {
         title: 'Service mesh',
         description: 'Istio, Envoy, Linkerd, and more.',
-        //videoLink: '',
+        videoLink:
+          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
       {
         title: 'Working with cloud providers',
         description: 'Learn about cloud providers, design patterns, and more.',
-        //videoLink: ''
+        videoLink:
+          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
       {
         title: 'Chaos engineering',
@@ -78,7 +80,8 @@ const DevopsPageContent = {
       {
         title: 'GoLang',
         description: 'Complete GoLang tutorial.',
-        //videoLink: ''
+        videoLink:
+          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
       {
         title: 'CI/CD',
@@ -90,7 +93,8 @@ const DevopsPageContent = {
         title: 'Monitoring and logging',
         description:
           'Monitoring tools and practices, Prometheus, Thanos, Grafana, Jaeger, New Relic, and more.',
-        //videoLink: ''
+        videoLink:
+          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
       {
         title: 'GitOps',
@@ -101,13 +105,15 @@ const DevopsPageContent = {
       {
         title: 'Testing',
         description: 'Create robust applications with application testing.',
-        //videoLink: ''
+        videoLink:
+          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
       {
         title: 'Cloud native tools deep dive',
         description:
           'Navigating the Cloud Native tools landscape with a hands-on deep dive to get you started with the use-cases and contributor journey of various projects',
-        //videoLink: ''
+        videoLink:
+          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
     ],
     tweetId: [
