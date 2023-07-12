@@ -11,13 +11,13 @@ const CostOptimizationWebinar = {
   description:
     'Tips and tricks for setting accurate CPU and Memory requests on Kubernetes, to save costs and optimize performance',
   poster: Poster,
-  //videoUrl: 'TBD',
+  videoUrl: 'https://www.youtube.com/embed/GTRBsD2kDlM',
   takeaways: [
     'What causes Kubernetes costs to increase?',
     'What are the guidelines for setting resource request limits?',
     'What tools can you use to predict best resource utilization?',
   ],
-  time: '28 June 2023 16:00:00 GMT',
+  time: '3 July 2023 16:00:00 GMT',
   speakers: [
     {
       name: 'Natan Yellin',

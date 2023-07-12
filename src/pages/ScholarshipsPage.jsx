@@ -3,6 +3,7 @@ import {
   Hero,
   OngoingEvents,
   PastEvents,
+  Testimonials,
 } from '@/components/PageComp/ScholarshipsPage';
 
 import { ScholarshipsPageContent } from './content';
@@ -13,6 +14,7 @@ const ScholarshipsPage = () => {
       <Hero />
       <OngoingEvents />
       <PastEvents />
+      <Testimonials />
     </Layout>
   );
 };

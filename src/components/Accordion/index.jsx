@@ -11,10 +11,9 @@ const Accordion = ({ data }) => {
         <AccordionItem
           key={item.id}
           index={index}
-          question={item.question}
-          answer={item.answer}
           activeItem={activeItem}
           setActiveItem={setActiveItem}
+          {...item}
         />
       ))}
     </div>

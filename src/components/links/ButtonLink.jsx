@@ -22,7 +22,7 @@ const ButtonLink = ({
       href={href}
       disabled={disabled}
       className={clsxm(
-        'inline-flex w-max items-center rounded-full py-3 px-7 font-medium transition-all duration-75',
+        'relative inline-flex w-max items-center rounded-full py-3 px-7 font-medium transition-all duration-75',
         // before becuse of safari don't suppport rounded outline
         'focus-visible:before:absolute focus-visible:before:-top-1 focus-visible:before:-left-1 focus-visible:before:-right-1 focus-visible:before:-bottom-1 focus-visible:before:rounded-full focus-visible:before:border focus-visible:before:border-primary',
         'disabled:cursor-not-allowed',
@@ -54,6 +54,7 @@ const ButtonLink = ({
         ],
         isLoading &&
           'relative text-transparent transition-none hover:text-transparent disabled:cursor-wait',
+        disabled && 'pointer-events-none',
         className
       )}
       {...rest}

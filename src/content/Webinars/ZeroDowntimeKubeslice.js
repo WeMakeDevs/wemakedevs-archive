@@ -1,4 +1,4 @@
-import Poster from '@/assets/webinars/zero-downtime.png';
+import Poster from '@/assets/webinars/zero-downtime.jpeg';
 
 import {
   IndividualWebinarCompletedPageHeader,
@@ -11,7 +11,7 @@ const ZeroDowmtime = {
   description:
     'When you have an unexpected Kubernetes downtime, you want to keep your Recovery Time Objective (RTO) as low as possible, in order to prevent any major data loss. In this webinar, the speakers will share how you can achieve Zero RTO during the Kubernetes disaster recovery process using Kubeslice, and keep the damage to a minimum.',
   poster: Poster,
-  //videoUrl: 'TBD',
+  videoUrl: 'https://www.youtube.com/embed/O7qSHSQWayg',
   takeaways: [
     'What are some reasons for Kubernetes downtime?',
     'What is a RTO and why should it matter?',
@@ -24,6 +24,13 @@ const ZeroDowmtime = {
       description: 'Chief Product Office at Avesha',
       twitter: 'PrasadDorbala',
       img: 'https://pbs.twimg.com/profile_images/1484711704248426500/Of4r_OuK_400x400.jpg',
+    },
+    {
+      name: 'Matt LeBlanc',
+      description: 'Senior System Engineer at Avesha',
+      //twitter: 'MattLeBlanc', - Cannot find a twitter profile hence commented
+      linkedin: 'matt-leblanc-boston',
+      img: 'https://media.licdn.com/dms/image/D4E03AQFaZXFCibKZZA/profile-displayphoto-shrink_800_800/0/1667221648987?e=1692230400&v=beta&t=MTCnmLVZBC4NjtbcZM_0IHGJOqlPNmvDVNrIbtWEPPE',
     },
   ],
   register: 'Zerodowntime',
