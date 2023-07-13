@@ -1,12 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { BsAward } from 'react-icons/bs';
 import { MdOutlineLabelImportant } from 'react-icons/md';
 import {
   VscDebugBreakpointFunction,
   VscDebugBreakpointLog,
 } from 'react-icons/vsc';
-
-import clsxm from '@/lib/utils';
 
 import { opensourcetweet } from '@/content/opensource';
 
@@ -24,20 +22,12 @@ import OpenSourceHeroImg from '@/assets/courses/opensource.avif';
 
 const OpenSourcePage = ({ content }) => {
   const [tweetId, setTweetId] = useState(opensourcetweet);
-  const [copied, setCopied] = useState(false);
-  const copyHashtag = () => {
-    navigator.clipboard.writeText('#OpenSourceWithKunal');
-    setCopied(true);
-  };
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      if (copied) setCopied(false);
-    }, 1000);
 
-    return () => {
-      clearTimeout(timeout);
-    };
-  }, [copied]);
+  const handleClick = () => {
+    const twitterUrl =
+      'https://twitter.com/intent/tweet?text=%23OpenSourceWithKunal';
+    window.open(twitterUrl, '_blank');
+  };
 
   return (
     <>
@@ -173,18 +163,9 @@ const OpenSourcePage = ({ content }) => {
                   Use{' '}
                   <button
                     className='relative bg-purple-700/50'
-                    onClick={copyHashtag}
+                    onClick={handleClick}
                   >
                     #OpenSourceWithKunal
-                    <div
-                      className={clsxm(
-                        'pointer-events-none absolute bottom-0 left-1/2 origin-center -translate-x-1/2 -translate-y-[50%] scale-[.85] rounded bg-content px-2 text-xs text-base-100 opacity-0 transition-all duration-300',
-                        copied &&
-                          'translate-y-[50%] -translate-x-1/2 scale-100 opacity-100'
-                      )}
-                    >
-                      Copied Hashtag
-                    </div>
                   </button>{' '}
                   on Twitter and share your journey regularly
                 </span>
