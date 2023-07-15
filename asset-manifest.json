@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0db15379.css",
-    "main.js": "/static/js/main.253f5b92.js",
+    "main.css": "/static/css/main.dbd8d8b3.css",
+    "main.js": "/static/js/main.902ca149.js",
     "static/js/842.b937e159.chunk.js": "/static/js/842.b937e159.chunk.js",
     "static/js/236.76e28fde.chunk.js": "/static/js/236.76e28fde.chunk.js",
     "static/js/240.1a7a77c6.chunk.js": "/static/js/240.1a7a77c6.chunk.js",
@@ -88,8 +88,8 @@
     "static/media/samsung.svg": "/static/media/samsung.cad6b286876c24a136253f80b9897895.svg",
     "static/media/virtusa.svg": "/static/media/virtusa.b475b27e472c128bc7bca4388039e6bd.svg",
     "index.html": "/index.html",
-    "main.0db15379.css.map": "/static/css/main.0db15379.css.map",
-    "main.253f5b92.js.map": "/static/js/main.253f5b92.js.map",
+    "main.dbd8d8b3.css.map": "/static/css/main.dbd8d8b3.css.map",
+    "main.902ca149.js.map": "/static/js/main.902ca149.js.map",
     "842.b937e159.chunk.js.map": "/static/js/842.b937e159.chunk.js.map",
     "236.76e28fde.chunk.js.map": "/static/js/236.76e28fde.chunk.js.map",
     "240.1a7a77c6.chunk.js.map": "/static/js/240.1a7a77c6.chunk.js.map",
@@ -117,7 +117,7 @@
     "727.024fc6f8.chunk.js.map": "/static/js/727.024fc6f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0db15379.css",
-    "static/js/main.253f5b92.js"
+    "static/css/main.dbd8d8b3.css",
+    "static/js/main.902ca149.js"
   ]
 }
