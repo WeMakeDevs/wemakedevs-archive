@@ -76,7 +76,7 @@ export const meetups = [
     img: '/assets/images/meetup/delhi-aug-2022/Poster.jpg',
     title: 'Delhi Aug Meetup 2022',
     on: '21 Aug 2022 05:00:00 GMT',
-    link: 'https://www.youtube.com/watch?v=6AQ7-LDcStM',
+    link: 'https://youtu.be/0GrYQjbbooo',
     description:
       'We conducted the first WeMakeDevs meetup on 21st August 2022 and were joined by some amazing attendees across India. Check out the highlights in this video.',
   },
