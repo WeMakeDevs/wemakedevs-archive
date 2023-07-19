@@ -125,3 +125,16 @@
     transform: translateY(0%);
   }
 }
+
+@media (max-height: 500px) and (orientation: landscape) {
+  .navMobile {
+    flex-direction: row;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 840px) and (max-height: 500px) and (orientation: landscape) {
+  .navMobile {
+    font-size: 1rem;
+  }
+}
