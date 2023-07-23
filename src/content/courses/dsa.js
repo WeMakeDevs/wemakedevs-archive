@@ -26,14 +26,27 @@ const DsaPageContent = {
         description: 'Types of languages. Memory management.',
       },
       {
+        title: 'Flow of program',
+        description: 'Flowcharts, pattern questions and pseudocode.',
+      },
+      {
         title: 'Introduction to Java',
         description:
           'How Java works, setup installation, input and output, conditionals and loops, data types, and coding best practices.',
       },
       {
+        title: 'Functions / Methods',
+        description:
+          'Introductiob to functions, scoping, shadowing, functional arguments, function overloading.',
+      },
+      {
         title: 'Arrays and ArrayList',
         description:
           'How arrays work in Java, memory management, input and output, ArrayList introduction.',
+      },
+      {
+        title: 'Searching',
+        description: 'Linear, binary, modified binary search.',
       },
       {
         title: 'Sorting',
@@ -51,39 +64,6 @@ const DsaPageContent = {
           'Introduction, various cases, linear recurrence, divide-n-conquer recurrence, notations, solving recurrences, space complexity, NP-completeness.',
       },
       {
-        title: 'Linked List',
-        description:
-          'Introduction, singly, doubly, circular, fast and slow pointer, cycle detection, reversal of Linked List, Linked List with recursion.',
-      },
-      {
-        title: 'Trees',
-        description:
-          'Introduction to binary trees, binary search tress, DFS, BFS, AVL trees, segment trees.',
-      },
-      {
-        title: 'Hashmaps',
-        description:
-          'Introduction, theory, comparisions, limitations, map using Linked List, map using Hash, sorting, chaining, probing, huffman-encoder.',
-      },
-      {
-        title: 'Dynamic programming',
-        description:
-          'Introduction, recursion, recursion + dp, iteration, iteration + space optimized, complexity analysis, 0/1 Knapsack, subset questions, unbounded knapsack, subsequence questions, string dp.',
-      },
-      {
-        title: 'Flow of program',
-        description: 'Flowcharts, pattern questions and pseudocode.',
-      },
-      {
-        title: 'Functions / Methods',
-        description:
-          'Introductiob to functions, scoping, shadowing, functional arguments, function overloading.',
-      },
-      {
-        title: 'Searching',
-        description: 'Linear, binary, modified binary search.',
-      },
-      {
         title: 'Mathematics',
         description:
           'Bitwise operators, range of data types, prime numbers, factors, modulo properties, number theory.',
@@ -99,9 +79,29 @@ const DsaPageContent = {
           'Introduction, classes, objects, this, properties, overloading, overriding, static, packages, access control, interfaces, abstract classes, annotations, singleton class, keywords, Object class, generics, expection handling, Vector class, Collections framework, lmabda expressions, enums.',
       },
       {
+        title: 'Linked List',
+        description:
+          'Introduction, singly, doubly, circular, fast and slow pointer, cycle detection, reversal of Linked List, Linked List with recursion.',
+      },
+      {
         title: 'Stacks and Queues',
         description:
           'Introduction, push efficient, pop efficient, queue using stack and vice versa, circular queue.',
+      },
+      {
+        title: 'Trees',
+        description:
+          'Introduction to binary trees, binary search tress, DFS, BFS, AVL trees, segment trees.',
+      },
+      {
+        title: 'Hashmaps',
+        description:
+          'Introduction, theory, comparisions, limitations, map using Linked List, map using Hash, sorting, chaining, probing, huffman-encoder.',
+      },
+      {
+        title: 'Dynamic programming',
+        description:
+          'Introduction, recursion, recursion + dp, iteration, iteration + space optimized, complexity analysis, 0/1 Knapsack, subset questions, unbounded knapsack, subsequence questions, string dp.',
       },
       {
         title: 'Heaps',

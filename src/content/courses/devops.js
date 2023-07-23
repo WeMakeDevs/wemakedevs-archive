@@ -27,9 +27,19 @@ const DevopsPageContent = {
           'Networking fundamentals, OSI layer protocols, port forwarding, how the internet works, command line tools, and more.',
       },
       {
+        title: 'Introduction to Linux',
+        description:
+          'Learn about the essentials of working with Linux, including some important commands.',
+      },
+      {
         title: 'Command line tools',
         description:
           'Various command line tools, bash scripting, regex, introduction to git, and more.',
+      },
+      {
+        title: 'Docker',
+        description:
+          'Introduction to containers, hands-on demos, concepts, architecture, images, networking, best practices, development profiles, Docker Compose, Docker Swarm.',
       },
       {
         title: 'Kubernetes',
@@ -58,18 +68,13 @@ const DevopsPageContent = {
         description: 'The next step in testing.',
       },
       {
-        title: 'Introduction to Linux',
-        description:
-          'Learn about the essentials of working with Linux, including some important commands.',
-      },
-      {
-        title: 'Docker',
-        description:
-          'Introduction to containers, hands-on demos, concepts, architecture, images, networking, best practices, development profiles, Docker Compose, Docker Swarm.',
-      },
-      {
         title: 'GoLang',
         description: 'Complete GoLang tutorial.',
+      },
+      {
+        title: 'GitOps',
+        description:
+          'Manage infrastructure and application configurations using Git.',
       },
       {
         title: 'CI/CD',
@@ -80,11 +85,6 @@ const DevopsPageContent = {
         title: 'Monitoring and logging',
         description:
           'Monitoring tools and practices, Prometheus, Thanos, Grafana, Jaeger, New Relic, and more.',
-      },
-      {
-        title: 'GitOps',
-        description:
-          'Manage infrastructure and application configurations using Git.',
       },
       {
         title: 'Testing',
