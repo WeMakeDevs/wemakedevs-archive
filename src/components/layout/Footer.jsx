@@ -81,7 +81,7 @@ const Footer = () => {
                 key={link.name}
                 href={link.link}
                 aria-label={link.ariaLabel}
-                className='text-2xl'
+                className={link.className}
               >
                 {link.icon}
               </UnstyledLink>
@@ -160,55 +160,73 @@ const links = [
   {
     name: 'youtube',
     link: 'https://www.youtube.com/@KunalKushwaha',
-    icon: <FaYoutube color='red' />,
+    icon: <FaYoutube />,
     ariaLabel: 'Visit WeMakeDevs on YouTube',
+    className:
+      'text-2xl transition-all delay-200 duration-200 ease-in-out hover:-translate-y-1 hover:text-[#FF0000]',
   },
   {
     name: 'LinkedIn',
     link: 'https://www.linkedin.com/company/wemakedevs/',
-    icon: <FaLinkedin color='#0e76a8' />,
+    icon: <FaLinkedin />,
     ariaLabel: 'Visit WeMakeDevs on LinkedIn',
+    className:
+      'text-2xl transition-all delay-200 duration-200 ease-in-out hover:-translate-y-1 hover:text-[#0e76a8]',
   },
   {
     name: 'twitter',
     link: 'https://twitter.com/WeMakeDevs',
-    icon: <FaTwitter color='#1DA1F2' />,
+    icon: <FaTwitter />,
     ariaLabel: 'Visit WeMakeDevs on Twitter',
+    className:
+      'text-2xl transition-all delay-200 duration-200 ease-in-out hover:-translate-y-1 hover:text-[#1DA1F2]',
   },
   {
     name: 'instagram',
     link: 'https://www.instagram.com/wemakedevs/',
-    icon: <FaInstagram color='#E1306C' />,
+    icon: <FaInstagram />,
     ariaLabel: 'Visit WeMakeDevs on Instagram',
+    className:
+      'text-2xl transition-all delay-200 duration-200 ease-in-out hover:-translate-y-1 hover:text-[#E1306C]',
   },
   {
     name: 'github',
     link: 'https://github.com/WeMakeDevs',
     icon: <FaGithub />,
     ariaLabel: 'Visit WeMakeDevs on Github',
+    className:
+      'text-2xl transition-all delay-200 duration-200 ease-in-out hover:-translate-y-1 hover:text-[#333333]',
   },
   {
     name: 'mail',
     link: 'mailto:kunal@wemakedevs.org',
     icon: <FaEnvelope />,
     ariaLabel: 'Send a mail to WeMakeDevs',
+    className:
+      'text-2xl transition-all delay-200 duration-200 ease-in-out hover:-translate-y-1 hover:text-',
   },
   {
     name: 'telegram',
     link: 'https://t.me/WeMakeDevs',
-    icon: <FaTelegramPlane color='#0088cc' />,
+    icon: <FaTelegramPlane />,
     ariaLabel: 'Visit WeMakeDevs on Telegram',
+    className:
+      'text-2xl transition-all delay-200 duration-200 ease-in-out hover:-translate-y-1 hover:text-[#0088cc]',
   },
   {
     name: 'discord',
     link: 'https://discord.gg/wemakedevs',
-    icon: <FaDiscord color='#46237a' />,
+    icon: <FaDiscord />,
     ariaLabel: 'Visit WeMakeDevs on Discord',
+    className:
+      'text-2xl transition-all delay-200 duration-200 ease-in-out hover:-translate-y-1 hover:text-[#46237a]',
   },
   {
     name: 'hashnode',
     link: 'https://blog.wemakedevs.org/',
-    icon: <SiHashnode color='#2962ff' />,
+    icon: <SiHashnode />,
     ariaLabel: 'Visit WeMakeDevs on hashnode',
+    className:
+      'text-2xl transition-all delay-200 duration-200 ease-in-out hover:-translate-y-1 hover:text-[#2962ff]',
   },
 ];
