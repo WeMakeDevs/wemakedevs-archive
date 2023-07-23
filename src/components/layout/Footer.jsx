@@ -160,25 +160,25 @@ const links = [
   {
     name: 'youtube',
     link: 'https://www.youtube.com/@KunalKushwaha',
-    icon: <FaYoutube />,
+    icon: <FaYoutube color='red' />,
     ariaLabel: 'Visit WeMakeDevs on YouTube',
   },
   {
     name: 'LinkedIn',
     link: 'https://www.linkedin.com/company/wemakedevs/',
-    icon: <FaLinkedin />,
+    icon: <FaLinkedin color='#0e76a8' />,
     ariaLabel: 'Visit WeMakeDevs on LinkedIn',
   },
   {
     name: 'twitter',
     link: 'https://twitter.com/WeMakeDevs',
-    icon: <FaTwitter />,
+    icon: <FaTwitter color='#1DA1F2' />,
     ariaLabel: 'Visit WeMakeDevs on Twitter',
   },
   {
     name: 'instagram',
     link: 'https://www.instagram.com/wemakedevs/',
-    icon: <FaInstagram />,
+    icon: <FaInstagram color='#E1306C' />,
     ariaLabel: 'Visit WeMakeDevs on Instagram',
   },
   {
@@ -196,19 +196,19 @@ const links = [
   {
     name: 'telegram',
     link: 'https://t.me/WeMakeDevs',
-    icon: <FaTelegramPlane />,
+    icon: <FaTelegramPlane color='#0088cc' />,
     ariaLabel: 'Visit WeMakeDevs on Telegram',
   },
   {
     name: 'discord',
     link: 'https://discord.gg/wemakedevs',
-    icon: <FaDiscord />,
+    icon: <FaDiscord color='#46237a' />,
     ariaLabel: 'Visit WeMakeDevs on Discord',
   },
   {
     name: 'hashnode',
     link: 'https://blog.wemakedevs.org/',
-    icon: <SiHashnode />,
+    icon: <SiHashnode color='#2962ff' />,
     ariaLabel: 'Visit WeMakeDevs on hashnode',
   },
 ];
