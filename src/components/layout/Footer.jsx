@@ -203,7 +203,7 @@ const links = [
     icon: <FaEnvelope />,
     ariaLabel: 'Send a mail to WeMakeDevs',
     className:
-      'text-2xl transition-all delay-200 duration-200 ease-in-out hover:-translate-y-1 hover:text-',
+      'text-2xl transition-all delay-200 duration-200 ease-in-out hover:-translate-y-1 hover:text-[#FFFF00]',
   },
   {
     name: 'telegram',
