@@ -1,12 +1,6 @@
 import clsxm from '@/lib/utils';
 
 const Syllabus = ({ content }) => {
-  const mouseOver = (e) => {
-    e.target.style.color = 'blue';
-  };
-  const mouseOut = (e) => {
-    e.target.style.color = 'white';
-  };
   return (
     <section id='syllabus'>
       <div className='layout py-20'>
@@ -22,15 +16,7 @@ const Syllabus = ({ content }) => {
                 'before:h2 before:mb-2 before:inline-flex before:aspect-square before:h-12 before:items-center before:justify-center before:rounded-md before:bg-primary/30  before:text-content before:content-[attr(data-index)]'
               )}
             >
-              <h3>
-                <a
-                  href={s.videoLink}
-                  onMouseOver={mouseOver}
-                  onMouseOut={mouseOut}
-                >
-                  {s.title}
-                </a>
-              </h3>
+              <h3>{s.title}</h3>
               <p className='mt-2'>{s.description}</p>
             </div>
           ))}

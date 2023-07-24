@@ -1,4 +1,5 @@
 import { SingleCoursesPageHeader } from '@/content/courses/CoursesPageContent';
+
 const DevopsPageContent = {
   header: SingleCoursesPageHeader,
   content: {
@@ -24,19 +25,16 @@ const DevopsPageContent = {
         title: 'Introduction to networking',
         description:
           'Networking fundamentals, OSI layer protocols, port forwarding, how the internet works, command line tools, and more.',
-        videoLink: 'https://youtu.be/IPvYjXCsTg8',
       },
       {
         title: 'Command line tools',
         description:
           'Various command line tools, bash scripting, regex, introduction to git, and more.',
-        videoLink: 'https://youtu.be/apGV9Kg7ics',
       },
       {
         title: 'Kubernetes',
         description:
           'Introduction, architecture, set-up, objects, networking, storage, HA, monitoring, logging, production-ready applications.',
-        videoLink: 'https://youtu.be/KVBON1lA9N8',
       },
       {
         title: 'Servers',
@@ -46,74 +44,56 @@ const DevopsPageContent = {
         title: 'Infrastructure as code',
         description:
           'Infrastructure provisioning, Terraform, Pulumi, configuration management, and more.',
-        videoLink: 'https://www.youtube.com/live/2keKHXtvY5c?feature=share',
       },
       {
         title: 'Service mesh',
         description: 'Istio, Envoy, Linkerd, and more.',
-        videoLink:
-          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
       {
         title: 'Working with cloud providers',
         description: 'Learn about cloud providers, design patterns, and more.',
-        videoLink:
-          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
       {
         title: 'Chaos engineering',
         description: 'The next step in testing.',
-        videoLink: 'https://www.youtube.com/live/LK0oDLQE4S8?feature=share',
       },
       {
         title: 'Introduction to Linux',
         description:
           'Learn about the essentials of working with Linux, including some important commands.',
-        videoLink: 'https://youtu.be/iwolPf6kN-k',
       },
       {
         title: 'Docker',
         description:
           'Introduction to containers, hands-on demos, concepts, architecture, images, networking, best practices, development profiles, Docker Compose, Docker Swarm.',
-        videoLink: 'https://youtu.be/17Bl31rlnRM',
       },
       {
         title: 'GoLang',
         description: 'Complete GoLang tutorial.',
-        videoLink:
-          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
       {
         title: 'CI/CD',
         description:
           'Setting up a CI/CD pipeline, GitHub Actions, Circle CI, and more.',
-        videoLink: 'https://youtu.be/62N8UiWUdQo',
       },
       {
         title: 'Monitoring and logging',
         description:
           'Monitoring tools and practices, Prometheus, Thanos, Grafana, Jaeger, New Relic, and more.',
-        videoLink:
-          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
       {
         title: 'GitOps',
         description:
           'Manage infrastructure and application configurations using Git.',
-        videoLink: 'https://youtu.be/8YLsQIG2Svo',
       },
       {
         title: 'Testing',
         description: 'Create robust applications with application testing.',
-        videoLink:
-          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
       {
         title: 'Cloud native tools deep dive',
         description:
           'Navigating the Cloud Native tools landscape with a hands-on deep dive to get you started with the use-cases and contributor journey of various projects',
-        videoLink:
-          'https://www.youtube.com/watch?v=ZbG0c87wcM8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
     ],
     tweetId: [
