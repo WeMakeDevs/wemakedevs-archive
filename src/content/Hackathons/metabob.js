@@ -9,8 +9,7 @@ const MetabobHackathon = {
   faq: HackthonPageContent.faq,
   CTA: HackthonPageContent.CTA,
   slug: 'metabob',
-  // !NOTE: Please add the respective title
-  title: 'Build cloud-native apps',
+  title: 'Build apps with AI',
   by: 'Powered by Metabob',
   description:
     'Do you want to learn new skills, discover how to build and deploy cloud native apps and meet like-minded people? Find this and much more by participating in our hackathon!',
