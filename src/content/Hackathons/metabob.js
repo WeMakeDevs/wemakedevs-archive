@@ -1,7 +1,8 @@
 import HackthonPageContent from '@/content/Hackathons/ParticularHackathonPageContent';
 
-import Steve from '@/assets/hackathon/napptive/Steve.jpeg';
-import HeroImg from '@/assets/hackathon/napptive/theme.png';
+import Axel from '@/assets/hackathon/metabob/Axel.jpeg';
+import Massimiliano from '@/assets/hackathon/metabob/massimiliano.jpeg';
+import HeroImg from '@/assets/hackathon/metabob/theme.png';
 
 const MetabobHackathon = {
   header: HackthonPageContent.header,
@@ -13,7 +14,6 @@ const MetabobHackathon = {
   by: 'Powered by Metabob',
   description:
     'Do you want to learn new skills, discover how to build and deploy cloud native apps and meet like-minded people? Find this and much more by participating in our hackathon!',
-  // !NOTE: Please add the respective banner image
   hero: HeroImg,
   // !NOTE: Please add the respective youtube video ID
   videoUrl: 'https://www.youtube.com/embed/DwEXh-wq1TI',
@@ -94,40 +94,45 @@ const MetabobHackathon = {
       title: 'Communication Platform',
       description:
         'Build a platform that connects people from various parts of the world in a unified communication platform.',
-      gift: ['To be announced'],
+      gift: ['Mechanical keyboard', 'More to be announced'],
     },
     {
       title: 'Generative AI Chatbot',
       description:
         'Using a generative AI tool like ChatGPT, develop a chatbot that functions as a virtual assistant.',
-      gift: ['To be announced'],
+      gift: ['Mechanical keyboard', 'More to be announced'],
     },
     {
       title: 'Health & Productivity App',
       description:
         'Create a platform or application that helps users manage their health and enhances productivity.',
-      gift: ['To be announced'],
+      gift: ['Mechanical keyboard', 'More to be announced'],
     },
     {
       title: 'Education Innovation',
       description:
         'Develop an innovative solution or application that enhances the field of education.',
-      gift: ['To be announced'],
+      gift: ['Mechanical keyboard', 'More to be announced'],
     },
     {
       title: 'Gaming Experience',
       description:
         'Design and build an engaging and immersive gaming experience.',
-      gift: ['To be announced'],
+      gift: ['Mechanical keyboard', 'More to be announced'],
     },
   ],
   judges: [
-    // !NOTE: Please add the respective judges
     {
-      name: 'Steve Galache',
-      description: 'VP of Revenue at Napptive',
-      linkedin: 'steve-galache-50232253',
-      img: Steve,
+      name: 'Axel Lönnfors',
+      description: 'Product Manager at Metabob',
+      linkedin: 'axel-loennfors',
+      img: Axel,
+    },
+    {
+      name: 'Massimiliano G.',
+      description: 'CEO Metabob',
+      linkedin: 'massimiliano-g-b58965a5',
+      img: Massimiliano,
     },
   ],
   takepart: [
