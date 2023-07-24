@@ -5,6 +5,8 @@ import { HiOutlineArrowRight } from 'react-icons/hi';
 import { MdOutlineLabelImportant } from 'react-icons/md';
 import { VscDebugBreakpointLogUnverified } from 'react-icons/vsc';
 
+import { getDateTime } from '@/lib/utils';
+
 import SpeakerCard from '@/components/Cards/SpeakerCard';
 import TimeLineCard from '@/components/Cards/TimeLineCard';
 import { ColumnSection, FAQ, Footer, Navbar } from '@/components/layout';
@@ -18,7 +20,7 @@ const PerticularhackathonPage = ({ content }) => {
       <section>
         <div className='layout flex flex-col items-center justify-center gap-4 py-32'>
           <h1 className='heading highlight'>{content.title}</h1>
-          <h2>{content.description}</h2>
+          <h2>{content.by}</h2>
           <iframe
             src={content.videoUrl}
             title='YouTube video player'
@@ -28,45 +30,14 @@ const PerticularhackathonPage = ({ content }) => {
           ></iframe>
           <div className='h2 mt-10 font-normal'>
             <span className='font-bold'>Start: </span>
-            {new Date(content.from).toLocaleDateString('en-US', {
-              dateStyle: 'medium',
-            })}{' '}
-            {new Date(content.from).toLocaleTimeString('en-US', {
-              timeStyle: 'short',
-            })}{' '}
-            {/\((.*)\)/
-              .exec(new Date(content.from).toString())[1]
-              .split(' ')
-              .map((i) => i[0].toUpperCase())
-              .join('')}
+            {getDateTime(content.from)}
           </div>
           <div className='h2 font-normal'>
-            <span className='font-bold'>End: </span>{' '}
-            {new Date(content.to).toLocaleDateString('en-US', {
-              dateStyle: 'medium',
-            })}{' '}
-            {new Date(content.to).toLocaleTimeString('en-US', {
-              timeStyle: 'short',
-            })}{' '}
-            {/\((.*)\)/
-              .exec(new Date(content.to).toString())[1]
-              .split(' ')
-              .map((i) => i[0].toUpperCase())
-              .join('')}
+            <span className='font-bold'>End: </span>
+            {getDateTime(content.to)}
           </div>
           <div className='h2 font-bold'>
-            Winnner announcement{' '}
-            {new Date(content.winnerAnnouc).toLocaleDateString('en-US', {
-              dateStyle: 'medium',
-            })}{' '}
-            {new Date(content.winnerAnnouc).toLocaleTimeString('en-US', {
-              timeStyle: 'short',
-            })}{' '}
-            {/\((.*)\)/
-              .exec(new Date(content.winnerAnnouc).toString())[1]
-              .split(' ')
-              .map((i) => i[0].toUpperCase())
-              .join('')}
+            Winnner announcement {getDateTime(content.winnerAnnouc)}
           </div>
 
           {new Date().getTime() < new Date(content.from).getTime() ? (
@@ -84,40 +55,24 @@ const PerticularhackathonPage = ({ content }) => {
       </section>
       {/* Theme section */}
       <ColumnSection id='about' src={content.hero} title='About'>
-        <ListItem>
-          Do you want to learn new skills, discover how to build and deploy
-          cloud native apps and meet like-minded people? Find this and much more
-          and take part in our hackathon!
-        </ListItem>
-        <ListItem>
-          If you want to learn new skills, discover how to build and deploy
-          cloud native apps and meet like-minded people, this is your chance to
-          collaborate with other talented developers and work together to build
-          something amazing.
-        </ListItem>
-        <ListItem>
-          You will have access to a cutting-edge platform, based on the most
-          advanced cloud-native technology and get the opportunity to learn from
-          experts and gain valuable experience working on real applications.
-        </ListItem>
-        <ListItem>
-          The WeMakeDevs {'<>'} Napptive Hackathon is the right place for you if
-          you are a passionate, hands-on dev. The will to push yourself to new
-          limits and learn along the way is all you need to begin!
-        </ListItem>
+        {content.about.map((item) => (
+          <ListItem key={item}>{item}</ListItem>
+        ))}
       </ColumnSection>
       {/* timeline section */}
-      <section id='timeline'>
-        <div className='layout py-20'>
-          <h2 className='h1 text-center'>Timeline</h2>
-          <hr className='styled-hr mx-auto my-6' />
-          <ol className='mt-9 flex flex-col flex-wrap justify-center gap-y-6 md:flex-row'>
-            {content.timeline.map((timeline) => {
-              return <TimeLineCard {...timeline} key={timeline.date} />;
-            })}
-          </ol>
-        </div>
-      </section>
+      {content.timeline.length > 0 && (
+        <section id='timeline'>
+          <div className='layout py-20'>
+            <h2 className='h1 text-center'>Timeline</h2>
+            <hr className='styled-hr mx-auto my-6' />
+            <ol className='mt-9 flex flex-col flex-wrap justify-center gap-y-6 md:flex-row'>
+              {content.timeline.map((timeline) => {
+                return <TimeLineCard {...timeline} key={timeline.date} />;
+              })}
+            </ol>
+          </div>
+        </section>
+      )}
       {/* Prizes section */}
       <section id='tracks'>
         <div className='layout py-20 text-center'>
@@ -142,7 +97,7 @@ const PerticularhackathonPage = ({ content }) => {
                 />
                 <h3 className='mt-5 font-normal'>{item.title}</h3>
                 <p className='mt-4 whitespace-pre-line'>
-                  {item.guide !== '' && (
+                  {item.guide !== '' && item.guide && (
                     <>
                       Using the{' '}
                       <UnstyledLink

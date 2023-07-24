@@ -1,70 +1,49 @@
-export const ParticularHackthonPageFAQ = [
+import PastEvent2 from 'assets/events/past-event-2.jpeg';
+import PastEvent8 from 'assets/events/past-event-8.jpeg';
+import NapptiveBanner from 'assets/hackathon/napptive/Banner.jpg';
+
+import MetabobHackathon from '@/content/Hackathons/metabob';
+import NapptiveHackathonContent from '@/content/Hackathons/napptive';
+
+export const hackathonDataList = [
   {
-    id: 'FAQ1',
-    question: 'What is a hackathon?',
-    answer:
-      'A hackathon is a collaborative coding competition where programmers, designers, and developers compete for monetary bonuses for creating innovative solutions. It is a mix of a celebration and an all-night struggle against the clock and the opposition.',
+    title: MetabobHackathon.title,
+    description: MetabobHackathon.description,
+    image: NapptiveBanner,
+    url: `/events/hackathons/${MetabobHackathon.slug}`,
+    btnText: 'Learn more',
+    content: MetabobHackathon,
+    hasContent: true,
+    date: MetabobHackathon.to,
   },
   {
-    id: 'FAQ2',
-    question: 'Why would someone participate in a hackathon?',
-    answer:
-      'People take part in hackathons for a variety of reasons, including the challenge, the opportunity for creative expression, the chance to collaboration, networking opportunities, swag, and much more.',
+    title: NapptiveHackathonContent.title,
+    description: NapptiveHackathonContent.description,
+    image: NapptiveBanner,
+    url: `/events/hackathons/${NapptiveHackathonContent.slug}`,
+    btnText: 'Learn more',
+    content: NapptiveHackathonContent,
+    hasContent: true,
+    date: NapptiveHackathonContent.to,
   },
   {
-    id: 'FAQ3',
-    question: 'Is the event open to all ages?',
-    answer:
-      'You can participate in this hackathon as long as you are of legal age in your respective country, or have permission for a parent or guardian in case you are a minor.',
+    title: 'Stream hackathon',
+    description:
+      'WeMakeDevs <> Stream Hackathon : Hey if you are looking to learn new skills, meet interesting people, and push yourself to create something truly innovative, then you should definitely taking part in our hackathon!',
+    image: PastEvent2,
+    url: 'https://wemakedevs-stream.devpost.com/resources',
+    btnText: 'Learn more',
+    hasContent: false,
+    date: 'Sun, 18 Dec 2022 14:30:00 GMT',
   },
   {
-    id: 'FAQ4',
-    question: 'What is the mode of this hackathon?',
-    answer:
-      'This is a virtual hackathon, so you can create hacks from the comfort of your home, or anywhere in the world.',
-  },
-  {
-    id: 'FAQ5',
-    question: 'Do we sign up as individuals or as a team?',
-    answer:
-      'You can either participate as a individual or with a team of 1-4 folks i.e the maximum strength of the team should not exceed 4',
-  },
-  {
-    id: 'FAQ6',
-    question: 'Is it a paid event?',
-    answer:
-      'This is a completely free-to-join event i.e anyone above the legal age can participate in the event for free.',
+    title: 'Cloud Native hackathon',
+    description:
+      'Cloud Native Hackathon is an initiative to bring together students, professionals, and even beginners from around the world to innovate and build projects in the domain of DevOps.',
+    image: PastEvent8,
+    url: 'https://cloudnativehack21.devpost.com/',
+    btnText: 'Learn more',
+    hasContent: false,
+    date: 'Mon, 12 Dec 2022 14:30:00 GMT',
   },
 ];
-
-const HackthonPageContent = {
-  header: [
-    {
-      name: 'About',
-      href: '#about',
-    },
-    {
-      name: 'Tracks',
-      href: '#tracks',
-    },
-    {
-      name: 'Judges',
-      href: '#judges',
-    },
-    {
-      name: 'Criteria',
-      href: '#criteria',
-    },
-    {
-      name: 'Rules',
-      href: '#rules',
-    },
-  ],
-  CTA: {
-    name: 'Register',
-    href: '#register',
-  },
-  faq: ParticularHackthonPageFAQ,
-};
-
-export default HackthonPageContent;
