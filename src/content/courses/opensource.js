@@ -149,7 +149,7 @@ const OpenSourcePageContent = {
       id: 'FAQ3',
       question: 'How do I join your community?',
       answer:
-        'Make sure to join our Discord and Telegram channels. You can find us on all socials media platforms as @wemakedevs',
+        'Make sure to join our Discord and Telegram channels. You can find us on all social media platforms as @wemakedevs',
     },
     {
       id: 'FAQ4',

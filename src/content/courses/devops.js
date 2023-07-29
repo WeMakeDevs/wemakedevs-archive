@@ -12,7 +12,7 @@ const DevopsPageContent = {
     videoLink: 'https://www.youtube.com/embed/ZbG0c87wcM8',
     buttons: [
       {
-        name: 'Notes & Assigment',
+        name: 'Notes & Assignment',
         href: 'https://github.com/kunal-kushwaha/DevOps-Bootcamp',
       },
       {
@@ -124,7 +124,7 @@ const DevopsPageContent = {
       id: 'FAQ3',
       question: 'How do I join your community?',
       answer:
-        'Make sure to join our Discord and Telegram channels. You can find us on all socials media platforms as @wemakedevs',
+        'Make sure to join our Discord and Telegram channels. You can find us on all social media platforms as @wemakedevs',
     },
     {
       id: 'FAQ4',
