@@ -54,11 +54,6 @@ const DsaPageContent = {
           'Insertion, selection, bubble, cyclic, merge, quick, count, radix, and heap sort.',
       },
       {
-        title: 'Recursion',
-        description:
-          'Introduction, how to master, flow of program, tree building, tail recursion, sorting, string, array, pattern, subset questions.',
-      },
-      {
         title: 'Time and space complexity',
         description:
           'Introduction, various cases, linear recurrence, divide-n-conquer recurrence, notations, solving recurrences, space complexity, NP-completeness.',
@@ -67,6 +62,11 @@ const DsaPageContent = {
         title: 'Mathematics',
         description:
           'Bitwise operators, range of data types, prime numbers, factors, modulo properties, number theory.',
+      },
+      {
+        title: 'Recursion',
+        description:
+          'Introduction, how to master, flow of program, tree building, tail recursion, sorting, string, array, pattern, subset questions.',
       },
       {
         title: 'Backtracking',
