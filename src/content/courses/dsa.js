@@ -12,7 +12,7 @@ const DsaPageContent = {
     videoLink: 'https://www.youtube.com/embed/rZ41y93P2Qo',
     buttons: [
       {
-        name: 'Notes & Assigment',
+        name: 'Notes & Assignment',
         href: 'https://github.com/kunal-kushwaha/DSA-Bootcamp-Java',
       },
       {
@@ -26,9 +26,18 @@ const DsaPageContent = {
         description: 'Types of languages. Memory management.',
       },
       {
+        title: 'Flow of program',
+        description: 'Flowcharts, pattern questions and pseudocode.',
+      },
+      {
         title: 'Introduction to Java',
         description:
           'How Java works, setup installation, input and output, conditionals and loops, data types, and coding best practices.',
+      },
+      {
+        title: 'Functions / Methods',
+        description:
+          'Introductiob to functions, scoping, shadowing, functional arguments, function overloading.',
       },
       {
         title: 'Arrays and ArrayList',
@@ -36,14 +45,13 @@ const DsaPageContent = {
           'How arrays work in Java, memory management, input and output, ArrayList introduction.',
       },
       {
+        title: 'Searching',
+        description: 'Linear, binary, modified binary search.',
+      },
+      {
         title: 'Sorting',
         description:
           'Insertion, selection, bubble, cyclic, merge, quick, count, radix, and heap sort.',
-      },
-      {
-        title: 'Recursion',
-        description:
-          'Introduction, how to master, flow of program, tree building, tail recursion, sorting, string, array, pattern, subset questions.',
       },
       {
         title: 'Time and space complexity',
@@ -51,9 +59,34 @@ const DsaPageContent = {
           'Introduction, various cases, linear recurrence, divide-n-conquer recurrence, notations, solving recurrences, space complexity, NP-completeness.',
       },
       {
+        title: 'Mathematics',
+        description:
+          'Bitwise operators, range of data types, prime numbers, factors, modulo properties, number theory.',
+      },
+      {
+        title: 'Recursion',
+        description:
+          'Introduction, how to master, flow of program, tree building, tail recursion, sorting, string, array, pattern, subset questions.',
+      },
+      {
+        title: 'Backtracking',
+        description:
+          'Introduction, Maze problems, N-queens, N-knights, sudoku solver.',
+      },
+      {
+        title: 'Object oriented programming',
+        description:
+          'Introduction, classes, objects, this, properties, overloading, overriding, static, packages, access control, interfaces, abstract classes, annotations, singleton class, keywords, Object class, generics, expection handling, Vector class, Collections framework, lmabda expressions, enums.',
+      },
+      {
         title: 'Linked List',
         description:
           'Introduction, singly, doubly, circular, fast and slow pointer, cycle detection, reversal of Linked List, Linked List with recursion.',
+      },
+      {
+        title: 'Stacks and Queues',
+        description:
+          'Introduction, push efficient, pop efficient, queue using stack and vice versa, circular queue.',
       },
       {
         title: 'Trees',
@@ -69,39 +102,6 @@ const DsaPageContent = {
         title: 'Dynamic programming',
         description:
           'Introduction, recursion, recursion + dp, iteration, iteration + space optimized, complexity analysis, 0/1 Knapsack, subset questions, unbounded knapsack, subsequence questions, string dp.',
-      },
-      {
-        title: 'Flow of program',
-        description: 'Flowcharts, pattern questions and pseudocode.',
-      },
-      {
-        title: 'Functions / Methods',
-        description:
-          'Introductiob to functions, scoping, shadowing, functional arguments, function overloading.',
-      },
-      {
-        title: 'Searching',
-        description: 'Linear, binary, modified binary search.',
-      },
-      {
-        title: 'Mathematics',
-        description:
-          'Bitwise operators, range of data types, prime numbers, factors, modulo properties, number theory.',
-      },
-      {
-        title: 'Backtracking',
-        description:
-          'Introduction, Maze problems, N-queens, N-knights, sudoku solver.',
-      },
-      {
-        title: 'Object oriented programming',
-        description:
-          'Introduction, classes, objects, this, properties, overloading, overriding, static, packages, access control, interfaces, abstract classes, annotations, singleton class, keywords, Object class, generics, expection handling, Vector class, Collections framework, lmabda expressions, enums.',
-      },
-      {
-        title: 'Stacks and Queues',
-        description:
-          'Introduction, push efficient, pop efficient, queue using stack and vice versa, circular queue.',
       },
       {
         title: 'Heaps',
@@ -147,7 +147,7 @@ const DsaPageContent = {
       id: 'FAQ3',
       question: 'How do I join your community?',
       answer:
-        'Make sure to join our Discord and Telegram channels. You can find us on all socials media platforms as @wemakedevs',
+        'Make sure to join our Discord and Telegram channels. You can find us on all social media platforms as @wemakedevs',
     },
     {
       id: 'FAQ4',
