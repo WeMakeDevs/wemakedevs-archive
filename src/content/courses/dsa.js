@@ -1,5 +1,9 @@
 import { SingleCoursesPageHeader } from '@/content/courses/CoursesPageContent';
 
+import arsalan from '@/assets/courses/testimonials/arsalan.jpg';
+import Manoj from '@/assets/courses/testimonials/Manoj.jpg';
+import muhammad from '@/assets/courses/testimonials/muhammad.jpg';
+
 const DsaPageContent = {
   header: SingleCoursesPageHeader,
   content: {
@@ -119,14 +123,37 @@ const DsaPageContent = {
           "Greedy algorithms, tries, sliding window, two pointer, kadane's algorithm, and more!",
       },
     ],
-    tweetId: [
-      '1620824479395090435',
-      '1620081639199244288',
-      '1620489706994806785',
-      '1620828035804184579',
-      '1617535692497883138',
-      '1487399069383155716',
-      '1544248976664567811',
+    // tweetId: [
+    //   '1620824479395090435',
+    //   '1620081639199244288',
+    //   '1620489706994806785',
+    //   '1620828035804184579',
+    //   '1617535692497883138',
+    //   '1487399069383155716',
+    //   '1544248976664567811',
+    // ],
+    data: [
+      {
+        src: arsalan,
+        description:
+          '#100DaysOfCode Resumed my DSA after so many days. Right Now learning String, Subset and Subsequence question from Recursion playlist of @kunalstwt #DSAWithKunal',
+        from: 'ARSALAN',
+        designation: '@Arsalan_0101',
+      },
+      {
+        src: muhammad,
+        description:
+          'Started with #DSAWithKunal and #LearningWithApoorv and many other resources for Web development. I will now be shifting towards technical blogs about Web Development and DSA. Whatever I learn, will come in the form of blogs and threads.',
+        from: 'MUHAMMAD NOORANI',
+        designation: '@MuhammadN_twts',
+      },
+      {
+        src: Manoj,
+        description:
+          "🎯 Thrilled to have cracked interview questions from major tech giants like Facebook, all thanks to the invaluable guidance of Kunal Kushwaha!🏆 I've compiled my solutions on GitHub for those prepping for technical interviews.     #interviewsuccess #DSAWithKunal",
+        from: 'MANOJ KUMAR',
+        designation: '@manojkumarbonala',
+      },
     ],
   },
 
