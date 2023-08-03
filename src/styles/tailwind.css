@@ -56,9 +56,6 @@ html {
   .h3 {
     @apply font-sans text-lg font-semibold text-content md:text-xl;
   }
-  a:hover {
-    color: blue;
-  }
   h4,
   .h4 {
     @apply font-sans text-base font-semibold text-content md:text-lg;
