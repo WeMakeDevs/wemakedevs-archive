@@ -47,7 +47,7 @@ const Delhi2023 = {
   poster: '/assets/images/meetup/delhi-may-2023/Poster.jpg',
   heroImg: '/assets/images/meetup/delhi-may-2023/hero.png',
   title: 'WeMakeDevs Delhi Meetup',
-  venueVideoLink: 'https://www.youtube.com/embed/I7udikjqiaE',
+  venueVideoLink: 'https://www.youtube.com/embed/Qw2q25kR5ZA',
   description: [
     {
       text: 'Join us at our tech meetup, where innovation and collaboration collide. ',
@@ -89,7 +89,7 @@ const Delhi2023 = {
       speaker: 'Aayush Sharma',
     },
     {
-      title: 'Head-to-Head: DevOps vs MLOps – Unraveling the Confusion',
+      title: 'Head-to-Head: DevOps vs MLOps - Unraveling the Confusion',
       start: 'Sun, 7 May 2023 06:00:00 GMT',
       end: 'Sun, 7 May 2023 06:30:00 GMT',
       description: '',
@@ -244,15 +244,18 @@ const Delhi2023 = {
     // Formate for Community sponser
     {
       src: '/assets/images/meetup/delhi-may-2023/sponsors/cncf.jpeg',
+      url: 'https://www.cncf.io/',
     },
     {
       src: '/assets/images/meetup/delhi-may-2023/sponsors/kubesimplify.svg',
+      url: 'https://kubesimplify.com/',
     },
     {
       src: '/assets/images/meetup/delhi-may-2023/sponsors/virtual.svg',
     },
     {
       src: '/assets/images/meetup/delhi-may-2023/sponsors/nashik.png',
+      url: 'https://community.cncf.io/nashik/',
     },
     {
       src: '/assets/images/meetup/delhi-may-2023/sponsors/devtron.png',
@@ -260,12 +263,15 @@ const Delhi2023 = {
     },
     {
       src: '/assets/images/meetup/delhi-may-2023/sponsors/fluxninja.png',
+      url: 'https://fluxninja.com/',
     },
     {
       src: '/assets/images/meetup/delhi-may-2023/sponsors/shebuilds.png',
+      url: 'https://shebuilds.tech/',
     },
     {
       src: '/assets/images/meetup/delhi-may-2023/sponsors/devs.png',
+      url: 'https://devsintech.vercel.app/',
     },
     {
       src: '/assets/images/meetup/delhi-may-2023/sponsors/dungeon.jpeg',
@@ -274,4 +280,5 @@ const Delhi2023 = {
   on: 'Sun, 07 May 2023 05:00:00 GMT',
   registerationClose: 'Sun, 07 May 2023 05:00:00 GMT',
 };
+
 export default Delhi2023;

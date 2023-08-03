@@ -31,6 +31,16 @@ html {
   scroll-behavior: smooth;
 }
 
+::-moz-selection {
+  color: rgb(var(--primary));
+  background: rgb(var(--content));
+}
+
+::selection {
+  color: rgb(var(--primary));
+  background: rgb(var(--content));
+}
+
 @layer base {
   body {
     background: #141414;

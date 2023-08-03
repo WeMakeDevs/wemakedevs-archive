@@ -212,7 +212,7 @@ const ParticularMeetupPage = ({ content }) => {
           <h2 className='h1'>Minutes of past meetups</h2>
           <hr className='styled-hr my-6 mx-auto' />
           <iframe
-            src='https://www.youtube.com/embed/6AQ7-LDcStM'
+            src='https://www.youtube.com/embed/0GrYQjbbooo'
             title='YouTube video player'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
             allowfullscreen

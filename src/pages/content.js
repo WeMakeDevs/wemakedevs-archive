@@ -15,7 +15,7 @@ export const HomePageFAQ = [
     id: 'FAQ3',
     question: 'How do I join your community?',
     answer:
-      'Make sure to join our Discord and Telegram channels. You can find us on all socials media platforms as @wemakedevs',
+      'Make sure to join our Discord and Telegram channels. You can find us on all social media platforms as @wemakedevs',
   },
   {
     id: 'FAQ4',
@@ -102,7 +102,7 @@ export const HashnodePageContent = {
       id: 'FAQ3',
       question: 'How do I join your community?',
       answer:
-        'Make sure to join our Discord and Telegram channels. You can find us on all socials media platforms as @wemakedevs',
+        'Make sure to join our Discord and Telegram channels. You can find us on all social media platforms as @wemakedevs',
     },
     {
       id: 'FAQ4',
@@ -119,7 +119,7 @@ export const HashnodePageContent = {
       id: 'FAQ6',
       question: 'Can I take part multiple times?',
       answer:
-        'Yes! You can write as many blogs as you want on any of the tracks to increase your chances of wining!',
+        'Yes! You can write as many blogs as you want on any of the tracks to increase your chances of winning!',
     },
   ],
 };
@@ -146,7 +146,7 @@ export const EventsPageContent = {
   faq: [
     {
       id: 'FAQ1',
-      question: 'What kinds of events do you organzie? ',
+      question: 'What kinds of events do you organize? ',
       answer:
         'We run tons of events such as hackathons, monthly blogging challenges, open source events, and lots more.',
     },
@@ -210,7 +210,7 @@ export const HackathonsPageContent = {
   faq: [
     {
       id: 'FAQ1',
-      question: 'What kinds of events do you organzie? ',
+      question: 'What kinds of events do you organize? ',
       answer:
         'We run tons of events such as hackathons, monthly blogging challenges, open source events, and lots more.',
     },
@@ -270,7 +270,7 @@ export const ScholarshipsPageContent = {
   faq: [
     {
       id: 'FAQ1',
-      question: 'What kinds of events do you organzie? ',
+      question: 'What kinds of events do you organize? ',
       answer:
         'We run tons of events such as hackathons, monthly blogging challenges, open source events, and lots more.',
     },
@@ -330,7 +330,7 @@ export const EducationalEventsPageContent = {
   faq: [
     {
       id: 'FAQ1',
-      question: 'What kinds of events do you organzie? ',
+      question: 'What kinds of events do you organize? ',
       answer:
         'We run tons of events such as hackathons, monthly blogging challenges, open source events, and lots more.',
     },
