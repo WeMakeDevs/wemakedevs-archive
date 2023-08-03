@@ -123,16 +123,7 @@ const DsaPageContent = {
           "Greedy algorithms, tries, sliding window, two pointer, kadane's algorithm, and more!",
       },
     ],
-    // tweetId: [
-    //   '1620824479395090435',
-    //   '1620081639199244288',
-    //   '1620489706994806785',
-    //   '1620828035804184579',
-    //   '1617535692497883138',
-    //   '1487399069383155716',
-    //   '1544248976664567811',
-    // ],
-    data: [
+    testimonials: [
       {
         src: arsalan,
         description:
