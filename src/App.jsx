@@ -12,7 +12,7 @@ import {
 } from '@/content/courses';
 import { CoursesPageContent } from '@/content/courses/CoursesPageContent';
 import OpenSourcePageContent from '@/content/courses/opensource';
-import NapptiveHackathon from '@/content/Hackathons/napptive';
+import { hackathonDataList } from '@/content/Hackathons';
 import { MeetupPageContent } from '@/content/Meetup';
 import Delhi2023 from '@/content/Meetup/delhi-may-2023';
 import { OpensourcePageContent } from '@/content/opensource';
@@ -101,11 +101,21 @@ const App = () => {
 
           {/* Hackathon */}
           <Route exact path='/events/hackathons' element={<HackathonsPage />} />
-          <Route
+          {hackathonDataList
+            .filter((hack) => hack.hasContent)
+            .map((hack) => (
+              <Route
+                key={hack.content.title}
+                exact
+                path={`/events/hackathons/${hack.content.slug}`}
+                element={<PerticularhackathonPage content={hack.content} />}
+              />
+            ))}
+          {/* <Route
             exact
             path={`/events/hackathons/${NapptiveHackathon.slug}`}
             element={<PerticularhackathonPage content={NapptiveHackathon} />}
-          />
+          /> */}
 
           {/* Meetup */}
           <Route

@@ -1,18 +1,26 @@
-import HackthonPageContent from '@/content/Hackathons';
+import HackthonPageContent from '@/content/Hackathons/ParticularHackathonPageContent';
 
 import Steve from '@/assets/hackathon/napptive/Steve.jpeg';
 import HeroImg from '@/assets/hackathon/napptive/theme.png';
 
-const NapptiveHackathon = {
+const NapptiveHackathonContent = {
   header: HackthonPageContent.header,
   faq: HackthonPageContent.faq,
   CTA: HackthonPageContent.CTA,
   slug: 'napptive',
   title: 'Build cloud-native apps',
-  description: 'Powered by Napptive',
+  by: 'Powered by Napptive',
+  description:
+    'Do you want to learn new skills, discover how to build and deploy cloud native apps and meet like-minded people? Find this and much more by participating in our hackathon!',
   hero: HeroImg,
   videoUrl: 'https://www.youtube.com/embed/DwEXh-wq1TI',
   liveUrl: 'https://www.youtube.com/watch?v=sST7JGLq2as',
+  about: [
+    'Do you want to learn new skills, discover how to build and deploy cloud native apps and meet like-minded people? Find this and much more and take part in our hackathon!',
+    'If you want to learn new skills, discover how to build and deploy cloud native apps and meet like-minded people, this is your chance to collaborate with other talented developers and work together to build',
+    'You will have access to a cutting-edge platform, based on the most advanced cloud-native technology and get the opportunity to learn from experts and gain valuable experience working on real applications.',
+    'The WeMakeDevs <> Napptive Hackathon is the right place for you if you are a passionate, hands-on dev. The will to push yourself to new limits and learn along the way is all you need to begin!',
+  ],
   rules: [
     'The theme is open-ended, but using Napptive is mandatory. Submissions made without using Napptive will NOT be considered.',
     'You can submit to as many prize categories as you want.',
@@ -193,4 +201,4 @@ const NapptiveHackathon = {
   to: 'Sun, 16 Apr 2023 14:30:00 GMT',
   winnerAnnouc: 'Mon, 17 Apr 2023 11:30:00 GMT',
 };
-export default NapptiveHackathon;
+export default NapptiveHackathonContent;
