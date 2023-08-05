@@ -13,7 +13,7 @@ const Backdrop = ({
   return (
     <div
       className={clsx(
-        'fixed inset-0 z-50 flex items-center justify-center bg-content/20 transition-opacity',
+        'fixed inset-0 z-[51] flex items-center justify-center bg-content/20 transition-opacity',
         [
           isDarkBg && 'bg-content/20',
           isTransparent && 'bg-transparent',
