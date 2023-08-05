@@ -2,7 +2,6 @@ import Special from 'assets/hashnode/Special-Track-2022.png';
 import Track1 from 'assets/hashnode/Track-1.png';
 import Track2 from 'assets/hashnode/Track-2.png';
 import Track3 from 'assets/hashnode/Track-3.png';
-// import Track4 from 'assets/hashnode/Track-4.png';
 
 import TrackCard from '@/components/Cards/TrackCard';
 
@@ -40,11 +39,6 @@ const hashnodeData = [
       'Write a blog on the topic Soft Skills, share about some soft skills you have developed, and what techniques you used',
     image: Track3,
   },
-  //{
-  //  description:
-  //    'Write a blog sharing some of your takeaways from hackathons. If you want to participate in one, check out AWS Amplify by Hashnode',
-  //  image: Track4,
-  //},
   {
     description:
       "It is important to look back at things you have acheived to stay motivated to do even more amazing things. Half of 2023 is over, and now it's time to look back at all your acomplishments so far. Write about them and you can win a Mechanical Keyboard.",
