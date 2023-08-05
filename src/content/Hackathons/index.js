@@ -2,9 +2,20 @@ import PastEvent2 from 'assets/events/past-event-2.jpeg';
 import PastEvent8 from 'assets/events/past-event-8.jpeg';
 import NapptiveBanner from 'assets/hackathon/napptive/Banner.jpg';
 
+import MetabobHackathon from '@/content/Hackathons/metabob';
 import NapptiveHackathonContent from '@/content/Hackathons/napptive';
 
 export const hackathonDataList = [
+  {
+    title: MetabobHackathon.title,
+    description: MetabobHackathon.description,
+    image: NapptiveBanner,
+    url: `/events/hackathons/${MetabobHackathon.slug}`,
+    btnText: 'Learn more',
+    content: MetabobHackathon,
+    hasContent: true,
+    date: MetabobHackathon.to,
+  },
   {
     title: NapptiveHackathonContent.title,
     description: NapptiveHackathonContent.description,
