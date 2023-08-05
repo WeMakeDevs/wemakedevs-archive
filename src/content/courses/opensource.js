@@ -22,11 +22,6 @@ const OpenSourcePageContent = {
     },
   ],
 
-  CTA: {
-    name: 'Register',
-    href: '#register',
-  },
-
   videoLink: 'https://www.youtube.com/embed/rZ41y93P2Qo',
   whyjoin: [
     {
