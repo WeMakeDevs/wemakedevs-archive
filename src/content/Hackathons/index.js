@@ -3,8 +3,19 @@ import PastEvent8 from 'assets/events/past-event-8.jpeg';
 import NapptiveBanner from 'assets/hackathon/napptive/Banner.jpg';
 
 import NapptiveHackathonContent from '@/content/Hackathons/napptive';
+import SyncloopHackathon from '@/content/Hackathons/syncloop';
 
 export const hackathonDataList = [
+  {
+    title: SyncloopHackathon.title,
+    description: SyncloopHackathon.description,
+    image: NapptiveBanner,
+    url: `/events/hackathons/${SyncloopHackathon.slug}`,
+    btnText: 'Learn more',
+    content: SyncloopHackathon,
+    hasContent: true,
+    date: SyncloopHackathon.to,
+  },
   {
     title: NapptiveHackathonContent.title,
     description: NapptiveHackathonContent.description,
