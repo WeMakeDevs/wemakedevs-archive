@@ -198,19 +198,6 @@ const OpenSourcePage = ({ content }) => {
         />
         <Faq faq={content.faq} />
 
-        <section id='register'>
-          <div className='mx-auto flex flex-col items-center justify-center gap-4 py-20 text-center'>
-            <h2 className='h1'>Register for course</h2>
-            <hr className='styled-hr' />
-            <iframe
-              src='https://wemakedevs-newsletter.vercel.app/opensource-course.html'
-              width='100%'
-              style={{ border: '0' }}
-              height={700}
-              title='Register for the course'
-            ></iframe>
-          </div>
-        </section>
         <JoinUs />
         <Partner />
       </main>
