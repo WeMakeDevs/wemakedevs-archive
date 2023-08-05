@@ -8,7 +8,13 @@ const CoursesPage = ({ content }) => {
   return (
     <Layout content={content}>
       <About content={content.content} />
-      <Testimonials tweetId={tweetId} setTweetId={setTweetId} />
+      {tweetId ? (
+        <Testimonials tweetId={tweetId} setTweetId={setTweetId} />
+      ) : (
+        <>
+          <Testimonials content={content.content.testimonials} />
+        </>
+      )}
       {content.content.syllabus.length > 0 && (
         <Syllabus content={content.content} />
       )}
