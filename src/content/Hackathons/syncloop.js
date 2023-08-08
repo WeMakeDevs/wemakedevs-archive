@@ -61,34 +61,28 @@ const SyncloopHackathon = {
   // !NOTE: Please add the respective prize list
   prizes: [
     {
-      title: 'Communication Platform',
+      title: 'Real-Time Data Synchronisation',
       description:
-        'Build a platform that connects people from various parts of the world in a unified communication platform.',
-      gift: ['Mechanical keyboard', 'More to be announced'],
+        'Build APIs that enable real-time synchronisation of data between multiple applications.',
+      gift: ['To be announced'],
     },
     {
-      title: 'Generative AI Chatbot',
+      title: 'API Integration Showcase',
       description:
-        'Using a generative AI tool like ChatGPT, develop a chatbot that functions as a virtual assistant.',
-      gift: ['Mechanical keyboard', 'More to be announced'],
+        'Participants can create projects that demonstrate creative integration of Syncloop APIs with popular platforms and services.',
+      gift: ['To be announced'],
     },
     {
-      title: 'Health & Productivity App',
+      title: 'Developers Toolkit',
       description:
-        'Create a platform or application that helps users manage their health and enhances productivity.',
-      gift: ['Mechanical keyboard', 'More to be announced'],
+        'Create tools, plugins, or libraries that extend the capabilities of the Syncloop platform and enhance developers productivity.',
+      gift: ['To be announced'],
     },
     {
-      title: 'Education Innovation',
+      title: 'Industry-Specific Solutions',
       description:
-        'Develop an innovative solution or application that enhances the field of education.',
-      gift: ['Mechanical keyboard', 'More to be announced'],
-    },
-    {
-      title: 'Gaming Experience',
-      description:
-        'Design and build an engaging and immersive gaming experience.',
-      gift: ['Mechanical keyboard', 'More to be announced'],
+        'Hackathon participants can design API-driven solutions tailored for specific industries such as healthcare, e-commerce, education, etc.',
+      gift: ['To be announced'],
     },
   ],
   judges: [
@@ -138,9 +132,9 @@ const SyncloopHackathon = {
   ],
   // !NOTE: Please add the respective timeline
   timeline: [],
-  from: 'Fri, 28 Jul 2023 02:30:00 GMT',
-  to: 'Sun, 30 Jul 2023 14:30:00 GMT',
+  from: 'Mon, 14 Aug 2023 02:30:00 GMT',
+  to: 'Mon, 28 Aug 2023 14:30:00 GMT',
   // !NOTE: Please add the respective registration form link
-  winnerAnnouc: 'Mon, 17 Apr 2023 11:30:00 GMT',
+  winnerAnnouc: 'Fri, 1 Sept 2023 11:30:00 GMT',
 };
 export default SyncloopHackathon;

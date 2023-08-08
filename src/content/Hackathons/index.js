@@ -1,6 +1,7 @@
 import PastEvent2 from 'assets/events/past-event-2.jpeg';
 import PastEvent8 from 'assets/events/past-event-8.jpeg';
 import NapptiveBanner from 'assets/hackathon/napptive/Banner.jpg';
+import SyncloopBanner from 'assets/hackathon/syncloop/Banner.png';
 
 import NapptiveHackathonContent from '@/content/Hackathons/napptive';
 import SyncloopHackathon from '@/content/Hackathons/syncloop';
@@ -9,7 +10,7 @@ export const hackathonDataList = [
   {
     title: SyncloopHackathon.title,
     description: SyncloopHackathon.description,
-    image: NapptiveBanner,
+    image: SyncloopBanner,
     url: `/events/hackathons/${SyncloopHackathon.slug}`,
     btnText: 'Learn more',
     content: SyncloopHackathon,
