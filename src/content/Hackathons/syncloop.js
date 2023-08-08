@@ -1,4 +1,3 @@
-import Steve from 'assets/hackathon/napptive/Steve.jpeg';
 import SyncloopBanner from 'assets/hackathon/syncloop/Banner.png';
 import HeroImg from 'assets/hackathon/syncloop/theme.png';
 
@@ -87,20 +86,7 @@ const SyncloopHackathon = {
       gift: ['To be announced'],
     },
   ],
-  judges: [
-    {
-      name: 'Axel Lönnfors',
-      description: 'Product Manager at Metabob',
-      linkedin: 'axel-loennfors',
-      img: Steve,
-    },
-    {
-      name: 'Massimiliano G.',
-      description: 'CEO Metabob',
-      linkedin: 'massimiliano-g-b58965a5',
-      img: Steve,
-    },
-  ],
+  judges: [],
   takepart: [
     {
       title: 'Check out the youtube channel of',
