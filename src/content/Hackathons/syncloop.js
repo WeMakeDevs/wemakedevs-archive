@@ -1,7 +1,8 @@
-import HackthonPageContent from '@/content/Hackathons/ParticularHackathonPageContent';
+import Steve from 'assets/hackathon/napptive/Steve.jpeg';
+import SyncloopBanner from 'assets/hackathon/syncloop/Banner.png';
+import HeroImg from 'assets/hackathon/syncloop/theme.png';
 
-import Steve from '@/assets/hackathon/napptive/Steve.jpeg';
-import HeroImg from '@/assets/hackathon/napptive/theme.png';
+import HackthonPageContent from '@/content/Hackathons/ParticularHackathonPageContent';
 
 const SyncloopHackathon = {
   header: HackthonPageContent.header,
@@ -13,8 +14,9 @@ const SyncloopHackathon = {
   description:
     'Unleash the API Creativity with Syncloop: Forge Seamless Connections, Elevate Developer Prowess, and Empower the Future of APIs',
   hero: HeroImg,
-  // !NOTE: Please add the respective youtube video ID
-  videoUrl: 'https://www.youtube.com/embed/DwEXh-wq1TI',
+  image: SyncloopBanner,
+  // !NOTE: Please add the respective youtube video embed URL
+  videoUrl: null,
   // !NOTE: Please add the respective youtube live stream URL
   liveUrl: 'https://www.youtube.com/watch?v=sST7JGLq2as',
   about: [
@@ -22,7 +24,7 @@ const SyncloopHackathon = {
     'The goal of this hackathon is to encourage participants to build groundbreaking API solutions using the Syncloop platform, driving advancements in API development and integration.',
   ],
   rules: [
-    'Please check out the various theme requirements to be eligible for prizes.The theme is open-ended, but using Metabob is mandatory. Submissions made without using Metabob will NOT be considered.',
+    'Please check out the various theme requirements to be eligible for prizes.The theme is open-ended, but using Syncloop is mandatory. Submissions made without using Syncloop will NOT be considered.',
     'You can submit to as many prize categories as you want.',
     'All design elements, code, hardware builds, etc. for your project must be created during the event. However, the use of third-party tools and frameworks is allowed along with your normal tooling. ',
     'While you are NOT supposed to begin coding in advance, you may plan and discuss the project with your team in advance. Written documents and design sketches are allowed. You may also incorporate pre-existing material that is freely available to the public such as open source components, libraries, APIs and platforms into your project.',
