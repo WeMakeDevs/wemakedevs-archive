@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import { BsTrophy } from 'react-icons/bs';
+import { GiSprint } from 'react-icons/gi';
 import { HiOutlineArrowRight } from 'react-icons/hi';
 import { MdOutlineLabelImportant } from 'react-icons/md';
 import { VscDebugBreakpointLogUnverified } from 'react-icons/vsc';
@@ -92,17 +93,15 @@ const PerticularhackathonPage = ({ content }) => {
             Choose the track that best suits your skills and interests and win
             prizes worth of $1200
           </p>
-          <p className='h4 mt-2 font-normal text-gray-400'>
-            Potential internship offer to participants who perform well!
-          </p>
+
           <hr className='styled-hr mx-auto my-6' />
           <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            {content.prizes.map((item) => (
+            {content.tracks.map((item) => (
               <div
                 className='rounded-xl bg-base-200 p-6 text-left'
                 key={item.title}
               >
-                <BsTrophy
+                <GiSprint
                   style={{ fill: 'url(#blue-gradient)' }}
                   className='h2'
                 />
@@ -152,19 +151,68 @@ const PerticularhackathonPage = ({ content }) => {
                     </ul>
                   </>
                 )}
-                <p className='mt-6 mb-3 text-primary-disable'>Prizes worth</p>
-                <ul className='flex flex-col gap-2'>
-                  {item.gift.map((gift) => (
-                    <li className='flex items-center gap-2' key={gift}>
-                      <AiOutlineArrowRight className='shrink-0' /> {gift}
-                    </li>
-                  ))}
-                </ul>
+                {item.gift && (
+                  <>
+                    <p className='mt-6 mb-3 text-primary-disable'>
+                      Prizes worth
+                    </p>
+                    <ul className='flex flex-col gap-2'>
+                      {item.gift.map((gift) => (
+                        <li className='flex items-center gap-2' key={gift}>
+                          <AiOutlineArrowRight className='shrink-0' /> {gift}
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+                {item.image && (
+                  <figure className='mt-3 flex aspect-square w-full items-center justify-center rounded-lg bg-content/10'>
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className='rounded-md object-cover'
+                    />
+                  </figure>
+                )}
               </div>
             ))}
           </div>
         </div>
       </section>
+      {content.prizes.length > 0 && (
+        <section id='tracks'>
+          <div className='layout py-20 text-center'>
+            <h2 className='h1 mb-4'>Prizes for this hackathon</h2>
+
+            <p className='h4 mt-2 font-normal text-gray-400'>
+              Potential internship offer to participants who perform well!
+            </p>
+            <hr className='styled-hr mx-auto my-6' />
+            <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+              {content.prizes.map((item) => (
+                <div
+                  className='rounded-xl bg-base-200 p-6 text-left'
+                  key={item.title}
+                >
+                  <BsTrophy
+                    style={{ fill: 'url(#blue-gradient)' }}
+                    className='h2'
+                  />
+                  <h3 className='mt-5 font-normal'>{item.title}</h3>
+                  <p className='mt-4 whitespace-pre-line'>{item.description}</p>
+                  <figure className='mt-3 flex aspect-square w-full items-center justify-center rounded-lg bg-content/10'>
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className='rounded-md object-cover'
+                    />
+                  </figure>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
       {/* Judges */}
       <section id='judges'>
         <div className='layout py-20'>
