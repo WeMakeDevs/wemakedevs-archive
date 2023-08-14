@@ -8,6 +8,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
+import { MdAlternateEmail } from 'react-icons/md';
 import { SiHashnode } from 'react-icons/si';
 
 import clsxm from '@/lib/utils';
@@ -77,7 +78,7 @@ const Footer = () => {
           <UnstyledLink href='/#' className='h3 font-black'>
             WeMakeDevs
           </UnstyledLink>
-          <div className='mx-auto flex flex-wrap items-center gap-4 lg:mr-0'>
+          <div className='mx-auto flex flex-wrap items-center justify-center gap-4 lg:mr-0'>
             {links.map((link) => (
               <UnstyledLink
                 key={link.name}
@@ -224,5 +225,12 @@ const links = [
     icon: <SiHashnode />,
     ariaLabel: 'Visit WeMakeDevs on hashnode',
     className: 'hover:text-[#2962ff]',
+  },
+  {
+    name: 'threads',
+    link: 'https://www.threads.net/@wemakedevs',
+    icon: <MdAlternateEmail />,
+    ariaLabel: 'Visit WeMakeDevs on Threads',
+    className: 'hover:text-[#333333]',
   },
 ];
