@@ -1,47 +1,27 @@
 import { BsCalendar, BsClock } from 'react-icons/bs';
 
+import { getTime, getTimeZone } from '@/lib/utils';
+
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 
 const WebinarCard = ({ img, title, time, description, slug }) => {
   return (
-    <div className='overflow-hidden rounded-lg border border-content/50 bg-gradient-to-br from-transparent to-base-100/50'>
-      <img src={img} alt={title + 'banner'} />
-      <div className='p-6'>
-        <h3>{title}</h3>
-        <p
-          style={{
-            marginTop: '1.3rem',
-          }}
-        >
-          {description}
-        </p>
-        <p
-          style={{
-            marginTop: '1.3rem',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '.5rem',
-          }}
-          className='h3'
-        >
+    <div className='overflow-hidden rounded-2xl bg-content/5 p-4'>
+      <img
+        src={img}
+        alt={title + 'banner'}
+        className='aspect-video w-full rounded-lg object-cover object-center'
+      />
+      <div className='pt-6 pb-3'>
+        <h3 className='mb-5 line-clamp-2'>{title}</h3>
+        <p className='line-clamp-3'>{description}</p>
+        <p className='h3 mt-5 flex items-center gap-2'>
           <BsCalendar /> {new Date(time).toDateString()}
         </p>
-        <p
-          style={{
-            marginTop: '1.3rem',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '.5rem',
-          }}
-          className='h3'
-        >
-          <BsClock /> {new Date(time).toLocaleTimeString()}{' '}
-          {/\((.*)\)/
-            .exec(new Date(time).toString())[1]
-            .split(' ')
-            .map((i) => i[0].toUpperCase())
-            .join('')}
+        <p className='h3 mt-5 flex items-center gap-2'>
+          <BsClock />
+          {getTime(time)} {getTimeZone(time)}
         </p>
         <ArrowLink
           as={ButtonLink}

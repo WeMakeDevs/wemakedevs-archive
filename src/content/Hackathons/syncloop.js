@@ -1,3 +1,6 @@
+import FirstPrize from 'assets/hackathon/syncloop/1st.png';
+import SecondPrize from 'assets/hackathon/syncloop/2nd.png';
+import ThirdPrize from 'assets/hackathon/syncloop/3rd.png';
 import SyncloopBanner from 'assets/hackathon/syncloop/Banner.png';
 import HeroImg from 'assets/hackathon/syncloop/theme.png';
 
@@ -60,30 +63,43 @@ const SyncloopHackathon = {
     },
   ],
   // !NOTE: Please add the respective prize list
-  prizes: [
+  tracks: [
     {
       title: 'Real-Time Data Synchronisation',
       description:
         'Build APIs that enable real-time synchronisation of data between multiple applications.',
-      gift: ['To be announced'],
     },
     {
       title: 'API Integration Showcase',
       description:
         'Participants can create projects that demonstrate creative integration of Syncloop APIs with popular platforms and services.',
-      gift: ['To be announced'],
     },
     {
       title: 'Developers Toolkit',
       description:
         'Create tools, plugins, or libraries that extend the capabilities of the Syncloop platform and enhance developers productivity.',
-      gift: ['To be announced'],
     },
     {
       title: 'Industry-Specific Solutions',
       description:
         'Hackathon participants can design API-driven solutions tailored for specific industries such as healthcare, e-commerce, education, etc.',
-      gift: ['To be announced'],
+    },
+  ],
+  prizes: [
+    {
+      title: '1st Place',
+      description: 'Acer Nitro 23.8 Inch Full HD Gaming Monitor',
+      image: FirstPrize,
+    },
+    {
+      title: '2nd Place',
+      description: 'OnePlus Nord Watch',
+      image: SecondPrize,
+    },
+    {
+      title: '3rd Place',
+      description: 'Sony Wireless On-Ear Headphones',
+      image: ThirdPrize,
     },
   ],
   judges: [],
