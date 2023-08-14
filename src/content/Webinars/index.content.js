@@ -1,9 +1,9 @@
 import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
+import KafkaWebinar from '@/content/Webinars/KafkaWebinar';
 import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
 import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
 
-// import AccessControlWebinar from './AccessControlWebinar';
 import BPFWebinar from './BPFWebinar';
 import ChatOpsWebinar from './ChatOpsWebinar';
 import GopherWebinar from './GopherWebinar';
@@ -38,7 +38,14 @@ const WebinarPageContent = {
 export default WebinarPageContent;
 
 export const webinar = [
-  // Past
+  {
+    img: KafkaWebinar.poster,
+    title: KafkaWebinar.name,
+    description: KafkaWebinar.description,
+    time: KafkaWebinar.time,
+    slug: KafkaWebinar.slug,
+    details: KafkaWebinar,
+  },
   {
     img: BPFWebinar.poster,
     title: BPFWebinar.name,
@@ -63,7 +70,6 @@ export const webinar = [
     slug: GopherWebinar.slug,
     details: GopherWebinar,
   },
-  // Upcoming
   {
     img: SimplifiedDeploymentWebinar.poster,
     title: SimplifiedDeploymentWebinar.name,
@@ -72,14 +78,7 @@ export const webinar = [
     slug: SimplifiedDeploymentWebinar.slug,
     details: SimplifiedDeploymentWebinar,
   },
-  // {
-  //   img: AccessControlWebinar.poster,
-  //   title: AccessControlWebinar.name,
-  //   description: AccessControlWebinar.description,
-  //   time: AccessControlWebinar.time,
-  //   slug: AccessControlWebinar.slug,
-  //   details: AccessControlWebinar,
-  // },
+
   {
     img: ZeroDowmtime.poster,
     title: ZeroDowmtime.name,
