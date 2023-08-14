@@ -1,3 +1,4 @@
+import BiteSizeOtterize from '@/content/Webinars/BiteSizeOtterize';
 import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 import KafkaWebinar from '@/content/Webinars/KafkaWebinar';
@@ -38,6 +39,14 @@ const WebinarPageContent = {
 export default WebinarPageContent;
 
 export const webinar = [
+  {
+    img: BiteSizeOtterize.poster,
+    title: BiteSizeOtterize.name,
+    description: BiteSizeOtterize.description,
+    time: BiteSizeOtterize.time,
+    slug: BiteSizeOtterize.slug,
+    details: BiteSizeOtterize,
+  },
   {
     img: KafkaWebinar.poster,
     title: KafkaWebinar.name,
