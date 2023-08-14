@@ -3,7 +3,7 @@ import ButtonLink from '@/components/links/ButtonLink';
 
 const Hero = () => {
   return (
-    <section className='flex h-screen items-center justify-center text-center'>
+    <section className='flex items-center justify-center py-32 text-center'>
       <div className='layout mx-auto mt-6 max-w-4xl'>
         <h1 className='heading'>
           Unleash your innovation at our
