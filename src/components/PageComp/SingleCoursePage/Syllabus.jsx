@@ -18,7 +18,11 @@ const Syllabus = ({ content }) => {
                 'before:h2 before:mb-2 before:inline-flex before:aspect-square before:h-12 before:items-center before:justify-center before:rounded-md before:bg-primary/30  before:text-content before:content-[attr(data-index)]'
               )}
             >
-              <UnstyledLink className='h3' key={s.title} href={s.videoLink}>
+              <UnstyledLink
+                className='h3 devopsSyllabus'
+                key={s.title}
+                href={s.videoLink}
+              >
                 {s.title}
               </UnstyledLink>
               <p className='mt-2'>{s.description}</p>
