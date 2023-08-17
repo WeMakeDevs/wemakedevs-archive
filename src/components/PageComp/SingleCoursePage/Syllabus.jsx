@@ -19,7 +19,7 @@ const Syllabus = ({ content }) => {
               )}
             >
               <UnstyledLink
-                className='h3 devopsSyllabus'
+                className='h3 pl-4'
                 key={s.title}
                 href={s.videoLink}
               >
