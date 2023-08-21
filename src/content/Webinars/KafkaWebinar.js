@@ -12,7 +12,7 @@ const KafkaWebinar = {
   description:
     'Apache Kafka has emerged as the central nervous system for businesses enabling real-time event streaming. This webinar will explore how KubeSlice simplifies the deployment of Kafka across multi-cloud environments, unlocking new use cases and driving business value.',
   poster: Poster,
-  videoUrl: null,
+  videoUrl: 'https://www.youtube.com/embed/ZHTIux_cGzg',
   takeaways: [
     'Understanding the Kafka Revolution',
     'The shift to a centralized event streaming paradigm.',
