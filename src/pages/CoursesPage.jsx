@@ -6,7 +6,6 @@ import { About, Courses, Hero } from '@/components/PageComp/CoursesPage';
 const CoursesPage = ({ content }) => {
   const [tweetId, setTweetId] = useState([
     '1620824479395090435',
-    '1620081639199244288',
     '1620489706994806785',
     '1620828035804184579',
     '1617535692497883138',
