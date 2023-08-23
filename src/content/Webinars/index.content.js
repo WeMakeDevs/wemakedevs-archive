@@ -9,6 +9,7 @@ import BPFWebinar from './BPFWebinar';
 import ChatOpsWebinar from './ChatOpsWebinar';
 import GopherWebinar from './GopherWebinar';
 import NoCodeApproachWebianr from './NoCodeApproachWebianr';
+import SimplifyWithDockerCompose from './SimplifyWithDockerCompose';
 
 const WebinarPageContent = {
   header: [
@@ -39,6 +40,14 @@ const WebinarPageContent = {
 export default WebinarPageContent;
 
 export const webinar = [
+  {
+    img: SimplifyWithDockerCompose.poster,
+    title: SimplifyWithDockerCompose.name,
+    description: SimplifyWithDockerCompose.description,
+    time: SimplifyWithDockerCompose.time,
+    slug: SimplifyWithDockerCompose.slug,
+    details: SimplifyWithDockerCompose,
+  },
   {
     img: BiteSizeOtterize.poster,
     title: BiteSizeOtterize.name,
