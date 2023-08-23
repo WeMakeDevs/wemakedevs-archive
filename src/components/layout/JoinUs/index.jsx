@@ -9,7 +9,7 @@ import NewsLetter from './NewsLetter';
 
 function JoinUs() {
   return (
-    <section id='join' className='py-20'>
+    <section id='join' className='pt-20'>
       <div className='layout flex flex-col gap-8 lg:flex-row'>
         {/* Join section */}
         <div className='flex flex-1 flex-col items-center gap-4'>
