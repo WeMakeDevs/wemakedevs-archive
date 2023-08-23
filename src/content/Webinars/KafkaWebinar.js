@@ -31,6 +31,12 @@ const KafkaWebinar = {
       linkedin: 'prasad-dorbala',
       img: Speaker,
     },
+    {
+      name: 'Olyvia Rakshit',
+      description: 'VP Marketing and Product UX at Avesha',
+      linkedin: 'olyviar',
+      img: 'https://media.licdn.com/dms/image/C5603AQGBsnsig7SpNA/profile-displayphoto-shrink_800_800/0/1596214090727?e=1698278400&v=beta&t=rLl7PqIdT4BJuqEZINW1CtSXmlpDhrPCLSA9bIcCoaY',
+    },
   ],
   register: 'KafkaWebinar',
   slug: 'multiple-clouds-with-kubeslice',
