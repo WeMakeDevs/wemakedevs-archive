@@ -2,6 +2,7 @@ import FirstPrize from 'assets/hackathon/syncloop/1st.png';
 import SecondPrize from 'assets/hackathon/syncloop/2nd.png';
 import ThirdPrize from 'assets/hackathon/syncloop/3rd.png';
 import SyncloopBanner from 'assets/hackathon/syncloop/Banner.png';
+import Rahul from 'assets/hackathon/syncloop/judge.jpg';
 import HeroImg from 'assets/hackathon/syncloop/theme.png';
 
 import HackthonPageContent from '@/content/Hackathons/ParticularHackathonPageContent';
@@ -18,7 +19,7 @@ const SyncloopHackathon = {
   hero: HeroImg,
   image: SyncloopBanner,
   // !NOTE: Please add the respective youtube video embed URL
-  videoUrl: null,
+  videoUrl: 'https://www.youtube.com/embed/ZZM9R3bzcq8?si=JDoTvgVOKWaT6lJ8',
   // !NOTE: Please add the respective youtube live stream URL
   liveUrl: 'https://www.youtube.com/watch?v=sST7JGLq2as',
   about: [
@@ -102,13 +103,20 @@ const SyncloopHackathon = {
       image: ThirdPrize,
     },
   ],
-  judges: [],
+  judges: [
+    {
+      name: 'Rahul Khinchi',
+      description: 'Developer Advocate at Syncloop',
+      twitter: 'rahhulk7',
+      img: Rahul,
+    },
+  ],
   takepart: [
     {
-      title: 'Check out the youtube channel of',
+      title: 'Register to the',
       link: {
         title: 'Syncloop Platform',
-        href: 'https://www.youtube.com/@syncloop',
+        href: 'https://www.syncloop.com/?utm_source=Influencer&utm_medium=Paid&utm_id=Kunal+Kushwaha',
       },
     },
     {
@@ -119,7 +127,14 @@ const SyncloopHackathon = {
       },
     },
     {
-      title: 'Learn from udemy course of',
+      title: 'Check out the YouTube channel of',
+      link: {
+        title: 'Syncloop Platform',
+        href: 'https://www.youtube.com/@syncloop',
+      },
+    },
+    {
+      title: 'Learn from the Udemy course of',
       link: {
         title: 'Syncloop',
 
@@ -136,9 +151,9 @@ const SyncloopHackathon = {
   ],
   // !NOTE: Please add the respective timeline
   timeline: [],
-  from: 'Mon, 14 Aug 2023 02:30:00 GMT',
-  to: 'Mon, 28 Aug 2023 14:30:00 GMT',
+  from: 'Mon, 28 Aug 2023',
+  to: 'Sun, 3 Sept 2023',
   // !NOTE: Please add the respective registration form link
-  winnerAnnouc: 'Fri, 1 Sept 2023 11:30:00 GMT',
+  winnerAnnouc: 'Mon, 4 Sept 2023',
 };
 export default SyncloopHackathon;
