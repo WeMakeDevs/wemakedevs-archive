@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <footer className='bg-base-200 py-24 text-content' id='footer'>
       <div className='layout flex flex-col gap-4'>
-        <div className='mx-auto grid w-full grid-cols-2 justify-between gap-4 py-4 md:grid-cols-4'>
+        <div className='mx-auto grid w-full grid-cols-2 justify-between py-4 sm:gap-4 md:grid-cols-4'>
           <div>
             <p className='h4 w-fit border-b-4 border-primary pb-1 text-gray-50'>
               Organization
