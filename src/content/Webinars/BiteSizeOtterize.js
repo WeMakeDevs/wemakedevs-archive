@@ -18,7 +18,7 @@ const BiteSizeOtterize = {
     'How to use Otterize and IBAC?',
     'How to secure services in a Kubernetes cluster with Otterize and IBAC?',
   ],
-  time: '24 Augest 2023 14:30:00 GMT',
+  time: '24 August 2023 14:30:00 GMT',
   speakers: [
     {
       name: 'David G. Simmons',
