@@ -6,7 +6,7 @@ import { HiOutlineArrowRight } from 'react-icons/hi';
 import { MdOutlineLabelImportant } from 'react-icons/md';
 import { VscDebugBreakpointLogUnverified } from 'react-icons/vsc';
 
-import { getDateTime } from '@/lib/utils';
+import { getDate } from '@/lib/utils';
 
 import SpeakerCard from '@/components/Cards/SpeakerCard';
 import TimeLineCard from '@/components/Cards/TimeLineCard';
@@ -42,25 +42,30 @@ const PerticularhackathonPage = ({ content }) => {
 
           <div className='h2 mt-10 font-normal'>
             <span className='font-bold'>Start: </span>
-            {getDateTime(content.from)}
+            {/* {getDateTime(content.from)} */}
+            {getDate(content.from)}
           </div>
           <div className='h2 font-normal'>
             <span className='font-bold'>End: </span>
-            {getDateTime(content.to)}
+            {/* {getDateTime(content.to)} */}
+            {getDate(content.to)}
           </div>
           <div className='h2 font-bold'>
-            Winnner announcement {getDateTime(content.winnerAnnouc)}
+            {/* Winnner announcement: {getDateTime(content.winnerAnnouc)} */}
+            Winnner announcement: {getDate(content.winnerAnnouc)}
           </div>
 
           {new Date().getTime() < new Date(content.from).getTime() ? (
             <ButtonLink as={ArrowLink} className='mt-10' href='#register'>
               Register
             </ButtonLink>
-          ) : (
+          ) : new Date().getTime() < new Date(content.to).getTime() ? (
             <ButtonLink as={ArrowLink} className='mt-10' href={content.liveUrl}>
-              {new Date().getTime() > new Date(content.to).getTime()
-                ? 'Watch reacording'
-                : 'Join now'}
+              Watch recording
+            </ButtonLink>
+          ) : (
+            <ButtonLink as={ArrowLink} className='mt-10' href='#resources'>
+              Join now
             </ButtonLink>
           )}
         </div>
@@ -183,10 +188,6 @@ const PerticularhackathonPage = ({ content }) => {
         <section id='tracks'>
           <div className='layout py-20 text-center'>
             <h2 className='h1 mb-4'>Prizes for this hackathon</h2>
-
-            <p className='h4 mt-2 font-normal text-gray-400'>
-              Potential internship offer to participants who perform well!
-            </p>
             <hr className='styled-hr mx-auto my-6' />
             <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
               {content.prizes.map((item) => (
@@ -285,14 +286,7 @@ const PerticularhackathonPage = ({ content }) => {
           </ul>
         </div>
       </section>
-      {/* Register */}
-      {new Date().getTime() < new Date(content.to).getTime() ? (
-        <Register name={content.slug} />
-      ) : (
-        ''
-      )}
-
-      {/* Register Section */}
+      {/* Resources Section */}
       <section id='resources'>
         <div className='layout py-20 text-center'>
           <h2 className='h1'>Resources</h2>
@@ -323,6 +317,12 @@ const PerticularhackathonPage = ({ content }) => {
           </ul>
         </div>
       </section>
+      {/* Register Section */}
+      {new Date().getTime() < new Date(content.to).getTime() ? (
+        <Register name={content.slug} />
+      ) : (
+        ''
+      )}
     </Layout>
   );
 };

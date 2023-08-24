@@ -1,5 +1,6 @@
 import Poster from '@/assets/webinars/kafka/poster.png';
 import Speaker from '@/assets/webinars/kafka/speaker.jpeg';
+import Speaker1 from '@/assets/webinars/kafka/speaker1.jpg';
 
 import {
   IndividualWebinarCompletedPageHeader,
@@ -23,13 +24,19 @@ const KafkaWebinar = {
     'Unified Control, Security, and Compliance with KubeSlice Unified management of resources and access privileges.',
     'Use Cases and Real-World Applications with Multi-Cluster Kafka',
   ],
-  time: '21 Augest 2023 16:00:00 GMT',
+  time: '21 August 2023 16:00:00 GMT',
   speakers: [
     {
       name: 'Prasad Dorbala',
       description: 'Chief Product Officer at Avesha',
       linkedin: 'prasad-dorbala',
       img: Speaker,
+    },
+    {
+      name: 'Olyvia Rakshit',
+      description: 'VP of Marketing at Avesha',
+      linkedin: 'olyviar',
+      img: Speaker1,
     },
   ],
   register: 'KafkaWebinar',
