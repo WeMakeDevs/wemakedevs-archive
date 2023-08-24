@@ -47,10 +47,10 @@ const HackthonPageContent = {
       name: 'Tracks',
       href: '#tracks',
     },
-    {
-      name: 'Judges',
-      href: '#judges',
-    },
+    // {
+    //   name: 'Judges',
+    //   href: '#judges',
+    // },
     {
       name: 'Criteria',
       href: '#criteria',
@@ -58,6 +58,10 @@ const HackthonPageContent = {
     {
       name: 'Rules',
       href: '#rules',
+    },
+    {
+      name: 'Resources',
+      href: '#resources',
     },
   ],
   CTA: {
