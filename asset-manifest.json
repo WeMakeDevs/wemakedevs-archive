@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.722dd278.css",
-    "main.js": "/static/js/main.261dec70.js",
+    "main.css": "/static/css/main.8bceea40.css",
+    "main.js": "/static/js/main.1f82eb23.js",
     "static/js/842.b937e159.chunk.js": "/static/js/842.b937e159.chunk.js",
-    "static/js/151.d622784e.chunk.js": "/static/js/151.d622784e.chunk.js",
+    "static/js/151.5c3566d8.chunk.js": "/static/js/151.5c3566d8.chunk.js",
     "static/js/240.3507115a.chunk.js": "/static/js/240.3507115a.chunk.js",
     "static/js/430.306216c7.chunk.js": "/static/js/430.306216c7.chunk.js",
     "static/css/111.e464cbbd.chunk.css": "/static/css/111.e464cbbd.chunk.css",
@@ -14,7 +14,7 @@
     "static/js/634.34722b58.chunk.js": "/static/js/634.34722b58.chunk.js",
     "static/js/77.ab4a491b.chunk.js": "/static/js/77.ab4a491b.chunk.js",
     "static/js/565.6bbfbea0.chunk.js": "/static/js/565.6bbfbea0.chunk.js",
-    "static/js/142.dcdeae2c.chunk.js": "/static/js/142.dcdeae2c.chunk.js",
+    "static/js/142.847aa885.chunk.js": "/static/js/142.847aa885.chunk.js",
     "static/js/791.7c3563ea.chunk.js": "/static/js/791.7c3563ea.chunk.js",
     "static/js/699.6daca763.chunk.js": "/static/js/699.6daca763.chunk.js",
     "static/js/534.edd76e5e.chunk.js": "/static/js/534.edd76e5e.chunk.js",
@@ -54,6 +54,7 @@
     "static/media/past-event-6.jpeg": "/static/media/past-event-6.b46febb178fb7fc8b4f5.jpeg",
     "static/media/past-event-7.jpeg": "/static/media/past-event-7.f925e3973f74e6b146db.jpeg",
     "static/media/Manoj.jpg": "/static/media/Manoj.89c564846cd8512e98e1.jpg",
+    "static/media/judge1.jpg": "/static/media/judge1.48e44275c6b4b9a1cc62.jpg",
     "static/media/past-event-5.jpeg": "/static/media/past-event-5.348e5b0b6da82463319f.jpeg",
     "static/media/past-event-3.jpeg": "/static/media/past-event-3.8c3780c0f994a49ce6ae.jpeg",
     "static/media/past-event-8.jpeg": "/static/media/past-event-8.e6ae742c91c427c9d782.jpeg",
@@ -99,10 +100,10 @@
     "static/media/samsung.svg": "/static/media/samsung.cad6b286876c24a136253f80b9897895.svg",
     "static/media/virtusa.svg": "/static/media/virtusa.b475b27e472c128bc7bca4388039e6bd.svg",
     "index.html": "/index.html",
-    "main.722dd278.css.map": "/static/css/main.722dd278.css.map",
-    "main.261dec70.js.map": "/static/js/main.261dec70.js.map",
+    "main.8bceea40.css.map": "/static/css/main.8bceea40.css.map",
+    "main.1f82eb23.js.map": "/static/js/main.1f82eb23.js.map",
     "842.b937e159.chunk.js.map": "/static/js/842.b937e159.chunk.js.map",
-    "151.d622784e.chunk.js.map": "/static/js/151.d622784e.chunk.js.map",
+    "151.5c3566d8.chunk.js.map": "/static/js/151.5c3566d8.chunk.js.map",
     "240.3507115a.chunk.js.map": "/static/js/240.3507115a.chunk.js.map",
     "430.306216c7.chunk.js.map": "/static/js/430.306216c7.chunk.js.map",
     "111.e464cbbd.chunk.css.map": "/static/css/111.e464cbbd.chunk.css.map",
@@ -113,7 +114,7 @@
     "634.34722b58.chunk.js.map": "/static/js/634.34722b58.chunk.js.map",
     "77.ab4a491b.chunk.js.map": "/static/js/77.ab4a491b.chunk.js.map",
     "565.6bbfbea0.chunk.js.map": "/static/js/565.6bbfbea0.chunk.js.map",
-    "142.dcdeae2c.chunk.js.map": "/static/js/142.dcdeae2c.chunk.js.map",
+    "142.847aa885.chunk.js.map": "/static/js/142.847aa885.chunk.js.map",
     "791.7c3563ea.chunk.js.map": "/static/js/791.7c3563ea.chunk.js.map",
     "699.6daca763.chunk.js.map": "/static/js/699.6daca763.chunk.js.map",
     "534.edd76e5e.chunk.js.map": "/static/js/534.edd76e5e.chunk.js.map",
@@ -128,7 +129,7 @@
     "321.7d3f42b1.chunk.js.map": "/static/js/321.7d3f42b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.722dd278.css",
-    "static/js/main.261dec70.js"
+    "static/css/main.8bceea40.css",
+    "static/js/main.1f82eb23.js"
   ]
 }
