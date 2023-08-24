@@ -11,7 +11,7 @@ const BiteSizeOtterize = {
   description:
     'With the release of Bite Size Otterize let us learn how to get started securing services within your cluster one service at a time, rather than having to start a huge project to roll out network policies across your infrastructure.',
   poster: Poster,
-  videoUrl: null,
+  videoUrl: 'https://www.youtube.com/embed/M5xMHVGEt-k',
   takeaways: [
     'What is Otterize?',
     'What is IBAC?',
