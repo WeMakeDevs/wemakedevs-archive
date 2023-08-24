@@ -50,7 +50,7 @@ const Banner = () => {
         <ArrowLink
           className='rounded-full p-1 px-3'
           as={ButtonLink}
-          href='/events'
+          href='#events'
           openNewTab
         >
           Events
