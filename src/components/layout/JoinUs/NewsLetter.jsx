@@ -11,7 +11,7 @@ const NewsLetter = () => {
     } else if (windowWidth < 1250) {
       setIframeHeight(700);
     } else {
-      setIframeHeight(670);
+      setIframeHeight(800);
     }
   }, []);
 
