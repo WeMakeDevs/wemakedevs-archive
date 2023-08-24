@@ -1,5 +1,6 @@
 import Poster from '@/assets/webinars/kafka/poster.png';
 import Speaker from '@/assets/webinars/kafka/speaker.jpeg';
+import Speaker1 from '@/assets/webinars/kafka/speaker1.jpg';
 
 import {
   IndividualWebinarCompletedPageHeader,
@@ -30,6 +31,12 @@ const KafkaWebinar = {
       description: 'Chief Product Officer at Avesha',
       linkedin: 'prasad-dorbala',
       img: Speaker,
+    },
+    {
+      name: 'Olyvia Rakshit',
+      description: 'VP of Marketing at Avesha',
+      linkedin: 'olyviar',
+      img: Speaker1,
     },
   ],
   register: 'KafkaWebinar',
