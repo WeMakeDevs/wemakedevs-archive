@@ -23,7 +23,7 @@ const KafkaWebinar = {
     'Unified Control, Security, and Compliance with KubeSlice Unified management of resources and access privileges.',
     'Use Cases and Real-World Applications with Multi-Cluster Kafka',
   ],
-  time: '21 Augest 2023 16:00:00 GMT',
+  time: '21 August 2023 16:00:00 GMT',
   speakers: [
     {
       name: 'Prasad Dorbala',
