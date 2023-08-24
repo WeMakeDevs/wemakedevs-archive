@@ -188,10 +188,6 @@ const PerticularhackathonPage = ({ content }) => {
         <section id='tracks'>
           <div className='layout py-20 text-center'>
             <h2 className='h1 mb-4'>Prizes for this hackathon</h2>
-
-            <p className='h4 mt-2 font-normal text-gray-400'>
-              Potential internship offer to participants who perform well!
-            </p>
             <hr className='styled-hr mx-auto my-6' />
             <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
               {content.prizes.map((item) => (

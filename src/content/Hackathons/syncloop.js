@@ -3,6 +3,7 @@ import SecondPrize from 'assets/hackathon/syncloop/2nd.png';
 import ThirdPrize from 'assets/hackathon/syncloop/3rd.png';
 import SyncloopBanner from 'assets/hackathon/syncloop/Banner.png';
 import Rahul from 'assets/hackathon/syncloop/judge.jpg';
+import Rupesh from 'assets/hackathon/syncloop/judge1.jpg';
 import HeroImg from 'assets/hackathon/syncloop/theme.png';
 
 import HackthonPageContent from '@/content/Hackathons/ParticularHackathonPageContent';
@@ -110,6 +111,12 @@ const SyncloopHackathon = {
       twitter: 'rahhulk7',
       img: Rahul,
     },
+    {
+      name: 'Rupesh Gupta',
+      description: 'Tech Lead',
+      linkedin: 'rupesh-gupta-383b96157',
+      img: Rupesh,
+    },
   ],
   takepart: [
     {
@@ -117,6 +124,13 @@ const SyncloopHackathon = {
       link: {
         title: 'Syncloop Platform',
         href: 'https://www.syncloop.com/?utm_source=Influencer&utm_medium=Paid&utm_id=Kunal+Kushwaha',
+      },
+    },
+    {
+      title: ' Join the',
+      link: {
+        title: 'Syncloop Discord server and #hackathon channel.',
+        href: 'https://discord.gg/Nm4kvHRdch',
       },
     },
     {
@@ -139,13 +153,6 @@ const SyncloopHackathon = {
         title: 'Syncloop',
 
         href: 'https://www.udemy.com/user/ekaapi/',
-      },
-    },
-    {
-      title: 'Join the community of',
-      link: {
-        title: 'Syncloop Discord',
-        href: 'https://discord.gg/Nm4kvHRdch',
       },
     },
   ],
