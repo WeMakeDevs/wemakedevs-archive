@@ -1,5 +1,7 @@
 import clsxm from '@/lib/utils';
 
+import UnstyledLink from '@/components/links/UnstyledLink';
+
 const Syllabus = ({ content }) => {
   return (
     <section id='syllabus'>
@@ -16,7 +18,13 @@ const Syllabus = ({ content }) => {
                 'before:h2 before:mb-2 before:inline-flex before:aspect-square before:h-12 before:items-center before:justify-center before:rounded-md before:bg-primary/30  before:text-content before:content-[attr(data-index)]'
               )}
             >
-              <h3>{s.title}</h3>
+              <UnstyledLink
+                className='h3 pl-4'
+                key={s.title}
+                href={s.videoLink}
+              >
+                {s.title}
+              </UnstyledLink>
               <p className='mt-2'>{s.description}</p>
             </div>
           ))}
