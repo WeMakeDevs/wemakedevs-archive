@@ -19,6 +19,9 @@ module.exports = {
         'primary-hover': 'rgb(var(--primary-hover) , <alpha-value>)',
         'primary-disable': 'rgb(var(--primary-disable) , <alpha-value>)',
       },
+      screens: {
+        xsm: '370px',
+      },
       keyframes: {
         spin: {
           to: {

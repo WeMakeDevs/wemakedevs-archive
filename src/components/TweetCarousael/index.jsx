@@ -65,25 +65,39 @@ function TweetCarousael({ tweetId, setTweetId }) {
             }
             showDots
             loop
+            responsiveLayout={[
+              {
+                breakpoint: 1380,
+                cols: 2,
+                gap: 5,
+              },
+              {
+                breakpoint: 640,
+                cols: 1,
+                gap: 10,
+              },
+            ]}
           >
             {tweetId?.map((id) => (
-              <Carousel.Item
-                style={{
-                  width: '99%',
-                }}
-                key={id}
-              >
-                <Tweet
-                  tweetId={id}
-                  options={{ theme: 'dark', conversation: 'none' }}
-                  onLoad={() => {
-                    setHideTweetPost(false);
-                  }}
-                  renderError={() => {
-                    setHide(id);
-                    return <div style={{ display: 'none' }}></div>;
-                  }}
-                />
+              <Carousel.Item key={id}>
+                {/* normally width is set to 95% | for screens <= 640px width=90% | for screens <= 370px width=85% */}
+                <div className='w-[95%] max-sm:w-[90%] max-xsm:w-[85%]'>
+                  <Tweet
+                    tweetId={id}
+                    options={{
+                      theme: 'dark',
+                      conversation: 'none',
+                      align: 'center',
+                    }}
+                    onLoad={() => {
+                      setHideTweetPost(false);
+                    }}
+                    renderError={() => {
+                      setHide(id);
+                      return <div style={{ display: 'none' }}></div>;
+                    }}
+                  />
+                </div>
               </Carousel.Item>
             ))}
           </Carousel>
