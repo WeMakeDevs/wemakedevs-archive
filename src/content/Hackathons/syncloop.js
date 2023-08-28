@@ -23,6 +23,7 @@ const SyncloopHackathon = {
   videoUrl: 'https://www.youtube.com/embed/R4veRoBrcnA',
   // !NOTE: Please add the respective youtube live stream URL
   liveUrl: 'https://www.youtube.com/watch?v=R4veRoBrcnA',
+  submissionForm: 'https://forms.gle/7ocbHmKXpKiVsQXN8',
   about: [
     'Syncloop is excited to host a virtual API Innovation Hackathon, bringing together developers, architects, and tech enthusiasts to showcase their creativity, problem-solving skills, and innovation in API development.',
     'The goal of this hackathon is to encourage participants to build groundbreaking API solutions using the Syncloop platform, driving advancements in API development and integration.',
@@ -153,6 +154,13 @@ const SyncloopHackathon = {
         title: 'Syncloop',
 
         href: 'https://www.udemy.com/user/ekaapi/',
+      },
+    },
+    {
+      title: ' Submit your project during the hacking period using',
+      link: {
+        title: 'Submission form',
+        href: 'https://forms.gle/7ocbHmKXpKiVsQXN8',
       },
     },
   ],

@@ -50,24 +50,39 @@ const PerticularhackathonPage = ({ content }) => {
             {/* {getDateTime(content.to)} */}
             {getDate(content.to)}
           </div>
-          <div className='h2 font-bold'>
+          <div className='h2 text-center font-bold'>
             {/* Winnner announcement: {getDateTime(content.winnerAnnouc)} */}
             Winnner announcement: {getDate(content.winnerAnnouc)}
           </div>
 
-          {new Date().getTime() < new Date(content.from).getTime() ? (
-            <ButtonLink as={ArrowLink} className='mt-10' href='#register'>
-              Register
-            </ButtonLink>
-          ) : new Date().getTime() < new Date(content.to).getTime() ? (
-            <ButtonLink as={ArrowLink} className='mt-10' href={content.liveUrl}>
-              Watch recording
-            </ButtonLink>
-          ) : (
-            <ButtonLink as={ArrowLink} className='mt-10' href='#resources'>
-              Join now
-            </ButtonLink>
-          )}
+          <div className='flex flex-col gap-4 md:flex-row'>
+            {new Date().getTime() < new Date(content.from).getTime() ? (
+              <ButtonLink as={ArrowLink} className='mt-10' href='#register'>
+                Register
+              </ButtonLink>
+            ) : new Date().getTime() < new Date(content.to).getTime() ? (
+              <ButtonLink
+                as={ArrowLink}
+                className='md:mt-10'
+                href={content.liveUrl}
+              >
+                Watch recording
+              </ButtonLink>
+            ) : (
+              <ButtonLink as={ArrowLink} className='mt-10' href='#resources'>
+                Join now
+              </ButtonLink>
+            )}
+            {content.submissionForm && (
+              <ButtonLink
+                as={ArrowLink}
+                className='md:mt-10'
+                href={content.submissionForm}
+              >
+                Submit Project
+              </ButtonLink>
+            )}
+          </div>
         </div>
       </section>
       {/* Theme section */}
