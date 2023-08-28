@@ -20,7 +20,7 @@ const SyncloopHackathon = {
   hero: HeroImg,
   image: SyncloopBanner,
   // !NOTE: Please add the respective youtube video embed URL
-  videoUrl: 'https://www.youtube.com/embed/ZZM9R3bzcq8?si=JDoTvgVOKWaT6lJ8',
+  videoUrl: 'https://www.youtube.com/embed/R4veRoBrcnA',
   // !NOTE: Please add the respective youtube live stream URL
   liveUrl: 'https://www.youtube.com/watch?v=sST7JGLq2as',
   about: [
