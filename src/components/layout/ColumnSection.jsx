@@ -30,7 +30,7 @@ const ColumnSection = ({
             src={src}
             title='YouTube video player'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowfullscreen
+            allowFullScreen
             className='inline-block aspect-[560/315] grow  border-none object-cover lg:self-center'
           ></iframe>
         ) : (

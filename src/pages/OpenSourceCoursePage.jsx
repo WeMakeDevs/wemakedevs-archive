@@ -56,7 +56,7 @@ const OpenSourcePage = ({ content }) => {
                   src='https://www.youtube.com/embed/inZUgh8p1d4'
                   title='YouTube video player'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                  allowfullscreen
+                  allowFullScreen
                   className='mx-auto mt-8 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 border-content/50 object-cover shadow-[0_1rem_3rem] shadow-content/30'
                 ></iframe>
                 <p className='mx-auto mt-6 max-w-lg text-center text-xl text-indigo-100 sm:max-w-[50rem]'>

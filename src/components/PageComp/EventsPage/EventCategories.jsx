@@ -2,6 +2,7 @@ import Educational from 'assets/events/educational.jpg';
 import Hackathon from 'assets/events/hackathon.jpg';
 import Hashnode from 'assets/events/hashnode.jpg';
 import Meetup from 'assets/events/meetup.jpeg';
+import Roads from 'assets/events/roads.jpg';
 import Scholarship from 'assets/events/scholarship.jpg';
 import Super25 from 'assets/events/super25.jpg';
 import Webinar from 'assets/events/webinar.jpg';
@@ -75,6 +76,14 @@ const eventsData2 = [
       'Embark on transformative learning at our educational events. Explore technologies, gain practical skills, and empower your success in a dynamic environment.',
     image: Educational,
     url: '/events/educational',
+    btnText: 'Know more',
+  },
+  {
+    title: 'The Road Less Travelled',
+    description:
+      'Embark on a journey of career excellence with our career guidance live events. Learn from experts, gain valuable insights, and advance your career in the tech landscape.',
+    image: Roads,
+    url: '/events/road-less-travelled',
     btnText: 'Know more',
   },
   {

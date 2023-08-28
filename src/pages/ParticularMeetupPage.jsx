@@ -49,7 +49,7 @@ const ParticularMeetupPage = ({ content }) => {
             src={content.venueVideoLink}
             title='YouTube video player'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowfullscreen
+            allowFullScreen
             className='mt-8 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 object-cover shadow-[0_1rem_3rem] shadow-primary/80'
           ></iframe>
           <div className='h2 mt-12 font-semibold'>
@@ -215,7 +215,7 @@ const ParticularMeetupPage = ({ content }) => {
             src='https://www.youtube.com/embed/0GrYQjbbooo'
             title='YouTube video player'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowfullscreen
+            allowFullScreen
             className='mx-auto mt-8 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 object-cover shadow-[0_1rem_3rem] shadow-primary/80'
           ></iframe>
         </div>

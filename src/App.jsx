@@ -16,11 +16,14 @@ import { hackathonDataList } from '@/content/Hackathons';
 import { MeetupPageContent } from '@/content/Meetup';
 import Delhi2023 from '@/content/Meetup/delhi-may-2023';
 import { OpensourcePageContent } from '@/content/opensource';
+import RoadLessTravelledContent from '@/content/roadlesstravelled';
 import Supper25Content from '@/content/super25';
 import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 
 import { Loader } from '@/components/layout';
 import ScrollToTop from '@/components/ScrollToTop';
+
+import RoadLessTravelledPage from '@/pages/RoadLessTravelledPage';
 
 const ScholarshipsPage = lazy(() => import('@/pages/ScholarshipsPage'));
 const HackathonsPage = lazy(() => import('@/pages/HackathonPage'));
@@ -148,6 +151,15 @@ const App = () => {
             exact
             path='/events/educational'
             element={<EducationalEventsPage />}
+          />
+
+          {/* Career events */}
+          <Route
+            exact
+            path='/events/road-less-travelled'
+            element={
+              <RoadLessTravelledPage content={RoadLessTravelledContent} />
+            }
           />
 
           {/* Super 25 */}
