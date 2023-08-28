@@ -9,6 +9,16 @@ const LearnInPublic = () => {
     window.open(twitterUrl, '_blank');
   };
 
+  const handleClick1 = () => {
+    const twitterUrl = 'https://twitter.com/WeMakeDevs';
+    window.open(twitterUrl, '_blank');
+  };
+
+  const handleClick2 = () => {
+    const twitterUrl = 'https://twitter.com/hashnode';
+    window.open(twitterUrl, '_blank');
+  };
+
   return (
     <section id='learninpublic' className='overflow-x-hidden'>
       <div className='layout py-20 text-center'>
@@ -33,6 +43,29 @@ const LearnInPublic = () => {
                 #RoadLessTravelled
               </button>{' '}
               on Twitter and share your journey regularly
+            </span>
+          </li>
+          <li className='h3 flex w-full gap-3 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'>
+            <MdOutlineLabelImportant
+              style={{ fill: 'url(#blue-gradient)' }}
+              className='h2 inline-block text-primary'
+            />
+            <span>
+              Follow{' '}
+              <button
+                className='relative bg-purple-700/50'
+                onClick={handleClick1}
+              >
+                @WeMakeDevs
+              </button>{' '}
+              and{' '}
+              <button
+                className='relative bg-purple-700/50'
+                onClick={handleClick2}
+              >
+                @hashnode
+              </button>{' '}
+              on Twitter to stay updated
             </span>
           </li>
           <li className='h3 flex w-full gap-3 rounded-xl bg-base-200 py-6 px-4 text-left font-medium'>
