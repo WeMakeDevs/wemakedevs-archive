@@ -4,11 +4,15 @@ import ButtonLink from '@/components/links/ButtonLink';
 const Hero = ({ content }) => {
   return (
     <section id='hero'>
-      <div className='layout flex flex-row items-center justify-between py-20 pt-32'>
-        <div className='flex w-1/2 flex-col items-start justify-start'>
-          <h1 className='h1 highlight highlight--light'>{content.name}</h1>
-          <p className='my-8'>{content.description}</p>
-          <div className=' flex flex-row items-center justify-center gap-6'>
+      <div className='layout flex flex-col items-center justify-center py-20 pt-32 md:flex-row md:justify-between'>
+        <div className='flex flex-col items-center justify-center md:w-1/2 md:items-start md:justify-start'>
+          <h1 className='h1 highlight highlight--light font-bold'>
+            {content.name}
+          </h1>
+          <p className='my-8 text-center md:text-start'>
+            {content.description}
+          </p>
+          <div className='flex flex-row items-center justify-center gap-6'>
             <ArrowLink
               as={ButtonLink}
               href='https://www.youtube.com/playlist?list=PL9gnSGHSqcno2fzgy_efUharYhkHJWxIX'
@@ -25,7 +29,7 @@ const Hero = ({ content }) => {
             </ArrowLink>
           </div>
         </div>
-        <div className='flex w-1/2 flex-col items-start justify-start'>
+        <div className='flex flex-col items-center justify-center md:w-1/2 md:items-start md:justify-start'>
           {/* {content.videoUrl &&
         new Date().getTime() > new Date(content.time).getTime() ? ( */}
           <iframe
@@ -33,7 +37,7 @@ const Hero = ({ content }) => {
             title='YouTube video player'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
             allowFullScreen
-            className='mx-5 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 object-cover shadow-[0_1rem_3rem] shadow-primary/80'
+            className='mt-10 block aspect-video h-full w-full max-w-[50rem] rounded-xl border-2 object-cover shadow-[0_1rem_3rem] shadow-primary/80 md:mx-5 md:mt-auto'
           ></iframe>
           {/* ) : (
         <img

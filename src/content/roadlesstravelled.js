@@ -62,7 +62,7 @@ const RoadLessTravelledContent = {
     name: 'Register',
     href: '#register',
   },
-  name: '🌟 Embark on a Journey of Career Excellence with "The Road Less Travelled" Series! 🌟',
+  name: 'Embark on a Journey of Career Excellence with "The Road Less Travelled" Series! 🌟',
   description:
     'Are you ready to take your career to new heights? Join us for an extraordinary experience brought to you by WeMakeDevs & Hashnode, where innovation meets inspiration! Introducing "The Road Less Travelled" series - a collection of captivating career events designed to guide you through uncharted territories of professional success.',
   slug: 'road-less-travelled',
