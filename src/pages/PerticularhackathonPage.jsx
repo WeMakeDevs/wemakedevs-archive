@@ -90,100 +90,103 @@ const PerticularhackathonPage = ({ content }) => {
           </div>
         </section>
       )}
-      {/* Prizes section */}
-      <section id='tracks'>
-        <div className='layout py-20 text-center'>
-          <h2 className='h1 mb-4'>Hackathon tracks</h2>
-          <p className='h4 mt-2 font-normal'>
-            Choose the track that best suits your skills and interests and win
-            prizes worth of $1200
-          </p>
+      {/* Tracks section */}
+      {content.tracks && (
+        <section id='tracks'>
+          <div className='layout py-20 text-center'>
+            <h2 className='h1 mb-4'>Hackathon tracks</h2>
+            <p className='h4 mt-2 font-normal'>
+              Choose the track that best suits your skills and interests and win
+              prizes worth of $1200
+            </p>
 
-          <hr className='styled-hr mx-auto my-6' />
-          <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            {content.tracks.map((item) => (
-              <div
-                className='rounded-xl bg-base-200 p-6 text-left'
-                key={item.title}
-              >
-                <GiSprint
-                  style={{ fill: 'url(#blue-gradient)' }}
-                  className='h2'
-                />
-                <h3 className='mt-5 font-normal'>{item.title}</h3>
-                <p className='mt-4 whitespace-pre-line'>
-                  {item.guide !== '' && item.guide && (
+            <hr className='styled-hr mx-auto my-6' />
+            <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+              {content.tracks.map((item) => (
+                <div
+                  className='rounded-xl bg-base-200 p-6 text-left'
+                  key={item.title}
+                >
+                  <GiSprint
+                    style={{ fill: 'url(#blue-gradient)' }}
+                    className='h2'
+                  />
+                  <h3 className='mt-5 font-normal'>{item.title}</h3>
+                  <p className='mt-4 whitespace-pre-line'>
+                    {item.guide !== '' && item.guide && (
+                      <>
+                        Using the{' '}
+                        <UnstyledLink
+                          href={item.guide}
+                          className='text-primary-disable underline underline-offset-2'
+                        >
+                          guide
+                        </UnstyledLink>
+                      </>
+                    )}{' '}
+                    {item.description}
+                  </p>
+                  {item.guide === '' && (
                     <>
-                      Using the{' '}
-                      <UnstyledLink
-                        href={item.guide}
-                        className='text-primary-disable underline underline-offset-2'
-                      >
-                        guide
-                      </UnstyledLink>
-                    </>
-                  )}{' '}
-                  {item.description}
-                </p>
-                {item.guide === '' && (
-                  <>
-                    <p className='mt-6 mb-3 text-primary-disable'>
-                      Steps to take part:
-                    </p>
-                    <ul className='flex flex-col gap-2'>
-                      <li className='flex items-center gap-2'>
-                        <AiOutlineArrowRight className='shrink-0' />{' '}
-                        <span>
-                          Write a blog on your learnings on Hashnode following
-                          these{' '}
-                          <UnstyledLink
-                            href='https://wemakedevs.org/events/hashnode'
-                            className='text-primary-disable underline underline-offset-2'
-                          >
-                            steps
-                          </UnstyledLink>
-                        </span>
-                      </li>
-                      <li className='flex items-center gap-2'>
-                        <AiOutlineArrowRight className='shrink-0' /> Make sure
-                        to add #WeMakeDevs when publishing it on Hashnode.
-                      </li>
-                      <li className='flex items-center gap-2'>
-                        <AiOutlineArrowRight className='shrink-0' />
-                        Share your blog on Twitter and tag @WeMakeDevs @hashnode
-                        @napptivecompany
-                      </li>
-                    </ul>
-                  </>
-                )}
-                {item.gift && (
-                  <>
-                    <p className='mt-6 mb-3 text-primary-disable'>
-                      Prizes worth
-                    </p>
-                    <ul className='flex flex-col gap-2'>
-                      {item.gift.map((gift) => (
-                        <li className='flex items-center gap-2' key={gift}>
-                          <AiOutlineArrowRight className='shrink-0' /> {gift}
+                      <p className='mt-6 mb-3 text-primary-disable'>
+                        Steps to take part:
+                      </p>
+                      <ul className='flex flex-col gap-2'>
+                        <li className='flex items-center gap-2'>
+                          <AiOutlineArrowRight className='shrink-0' />{' '}
+                          <span>
+                            Write a blog on your learnings on Hashnode following
+                            these{' '}
+                            <UnstyledLink
+                              href='https://wemakedevs.org/events/hashnode'
+                              className='text-primary-disable underline underline-offset-2'
+                            >
+                              steps
+                            </UnstyledLink>
+                          </span>
                         </li>
-                      ))}
-                    </ul>
-                  </>
-                )}
-                {item.image && (
-                  <figure className='mt-3 flex aspect-square w-full items-center justify-center rounded-lg bg-content/10'>
-                    <img
-                      src={item.image}
-                      alt={item.title}
-                      className='rounded-md object-cover'
-                    />
-                  </figure>
-                )}
-              </div>
-            ))}
+                        <li className='flex items-center gap-2'>
+                          <AiOutlineArrowRight className='shrink-0' /> Make sure
+                          to add #WeMakeDevs when publishing it on Hashnode.
+                        </li>
+                        <li className='flex items-center gap-2'>
+                          <AiOutlineArrowRight className='shrink-0' />
+                          Share your blog on Twitter and tag @WeMakeDevs
+                          @hashnode @napptivecompany
+                        </li>
+                      </ul>
+                    </>
+                  )}
+                  {item.gift && (
+                    <>
+                      <p className='mt-6 mb-3 text-primary-disable'>
+                        Prizes worth
+                      </p>
+                      <ul className='flex flex-col gap-2'>
+                        {item.gift.map((gift) => (
+                          <li className='flex items-center gap-2' key={gift}>
+                            <AiOutlineArrowRight className='shrink-0' /> {gift}
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
+                  {item.image && (
+                    <figure className='mt-3 flex aspect-square w-full items-center justify-center rounded-lg bg-content/10'>
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className='rounded-md object-cover'
+                      />
+                    </figure>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
+      {/* Prizes section */}
       {content.prizes.length > 0 && (
         <section id='tracks'>
           <div className='layout py-20 text-center'>
@@ -202,11 +205,22 @@ const PerticularhackathonPage = ({ content }) => {
                   <h3 className='mt-5 font-normal'>{item.title}</h3>
                   <p className='mt-4 whitespace-pre-line'>{item.description}</p>
                   <figure className='mt-3 flex aspect-square w-full items-center justify-center rounded-lg bg-content/10'>
-                    <img
-                      src={item.image}
-                      alt={item.title}
-                      className='rounded-md object-cover'
-                    />
+                    {item.image ? (
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className='rounded-md object-cover'
+                      />
+                    ) : (
+                      <div className='mx-2 flex flex-col gap-2'>
+                        {item.gift.map((gift, index) => (
+                          <li className='flex gap-2 text-xl' key={index}>
+                            <AiOutlineArrowRight className='mt-1 shrink-0' />{' '}
+                            {gift}
+                          </li>
+                        ))}
+                      </div>
+                    )}
                   </figure>
                 </div>
               ))}

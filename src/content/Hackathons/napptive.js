@@ -81,7 +81,7 @@ const NapptiveHackathonContent = {
       guide:
         'https://docs.napptive.com/guides/deploying_a_custom_application.html',
       description:
-        ', choose the open source app of your choice (e.g MySQL) and using the OAM standard, make it deployable on the Napptive Platform.',
+        'Choose the open source app of your choice (e.g MySQL) and using the OAM standard, make it deployable on the Napptive Platform.',
 
       gift: [
         'Mechanical keyboards for all team members',
@@ -94,7 +94,7 @@ const NapptiveHackathonContent = {
       title: 'Create application extensions',
       guide: 'https://docs.napptive.com/guides/Custom_definitions.html',
       description:
-        'and get super creative customizing applications making them more extensible',
+        'Get super creative customizing applications making them more extensible',
 
       gift: [
         'Mechanical keyboards for all team members',
@@ -124,6 +124,7 @@ const NapptiveHackathonContent = {
       img: Steve,
     },
   ],
+  tracks: null,
   takepart: [
     {
       title: 'Sign up to the ',
