@@ -20,9 +20,9 @@ const SyncloopHackathon = {
   hero: HeroImg,
   image: SyncloopBanner,
   // !NOTE: Please add the respective youtube video embed URL
-  videoUrl: 'https://www.youtube.com/embed/ZZM9R3bzcq8?si=JDoTvgVOKWaT6lJ8',
+  videoUrl: 'https://www.youtube.com/embed/R4veRoBrcnA',
   // !NOTE: Please add the respective youtube live stream URL
-  liveUrl: 'https://www.youtube.com/watch?v=sST7JGLq2as',
+  liveUrl: 'https://www.youtube.com/watch?v=R4veRoBrcnA',
   about: [
     'Syncloop is excited to host a virtual API Innovation Hackathon, bringing together developers, architects, and tech enthusiasts to showcase their creativity, problem-solving skills, and innovation in API development.',
     'The goal of this hackathon is to encourage participants to build groundbreaking API solutions using the Syncloop platform, driving advancements in API development and integration.',
