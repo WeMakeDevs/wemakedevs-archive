@@ -9,10 +9,19 @@ const CoursesPage = ({ content }) => {
     <Layout content={content}>
       <About content={content.content} />
       {tweetId ? (
-        <Testimonials tweetId={tweetId} setTweetId={setTweetId} />
+        <Testimonials
+          tweetId={tweetId}
+          setTweetId={setTweetId}
+          btnText={content.content.btnText}
+          btnLink={content.content.btnLink}
+        />
       ) : (
         <>
-          <Testimonials content={content.content.testimonials} />
+          <Testimonials
+            content={content.content.testimonials}
+            btnText={content.content.btnText}
+            btnLink={content.content.btnLink}
+          />
         </>
       )}
       {content.content.syllabus.length > 0 && (
