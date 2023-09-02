@@ -127,6 +127,9 @@ const DevopsPageContent = {
       '1487399069383155716',
       '1544248976664567811',
     ],
+    btnText: 'See more testimonials #DevOpsWithKunal',
+    btnLink:
+      'https://twitter.com/search?q=%23DevOpsWithKunal&src=hashtag_click',
   },
 
   faq: [
