@@ -5,7 +5,6 @@ import {
   FaInstagram,
   FaLinkedin,
   FaTelegramPlane,
-  FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
 import { MdAlternateEmail } from 'react-icons/md';
@@ -15,6 +14,8 @@ import clsxm from '@/lib/utils';
 
 import HeaderLink from '@/components/links/HeaderLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
+
+import twitter from '@/assets/images/x-twitter.svg';
 
 const Footer = () => {
   return (
@@ -180,9 +181,8 @@ const links = [
   {
     name: 'twitter',
     link: 'https://twitter.com/WeMakeDevs',
-    icon: <FaTwitter />,
+    icon: <img src={twitter} alt='' />,
     ariaLabel: 'Visit WeMakeDevs on Twitter',
-    className: 'hover:text-[#1DA1F2]',
   },
   {
     name: 'instagram',
