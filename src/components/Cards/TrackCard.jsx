@@ -1,6 +1,11 @@
 const TrackCard = ({ image, title, description }) => {
   return (
-    <div className='overflow-hidden rounded-2xl bg-content/5 p-4'>
+    <a
+      href='https://hashnode.com/draft/'
+      target='_blank'
+      rel='noreferrer'
+      className='overflow-hidden rounded-2xl bg-content/5 p-4'
+    >
       <img
         src={image}
         className='aspect-[1145/720] w-full rounded-lg object-cover object-center'
@@ -10,7 +15,7 @@ const TrackCard = ({ image, title, description }) => {
         <h3>{title}</h3>
         <p className='mt-2'>{description}</p>
       </div>
-    </div>
+    </a>
   );
 };
 
