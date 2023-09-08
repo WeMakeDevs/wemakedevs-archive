@@ -10,7 +10,13 @@ import { getDate } from '@/lib/utils';
 
 import SpeakerCard from '@/components/Cards/SpeakerCard';
 import TimeLineCard from '@/components/Cards/TimeLineCard';
-import { ColumnSection, FAQ, Footer, Navbar } from '@/components/layout';
+import {
+  ColumnSection,
+  FAQ,
+  Footer,
+  Navbar,
+  Partner,
+} from '@/components/layout';
 import { ArrowLink, ButtonLink, UnstyledLink } from '@/components/links';
 import ListItem from '@/components/Listitem';
 
@@ -51,8 +57,8 @@ const PerticularhackathonPage = ({ content }) => {
             {getDate(content.to)}
           </div>
           <div className='h2 text-center font-bold'>
-            {/* Winnner announcement: {getDateTime(content.winnerAnnouc)} */}
-            Winnner announcement: {getDate(content.winnerAnnouc)}
+            {/* Winner announcement: {getDateTime(content.winnerAnnouc)} */}
+            Winner announcement: {getDate(content.winnerAnnouc)}
           </div>
 
           <div className='flex flex-col gap-4 md:flex-row'>
@@ -364,6 +370,7 @@ const Layout = ({ content, children }) => {
       <Navbar links={content.header} cta={content.CTA} />
       <main className='main'>
         {children}
+        <Partner />
         <FAQ faq={content.faq} />
       </main>
       <Footer />
