@@ -146,6 +146,8 @@ const DsaPageContent = {
         designation: '@manojkumarbonala',
       },
     ],
+    btnText: 'See more testimonials #DSAWithKunal',
+    btnLink: 'https://twitter.com/search?q=%23DSAWithKunal&src=hashtag_click',
   },
 
   faq: [

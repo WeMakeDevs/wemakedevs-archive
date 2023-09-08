@@ -4,6 +4,7 @@ import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
 import clsxm from '@/lib/utils';
 
 import TestimonialCard from '@/components/Cards/TestimonialCard';
+import { ArrowLink, ButtonLink } from '@/components/links';
 import TweetCarousael from '@/components/TweetCarousael';
 
 const Testimonials = ({
@@ -13,6 +14,8 @@ const Testimonials = ({
   className,
   setTweetId,
   content,
+  btnText,
+  btnLink,
 }) => {
   const Compoonent = as || 'section';
   return (
@@ -59,6 +62,13 @@ const Testimonials = ({
             </Carousel>
           </div>
         )}
+        <div className='mt-4 flex gap-2'>
+          {btnLink && (
+            <ArrowLink openNewTab as={ButtonLink} href={btnLink}>
+              {btnText}
+            </ArrowLink>
+          )}
+        </div>
       </div>
     </Compoonent>
   );

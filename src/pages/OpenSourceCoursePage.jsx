@@ -195,6 +195,8 @@ const OpenSourcePage = ({ content }) => {
           tweetId={tweetId}
           setTweetId={setTweetId}
           title='Testimonials'
+          btnText='See more testimonials #OpenSourceWithKunal'
+          btnLink='https://twitter.com/search?q=%23OpenSourceWithKunal'
         />
         <Faq faq={content.faq} />
 

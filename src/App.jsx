@@ -23,7 +23,9 @@ import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 import { Loader } from '@/components/layout';
 import ScrollToTop from '@/components/ScrollToTop';
 
-import RoadLessTravelledPage from '@/pages/RoadLessTravelledPage';
+const RoadLessTravelledPage = lazy(() =>
+  import('@/pages/RoadLessTravelledPage')
+);
 
 const ScholarshipsPage = lazy(() => import('@/pages/ScholarshipsPage'));
 const HackathonsPage = lazy(() => import('@/pages/HackathonPage'));
