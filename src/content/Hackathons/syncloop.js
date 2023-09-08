@@ -11,7 +11,7 @@ import HackthonPageContent from '@/content/Hackathons/ParticularHackathonPageCon
 const SyncloopHackathon = {
   header: HackthonPageContent.header,
   faq: HackthonPageContent.faq,
-  CTA: HackthonPageContent.CTA,
+  // CTA: HackthonPageContent.CTA,
   slug: 'syncloop',
   title: 'Unleash the API Creativity with Syncloop',
   by: 'Powered by Syncloop',
