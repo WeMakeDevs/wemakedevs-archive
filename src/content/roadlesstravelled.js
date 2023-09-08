@@ -51,7 +51,7 @@ const RoadLessTravelledContent = {
     },
     {
       name: 'Tips',
-      href: '#learninginpublic',
+      href: '#learninpublic',
     },
     {
       name: 'FAQ',
