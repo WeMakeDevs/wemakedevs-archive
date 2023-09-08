@@ -2,7 +2,6 @@ import { useState } from 'react';
 
 import { RoadLessTravelledTweets } from '@/content/roadlesstravelled';
 
-// import Super25TimeLineCard from '@/components/Cards/Super25TimeLineCard';
 import Layout, { Testimonials } from '@/components/layout';
 import {
   About,
