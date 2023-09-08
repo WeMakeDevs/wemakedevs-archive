@@ -12,7 +12,7 @@ const GitGithubPageContent = {
     videoLink: 'https://www.youtube.com/embed/apGV9Kg7ics',
     buttons: [
       {
-        name: 'Playlist',
+        name: 'Lecture',
         href: 'https://www.youtube.com/watch?v=apGV9Kg7ics',
       },
     ],
@@ -70,7 +70,6 @@ const GitGithubPageContent = {
     ],
     tweetId: [
       '1620824479395090435',
-      '1620081639199244288',
       '1620489706994806785',
       '1620828035804184579',
       '1617535692497883138',

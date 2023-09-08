@@ -1,5 +1,6 @@
 import Adobe from '@/assets/home/company/adobe.svg';
 import Amazon from '@/assets/home/company/amazon.svg';
+import BlackRock from '@/assets/home/company/blackrock.svg';
 import Cisco from '@/assets/home/company/cisco.svg';
 import Clicklabs from '@/assets/home/company/clicklabs.svg';
 import Google from '@/assets/home/company/google.svg';
@@ -59,6 +60,11 @@ const companies = [
     id: 10,
     name: 'towerResearch',
     img_url: towerResearch,
+  },
+  {
+    id: 11,
+    name: 'BlackRock',
+    img_url: BlackRock,
   },
 ];
 
