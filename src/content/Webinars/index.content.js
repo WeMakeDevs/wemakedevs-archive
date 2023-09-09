@@ -2,6 +2,7 @@ import BiteSizeOtterize from '@/content/Webinars/BiteSizeOtterize';
 import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 import KafkaWebinar from '@/content/Webinars/KafkaWebinar';
+import LivecycleWebinar from '@/content/Webinars/LivecycleWebinar';
 import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
 import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
 
@@ -111,5 +112,13 @@ export const webinar = [
     time: CostOptimizationWebinar.time,
     slug: CostOptimizationWebinar.slug,
     details: CostOptimizationWebinar,
+  },
+  {
+    img: LivecycleWebinar.poster,
+    title: LivecycleWebinar.name,
+    description: LivecycleWebinar.description,
+    time: LivecycleWebinar.time,
+    slug: LivecycleWebinar.slug,
+    details: LivecycleWebinar,
   },
 ];
