@@ -95,8 +95,8 @@ const IndividualWebinarPage = ({ content }) => {
       ) : (
         // ''
         <iframe
-          // width='540'
-          // height='305'
+          width='540'
+          height='305'
           src='https://bed11154.sibforms.com/serve/MUIFAJjoyXj9kDFocWk3PGb0MmhkBqlDH7E7ColymPm5POezlTFqyl4IwycPRLg6GD8BZnuHJujMf8pkWlL73m0ImrV97HtV8DSi9Eqd252PLMIaIgyrFFrk1b3VincTJExNi0JyP6jZ0IvxnqWRgmk6mW9CCM8R3KaDTN0e1o2M22Uhz0xqWuUjalgzlVx9dfMIV0Zx5coI5YuN'
           frameBorder='0'
           scrolling='no'
