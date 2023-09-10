@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9a03019f.css",
-    "main.js": "/static/js/main.706fb804.js",
+    "main.js": "/static/js/main.eed04dc4.js",
     "static/js/199.ece74237.chunk.js": "/static/js/199.ece74237.chunk.js",
     "static/js/842.b937e159.chunk.js": "/static/js/842.b937e159.chunk.js",
     "static/js/151.5c3566d8.chunk.js": "/static/js/151.5c3566d8.chunk.js",
@@ -105,7 +105,7 @@
     "static/media/virtusa.svg": "/static/media/virtusa.b475b27e472c128bc7bca4388039e6bd.svg",
     "index.html": "/index.html",
     "main.9a03019f.css.map": "/static/css/main.9a03019f.css.map",
-    "main.706fb804.js.map": "/static/js/main.706fb804.js.map",
+    "main.eed04dc4.js.map": "/static/js/main.eed04dc4.js.map",
     "199.ece74237.chunk.js.map": "/static/js/199.ece74237.chunk.js.map",
     "842.b937e159.chunk.js.map": "/static/js/842.b937e159.chunk.js.map",
     "151.5c3566d8.chunk.js.map": "/static/js/151.5c3566d8.chunk.js.map",
@@ -135,6 +135,6 @@
   },
   "entrypoints": [
     "static/css/main.9a03019f.css",
-    "static/js/main.706fb804.js"
+    "static/js/main.eed04dc4.js"
   ]
 }
