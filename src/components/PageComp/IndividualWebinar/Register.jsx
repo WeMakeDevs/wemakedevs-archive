@@ -24,6 +24,7 @@ const Register = ({ register }) => {
         <iframe
           src={`https://wemakedevs-newsletter.vercel.app/${register}.html`}
           width='100%'
+          scrolling='no'
           style={{ border: '0' }}
           height={iframeHeight}
           title='Subscribe to our newsletter by entering your details below'
