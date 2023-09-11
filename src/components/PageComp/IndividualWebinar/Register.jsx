@@ -1,17 +1,17 @@
 import { useEffect, useState } from 'react';
 
 const Register = ({ register }) => {
-  const [iframeHeight, setIframeHeight] = useState(670);
+  const [iframeHeight, setIframeHeight] = useState(700);
 
   useEffect(() => {
     const windowWidth = window.innerWidth;
 
     if (windowWidth < 900) {
-      setIframeHeight(830);
+      setIframeHeight(930);
     } else if (windowWidth < 1250) {
-      setIframeHeight(700);
+      setIframeHeight(1000);
     } else {
-      setIframeHeight(670);
+      setIframeHeight(700);
     }
   }, []);
 
@@ -24,6 +24,7 @@ const Register = ({ register }) => {
         <iframe
           src={`https://wemakedevs-newsletter.vercel.app/${register}.html`}
           width='100%'
+          scrolling='no'
           style={{ border: '0' }}
           height={iframeHeight}
           title='Subscribe to our newsletter by entering your details below'
