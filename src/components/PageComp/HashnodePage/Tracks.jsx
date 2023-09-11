@@ -27,7 +27,7 @@ export default Tracks;
 const hashnodeData = [
   {
     description:
-      'Write a blog on Artificial Intelligence, share some of your expereinces in AI, how they have benefitted you and how you got involved in them',
+      'Write a blog on Artificial Intelligence, share some of your experiences in AI, how they have benefitted you and how you got involved in them',
     image: Track1,
   },
   {
@@ -47,7 +47,7 @@ const hashnodeData = [
   },
   {
     description:
-      "It is all about a free topic, you can write about anything you want, it can be about your expereinces, your journey, your learnings, anything you want to share with the world. Let's see what you have got!",
+      "It is all about a free topic, you can write about anything you want, it can be about your experiences, your journey, your learnings, anything you want to share with the world. Let's see what you have got!",
     image: Special,
   },
 ];
