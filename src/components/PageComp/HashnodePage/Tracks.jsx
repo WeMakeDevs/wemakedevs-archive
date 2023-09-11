@@ -1,7 +1,8 @@
-import Special from 'assets/hashnode/Special-Track-2022.png';
+import Special from 'assets/hashnode/Special-Track.png';
 import Track1 from 'assets/hashnode/Track-1.png';
 import Track2 from 'assets/hashnode/Track-2.png';
 import Track3 from 'assets/hashnode/Track-3.png';
+import Track4 from 'assets/hashnode/Track-4.png';
 
 import TrackCard from '@/components/Cards/TrackCard';
 
@@ -26,22 +27,27 @@ export default Tracks;
 const hashnodeData = [
   {
     description:
-      'Write a blog on the topic Productivity, share some of your best practices to stay productive and some hacks which you might use',
+      'Write a blog on Artificial Intelligence, share some of your expereinces in AI, how they have benefitted you and how you got involved in them',
     image: Track1,
   },
   {
     description:
-      'Write a blog on the topic Communities, share some of your expereinces in communites, how they have benefitted you and how you got involved in them',
+      'Write a blog on Development, share about some of your projects, how you got started with them and what you learnt from them',
     image: Track2,
   },
   {
     description:
-      'Write a blog on the topic Soft Skills, share about some soft skills you have developed, and what techniques you used',
+      'Write a blog on DevOps, share some of the best practices you follow, and how they have helped you in your projects',
     image: Track3,
   },
   {
     description:
-      "It is important to look back at things you have acheived to stay motivated to do even more amazing things. Half of 2023 is over, and now it's time to look back at all your acomplishments so far. Write about them and you can win a Mechanical Keyboard.",
+      'Write a blog on Security, share some of the best practices you follow, and how one can get started with them',
+    image: Track4,
+  },
+  {
+    description:
+      "It is all about a free topic, you can write about anything you want, it can be about your expereinces, your journey, your learnings, anything you want to share with the world. Let's see what you have got!",
     image: Special,
   },
 ];
