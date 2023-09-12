@@ -15,8 +15,6 @@ const HomePage = () => {
     <>
       <Layout content={HomePageContent}>
         <Hero />
-        <About />
-        <Courses />
         <Mentorship />
         <Events />
         <Content />
