@@ -41,6 +41,14 @@ export default WebinarPageContent;
 
 export const webinar = [
   {
+    img: LivecycleWebinar.poster,
+    title: LivecycleWebinar.name,
+    description: LivecycleWebinar.description,
+    time: LivecycleWebinar.time,
+    slug: LivecycleWebinar.slug,
+    details: LivecycleWebinar,
+  },
+  {
     img: BiteSizeOtterize.poster,
     title: BiteSizeOtterize.name,
     description: BiteSizeOtterize.description,
@@ -88,7 +96,6 @@ export const webinar = [
     slug: SimplifiedDeploymentWebinar.slug,
     details: SimplifiedDeploymentWebinar,
   },
-
   {
     img: ZeroDowmtime.poster,
     title: ZeroDowmtime.name,
@@ -112,13 +119,5 @@ export const webinar = [
     time: CostOptimizationWebinar.time,
     slug: CostOptimizationWebinar.slug,
     details: CostOptimizationWebinar,
-  },
-  {
-    img: LivecycleWebinar.poster,
-    title: LivecycleWebinar.name,
-    description: LivecycleWebinar.description,
-    time: LivecycleWebinar.time,
-    slug: LivecycleWebinar.slug,
-    details: LivecycleWebinar,
   },
 ];

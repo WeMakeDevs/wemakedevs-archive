@@ -11,11 +11,7 @@ const LivecycleWebinar = {
   description:
     'A walkthrough of how to use Docker Compose to collaborate with your team and get feedback from your stakeholders',
   poster: Poster,
-  // videoUrl: 'https://www.youtube.com/embed/',
-  CTA: {
-    name: 'Register',
-    href: '#register',
-  },
+  videoUrl: 'https://www.youtube.com/embed/1l_cmL57mds',
   takeaways: [
     'What is Docker Compose and why is it important for developers?',
     'What are the challenges of using Docker Compose in a team environment?',
