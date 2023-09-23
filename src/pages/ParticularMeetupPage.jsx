@@ -260,7 +260,7 @@ const Register = ({ content }) => {
             <h2 className='h1'>Register</h2>
             <hr className='styled-hr' />
             <iframe
-              src={`https://wemakedevs-newsletter.vercel.app/${content.slug}.html`}
+              src={`https://wemakedevs-newsletter.netlify.app/${content.slug}.html`}
               width='100%'
               style={{ border: '0' }}
               height={iframeHeight}
