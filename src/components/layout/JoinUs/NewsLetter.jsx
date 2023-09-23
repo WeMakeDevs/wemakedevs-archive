@@ -26,7 +26,7 @@ const NewsLetter = () => {
           src='https://wemakedevs-newsletter.netlify.app/'
           width='100%'
           height={iframeHeight}
-          style={{ border: '0', overflow: 'hidden', scroll: 'no' }}
+          style={{ border: '0', scroll: 'no' }}
           title='Subscribe to our newsletter by entering your details below'
         ></iframe>
       </div>
