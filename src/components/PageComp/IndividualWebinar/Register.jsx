@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const Register = ({ register }) => {
-  const [iframeHeight, setIframeHeight] = useState(700);
+  const [iframeHeight, setIframeHeight] = useState(750);
 
   useEffect(() => {
     const windowWidth = window.innerWidth;
@@ -11,7 +11,7 @@ const Register = ({ register }) => {
     } else if (windowWidth < 1250) {
       setIframeHeight(1000);
     } else {
-      setIframeHeight(700);
+      setIframeHeight(750);
     }
   }, []);
 
@@ -25,7 +25,7 @@ const Register = ({ register }) => {
           src={`https://wemakedevs-newsletter.netlify.app/${register}.html`}
           width='100%'
           scrolling='no'
-          style={{ border: '0' }}
+          style={{ border: '0', overflow: 'hidden' }}
           height={iframeHeight}
           title='Subscribe to our newsletter by entering your details below'
         ></iframe>
