@@ -22,7 +22,7 @@ const Register = ({ register }) => {
         <hr className='styled-hr' />
         <p className='h3'>Register and learn by great developer and creators</p>
         <iframe
-          src={`https://wemakedevs-newsletter.vercel.app/${register}.html`}
+          src={`https://wemakedevs-newsletter.netlify.app/${register}.html`}
           width='100%'
           scrolling='no'
           style={{ border: '0' }}

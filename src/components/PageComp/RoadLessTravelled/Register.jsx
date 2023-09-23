@@ -32,7 +32,7 @@ const Register = ({ careerpath }) => {
           title='Register for the program by entering your details below'
         ></iframe> */}
         <iframe
-          src={`https://wemakedevs-newsletter.vercel.app/${careerpath}.html`}
+          src={`https://wemakedevs-newsletter.netlify.app/${careerpath}.html`}
           width='100%'
           style={{ border: '0' }}
           height={iframeHeight}
