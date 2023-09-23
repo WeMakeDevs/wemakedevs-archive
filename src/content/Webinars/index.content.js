@@ -3,6 +3,7 @@ import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar'
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 import KafkaWebinar from '@/content/Webinars/KafkaWebinar';
 import LivecycleWebinar from '@/content/Webinars/LivecycleWebinar';
+import ObservabilityDevOps from '@/content/Webinars/ObservabilityDevOps';
 import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
 import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
 
@@ -40,6 +41,14 @@ const WebinarPageContent = {
 export default WebinarPageContent;
 
 export const webinar = [
+  {
+    img: ObservabilityDevOps.poster,
+    title: ObservabilityDevOps.name,
+    description: ObservabilityDevOps.description,
+    time: ObservabilityDevOps.time,
+    slug: ObservabilityDevOps.slug,
+    details: ObservabilityDevOps,
+  },
   {
     img: LivecycleWebinar.poster,
     title: LivecycleWebinar.name,
