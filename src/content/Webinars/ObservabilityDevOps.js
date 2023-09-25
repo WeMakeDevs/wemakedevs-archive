@@ -21,7 +21,7 @@ const ObservabilityDevOps = {
     name: 'Register',
     href: '#register',
   },
-  time: '26 September 2023 12:00:00 GMT',
+  time: '29 September 2023 6:00:00 GMT',
   speakers: [
     {
       name: 'Jasper Paul',
