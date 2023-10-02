@@ -1,4 +1,4 @@
-import Poster from '@/assets/webinars/Observability-devops.jpg';
+import Poster from '@/assets/webinars/configuration-as-code.png';
 
 import {
   IndividualWebinarCompletedPageHeader,
@@ -7,7 +7,7 @@ import {
 
 const ConfigurationAsCode = {
   header: IndividualWebinarCompletedPageHeader,
-  name: 'Configuration-as-Code: Automating Application Configuration',
+  name: 'Configuration As A Code: Automating Application Configuration',
   description:
     'Join us for a webinar with Ran Cohen, Configu co-founder and CTO where you will discover a groundbreaking approach to efficiently manage application configurations and streamline your development process.',
   poster: Poster,

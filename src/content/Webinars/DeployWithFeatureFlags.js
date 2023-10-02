@@ -1,4 +1,4 @@
-import Poster from '@/assets/webinars/Observability-devops.jpg';
+import Poster from '@/assets/webinars/Deploy-With-Feature-Flags.png';
 
 import {
   IndividualWebinarCompletedPageHeader,
