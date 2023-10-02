@@ -1,5 +1,8 @@
 import BiteSizeOtterize from '@/content/Webinars/BiteSizeOtterize';
+import ConfigurationAsCode from '@/content/Webinars/ConfigurationAsCode';
 import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
+import DeployWithFeatureFlags from '@/content/Webinars/DeployWithFeatureFlags';
+import HeadlessBrowser from '@/content/Webinars/HeadlessBrowser';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 import KafkaWebinar from '@/content/Webinars/KafkaWebinar';
 import LivecycleWebinar from '@/content/Webinars/LivecycleWebinar';
@@ -41,6 +44,30 @@ const WebinarPageContent = {
 export default WebinarPageContent;
 
 export const webinar = [
+  {
+    img: HeadlessBrowser.poster,
+    title: HeadlessBrowser.name,
+    description: HeadlessBrowser.description,
+    time: HeadlessBrowser.time,
+    slug: HeadlessBrowser.slug,
+    details: HeadlessBrowser,
+  },
+  {
+    img: DeployWithFeatureFlags.poster,
+    title: DeployWithFeatureFlags.name,
+    description: DeployWithFeatureFlags.description,
+    time: DeployWithFeatureFlags.time,
+    slug: DeployWithFeatureFlags.slug,
+    details: DeployWithFeatureFlags,
+  },
+  {
+    img: ConfigurationAsCode.poster,
+    title: ConfigurationAsCode.name,
+    description: ConfigurationAsCode.description,
+    time: ConfigurationAsCode.time,
+    slug: ConfigurationAsCode.slug,
+    details: ConfigurationAsCode,
+  },
   {
     img: ObservabilityDevOps.poster,
     title: ObservabilityDevOps.name,
