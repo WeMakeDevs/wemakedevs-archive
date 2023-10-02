@@ -17,10 +17,10 @@ const ObservabilityDevOps = {
     'How to optimize application performance?',
     'How can Site24x7 be used for gaining full-stack observability?',
   ],
-  CTA: {
-    name: 'Register',
-    href: '#register',
-  },
+  // CTA: {
+  //   name: 'Register',
+  //   href: '#register',
+  // },
   time: '29 September 2023 6:00:00 GMT',
   speakers: [
     {
