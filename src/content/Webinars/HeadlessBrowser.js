@@ -1,4 +1,4 @@
-import Poster from '@/assets/webinars/headless-browser.png';
+import Poster from '@/assets/webinars/headless-browser.jpg';
 
 import {
   IndividualWebinarCompletedPageHeader,
@@ -7,11 +7,11 @@ import {
 
 const HeadlessBrowser = {
   header: IndividualWebinarCompletedPageHeader,
-  name: 'Headless Browser',
+  name: 'Headless Browsers',
   description:
     'One of the biggest skills that engineers can easily add is a deeper understanding of headless browsers. Whether you are just getting started with web scraping or have experience building products that rely on browser automation, this webinar will up-level you with skills and tools to take it to the next level.',
   poster: Poster,
-  // videoUrl: 'https://www.youtube.com/embed/UTbCK92QTHw',
+  videoUrl: 'https://www.youtube.com/embed/ELFH-w9P7bU',
   takeaways: [
     'Advanced approaches for web scraping & extraction',
     'Synthetic testing on a deeper level',

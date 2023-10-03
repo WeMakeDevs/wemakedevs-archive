@@ -1,4 +1,4 @@
-import Poster from '@/assets/webinars/configuration-as-code.png';
+import Poster from '@/assets/webinars/configuration-as-code.jpg';
 
 import {
   IndividualWebinarCompletedPageHeader,
@@ -11,7 +11,7 @@ const ConfigurationAsCode = {
   description:
     'Join us for a webinar with Ran Cohen, Configu co-founder and CTO where you will discover a groundbreaking approach to efficiently manage application configurations and streamline your development process.',
   poster: Poster,
-  // videoUrl: 'https://www.youtube.com/embed/UTbCK92QTHw',
+  videoUrl: 'https://www.youtube.com/embed/Z_Vz8v6e-U4',
   takeaways: ['A groundbreaking way to manage application configurations'],
   CTA: {
     name: 'Register',
