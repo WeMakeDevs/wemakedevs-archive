@@ -1,4 +1,4 @@
-import Poster from '@/assets/webinars/Deploy-With-Feature-Flags.png';
+import Poster from '@/assets/webinars/Deploy-With-Feature-Flags.jpg';
 
 import {
   IndividualWebinarCompletedPageHeader,
@@ -7,11 +7,11 @@ import {
 
 const DeployWithFeatureFlags = {
   header: IndividualWebinarCompletedPageHeader,
-  name: 'Decouple Deploy & Release: Deploying to production safely with feature flags',
+  name: 'Decouple Deploy & Release: Deploying to Production Safely With Feature Flags',
   description:
     'Feature flags let you release with confidence. Join to learn all about feature flags and how they can apply to you, with a live demo of feature flagging in action.',
   poster: Poster,
-  // videoUrl: 'https://www.youtube.com/embed/UTbCK92QTHw',
+  videoUrl: 'https://www.youtube.com/embed/yIcFvVaFpjM',
   takeaways: [
     'How to get started and scale with feature flags?',
     'Use cases of feature flags for global development teams',
