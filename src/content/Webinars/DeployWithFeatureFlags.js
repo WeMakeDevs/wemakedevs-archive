@@ -7,11 +7,11 @@ import {
 
 const DeployWithFeatureFlags = {
   header: IndividualWebinarCompletedPageHeader,
-  name: 'Decouple Deploy & Release: Deploying to production safely with feature flags',
+  name: 'Decouple Deploy & Release: Deploying to Production Safely With Feature Flags',
   description:
     'Feature flags let you release with confidence. Join to learn all about feature flags and how they can apply to you, with a live demo of feature flagging in action.',
   poster: Poster,
-  // videoUrl: 'https://www.youtube.com/embed/UTbCK92QTHw',
+  videoUrl: 'https://www.youtube.com/embed/yIcFvVaFpjM',
   takeaways: [
     'How to get started and scale with feature flags?',
     'Use cases of feature flags for global development teams',
@@ -22,13 +22,14 @@ const DeployWithFeatureFlags = {
     name: 'Register',
     href: '#register',
   },
-  time: '05 October 2023 13:00:00 GMT',
+  time: '06 October 2023 10:00:00 GMT',
   speakers: [
     {
       name: 'Ben Rometsch',
-      // description: 'Hello World',
+      description: 'CEO and Co-Founder of Flagsmith',
       twitter: 'benjarom3',
-      img: 'https://pbs.twimg.com/profile_images/1305951808817369094/P_jm6yva_400x400.jpg',
+      linkedin: 'benrometsch',
+      img: 'https://media.licdn.com/dms/image/C4E03AQGToFZFFw0qtw/profile-displayphoto-shrink_800_800/0/1516193876653?e=1701907200&v=beta&t=4bexn7c57rhiqXwaT35gTCuYapvKlb1h6dw6MgS_NVc',
     },
   ],
   register: 'DeployWithFeatureFlagsWebinar',
