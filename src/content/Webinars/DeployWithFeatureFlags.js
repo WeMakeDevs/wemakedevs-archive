@@ -1,4 +1,4 @@
-import Poster from '@/assets/webinars/Deploy-With-Feature-Flags.jpg';
+import Poster from '@/assets/webinars/Deploy-With-Feature-Flags.png';
 
 import {
   IndividualWebinarCompletedPageHeader,
@@ -22,11 +22,11 @@ const DeployWithFeatureFlags = {
     name: 'Register',
     href: '#register',
   },
-  time: '05 October 2023 13:00:00 GMT',
+  time: '06 October 2023 10:00:00 GMT',
   speakers: [
     {
       name: 'Ben Rometsch',
-      // description: 'Hello World',
+      description: 'CEO and Co-Founder of Flagsmith',
       twitter: 'benjarom3',
       img: 'https://pbs.twimg.com/profile_images/1305951808817369094/P_jm6yva_400x400.jpg',
     },
