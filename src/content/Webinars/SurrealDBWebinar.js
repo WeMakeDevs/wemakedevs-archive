@@ -38,7 +38,7 @@ const SurrealDBWebinar = {
     },
   ],
   register: 'SurrealDBWebinar',
-  slug: 'surreal-db-crash-course',
+  slug: 'surrealdb-crash-course',
   faq: IndividualWebinarPageFAQ,
 };
 
