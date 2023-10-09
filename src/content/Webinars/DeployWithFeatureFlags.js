@@ -18,10 +18,6 @@ const DeployWithFeatureFlags = {
     'Best practices for using feature flags ',
     'Learn about decoupling deploy and release, canary/phased rollouts, and releasing with confidence. ',
   ],
-  CTA: {
-    name: 'Register',
-    href: '#register',
-  },
   time: '06 October 2023 10:00:00 GMT',
   speakers: [
     {

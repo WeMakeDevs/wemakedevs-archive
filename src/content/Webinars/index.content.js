@@ -8,6 +8,7 @@ import KafkaWebinar from '@/content/Webinars/KafkaWebinar';
 import LivecycleWebinar from '@/content/Webinars/LivecycleWebinar';
 import ObservabilityDevOps from '@/content/Webinars/ObservabilityDevOps';
 import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
+import SurrealDBWebinar from '@/content/Webinars/SurrealDBWebinar';
 import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
 
 import BPFWebinar from './BPFWebinar';
@@ -44,6 +45,14 @@ const WebinarPageContent = {
 export default WebinarPageContent;
 
 export const webinar = [
+  {
+    img: SurrealDBWebinar.poster,
+    title: SurrealDBWebinar.name,
+    description: SurrealDBWebinar.description,
+    time: SurrealDBWebinar.time,
+    slug: SurrealDBWebinar.slug,
+    details: SurrealDBWebinar,
+  },
   {
     img: HeadlessBrowser.poster,
     title: HeadlessBrowser.name,
