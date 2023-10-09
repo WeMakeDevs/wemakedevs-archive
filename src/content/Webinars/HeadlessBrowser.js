@@ -18,10 +18,6 @@ const HeadlessBrowser = {
     'Advanced approaches for automation',
     'Asset Generation (PDF, Screenshot, etc.)',
   ],
-  CTA: {
-    name: 'Register',
-    href: '#register',
-  },
   time: '04 October 2023 16:00:00 GMT',
   speakers: [
     {
