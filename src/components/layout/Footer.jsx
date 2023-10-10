@@ -5,9 +5,9 @@ import {
   FaInstagram,
   FaLinkedin,
   FaTelegramPlane,
-  FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { MdAlternateEmail } from 'react-icons/md';
 import { SiHashnode } from 'react-icons/si';
 
@@ -180,9 +180,9 @@ const links = [
   {
     name: 'twitter',
     link: 'https://twitter.com/WeMakeDevs',
-    icon: <FaTwitter />,
+    icon: <FaXTwitter />,
     ariaLabel: 'Visit WeMakeDevs on Twitter',
-    className: 'hover:text-[#1DA1F2]',
+    className: 'hover:text-[#FAF3F0]',
   },
   {
     name: 'instagram',
