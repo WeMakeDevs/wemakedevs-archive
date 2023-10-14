@@ -17,7 +17,7 @@ const ConfigurationAsCode = {
     name: 'Register',
     href: '#register',
   },
-  time: '12 October 2023 16:00:00 GMT',
+  time: '19 October 2023 16:00:00 GMT',
   speakers: [
     {
       name: 'Ran Cohen',
