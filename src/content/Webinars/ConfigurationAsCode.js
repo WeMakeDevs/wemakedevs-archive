@@ -11,13 +11,13 @@ const ConfigurationAsCode = {
   description:
     'Join us for a webinar with Ran Cohen, Configu co-founder and CTO where you will discover a groundbreaking approach to efficiently manage application configurations and streamline your development process.',
   poster: Poster,
-  videoUrl: 'https://www.youtube.com/embed/Z_Vz8v6e-U4',
+  videoUrl: 'https://www.youtube.com/embed/Z_Vz8v6e-U4?si=FTreIZcDWSbbBtuS',
   takeaways: ['A groundbreaking way to manage application configurations'],
   CTA: {
     name: 'Register',
     href: '#register',
   },
-  time: '12 October 2023 16:00:00 GMT',
+  time: '19 October 2023 16:00:00 GMT',
   speakers: [
     {
       name: 'Ran Cohen',
