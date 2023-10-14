@@ -11,17 +11,13 @@ const SurrealDBWebinar = {
   description:
     'Dive into the surreal world of SurrealDB in this interesting crash course! SurrealDB is a rust-based source available database system that pushes the boundaries of what is possible in data management. Whether you are an experienced data professional or a curious newcomer, this session will introduce you to the captivating world of SurrealDB and its remarkable features.',
   poster: Poster,
-  videoUrl: 'https://www.youtube.com/embed/-f09JJv8qdE',
+  videoUrl: 'https://www.youtube.com/embed/rMJGKtl3y8E?si=hMe63PiG_GgOyFGA',
   takeaways: [
     'Introduction to SurrealDB',
     'Features of SurrealDB',
     'SurrealQL Basics: Record IDs, Record links, Auth, Graph links, etc.',
     'Demo of Notes App showing top features of SurrealDB',
   ],
-  CTA: {
-    name: 'Register',
-    href: '#register',
-  },
   time: '12 October 2023 13:00:00 GMT',
   speakers: [
     {
