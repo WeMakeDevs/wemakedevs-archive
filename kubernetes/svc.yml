@@ -1,11 +1,13 @@
+# Define a Kubernetes Service to create a LoadBalancer for the "wmd" application
 apiVersion: v1
 kind: Service
 metadata:
-  name: wmd-loadbalancer
+  name: wmd-loadbalancer  # The name of the LoadBalancer service
 spec:
-  type: LoadBalancer
+  type: LoadBalancer  # Specifies that this is a LoadBalancer type service
   ports:
-  - port: 9000
-    targetPort: 3000
+  - port: 9000  # The external port for the LoadBalancer
+    targetPort: 3000  # The port to forward traffic to within the pods
   selector:
-    app: wmd
+    app: wmd  # Selects pods with the label "app: wmd" to load balance traffic to
+# End of LoadBalancer Service configuration
