@@ -1,3 +1,4 @@
+# Define a Kubernetes Deployment for the "wmd" application
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -5,7 +6,7 @@ metadata:
   labels:
     app: wmd
 spec:
-  replicas: 1
+  replicas: 1  # Number of replica pods to maintain
   selector:
     matchLabels:
       app: wmd
@@ -14,13 +15,17 @@ spec:
       labels:
         app: wmd
     spec:
+      # Define the pod template for the Deployment
       containers:
       - name: wmd-ctr
-        image: kaiwalyakoparkar/wemakedevs:1.0
+        image: kaiwalyakoparkar/wemakedevs:1.0  # Container image to use
         ports:
-        - containerPort: 3000
----
-# Commenting stuff because I have added loadbalancer service
+        - containerPort: 3000  # Port the application listens on within the container
+# End of Deployment configuration
+
+# Commenting stuff because I have added a LoadBalancer Service
+
+# Define a Kubernetes Service to expose the "wmd" application
 apiVersion: v1
 kind: Service
 metadata:
@@ -30,5 +35,7 @@ spec:
     app: wmd
   ports:
     - protocol: TCP
-      port: 3000
-      targetPort: 3000
+      port: 3000  # Port on which the service is exposed externally
+      targetPort: 3000  # Port to forward traffic to within the pods
+# End of Service configuration
+# End of YAML configuration
