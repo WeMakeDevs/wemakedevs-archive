@@ -4,7 +4,6 @@
  </a>
 </p>
 
-
 <p align="center">We Make Devs - Empowering developers to achieve their potential.</p>
 
 <p align="center">
