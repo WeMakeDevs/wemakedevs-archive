@@ -1,5 +1,7 @@
 <p align="center">
- <a href="https://wemakedevs.org/" target="_blank"> <img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="250"> </a>
+ <a href="https://external.ink?to=wemakedevs.org/"> 
+   <img src="https://user-images.githubusercontent.com/114678694/208736801-03fbace3-5b00-42b9-8dfe-db18dcc13714.png" height="250"> 
+ </a>
 </p>
 
 <p align="center">We Make Devs - Empowering developers to achieve their potential.</p>
