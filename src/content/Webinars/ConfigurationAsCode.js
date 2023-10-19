@@ -7,7 +7,7 @@ import {
 
 const ConfigurationAsCode = {
   header: IndividualWebinarCompletedPageHeader,
-  name: 'Configuration As A Code: Automating Application Configuration',
+  name: 'Configuration-as-code',
   description:
     'Join us for a webinar with Ran Cohen, Configu co-founder and CTO where you will discover a groundbreaking approach to efficiently manage application configurations and streamline your development process.',
   poster: Poster,
