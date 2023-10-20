@@ -12,7 +12,7 @@ const DsaPageContent = {
     videoLink: 'https://www.youtube.com/embed/rZ41y93P2Qo',
     buttons: [
       {
-        name: 'Notes & Assigment',
+        name: 'Notes & Assignments',
         href: 'https://github.com/kunal-kushwaha/DSA-Bootcamp-Java',
       },
       {
@@ -94,9 +94,9 @@ const DsaPageContent = {
           'Introduction, Maze problems, N-queens, N-knights, sudoku solver.',
       },
       {
-        title: 'Object oriented programming',
+        title: 'Object Oriented Programming',
         description:
-          'Introduction, classes, objects, this, properties, overloading, overriding, static, packages, access control, interfaces, abstract classes, annotations, singleton class, keywords, Object class, generics, expection handling, Vector class, Collections framework, lmabda expressions, enums.',
+          'Introduction, classes, objects, this keyword, properties, overloading, overriding, static, packages, access control, interfaces, abstract classes, annotations, singleton class, keywords, object class, generics, exception handling, vector class, collections framework, lambda expressions, enums.',
       },
       {
         title: 'Stacks and Queues',
@@ -114,9 +114,9 @@ const DsaPageContent = {
           "Introduction, BFS, DFS, components, minimum spanning trees, Kruskal, Prims, Dijkstra's shortest path, topological sort, Bellman ford, A* pathfinding.",
       },
       {
-        title: 'Additonal topics',
+        title: 'Additional topics',
         description:
-          "Greedy algorithms, tries, sliding window, two pointer, kadane's algorithm, and more!",
+          "Greedy algorithms, trees, sliding window, two pointer, Kadane's algorithm, and more!",
       },
     ],
     tweetId: [
