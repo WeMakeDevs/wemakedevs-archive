@@ -16,7 +16,7 @@ const DsaPageContent = {
     videoLink: 'https://www.youtube.com/embed/rZ41y93P2Qo',
     buttons: [
       {
-        name: 'Notes & Assignment',
+        name: 'Notes & Assignments',
         href: 'https://github.com/kunal-kushwaha/DSA-Bootcamp-Java',
       },
       {
@@ -31,7 +31,7 @@ const DsaPageContent = {
       },
       {
         title: 'Flow of program',
-        description: 'Flowcharts, pattern questions and pseudocode.',
+        description: 'Flowcharts, pattern questions, and pseudocode.',
       },
       {
         title: 'Introduction to Java',
@@ -41,7 +41,7 @@ const DsaPageContent = {
       {
         title: 'Functions / Methods',
         description:
-          'Introductiob to functions, scoping, shadowing, functional arguments, function overloading.',
+          'Introduction to functions, scoping, shadowing, functional arguments, function overloading.',
       },
       {
         title: 'Arrays and ArrayList',
@@ -70,7 +70,7 @@ const DsaPageContent = {
       {
         title: 'Recursion',
         description:
-          'Introduction, how to master, flow of program, tree building, tail recursion, sorting, string, array, pattern, subset questions.',
+          'Introduction, how to master recursion, flow of program, tree building, tail recursion, sorting, string, array, pattern, subset questions.',
       },
       {
         title: 'Backtracking',
@@ -78,9 +78,9 @@ const DsaPageContent = {
           'Introduction, Maze problems, N-queens, N-knights, sudoku solver.',
       },
       {
-        title: 'Object oriented programming',
+        title: 'Object-Oriented Programming',
         description:
-          'Introduction, classes, objects, this, properties, overloading, overriding, static, packages, access control, interfaces, abstract classes, annotations, singleton class, keywords, Object class, generics, expection handling, Vector class, Collections framework, lmabda expressions, enums.',
+          'Introduction, classes, objects, this keyword, properties, overloading, overriding, static, packages, access control, interfaces, abstract classes, annotations, singleton class, keywords, object class, generics, exception handling, vector class, collections framework, lambda expressions, enums.',
       },
       {
         title: 'Linked List',
@@ -95,12 +95,12 @@ const DsaPageContent = {
       {
         title: 'Trees',
         description:
-          'Introduction to binary trees, binary search tress, DFS, BFS, AVL trees, segment trees.',
+          'Introduction to binary trees, binary search trees, DFS, BFS, AVL trees, segment trees.',
       },
       {
         title: 'Hashmaps',
         description:
-          'Introduction, theory, comparisions, limitations, map using Linked List, map using Hash, sorting, chaining, probing, huffman-encoder.',
+          'Introduction, theory, comparisons, limitations, map using Linked List, map using Hash, sorting, chaining, probing, Huffman-encoder.',
       },
       {
         title: 'Dynamic programming',
@@ -118,9 +118,9 @@ const DsaPageContent = {
           "Introduction, BFS, DFS, components, minimum spanning trees, Kruskal, Prims, Dijkstra's shortest path, topological sort, Bellman ford, A* pathfinding.",
       },
       {
-        title: 'Additonal topics',
+        title: 'Additional topics',
         description:
-          "Greedy algorithms, tries, sliding window, two pointer, kadane's algorithm, and more!",
+          "Greedy algorithms, tries, sliding window, two pointer, Kadane's algorithm, and more!",
       },
     ],
     testimonials: [
@@ -179,7 +179,7 @@ const DsaPageContent = {
       id: 'FAQ5',
       question: 'Do you provide notes and assignments?',
       answer:
-        "Yes. It's crucial to revise the topics and self practice after watching the tutorials and we provide materials for the same.",
+        "Yes. It's crucial to revise the topics and self-practice after watching the tutorials and we provide materials for the same.",
     },
     {
       id: 'FAQ6',
