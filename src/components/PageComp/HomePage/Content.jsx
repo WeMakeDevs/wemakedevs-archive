@@ -26,7 +26,7 @@ const Content = () => {
               and members.
             </ListItem>
             <ListItem as='p' className='h3'>
-              Learn from the expereinces of industry expert, and get mentored
+              Learn from the experiences of industry expert, and get mentored
               from folks around the globe.
             </ListItem>
             <ListItem as='p' className='h3'>
