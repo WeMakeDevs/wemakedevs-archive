@@ -4,15 +4,25 @@ const NewsLetter = () => {
   const [iframeHeight, setIframeHeight] = useState(670);
 
   useEffect(() => {
-    const windowWidth = window.innerWidth;
-
-    if (windowWidth < 900) {
-      setIframeHeight(830);
-    } else if (windowWidth < 1250) {
-      setIframeHeight(700);
-    } else {
-      setIframeHeight(670);
-    }
+      const updateIframeHeight = () => {
+        const windowWidth = window.innerWidth;
+  
+        if (windowWidth < 900) {
+          setIframeHeight(830);
+        } else if (windowWidth < 1250) {
+          setIframeHeight(700);
+        } else {
+          setIframeHeight(670);
+        }
+    };
+  
+    updateIframeHeight();
+  
+      window.addEventListener('resize', updateIframeHeight);
+  
+      return () => {
+        window.removeEventListener('resize', updateIframeHeight);
+      };
   }, []);
 
   return (
