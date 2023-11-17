@@ -5,7 +5,6 @@ import {
   Courses,
   Events,
   Hero,
-  Mentorship,
 } from '@/components/PageComp/HomePage';
 
 import { HomePageContent } from './content';
@@ -17,7 +16,6 @@ const HomePage = () => {
         <Hero />
         <About />
         <Courses />
-        <Mentorship />
         <Events />
         <Content />
       </Layout>
