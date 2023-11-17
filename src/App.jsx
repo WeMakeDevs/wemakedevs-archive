@@ -16,16 +16,10 @@ import { hackathonDataList } from '@/content/Hackathons';
 import { MeetupPageContent } from '@/content/Meetup';
 import Delhi2023 from '@/content/Meetup/delhi-may-2023';
 import { OpensourcePageContent } from '@/content/opensource';
-import RoadLessTravelledContent from '@/content/roadlesstravelled';
-import Supper25Content from '@/content/super25';
 import WebinarPageContent, { webinar } from '@/content/Webinars/index.content';
 
 import { Loader } from '@/components/layout';
 import ScrollToTop from '@/components/ScrollToTop';
-
-const RoadLessTravelledPage = lazy(() =>
-  import('@/pages/RoadLessTravelledPage')
-);
 
 const ScholarshipsPage = lazy(() => import('@/pages/ScholarshipsPage'));
 const HackathonsPage = lazy(() => import('@/pages/HackathonPage'));
@@ -45,7 +39,6 @@ const PerticularhackathonPage = lazy(() =>
   import('@/pages/PerticularhackathonPage')
 );
 const ParticularMeetupPage = lazy(() => import('@/pages/ParticularMeetupPage'));
-const Super25Page = lazy(() => import('@/pages/Super25Page'));
 const CocPage = lazy(() => import('@/pages/CocPage'));
 const MeetupPage = lazy(() => import('@/pages/MeetupPage'));
 const OpenSourcePage = lazy(() => import('@/pages/OpenSourcePage'));
@@ -153,22 +146,6 @@ const App = () => {
             exact
             path='/events/educational'
             element={<EducationalEventsPage />}
-          />
-
-          {/* Career events */}
-          <Route
-            exact
-            path='/events/road-less-travelled'
-            element={
-              <RoadLessTravelledPage content={RoadLessTravelledContent} />
-            }
-          />
-
-          {/* Super 25 */}
-          <Route
-            exact
-            path='/events/super25'
-            element={<Super25Page content={Supper25Content} />}
           />
 
           {/* COC */}

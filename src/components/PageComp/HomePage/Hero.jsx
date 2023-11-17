@@ -20,11 +20,11 @@ const Hero = () => {
           <ArrowLink as={ButtonLink} href='#courses'>
             Courses
           </ArrowLink>
-          <ArrowLink as={ButtonLink} href='#mentorship'>
-            Mentorship
-          </ArrowLink>
           <ArrowLink as={ButtonLink} href='#events'>
             Events
+          </ArrowLink>
+          <ArrowLink as={ButtonLink} href='#content'>
+            Newsroom
           </ArrowLink>
         </div>
       </div>

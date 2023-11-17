@@ -43,10 +43,6 @@ export const HomePageContent = {
       href: '#courses',
     },
     {
-      name: 'Mentorship',
-      href: '#mentorship',
-    },
-    {
       name: 'Events',
       href: '#events',
     },
