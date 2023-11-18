@@ -8,6 +8,6 @@ RUN npm run build
 
 FROM node:17-alpine AS runner
 COPY --from=builder build ./build
-RUN npm install -g serve
+RUN npm install -g pm2
 EXPOSE 3000
-CMD ["serve", "-s", "build"]
+ENTRYPOINT ["pm2", "serve", "build/", "3000", "--name", "wemakedevs", "--no-daemon", "--spa"]
