@@ -1,6 +1,6 @@
 FROM node:17-alpine AS deps
-COPY package.json ./
-RUN npm install
+COPY package*.json ./
+RUN npm ci
 
 FROM deps AS builder
 COPY . .
