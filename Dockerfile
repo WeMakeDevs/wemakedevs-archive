@@ -1,5 +1,13 @@
-FROM --platform=linux/amd64 node:16-alpine 
-WORKDIR ./
+FROM node:17-alpine AS deps
+COPY package.json ./
+RUN npm install
+
+FROM deps AS builder
 COPY . .
+RUN npm run build
+
+FROM node:17-alpine AS runner
+COPY --from=builder build ./build
+RUN npm install -g serve
 EXPOSE 3000
-CMD [ "npm", "start" ]
+CMD ["serve", "-s", "build"]
