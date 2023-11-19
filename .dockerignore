@@ -1,0 +1,9 @@
+.git
+.github
+.gitignore
+*.md
+LICENSE
+.husky
+CNAME
+node_modules
+build
