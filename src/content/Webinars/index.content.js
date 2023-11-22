@@ -1,6 +1,7 @@
 import BiteSizeOtterize from '@/content/Webinars/BiteSizeOtterize';
 import ConfigurationAsCode from '@/content/Webinars/ConfigurationAsCode';
 import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
+import DatabaseGuardrails from '@/content/Webinars/DatabaseGuardrails';
 import DeployWithFeatureFlags from '@/content/Webinars/DeployWithFeatureFlags';
 import HeadlessBrowser from '@/content/Webinars/HeadlessBrowser';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
@@ -45,6 +46,14 @@ const WebinarPageContent = {
 export default WebinarPageContent;
 
 export const webinar = [
+  {
+    img: DatabaseGuardrails.poster,
+    title: DatabaseGuardrails.name,
+    description: DatabaseGuardrails.description,
+    time: DatabaseGuardrails.time,
+    slug: DatabaseGuardrails.slug,
+    details: DatabaseGuardrails,
+  },
   {
     img: SurrealDBWebinar.poster,
     title: SurrealDBWebinar.name,
