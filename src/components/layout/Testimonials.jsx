@@ -32,7 +32,7 @@ const Testimonials = ({
         {tweetId ? (
           <TweetCarousael tweetId={tweetId} setTweetId={setTweetId} />
         ) : (
-          <div className='flex flex-col gap-4'>
+          <div className='flex flex-col gap-4 max-md:w-80'>
             <Carousel
               cols={3}
               rows={1}
