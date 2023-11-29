@@ -7,6 +7,7 @@ import HeadlessBrowser from '@/content/Webinars/HeadlessBrowser';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 import KafkaWebinar from '@/content/Webinars/KafkaWebinar';
 import LivecycleWebinar from '@/content/Webinars/LivecycleWebinar';
+import ManageK8Applications from '@/content/Webinars/ManageK8Applications';
 import ObservabilityDevOps from '@/content/Webinars/ObservabilityDevOps';
 import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
 import SurrealDBWebinar from '@/content/Webinars/SurrealDBWebinar';
@@ -46,6 +47,14 @@ const WebinarPageContent = {
 export default WebinarPageContent;
 
 export const webinar = [
+  {
+    img: ManageK8Applications.poster,
+    title: ManageK8Applications.name,
+    description: ManageK8Applications.description,
+    time: ManageK8Applications.time,
+    slug: ManageK8Applications.slug,
+    details: ManageK8Applications,
+  },
   {
     img: DatabaseGuardrails.poster,
     title: DatabaseGuardrails.name,
