@@ -6,7 +6,7 @@ const TestimonialCard = ({ src, description, from }) => {
         className=' mb-2 inline-block h-20 w-20 rounded-full border-2 border-base-100 bg-base-100/10 object-cover object-center'
         src={src}
       />
-      <p className='text-lg max-md:w-64'>{description}</p>
+      <p className='text-lg md:max-w-64'>{description}</p>
       <hr className='styled-hr styled-hr--light mx-auto my-4' />
       <h2 className='text-sm font-medium text-content '>{from}</h2>
     </div>
