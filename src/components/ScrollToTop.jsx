@@ -31,6 +31,7 @@ export default function ScrollToTop() {
       aria-label='Click here to scroll to top'
       className={clsxm(
         'h1 fixed right-4 bottom-20 z-50 rounded-full bg-base-100 text-primary transition-all duration-300 lg:bottom-14',
+        'hover:scale-125',
 
         goToTop
           ? 'translate-y-0 opacity-100'
