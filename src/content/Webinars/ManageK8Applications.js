@@ -9,7 +9,7 @@ const ManageK8Applications = {
   header: IndividualWebinarCompletedPageHeader,
   name: 'How to Manage and Control Kubernetes Applications Without Kubernetes Expertise',
   description:
-    'Developers have a hard time managing applications deployed to Kubernetes. They need to understand how Kubernetes works, how to access clusters, and how to compose, monitor, and audit applications. As developers’ Kubernetes responsibilities keep growing, learning and maintaining all this takes precious time away from their main responsibility of delivering quality applications and producing business value.\n\nLens AppIQ is designed to help developers address these issues, giving them a platform where they can visualize and support their applications without a deep understanding of Kubernetes. It enables developers to take back control of their time and focus on application development.\n\n In this hands-on webinar, we will demonstrate how developers can use Lens AppIQ to manage their own applications, no matter what stage of the Kubernetes journey they’re in, and how they can take advantage of its app-centric approach.',
+    'Unlock the power of Kubernetes without the complexity! Join our hands-on webinar to discover how Lens AppIQ empowers developers to effortlessly manage and control their applications at any stage of the Kubernetes journey. Say goodbye to the steep learning curve and reclaim your time for focused application development. Dive into a seamless, app-centric approach with Lens AppIQ - the key to simplifying Kubernetes management for developers.',
   poster: Poster,
   videoUrl: 'https://www.youtube.com/embed/3ILs0gRtlsU',
   takeaways: [
