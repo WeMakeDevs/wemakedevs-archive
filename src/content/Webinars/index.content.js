@@ -1,3 +1,4 @@
+import AutometricsWebinar from '@/content/Webinars/AutometricsWebinar';
 import BiteSizeOtterize from '@/content/Webinars/BiteSizeOtterize';
 import ConfigurationAsCode from '@/content/Webinars/ConfigurationAsCode';
 import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
@@ -47,6 +48,14 @@ const WebinarPageContent = {
 export default WebinarPageContent;
 
 export const webinar = [
+  {
+    img: AutometricsWebinar.poster,
+    title: AutometricsWebinar.name,
+    description: AutometricsWebinar.description,
+    time: AutometricsWebinar.time,
+    slug: AutometricsWebinar.slug,
+    details: AutometricsWebinar,
+  },
   {
     img: ManageK8Applications.poster,
     title: ManageK8Applications.name,
