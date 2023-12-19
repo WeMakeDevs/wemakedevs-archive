@@ -7,7 +7,7 @@ import { ArrowLink, ButtonLink } from '@/components/links';
 const WebinarCard = ({ img, title, time, description, slug }) => {
   const href = slug.includes('https://www.youtube.com/watch?v=')
     ? slug
-    : `/events/webinar/${slug}`;
+    : `/events/webinars/${slug}`;
   return (
     <div className='overflow-hidden rounded-2xl bg-content/5 p-4'>
       <img
