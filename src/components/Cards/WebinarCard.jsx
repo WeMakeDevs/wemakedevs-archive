@@ -2,10 +2,12 @@ import { BsCalendar, BsClock } from 'react-icons/bs';
 
 import { getTime, getTimeZone } from '@/lib/utils';
 
-import ArrowLink from '@/components/links/ArrowLink';
-import ButtonLink from '@/components/links/ButtonLink';
+import { ArrowLink, ButtonLink } from '@/components/links';
 
 const WebinarCard = ({ img, title, time, description, slug }) => {
+  const href = slug.includes('https://www.youtube.com/watch?v=')
+    ? slug
+    : `/events/webinar/${slug}`;
   return (
     <div className='overflow-hidden rounded-2xl bg-content/5 p-4'>
       <img
@@ -23,12 +25,7 @@ const WebinarCard = ({ img, title, time, description, slug }) => {
           <BsClock />
           {getTime(time)} {getTimeZone(time)}
         </p>
-        <ArrowLink
-          as={ButtonLink}
-          className='mt-4'
-          href={`/events/webinars/${slug}`}
-          openNewTab
-        >
+        <ArrowLink as={ButtonLink} className='mt-4' href={href} openNewTab>
           {new Date().getTime() < new Date(time).getTime()
             ? 'Register'
             : 'Recap'}

@@ -4,13 +4,16 @@ import ConfigurationAsCode from '@/content/Webinars/ConfigurationAsCode';
 import CostOptimizationWebinar from '@/content/Webinars/CostOptimizationWebinar';
 import DatabaseGuardrails from '@/content/Webinars/DatabaseGuardrails';
 import DeployWithFeatureFlags from '@/content/Webinars/DeployWithFeatureFlags';
+import DevProductivityAIEra from '@/content/Webinars/DevProductivityAIEra';
 import HeadlessBrowser from '@/content/Webinars/HeadlessBrowser';
 import { IndividualWebinarPageFAQ } from '@/content/Webinars/IndividualWebinarPageContent';
 import KafkaWebinar from '@/content/Webinars/KafkaWebinar';
 import LivecycleWebinar from '@/content/Webinars/LivecycleWebinar';
 import ManageK8Applications from '@/content/Webinars/ManageK8Applications';
 import ObservabilityDevOps from '@/content/Webinars/ObservabilityDevOps';
+import PulumiWebinar from '@/content/Webinars/PulumiWebinar';
 import SimplifiedDeploymentWebinar from '@/content/Webinars/SimplifiedDeployment';
+import StateOfJava from '@/content/Webinars/StateOfJava';
 import SurrealDBWebinar from '@/content/Webinars/SurrealDBWebinar';
 import ZeroDowmtime from '@/content/Webinars/ZeroDowntimeKubeslice';
 
@@ -48,6 +51,27 @@ const WebinarPageContent = {
 export default WebinarPageContent;
 
 export const webinar = [
+  {
+    img: DevProductivityAIEra.poster,
+    title: DevProductivityAIEra.name,
+    description: DevProductivityAIEra.description,
+    time: DevProductivityAIEra.time,
+    slug: DevProductivityAIEra.slug,
+  },
+  {
+    img: PulumiWebinar.poster,
+    title: PulumiWebinar.name,
+    description: PulumiWebinar.description,
+    slug: PulumiWebinar.slug,
+    details: PulumiWebinar,
+  },
+  {
+    img: StateOfJava.poster,
+    title: StateOfJava.name,
+    description: StateOfJava.description,
+    slug: StateOfJava.slug,
+    details: StateOfJava,
+  },
   {
     img: AutometricsWebinar.poster,
     title: AutometricsWebinar.name,
