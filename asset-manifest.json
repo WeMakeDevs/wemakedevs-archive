@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6e567ef8.css",
-    "main.js": "/static/js/main.267ba57e.js",
+    "main.js": "/static/js/main.05b781f5.js",
     "static/js/842.9764df15.chunk.js": "/static/js/842.9764df15.chunk.js",
     "static/js/151.abbb5595.chunk.js": "/static/js/151.abbb5595.chunk.js",
     "static/js/240.8087bf60.chunk.js": "/static/js/240.8087bf60.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/370.b8f5bdd0.chunk.js": "/static/js/370.b8f5bdd0.chunk.js",
     "static/js/366.1b70fba3.chunk.js": "/static/js/366.1b70fba3.chunk.js",
     "static/js/634.f86c1322.chunk.js": "/static/js/634.f86c1322.chunk.js",
-    "static/js/77.63000656.chunk.js": "/static/js/77.63000656.chunk.js",
+    "static/js/77.4cc27964.chunk.js": "/static/js/77.4cc27964.chunk.js",
     "static/js/565.aad93acd.chunk.js": "/static/js/565.aad93acd.chunk.js",
     "static/js/142.a4fe59fa.chunk.js": "/static/js/142.a4fe59fa.chunk.js",
     "static/js/791.dbf945fe.chunk.js": "/static/js/791.dbf945fe.chunk.js",
@@ -50,6 +50,8 @@
     "static/media/Banner.png": "/static/media/Banner.44c0f91a41d2efeed225.png",
     "static/media/autometrics.png": "/static/media/autometrics.73771f33c94abf2a3055.png",
     "static/media/DatabaseGuardrails.png": "/static/media/DatabaseGuardrails.6b875bc54d363ce627bb.png",
+    "static/media/state-of-java.jpg": "/static/media/state-of-java.ffffe41516b09eafd158.jpg",
+    "static/media/pulumi-webinar.jpg": "/static/media/pulumi-webinar.b1ce3ebbcd40d86ccc24.jpg",
     "static/media/devops.jpg": "/static/media/devops.474566e789c81ee67917.jpg",
     "static/media/dsa.jpg": "/static/media/dsa.fb04266f98cdbe36e107.jpg",
     "static/media/Gopher.png": "/static/media/Gopher.ea906093ad677a6cb53d.png",
@@ -57,6 +59,7 @@
     "static/media/past-event-6.jpeg": "/static/media/past-event-6.b46febb178fb7fc8b4f5.jpeg",
     "static/media/past-event-7.jpeg": "/static/media/past-event-7.f925e3973f74e6b146db.jpeg",
     "static/media/Manoj.jpg": "/static/media/Manoj.89c564846cd8512e98e1.jpg",
+    "static/media/Maximising-Developer-Productivity-AI-Era.png": "/static/media/Maximising-Developer-Productivity-AI-Era.d8a7d0f9e179c9abf1ee.png",
     "static/media/Track-1.png": "/static/media/Track-1.e8abd96fb0e2f1166d84.png",
     "static/media/Track-2.png": "/static/media/Track-2.ca8759418860081739af.png",
     "static/media/Special-Track.png": "/static/media/Special-Track.bbe14884a9332265026e.png",
@@ -109,7 +112,7 @@
     "static/media/virtusa.svg": "/static/media/virtusa.b475b27e472c128bc7bca4388039e6bd.svg",
     "index.html": "/index.html",
     "main.6e567ef8.css.map": "/static/css/main.6e567ef8.css.map",
-    "main.267ba57e.js.map": "/static/js/main.267ba57e.js.map",
+    "main.05b781f5.js.map": "/static/js/main.05b781f5.js.map",
     "842.9764df15.chunk.js.map": "/static/js/842.9764df15.chunk.js.map",
     "151.abbb5595.chunk.js.map": "/static/js/151.abbb5595.chunk.js.map",
     "240.8087bf60.chunk.js.map": "/static/js/240.8087bf60.chunk.js.map",
@@ -120,7 +123,7 @@
     "370.b8f5bdd0.chunk.js.map": "/static/js/370.b8f5bdd0.chunk.js.map",
     "366.1b70fba3.chunk.js.map": "/static/js/366.1b70fba3.chunk.js.map",
     "634.f86c1322.chunk.js.map": "/static/js/634.f86c1322.chunk.js.map",
-    "77.63000656.chunk.js.map": "/static/js/77.63000656.chunk.js.map",
+    "77.4cc27964.chunk.js.map": "/static/js/77.4cc27964.chunk.js.map",
     "565.aad93acd.chunk.js.map": "/static/js/565.aad93acd.chunk.js.map",
     "142.a4fe59fa.chunk.js.map": "/static/js/142.a4fe59fa.chunk.js.map",
     "791.dbf945fe.chunk.js.map": "/static/js/791.dbf945fe.chunk.js.map",
@@ -136,6 +139,6 @@
   },
   "entrypoints": [
     "static/css/main.6e567ef8.css",
-    "static/js/main.267ba57e.js"
+    "static/js/main.05b781f5.js"
   ]
 }
