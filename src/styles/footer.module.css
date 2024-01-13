@@ -1,0 +1,9 @@
+@media (max-width: 800px){
+    .media_center{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .margin_5px{
+        margin: 0px 5px;
+    }
+}

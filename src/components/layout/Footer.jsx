@@ -16,12 +16,15 @@ import clsxm from '@/lib/utils';
 import HeaderLink from '@/components/links/HeaderLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 
+// importing css file of footer
+import styles from '../../styles/footer.module.css';
+
 const Footer = () => {
   return (
     <footer className='bg-base-200 py-24 text-content' id='footer'>
       <div className='layout flex flex-col gap-4'>
-        <div className='mx-auto grid w-full grid-cols-2 justify-between gap-x-0 gap-y-4 py-4 sm:gap-x-4 md:grid-cols-4'>
-          <div>
+      <div className={`{mx-auto grid w-full grid-cols-2 justify-between gap-x-0 gap-y-4 py-4 sm:gap-x-4 md:grid-cols-4 ${styles.media_center}`}>
+          <div className={styles.margin_5px}>
             <p className='h4 w-fit border-b-4 border-primary pb-1 text-gray-50'>
               Organization
             </p>
@@ -33,7 +36,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div>
+          <div className={styles.margin_5px}>
             <p className='h4 w-fit border-b-4 border-primary pb-1 text-gray-50'>
               Community
             </p>
@@ -48,7 +51,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div className={styles.margin_5px}>
             <p className='h4 w-fit border-b-4 border-primary pb-1 text-gray-50'>
               Socials
             </p>
@@ -61,7 +64,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div className={styles.margin_5px}>
             <p className='h4 w-fit border-b-4 border-primary pb-1 text-gray-50'>
               Contact
             </p>
