@@ -111,6 +111,15 @@ html {
   body::-webkit-scrollbar-thumb {
     background-color: #ffffff50;
   }
+
+  .bg-team-card {
+    background: linear-gradient(
+      to bottom,
+      #00000000 0%,
+      #00000059 10%,
+      #000000 100%
+    );
+  }
 }
 @layer utilities {
   /* Class to highlight the text */
