@@ -5,5 +5,6 @@ export { default as Events } from './Events';
 export { default as Hero } from './Hero';
 export { default as Mentorship } from './Mentorship';
 export { default as Stats } from './Stats';
+export { default as Team } from './Team';
 export { default as Testimonials } from './Testimonials';
 export { default as Work } from './Work';

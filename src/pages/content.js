@@ -51,6 +51,10 @@ export const HomePageContent = {
       href: '#content',
     },
     {
+      name: 'Team',
+      href: '#team',
+    },
+    {
       name: 'Join',
       href: '#join',
     },
