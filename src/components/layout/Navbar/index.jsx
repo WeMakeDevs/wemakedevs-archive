@@ -92,14 +92,16 @@ const NavigationLinks = ({ style, open, setOpen, links, cta }) => {
           {link.name}
         </HeaderLink>
       ))}
-      <ArrowLink
-        className={styles.cta}
-        as={ButtonLink}
-        href={cta ? cta.href : '#partnerwithus'}
-        onClick={() => setOpen(false)}
-      >
-        {cta ? cta.name : 'Partner'}
-      </ArrowLink>
+      {cta && (
+        <ArrowLink
+          className={styles.cta}
+          as={ButtonLink}
+          href={cta ? cta.href : '#partnerwithus'}
+          onClick={() => setOpen(false)}
+        >
+          {cta ? cta.name : 'Partner'}
+        </ArrowLink>
+      )}
     </nav>
   );
 };

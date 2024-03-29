@@ -25,12 +25,13 @@ export {
 const Layout = ({ content, children }) => {
   return (
     <>
-      <Navbar links={content.header} cta={content.CTA} />
+      <Navbar links={content.header} />
+      {/* <Navbar links={content.header} cta={content.CTA} /> */}
       <main className='main'>
         {children}
         <JoinUs />
         <Faq faq={content.faq} />
-        <Partner />
+        {/* <Partner /> */}
       </main>
       <Footer />
     </>

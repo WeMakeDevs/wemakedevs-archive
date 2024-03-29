@@ -50,10 +50,10 @@ export const HomePageContent = {
       name: 'Newsroom',
       href: '#content',
     },
-    {
-      name: 'Team',
-      href: '#team',
-    },
+    // {
+    //   name: 'Team',
+    //   href: '#team',
+    // },
     {
       name: 'Join',
       href: '#join',
